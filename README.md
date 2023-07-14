@@ -23,7 +23,7 @@ will be:
 [
   {
     "id": "00001",
-    "utf8": "U+1F603",
+    "utf8": ["U+1F603"],
     "version": "0.6",
     "emoji": "😃",
     "description": "grinning face with big eyes"

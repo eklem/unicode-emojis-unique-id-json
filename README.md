@@ -4,6 +4,8 @@ JSON-version of https://www.unicode.org/emoji/charts/emoji-ordering.txt with uni
 
 ## Content of JSON
 
+Text-line from https://www.unicode.org/emoji/charts/emoji-ordering.txt
+
 ```text
 U+1F603 ; 0.6 # 😃 grinning face with big eyes
 ```

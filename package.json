@@ -1,0 +1,20 @@
+{
+  "name": "unicode-emojis-unique-id-json",
+  "version": "0.0.1",
+  "description": "JSON-version of https://www.unicode.org/emoji/charts/emoji-ordering.txt with unique digit only IDs. The IDs should be unique over time, also when new versions of unicode emojis are released.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "node-fetch": "^3.3.1",
+    "words-n-numbers": "^9.0.0"
+  },
+  "keywords": [
+    "unicode",
+    "emojis",
+    "json"
+  ],
+  "author": "Espen Klem",
+  "license": "MIT"
+}

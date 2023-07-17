@@ -7,7 +7,7 @@ const regexVersion = '(?<=; )\\d+.\\d'
 const regexEmojiDescription = '(?<=#\\s.+\\s)[\\w-’ \\s:,]+'
 
 const checkIfEmojiLine = function(line) {
-  if (line.startsWith('#') || (line.trim().length < 5)) {
+  if (line.startsWith('#') || (line.trim().length === 0)) {
     return false
   } else {
     return true

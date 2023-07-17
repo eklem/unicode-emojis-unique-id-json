@@ -6,8 +6,8 @@ const regexUnicode = '.+(?= ;)'
 const regexVersion = '(?<=; )\\d+.\\d'
 const regexEmojiDescription = '(?<=#\\s.+\\s)[\\w-’ \\s:,]+'
 
-const checkEmojiLine = function(line) {
-  if (line.startsWith('#')) {
+const checkIfEmojiLine = function(line) {
+  if (line.startsWith('#') || (line.trim().length < 5)) {
     return false
   } else {
     return true
@@ -32,15 +32,16 @@ const createEmojisArray = function (emojiText) {
   console.log(emojiText)
   const emojisArray = []
   emojiText.forEach(emojiLine => {
-    console.log(emojiLine)
-    if (checkEmojiLine(emojiLine)) {
+    // console.log('emojiLine: ' + emojiLine + '\nlength: ' + emojiLine.trim().length)
+    if (checkIfEmojiLine(emojiLine)) {
       let unicode = extract(emojiLine, { regex: regexUnicode })
-      if (unicode === null) {
-        return
-      }
+        // if (unicode === null) {
+        //   return
+        // }
       unicode = unicode[0].split(' ')
       const version = extract(emojiLine, { regex: regexVersion })
       const emoji = extract(emojiLine, { regex: emojisCustom, flags: 'g' })
+      // skip iteration if emoji isn't extracted
       if (emoji === null) {
         return
       }

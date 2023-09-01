@@ -1,12 +1,25 @@
 import fetch from 'node-fetch'
 import { extract, emojisCustom } from 'words-n-numbers'
 
+// #########################################################################################
+// A: Regular expressions to extract emojis + extra info on each emoji line
 const regexCurrentVersion = '(?<=: )\\d+.\\d'
 const regexUnicode = '[\\d\\w\\s]+(?=\\b\\s+;)'
-const regexVersion = 'E\\d+.\\d '
+const regexVersion = 'E\\d+[.]\\d'
 const regexQualification = '(?<=; )([\\w-])+'
-const regexEmojiDescription = '(?<=E\\d+.\\d ).+'
+const regexEmojiDescription = '(?<=E\\d+[.]\\d ).+'
 
+// #########################################################################################
+// B: Function: Check if a line is a comment and split into lines
+// ##
+const getEmojiFile = async function(URL) {
+  const response = await fetch(URL)
+  const body = await response.text()
+  return body.split('\n')
+}
+
+// #########################################################################################
+// C: Function: Check if a line is a comment
 const checkIfEmojiLine = function(line) {
   if (line.startsWith('#') || (line.trim().length === 0)) {
     return false
@@ -15,23 +28,19 @@ const checkIfEmojiLine = function(line) {
   }
 }
 
-// Fetch unicode emojis
-const response = await fetch('https://unicode.org/Public/emoji/15.0/emoji-test.txt')
-const body = await response.text()
-// console.log(body)
+// #########################################################################################
+// D: Function: Find Unicode Emoji version
+const getUnicodeEmojiVersion = function(line7) {
+  // find version of Unicode Emoji set
+  const currentVersion = extract(line7, { regex: regexCurrentVersion })
+  return currentVersion
+}
 
-// split text to array
-const emojiText = body.split('\n')
-// console.dir(emojiText)
-
-// find version of Unicode Emoji set
-const currentVersion = extract(emojiText[7], { regex: regexCurrentVersion })
-console.log(currentVersion)
-
-// go through a line with emoji, extract and return array of objects
-const createEmojisArray = function (emojiText) {
-  // console.log(emojiText)
-  const emojisArray = []
+// #########################################################################################
+// E: Function: Go through a line with emoji,
+//    extract with regex and return array of objects
+const createEmojiArray = function (emojiText) {
+  const emojiArray = []
   emojiText.forEach(emojiLine => {
     if (checkIfEmojiLine(emojiLine)) {
       // regex content of each emohi line
@@ -48,18 +57,24 @@ const createEmojisArray = function (emojiText) {
       const emojiDescription = extract(emojiLine, { regex: regexEmojiDescription , flags: 'g' })
       // create object
       const emojiObj = {
-        unicode: unicode,
-        version: version,
         emoji: emoji,
         emojiDescription: emojiDescription,
+        unicode: unicode,
+        version: version,
         qualified: qualified
       }
-      emojisArray.push(emojiObj)
+      emojiArray.push(emojiObj)
+      console.log(emojiObj)
     }
   })
-  return emojisArray
+  return emojiArray
 }
 
-const emojisArray = createEmojisArray(emojiText)
-console.log(emojisArray)
-console.log('Number of emojis: ' + emojisArray.length)
+// #########################################################################################
+// Z: Do stuff
+const emojiText = await getEmojiFile('https://unicode.org/Public/emoji/15.0/emoji-test.txt')
+const emojiArray = createEmojiArray(emojiText)
+const unicodeEmojiVersion = getUnicodeEmojiVersion(emojiText[7])
+// console.log(emojiText)
+console.log('Number of emojis: ' + emojiArray.length)
+console.log('Unicode emoji version: ' + unicodeEmojiVersion)

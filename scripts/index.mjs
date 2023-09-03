@@ -1,5 +1,6 @@
 import fetch from 'node-fetch'
 import { extract, emojisCustom } from 'words-n-numbers'
+import { existsSync, readFileSync, writeFileSync } from 'fs'
 
 // #########################################################################################
 // A: Regular expressions to extract emojis + extra info on each emoji line
@@ -50,24 +51,36 @@ const createEmojiArray = function (emojiText) {
       const emoji = extract(emojiLine, { regex: emojisCustom, flags: 'g' })
       const qualified = extract(emojiLine, { regex: regexQualification })
       // skip iteration if emoji isn't extracted, or...
-      // skip if other than fully-qualified (component, minimally-qualified or unqualified)
+      //   if other than fully-qualified (component, minimally-qualified or unqualified)
       if (emoji === null || qualified[0] !== 'fully-qualified' ) {
         return
       }
       const emojiDescription = extract(emojiLine, { regex: regexEmojiDescription , flags: 'g' })
       // create object
       const emojiObj = {
-        emoji: emoji,
-        emojiDescription: emojiDescription,
+        emoji: emoji[0],
+        emojiDescription: emojiDescription[0],
         unicode: unicode,
-        version: version,
-        qualified: qualified
+        versionIntroduced: version[0]
+        // qualified: qualified[0]
       }
       emojiArray.push(emojiObj)
       console.log(emojiObj)
     }
   })
   return emojiArray
+}
+
+// #########################################################################################
+// E: Read existing JSON file, compare and update
+const readFileAndUpdate = function () {
+  if (existsSync('../dist/unicode-emojis-unique-id.json', 'utf8')) {
+    console.log('file exists')
+    const emojisUniqueId = readFileSync('../dist/unicode-emojis-unique-id.json', 'utf8').toString().trim()
+    console.log(JSON.parse(emojisUniqueId))
+  } else {
+    console.log('File doesn\'t exist\nYou need to create one with at least one emoji object in an array')
+  }
 }
 
 // #########################################################################################
@@ -78,3 +91,10 @@ const unicodeEmojiVersion = getUnicodeEmojiVersion(emojiText[7])
 // console.log(emojiText)
 console.log('Number of emojis: ' + emojiArray.length)
 console.log('Unicode emoji version: ' + unicodeEmojiVersion)
+
+readFileAndUpdate()
+// read
+
+// check if JSON file exists and merge
+
+

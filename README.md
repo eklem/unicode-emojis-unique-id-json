@@ -1,6 +1,6 @@
 # unicode-emojis-unique-id-json
 
-JSON-version of https://unicode.org/Public/emoji/15.0/emoji-test.txtt with unique IDs (numbers). The IDs should be unique over time, when new versions of unicode emojis are released. There are a little less than 4000 emojis now if you count the ones with modifiers. I'm guessing it will pass 10000 in the foreseable future, so the IDs should be 5-digits.
+JSON-version of https://unicode.org/Public/emoji/15.0/emoji-test.txt with unique IDs (numbers). The IDs should be unique over time, when new versions of unicode emojis are released. There are a little less than 4000 emojis now if you count the ones with modifiers. I'm guessing it will pass 10000 in the foreseable future, so the IDs should be 5-digits.
 
 The IDs will start at 00000 and then counting. The reasons for this way of creating IDs instead of some hashing algorithm are two:
 

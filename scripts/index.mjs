@@ -84,6 +84,11 @@ const readFileAndUpdate = function () {
 }
 
 // #########################################################################################
+// F: Read local JSON, fetch Unicode.org JSON and build new JSON to write
+// 
+
+
+// #########################################################################################
 // Y: Do stuff
 const emojiText = await getEmojiFile('https://unicode.org/Public/emoji/15.0/emoji-test.txt')
 const emojiArray = createEmojiArray(emojiText)

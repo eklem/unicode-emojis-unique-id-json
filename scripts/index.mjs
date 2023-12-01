@@ -84,17 +84,17 @@ const readFileAndUpdate = function () {
 }
 
 // #########################################################################################
-// Z: Do stuff
+// Y: Do stuff
 const emojiText = await getEmojiFile('https://unicode.org/Public/emoji/15.0/emoji-test.txt')
 const emojiArray = createEmojiArray(emojiText)
 const unicodeEmojiVersion = getUnicodeEmojiVersion(emojiText[7])
 // console.log(emojiText)
 console.log('Number of emojis: ' + emojiArray.length)
 console.log('Unicode emoji version: ' + unicodeEmojiVersion)
-
 readFileAndUpdate()
-// read
-
-// check if JSON file exists and merge
 
 
+// #########################################################################################
+// Z: Stuff to be done:
+//    * Compare fetched and read JSON to see if they are the same OR check Unicode emoji version
+//    * 

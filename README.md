@@ -14,7 +14,7 @@ The usage is for the [One-time-pad encryption/decryption library](https://github
 Text-line from https://unicode.org/Public/emoji/15.0/emoji-test.txt
 
 ```text
-U+1F603 ; 0.6 # 😃 grinning face with big eyes
+U+1F603 ; 0.6 # ???? grinning face with big eyes
 ```
 
 will be:
@@ -25,7 +25,7 @@ will be:
     "id": "00001",
     "unicode": ["U+1F603"],
     "version": "0.6",
-    "emoji": "😃",
+    "emoji": "????",
     "description": "grinning face with big eyes"
   }
 ]
@@ -33,10 +33,10 @@ will be:
 
 ## Work to be done
 
-* [ ] regex for extracting content from text-file.
+* [x] regex for extracting content from text-file.
 * [ ] write to JSON
 * [ ] show which unicode emoji versions are met with this library
-* [ ] tests to check that all IDs for previous versions of this library are corresponding to new version of library.
+* [ ] tests to check that all IDs for previous versions of this library are corresponding to new version of library. Do this by having a previous version directory
 
 
 ## Tests

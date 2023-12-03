@@ -1,7 +1,7 @@
 {
   "name": "unicode-emojis-unique-id-json",
-  "version": "0.0.1",
-  "description": "JSON-version of https://www.unicode.org/emoji/charts/emoji-ordering.txt with unique digit only IDs. The IDs should be unique over time, also when new versions of unicode emojis are released.",
+  "version": "0.0.2",
+  "description": "JSON-version of fully qualified emojis in https://unicode.org/Public/emoji/15.1/emoji-test.txt with unique digit only IDs. The IDs should be unique over time, also when new versions of unicode emojis are released.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,8 @@
   "devDependencies": {
     "node-fetch": "^3.3.1",
     "rgi-emoji-regex-pattern": "^1.3.1",
-    "words-n-numbers": "^9.1.1"
+    "words-n-numbers": "^9.1.1",
+    "batr": "^2.1.10"
   },
   "keywords": [
     "unicode",

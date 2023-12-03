@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 import { extract, emojisCustom } from 'words-n-numbers'
 import { existsSync, readFileSync, writeFileSync } from 'fs'
 const file = '../dist/unicode-emojis-unique-id.json'
-const emojiURL = 'https://unicode.org/Public/emoji/15.1/emoji-test.txt'
+const emojiURL = 'https://unicode.org/Public/emoji/14.0/emoji-test.txt'
 
 // #########################################################################################
 // A: Regular expressions to extract emojis + extra info on each emoji line
@@ -50,7 +50,7 @@ const createEmojiArray = function (emojiText) {
       let unicode = extract(emojiLine, { regex: regexUnicode })
       unicode = unicode[0].split(' ')
       const version = extract(emojiLine, { regex: regexVersion })
-      const emoji = extract(emojiLine, { regex: emojisCustom, flags: 'g' })
+      const emoji = extract(emojiLine, { regex: emojisCustom, flags: 'gi' })
       const qualified = extract(emojiLine, { regex: regexQualification })
       // skip iteration if emoji isn't extracted, or...
       //   if other than fully-qualified (component, minimally-qualified or unqualified)
@@ -61,7 +61,7 @@ const createEmojiArray = function (emojiText) {
       // create object
       const emojiObj = {
         id: '',
-        emoji: emoji[0],
+        emoji: emoji.join(''),
         description: description[0],
         unicode: unicode,
         versionIntroduced: version[0]
@@ -118,11 +118,11 @@ const addNewObjects = function (readJSON, fetchedJSON, unicodeVersion) {
     // Loop through new array and add ID
     for (const obj of fetchedJSON) {
       if (readJSON.emojis.some((existingObj) => existingObj.description === obj.description )) {
-        console.log('already existing, skipping')
+        console.log(obj.emoji + '  ' + obj.description + ' already existing, skipping')
       } else {
         // console.log('new emoji, do the work')
         const idNum = readJSON.emojis.length + 1
-        obj.id = JSON.stringify(idNum).padStart(5, '0')
+        obj.id = JSON.stringify(idNum).padStart(6, '0')
         readJSON.emojis.push(obj)
       }
     }

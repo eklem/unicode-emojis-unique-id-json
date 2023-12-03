@@ -11,25 +11,39 @@ The usage is for the [One-time-pad encryption/decryption library](https://github
 
 ## Content of JSON
 
-Text-line from https://unicode.org/Public/emoji/15.0/emoji-test.txt
+Text-line from https://unicode.org/Public/emoji/15.1/emoji-test.txt
 
 ```text
-U+1F603 ; 0.6 # ???? grinning face with big eyes
+1F600                                                  ; fully-qualified     # 😀 E1.0 grinning face
 ```
 
 will be:
 
 ```Json
 [
-  {
+ {
     "id": "00001",
-    "unicode": ["U+1F603"],
-    "version": "0.6",
-    "emoji": "????",
-    "description": "grinning face with big eyes"
+    "emoji": "😃",
+    "description": "grinning face with big eyes",
+    "unicode": [
+      "U+1F603"
+    ],
+    "versionIntroduced": "0.6"
   }
 ]
 ```
+
+## To get back to the same IDs if something goes wrong
+
+Start from Unicode Emojis v13.0, then run the script on all versions after. That will so far be:
+
+* 13.0
+* 13.1
+* 14.0
+* 15.0
+* 15.1
+
+Version 15 won't happen before I get regex to work for the [two-character emojis introduced in v15.0 and v15.1](https://github.com/eklem/unicode-emojis-unique-id-json/issues/9).
 
 ## Work to be done
 

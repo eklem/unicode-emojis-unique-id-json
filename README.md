@@ -39,7 +39,7 @@ Start from Unicode Emojis v13.0, then run the script on all versions after. That
 
 * 13.0
 * 13.1
-* 14.0 <- We are here now
+* 14.0 <- We have gotten this far
 * 15.0
 * 15.1
 * [future versions]

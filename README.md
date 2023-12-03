@@ -22,7 +22,7 @@ will be:
 ```Json
 [
  {
-    "id": "00001",
+    "id": "000001",
     "emoji": "😃",
     "description": "grinning face with big eyes",
     "unicode": [

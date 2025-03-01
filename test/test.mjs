@@ -4,17 +4,17 @@ import arr from '../dist/unicode-emojis-unique-id.json' with { type: 'json' }
 const emojisArr = arr.emojis
 
 const e06 = {
-  "id": "00001",
-  "emoji": "😃",
-  "description": "grinning face with big eyes",
+  "id": "000001",
+  "emoji": "😀",
+  "description": "grinning face",
   "unicode": [
-    "U+1F603"
+    "1F600"
   ],
-  "versionIntroduced": "0.6"
+  "versionIntroduced": "E1.0"
 }
 
 const e07 = {
-  "id": "000035",
+  "id": "000039",
   "emoji": "😐",
   "description": "neutral face",
   "unicode": [
@@ -24,11 +24,11 @@ const e07 = {
 }
 
 const e10 = {
-  "id": "000002",
-  "emoji": "😀",
-  "description": "grinning face",
+  "id": "000035",
+  "emoji": "🤔",
+  "description": "thinking face",
   "unicode": [
-    "1F600"
+    "1F914"
   ],
   "versionIntroduced": "E1.0"
 }
@@ -44,7 +44,7 @@ const e30 = {
 }
 
 const e40 = {
-  "id": "000524",
+  "id": "000616",
   "emoji": "👱‍♀️",
   "description": "woman: blond hair",
   "unicode": [
@@ -57,7 +57,7 @@ const e40 = {
 }
 
 const e50 = {
-  "id": "000016",
+  "id": "000017",
   "emoji": "🤩",
   "description": "star-struck",
   "unicode": [
@@ -67,7 +67,7 @@ const e50 = {
 }
 
 const e110 = {
-  "id": "000014",
+  "id": "000015",
   "emoji": "🥰",
   "description": "smiling face with hearts",
   "unicode": [
@@ -77,7 +77,7 @@ const e110 = {
 }
 
 const e120 = {
-  "id": "000088",
+  "id": "000098",
   "emoji": "🥱",
   "description": "yawning face",
   "unicode": [
@@ -87,7 +87,7 @@ const e120 = {
 }
 
 const e130 = {
-  "id": "000022",
+  "id": "000023",
   "emoji": "🥲",
   "description": "smiling face with tear",
   "unicode": [
@@ -97,7 +97,7 @@ const e130 = {
 }
 
 const e140 = {
-  "id": "003518",
+  "id": "000011",
   "emoji": "🫠",
   "description": "melting face",
   "unicode": [

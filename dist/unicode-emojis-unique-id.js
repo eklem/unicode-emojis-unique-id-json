@@ -1,0 +1,39557 @@
+const uniqueEmojisIDs = {
+  "version": "14.0",
+  "emojis": [
+    {
+      "id": "000001",
+      "emoji": "😀",
+      "description": "grinning face",
+      "unicode": [
+        "1F600"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000002",
+      "emoji": "😃",
+      "description": "grinning face with big eyes",
+      "unicode": [
+        "1F603"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000003",
+      "emoji": "😄",
+      "description": "grinning face with smiling eyes",
+      "unicode": [
+        "1F604"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000004",
+      "emoji": "😁",
+      "description": "beaming face with smiling eyes",
+      "unicode": [
+        "1F601"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000005",
+      "emoji": "😆",
+      "description": "grinning squinting face",
+      "unicode": [
+        "1F606"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000006",
+      "emoji": "😅",
+      "description": "grinning face with sweat",
+      "unicode": [
+        "1F605"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000007",
+      "emoji": "🤣",
+      "description": "rolling on the floor laughing",
+      "unicode": [
+        "1F923"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000008",
+      "emoji": "😂",
+      "description": "face with tears of joy",
+      "unicode": [
+        "1F602"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000009",
+      "emoji": "🙂",
+      "description": "slightly smiling face",
+      "unicode": [
+        "1F642"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000010",
+      "emoji": "🙃",
+      "description": "upside-down face",
+      "unicode": [
+        "1F643"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000011",
+      "emoji": "🫠",
+      "description": "melting face",
+      "unicode": [
+        "1FAE0"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000012",
+      "emoji": "😉",
+      "description": "winking face",
+      "unicode": [
+        "1F609"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000013",
+      "emoji": "😊",
+      "description": "smiling face with smiling eyes",
+      "unicode": [
+        "1F60A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000014",
+      "emoji": "😇",
+      "description": "smiling face with halo",
+      "unicode": [
+        "1F607"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000015",
+      "emoji": "🥰",
+      "description": "smiling face with hearts",
+      "unicode": [
+        "1F970"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000016",
+      "emoji": "😍",
+      "description": "smiling face with heart-eyes",
+      "unicode": [
+        "1F60D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000017",
+      "emoji": "🤩",
+      "description": "star-struck",
+      "unicode": [
+        "1F929"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000018",
+      "emoji": "😘",
+      "description": "face blowing a kiss",
+      "unicode": [
+        "1F618"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000019",
+      "emoji": "😗",
+      "description": "kissing face",
+      "unicode": [
+        "1F617"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000020",
+      "emoji": "☺️",
+      "description": "smiling face",
+      "unicode": [
+        "263A",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000021",
+      "emoji": "😚",
+      "description": "kissing face with closed eyes",
+      "unicode": [
+        "1F61A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000022",
+      "emoji": "😙",
+      "description": "kissing face with smiling eyes",
+      "unicode": [
+        "1F619"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000023",
+      "emoji": "🥲",
+      "description": "smiling face with tear",
+      "unicode": [
+        "1F972"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "000024",
+      "emoji": "😋",
+      "description": "face savoring food",
+      "unicode": [
+        "1F60B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000025",
+      "emoji": "😛",
+      "description": "face with tongue",
+      "unicode": [
+        "1F61B"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000026",
+      "emoji": "😜",
+      "description": "winking face with tongue",
+      "unicode": [
+        "1F61C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000027",
+      "emoji": "🤪",
+      "description": "zany face",
+      "unicode": [
+        "1F92A"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000028",
+      "emoji": "😝",
+      "description": "squinting face with tongue",
+      "unicode": [
+        "1F61D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000029",
+      "emoji": "🤑",
+      "description": "money-mouth face",
+      "unicode": [
+        "1F911"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000030",
+      "emoji": "🤗",
+      "description": "smiling face with open hands",
+      "unicode": [
+        "1F917"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000031",
+      "emoji": "🤭",
+      "description": "face with hand over mouth",
+      "unicode": [
+        "1F92D"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000032",
+      "emoji": "🫢",
+      "description": "face with open eyes and hand over mouth",
+      "unicode": [
+        "1FAE2"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000033",
+      "emoji": "🫣",
+      "description": "face with peeking eye",
+      "unicode": [
+        "1FAE3"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000034",
+      "emoji": "🤫",
+      "description": "shushing face",
+      "unicode": [
+        "1F92B"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000035",
+      "emoji": "🤔",
+      "description": "thinking face",
+      "unicode": [
+        "1F914"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000036",
+      "emoji": "🫡",
+      "description": "saluting face",
+      "unicode": [
+        "1FAE1"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000037",
+      "emoji": "🤐",
+      "description": "zipper-mouth face",
+      "unicode": [
+        "1F910"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000038",
+      "emoji": "🤨",
+      "description": "face with raised eyebrow",
+      "unicode": [
+        "1F928"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000039",
+      "emoji": "😐",
+      "description": "neutral face",
+      "unicode": [
+        "1F610"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "000040",
+      "emoji": "😑",
+      "description": "expressionless face",
+      "unicode": [
+        "1F611"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000041",
+      "emoji": "😶",
+      "description": "face without mouth",
+      "unicode": [
+        "1F636"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000042",
+      "emoji": "🫥",
+      "description": "dotted line face",
+      "unicode": [
+        "1FAE5"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000043",
+      "emoji": "😶‍🌫️",
+      "description": "face in clouds",
+      "unicode": [
+        "1F636",
+        "200D",
+        "1F32B",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000044",
+      "emoji": "😏",
+      "description": "smirking face",
+      "unicode": [
+        "1F60F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000045",
+      "emoji": "😒",
+      "description": "unamused face",
+      "unicode": [
+        "1F612"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000046",
+      "emoji": "🙄",
+      "description": "face with rolling eyes",
+      "unicode": [
+        "1F644"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000047",
+      "emoji": "😬",
+      "description": "grimacing face",
+      "unicode": [
+        "1F62C"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000048",
+      "emoji": "😮‍💨",
+      "description": "face exhaling",
+      "unicode": [
+        "1F62E",
+        "200D",
+        "1F4A8"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000049",
+      "emoji": "🤥",
+      "description": "lying face",
+      "unicode": [
+        "1F925"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000050",
+      "emoji": "😌",
+      "description": "relieved face",
+      "unicode": [
+        "1F60C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000051",
+      "emoji": "😔",
+      "description": "pensive face",
+      "unicode": [
+        "1F614"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000052",
+      "emoji": "😪",
+      "description": "sleepy face",
+      "unicode": [
+        "1F62A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000053",
+      "emoji": "🤤",
+      "description": "drooling face",
+      "unicode": [
+        "1F924"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000054",
+      "emoji": "😴",
+      "description": "sleeping face",
+      "unicode": [
+        "1F634"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000055",
+      "emoji": "😷",
+      "description": "face with medical mask",
+      "unicode": [
+        "1F637"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000056",
+      "emoji": "🤒",
+      "description": "face with thermometer",
+      "unicode": [
+        "1F912"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000057",
+      "emoji": "🤕",
+      "description": "face with head-bandage",
+      "unicode": [
+        "1F915"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000058",
+      "emoji": "🤢",
+      "description": "nauseated face",
+      "unicode": [
+        "1F922"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000059",
+      "emoji": "🤮",
+      "description": "face vomiting",
+      "unicode": [
+        "1F92E"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000060",
+      "emoji": "🤧",
+      "description": "sneezing face",
+      "unicode": [
+        "1F927"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000061",
+      "emoji": "🥵",
+      "description": "hot face",
+      "unicode": [
+        "1F975"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000062",
+      "emoji": "🥶",
+      "description": "cold face",
+      "unicode": [
+        "1F976"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000063",
+      "emoji": "🥴",
+      "description": "woozy face",
+      "unicode": [
+        "1F974"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000064",
+      "emoji": "😵",
+      "description": "face with crossed-out eyes",
+      "unicode": [
+        "1F635"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000065",
+      "emoji": "😵‍💫",
+      "description": "face with spiral eyes",
+      "unicode": [
+        "1F635",
+        "200D",
+        "1F4AB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000066",
+      "emoji": "🤯",
+      "description": "exploding head",
+      "unicode": [
+        "1F92F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000067",
+      "emoji": "🤠",
+      "description": "cowboy hat face",
+      "unicode": [
+        "1F920"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000068",
+      "emoji": "🥳",
+      "description": "partying face",
+      "unicode": [
+        "1F973"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000069",
+      "emoji": "🥸",
+      "description": "disguised face",
+      "unicode": [
+        "1F978"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "000070",
+      "emoji": "😎",
+      "description": "smiling face with sunglasses",
+      "unicode": [
+        "1F60E"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000071",
+      "emoji": "🤓",
+      "description": "nerd face",
+      "unicode": [
+        "1F913"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000072",
+      "emoji": "🧐",
+      "description": "face with monocle",
+      "unicode": [
+        "1F9D0"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000073",
+      "emoji": "😕",
+      "description": "confused face",
+      "unicode": [
+        "1F615"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000074",
+      "emoji": "🫤",
+      "description": "face with diagonal mouth",
+      "unicode": [
+        "1FAE4"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000075",
+      "emoji": "😟",
+      "description": "worried face",
+      "unicode": [
+        "1F61F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000076",
+      "emoji": "🙁",
+      "description": "slightly frowning face",
+      "unicode": [
+        "1F641"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000077",
+      "emoji": "☹️",
+      "description": "frowning face",
+      "unicode": [
+        "2639",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "000078",
+      "emoji": "😮",
+      "description": "face with open mouth",
+      "unicode": [
+        "1F62E"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000079",
+      "emoji": "😯",
+      "description": "hushed face",
+      "unicode": [
+        "1F62F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000080",
+      "emoji": "😲",
+      "description": "astonished face",
+      "unicode": [
+        "1F632"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000081",
+      "emoji": "😳",
+      "description": "flushed face",
+      "unicode": [
+        "1F633"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000082",
+      "emoji": "🥺",
+      "description": "pleading face",
+      "unicode": [
+        "1F97A"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000083",
+      "emoji": "🥹",
+      "description": "face holding back tears",
+      "unicode": [
+        "1F979"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000084",
+      "emoji": "😦",
+      "description": "frowning face with open mouth",
+      "unicode": [
+        "1F626"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000085",
+      "emoji": "😧",
+      "description": "anguished face",
+      "unicode": [
+        "1F627"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000086",
+      "emoji": "😨",
+      "description": "fearful face",
+      "unicode": [
+        "1F628"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000087",
+      "emoji": "😰",
+      "description": "anxious face with sweat",
+      "unicode": [
+        "1F630"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000088",
+      "emoji": "😥",
+      "description": "sad but relieved face",
+      "unicode": [
+        "1F625"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000089",
+      "emoji": "😢",
+      "description": "crying face",
+      "unicode": [
+        "1F622"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000090",
+      "emoji": "😭",
+      "description": "loudly crying face",
+      "unicode": [
+        "1F62D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000091",
+      "emoji": "😱",
+      "description": "face screaming in fear",
+      "unicode": [
+        "1F631"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000092",
+      "emoji": "😖",
+      "description": "confounded face",
+      "unicode": [
+        "1F616"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000093",
+      "emoji": "😣",
+      "description": "persevering face",
+      "unicode": [
+        "1F623"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000094",
+      "emoji": "😞",
+      "description": "disappointed face",
+      "unicode": [
+        "1F61E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000095",
+      "emoji": "😓",
+      "description": "downcast face with sweat",
+      "unicode": [
+        "1F613"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000096",
+      "emoji": "😩",
+      "description": "weary face",
+      "unicode": [
+        "1F629"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000097",
+      "emoji": "😫",
+      "description": "tired face",
+      "unicode": [
+        "1F62B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000098",
+      "emoji": "🥱",
+      "description": "yawning face",
+      "unicode": [
+        "1F971"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000099",
+      "emoji": "😤",
+      "description": "face with steam from nose",
+      "unicode": [
+        "1F624"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000100",
+      "emoji": "😡",
+      "description": "pouting face",
+      "unicode": [
+        "1F621"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000101",
+      "emoji": "😠",
+      "description": "angry face",
+      "unicode": [
+        "1F620"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000102",
+      "emoji": "🤬",
+      "description": "face with symbols on mouth",
+      "unicode": [
+        "1F92C"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000103",
+      "emoji": "😈",
+      "description": "smiling face with horns",
+      "unicode": [
+        "1F608"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000104",
+      "emoji": "👿",
+      "description": "angry face with horns",
+      "unicode": [
+        "1F47F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000105",
+      "emoji": "💀",
+      "description": "skull",
+      "unicode": [
+        "1F480"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000106",
+      "emoji": "☠️",
+      "description": "skull and crossbones",
+      "unicode": [
+        "2620",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000107",
+      "emoji": "💩",
+      "description": "pile of poo",
+      "unicode": [
+        "1F4A9"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000108",
+      "emoji": "🤡",
+      "description": "clown face",
+      "unicode": [
+        "1F921"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000109",
+      "emoji": "👹",
+      "description": "ogre",
+      "unicode": [
+        "1F479"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000110",
+      "emoji": "👺",
+      "description": "goblin",
+      "unicode": [
+        "1F47A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000111",
+      "emoji": "👻",
+      "description": "ghost",
+      "unicode": [
+        "1F47B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000112",
+      "emoji": "👽",
+      "description": "alien",
+      "unicode": [
+        "1F47D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000113",
+      "emoji": "👾",
+      "description": "alien monster",
+      "unicode": [
+        "1F47E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000114",
+      "emoji": "🤖",
+      "description": "robot",
+      "unicode": [
+        "1F916"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000115",
+      "emoji": "😺",
+      "description": "grinning cat",
+      "unicode": [
+        "1F63A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000116",
+      "emoji": "😸",
+      "description": "grinning cat with smiling eyes",
+      "unicode": [
+        "1F638"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000117",
+      "emoji": "😹",
+      "description": "cat with tears of joy",
+      "unicode": [
+        "1F639"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000118",
+      "emoji": "😻",
+      "description": "smiling cat with heart-eyes",
+      "unicode": [
+        "1F63B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000119",
+      "emoji": "😼",
+      "description": "cat with wry smile",
+      "unicode": [
+        "1F63C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000120",
+      "emoji": "😽",
+      "description": "kissing cat",
+      "unicode": [
+        "1F63D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000121",
+      "emoji": "🙀",
+      "description": "weary cat",
+      "unicode": [
+        "1F640"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000122",
+      "emoji": "😿",
+      "description": "crying cat",
+      "unicode": [
+        "1F63F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000123",
+      "emoji": "😾",
+      "description": "pouting cat",
+      "unicode": [
+        "1F63E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000124",
+      "emoji": "🙈",
+      "description": "see-no-evil monkey",
+      "unicode": [
+        "1F648"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000125",
+      "emoji": "🙉",
+      "description": "hear-no-evil monkey",
+      "unicode": [
+        "1F649"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000126",
+      "emoji": "🙊",
+      "description": "speak-no-evil monkey",
+      "unicode": [
+        "1F64A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000127",
+      "emoji": "💋",
+      "description": "kiss mark",
+      "unicode": [
+        "1F48B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000128",
+      "emoji": "💌",
+      "description": "love letter",
+      "unicode": [
+        "1F48C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000129",
+      "emoji": "💘",
+      "description": "heart with arrow",
+      "unicode": [
+        "1F498"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000130",
+      "emoji": "💝",
+      "description": "heart with ribbon",
+      "unicode": [
+        "1F49D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000131",
+      "emoji": "💖",
+      "description": "sparkling heart",
+      "unicode": [
+        "1F496"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000132",
+      "emoji": "💗",
+      "description": "growing heart",
+      "unicode": [
+        "1F497"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000133",
+      "emoji": "💓",
+      "description": "beating heart",
+      "unicode": [
+        "1F493"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000134",
+      "emoji": "💞",
+      "description": "revolving hearts",
+      "unicode": [
+        "1F49E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000135",
+      "emoji": "💕",
+      "description": "two hearts",
+      "unicode": [
+        "1F495"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000136",
+      "emoji": "💟",
+      "description": "heart decoration",
+      "unicode": [
+        "1F49F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000137",
+      "emoji": "❣️",
+      "description": "heart exclamation",
+      "unicode": [
+        "2763",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000138",
+      "emoji": "💔",
+      "description": "broken heart",
+      "unicode": [
+        "1F494"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000139",
+      "emoji": "❤️‍🔥",
+      "description": "heart on fire",
+      "unicode": [
+        "2764",
+        "FE0F",
+        "200D",
+        "1F525"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000140",
+      "emoji": "❤️‍🩹",
+      "description": "mending heart",
+      "unicode": [
+        "2764",
+        "FE0F",
+        "200D",
+        "1FA79"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000141",
+      "emoji": "❤️",
+      "description": "red heart",
+      "unicode": [
+        "2764",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000142",
+      "emoji": "🧡",
+      "description": "orange heart",
+      "unicode": [
+        "1F9E1"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000143",
+      "emoji": "💛",
+      "description": "yellow heart",
+      "unicode": [
+        "1F49B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000144",
+      "emoji": "💚",
+      "description": "green heart",
+      "unicode": [
+        "1F49A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000145",
+      "emoji": "💙",
+      "description": "blue heart",
+      "unicode": [
+        "1F499"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000146",
+      "emoji": "💜",
+      "description": "purple heart",
+      "unicode": [
+        "1F49C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000147",
+      "emoji": "🤎",
+      "description": "brown heart",
+      "unicode": [
+        "1F90E"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000148",
+      "emoji": "🖤",
+      "description": "black heart",
+      "unicode": [
+        "1F5A4"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000149",
+      "emoji": "🤍",
+      "description": "white heart",
+      "unicode": [
+        "1F90D"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000150",
+      "emoji": "💯",
+      "description": "hundred points",
+      "unicode": [
+        "1F4AF"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000151",
+      "emoji": "💢",
+      "description": "anger symbol",
+      "unicode": [
+        "1F4A2"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000152",
+      "emoji": "💥",
+      "description": "collision",
+      "unicode": [
+        "1F4A5"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000153",
+      "emoji": "💫",
+      "description": "dizzy",
+      "unicode": [
+        "1F4AB"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000154",
+      "emoji": "💦",
+      "description": "sweat droplets",
+      "unicode": [
+        "1F4A6"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000155",
+      "emoji": "💨",
+      "description": "dashing away",
+      "unicode": [
+        "1F4A8"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000156",
+      "emoji": "🕳️",
+      "description": "hole",
+      "unicode": [
+        "1F573",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "000157",
+      "emoji": "💣",
+      "description": "bomb",
+      "unicode": [
+        "1F4A3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000158",
+      "emoji": "💬",
+      "description": "speech balloon",
+      "unicode": [
+        "1F4AC"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000159",
+      "emoji": "👁️‍🗨️",
+      "description": "eye in speech bubble",
+      "unicode": [
+        "1F441",
+        "FE0F",
+        "200D",
+        "1F5E8",
+        "FE0F"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "000160",
+      "emoji": "🗨️",
+      "description": "left speech bubble",
+      "unicode": [
+        "1F5E8",
+        "FE0F"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "000161",
+      "emoji": "🗯️",
+      "description": "right anger bubble",
+      "unicode": [
+        "1F5EF",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "000162",
+      "emoji": "💭",
+      "description": "thought balloon",
+      "unicode": [
+        "1F4AD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000163",
+      "emoji": "💤",
+      "description": "zzz",
+      "unicode": [
+        "1F4A4"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000164",
+      "emoji": "👋",
+      "description": "waving hand",
+      "unicode": [
+        "1F44B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000165",
+      "emoji": "👋🏻",
+      "description": "waving hand: light skin tone",
+      "unicode": [
+        "1F44B",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000166",
+      "emoji": "👋🏼",
+      "description": "waving hand: medium-light skin tone",
+      "unicode": [
+        "1F44B",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000167",
+      "emoji": "👋🏽",
+      "description": "waving hand: medium skin tone",
+      "unicode": [
+        "1F44B",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000168",
+      "emoji": "👋🏾",
+      "description": "waving hand: medium-dark skin tone",
+      "unicode": [
+        "1F44B",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000169",
+      "emoji": "👋🏿",
+      "description": "waving hand: dark skin tone",
+      "unicode": [
+        "1F44B",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000170",
+      "emoji": "🤚",
+      "description": "raised back of hand",
+      "unicode": [
+        "1F91A"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000171",
+      "emoji": "🤚🏻",
+      "description": "raised back of hand: light skin tone",
+      "unicode": [
+        "1F91A",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000172",
+      "emoji": "🤚🏼",
+      "description": "raised back of hand: medium-light skin tone",
+      "unicode": [
+        "1F91A",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000173",
+      "emoji": "🤚🏽",
+      "description": "raised back of hand: medium skin tone",
+      "unicode": [
+        "1F91A",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000174",
+      "emoji": "🤚🏾",
+      "description": "raised back of hand: medium-dark skin tone",
+      "unicode": [
+        "1F91A",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000175",
+      "emoji": "🤚🏿",
+      "description": "raised back of hand: dark skin tone",
+      "unicode": [
+        "1F91A",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000176",
+      "emoji": "🖐️",
+      "description": "hand with fingers splayed",
+      "unicode": [
+        "1F590",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "000177",
+      "emoji": "🖐🏻",
+      "description": "hand with fingers splayed: light skin tone",
+      "unicode": [
+        "1F590",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000178",
+      "emoji": "🖐🏼",
+      "description": "hand with fingers splayed: medium-light skin tone",
+      "unicode": [
+        "1F590",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000179",
+      "emoji": "🖐🏽",
+      "description": "hand with fingers splayed: medium skin tone",
+      "unicode": [
+        "1F590",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000180",
+      "emoji": "🖐🏾",
+      "description": "hand with fingers splayed: medium-dark skin tone",
+      "unicode": [
+        "1F590",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000181",
+      "emoji": "🖐🏿",
+      "description": "hand with fingers splayed: dark skin tone",
+      "unicode": [
+        "1F590",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000182",
+      "emoji": "✋",
+      "description": "raised hand",
+      "unicode": [
+        "270B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000183",
+      "emoji": "✋🏻",
+      "description": "raised hand: light skin tone",
+      "unicode": [
+        "270B",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000184",
+      "emoji": "✋🏼",
+      "description": "raised hand: medium-light skin tone",
+      "unicode": [
+        "270B",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000185",
+      "emoji": "✋🏽",
+      "description": "raised hand: medium skin tone",
+      "unicode": [
+        "270B",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000186",
+      "emoji": "✋🏾",
+      "description": "raised hand: medium-dark skin tone",
+      "unicode": [
+        "270B",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000187",
+      "emoji": "✋🏿",
+      "description": "raised hand: dark skin tone",
+      "unicode": [
+        "270B",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000188",
+      "emoji": "🖖",
+      "description": "vulcan salute",
+      "unicode": [
+        "1F596"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000189",
+      "emoji": "🖖🏻",
+      "description": "vulcan salute: light skin tone",
+      "unicode": [
+        "1F596",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000190",
+      "emoji": "🖖🏼",
+      "description": "vulcan salute: medium-light skin tone",
+      "unicode": [
+        "1F596",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000191",
+      "emoji": "🖖🏽",
+      "description": "vulcan salute: medium skin tone",
+      "unicode": [
+        "1F596",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000192",
+      "emoji": "🖖🏾",
+      "description": "vulcan salute: medium-dark skin tone",
+      "unicode": [
+        "1F596",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000193",
+      "emoji": "🖖🏿",
+      "description": "vulcan salute: dark skin tone",
+      "unicode": [
+        "1F596",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000194",
+      "emoji": "🫱",
+      "description": "rightwards hand",
+      "unicode": [
+        "1FAF1"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000195",
+      "emoji": "🫱🏻",
+      "description": "rightwards hand: light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000196",
+      "emoji": "🫱🏼",
+      "description": "rightwards hand: medium-light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000197",
+      "emoji": "🫱🏽",
+      "description": "rightwards hand: medium skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000198",
+      "emoji": "🫱🏾",
+      "description": "rightwards hand: medium-dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000199",
+      "emoji": "🫱🏿",
+      "description": "rightwards hand: dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000200",
+      "emoji": "🫲",
+      "description": "leftwards hand",
+      "unicode": [
+        "1FAF2"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000201",
+      "emoji": "🫲🏻",
+      "description": "leftwards hand: light skin tone",
+      "unicode": [
+        "1FAF2",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000202",
+      "emoji": "🫲🏼",
+      "description": "leftwards hand: medium-light skin tone",
+      "unicode": [
+        "1FAF2",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000203",
+      "emoji": "🫲🏽",
+      "description": "leftwards hand: medium skin tone",
+      "unicode": [
+        "1FAF2",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000204",
+      "emoji": "🫲🏾",
+      "description": "leftwards hand: medium-dark skin tone",
+      "unicode": [
+        "1FAF2",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000205",
+      "emoji": "🫲🏿",
+      "description": "leftwards hand: dark skin tone",
+      "unicode": [
+        "1FAF2",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000206",
+      "emoji": "🫳",
+      "description": "palm down hand",
+      "unicode": [
+        "1FAF3"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000207",
+      "emoji": "🫳🏻",
+      "description": "palm down hand: light skin tone",
+      "unicode": [
+        "1FAF3",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000208",
+      "emoji": "🫳🏼",
+      "description": "palm down hand: medium-light skin tone",
+      "unicode": [
+        "1FAF3",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000209",
+      "emoji": "🫳🏽",
+      "description": "palm down hand: medium skin tone",
+      "unicode": [
+        "1FAF3",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000210",
+      "emoji": "🫳🏾",
+      "description": "palm down hand: medium-dark skin tone",
+      "unicode": [
+        "1FAF3",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000211",
+      "emoji": "🫳🏿",
+      "description": "palm down hand: dark skin tone",
+      "unicode": [
+        "1FAF3",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000212",
+      "emoji": "🫴",
+      "description": "palm up hand",
+      "unicode": [
+        "1FAF4"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000213",
+      "emoji": "🫴🏻",
+      "description": "palm up hand: light skin tone",
+      "unicode": [
+        "1FAF4",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000214",
+      "emoji": "🫴🏼",
+      "description": "palm up hand: medium-light skin tone",
+      "unicode": [
+        "1FAF4",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000215",
+      "emoji": "🫴🏽",
+      "description": "palm up hand: medium skin tone",
+      "unicode": [
+        "1FAF4",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000216",
+      "emoji": "🫴🏾",
+      "description": "palm up hand: medium-dark skin tone",
+      "unicode": [
+        "1FAF4",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000217",
+      "emoji": "🫴🏿",
+      "description": "palm up hand: dark skin tone",
+      "unicode": [
+        "1FAF4",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000218",
+      "emoji": "👌",
+      "description": "OK hand",
+      "unicode": [
+        "1F44C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000219",
+      "emoji": "👌🏻",
+      "description": "OK hand: light skin tone",
+      "unicode": [
+        "1F44C",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000220",
+      "emoji": "👌🏼",
+      "description": "OK hand: medium-light skin tone",
+      "unicode": [
+        "1F44C",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000221",
+      "emoji": "👌🏽",
+      "description": "OK hand: medium skin tone",
+      "unicode": [
+        "1F44C",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000222",
+      "emoji": "👌🏾",
+      "description": "OK hand: medium-dark skin tone",
+      "unicode": [
+        "1F44C",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000223",
+      "emoji": "👌🏿",
+      "description": "OK hand: dark skin tone",
+      "unicode": [
+        "1F44C",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000224",
+      "emoji": "🤌",
+      "description": "pinched fingers",
+      "unicode": [
+        "1F90C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "000225",
+      "emoji": "🤌🏻",
+      "description": "pinched fingers: light skin tone",
+      "unicode": [
+        "1F90C",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "000226",
+      "emoji": "🤌🏼",
+      "description": "pinched fingers: medium-light skin tone",
+      "unicode": [
+        "1F90C",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "000227",
+      "emoji": "🤌🏽",
+      "description": "pinched fingers: medium skin tone",
+      "unicode": [
+        "1F90C",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "000228",
+      "emoji": "🤌🏾",
+      "description": "pinched fingers: medium-dark skin tone",
+      "unicode": [
+        "1F90C",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "000229",
+      "emoji": "🤌🏿",
+      "description": "pinched fingers: dark skin tone",
+      "unicode": [
+        "1F90C",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "000230",
+      "emoji": "🤏",
+      "description": "pinching hand",
+      "unicode": [
+        "1F90F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000231",
+      "emoji": "🤏🏻",
+      "description": "pinching hand: light skin tone",
+      "unicode": [
+        "1F90F",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000232",
+      "emoji": "🤏🏼",
+      "description": "pinching hand: medium-light skin tone",
+      "unicode": [
+        "1F90F",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000233",
+      "emoji": "🤏🏽",
+      "description": "pinching hand: medium skin tone",
+      "unicode": [
+        "1F90F",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000234",
+      "emoji": "🤏🏾",
+      "description": "pinching hand: medium-dark skin tone",
+      "unicode": [
+        "1F90F",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000235",
+      "emoji": "🤏🏿",
+      "description": "pinching hand: dark skin tone",
+      "unicode": [
+        "1F90F",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000236",
+      "emoji": "✌️",
+      "description": "victory hand",
+      "unicode": [
+        "270C",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000237",
+      "emoji": "✌🏻",
+      "description": "victory hand: light skin tone",
+      "unicode": [
+        "270C",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000238",
+      "emoji": "✌🏼",
+      "description": "victory hand: medium-light skin tone",
+      "unicode": [
+        "270C",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000239",
+      "emoji": "✌🏽",
+      "description": "victory hand: medium skin tone",
+      "unicode": [
+        "270C",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000240",
+      "emoji": "✌🏾",
+      "description": "victory hand: medium-dark skin tone",
+      "unicode": [
+        "270C",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000241",
+      "emoji": "✌🏿",
+      "description": "victory hand: dark skin tone",
+      "unicode": [
+        "270C",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000242",
+      "emoji": "🤞",
+      "description": "crossed fingers",
+      "unicode": [
+        "1F91E"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000243",
+      "emoji": "🤞🏻",
+      "description": "crossed fingers: light skin tone",
+      "unicode": [
+        "1F91E",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000244",
+      "emoji": "🤞🏼",
+      "description": "crossed fingers: medium-light skin tone",
+      "unicode": [
+        "1F91E",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000245",
+      "emoji": "🤞🏽",
+      "description": "crossed fingers: medium skin tone",
+      "unicode": [
+        "1F91E",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000246",
+      "emoji": "🤞🏾",
+      "description": "crossed fingers: medium-dark skin tone",
+      "unicode": [
+        "1F91E",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000247",
+      "emoji": "🤞🏿",
+      "description": "crossed fingers: dark skin tone",
+      "unicode": [
+        "1F91E",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000248",
+      "emoji": "🫰",
+      "description": "hand with index finger and thumb crossed",
+      "unicode": [
+        "1FAF0"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000249",
+      "emoji": "🫰🏻",
+      "description": "hand with index finger and thumb crossed: light skin tone",
+      "unicode": [
+        "1FAF0",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000250",
+      "emoji": "🫰🏼",
+      "description": "hand with index finger and thumb crossed: medium-light skin tone",
+      "unicode": [
+        "1FAF0",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000251",
+      "emoji": "🫰🏽",
+      "description": "hand with index finger and thumb crossed: medium skin tone",
+      "unicode": [
+        "1FAF0",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000252",
+      "emoji": "🫰🏾",
+      "description": "hand with index finger and thumb crossed: medium-dark skin tone",
+      "unicode": [
+        "1FAF0",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000253",
+      "emoji": "🫰🏿",
+      "description": "hand with index finger and thumb crossed: dark skin tone",
+      "unicode": [
+        "1FAF0",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000254",
+      "emoji": "🤟",
+      "description": "love-you gesture",
+      "unicode": [
+        "1F91F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000255",
+      "emoji": "🤟🏻",
+      "description": "love-you gesture: light skin tone",
+      "unicode": [
+        "1F91F",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000256",
+      "emoji": "🤟🏼",
+      "description": "love-you gesture: medium-light skin tone",
+      "unicode": [
+        "1F91F",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000257",
+      "emoji": "🤟🏽",
+      "description": "love-you gesture: medium skin tone",
+      "unicode": [
+        "1F91F",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000258",
+      "emoji": "🤟🏾",
+      "description": "love-you gesture: medium-dark skin tone",
+      "unicode": [
+        "1F91F",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000259",
+      "emoji": "🤟🏿",
+      "description": "love-you gesture: dark skin tone",
+      "unicode": [
+        "1F91F",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000260",
+      "emoji": "🤘",
+      "description": "sign of the horns",
+      "unicode": [
+        "1F918"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000261",
+      "emoji": "🤘🏻",
+      "description": "sign of the horns: light skin tone",
+      "unicode": [
+        "1F918",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000262",
+      "emoji": "🤘🏼",
+      "description": "sign of the horns: medium-light skin tone",
+      "unicode": [
+        "1F918",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000263",
+      "emoji": "🤘🏽",
+      "description": "sign of the horns: medium skin tone",
+      "unicode": [
+        "1F918",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000264",
+      "emoji": "🤘🏾",
+      "description": "sign of the horns: medium-dark skin tone",
+      "unicode": [
+        "1F918",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000265",
+      "emoji": "🤘🏿",
+      "description": "sign of the horns: dark skin tone",
+      "unicode": [
+        "1F918",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000266",
+      "emoji": "🤙",
+      "description": "call me hand",
+      "unicode": [
+        "1F919"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000267",
+      "emoji": "🤙🏻",
+      "description": "call me hand: light skin tone",
+      "unicode": [
+        "1F919",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000268",
+      "emoji": "🤙🏼",
+      "description": "call me hand: medium-light skin tone",
+      "unicode": [
+        "1F919",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000269",
+      "emoji": "🤙🏽",
+      "description": "call me hand: medium skin tone",
+      "unicode": [
+        "1F919",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000270",
+      "emoji": "🤙🏾",
+      "description": "call me hand: medium-dark skin tone",
+      "unicode": [
+        "1F919",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000271",
+      "emoji": "🤙🏿",
+      "description": "call me hand: dark skin tone",
+      "unicode": [
+        "1F919",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000272",
+      "emoji": "👈",
+      "description": "backhand index pointing left",
+      "unicode": [
+        "1F448"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000273",
+      "emoji": "👈🏻",
+      "description": "backhand index pointing left: light skin tone",
+      "unicode": [
+        "1F448",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000274",
+      "emoji": "👈🏼",
+      "description": "backhand index pointing left: medium-light skin tone",
+      "unicode": [
+        "1F448",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000275",
+      "emoji": "👈🏽",
+      "description": "backhand index pointing left: medium skin tone",
+      "unicode": [
+        "1F448",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000276",
+      "emoji": "👈🏾",
+      "description": "backhand index pointing left: medium-dark skin tone",
+      "unicode": [
+        "1F448",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000277",
+      "emoji": "👈🏿",
+      "description": "backhand index pointing left: dark skin tone",
+      "unicode": [
+        "1F448",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000278",
+      "emoji": "👉",
+      "description": "backhand index pointing right",
+      "unicode": [
+        "1F449"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000279",
+      "emoji": "👉🏻",
+      "description": "backhand index pointing right: light skin tone",
+      "unicode": [
+        "1F449",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000280",
+      "emoji": "👉🏼",
+      "description": "backhand index pointing right: medium-light skin tone",
+      "unicode": [
+        "1F449",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000281",
+      "emoji": "👉🏽",
+      "description": "backhand index pointing right: medium skin tone",
+      "unicode": [
+        "1F449",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000282",
+      "emoji": "👉🏾",
+      "description": "backhand index pointing right: medium-dark skin tone",
+      "unicode": [
+        "1F449",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000283",
+      "emoji": "👉🏿",
+      "description": "backhand index pointing right: dark skin tone",
+      "unicode": [
+        "1F449",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000284",
+      "emoji": "👆",
+      "description": "backhand index pointing up",
+      "unicode": [
+        "1F446"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000285",
+      "emoji": "👆🏻",
+      "description": "backhand index pointing up: light skin tone",
+      "unicode": [
+        "1F446",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000286",
+      "emoji": "👆🏼",
+      "description": "backhand index pointing up: medium-light skin tone",
+      "unicode": [
+        "1F446",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000287",
+      "emoji": "👆🏽",
+      "description": "backhand index pointing up: medium skin tone",
+      "unicode": [
+        "1F446",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000288",
+      "emoji": "👆🏾",
+      "description": "backhand index pointing up: medium-dark skin tone",
+      "unicode": [
+        "1F446",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000289",
+      "emoji": "👆🏿",
+      "description": "backhand index pointing up: dark skin tone",
+      "unicode": [
+        "1F446",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000290",
+      "emoji": "🖕",
+      "description": "middle finger",
+      "unicode": [
+        "1F595"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000291",
+      "emoji": "🖕🏻",
+      "description": "middle finger: light skin tone",
+      "unicode": [
+        "1F595",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000292",
+      "emoji": "🖕🏼",
+      "description": "middle finger: medium-light skin tone",
+      "unicode": [
+        "1F595",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000293",
+      "emoji": "🖕🏽",
+      "description": "middle finger: medium skin tone",
+      "unicode": [
+        "1F595",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000294",
+      "emoji": "🖕🏾",
+      "description": "middle finger: medium-dark skin tone",
+      "unicode": [
+        "1F595",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000295",
+      "emoji": "🖕🏿",
+      "description": "middle finger: dark skin tone",
+      "unicode": [
+        "1F595",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000296",
+      "emoji": "👇",
+      "description": "backhand index pointing down",
+      "unicode": [
+        "1F447"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000297",
+      "emoji": "👇🏻",
+      "description": "backhand index pointing down: light skin tone",
+      "unicode": [
+        "1F447",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000298",
+      "emoji": "👇🏼",
+      "description": "backhand index pointing down: medium-light skin tone",
+      "unicode": [
+        "1F447",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000299",
+      "emoji": "👇🏽",
+      "description": "backhand index pointing down: medium skin tone",
+      "unicode": [
+        "1F447",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000300",
+      "emoji": "👇🏾",
+      "description": "backhand index pointing down: medium-dark skin tone",
+      "unicode": [
+        "1F447",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000301",
+      "emoji": "👇🏿",
+      "description": "backhand index pointing down: dark skin tone",
+      "unicode": [
+        "1F447",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000302",
+      "emoji": "☝️",
+      "description": "index pointing up",
+      "unicode": [
+        "261D",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000303",
+      "emoji": "☝🏻",
+      "description": "index pointing up: light skin tone",
+      "unicode": [
+        "261D",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000304",
+      "emoji": "☝🏼",
+      "description": "index pointing up: medium-light skin tone",
+      "unicode": [
+        "261D",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000305",
+      "emoji": "☝🏽",
+      "description": "index pointing up: medium skin tone",
+      "unicode": [
+        "261D",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000306",
+      "emoji": "☝🏾",
+      "description": "index pointing up: medium-dark skin tone",
+      "unicode": [
+        "261D",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000307",
+      "emoji": "☝🏿",
+      "description": "index pointing up: dark skin tone",
+      "unicode": [
+        "261D",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000308",
+      "emoji": "🫵",
+      "description": "index pointing at the viewer",
+      "unicode": [
+        "1FAF5"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000309",
+      "emoji": "🫵🏻",
+      "description": "index pointing at the viewer: light skin tone",
+      "unicode": [
+        "1FAF5",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000310",
+      "emoji": "🫵🏼",
+      "description": "index pointing at the viewer: medium-light skin tone",
+      "unicode": [
+        "1FAF5",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000311",
+      "emoji": "🫵🏽",
+      "description": "index pointing at the viewer: medium skin tone",
+      "unicode": [
+        "1FAF5",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000312",
+      "emoji": "🫵🏾",
+      "description": "index pointing at the viewer: medium-dark skin tone",
+      "unicode": [
+        "1FAF5",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000313",
+      "emoji": "🫵🏿",
+      "description": "index pointing at the viewer: dark skin tone",
+      "unicode": [
+        "1FAF5",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000314",
+      "emoji": "👍",
+      "description": "thumbs up",
+      "unicode": [
+        "1F44D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000315",
+      "emoji": "👍🏻",
+      "description": "thumbs up: light skin tone",
+      "unicode": [
+        "1F44D",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000316",
+      "emoji": "👍🏼",
+      "description": "thumbs up: medium-light skin tone",
+      "unicode": [
+        "1F44D",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000317",
+      "emoji": "👍🏽",
+      "description": "thumbs up: medium skin tone",
+      "unicode": [
+        "1F44D",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000318",
+      "emoji": "👍🏾",
+      "description": "thumbs up: medium-dark skin tone",
+      "unicode": [
+        "1F44D",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000319",
+      "emoji": "👍🏿",
+      "description": "thumbs up: dark skin tone",
+      "unicode": [
+        "1F44D",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000320",
+      "emoji": "👎",
+      "description": "thumbs down",
+      "unicode": [
+        "1F44E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000321",
+      "emoji": "👎🏻",
+      "description": "thumbs down: light skin tone",
+      "unicode": [
+        "1F44E",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000322",
+      "emoji": "👎🏼",
+      "description": "thumbs down: medium-light skin tone",
+      "unicode": [
+        "1F44E",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000323",
+      "emoji": "👎🏽",
+      "description": "thumbs down: medium skin tone",
+      "unicode": [
+        "1F44E",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000324",
+      "emoji": "👎🏾",
+      "description": "thumbs down: medium-dark skin tone",
+      "unicode": [
+        "1F44E",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000325",
+      "emoji": "👎🏿",
+      "description": "thumbs down: dark skin tone",
+      "unicode": [
+        "1F44E",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000326",
+      "emoji": "✊",
+      "description": "raised fist",
+      "unicode": [
+        "270A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000327",
+      "emoji": "✊🏻",
+      "description": "raised fist: light skin tone",
+      "unicode": [
+        "270A",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000328",
+      "emoji": "✊🏼",
+      "description": "raised fist: medium-light skin tone",
+      "unicode": [
+        "270A",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000329",
+      "emoji": "✊🏽",
+      "description": "raised fist: medium skin tone",
+      "unicode": [
+        "270A",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000330",
+      "emoji": "✊🏾",
+      "description": "raised fist: medium-dark skin tone",
+      "unicode": [
+        "270A",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000331",
+      "emoji": "✊🏿",
+      "description": "raised fist: dark skin tone",
+      "unicode": [
+        "270A",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000332",
+      "emoji": "👊",
+      "description": "oncoming fist",
+      "unicode": [
+        "1F44A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000333",
+      "emoji": "👊🏻",
+      "description": "oncoming fist: light skin tone",
+      "unicode": [
+        "1F44A",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000334",
+      "emoji": "👊🏼",
+      "description": "oncoming fist: medium-light skin tone",
+      "unicode": [
+        "1F44A",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000335",
+      "emoji": "👊🏽",
+      "description": "oncoming fist: medium skin tone",
+      "unicode": [
+        "1F44A",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000336",
+      "emoji": "👊🏾",
+      "description": "oncoming fist: medium-dark skin tone",
+      "unicode": [
+        "1F44A",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000337",
+      "emoji": "👊🏿",
+      "description": "oncoming fist: dark skin tone",
+      "unicode": [
+        "1F44A",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000338",
+      "emoji": "🤛",
+      "description": "left-facing fist",
+      "unicode": [
+        "1F91B"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000339",
+      "emoji": "🤛🏻",
+      "description": "left-facing fist: light skin tone",
+      "unicode": [
+        "1F91B",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000340",
+      "emoji": "🤛🏼",
+      "description": "left-facing fist: medium-light skin tone",
+      "unicode": [
+        "1F91B",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000341",
+      "emoji": "🤛🏽",
+      "description": "left-facing fist: medium skin tone",
+      "unicode": [
+        "1F91B",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000342",
+      "emoji": "🤛🏾",
+      "description": "left-facing fist: medium-dark skin tone",
+      "unicode": [
+        "1F91B",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000343",
+      "emoji": "🤛🏿",
+      "description": "left-facing fist: dark skin tone",
+      "unicode": [
+        "1F91B",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000344",
+      "emoji": "🤜",
+      "description": "right-facing fist",
+      "unicode": [
+        "1F91C"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000345",
+      "emoji": "🤜🏻",
+      "description": "right-facing fist: light skin tone",
+      "unicode": [
+        "1F91C",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000346",
+      "emoji": "🤜🏼",
+      "description": "right-facing fist: medium-light skin tone",
+      "unicode": [
+        "1F91C",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000347",
+      "emoji": "🤜🏽",
+      "description": "right-facing fist: medium skin tone",
+      "unicode": [
+        "1F91C",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000348",
+      "emoji": "🤜🏾",
+      "description": "right-facing fist: medium-dark skin tone",
+      "unicode": [
+        "1F91C",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000349",
+      "emoji": "🤜🏿",
+      "description": "right-facing fist: dark skin tone",
+      "unicode": [
+        "1F91C",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000350",
+      "emoji": "👏",
+      "description": "clapping hands",
+      "unicode": [
+        "1F44F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000351",
+      "emoji": "👏🏻",
+      "description": "clapping hands: light skin tone",
+      "unicode": [
+        "1F44F",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000352",
+      "emoji": "👏🏼",
+      "description": "clapping hands: medium-light skin tone",
+      "unicode": [
+        "1F44F",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000353",
+      "emoji": "👏🏽",
+      "description": "clapping hands: medium skin tone",
+      "unicode": [
+        "1F44F",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000354",
+      "emoji": "👏🏾",
+      "description": "clapping hands: medium-dark skin tone",
+      "unicode": [
+        "1F44F",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000355",
+      "emoji": "👏🏿",
+      "description": "clapping hands: dark skin tone",
+      "unicode": [
+        "1F44F",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000356",
+      "emoji": "🙌",
+      "description": "raising hands",
+      "unicode": [
+        "1F64C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000357",
+      "emoji": "🙌🏻",
+      "description": "raising hands: light skin tone",
+      "unicode": [
+        "1F64C",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000358",
+      "emoji": "🙌🏼",
+      "description": "raising hands: medium-light skin tone",
+      "unicode": [
+        "1F64C",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000359",
+      "emoji": "🙌🏽",
+      "description": "raising hands: medium skin tone",
+      "unicode": [
+        "1F64C",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000360",
+      "emoji": "🙌🏾",
+      "description": "raising hands: medium-dark skin tone",
+      "unicode": [
+        "1F64C",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000361",
+      "emoji": "🙌🏿",
+      "description": "raising hands: dark skin tone",
+      "unicode": [
+        "1F64C",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000362",
+      "emoji": "🫶",
+      "description": "heart hands",
+      "unicode": [
+        "1FAF6"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000363",
+      "emoji": "🫶🏻",
+      "description": "heart hands: light skin tone",
+      "unicode": [
+        "1FAF6",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000364",
+      "emoji": "🫶🏼",
+      "description": "heart hands: medium-light skin tone",
+      "unicode": [
+        "1FAF6",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000365",
+      "emoji": "🫶🏽",
+      "description": "heart hands: medium skin tone",
+      "unicode": [
+        "1FAF6",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000366",
+      "emoji": "🫶🏾",
+      "description": "heart hands: medium-dark skin tone",
+      "unicode": [
+        "1FAF6",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000367",
+      "emoji": "🫶🏿",
+      "description": "heart hands: dark skin tone",
+      "unicode": [
+        "1FAF6",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000368",
+      "emoji": "👐",
+      "description": "open hands",
+      "unicode": [
+        "1F450"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000369",
+      "emoji": "👐🏻",
+      "description": "open hands: light skin tone",
+      "unicode": [
+        "1F450",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000370",
+      "emoji": "👐🏼",
+      "description": "open hands: medium-light skin tone",
+      "unicode": [
+        "1F450",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000371",
+      "emoji": "👐🏽",
+      "description": "open hands: medium skin tone",
+      "unicode": [
+        "1F450",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000372",
+      "emoji": "👐🏾",
+      "description": "open hands: medium-dark skin tone",
+      "unicode": [
+        "1F450",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000373",
+      "emoji": "👐🏿",
+      "description": "open hands: dark skin tone",
+      "unicode": [
+        "1F450",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000374",
+      "emoji": "🤲",
+      "description": "palms up together",
+      "unicode": [
+        "1F932"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000375",
+      "emoji": "🤲🏻",
+      "description": "palms up together: light skin tone",
+      "unicode": [
+        "1F932",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000376",
+      "emoji": "🤲🏼",
+      "description": "palms up together: medium-light skin tone",
+      "unicode": [
+        "1F932",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000377",
+      "emoji": "🤲🏽",
+      "description": "palms up together: medium skin tone",
+      "unicode": [
+        "1F932",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000378",
+      "emoji": "🤲🏾",
+      "description": "palms up together: medium-dark skin tone",
+      "unicode": [
+        "1F932",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000379",
+      "emoji": "🤲🏿",
+      "description": "palms up together: dark skin tone",
+      "unicode": [
+        "1F932",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000380",
+      "emoji": "🤝",
+      "description": "handshake",
+      "unicode": [
+        "1F91D"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000381",
+      "emoji": "🤝🏻",
+      "description": "handshake: light skin tone",
+      "unicode": [
+        "1F91D",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000382",
+      "emoji": "🤝🏼",
+      "description": "handshake: medium-light skin tone",
+      "unicode": [
+        "1F91D",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000383",
+      "emoji": "🤝🏽",
+      "description": "handshake: medium skin tone",
+      "unicode": [
+        "1F91D",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000384",
+      "emoji": "🤝🏾",
+      "description": "handshake: medium-dark skin tone",
+      "unicode": [
+        "1F91D",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000385",
+      "emoji": "🤝🏿",
+      "description": "handshake: dark skin tone",
+      "unicode": [
+        "1F91D",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000386",
+      "emoji": "🫱🏻‍🫲🏼",
+      "description": "handshake: light skin tone, medium-light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FB",
+        "200D",
+        "1FAF2",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000387",
+      "emoji": "🫱🏻‍🫲🏽",
+      "description": "handshake: light skin tone, medium skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FB",
+        "200D",
+        "1FAF2",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000388",
+      "emoji": "🫱🏻‍🫲🏾",
+      "description": "handshake: light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FB",
+        "200D",
+        "1FAF2",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000389",
+      "emoji": "🫱🏻‍🫲🏿",
+      "description": "handshake: light skin tone, dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FB",
+        "200D",
+        "1FAF2",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000390",
+      "emoji": "🫱🏼‍🫲🏻",
+      "description": "handshake: medium-light skin tone, light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FC",
+        "200D",
+        "1FAF2",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000391",
+      "emoji": "🫱🏼‍🫲🏽",
+      "description": "handshake: medium-light skin tone, medium skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FC",
+        "200D",
+        "1FAF2",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000392",
+      "emoji": "🫱🏼‍🫲🏾",
+      "description": "handshake: medium-light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FC",
+        "200D",
+        "1FAF2",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000393",
+      "emoji": "🫱🏼‍🫲🏿",
+      "description": "handshake: medium-light skin tone, dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FC",
+        "200D",
+        "1FAF2",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000394",
+      "emoji": "🫱🏽‍🫲🏻",
+      "description": "handshake: medium skin tone, light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FD",
+        "200D",
+        "1FAF2",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000395",
+      "emoji": "🫱🏽‍🫲🏼",
+      "description": "handshake: medium skin tone, medium-light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FD",
+        "200D",
+        "1FAF2",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000396",
+      "emoji": "🫱🏽‍🫲🏾",
+      "description": "handshake: medium skin tone, medium-dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FD",
+        "200D",
+        "1FAF2",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000397",
+      "emoji": "🫱🏽‍🫲🏿",
+      "description": "handshake: medium skin tone, dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FD",
+        "200D",
+        "1FAF2",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000398",
+      "emoji": "🫱🏾‍🫲🏻",
+      "description": "handshake: medium-dark skin tone, light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FE",
+        "200D",
+        "1FAF2",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000399",
+      "emoji": "🫱🏾‍🫲🏼",
+      "description": "handshake: medium-dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FE",
+        "200D",
+        "1FAF2",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000400",
+      "emoji": "🫱🏾‍🫲🏽",
+      "description": "handshake: medium-dark skin tone, medium skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FE",
+        "200D",
+        "1FAF2",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000401",
+      "emoji": "🫱🏾‍🫲🏿",
+      "description": "handshake: medium-dark skin tone, dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FE",
+        "200D",
+        "1FAF2",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000402",
+      "emoji": "🫱🏿‍🫲🏻",
+      "description": "handshake: dark skin tone, light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FF",
+        "200D",
+        "1FAF2",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000403",
+      "emoji": "🫱🏿‍🫲🏼",
+      "description": "handshake: dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FF",
+        "200D",
+        "1FAF2",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000404",
+      "emoji": "🫱🏿‍🫲🏽",
+      "description": "handshake: dark skin tone, medium skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FF",
+        "200D",
+        "1FAF2",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000405",
+      "emoji": "🫱🏿‍🫲🏾",
+      "description": "handshake: dark skin tone, medium-dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FF",
+        "200D",
+        "1FAF2",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000406",
+      "emoji": "🙏",
+      "description": "folded hands",
+      "unicode": [
+        "1F64F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000407",
+      "emoji": "🙏🏻",
+      "description": "folded hands: light skin tone",
+      "unicode": [
+        "1F64F",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000408",
+      "emoji": "🙏🏼",
+      "description": "folded hands: medium-light skin tone",
+      "unicode": [
+        "1F64F",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000409",
+      "emoji": "🙏🏽",
+      "description": "folded hands: medium skin tone",
+      "unicode": [
+        "1F64F",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000410",
+      "emoji": "🙏🏾",
+      "description": "folded hands: medium-dark skin tone",
+      "unicode": [
+        "1F64F",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000411",
+      "emoji": "🙏🏿",
+      "description": "folded hands: dark skin tone",
+      "unicode": [
+        "1F64F",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000412",
+      "emoji": "✍️",
+      "description": "writing hand",
+      "unicode": [
+        "270D",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "000413",
+      "emoji": "✍🏻",
+      "description": "writing hand: light skin tone",
+      "unicode": [
+        "270D",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000414",
+      "emoji": "✍🏼",
+      "description": "writing hand: medium-light skin tone",
+      "unicode": [
+        "270D",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000415",
+      "emoji": "✍🏽",
+      "description": "writing hand: medium skin tone",
+      "unicode": [
+        "270D",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000416",
+      "emoji": "✍🏾",
+      "description": "writing hand: medium-dark skin tone",
+      "unicode": [
+        "270D",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000417",
+      "emoji": "✍🏿",
+      "description": "writing hand: dark skin tone",
+      "unicode": [
+        "270D",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000418",
+      "emoji": "💅",
+      "description": "nail polish",
+      "unicode": [
+        "1F485"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000419",
+      "emoji": "💅🏻",
+      "description": "nail polish: light skin tone",
+      "unicode": [
+        "1F485",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000420",
+      "emoji": "💅🏼",
+      "description": "nail polish: medium-light skin tone",
+      "unicode": [
+        "1F485",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000421",
+      "emoji": "💅🏽",
+      "description": "nail polish: medium skin tone",
+      "unicode": [
+        "1F485",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000422",
+      "emoji": "💅🏾",
+      "description": "nail polish: medium-dark skin tone",
+      "unicode": [
+        "1F485",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000423",
+      "emoji": "💅🏿",
+      "description": "nail polish: dark skin tone",
+      "unicode": [
+        "1F485",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000424",
+      "emoji": "🤳",
+      "description": "selfie",
+      "unicode": [
+        "1F933"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000425",
+      "emoji": "🤳🏻",
+      "description": "selfie: light skin tone",
+      "unicode": [
+        "1F933",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000426",
+      "emoji": "🤳🏼",
+      "description": "selfie: medium-light skin tone",
+      "unicode": [
+        "1F933",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000427",
+      "emoji": "🤳🏽",
+      "description": "selfie: medium skin tone",
+      "unicode": [
+        "1F933",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000428",
+      "emoji": "🤳🏾",
+      "description": "selfie: medium-dark skin tone",
+      "unicode": [
+        "1F933",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000429",
+      "emoji": "🤳🏿",
+      "description": "selfie: dark skin tone",
+      "unicode": [
+        "1F933",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000430",
+      "emoji": "💪",
+      "description": "flexed biceps",
+      "unicode": [
+        "1F4AA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000431",
+      "emoji": "💪🏻",
+      "description": "flexed biceps: light skin tone",
+      "unicode": [
+        "1F4AA",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000432",
+      "emoji": "💪🏼",
+      "description": "flexed biceps: medium-light skin tone",
+      "unicode": [
+        "1F4AA",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000433",
+      "emoji": "💪🏽",
+      "description": "flexed biceps: medium skin tone",
+      "unicode": [
+        "1F4AA",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000434",
+      "emoji": "💪🏾",
+      "description": "flexed biceps: medium-dark skin tone",
+      "unicode": [
+        "1F4AA",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000435",
+      "emoji": "💪🏿",
+      "description": "flexed biceps: dark skin tone",
+      "unicode": [
+        "1F4AA",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000436",
+      "emoji": "🦾",
+      "description": "mechanical arm",
+      "unicode": [
+        "1F9BE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000437",
+      "emoji": "🦿",
+      "description": "mechanical leg",
+      "unicode": [
+        "1F9BF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000438",
+      "emoji": "🦵",
+      "description": "leg",
+      "unicode": [
+        "1F9B5"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000439",
+      "emoji": "🦵🏻",
+      "description": "leg: light skin tone",
+      "unicode": [
+        "1F9B5",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000440",
+      "emoji": "🦵🏼",
+      "description": "leg: medium-light skin tone",
+      "unicode": [
+        "1F9B5",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000441",
+      "emoji": "🦵🏽",
+      "description": "leg: medium skin tone",
+      "unicode": [
+        "1F9B5",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000442",
+      "emoji": "🦵🏾",
+      "description": "leg: medium-dark skin tone",
+      "unicode": [
+        "1F9B5",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000443",
+      "emoji": "🦵🏿",
+      "description": "leg: dark skin tone",
+      "unicode": [
+        "1F9B5",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000444",
+      "emoji": "🦶",
+      "description": "foot",
+      "unicode": [
+        "1F9B6"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000445",
+      "emoji": "🦶🏻",
+      "description": "foot: light skin tone",
+      "unicode": [
+        "1F9B6",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000446",
+      "emoji": "🦶🏼",
+      "description": "foot: medium-light skin tone",
+      "unicode": [
+        "1F9B6",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000447",
+      "emoji": "🦶🏽",
+      "description": "foot: medium skin tone",
+      "unicode": [
+        "1F9B6",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000448",
+      "emoji": "🦶🏾",
+      "description": "foot: medium-dark skin tone",
+      "unicode": [
+        "1F9B6",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000449",
+      "emoji": "🦶🏿",
+      "description": "foot: dark skin tone",
+      "unicode": [
+        "1F9B6",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000450",
+      "emoji": "👂",
+      "description": "ear",
+      "unicode": [
+        "1F442"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000451",
+      "emoji": "👂🏻",
+      "description": "ear: light skin tone",
+      "unicode": [
+        "1F442",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000452",
+      "emoji": "👂🏼",
+      "description": "ear: medium-light skin tone",
+      "unicode": [
+        "1F442",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000453",
+      "emoji": "👂🏽",
+      "description": "ear: medium skin tone",
+      "unicode": [
+        "1F442",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000454",
+      "emoji": "👂🏾",
+      "description": "ear: medium-dark skin tone",
+      "unicode": [
+        "1F442",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000455",
+      "emoji": "👂🏿",
+      "description": "ear: dark skin tone",
+      "unicode": [
+        "1F442",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000456",
+      "emoji": "🦻",
+      "description": "ear with hearing aid",
+      "unicode": [
+        "1F9BB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000457",
+      "emoji": "🦻🏻",
+      "description": "ear with hearing aid: light skin tone",
+      "unicode": [
+        "1F9BB",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000458",
+      "emoji": "🦻🏼",
+      "description": "ear with hearing aid: medium-light skin tone",
+      "unicode": [
+        "1F9BB",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000459",
+      "emoji": "🦻🏽",
+      "description": "ear with hearing aid: medium skin tone",
+      "unicode": [
+        "1F9BB",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000460",
+      "emoji": "🦻🏾",
+      "description": "ear with hearing aid: medium-dark skin tone",
+      "unicode": [
+        "1F9BB",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000461",
+      "emoji": "🦻🏿",
+      "description": "ear with hearing aid: dark skin tone",
+      "unicode": [
+        "1F9BB",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000462",
+      "emoji": "👃",
+      "description": "nose",
+      "unicode": [
+        "1F443"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000463",
+      "emoji": "👃🏻",
+      "description": "nose: light skin tone",
+      "unicode": [
+        "1F443",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000464",
+      "emoji": "👃🏼",
+      "description": "nose: medium-light skin tone",
+      "unicode": [
+        "1F443",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000465",
+      "emoji": "👃🏽",
+      "description": "nose: medium skin tone",
+      "unicode": [
+        "1F443",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000466",
+      "emoji": "👃🏾",
+      "description": "nose: medium-dark skin tone",
+      "unicode": [
+        "1F443",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000467",
+      "emoji": "👃🏿",
+      "description": "nose: dark skin tone",
+      "unicode": [
+        "1F443",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000468",
+      "emoji": "🧠",
+      "description": "brain",
+      "unicode": [
+        "1F9E0"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000469",
+      "emoji": "🫀",
+      "description": "anatomical heart",
+      "unicode": [
+        "1FAC0"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "000470",
+      "emoji": "🫁",
+      "description": "lungs",
+      "unicode": [
+        "1FAC1"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "000471",
+      "emoji": "🦷",
+      "description": "tooth",
+      "unicode": [
+        "1F9B7"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000472",
+      "emoji": "🦴",
+      "description": "bone",
+      "unicode": [
+        "1F9B4"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000473",
+      "emoji": "👀",
+      "description": "eyes",
+      "unicode": [
+        "1F440"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000474",
+      "emoji": "👁️",
+      "description": "eye",
+      "unicode": [
+        "1F441",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "000475",
+      "emoji": "👅",
+      "description": "tongue",
+      "unicode": [
+        "1F445"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000476",
+      "emoji": "👄",
+      "description": "mouth",
+      "unicode": [
+        "1F444"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000477",
+      "emoji": "🫦",
+      "description": "biting lip",
+      "unicode": [
+        "1FAE6"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "000478",
+      "emoji": "👶",
+      "description": "baby",
+      "unicode": [
+        "1F476"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000479",
+      "emoji": "👶🏻",
+      "description": "baby: light skin tone",
+      "unicode": [
+        "1F476",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000480",
+      "emoji": "👶🏼",
+      "description": "baby: medium-light skin tone",
+      "unicode": [
+        "1F476",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000481",
+      "emoji": "👶🏽",
+      "description": "baby: medium skin tone",
+      "unicode": [
+        "1F476",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000482",
+      "emoji": "👶🏾",
+      "description": "baby: medium-dark skin tone",
+      "unicode": [
+        "1F476",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000483",
+      "emoji": "👶🏿",
+      "description": "baby: dark skin tone",
+      "unicode": [
+        "1F476",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000484",
+      "emoji": "🧒",
+      "description": "child",
+      "unicode": [
+        "1F9D2"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000485",
+      "emoji": "🧒🏻",
+      "description": "child: light skin tone",
+      "unicode": [
+        "1F9D2",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000486",
+      "emoji": "🧒🏼",
+      "description": "child: medium-light skin tone",
+      "unicode": [
+        "1F9D2",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000487",
+      "emoji": "🧒🏽",
+      "description": "child: medium skin tone",
+      "unicode": [
+        "1F9D2",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000488",
+      "emoji": "🧒🏾",
+      "description": "child: medium-dark skin tone",
+      "unicode": [
+        "1F9D2",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000489",
+      "emoji": "🧒🏿",
+      "description": "child: dark skin tone",
+      "unicode": [
+        "1F9D2",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000490",
+      "emoji": "👦",
+      "description": "boy",
+      "unicode": [
+        "1F466"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000491",
+      "emoji": "👦🏻",
+      "description": "boy: light skin tone",
+      "unicode": [
+        "1F466",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000492",
+      "emoji": "👦🏼",
+      "description": "boy: medium-light skin tone",
+      "unicode": [
+        "1F466",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000493",
+      "emoji": "👦🏽",
+      "description": "boy: medium skin tone",
+      "unicode": [
+        "1F466",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000494",
+      "emoji": "👦🏾",
+      "description": "boy: medium-dark skin tone",
+      "unicode": [
+        "1F466",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000495",
+      "emoji": "👦🏿",
+      "description": "boy: dark skin tone",
+      "unicode": [
+        "1F466",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000496",
+      "emoji": "👧",
+      "description": "girl",
+      "unicode": [
+        "1F467"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000497",
+      "emoji": "👧🏻",
+      "description": "girl: light skin tone",
+      "unicode": [
+        "1F467",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000498",
+      "emoji": "👧🏼",
+      "description": "girl: medium-light skin tone",
+      "unicode": [
+        "1F467",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000499",
+      "emoji": "👧🏽",
+      "description": "girl: medium skin tone",
+      "unicode": [
+        "1F467",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000500",
+      "emoji": "👧🏾",
+      "description": "girl: medium-dark skin tone",
+      "unicode": [
+        "1F467",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000501",
+      "emoji": "👧🏿",
+      "description": "girl: dark skin tone",
+      "unicode": [
+        "1F467",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000502",
+      "emoji": "🧑",
+      "description": "person",
+      "unicode": [
+        "1F9D1"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000503",
+      "emoji": "🧑🏻",
+      "description": "person: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000504",
+      "emoji": "🧑🏼",
+      "description": "person: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000505",
+      "emoji": "🧑🏽",
+      "description": "person: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000506",
+      "emoji": "🧑🏾",
+      "description": "person: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000507",
+      "emoji": "🧑🏿",
+      "description": "person: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000508",
+      "emoji": "👱",
+      "description": "person: blond hair",
+      "unicode": [
+        "1F471"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000509",
+      "emoji": "👱🏻",
+      "description": "person: light skin tone, blond hair",
+      "unicode": [
+        "1F471",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000510",
+      "emoji": "👱🏼",
+      "description": "person: medium-light skin tone, blond hair",
+      "unicode": [
+        "1F471",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000511",
+      "emoji": "👱🏽",
+      "description": "person: medium skin tone, blond hair",
+      "unicode": [
+        "1F471",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000512",
+      "emoji": "👱🏾",
+      "description": "person: medium-dark skin tone, blond hair",
+      "unicode": [
+        "1F471",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000513",
+      "emoji": "👱🏿",
+      "description": "person: dark skin tone, blond hair",
+      "unicode": [
+        "1F471",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000514",
+      "emoji": "👨",
+      "description": "man",
+      "unicode": [
+        "1F468"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000515",
+      "emoji": "👨🏻",
+      "description": "man: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000516",
+      "emoji": "👨🏼",
+      "description": "man: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000517",
+      "emoji": "👨🏽",
+      "description": "man: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000518",
+      "emoji": "👨🏾",
+      "description": "man: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000519",
+      "emoji": "👨🏿",
+      "description": "man: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000520",
+      "emoji": "🧔",
+      "description": "person: beard",
+      "unicode": [
+        "1F9D4"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000521",
+      "emoji": "🧔🏻",
+      "description": "person: light skin tone, beard",
+      "unicode": [
+        "1F9D4",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000522",
+      "emoji": "🧔🏼",
+      "description": "person: medium-light skin tone, beard",
+      "unicode": [
+        "1F9D4",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000523",
+      "emoji": "🧔🏽",
+      "description": "person: medium skin tone, beard",
+      "unicode": [
+        "1F9D4",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000524",
+      "emoji": "🧔🏾",
+      "description": "person: medium-dark skin tone, beard",
+      "unicode": [
+        "1F9D4",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000525",
+      "emoji": "🧔🏿",
+      "description": "person: dark skin tone, beard",
+      "unicode": [
+        "1F9D4",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000526",
+      "emoji": "🧔‍♂️",
+      "description": "man: beard",
+      "unicode": [
+        "1F9D4",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000527",
+      "emoji": "🧔🏻‍♂️",
+      "description": "man: light skin tone, beard",
+      "unicode": [
+        "1F9D4",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000528",
+      "emoji": "🧔🏼‍♂️",
+      "description": "man: medium-light skin tone, beard",
+      "unicode": [
+        "1F9D4",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000529",
+      "emoji": "🧔🏽‍♂️",
+      "description": "man: medium skin tone, beard",
+      "unicode": [
+        "1F9D4",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000530",
+      "emoji": "🧔🏾‍♂️",
+      "description": "man: medium-dark skin tone, beard",
+      "unicode": [
+        "1F9D4",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000531",
+      "emoji": "🧔🏿‍♂️",
+      "description": "man: dark skin tone, beard",
+      "unicode": [
+        "1F9D4",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000532",
+      "emoji": "🧔‍♀️",
+      "description": "woman: beard",
+      "unicode": [
+        "1F9D4",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000533",
+      "emoji": "🧔🏻‍♀️",
+      "description": "woman: light skin tone, beard",
+      "unicode": [
+        "1F9D4",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000534",
+      "emoji": "🧔🏼‍♀️",
+      "description": "woman: medium-light skin tone, beard",
+      "unicode": [
+        "1F9D4",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000535",
+      "emoji": "🧔🏽‍♀️",
+      "description": "woman: medium skin tone, beard",
+      "unicode": [
+        "1F9D4",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000536",
+      "emoji": "🧔🏾‍♀️",
+      "description": "woman: medium-dark skin tone, beard",
+      "unicode": [
+        "1F9D4",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000537",
+      "emoji": "🧔🏿‍♀️",
+      "description": "woman: dark skin tone, beard",
+      "unicode": [
+        "1F9D4",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "000538",
+      "emoji": "👨‍🦰",
+      "description": "man: red hair",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000539",
+      "emoji": "👨🏻‍🦰",
+      "description": "man: light skin tone, red hair",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000540",
+      "emoji": "👨🏼‍🦰",
+      "description": "man: medium-light skin tone, red hair",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000541",
+      "emoji": "👨🏽‍🦰",
+      "description": "man: medium skin tone, red hair",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000542",
+      "emoji": "👨🏾‍🦰",
+      "description": "man: medium-dark skin tone, red hair",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000543",
+      "emoji": "👨🏿‍🦰",
+      "description": "man: dark skin tone, red hair",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000544",
+      "emoji": "👨‍🦱",
+      "description": "man: curly hair",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000545",
+      "emoji": "👨🏻‍🦱",
+      "description": "man: light skin tone, curly hair",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000546",
+      "emoji": "👨🏼‍🦱",
+      "description": "man: medium-light skin tone, curly hair",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000547",
+      "emoji": "👨🏽‍🦱",
+      "description": "man: medium skin tone, curly hair",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000548",
+      "emoji": "👨🏾‍🦱",
+      "description": "man: medium-dark skin tone, curly hair",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000549",
+      "emoji": "👨🏿‍🦱",
+      "description": "man: dark skin tone, curly hair",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000550",
+      "emoji": "👨‍🦳",
+      "description": "man: white hair",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000551",
+      "emoji": "👨🏻‍🦳",
+      "description": "man: light skin tone, white hair",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000552",
+      "emoji": "👨🏼‍🦳",
+      "description": "man: medium-light skin tone, white hair",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000553",
+      "emoji": "👨🏽‍🦳",
+      "description": "man: medium skin tone, white hair",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000554",
+      "emoji": "👨🏾‍🦳",
+      "description": "man: medium-dark skin tone, white hair",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000555",
+      "emoji": "👨🏿‍🦳",
+      "description": "man: dark skin tone, white hair",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000556",
+      "emoji": "👨‍🦲",
+      "description": "man: bald",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000557",
+      "emoji": "👨🏻‍🦲",
+      "description": "man: light skin tone, bald",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000558",
+      "emoji": "👨🏼‍🦲",
+      "description": "man: medium-light skin tone, bald",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000559",
+      "emoji": "👨🏽‍🦲",
+      "description": "man: medium skin tone, bald",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000560",
+      "emoji": "👨🏾‍🦲",
+      "description": "man: medium-dark skin tone, bald",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000561",
+      "emoji": "👨🏿‍🦲",
+      "description": "man: dark skin tone, bald",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000562",
+      "emoji": "👩",
+      "description": "woman",
+      "unicode": [
+        "1F469"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000563",
+      "emoji": "👩🏻",
+      "description": "woman: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000564",
+      "emoji": "👩🏼",
+      "description": "woman: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000565",
+      "emoji": "👩🏽",
+      "description": "woman: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000566",
+      "emoji": "👩🏾",
+      "description": "woman: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000567",
+      "emoji": "👩🏿",
+      "description": "woman: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000568",
+      "emoji": "👩‍🦰",
+      "description": "woman: red hair",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000569",
+      "emoji": "👩🏻‍🦰",
+      "description": "woman: light skin tone, red hair",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000570",
+      "emoji": "👩🏼‍🦰",
+      "description": "woman: medium-light skin tone, red hair",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000571",
+      "emoji": "👩🏽‍🦰",
+      "description": "woman: medium skin tone, red hair",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000572",
+      "emoji": "👩🏾‍🦰",
+      "description": "woman: medium-dark skin tone, red hair",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000573",
+      "emoji": "👩🏿‍🦰",
+      "description": "woman: dark skin tone, red hair",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000574",
+      "emoji": "🧑‍🦰",
+      "description": "person: red hair",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000575",
+      "emoji": "🧑🏻‍🦰",
+      "description": "person: light skin tone, red hair",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000576",
+      "emoji": "🧑🏼‍🦰",
+      "description": "person: medium-light skin tone, red hair",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000577",
+      "emoji": "🧑🏽‍🦰",
+      "description": "person: medium skin tone, red hair",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000578",
+      "emoji": "🧑🏾‍🦰",
+      "description": "person: medium-dark skin tone, red hair",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000579",
+      "emoji": "🧑🏿‍🦰",
+      "description": "person: dark skin tone, red hair",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F9B0"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000580",
+      "emoji": "👩‍🦱",
+      "description": "woman: curly hair",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000581",
+      "emoji": "👩🏻‍🦱",
+      "description": "woman: light skin tone, curly hair",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000582",
+      "emoji": "👩🏼‍🦱",
+      "description": "woman: medium-light skin tone, curly hair",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000583",
+      "emoji": "👩🏽‍🦱",
+      "description": "woman: medium skin tone, curly hair",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000584",
+      "emoji": "👩🏾‍🦱",
+      "description": "woman: medium-dark skin tone, curly hair",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000585",
+      "emoji": "👩🏿‍🦱",
+      "description": "woman: dark skin tone, curly hair",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000586",
+      "emoji": "🧑‍🦱",
+      "description": "person: curly hair",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000587",
+      "emoji": "🧑🏻‍🦱",
+      "description": "person: light skin tone, curly hair",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000588",
+      "emoji": "🧑🏼‍🦱",
+      "description": "person: medium-light skin tone, curly hair",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000589",
+      "emoji": "🧑🏽‍🦱",
+      "description": "person: medium skin tone, curly hair",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000590",
+      "emoji": "🧑🏾‍🦱",
+      "description": "person: medium-dark skin tone, curly hair",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000591",
+      "emoji": "🧑🏿‍🦱",
+      "description": "person: dark skin tone, curly hair",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F9B1"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000592",
+      "emoji": "👩‍🦳",
+      "description": "woman: white hair",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000593",
+      "emoji": "👩🏻‍🦳",
+      "description": "woman: light skin tone, white hair",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000594",
+      "emoji": "👩🏼‍🦳",
+      "description": "woman: medium-light skin tone, white hair",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000595",
+      "emoji": "👩🏽‍🦳",
+      "description": "woman: medium skin tone, white hair",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000596",
+      "emoji": "👩🏾‍🦳",
+      "description": "woman: medium-dark skin tone, white hair",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000597",
+      "emoji": "👩🏿‍🦳",
+      "description": "woman: dark skin tone, white hair",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000598",
+      "emoji": "🧑‍🦳",
+      "description": "person: white hair",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000599",
+      "emoji": "🧑🏻‍🦳",
+      "description": "person: light skin tone, white hair",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000600",
+      "emoji": "🧑🏼‍🦳",
+      "description": "person: medium-light skin tone, white hair",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000601",
+      "emoji": "🧑🏽‍🦳",
+      "description": "person: medium skin tone, white hair",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000602",
+      "emoji": "🧑🏾‍🦳",
+      "description": "person: medium-dark skin tone, white hair",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000603",
+      "emoji": "🧑🏿‍🦳",
+      "description": "person: dark skin tone, white hair",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F9B3"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000604",
+      "emoji": "👩‍🦲",
+      "description": "woman: bald",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000605",
+      "emoji": "👩🏻‍🦲",
+      "description": "woman: light skin tone, bald",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000606",
+      "emoji": "👩🏼‍🦲",
+      "description": "woman: medium-light skin tone, bald",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000607",
+      "emoji": "👩🏽‍🦲",
+      "description": "woman: medium skin tone, bald",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000608",
+      "emoji": "👩🏾‍🦲",
+      "description": "woman: medium-dark skin tone, bald",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000609",
+      "emoji": "👩🏿‍🦲",
+      "description": "woman: dark skin tone, bald",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "000610",
+      "emoji": "🧑‍🦲",
+      "description": "person: bald",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000611",
+      "emoji": "🧑🏻‍🦲",
+      "description": "person: light skin tone, bald",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000612",
+      "emoji": "🧑🏼‍🦲",
+      "description": "person: medium-light skin tone, bald",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000613",
+      "emoji": "🧑🏽‍🦲",
+      "description": "person: medium skin tone, bald",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000614",
+      "emoji": "🧑🏾‍🦲",
+      "description": "person: medium-dark skin tone, bald",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000615",
+      "emoji": "🧑🏿‍🦲",
+      "description": "person: dark skin tone, bald",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F9B2"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000616",
+      "emoji": "👱‍♀️",
+      "description": "woman: blond hair",
+      "unicode": [
+        "1F471",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000617",
+      "emoji": "👱🏻‍♀️",
+      "description": "woman: light skin tone, blond hair",
+      "unicode": [
+        "1F471",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000618",
+      "emoji": "👱🏼‍♀️",
+      "description": "woman: medium-light skin tone, blond hair",
+      "unicode": [
+        "1F471",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000619",
+      "emoji": "👱🏽‍♀️",
+      "description": "woman: medium skin tone, blond hair",
+      "unicode": [
+        "1F471",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000620",
+      "emoji": "👱🏾‍♀️",
+      "description": "woman: medium-dark skin tone, blond hair",
+      "unicode": [
+        "1F471",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000621",
+      "emoji": "👱🏿‍♀️",
+      "description": "woman: dark skin tone, blond hair",
+      "unicode": [
+        "1F471",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000622",
+      "emoji": "👱‍♂️",
+      "description": "man: blond hair",
+      "unicode": [
+        "1F471",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000623",
+      "emoji": "👱🏻‍♂️",
+      "description": "man: light skin tone, blond hair",
+      "unicode": [
+        "1F471",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000624",
+      "emoji": "👱🏼‍♂️",
+      "description": "man: medium-light skin tone, blond hair",
+      "unicode": [
+        "1F471",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000625",
+      "emoji": "👱🏽‍♂️",
+      "description": "man: medium skin tone, blond hair",
+      "unicode": [
+        "1F471",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000626",
+      "emoji": "👱🏾‍♂️",
+      "description": "man: medium-dark skin tone, blond hair",
+      "unicode": [
+        "1F471",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000627",
+      "emoji": "👱🏿‍♂️",
+      "description": "man: dark skin tone, blond hair",
+      "unicode": [
+        "1F471",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000628",
+      "emoji": "🧓",
+      "description": "older person",
+      "unicode": [
+        "1F9D3"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000629",
+      "emoji": "🧓🏻",
+      "description": "older person: light skin tone",
+      "unicode": [
+        "1F9D3",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000630",
+      "emoji": "🧓🏼",
+      "description": "older person: medium-light skin tone",
+      "unicode": [
+        "1F9D3",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000631",
+      "emoji": "🧓🏽",
+      "description": "older person: medium skin tone",
+      "unicode": [
+        "1F9D3",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000632",
+      "emoji": "🧓🏾",
+      "description": "older person: medium-dark skin tone",
+      "unicode": [
+        "1F9D3",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000633",
+      "emoji": "🧓🏿",
+      "description": "older person: dark skin tone",
+      "unicode": [
+        "1F9D3",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "000634",
+      "emoji": "👴",
+      "description": "old man",
+      "unicode": [
+        "1F474"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000635",
+      "emoji": "👴🏻",
+      "description": "old man: light skin tone",
+      "unicode": [
+        "1F474",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000636",
+      "emoji": "👴🏼",
+      "description": "old man: medium-light skin tone",
+      "unicode": [
+        "1F474",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000637",
+      "emoji": "👴🏽",
+      "description": "old man: medium skin tone",
+      "unicode": [
+        "1F474",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000638",
+      "emoji": "👴🏾",
+      "description": "old man: medium-dark skin tone",
+      "unicode": [
+        "1F474",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000639",
+      "emoji": "👴🏿",
+      "description": "old man: dark skin tone",
+      "unicode": [
+        "1F474",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000640",
+      "emoji": "👵",
+      "description": "old woman",
+      "unicode": [
+        "1F475"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000641",
+      "emoji": "👵🏻",
+      "description": "old woman: light skin tone",
+      "unicode": [
+        "1F475",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000642",
+      "emoji": "👵🏼",
+      "description": "old woman: medium-light skin tone",
+      "unicode": [
+        "1F475",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000643",
+      "emoji": "👵🏽",
+      "description": "old woman: medium skin tone",
+      "unicode": [
+        "1F475",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000644",
+      "emoji": "👵🏾",
+      "description": "old woman: medium-dark skin tone",
+      "unicode": [
+        "1F475",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000645",
+      "emoji": "👵🏿",
+      "description": "old woman: dark skin tone",
+      "unicode": [
+        "1F475",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000646",
+      "emoji": "🙍",
+      "description": "person frowning",
+      "unicode": [
+        "1F64D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000647",
+      "emoji": "🙍🏻",
+      "description": "person frowning: light skin tone",
+      "unicode": [
+        "1F64D",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000648",
+      "emoji": "🙍🏼",
+      "description": "person frowning: medium-light skin tone",
+      "unicode": [
+        "1F64D",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000649",
+      "emoji": "🙍🏽",
+      "description": "person frowning: medium skin tone",
+      "unicode": [
+        "1F64D",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000650",
+      "emoji": "🙍🏾",
+      "description": "person frowning: medium-dark skin tone",
+      "unicode": [
+        "1F64D",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000651",
+      "emoji": "🙍🏿",
+      "description": "person frowning: dark skin tone",
+      "unicode": [
+        "1F64D",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000652",
+      "emoji": "🙍‍♂️",
+      "description": "man frowning",
+      "unicode": [
+        "1F64D",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000653",
+      "emoji": "🙍🏻‍♂️",
+      "description": "man frowning: light skin tone",
+      "unicode": [
+        "1F64D",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000654",
+      "emoji": "🙍🏼‍♂️",
+      "description": "man frowning: medium-light skin tone",
+      "unicode": [
+        "1F64D",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000655",
+      "emoji": "🙍🏽‍♂️",
+      "description": "man frowning: medium skin tone",
+      "unicode": [
+        "1F64D",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000656",
+      "emoji": "🙍🏾‍♂️",
+      "description": "man frowning: medium-dark skin tone",
+      "unicode": [
+        "1F64D",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000657",
+      "emoji": "🙍🏿‍♂️",
+      "description": "man frowning: dark skin tone",
+      "unicode": [
+        "1F64D",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000658",
+      "emoji": "🙍‍♀️",
+      "description": "woman frowning",
+      "unicode": [
+        "1F64D",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000659",
+      "emoji": "🙍🏻‍♀️",
+      "description": "woman frowning: light skin tone",
+      "unicode": [
+        "1F64D",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000660",
+      "emoji": "🙍🏼‍♀️",
+      "description": "woman frowning: medium-light skin tone",
+      "unicode": [
+        "1F64D",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000661",
+      "emoji": "🙍🏽‍♀️",
+      "description": "woman frowning: medium skin tone",
+      "unicode": [
+        "1F64D",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000662",
+      "emoji": "🙍🏾‍♀️",
+      "description": "woman frowning: medium-dark skin tone",
+      "unicode": [
+        "1F64D",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000663",
+      "emoji": "🙍🏿‍♀️",
+      "description": "woman frowning: dark skin tone",
+      "unicode": [
+        "1F64D",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000664",
+      "emoji": "🙎",
+      "description": "person pouting",
+      "unicode": [
+        "1F64E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000665",
+      "emoji": "🙎🏻",
+      "description": "person pouting: light skin tone",
+      "unicode": [
+        "1F64E",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000666",
+      "emoji": "🙎🏼",
+      "description": "person pouting: medium-light skin tone",
+      "unicode": [
+        "1F64E",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000667",
+      "emoji": "🙎🏽",
+      "description": "person pouting: medium skin tone",
+      "unicode": [
+        "1F64E",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000668",
+      "emoji": "🙎🏾",
+      "description": "person pouting: medium-dark skin tone",
+      "unicode": [
+        "1F64E",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000669",
+      "emoji": "🙎🏿",
+      "description": "person pouting: dark skin tone",
+      "unicode": [
+        "1F64E",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000670",
+      "emoji": "🙎‍♂️",
+      "description": "man pouting",
+      "unicode": [
+        "1F64E",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000671",
+      "emoji": "🙎🏻‍♂️",
+      "description": "man pouting: light skin tone",
+      "unicode": [
+        "1F64E",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000672",
+      "emoji": "🙎🏼‍♂️",
+      "description": "man pouting: medium-light skin tone",
+      "unicode": [
+        "1F64E",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000673",
+      "emoji": "🙎🏽‍♂️",
+      "description": "man pouting: medium skin tone",
+      "unicode": [
+        "1F64E",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000674",
+      "emoji": "🙎🏾‍♂️",
+      "description": "man pouting: medium-dark skin tone",
+      "unicode": [
+        "1F64E",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000675",
+      "emoji": "🙎🏿‍♂️",
+      "description": "man pouting: dark skin tone",
+      "unicode": [
+        "1F64E",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000676",
+      "emoji": "🙎‍♀️",
+      "description": "woman pouting",
+      "unicode": [
+        "1F64E",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000677",
+      "emoji": "🙎🏻‍♀️",
+      "description": "woman pouting: light skin tone",
+      "unicode": [
+        "1F64E",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000678",
+      "emoji": "🙎🏼‍♀️",
+      "description": "woman pouting: medium-light skin tone",
+      "unicode": [
+        "1F64E",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000679",
+      "emoji": "🙎🏽‍♀️",
+      "description": "woman pouting: medium skin tone",
+      "unicode": [
+        "1F64E",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000680",
+      "emoji": "🙎🏾‍♀️",
+      "description": "woman pouting: medium-dark skin tone",
+      "unicode": [
+        "1F64E",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000681",
+      "emoji": "🙎🏿‍♀️",
+      "description": "woman pouting: dark skin tone",
+      "unicode": [
+        "1F64E",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000682",
+      "emoji": "🙅",
+      "description": "person gesturing NO",
+      "unicode": [
+        "1F645"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000683",
+      "emoji": "🙅🏻",
+      "description": "person gesturing NO: light skin tone",
+      "unicode": [
+        "1F645",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000684",
+      "emoji": "🙅🏼",
+      "description": "person gesturing NO: medium-light skin tone",
+      "unicode": [
+        "1F645",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000685",
+      "emoji": "🙅🏽",
+      "description": "person gesturing NO: medium skin tone",
+      "unicode": [
+        "1F645",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000686",
+      "emoji": "🙅🏾",
+      "description": "person gesturing NO: medium-dark skin tone",
+      "unicode": [
+        "1F645",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000687",
+      "emoji": "🙅🏿",
+      "description": "person gesturing NO: dark skin tone",
+      "unicode": [
+        "1F645",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000688",
+      "emoji": "🙅‍♂️",
+      "description": "man gesturing NO",
+      "unicode": [
+        "1F645",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000689",
+      "emoji": "🙅🏻‍♂️",
+      "description": "man gesturing NO: light skin tone",
+      "unicode": [
+        "1F645",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000690",
+      "emoji": "🙅🏼‍♂️",
+      "description": "man gesturing NO: medium-light skin tone",
+      "unicode": [
+        "1F645",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000691",
+      "emoji": "🙅🏽‍♂️",
+      "description": "man gesturing NO: medium skin tone",
+      "unicode": [
+        "1F645",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000692",
+      "emoji": "🙅🏾‍♂️",
+      "description": "man gesturing NO: medium-dark skin tone",
+      "unicode": [
+        "1F645",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000693",
+      "emoji": "🙅🏿‍♂️",
+      "description": "man gesturing NO: dark skin tone",
+      "unicode": [
+        "1F645",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000694",
+      "emoji": "🙅‍♀️",
+      "description": "woman gesturing NO",
+      "unicode": [
+        "1F645",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000695",
+      "emoji": "🙅🏻‍♀️",
+      "description": "woman gesturing NO: light skin tone",
+      "unicode": [
+        "1F645",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000696",
+      "emoji": "🙅🏼‍♀️",
+      "description": "woman gesturing NO: medium-light skin tone",
+      "unicode": [
+        "1F645",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000697",
+      "emoji": "🙅🏽‍♀️",
+      "description": "woman gesturing NO: medium skin tone",
+      "unicode": [
+        "1F645",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000698",
+      "emoji": "🙅🏾‍♀️",
+      "description": "woman gesturing NO: medium-dark skin tone",
+      "unicode": [
+        "1F645",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000699",
+      "emoji": "🙅🏿‍♀️",
+      "description": "woman gesturing NO: dark skin tone",
+      "unicode": [
+        "1F645",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000700",
+      "emoji": "🙆",
+      "description": "person gesturing OK",
+      "unicode": [
+        "1F646"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000701",
+      "emoji": "🙆🏻",
+      "description": "person gesturing OK: light skin tone",
+      "unicode": [
+        "1F646",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000702",
+      "emoji": "🙆🏼",
+      "description": "person gesturing OK: medium-light skin tone",
+      "unicode": [
+        "1F646",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000703",
+      "emoji": "🙆🏽",
+      "description": "person gesturing OK: medium skin tone",
+      "unicode": [
+        "1F646",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000704",
+      "emoji": "🙆🏾",
+      "description": "person gesturing OK: medium-dark skin tone",
+      "unicode": [
+        "1F646",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000705",
+      "emoji": "🙆🏿",
+      "description": "person gesturing OK: dark skin tone",
+      "unicode": [
+        "1F646",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000706",
+      "emoji": "🙆‍♂️",
+      "description": "man gesturing OK",
+      "unicode": [
+        "1F646",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000707",
+      "emoji": "🙆🏻‍♂️",
+      "description": "man gesturing OK: light skin tone",
+      "unicode": [
+        "1F646",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000708",
+      "emoji": "🙆🏼‍♂️",
+      "description": "man gesturing OK: medium-light skin tone",
+      "unicode": [
+        "1F646",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000709",
+      "emoji": "🙆🏽‍♂️",
+      "description": "man gesturing OK: medium skin tone",
+      "unicode": [
+        "1F646",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000710",
+      "emoji": "🙆🏾‍♂️",
+      "description": "man gesturing OK: medium-dark skin tone",
+      "unicode": [
+        "1F646",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000711",
+      "emoji": "🙆🏿‍♂️",
+      "description": "man gesturing OK: dark skin tone",
+      "unicode": [
+        "1F646",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000712",
+      "emoji": "🙆‍♀️",
+      "description": "woman gesturing OK",
+      "unicode": [
+        "1F646",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000713",
+      "emoji": "🙆🏻‍♀️",
+      "description": "woman gesturing OK: light skin tone",
+      "unicode": [
+        "1F646",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000714",
+      "emoji": "🙆🏼‍♀️",
+      "description": "woman gesturing OK: medium-light skin tone",
+      "unicode": [
+        "1F646",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000715",
+      "emoji": "🙆🏽‍♀️",
+      "description": "woman gesturing OK: medium skin tone",
+      "unicode": [
+        "1F646",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000716",
+      "emoji": "🙆🏾‍♀️",
+      "description": "woman gesturing OK: medium-dark skin tone",
+      "unicode": [
+        "1F646",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000717",
+      "emoji": "🙆🏿‍♀️",
+      "description": "woman gesturing OK: dark skin tone",
+      "unicode": [
+        "1F646",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000718",
+      "emoji": "💁",
+      "description": "person tipping hand",
+      "unicode": [
+        "1F481"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000719",
+      "emoji": "💁🏻",
+      "description": "person tipping hand: light skin tone",
+      "unicode": [
+        "1F481",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000720",
+      "emoji": "💁🏼",
+      "description": "person tipping hand: medium-light skin tone",
+      "unicode": [
+        "1F481",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000721",
+      "emoji": "💁🏽",
+      "description": "person tipping hand: medium skin tone",
+      "unicode": [
+        "1F481",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000722",
+      "emoji": "💁🏾",
+      "description": "person tipping hand: medium-dark skin tone",
+      "unicode": [
+        "1F481",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000723",
+      "emoji": "💁🏿",
+      "description": "person tipping hand: dark skin tone",
+      "unicode": [
+        "1F481",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000724",
+      "emoji": "💁‍♂️",
+      "description": "man tipping hand",
+      "unicode": [
+        "1F481",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000725",
+      "emoji": "💁🏻‍♂️",
+      "description": "man tipping hand: light skin tone",
+      "unicode": [
+        "1F481",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000726",
+      "emoji": "💁🏼‍♂️",
+      "description": "man tipping hand: medium-light skin tone",
+      "unicode": [
+        "1F481",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000727",
+      "emoji": "💁🏽‍♂️",
+      "description": "man tipping hand: medium skin tone",
+      "unicode": [
+        "1F481",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000728",
+      "emoji": "💁🏾‍♂️",
+      "description": "man tipping hand: medium-dark skin tone",
+      "unicode": [
+        "1F481",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000729",
+      "emoji": "💁🏿‍♂️",
+      "description": "man tipping hand: dark skin tone",
+      "unicode": [
+        "1F481",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000730",
+      "emoji": "💁‍♀️",
+      "description": "woman tipping hand",
+      "unicode": [
+        "1F481",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000731",
+      "emoji": "💁🏻‍♀️",
+      "description": "woman tipping hand: light skin tone",
+      "unicode": [
+        "1F481",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000732",
+      "emoji": "💁🏼‍♀️",
+      "description": "woman tipping hand: medium-light skin tone",
+      "unicode": [
+        "1F481",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000733",
+      "emoji": "💁🏽‍♀️",
+      "description": "woman tipping hand: medium skin tone",
+      "unicode": [
+        "1F481",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000734",
+      "emoji": "💁🏾‍♀️",
+      "description": "woman tipping hand: medium-dark skin tone",
+      "unicode": [
+        "1F481",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000735",
+      "emoji": "💁🏿‍♀️",
+      "description": "woman tipping hand: dark skin tone",
+      "unicode": [
+        "1F481",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000736",
+      "emoji": "🙋",
+      "description": "person raising hand",
+      "unicode": [
+        "1F64B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000737",
+      "emoji": "🙋🏻",
+      "description": "person raising hand: light skin tone",
+      "unicode": [
+        "1F64B",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000738",
+      "emoji": "🙋🏼",
+      "description": "person raising hand: medium-light skin tone",
+      "unicode": [
+        "1F64B",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000739",
+      "emoji": "🙋🏽",
+      "description": "person raising hand: medium skin tone",
+      "unicode": [
+        "1F64B",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000740",
+      "emoji": "🙋🏾",
+      "description": "person raising hand: medium-dark skin tone",
+      "unicode": [
+        "1F64B",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000741",
+      "emoji": "🙋🏿",
+      "description": "person raising hand: dark skin tone",
+      "unicode": [
+        "1F64B",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000742",
+      "emoji": "🙋‍♂️",
+      "description": "man raising hand",
+      "unicode": [
+        "1F64B",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000743",
+      "emoji": "🙋🏻‍♂️",
+      "description": "man raising hand: light skin tone",
+      "unicode": [
+        "1F64B",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000744",
+      "emoji": "🙋🏼‍♂️",
+      "description": "man raising hand: medium-light skin tone",
+      "unicode": [
+        "1F64B",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000745",
+      "emoji": "🙋🏽‍♂️",
+      "description": "man raising hand: medium skin tone",
+      "unicode": [
+        "1F64B",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000746",
+      "emoji": "🙋🏾‍♂️",
+      "description": "man raising hand: medium-dark skin tone",
+      "unicode": [
+        "1F64B",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000747",
+      "emoji": "🙋🏿‍♂️",
+      "description": "man raising hand: dark skin tone",
+      "unicode": [
+        "1F64B",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000748",
+      "emoji": "🙋‍♀️",
+      "description": "woman raising hand",
+      "unicode": [
+        "1F64B",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000749",
+      "emoji": "🙋🏻‍♀️",
+      "description": "woman raising hand: light skin tone",
+      "unicode": [
+        "1F64B",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000750",
+      "emoji": "🙋🏼‍♀️",
+      "description": "woman raising hand: medium-light skin tone",
+      "unicode": [
+        "1F64B",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000751",
+      "emoji": "🙋🏽‍♀️",
+      "description": "woman raising hand: medium skin tone",
+      "unicode": [
+        "1F64B",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000752",
+      "emoji": "🙋🏾‍♀️",
+      "description": "woman raising hand: medium-dark skin tone",
+      "unicode": [
+        "1F64B",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000753",
+      "emoji": "🙋🏿‍♀️",
+      "description": "woman raising hand: dark skin tone",
+      "unicode": [
+        "1F64B",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000754",
+      "emoji": "🧏",
+      "description": "deaf person",
+      "unicode": [
+        "1F9CF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000755",
+      "emoji": "🧏🏻",
+      "description": "deaf person: light skin tone",
+      "unicode": [
+        "1F9CF",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000756",
+      "emoji": "🧏🏼",
+      "description": "deaf person: medium-light skin tone",
+      "unicode": [
+        "1F9CF",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000757",
+      "emoji": "🧏🏽",
+      "description": "deaf person: medium skin tone",
+      "unicode": [
+        "1F9CF",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000758",
+      "emoji": "🧏🏾",
+      "description": "deaf person: medium-dark skin tone",
+      "unicode": [
+        "1F9CF",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000759",
+      "emoji": "🧏🏿",
+      "description": "deaf person: dark skin tone",
+      "unicode": [
+        "1F9CF",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000760",
+      "emoji": "🧏‍♂️",
+      "description": "deaf man",
+      "unicode": [
+        "1F9CF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000761",
+      "emoji": "🧏🏻‍♂️",
+      "description": "deaf man: light skin tone",
+      "unicode": [
+        "1F9CF",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000762",
+      "emoji": "🧏🏼‍♂️",
+      "description": "deaf man: medium-light skin tone",
+      "unicode": [
+        "1F9CF",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000763",
+      "emoji": "🧏🏽‍♂️",
+      "description": "deaf man: medium skin tone",
+      "unicode": [
+        "1F9CF",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000764",
+      "emoji": "🧏🏾‍♂️",
+      "description": "deaf man: medium-dark skin tone",
+      "unicode": [
+        "1F9CF",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000765",
+      "emoji": "🧏🏿‍♂️",
+      "description": "deaf man: dark skin tone",
+      "unicode": [
+        "1F9CF",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000766",
+      "emoji": "🧏‍♀️",
+      "description": "deaf woman",
+      "unicode": [
+        "1F9CF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000767",
+      "emoji": "🧏🏻‍♀️",
+      "description": "deaf woman: light skin tone",
+      "unicode": [
+        "1F9CF",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000768",
+      "emoji": "🧏🏼‍♀️",
+      "description": "deaf woman: medium-light skin tone",
+      "unicode": [
+        "1F9CF",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000769",
+      "emoji": "🧏🏽‍♀️",
+      "description": "deaf woman: medium skin tone",
+      "unicode": [
+        "1F9CF",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000770",
+      "emoji": "🧏🏾‍♀️",
+      "description": "deaf woman: medium-dark skin tone",
+      "unicode": [
+        "1F9CF",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000771",
+      "emoji": "🧏🏿‍♀️",
+      "description": "deaf woman: dark skin tone",
+      "unicode": [
+        "1F9CF",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "000772",
+      "emoji": "🙇",
+      "description": "person bowing",
+      "unicode": [
+        "1F647"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "000773",
+      "emoji": "🙇🏻",
+      "description": "person bowing: light skin tone",
+      "unicode": [
+        "1F647",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000774",
+      "emoji": "🙇🏼",
+      "description": "person bowing: medium-light skin tone",
+      "unicode": [
+        "1F647",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000775",
+      "emoji": "🙇🏽",
+      "description": "person bowing: medium skin tone",
+      "unicode": [
+        "1F647",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000776",
+      "emoji": "🙇🏾",
+      "description": "person bowing: medium-dark skin tone",
+      "unicode": [
+        "1F647",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000777",
+      "emoji": "🙇🏿",
+      "description": "person bowing: dark skin tone",
+      "unicode": [
+        "1F647",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "000778",
+      "emoji": "🙇‍♂️",
+      "description": "man bowing",
+      "unicode": [
+        "1F647",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000779",
+      "emoji": "🙇🏻‍♂️",
+      "description": "man bowing: light skin tone",
+      "unicode": [
+        "1F647",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000780",
+      "emoji": "🙇🏼‍♂️",
+      "description": "man bowing: medium-light skin tone",
+      "unicode": [
+        "1F647",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000781",
+      "emoji": "🙇🏽‍♂️",
+      "description": "man bowing: medium skin tone",
+      "unicode": [
+        "1F647",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000782",
+      "emoji": "🙇🏾‍♂️",
+      "description": "man bowing: medium-dark skin tone",
+      "unicode": [
+        "1F647",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000783",
+      "emoji": "🙇🏿‍♂️",
+      "description": "man bowing: dark skin tone",
+      "unicode": [
+        "1F647",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000784",
+      "emoji": "🙇‍♀️",
+      "description": "woman bowing",
+      "unicode": [
+        "1F647",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000785",
+      "emoji": "🙇🏻‍♀️",
+      "description": "woman bowing: light skin tone",
+      "unicode": [
+        "1F647",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000786",
+      "emoji": "🙇🏼‍♀️",
+      "description": "woman bowing: medium-light skin tone",
+      "unicode": [
+        "1F647",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000787",
+      "emoji": "🙇🏽‍♀️",
+      "description": "woman bowing: medium skin tone",
+      "unicode": [
+        "1F647",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000788",
+      "emoji": "🙇🏾‍♀️",
+      "description": "woman bowing: medium-dark skin tone",
+      "unicode": [
+        "1F647",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000789",
+      "emoji": "🙇🏿‍♀️",
+      "description": "woman bowing: dark skin tone",
+      "unicode": [
+        "1F647",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000790",
+      "emoji": "🤦",
+      "description": "person facepalming",
+      "unicode": [
+        "1F926"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000791",
+      "emoji": "🤦🏻",
+      "description": "person facepalming: light skin tone",
+      "unicode": [
+        "1F926",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000792",
+      "emoji": "🤦🏼",
+      "description": "person facepalming: medium-light skin tone",
+      "unicode": [
+        "1F926",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000793",
+      "emoji": "🤦🏽",
+      "description": "person facepalming: medium skin tone",
+      "unicode": [
+        "1F926",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000794",
+      "emoji": "🤦🏾",
+      "description": "person facepalming: medium-dark skin tone",
+      "unicode": [
+        "1F926",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000795",
+      "emoji": "🤦🏿",
+      "description": "person facepalming: dark skin tone",
+      "unicode": [
+        "1F926",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000796",
+      "emoji": "🤦‍♂️",
+      "description": "man facepalming",
+      "unicode": [
+        "1F926",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000797",
+      "emoji": "🤦🏻‍♂️",
+      "description": "man facepalming: light skin tone",
+      "unicode": [
+        "1F926",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000798",
+      "emoji": "🤦🏼‍♂️",
+      "description": "man facepalming: medium-light skin tone",
+      "unicode": [
+        "1F926",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000799",
+      "emoji": "🤦🏽‍♂️",
+      "description": "man facepalming: medium skin tone",
+      "unicode": [
+        "1F926",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000800",
+      "emoji": "🤦🏾‍♂️",
+      "description": "man facepalming: medium-dark skin tone",
+      "unicode": [
+        "1F926",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000801",
+      "emoji": "🤦🏿‍♂️",
+      "description": "man facepalming: dark skin tone",
+      "unicode": [
+        "1F926",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000802",
+      "emoji": "🤦‍♀️",
+      "description": "woman facepalming",
+      "unicode": [
+        "1F926",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000803",
+      "emoji": "🤦🏻‍♀️",
+      "description": "woman facepalming: light skin tone",
+      "unicode": [
+        "1F926",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000804",
+      "emoji": "🤦🏼‍♀️",
+      "description": "woman facepalming: medium-light skin tone",
+      "unicode": [
+        "1F926",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000805",
+      "emoji": "🤦🏽‍♀️",
+      "description": "woman facepalming: medium skin tone",
+      "unicode": [
+        "1F926",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000806",
+      "emoji": "🤦🏾‍♀️",
+      "description": "woman facepalming: medium-dark skin tone",
+      "unicode": [
+        "1F926",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000807",
+      "emoji": "🤦🏿‍♀️",
+      "description": "woman facepalming: dark skin tone",
+      "unicode": [
+        "1F926",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000808",
+      "emoji": "🤷",
+      "description": "person shrugging",
+      "unicode": [
+        "1F937"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000809",
+      "emoji": "🤷🏻",
+      "description": "person shrugging: light skin tone",
+      "unicode": [
+        "1F937",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000810",
+      "emoji": "🤷🏼",
+      "description": "person shrugging: medium-light skin tone",
+      "unicode": [
+        "1F937",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000811",
+      "emoji": "🤷🏽",
+      "description": "person shrugging: medium skin tone",
+      "unicode": [
+        "1F937",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000812",
+      "emoji": "🤷🏾",
+      "description": "person shrugging: medium-dark skin tone",
+      "unicode": [
+        "1F937",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000813",
+      "emoji": "🤷🏿",
+      "description": "person shrugging: dark skin tone",
+      "unicode": [
+        "1F937",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "000814",
+      "emoji": "🤷‍♂️",
+      "description": "man shrugging",
+      "unicode": [
+        "1F937",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000815",
+      "emoji": "🤷🏻‍♂️",
+      "description": "man shrugging: light skin tone",
+      "unicode": [
+        "1F937",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000816",
+      "emoji": "🤷🏼‍♂️",
+      "description": "man shrugging: medium-light skin tone",
+      "unicode": [
+        "1F937",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000817",
+      "emoji": "🤷🏽‍♂️",
+      "description": "man shrugging: medium skin tone",
+      "unicode": [
+        "1F937",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000818",
+      "emoji": "🤷🏾‍♂️",
+      "description": "man shrugging: medium-dark skin tone",
+      "unicode": [
+        "1F937",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000819",
+      "emoji": "🤷🏿‍♂️",
+      "description": "man shrugging: dark skin tone",
+      "unicode": [
+        "1F937",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000820",
+      "emoji": "🤷‍♀️",
+      "description": "woman shrugging",
+      "unicode": [
+        "1F937",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000821",
+      "emoji": "🤷🏻‍♀️",
+      "description": "woman shrugging: light skin tone",
+      "unicode": [
+        "1F937",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000822",
+      "emoji": "🤷🏼‍♀️",
+      "description": "woman shrugging: medium-light skin tone",
+      "unicode": [
+        "1F937",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000823",
+      "emoji": "🤷🏽‍♀️",
+      "description": "woman shrugging: medium skin tone",
+      "unicode": [
+        "1F937",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000824",
+      "emoji": "🤷🏾‍♀️",
+      "description": "woman shrugging: medium-dark skin tone",
+      "unicode": [
+        "1F937",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000825",
+      "emoji": "🤷🏿‍♀️",
+      "description": "woman shrugging: dark skin tone",
+      "unicode": [
+        "1F937",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000826",
+      "emoji": "🧑‍⚕️",
+      "description": "health worker",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000827",
+      "emoji": "🧑🏻‍⚕️",
+      "description": "health worker: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000828",
+      "emoji": "🧑🏼‍⚕️",
+      "description": "health worker: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000829",
+      "emoji": "🧑🏽‍⚕️",
+      "description": "health worker: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000830",
+      "emoji": "🧑🏾‍⚕️",
+      "description": "health worker: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000831",
+      "emoji": "🧑🏿‍⚕️",
+      "description": "health worker: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000832",
+      "emoji": "👨‍⚕️",
+      "description": "man health worker",
+      "unicode": [
+        "1F468",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000833",
+      "emoji": "👨🏻‍⚕️",
+      "description": "man health worker: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000834",
+      "emoji": "👨🏼‍⚕️",
+      "description": "man health worker: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000835",
+      "emoji": "👨🏽‍⚕️",
+      "description": "man health worker: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000836",
+      "emoji": "👨🏾‍⚕️",
+      "description": "man health worker: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000837",
+      "emoji": "👨🏿‍⚕️",
+      "description": "man health worker: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000838",
+      "emoji": "👩‍⚕️",
+      "description": "woman health worker",
+      "unicode": [
+        "1F469",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000839",
+      "emoji": "👩🏻‍⚕️",
+      "description": "woman health worker: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000840",
+      "emoji": "👩🏼‍⚕️",
+      "description": "woman health worker: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000841",
+      "emoji": "👩🏽‍⚕️",
+      "description": "woman health worker: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000842",
+      "emoji": "👩🏾‍⚕️",
+      "description": "woman health worker: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000843",
+      "emoji": "👩🏿‍⚕️",
+      "description": "woman health worker: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000844",
+      "emoji": "🧑‍🎓",
+      "description": "student",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000845",
+      "emoji": "🧑🏻‍🎓",
+      "description": "student: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000846",
+      "emoji": "🧑🏼‍🎓",
+      "description": "student: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000847",
+      "emoji": "🧑🏽‍🎓",
+      "description": "student: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000848",
+      "emoji": "🧑🏾‍🎓",
+      "description": "student: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000849",
+      "emoji": "🧑🏿‍🎓",
+      "description": "student: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000850",
+      "emoji": "👨‍🎓",
+      "description": "man student",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000851",
+      "emoji": "👨🏻‍🎓",
+      "description": "man student: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000852",
+      "emoji": "👨🏼‍🎓",
+      "description": "man student: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000853",
+      "emoji": "👨🏽‍🎓",
+      "description": "man student: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000854",
+      "emoji": "👨🏾‍🎓",
+      "description": "man student: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000855",
+      "emoji": "👨🏿‍🎓",
+      "description": "man student: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000856",
+      "emoji": "👩‍🎓",
+      "description": "woman student",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000857",
+      "emoji": "👩🏻‍🎓",
+      "description": "woman student: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000858",
+      "emoji": "👩🏼‍🎓",
+      "description": "woman student: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000859",
+      "emoji": "👩🏽‍🎓",
+      "description": "woman student: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000860",
+      "emoji": "👩🏾‍🎓",
+      "description": "woman student: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000861",
+      "emoji": "👩🏿‍🎓",
+      "description": "woman student: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F393"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000862",
+      "emoji": "🧑‍🏫",
+      "description": "teacher",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000863",
+      "emoji": "🧑🏻‍🏫",
+      "description": "teacher: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000864",
+      "emoji": "🧑🏼‍🏫",
+      "description": "teacher: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000865",
+      "emoji": "🧑🏽‍🏫",
+      "description": "teacher: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000866",
+      "emoji": "🧑🏾‍🏫",
+      "description": "teacher: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000867",
+      "emoji": "🧑🏿‍🏫",
+      "description": "teacher: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000868",
+      "emoji": "👨‍🏫",
+      "description": "man teacher",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000869",
+      "emoji": "👨🏻‍🏫",
+      "description": "man teacher: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000870",
+      "emoji": "👨🏼‍🏫",
+      "description": "man teacher: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000871",
+      "emoji": "👨🏽‍🏫",
+      "description": "man teacher: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000872",
+      "emoji": "👨🏾‍🏫",
+      "description": "man teacher: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000873",
+      "emoji": "👨🏿‍🏫",
+      "description": "man teacher: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000874",
+      "emoji": "👩‍🏫",
+      "description": "woman teacher",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000875",
+      "emoji": "👩🏻‍🏫",
+      "description": "woman teacher: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000876",
+      "emoji": "👩🏼‍🏫",
+      "description": "woman teacher: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000877",
+      "emoji": "👩🏽‍🏫",
+      "description": "woman teacher: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000878",
+      "emoji": "👩🏾‍🏫",
+      "description": "woman teacher: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000879",
+      "emoji": "👩🏿‍🏫",
+      "description": "woman teacher: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F3EB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000880",
+      "emoji": "🧑‍⚖️",
+      "description": "judge",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000881",
+      "emoji": "🧑🏻‍⚖️",
+      "description": "judge: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000882",
+      "emoji": "🧑🏼‍⚖️",
+      "description": "judge: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000883",
+      "emoji": "🧑🏽‍⚖️",
+      "description": "judge: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000884",
+      "emoji": "🧑🏾‍⚖️",
+      "description": "judge: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000885",
+      "emoji": "🧑🏿‍⚖️",
+      "description": "judge: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000886",
+      "emoji": "👨‍⚖️",
+      "description": "man judge",
+      "unicode": [
+        "1F468",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000887",
+      "emoji": "👨🏻‍⚖️",
+      "description": "man judge: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000888",
+      "emoji": "👨🏼‍⚖️",
+      "description": "man judge: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000889",
+      "emoji": "👨🏽‍⚖️",
+      "description": "man judge: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000890",
+      "emoji": "👨🏾‍⚖️",
+      "description": "man judge: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000891",
+      "emoji": "👨🏿‍⚖️",
+      "description": "man judge: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000892",
+      "emoji": "👩‍⚖️",
+      "description": "woman judge",
+      "unicode": [
+        "1F469",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000893",
+      "emoji": "👩🏻‍⚖️",
+      "description": "woman judge: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000894",
+      "emoji": "👩🏼‍⚖️",
+      "description": "woman judge: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000895",
+      "emoji": "👩🏽‍⚖️",
+      "description": "woman judge: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000896",
+      "emoji": "👩🏾‍⚖️",
+      "description": "woman judge: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000897",
+      "emoji": "👩🏿‍⚖️",
+      "description": "woman judge: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000898",
+      "emoji": "🧑‍🌾",
+      "description": "farmer",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000899",
+      "emoji": "🧑🏻‍🌾",
+      "description": "farmer: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000900",
+      "emoji": "🧑🏼‍🌾",
+      "description": "farmer: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000901",
+      "emoji": "🧑🏽‍🌾",
+      "description": "farmer: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000902",
+      "emoji": "🧑🏾‍🌾",
+      "description": "farmer: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000903",
+      "emoji": "🧑🏿‍🌾",
+      "description": "farmer: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000904",
+      "emoji": "👨‍🌾",
+      "description": "man farmer",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000905",
+      "emoji": "👨🏻‍🌾",
+      "description": "man farmer: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000906",
+      "emoji": "👨🏼‍🌾",
+      "description": "man farmer: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000907",
+      "emoji": "👨🏽‍🌾",
+      "description": "man farmer: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000908",
+      "emoji": "👨🏾‍🌾",
+      "description": "man farmer: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000909",
+      "emoji": "👨🏿‍🌾",
+      "description": "man farmer: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000910",
+      "emoji": "👩‍🌾",
+      "description": "woman farmer",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000911",
+      "emoji": "👩🏻‍🌾",
+      "description": "woman farmer: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000912",
+      "emoji": "👩🏼‍🌾",
+      "description": "woman farmer: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000913",
+      "emoji": "👩🏽‍🌾",
+      "description": "woman farmer: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000914",
+      "emoji": "👩🏾‍🌾",
+      "description": "woman farmer: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000915",
+      "emoji": "👩🏿‍🌾",
+      "description": "woman farmer: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F33E"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000916",
+      "emoji": "🧑‍🍳",
+      "description": "cook",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000917",
+      "emoji": "🧑🏻‍🍳",
+      "description": "cook: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000918",
+      "emoji": "🧑🏼‍🍳",
+      "description": "cook: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000919",
+      "emoji": "🧑🏽‍🍳",
+      "description": "cook: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000920",
+      "emoji": "🧑🏾‍🍳",
+      "description": "cook: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000921",
+      "emoji": "🧑🏿‍🍳",
+      "description": "cook: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000922",
+      "emoji": "👨‍🍳",
+      "description": "man cook",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000923",
+      "emoji": "👨🏻‍🍳",
+      "description": "man cook: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000924",
+      "emoji": "👨🏼‍🍳",
+      "description": "man cook: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000925",
+      "emoji": "👨🏽‍🍳",
+      "description": "man cook: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000926",
+      "emoji": "👨🏾‍🍳",
+      "description": "man cook: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000927",
+      "emoji": "👨🏿‍🍳",
+      "description": "man cook: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000928",
+      "emoji": "👩‍🍳",
+      "description": "woman cook",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000929",
+      "emoji": "👩🏻‍🍳",
+      "description": "woman cook: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000930",
+      "emoji": "👩🏼‍🍳",
+      "description": "woman cook: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000931",
+      "emoji": "👩🏽‍🍳",
+      "description": "woman cook: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000932",
+      "emoji": "👩🏾‍🍳",
+      "description": "woman cook: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000933",
+      "emoji": "👩🏿‍🍳",
+      "description": "woman cook: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F373"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000934",
+      "emoji": "🧑‍🔧",
+      "description": "mechanic",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000935",
+      "emoji": "🧑🏻‍🔧",
+      "description": "mechanic: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000936",
+      "emoji": "🧑🏼‍🔧",
+      "description": "mechanic: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000937",
+      "emoji": "🧑🏽‍🔧",
+      "description": "mechanic: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000938",
+      "emoji": "🧑🏾‍🔧",
+      "description": "mechanic: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000939",
+      "emoji": "🧑🏿‍🔧",
+      "description": "mechanic: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000940",
+      "emoji": "👨‍🔧",
+      "description": "man mechanic",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000941",
+      "emoji": "👨🏻‍🔧",
+      "description": "man mechanic: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000942",
+      "emoji": "👨🏼‍🔧",
+      "description": "man mechanic: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000943",
+      "emoji": "👨🏽‍🔧",
+      "description": "man mechanic: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000944",
+      "emoji": "👨🏾‍🔧",
+      "description": "man mechanic: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000945",
+      "emoji": "👨🏿‍🔧",
+      "description": "man mechanic: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000946",
+      "emoji": "👩‍🔧",
+      "description": "woman mechanic",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000947",
+      "emoji": "👩🏻‍🔧",
+      "description": "woman mechanic: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000948",
+      "emoji": "👩🏼‍🔧",
+      "description": "woman mechanic: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000949",
+      "emoji": "👩🏽‍🔧",
+      "description": "woman mechanic: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000950",
+      "emoji": "👩🏾‍🔧",
+      "description": "woman mechanic: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000951",
+      "emoji": "👩🏿‍🔧",
+      "description": "woman mechanic: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F527"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000952",
+      "emoji": "🧑‍🏭",
+      "description": "factory worker",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000953",
+      "emoji": "🧑🏻‍🏭",
+      "description": "factory worker: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000954",
+      "emoji": "🧑🏼‍🏭",
+      "description": "factory worker: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000955",
+      "emoji": "🧑🏽‍🏭",
+      "description": "factory worker: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000956",
+      "emoji": "🧑🏾‍🏭",
+      "description": "factory worker: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000957",
+      "emoji": "🧑🏿‍🏭",
+      "description": "factory worker: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000958",
+      "emoji": "👨‍🏭",
+      "description": "man factory worker",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000959",
+      "emoji": "👨🏻‍🏭",
+      "description": "man factory worker: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000960",
+      "emoji": "👨🏼‍🏭",
+      "description": "man factory worker: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000961",
+      "emoji": "👨🏽‍🏭",
+      "description": "man factory worker: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000962",
+      "emoji": "👨🏾‍🏭",
+      "description": "man factory worker: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000963",
+      "emoji": "👨🏿‍🏭",
+      "description": "man factory worker: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000964",
+      "emoji": "👩‍🏭",
+      "description": "woman factory worker",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000965",
+      "emoji": "👩🏻‍🏭",
+      "description": "woman factory worker: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000966",
+      "emoji": "👩🏼‍🏭",
+      "description": "woman factory worker: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000967",
+      "emoji": "👩🏽‍🏭",
+      "description": "woman factory worker: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000968",
+      "emoji": "👩🏾‍🏭",
+      "description": "woman factory worker: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000969",
+      "emoji": "👩🏿‍🏭",
+      "description": "woman factory worker: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F3ED"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000970",
+      "emoji": "🧑‍💼",
+      "description": "office worker",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000971",
+      "emoji": "🧑🏻‍💼",
+      "description": "office worker: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000972",
+      "emoji": "🧑🏼‍💼",
+      "description": "office worker: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000973",
+      "emoji": "🧑🏽‍💼",
+      "description": "office worker: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000974",
+      "emoji": "🧑🏾‍💼",
+      "description": "office worker: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000975",
+      "emoji": "🧑🏿‍💼",
+      "description": "office worker: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000976",
+      "emoji": "👨‍💼",
+      "description": "man office worker",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000977",
+      "emoji": "👨🏻‍💼",
+      "description": "man office worker: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000978",
+      "emoji": "👨🏼‍💼",
+      "description": "man office worker: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000979",
+      "emoji": "👨🏽‍💼",
+      "description": "man office worker: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000980",
+      "emoji": "👨🏾‍💼",
+      "description": "man office worker: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000981",
+      "emoji": "👨🏿‍💼",
+      "description": "man office worker: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000982",
+      "emoji": "👩‍💼",
+      "description": "woman office worker",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000983",
+      "emoji": "👩🏻‍💼",
+      "description": "woman office worker: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000984",
+      "emoji": "👩🏼‍💼",
+      "description": "woman office worker: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000985",
+      "emoji": "👩🏽‍💼",
+      "description": "woman office worker: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000986",
+      "emoji": "👩🏾‍💼",
+      "description": "woman office worker: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000987",
+      "emoji": "👩🏿‍💼",
+      "description": "woman office worker: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F4BC"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000988",
+      "emoji": "🧑‍🔬",
+      "description": "scientist",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000989",
+      "emoji": "🧑🏻‍🔬",
+      "description": "scientist: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000990",
+      "emoji": "🧑🏼‍🔬",
+      "description": "scientist: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000991",
+      "emoji": "🧑🏽‍🔬",
+      "description": "scientist: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000992",
+      "emoji": "🧑🏾‍🔬",
+      "description": "scientist: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000993",
+      "emoji": "🧑🏿‍🔬",
+      "description": "scientist: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "000994",
+      "emoji": "👨‍🔬",
+      "description": "man scientist",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000995",
+      "emoji": "👨🏻‍🔬",
+      "description": "man scientist: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000996",
+      "emoji": "👨🏼‍🔬",
+      "description": "man scientist: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000997",
+      "emoji": "👨🏽‍🔬",
+      "description": "man scientist: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000998",
+      "emoji": "👨🏾‍🔬",
+      "description": "man scientist: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "000999",
+      "emoji": "👨🏿‍🔬",
+      "description": "man scientist: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001000",
+      "emoji": "👩‍🔬",
+      "description": "woman scientist",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001001",
+      "emoji": "👩🏻‍🔬",
+      "description": "woman scientist: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001002",
+      "emoji": "👩🏼‍🔬",
+      "description": "woman scientist: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001003",
+      "emoji": "👩🏽‍🔬",
+      "description": "woman scientist: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001004",
+      "emoji": "👩🏾‍🔬",
+      "description": "woman scientist: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001005",
+      "emoji": "👩🏿‍🔬",
+      "description": "woman scientist: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F52C"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001006",
+      "emoji": "🧑‍💻",
+      "description": "technologist",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001007",
+      "emoji": "🧑🏻‍💻",
+      "description": "technologist: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001008",
+      "emoji": "🧑🏼‍💻",
+      "description": "technologist: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001009",
+      "emoji": "🧑🏽‍💻",
+      "description": "technologist: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001010",
+      "emoji": "🧑🏾‍💻",
+      "description": "technologist: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001011",
+      "emoji": "🧑🏿‍💻",
+      "description": "technologist: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001012",
+      "emoji": "👨‍💻",
+      "description": "man technologist",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001013",
+      "emoji": "👨🏻‍💻",
+      "description": "man technologist: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001014",
+      "emoji": "👨🏼‍💻",
+      "description": "man technologist: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001015",
+      "emoji": "👨🏽‍💻",
+      "description": "man technologist: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001016",
+      "emoji": "👨🏾‍💻",
+      "description": "man technologist: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001017",
+      "emoji": "👨🏿‍💻",
+      "description": "man technologist: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001018",
+      "emoji": "👩‍💻",
+      "description": "woman technologist",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001019",
+      "emoji": "👩🏻‍💻",
+      "description": "woman technologist: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001020",
+      "emoji": "👩🏼‍💻",
+      "description": "woman technologist: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001021",
+      "emoji": "👩🏽‍💻",
+      "description": "woman technologist: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001022",
+      "emoji": "👩🏾‍💻",
+      "description": "woman technologist: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001023",
+      "emoji": "👩🏿‍💻",
+      "description": "woman technologist: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F4BB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001024",
+      "emoji": "🧑‍🎤",
+      "description": "singer",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001025",
+      "emoji": "🧑🏻‍🎤",
+      "description": "singer: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001026",
+      "emoji": "🧑🏼‍🎤",
+      "description": "singer: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001027",
+      "emoji": "🧑🏽‍🎤",
+      "description": "singer: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001028",
+      "emoji": "🧑🏾‍🎤",
+      "description": "singer: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001029",
+      "emoji": "🧑🏿‍🎤",
+      "description": "singer: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001030",
+      "emoji": "👨‍🎤",
+      "description": "man singer",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001031",
+      "emoji": "👨🏻‍🎤",
+      "description": "man singer: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001032",
+      "emoji": "👨🏼‍🎤",
+      "description": "man singer: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001033",
+      "emoji": "👨🏽‍🎤",
+      "description": "man singer: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001034",
+      "emoji": "👨🏾‍🎤",
+      "description": "man singer: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001035",
+      "emoji": "👨🏿‍🎤",
+      "description": "man singer: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001036",
+      "emoji": "👩‍🎤",
+      "description": "woman singer",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001037",
+      "emoji": "👩🏻‍🎤",
+      "description": "woman singer: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001038",
+      "emoji": "👩🏼‍🎤",
+      "description": "woman singer: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001039",
+      "emoji": "👩🏽‍🎤",
+      "description": "woman singer: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001040",
+      "emoji": "👩🏾‍🎤",
+      "description": "woman singer: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001041",
+      "emoji": "👩🏿‍🎤",
+      "description": "woman singer: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F3A4"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001042",
+      "emoji": "🧑‍🎨",
+      "description": "artist",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001043",
+      "emoji": "🧑🏻‍🎨",
+      "description": "artist: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001044",
+      "emoji": "🧑🏼‍🎨",
+      "description": "artist: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001045",
+      "emoji": "🧑🏽‍🎨",
+      "description": "artist: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001046",
+      "emoji": "🧑🏾‍🎨",
+      "description": "artist: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001047",
+      "emoji": "🧑🏿‍🎨",
+      "description": "artist: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001048",
+      "emoji": "👨‍🎨",
+      "description": "man artist",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001049",
+      "emoji": "👨🏻‍🎨",
+      "description": "man artist: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001050",
+      "emoji": "👨🏼‍🎨",
+      "description": "man artist: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001051",
+      "emoji": "👨🏽‍🎨",
+      "description": "man artist: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001052",
+      "emoji": "👨🏾‍🎨",
+      "description": "man artist: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001053",
+      "emoji": "👨🏿‍🎨",
+      "description": "man artist: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001054",
+      "emoji": "👩‍🎨",
+      "description": "woman artist",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001055",
+      "emoji": "👩🏻‍🎨",
+      "description": "woman artist: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001056",
+      "emoji": "👩🏼‍🎨",
+      "description": "woman artist: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001057",
+      "emoji": "👩🏽‍🎨",
+      "description": "woman artist: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001058",
+      "emoji": "👩🏾‍🎨",
+      "description": "woman artist: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001059",
+      "emoji": "👩🏿‍🎨",
+      "description": "woman artist: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F3A8"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001060",
+      "emoji": "🧑‍✈️",
+      "description": "pilot",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001061",
+      "emoji": "🧑🏻‍✈️",
+      "description": "pilot: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001062",
+      "emoji": "🧑🏼‍✈️",
+      "description": "pilot: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001063",
+      "emoji": "🧑🏽‍✈️",
+      "description": "pilot: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001064",
+      "emoji": "🧑🏾‍✈️",
+      "description": "pilot: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001065",
+      "emoji": "🧑🏿‍✈️",
+      "description": "pilot: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001066",
+      "emoji": "👨‍✈️",
+      "description": "man pilot",
+      "unicode": [
+        "1F468",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001067",
+      "emoji": "👨🏻‍✈️",
+      "description": "man pilot: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001068",
+      "emoji": "👨🏼‍✈️",
+      "description": "man pilot: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001069",
+      "emoji": "👨🏽‍✈️",
+      "description": "man pilot: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001070",
+      "emoji": "👨🏾‍✈️",
+      "description": "man pilot: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001071",
+      "emoji": "👨🏿‍✈️",
+      "description": "man pilot: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001072",
+      "emoji": "👩‍✈️",
+      "description": "woman pilot",
+      "unicode": [
+        "1F469",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001073",
+      "emoji": "👩🏻‍✈️",
+      "description": "woman pilot: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001074",
+      "emoji": "👩🏼‍✈️",
+      "description": "woman pilot: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001075",
+      "emoji": "👩🏽‍✈️",
+      "description": "woman pilot: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001076",
+      "emoji": "👩🏾‍✈️",
+      "description": "woman pilot: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001077",
+      "emoji": "👩🏿‍✈️",
+      "description": "woman pilot: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001078",
+      "emoji": "🧑‍🚀",
+      "description": "astronaut",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001079",
+      "emoji": "🧑🏻‍🚀",
+      "description": "astronaut: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001080",
+      "emoji": "🧑🏼‍🚀",
+      "description": "astronaut: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001081",
+      "emoji": "🧑🏽‍🚀",
+      "description": "astronaut: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001082",
+      "emoji": "🧑🏾‍🚀",
+      "description": "astronaut: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001083",
+      "emoji": "🧑🏿‍🚀",
+      "description": "astronaut: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001084",
+      "emoji": "👨‍🚀",
+      "description": "man astronaut",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001085",
+      "emoji": "👨🏻‍🚀",
+      "description": "man astronaut: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001086",
+      "emoji": "👨🏼‍🚀",
+      "description": "man astronaut: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001087",
+      "emoji": "👨🏽‍🚀",
+      "description": "man astronaut: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001088",
+      "emoji": "👨🏾‍🚀",
+      "description": "man astronaut: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001089",
+      "emoji": "👨🏿‍🚀",
+      "description": "man astronaut: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001090",
+      "emoji": "👩‍🚀",
+      "description": "woman astronaut",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001091",
+      "emoji": "👩🏻‍🚀",
+      "description": "woman astronaut: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001092",
+      "emoji": "👩🏼‍🚀",
+      "description": "woman astronaut: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001093",
+      "emoji": "👩🏽‍🚀",
+      "description": "woman astronaut: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001094",
+      "emoji": "👩🏾‍🚀",
+      "description": "woman astronaut: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001095",
+      "emoji": "👩🏿‍🚀",
+      "description": "woman astronaut: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F680"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001096",
+      "emoji": "🧑‍🚒",
+      "description": "firefighter",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001097",
+      "emoji": "🧑🏻‍🚒",
+      "description": "firefighter: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001098",
+      "emoji": "🧑🏼‍🚒",
+      "description": "firefighter: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001099",
+      "emoji": "🧑🏽‍🚒",
+      "description": "firefighter: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001100",
+      "emoji": "🧑🏾‍🚒",
+      "description": "firefighter: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001101",
+      "emoji": "🧑🏿‍🚒",
+      "description": "firefighter: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001102",
+      "emoji": "👨‍🚒",
+      "description": "man firefighter",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001103",
+      "emoji": "👨🏻‍🚒",
+      "description": "man firefighter: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001104",
+      "emoji": "👨🏼‍🚒",
+      "description": "man firefighter: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001105",
+      "emoji": "👨🏽‍🚒",
+      "description": "man firefighter: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001106",
+      "emoji": "👨🏾‍🚒",
+      "description": "man firefighter: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001107",
+      "emoji": "👨🏿‍🚒",
+      "description": "man firefighter: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001108",
+      "emoji": "👩‍🚒",
+      "description": "woman firefighter",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001109",
+      "emoji": "👩🏻‍🚒",
+      "description": "woman firefighter: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001110",
+      "emoji": "👩🏼‍🚒",
+      "description": "woman firefighter: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001111",
+      "emoji": "👩🏽‍🚒",
+      "description": "woman firefighter: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001112",
+      "emoji": "👩🏾‍🚒",
+      "description": "woman firefighter: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001113",
+      "emoji": "👩🏿‍🚒",
+      "description": "woman firefighter: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F692"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001114",
+      "emoji": "👮",
+      "description": "police officer",
+      "unicode": [
+        "1F46E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001115",
+      "emoji": "👮🏻",
+      "description": "police officer: light skin tone",
+      "unicode": [
+        "1F46E",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001116",
+      "emoji": "👮🏼",
+      "description": "police officer: medium-light skin tone",
+      "unicode": [
+        "1F46E",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001117",
+      "emoji": "👮🏽",
+      "description": "police officer: medium skin tone",
+      "unicode": [
+        "1F46E",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001118",
+      "emoji": "👮🏾",
+      "description": "police officer: medium-dark skin tone",
+      "unicode": [
+        "1F46E",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001119",
+      "emoji": "👮🏿",
+      "description": "police officer: dark skin tone",
+      "unicode": [
+        "1F46E",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001120",
+      "emoji": "👮‍♂️",
+      "description": "man police officer",
+      "unicode": [
+        "1F46E",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001121",
+      "emoji": "👮🏻‍♂️",
+      "description": "man police officer: light skin tone",
+      "unicode": [
+        "1F46E",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001122",
+      "emoji": "👮🏼‍♂️",
+      "description": "man police officer: medium-light skin tone",
+      "unicode": [
+        "1F46E",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001123",
+      "emoji": "👮🏽‍♂️",
+      "description": "man police officer: medium skin tone",
+      "unicode": [
+        "1F46E",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001124",
+      "emoji": "👮🏾‍♂️",
+      "description": "man police officer: medium-dark skin tone",
+      "unicode": [
+        "1F46E",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001125",
+      "emoji": "👮🏿‍♂️",
+      "description": "man police officer: dark skin tone",
+      "unicode": [
+        "1F46E",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001126",
+      "emoji": "👮‍♀️",
+      "description": "woman police officer",
+      "unicode": [
+        "1F46E",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001127",
+      "emoji": "👮🏻‍♀️",
+      "description": "woman police officer: light skin tone",
+      "unicode": [
+        "1F46E",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001128",
+      "emoji": "👮🏼‍♀️",
+      "description": "woman police officer: medium-light skin tone",
+      "unicode": [
+        "1F46E",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001129",
+      "emoji": "👮🏽‍♀️",
+      "description": "woman police officer: medium skin tone",
+      "unicode": [
+        "1F46E",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001130",
+      "emoji": "👮🏾‍♀️",
+      "description": "woman police officer: medium-dark skin tone",
+      "unicode": [
+        "1F46E",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001131",
+      "emoji": "👮🏿‍♀️",
+      "description": "woman police officer: dark skin tone",
+      "unicode": [
+        "1F46E",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001132",
+      "emoji": "🕵️",
+      "description": "detective",
+      "unicode": [
+        "1F575",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "001133",
+      "emoji": "🕵🏻",
+      "description": "detective: light skin tone",
+      "unicode": [
+        "1F575",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "001134",
+      "emoji": "🕵🏼",
+      "description": "detective: medium-light skin tone",
+      "unicode": [
+        "1F575",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "001135",
+      "emoji": "🕵🏽",
+      "description": "detective: medium skin tone",
+      "unicode": [
+        "1F575",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "001136",
+      "emoji": "🕵🏾",
+      "description": "detective: medium-dark skin tone",
+      "unicode": [
+        "1F575",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "001137",
+      "emoji": "🕵🏿",
+      "description": "detective: dark skin tone",
+      "unicode": [
+        "1F575",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "001138",
+      "emoji": "🕵️‍♂️",
+      "description": "man detective",
+      "unicode": [
+        "1F575",
+        "FE0F",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001139",
+      "emoji": "🕵🏻‍♂️",
+      "description": "man detective: light skin tone",
+      "unicode": [
+        "1F575",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001140",
+      "emoji": "🕵🏼‍♂️",
+      "description": "man detective: medium-light skin tone",
+      "unicode": [
+        "1F575",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001141",
+      "emoji": "🕵🏽‍♂️",
+      "description": "man detective: medium skin tone",
+      "unicode": [
+        "1F575",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001142",
+      "emoji": "🕵🏾‍♂️",
+      "description": "man detective: medium-dark skin tone",
+      "unicode": [
+        "1F575",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001143",
+      "emoji": "🕵🏿‍♂️",
+      "description": "man detective: dark skin tone",
+      "unicode": [
+        "1F575",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001144",
+      "emoji": "🕵️‍♀️",
+      "description": "woman detective",
+      "unicode": [
+        "1F575",
+        "FE0F",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001145",
+      "emoji": "🕵🏻‍♀️",
+      "description": "woman detective: light skin tone",
+      "unicode": [
+        "1F575",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001146",
+      "emoji": "🕵🏼‍♀️",
+      "description": "woman detective: medium-light skin tone",
+      "unicode": [
+        "1F575",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001147",
+      "emoji": "🕵🏽‍♀️",
+      "description": "woman detective: medium skin tone",
+      "unicode": [
+        "1F575",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001148",
+      "emoji": "🕵🏾‍♀️",
+      "description": "woman detective: medium-dark skin tone",
+      "unicode": [
+        "1F575",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001149",
+      "emoji": "🕵🏿‍♀️",
+      "description": "woman detective: dark skin tone",
+      "unicode": [
+        "1F575",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001150",
+      "emoji": "💂",
+      "description": "guard",
+      "unicode": [
+        "1F482"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001151",
+      "emoji": "💂🏻",
+      "description": "guard: light skin tone",
+      "unicode": [
+        "1F482",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001152",
+      "emoji": "💂🏼",
+      "description": "guard: medium-light skin tone",
+      "unicode": [
+        "1F482",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001153",
+      "emoji": "💂🏽",
+      "description": "guard: medium skin tone",
+      "unicode": [
+        "1F482",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001154",
+      "emoji": "💂🏾",
+      "description": "guard: medium-dark skin tone",
+      "unicode": [
+        "1F482",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001155",
+      "emoji": "💂🏿",
+      "description": "guard: dark skin tone",
+      "unicode": [
+        "1F482",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001156",
+      "emoji": "💂‍♂️",
+      "description": "man guard",
+      "unicode": [
+        "1F482",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001157",
+      "emoji": "💂🏻‍♂️",
+      "description": "man guard: light skin tone",
+      "unicode": [
+        "1F482",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001158",
+      "emoji": "💂🏼‍♂️",
+      "description": "man guard: medium-light skin tone",
+      "unicode": [
+        "1F482",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001159",
+      "emoji": "💂🏽‍♂️",
+      "description": "man guard: medium skin tone",
+      "unicode": [
+        "1F482",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001160",
+      "emoji": "💂🏾‍♂️",
+      "description": "man guard: medium-dark skin tone",
+      "unicode": [
+        "1F482",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001161",
+      "emoji": "💂🏿‍♂️",
+      "description": "man guard: dark skin tone",
+      "unicode": [
+        "1F482",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001162",
+      "emoji": "💂‍♀️",
+      "description": "woman guard",
+      "unicode": [
+        "1F482",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001163",
+      "emoji": "💂🏻‍♀️",
+      "description": "woman guard: light skin tone",
+      "unicode": [
+        "1F482",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001164",
+      "emoji": "💂🏼‍♀️",
+      "description": "woman guard: medium-light skin tone",
+      "unicode": [
+        "1F482",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001165",
+      "emoji": "💂🏽‍♀️",
+      "description": "woman guard: medium skin tone",
+      "unicode": [
+        "1F482",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001166",
+      "emoji": "💂🏾‍♀️",
+      "description": "woman guard: medium-dark skin tone",
+      "unicode": [
+        "1F482",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001167",
+      "emoji": "💂🏿‍♀️",
+      "description": "woman guard: dark skin tone",
+      "unicode": [
+        "1F482",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001168",
+      "emoji": "🥷",
+      "description": "ninja",
+      "unicode": [
+        "1F977"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001169",
+      "emoji": "🥷🏻",
+      "description": "ninja: light skin tone",
+      "unicode": [
+        "1F977",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001170",
+      "emoji": "🥷🏼",
+      "description": "ninja: medium-light skin tone",
+      "unicode": [
+        "1F977",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001171",
+      "emoji": "🥷🏽",
+      "description": "ninja: medium skin tone",
+      "unicode": [
+        "1F977",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001172",
+      "emoji": "🥷🏾",
+      "description": "ninja: medium-dark skin tone",
+      "unicode": [
+        "1F977",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001173",
+      "emoji": "🥷🏿",
+      "description": "ninja: dark skin tone",
+      "unicode": [
+        "1F977",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001174",
+      "emoji": "👷",
+      "description": "construction worker",
+      "unicode": [
+        "1F477"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001175",
+      "emoji": "👷🏻",
+      "description": "construction worker: light skin tone",
+      "unicode": [
+        "1F477",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001176",
+      "emoji": "👷🏼",
+      "description": "construction worker: medium-light skin tone",
+      "unicode": [
+        "1F477",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001177",
+      "emoji": "👷🏽",
+      "description": "construction worker: medium skin tone",
+      "unicode": [
+        "1F477",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001178",
+      "emoji": "👷🏾",
+      "description": "construction worker: medium-dark skin tone",
+      "unicode": [
+        "1F477",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001179",
+      "emoji": "👷🏿",
+      "description": "construction worker: dark skin tone",
+      "unicode": [
+        "1F477",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001180",
+      "emoji": "👷‍♂️",
+      "description": "man construction worker",
+      "unicode": [
+        "1F477",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001181",
+      "emoji": "👷🏻‍♂️",
+      "description": "man construction worker: light skin tone",
+      "unicode": [
+        "1F477",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001182",
+      "emoji": "👷🏼‍♂️",
+      "description": "man construction worker: medium-light skin tone",
+      "unicode": [
+        "1F477",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001183",
+      "emoji": "👷🏽‍♂️",
+      "description": "man construction worker: medium skin tone",
+      "unicode": [
+        "1F477",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001184",
+      "emoji": "👷🏾‍♂️",
+      "description": "man construction worker: medium-dark skin tone",
+      "unicode": [
+        "1F477",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001185",
+      "emoji": "👷🏿‍♂️",
+      "description": "man construction worker: dark skin tone",
+      "unicode": [
+        "1F477",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001186",
+      "emoji": "👷‍♀️",
+      "description": "woman construction worker",
+      "unicode": [
+        "1F477",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001187",
+      "emoji": "👷🏻‍♀️",
+      "description": "woman construction worker: light skin tone",
+      "unicode": [
+        "1F477",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001188",
+      "emoji": "👷🏼‍♀️",
+      "description": "woman construction worker: medium-light skin tone",
+      "unicode": [
+        "1F477",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001189",
+      "emoji": "👷🏽‍♀️",
+      "description": "woman construction worker: medium skin tone",
+      "unicode": [
+        "1F477",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001190",
+      "emoji": "👷🏾‍♀️",
+      "description": "woman construction worker: medium-dark skin tone",
+      "unicode": [
+        "1F477",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001191",
+      "emoji": "👷🏿‍♀️",
+      "description": "woman construction worker: dark skin tone",
+      "unicode": [
+        "1F477",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001192",
+      "emoji": "🫅",
+      "description": "person with crown",
+      "unicode": [
+        "1FAC5"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001193",
+      "emoji": "🫅🏻",
+      "description": "person with crown: light skin tone",
+      "unicode": [
+        "1FAC5",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001194",
+      "emoji": "🫅🏼",
+      "description": "person with crown: medium-light skin tone",
+      "unicode": [
+        "1FAC5",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001195",
+      "emoji": "🫅🏽",
+      "description": "person with crown: medium skin tone",
+      "unicode": [
+        "1FAC5",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001196",
+      "emoji": "🫅🏾",
+      "description": "person with crown: medium-dark skin tone",
+      "unicode": [
+        "1FAC5",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001197",
+      "emoji": "🫅🏿",
+      "description": "person with crown: dark skin tone",
+      "unicode": [
+        "1FAC5",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001198",
+      "emoji": "🤴",
+      "description": "prince",
+      "unicode": [
+        "1F934"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001199",
+      "emoji": "🤴🏻",
+      "description": "prince: light skin tone",
+      "unicode": [
+        "1F934",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001200",
+      "emoji": "🤴🏼",
+      "description": "prince: medium-light skin tone",
+      "unicode": [
+        "1F934",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001201",
+      "emoji": "🤴🏽",
+      "description": "prince: medium skin tone",
+      "unicode": [
+        "1F934",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001202",
+      "emoji": "🤴🏾",
+      "description": "prince: medium-dark skin tone",
+      "unicode": [
+        "1F934",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001203",
+      "emoji": "🤴🏿",
+      "description": "prince: dark skin tone",
+      "unicode": [
+        "1F934",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001204",
+      "emoji": "👸",
+      "description": "princess",
+      "unicode": [
+        "1F478"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001205",
+      "emoji": "👸🏻",
+      "description": "princess: light skin tone",
+      "unicode": [
+        "1F478",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001206",
+      "emoji": "👸🏼",
+      "description": "princess: medium-light skin tone",
+      "unicode": [
+        "1F478",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001207",
+      "emoji": "👸🏽",
+      "description": "princess: medium skin tone",
+      "unicode": [
+        "1F478",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001208",
+      "emoji": "👸🏾",
+      "description": "princess: medium-dark skin tone",
+      "unicode": [
+        "1F478",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001209",
+      "emoji": "👸🏿",
+      "description": "princess: dark skin tone",
+      "unicode": [
+        "1F478",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001210",
+      "emoji": "👳",
+      "description": "person wearing turban",
+      "unicode": [
+        "1F473"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001211",
+      "emoji": "👳🏻",
+      "description": "person wearing turban: light skin tone",
+      "unicode": [
+        "1F473",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001212",
+      "emoji": "👳🏼",
+      "description": "person wearing turban: medium-light skin tone",
+      "unicode": [
+        "1F473",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001213",
+      "emoji": "👳🏽",
+      "description": "person wearing turban: medium skin tone",
+      "unicode": [
+        "1F473",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001214",
+      "emoji": "👳🏾",
+      "description": "person wearing turban: medium-dark skin tone",
+      "unicode": [
+        "1F473",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001215",
+      "emoji": "👳🏿",
+      "description": "person wearing turban: dark skin tone",
+      "unicode": [
+        "1F473",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001216",
+      "emoji": "👳‍♂️",
+      "description": "man wearing turban",
+      "unicode": [
+        "1F473",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001217",
+      "emoji": "👳🏻‍♂️",
+      "description": "man wearing turban: light skin tone",
+      "unicode": [
+        "1F473",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001218",
+      "emoji": "👳🏼‍♂️",
+      "description": "man wearing turban: medium-light skin tone",
+      "unicode": [
+        "1F473",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001219",
+      "emoji": "👳🏽‍♂️",
+      "description": "man wearing turban: medium skin tone",
+      "unicode": [
+        "1F473",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001220",
+      "emoji": "👳🏾‍♂️",
+      "description": "man wearing turban: medium-dark skin tone",
+      "unicode": [
+        "1F473",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001221",
+      "emoji": "👳🏿‍♂️",
+      "description": "man wearing turban: dark skin tone",
+      "unicode": [
+        "1F473",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001222",
+      "emoji": "👳‍♀️",
+      "description": "woman wearing turban",
+      "unicode": [
+        "1F473",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001223",
+      "emoji": "👳🏻‍♀️",
+      "description": "woman wearing turban: light skin tone",
+      "unicode": [
+        "1F473",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001224",
+      "emoji": "👳🏼‍♀️",
+      "description": "woman wearing turban: medium-light skin tone",
+      "unicode": [
+        "1F473",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001225",
+      "emoji": "👳🏽‍♀️",
+      "description": "woman wearing turban: medium skin tone",
+      "unicode": [
+        "1F473",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001226",
+      "emoji": "👳🏾‍♀️",
+      "description": "woman wearing turban: medium-dark skin tone",
+      "unicode": [
+        "1F473",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001227",
+      "emoji": "👳🏿‍♀️",
+      "description": "woman wearing turban: dark skin tone",
+      "unicode": [
+        "1F473",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001228",
+      "emoji": "👲",
+      "description": "person with skullcap",
+      "unicode": [
+        "1F472"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001229",
+      "emoji": "👲🏻",
+      "description": "person with skullcap: light skin tone",
+      "unicode": [
+        "1F472",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001230",
+      "emoji": "👲🏼",
+      "description": "person with skullcap: medium-light skin tone",
+      "unicode": [
+        "1F472",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001231",
+      "emoji": "👲🏽",
+      "description": "person with skullcap: medium skin tone",
+      "unicode": [
+        "1F472",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001232",
+      "emoji": "👲🏾",
+      "description": "person with skullcap: medium-dark skin tone",
+      "unicode": [
+        "1F472",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001233",
+      "emoji": "👲🏿",
+      "description": "person with skullcap: dark skin tone",
+      "unicode": [
+        "1F472",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001234",
+      "emoji": "🧕",
+      "description": "woman with headscarf",
+      "unicode": [
+        "1F9D5"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001235",
+      "emoji": "🧕🏻",
+      "description": "woman with headscarf: light skin tone",
+      "unicode": [
+        "1F9D5",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001236",
+      "emoji": "🧕🏼",
+      "description": "woman with headscarf: medium-light skin tone",
+      "unicode": [
+        "1F9D5",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001237",
+      "emoji": "🧕🏽",
+      "description": "woman with headscarf: medium skin tone",
+      "unicode": [
+        "1F9D5",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001238",
+      "emoji": "🧕🏾",
+      "description": "woman with headscarf: medium-dark skin tone",
+      "unicode": [
+        "1F9D5",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001239",
+      "emoji": "🧕🏿",
+      "description": "woman with headscarf: dark skin tone",
+      "unicode": [
+        "1F9D5",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001240",
+      "emoji": "🤵",
+      "description": "person in tuxedo",
+      "unicode": [
+        "1F935"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001241",
+      "emoji": "🤵🏻",
+      "description": "person in tuxedo: light skin tone",
+      "unicode": [
+        "1F935",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001242",
+      "emoji": "🤵🏼",
+      "description": "person in tuxedo: medium-light skin tone",
+      "unicode": [
+        "1F935",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001243",
+      "emoji": "🤵🏽",
+      "description": "person in tuxedo: medium skin tone",
+      "unicode": [
+        "1F935",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001244",
+      "emoji": "🤵🏾",
+      "description": "person in tuxedo: medium-dark skin tone",
+      "unicode": [
+        "1F935",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001245",
+      "emoji": "🤵🏿",
+      "description": "person in tuxedo: dark skin tone",
+      "unicode": [
+        "1F935",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001246",
+      "emoji": "🤵‍♂️",
+      "description": "man in tuxedo",
+      "unicode": [
+        "1F935",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001247",
+      "emoji": "🤵🏻‍♂️",
+      "description": "man in tuxedo: light skin tone",
+      "unicode": [
+        "1F935",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001248",
+      "emoji": "🤵🏼‍♂️",
+      "description": "man in tuxedo: medium-light skin tone",
+      "unicode": [
+        "1F935",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001249",
+      "emoji": "🤵🏽‍♂️",
+      "description": "man in tuxedo: medium skin tone",
+      "unicode": [
+        "1F935",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001250",
+      "emoji": "🤵🏾‍♂️",
+      "description": "man in tuxedo: medium-dark skin tone",
+      "unicode": [
+        "1F935",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001251",
+      "emoji": "🤵🏿‍♂️",
+      "description": "man in tuxedo: dark skin tone",
+      "unicode": [
+        "1F935",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001252",
+      "emoji": "🤵‍♀️",
+      "description": "woman in tuxedo",
+      "unicode": [
+        "1F935",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001253",
+      "emoji": "🤵🏻‍♀️",
+      "description": "woman in tuxedo: light skin tone",
+      "unicode": [
+        "1F935",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001254",
+      "emoji": "🤵🏼‍♀️",
+      "description": "woman in tuxedo: medium-light skin tone",
+      "unicode": [
+        "1F935",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001255",
+      "emoji": "🤵🏽‍♀️",
+      "description": "woman in tuxedo: medium skin tone",
+      "unicode": [
+        "1F935",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001256",
+      "emoji": "🤵🏾‍♀️",
+      "description": "woman in tuxedo: medium-dark skin tone",
+      "unicode": [
+        "1F935",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001257",
+      "emoji": "🤵🏿‍♀️",
+      "description": "woman in tuxedo: dark skin tone",
+      "unicode": [
+        "1F935",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001258",
+      "emoji": "👰",
+      "description": "person with veil",
+      "unicode": [
+        "1F470"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001259",
+      "emoji": "👰🏻",
+      "description": "person with veil: light skin tone",
+      "unicode": [
+        "1F470",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001260",
+      "emoji": "👰🏼",
+      "description": "person with veil: medium-light skin tone",
+      "unicode": [
+        "1F470",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001261",
+      "emoji": "👰🏽",
+      "description": "person with veil: medium skin tone",
+      "unicode": [
+        "1F470",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001262",
+      "emoji": "👰🏾",
+      "description": "person with veil: medium-dark skin tone",
+      "unicode": [
+        "1F470",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001263",
+      "emoji": "👰🏿",
+      "description": "person with veil: dark skin tone",
+      "unicode": [
+        "1F470",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001264",
+      "emoji": "👰‍♂️",
+      "description": "man with veil",
+      "unicode": [
+        "1F470",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001265",
+      "emoji": "👰🏻‍♂️",
+      "description": "man with veil: light skin tone",
+      "unicode": [
+        "1F470",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001266",
+      "emoji": "👰🏼‍♂️",
+      "description": "man with veil: medium-light skin tone",
+      "unicode": [
+        "1F470",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001267",
+      "emoji": "👰🏽‍♂️",
+      "description": "man with veil: medium skin tone",
+      "unicode": [
+        "1F470",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001268",
+      "emoji": "👰🏾‍♂️",
+      "description": "man with veil: medium-dark skin tone",
+      "unicode": [
+        "1F470",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001269",
+      "emoji": "👰🏿‍♂️",
+      "description": "man with veil: dark skin tone",
+      "unicode": [
+        "1F470",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001270",
+      "emoji": "👰‍♀️",
+      "description": "woman with veil",
+      "unicode": [
+        "1F470",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001271",
+      "emoji": "👰🏻‍♀️",
+      "description": "woman with veil: light skin tone",
+      "unicode": [
+        "1F470",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001272",
+      "emoji": "👰🏼‍♀️",
+      "description": "woman with veil: medium-light skin tone",
+      "unicode": [
+        "1F470",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001273",
+      "emoji": "👰🏽‍♀️",
+      "description": "woman with veil: medium skin tone",
+      "unicode": [
+        "1F470",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001274",
+      "emoji": "👰🏾‍♀️",
+      "description": "woman with veil: medium-dark skin tone",
+      "unicode": [
+        "1F470",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001275",
+      "emoji": "👰🏿‍♀️",
+      "description": "woman with veil: dark skin tone",
+      "unicode": [
+        "1F470",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001276",
+      "emoji": "🤰",
+      "description": "pregnant woman",
+      "unicode": [
+        "1F930"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001277",
+      "emoji": "🤰🏻",
+      "description": "pregnant woman: light skin tone",
+      "unicode": [
+        "1F930",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001278",
+      "emoji": "🤰🏼",
+      "description": "pregnant woman: medium-light skin tone",
+      "unicode": [
+        "1F930",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001279",
+      "emoji": "🤰🏽",
+      "description": "pregnant woman: medium skin tone",
+      "unicode": [
+        "1F930",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001280",
+      "emoji": "🤰🏾",
+      "description": "pregnant woman: medium-dark skin tone",
+      "unicode": [
+        "1F930",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001281",
+      "emoji": "🤰🏿",
+      "description": "pregnant woman: dark skin tone",
+      "unicode": [
+        "1F930",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001282",
+      "emoji": "🫃",
+      "description": "pregnant man",
+      "unicode": [
+        "1FAC3"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001283",
+      "emoji": "🫃🏻",
+      "description": "pregnant man: light skin tone",
+      "unicode": [
+        "1FAC3",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001284",
+      "emoji": "🫃🏼",
+      "description": "pregnant man: medium-light skin tone",
+      "unicode": [
+        "1FAC3",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001285",
+      "emoji": "🫃🏽",
+      "description": "pregnant man: medium skin tone",
+      "unicode": [
+        "1FAC3",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001286",
+      "emoji": "🫃🏾",
+      "description": "pregnant man: medium-dark skin tone",
+      "unicode": [
+        "1FAC3",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001287",
+      "emoji": "🫃🏿",
+      "description": "pregnant man: dark skin tone",
+      "unicode": [
+        "1FAC3",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001288",
+      "emoji": "🫄",
+      "description": "pregnant person",
+      "unicode": [
+        "1FAC4"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001289",
+      "emoji": "🫄🏻",
+      "description": "pregnant person: light skin tone",
+      "unicode": [
+        "1FAC4",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001290",
+      "emoji": "🫄🏼",
+      "description": "pregnant person: medium-light skin tone",
+      "unicode": [
+        "1FAC4",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001291",
+      "emoji": "🫄🏽",
+      "description": "pregnant person: medium skin tone",
+      "unicode": [
+        "1FAC4",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001292",
+      "emoji": "🫄🏾",
+      "description": "pregnant person: medium-dark skin tone",
+      "unicode": [
+        "1FAC4",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001293",
+      "emoji": "🫄🏿",
+      "description": "pregnant person: dark skin tone",
+      "unicode": [
+        "1FAC4",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001294",
+      "emoji": "🤱",
+      "description": "breast-feeding",
+      "unicode": [
+        "1F931"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001295",
+      "emoji": "🤱🏻",
+      "description": "breast-feeding: light skin tone",
+      "unicode": [
+        "1F931",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001296",
+      "emoji": "🤱🏼",
+      "description": "breast-feeding: medium-light skin tone",
+      "unicode": [
+        "1F931",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001297",
+      "emoji": "🤱🏽",
+      "description": "breast-feeding: medium skin tone",
+      "unicode": [
+        "1F931",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001298",
+      "emoji": "🤱🏾",
+      "description": "breast-feeding: medium-dark skin tone",
+      "unicode": [
+        "1F931",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001299",
+      "emoji": "🤱🏿",
+      "description": "breast-feeding: dark skin tone",
+      "unicode": [
+        "1F931",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001300",
+      "emoji": "👩‍🍼",
+      "description": "woman feeding baby",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001301",
+      "emoji": "👩🏻‍🍼",
+      "description": "woman feeding baby: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001302",
+      "emoji": "👩🏼‍🍼",
+      "description": "woman feeding baby: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001303",
+      "emoji": "👩🏽‍🍼",
+      "description": "woman feeding baby: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001304",
+      "emoji": "👩🏾‍🍼",
+      "description": "woman feeding baby: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001305",
+      "emoji": "👩🏿‍🍼",
+      "description": "woman feeding baby: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001306",
+      "emoji": "👨‍🍼",
+      "description": "man feeding baby",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001307",
+      "emoji": "👨🏻‍🍼",
+      "description": "man feeding baby: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001308",
+      "emoji": "👨🏼‍🍼",
+      "description": "man feeding baby: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001309",
+      "emoji": "👨🏽‍🍼",
+      "description": "man feeding baby: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001310",
+      "emoji": "👨🏾‍🍼",
+      "description": "man feeding baby: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001311",
+      "emoji": "👨🏿‍🍼",
+      "description": "man feeding baby: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001312",
+      "emoji": "🧑‍🍼",
+      "description": "person feeding baby",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001313",
+      "emoji": "🧑🏻‍🍼",
+      "description": "person feeding baby: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001314",
+      "emoji": "🧑🏼‍🍼",
+      "description": "person feeding baby: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001315",
+      "emoji": "🧑🏽‍🍼",
+      "description": "person feeding baby: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001316",
+      "emoji": "🧑🏾‍🍼",
+      "description": "person feeding baby: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001317",
+      "emoji": "🧑🏿‍🍼",
+      "description": "person feeding baby: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F37C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001318",
+      "emoji": "👼",
+      "description": "baby angel",
+      "unicode": [
+        "1F47C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001319",
+      "emoji": "👼🏻",
+      "description": "baby angel: light skin tone",
+      "unicode": [
+        "1F47C",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001320",
+      "emoji": "👼🏼",
+      "description": "baby angel: medium-light skin tone",
+      "unicode": [
+        "1F47C",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001321",
+      "emoji": "👼🏽",
+      "description": "baby angel: medium skin tone",
+      "unicode": [
+        "1F47C",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001322",
+      "emoji": "👼🏾",
+      "description": "baby angel: medium-dark skin tone",
+      "unicode": [
+        "1F47C",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001323",
+      "emoji": "👼🏿",
+      "description": "baby angel: dark skin tone",
+      "unicode": [
+        "1F47C",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001324",
+      "emoji": "🎅",
+      "description": "Santa Claus",
+      "unicode": [
+        "1F385"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001325",
+      "emoji": "🎅🏻",
+      "description": "Santa Claus: light skin tone",
+      "unicode": [
+        "1F385",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001326",
+      "emoji": "🎅🏼",
+      "description": "Santa Claus: medium-light skin tone",
+      "unicode": [
+        "1F385",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001327",
+      "emoji": "🎅🏽",
+      "description": "Santa Claus: medium skin tone",
+      "unicode": [
+        "1F385",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001328",
+      "emoji": "🎅🏾",
+      "description": "Santa Claus: medium-dark skin tone",
+      "unicode": [
+        "1F385",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001329",
+      "emoji": "🎅🏿",
+      "description": "Santa Claus: dark skin tone",
+      "unicode": [
+        "1F385",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001330",
+      "emoji": "🤶",
+      "description": "Mrs. Claus",
+      "unicode": [
+        "1F936"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001331",
+      "emoji": "🤶🏻",
+      "description": "Mrs. Claus: light skin tone",
+      "unicode": [
+        "1F936",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001332",
+      "emoji": "🤶🏼",
+      "description": "Mrs. Claus: medium-light skin tone",
+      "unicode": [
+        "1F936",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001333",
+      "emoji": "🤶🏽",
+      "description": "Mrs. Claus: medium skin tone",
+      "unicode": [
+        "1F936",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001334",
+      "emoji": "🤶🏾",
+      "description": "Mrs. Claus: medium-dark skin tone",
+      "unicode": [
+        "1F936",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001335",
+      "emoji": "🤶🏿",
+      "description": "Mrs. Claus: dark skin tone",
+      "unicode": [
+        "1F936",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001336",
+      "emoji": "🧑‍🎄",
+      "description": "mx claus",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F384"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001337",
+      "emoji": "🧑🏻‍🎄",
+      "description": "mx claus: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F384"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001338",
+      "emoji": "🧑🏼‍🎄",
+      "description": "mx claus: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F384"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001339",
+      "emoji": "🧑🏽‍🎄",
+      "description": "mx claus: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F384"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001340",
+      "emoji": "🧑🏾‍🎄",
+      "description": "mx claus: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F384"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001341",
+      "emoji": "🧑🏿‍🎄",
+      "description": "mx claus: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F384"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "001342",
+      "emoji": "🦸",
+      "description": "superhero",
+      "unicode": [
+        "1F9B8"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001343",
+      "emoji": "🦸🏻",
+      "description": "superhero: light skin tone",
+      "unicode": [
+        "1F9B8",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001344",
+      "emoji": "🦸🏼",
+      "description": "superhero: medium-light skin tone",
+      "unicode": [
+        "1F9B8",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001345",
+      "emoji": "🦸🏽",
+      "description": "superhero: medium skin tone",
+      "unicode": [
+        "1F9B8",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001346",
+      "emoji": "🦸🏾",
+      "description": "superhero: medium-dark skin tone",
+      "unicode": [
+        "1F9B8",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001347",
+      "emoji": "🦸🏿",
+      "description": "superhero: dark skin tone",
+      "unicode": [
+        "1F9B8",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001348",
+      "emoji": "🦸‍♂️",
+      "description": "man superhero",
+      "unicode": [
+        "1F9B8",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001349",
+      "emoji": "🦸🏻‍♂️",
+      "description": "man superhero: light skin tone",
+      "unicode": [
+        "1F9B8",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001350",
+      "emoji": "🦸🏼‍♂️",
+      "description": "man superhero: medium-light skin tone",
+      "unicode": [
+        "1F9B8",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001351",
+      "emoji": "🦸🏽‍♂️",
+      "description": "man superhero: medium skin tone",
+      "unicode": [
+        "1F9B8",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001352",
+      "emoji": "🦸🏾‍♂️",
+      "description": "man superhero: medium-dark skin tone",
+      "unicode": [
+        "1F9B8",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001353",
+      "emoji": "🦸🏿‍♂️",
+      "description": "man superhero: dark skin tone",
+      "unicode": [
+        "1F9B8",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001354",
+      "emoji": "🦸‍♀️",
+      "description": "woman superhero",
+      "unicode": [
+        "1F9B8",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001355",
+      "emoji": "🦸🏻‍♀️",
+      "description": "woman superhero: light skin tone",
+      "unicode": [
+        "1F9B8",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001356",
+      "emoji": "🦸🏼‍♀️",
+      "description": "woman superhero: medium-light skin tone",
+      "unicode": [
+        "1F9B8",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001357",
+      "emoji": "🦸🏽‍♀️",
+      "description": "woman superhero: medium skin tone",
+      "unicode": [
+        "1F9B8",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001358",
+      "emoji": "🦸🏾‍♀️",
+      "description": "woman superhero: medium-dark skin tone",
+      "unicode": [
+        "1F9B8",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001359",
+      "emoji": "🦸🏿‍♀️",
+      "description": "woman superhero: dark skin tone",
+      "unicode": [
+        "1F9B8",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001360",
+      "emoji": "🦹",
+      "description": "supervillain",
+      "unicode": [
+        "1F9B9"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001361",
+      "emoji": "🦹🏻",
+      "description": "supervillain: light skin tone",
+      "unicode": [
+        "1F9B9",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001362",
+      "emoji": "🦹🏼",
+      "description": "supervillain: medium-light skin tone",
+      "unicode": [
+        "1F9B9",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001363",
+      "emoji": "🦹🏽",
+      "description": "supervillain: medium skin tone",
+      "unicode": [
+        "1F9B9",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001364",
+      "emoji": "🦹🏾",
+      "description": "supervillain: medium-dark skin tone",
+      "unicode": [
+        "1F9B9",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001365",
+      "emoji": "🦹🏿",
+      "description": "supervillain: dark skin tone",
+      "unicode": [
+        "1F9B9",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001366",
+      "emoji": "🦹‍♂️",
+      "description": "man supervillain",
+      "unicode": [
+        "1F9B9",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001367",
+      "emoji": "🦹🏻‍♂️",
+      "description": "man supervillain: light skin tone",
+      "unicode": [
+        "1F9B9",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001368",
+      "emoji": "🦹🏼‍♂️",
+      "description": "man supervillain: medium-light skin tone",
+      "unicode": [
+        "1F9B9",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001369",
+      "emoji": "🦹🏽‍♂️",
+      "description": "man supervillain: medium skin tone",
+      "unicode": [
+        "1F9B9",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001370",
+      "emoji": "🦹🏾‍♂️",
+      "description": "man supervillain: medium-dark skin tone",
+      "unicode": [
+        "1F9B9",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001371",
+      "emoji": "🦹🏿‍♂️",
+      "description": "man supervillain: dark skin tone",
+      "unicode": [
+        "1F9B9",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001372",
+      "emoji": "🦹‍♀️",
+      "description": "woman supervillain",
+      "unicode": [
+        "1F9B9",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001373",
+      "emoji": "🦹🏻‍♀️",
+      "description": "woman supervillain: light skin tone",
+      "unicode": [
+        "1F9B9",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001374",
+      "emoji": "🦹🏼‍♀️",
+      "description": "woman supervillain: medium-light skin tone",
+      "unicode": [
+        "1F9B9",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001375",
+      "emoji": "🦹🏽‍♀️",
+      "description": "woman supervillain: medium skin tone",
+      "unicode": [
+        "1F9B9",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001376",
+      "emoji": "🦹🏾‍♀️",
+      "description": "woman supervillain: medium-dark skin tone",
+      "unicode": [
+        "1F9B9",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001377",
+      "emoji": "🦹🏿‍♀️",
+      "description": "woman supervillain: dark skin tone",
+      "unicode": [
+        "1F9B9",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "001378",
+      "emoji": "🧙",
+      "description": "mage",
+      "unicode": [
+        "1F9D9"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001379",
+      "emoji": "🧙🏻",
+      "description": "mage: light skin tone",
+      "unicode": [
+        "1F9D9",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001380",
+      "emoji": "🧙🏼",
+      "description": "mage: medium-light skin tone",
+      "unicode": [
+        "1F9D9",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001381",
+      "emoji": "🧙🏽",
+      "description": "mage: medium skin tone",
+      "unicode": [
+        "1F9D9",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001382",
+      "emoji": "🧙🏾",
+      "description": "mage: medium-dark skin tone",
+      "unicode": [
+        "1F9D9",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001383",
+      "emoji": "🧙🏿",
+      "description": "mage: dark skin tone",
+      "unicode": [
+        "1F9D9",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001384",
+      "emoji": "🧙‍♂️",
+      "description": "man mage",
+      "unicode": [
+        "1F9D9",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001385",
+      "emoji": "🧙🏻‍♂️",
+      "description": "man mage: light skin tone",
+      "unicode": [
+        "1F9D9",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001386",
+      "emoji": "🧙🏼‍♂️",
+      "description": "man mage: medium-light skin tone",
+      "unicode": [
+        "1F9D9",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001387",
+      "emoji": "🧙🏽‍♂️",
+      "description": "man mage: medium skin tone",
+      "unicode": [
+        "1F9D9",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001388",
+      "emoji": "🧙🏾‍♂️",
+      "description": "man mage: medium-dark skin tone",
+      "unicode": [
+        "1F9D9",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001389",
+      "emoji": "🧙🏿‍♂️",
+      "description": "man mage: dark skin tone",
+      "unicode": [
+        "1F9D9",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001390",
+      "emoji": "🧙‍♀️",
+      "description": "woman mage",
+      "unicode": [
+        "1F9D9",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001391",
+      "emoji": "🧙🏻‍♀️",
+      "description": "woman mage: light skin tone",
+      "unicode": [
+        "1F9D9",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001392",
+      "emoji": "🧙🏼‍♀️",
+      "description": "woman mage: medium-light skin tone",
+      "unicode": [
+        "1F9D9",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001393",
+      "emoji": "🧙🏽‍♀️",
+      "description": "woman mage: medium skin tone",
+      "unicode": [
+        "1F9D9",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001394",
+      "emoji": "🧙🏾‍♀️",
+      "description": "woman mage: medium-dark skin tone",
+      "unicode": [
+        "1F9D9",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001395",
+      "emoji": "🧙🏿‍♀️",
+      "description": "woman mage: dark skin tone",
+      "unicode": [
+        "1F9D9",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001396",
+      "emoji": "🧚",
+      "description": "fairy",
+      "unicode": [
+        "1F9DA"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001397",
+      "emoji": "🧚🏻",
+      "description": "fairy: light skin tone",
+      "unicode": [
+        "1F9DA",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001398",
+      "emoji": "🧚🏼",
+      "description": "fairy: medium-light skin tone",
+      "unicode": [
+        "1F9DA",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001399",
+      "emoji": "🧚🏽",
+      "description": "fairy: medium skin tone",
+      "unicode": [
+        "1F9DA",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001400",
+      "emoji": "🧚🏾",
+      "description": "fairy: medium-dark skin tone",
+      "unicode": [
+        "1F9DA",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001401",
+      "emoji": "🧚🏿",
+      "description": "fairy: dark skin tone",
+      "unicode": [
+        "1F9DA",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001402",
+      "emoji": "🧚‍♂️",
+      "description": "man fairy",
+      "unicode": [
+        "1F9DA",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001403",
+      "emoji": "🧚🏻‍♂️",
+      "description": "man fairy: light skin tone",
+      "unicode": [
+        "1F9DA",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001404",
+      "emoji": "🧚🏼‍♂️",
+      "description": "man fairy: medium-light skin tone",
+      "unicode": [
+        "1F9DA",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001405",
+      "emoji": "🧚🏽‍♂️",
+      "description": "man fairy: medium skin tone",
+      "unicode": [
+        "1F9DA",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001406",
+      "emoji": "🧚🏾‍♂️",
+      "description": "man fairy: medium-dark skin tone",
+      "unicode": [
+        "1F9DA",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001407",
+      "emoji": "🧚🏿‍♂️",
+      "description": "man fairy: dark skin tone",
+      "unicode": [
+        "1F9DA",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001408",
+      "emoji": "🧚‍♀️",
+      "description": "woman fairy",
+      "unicode": [
+        "1F9DA",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001409",
+      "emoji": "🧚🏻‍♀️",
+      "description": "woman fairy: light skin tone",
+      "unicode": [
+        "1F9DA",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001410",
+      "emoji": "🧚🏼‍♀️",
+      "description": "woman fairy: medium-light skin tone",
+      "unicode": [
+        "1F9DA",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001411",
+      "emoji": "🧚🏽‍♀️",
+      "description": "woman fairy: medium skin tone",
+      "unicode": [
+        "1F9DA",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001412",
+      "emoji": "🧚🏾‍♀️",
+      "description": "woman fairy: medium-dark skin tone",
+      "unicode": [
+        "1F9DA",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001413",
+      "emoji": "🧚🏿‍♀️",
+      "description": "woman fairy: dark skin tone",
+      "unicode": [
+        "1F9DA",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001414",
+      "emoji": "🧛",
+      "description": "vampire",
+      "unicode": [
+        "1F9DB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001415",
+      "emoji": "🧛🏻",
+      "description": "vampire: light skin tone",
+      "unicode": [
+        "1F9DB",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001416",
+      "emoji": "🧛🏼",
+      "description": "vampire: medium-light skin tone",
+      "unicode": [
+        "1F9DB",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001417",
+      "emoji": "🧛🏽",
+      "description": "vampire: medium skin tone",
+      "unicode": [
+        "1F9DB",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001418",
+      "emoji": "🧛🏾",
+      "description": "vampire: medium-dark skin tone",
+      "unicode": [
+        "1F9DB",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001419",
+      "emoji": "🧛🏿",
+      "description": "vampire: dark skin tone",
+      "unicode": [
+        "1F9DB",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001420",
+      "emoji": "🧛‍♂️",
+      "description": "man vampire",
+      "unicode": [
+        "1F9DB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001421",
+      "emoji": "🧛🏻‍♂️",
+      "description": "man vampire: light skin tone",
+      "unicode": [
+        "1F9DB",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001422",
+      "emoji": "🧛🏼‍♂️",
+      "description": "man vampire: medium-light skin tone",
+      "unicode": [
+        "1F9DB",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001423",
+      "emoji": "🧛🏽‍♂️",
+      "description": "man vampire: medium skin tone",
+      "unicode": [
+        "1F9DB",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001424",
+      "emoji": "🧛🏾‍♂️",
+      "description": "man vampire: medium-dark skin tone",
+      "unicode": [
+        "1F9DB",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001425",
+      "emoji": "🧛🏿‍♂️",
+      "description": "man vampire: dark skin tone",
+      "unicode": [
+        "1F9DB",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001426",
+      "emoji": "🧛‍♀️",
+      "description": "woman vampire",
+      "unicode": [
+        "1F9DB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001427",
+      "emoji": "🧛🏻‍♀️",
+      "description": "woman vampire: light skin tone",
+      "unicode": [
+        "1F9DB",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001428",
+      "emoji": "🧛🏼‍♀️",
+      "description": "woman vampire: medium-light skin tone",
+      "unicode": [
+        "1F9DB",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001429",
+      "emoji": "🧛🏽‍♀️",
+      "description": "woman vampire: medium skin tone",
+      "unicode": [
+        "1F9DB",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001430",
+      "emoji": "🧛🏾‍♀️",
+      "description": "woman vampire: medium-dark skin tone",
+      "unicode": [
+        "1F9DB",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001431",
+      "emoji": "🧛🏿‍♀️",
+      "description": "woman vampire: dark skin tone",
+      "unicode": [
+        "1F9DB",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001432",
+      "emoji": "🧜",
+      "description": "merperson",
+      "unicode": [
+        "1F9DC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001433",
+      "emoji": "🧜🏻",
+      "description": "merperson: light skin tone",
+      "unicode": [
+        "1F9DC",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001434",
+      "emoji": "🧜🏼",
+      "description": "merperson: medium-light skin tone",
+      "unicode": [
+        "1F9DC",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001435",
+      "emoji": "🧜🏽",
+      "description": "merperson: medium skin tone",
+      "unicode": [
+        "1F9DC",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001436",
+      "emoji": "🧜🏾",
+      "description": "merperson: medium-dark skin tone",
+      "unicode": [
+        "1F9DC",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001437",
+      "emoji": "🧜🏿",
+      "description": "merperson: dark skin tone",
+      "unicode": [
+        "1F9DC",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001438",
+      "emoji": "🧜‍♂️",
+      "description": "merman",
+      "unicode": [
+        "1F9DC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001439",
+      "emoji": "🧜🏻‍♂️",
+      "description": "merman: light skin tone",
+      "unicode": [
+        "1F9DC",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001440",
+      "emoji": "🧜🏼‍♂️",
+      "description": "merman: medium-light skin tone",
+      "unicode": [
+        "1F9DC",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001441",
+      "emoji": "🧜🏽‍♂️",
+      "description": "merman: medium skin tone",
+      "unicode": [
+        "1F9DC",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001442",
+      "emoji": "🧜🏾‍♂️",
+      "description": "merman: medium-dark skin tone",
+      "unicode": [
+        "1F9DC",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001443",
+      "emoji": "🧜🏿‍♂️",
+      "description": "merman: dark skin tone",
+      "unicode": [
+        "1F9DC",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001444",
+      "emoji": "🧜‍♀️",
+      "description": "mermaid",
+      "unicode": [
+        "1F9DC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001445",
+      "emoji": "🧜🏻‍♀️",
+      "description": "mermaid: light skin tone",
+      "unicode": [
+        "1F9DC",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001446",
+      "emoji": "🧜🏼‍♀️",
+      "description": "mermaid: medium-light skin tone",
+      "unicode": [
+        "1F9DC",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001447",
+      "emoji": "🧜🏽‍♀️",
+      "description": "mermaid: medium skin tone",
+      "unicode": [
+        "1F9DC",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001448",
+      "emoji": "🧜🏾‍♀️",
+      "description": "mermaid: medium-dark skin tone",
+      "unicode": [
+        "1F9DC",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001449",
+      "emoji": "🧜🏿‍♀️",
+      "description": "mermaid: dark skin tone",
+      "unicode": [
+        "1F9DC",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001450",
+      "emoji": "🧝",
+      "description": "elf",
+      "unicode": [
+        "1F9DD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001451",
+      "emoji": "🧝🏻",
+      "description": "elf: light skin tone",
+      "unicode": [
+        "1F9DD",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001452",
+      "emoji": "🧝🏼",
+      "description": "elf: medium-light skin tone",
+      "unicode": [
+        "1F9DD",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001453",
+      "emoji": "🧝🏽",
+      "description": "elf: medium skin tone",
+      "unicode": [
+        "1F9DD",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001454",
+      "emoji": "🧝🏾",
+      "description": "elf: medium-dark skin tone",
+      "unicode": [
+        "1F9DD",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001455",
+      "emoji": "🧝🏿",
+      "description": "elf: dark skin tone",
+      "unicode": [
+        "1F9DD",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001456",
+      "emoji": "🧝‍♂️",
+      "description": "man elf",
+      "unicode": [
+        "1F9DD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001457",
+      "emoji": "🧝🏻‍♂️",
+      "description": "man elf: light skin tone",
+      "unicode": [
+        "1F9DD",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001458",
+      "emoji": "🧝🏼‍♂️",
+      "description": "man elf: medium-light skin tone",
+      "unicode": [
+        "1F9DD",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001459",
+      "emoji": "🧝🏽‍♂️",
+      "description": "man elf: medium skin tone",
+      "unicode": [
+        "1F9DD",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001460",
+      "emoji": "🧝🏾‍♂️",
+      "description": "man elf: medium-dark skin tone",
+      "unicode": [
+        "1F9DD",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001461",
+      "emoji": "🧝🏿‍♂️",
+      "description": "man elf: dark skin tone",
+      "unicode": [
+        "1F9DD",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001462",
+      "emoji": "🧝‍♀️",
+      "description": "woman elf",
+      "unicode": [
+        "1F9DD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001463",
+      "emoji": "🧝🏻‍♀️",
+      "description": "woman elf: light skin tone",
+      "unicode": [
+        "1F9DD",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001464",
+      "emoji": "🧝🏼‍♀️",
+      "description": "woman elf: medium-light skin tone",
+      "unicode": [
+        "1F9DD",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001465",
+      "emoji": "🧝🏽‍♀️",
+      "description": "woman elf: medium skin tone",
+      "unicode": [
+        "1F9DD",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001466",
+      "emoji": "🧝🏾‍♀️",
+      "description": "woman elf: medium-dark skin tone",
+      "unicode": [
+        "1F9DD",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001467",
+      "emoji": "🧝🏿‍♀️",
+      "description": "woman elf: dark skin tone",
+      "unicode": [
+        "1F9DD",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001468",
+      "emoji": "🧞",
+      "description": "genie",
+      "unicode": [
+        "1F9DE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001469",
+      "emoji": "🧞‍♂️",
+      "description": "man genie",
+      "unicode": [
+        "1F9DE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001470",
+      "emoji": "🧞‍♀️",
+      "description": "woman genie",
+      "unicode": [
+        "1F9DE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001471",
+      "emoji": "🧟",
+      "description": "zombie",
+      "unicode": [
+        "1F9DF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001472",
+      "emoji": "🧟‍♂️",
+      "description": "man zombie",
+      "unicode": [
+        "1F9DF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001473",
+      "emoji": "🧟‍♀️",
+      "description": "woman zombie",
+      "unicode": [
+        "1F9DF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001474",
+      "emoji": "🧌",
+      "description": "troll",
+      "unicode": [
+        "1F9CC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "001475",
+      "emoji": "💆",
+      "description": "person getting massage",
+      "unicode": [
+        "1F486"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001476",
+      "emoji": "💆🏻",
+      "description": "person getting massage: light skin tone",
+      "unicode": [
+        "1F486",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001477",
+      "emoji": "💆🏼",
+      "description": "person getting massage: medium-light skin tone",
+      "unicode": [
+        "1F486",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001478",
+      "emoji": "💆🏽",
+      "description": "person getting massage: medium skin tone",
+      "unicode": [
+        "1F486",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001479",
+      "emoji": "💆🏾",
+      "description": "person getting massage: medium-dark skin tone",
+      "unicode": [
+        "1F486",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001480",
+      "emoji": "💆🏿",
+      "description": "person getting massage: dark skin tone",
+      "unicode": [
+        "1F486",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001481",
+      "emoji": "💆‍♂️",
+      "description": "man getting massage",
+      "unicode": [
+        "1F486",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001482",
+      "emoji": "💆🏻‍♂️",
+      "description": "man getting massage: light skin tone",
+      "unicode": [
+        "1F486",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001483",
+      "emoji": "💆🏼‍♂️",
+      "description": "man getting massage: medium-light skin tone",
+      "unicode": [
+        "1F486",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001484",
+      "emoji": "💆🏽‍♂️",
+      "description": "man getting massage: medium skin tone",
+      "unicode": [
+        "1F486",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001485",
+      "emoji": "💆🏾‍♂️",
+      "description": "man getting massage: medium-dark skin tone",
+      "unicode": [
+        "1F486",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001486",
+      "emoji": "💆🏿‍♂️",
+      "description": "man getting massage: dark skin tone",
+      "unicode": [
+        "1F486",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001487",
+      "emoji": "💆‍♀️",
+      "description": "woman getting massage",
+      "unicode": [
+        "1F486",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001488",
+      "emoji": "💆🏻‍♀️",
+      "description": "woman getting massage: light skin tone",
+      "unicode": [
+        "1F486",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001489",
+      "emoji": "💆🏼‍♀️",
+      "description": "woman getting massage: medium-light skin tone",
+      "unicode": [
+        "1F486",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001490",
+      "emoji": "💆🏽‍♀️",
+      "description": "woman getting massage: medium skin tone",
+      "unicode": [
+        "1F486",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001491",
+      "emoji": "💆🏾‍♀️",
+      "description": "woman getting massage: medium-dark skin tone",
+      "unicode": [
+        "1F486",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001492",
+      "emoji": "💆🏿‍♀️",
+      "description": "woman getting massage: dark skin tone",
+      "unicode": [
+        "1F486",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001493",
+      "emoji": "💇",
+      "description": "person getting haircut",
+      "unicode": [
+        "1F487"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001494",
+      "emoji": "💇🏻",
+      "description": "person getting haircut: light skin tone",
+      "unicode": [
+        "1F487",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001495",
+      "emoji": "💇🏼",
+      "description": "person getting haircut: medium-light skin tone",
+      "unicode": [
+        "1F487",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001496",
+      "emoji": "💇🏽",
+      "description": "person getting haircut: medium skin tone",
+      "unicode": [
+        "1F487",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001497",
+      "emoji": "💇🏾",
+      "description": "person getting haircut: medium-dark skin tone",
+      "unicode": [
+        "1F487",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001498",
+      "emoji": "💇🏿",
+      "description": "person getting haircut: dark skin tone",
+      "unicode": [
+        "1F487",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001499",
+      "emoji": "💇‍♂️",
+      "description": "man getting haircut",
+      "unicode": [
+        "1F487",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001500",
+      "emoji": "💇🏻‍♂️",
+      "description": "man getting haircut: light skin tone",
+      "unicode": [
+        "1F487",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001501",
+      "emoji": "💇🏼‍♂️",
+      "description": "man getting haircut: medium-light skin tone",
+      "unicode": [
+        "1F487",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001502",
+      "emoji": "💇🏽‍♂️",
+      "description": "man getting haircut: medium skin tone",
+      "unicode": [
+        "1F487",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001503",
+      "emoji": "💇🏾‍♂️",
+      "description": "man getting haircut: medium-dark skin tone",
+      "unicode": [
+        "1F487",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001504",
+      "emoji": "💇🏿‍♂️",
+      "description": "man getting haircut: dark skin tone",
+      "unicode": [
+        "1F487",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001505",
+      "emoji": "💇‍♀️",
+      "description": "woman getting haircut",
+      "unicode": [
+        "1F487",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001506",
+      "emoji": "💇🏻‍♀️",
+      "description": "woman getting haircut: light skin tone",
+      "unicode": [
+        "1F487",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001507",
+      "emoji": "💇🏼‍♀️",
+      "description": "woman getting haircut: medium-light skin tone",
+      "unicode": [
+        "1F487",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001508",
+      "emoji": "💇🏽‍♀️",
+      "description": "woman getting haircut: medium skin tone",
+      "unicode": [
+        "1F487",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001509",
+      "emoji": "💇🏾‍♀️",
+      "description": "woman getting haircut: medium-dark skin tone",
+      "unicode": [
+        "1F487",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001510",
+      "emoji": "💇🏿‍♀️",
+      "description": "woman getting haircut: dark skin tone",
+      "unicode": [
+        "1F487",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001511",
+      "emoji": "🚶",
+      "description": "person walking",
+      "unicode": [
+        "1F6B6"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001512",
+      "emoji": "🚶🏻",
+      "description": "person walking: light skin tone",
+      "unicode": [
+        "1F6B6",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001513",
+      "emoji": "🚶🏼",
+      "description": "person walking: medium-light skin tone",
+      "unicode": [
+        "1F6B6",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001514",
+      "emoji": "🚶🏽",
+      "description": "person walking: medium skin tone",
+      "unicode": [
+        "1F6B6",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001515",
+      "emoji": "🚶🏾",
+      "description": "person walking: medium-dark skin tone",
+      "unicode": [
+        "1F6B6",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001516",
+      "emoji": "🚶🏿",
+      "description": "person walking: dark skin tone",
+      "unicode": [
+        "1F6B6",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001517",
+      "emoji": "🚶‍♂️",
+      "description": "man walking",
+      "unicode": [
+        "1F6B6",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001518",
+      "emoji": "🚶🏻‍♂️",
+      "description": "man walking: light skin tone",
+      "unicode": [
+        "1F6B6",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001519",
+      "emoji": "🚶🏼‍♂️",
+      "description": "man walking: medium-light skin tone",
+      "unicode": [
+        "1F6B6",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001520",
+      "emoji": "🚶🏽‍♂️",
+      "description": "man walking: medium skin tone",
+      "unicode": [
+        "1F6B6",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001521",
+      "emoji": "🚶🏾‍♂️",
+      "description": "man walking: medium-dark skin tone",
+      "unicode": [
+        "1F6B6",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001522",
+      "emoji": "🚶🏿‍♂️",
+      "description": "man walking: dark skin tone",
+      "unicode": [
+        "1F6B6",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001523",
+      "emoji": "🚶‍♀️",
+      "description": "woman walking",
+      "unicode": [
+        "1F6B6",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001524",
+      "emoji": "🚶🏻‍♀️",
+      "description": "woman walking: light skin tone",
+      "unicode": [
+        "1F6B6",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001525",
+      "emoji": "🚶🏼‍♀️",
+      "description": "woman walking: medium-light skin tone",
+      "unicode": [
+        "1F6B6",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001526",
+      "emoji": "🚶🏽‍♀️",
+      "description": "woman walking: medium skin tone",
+      "unicode": [
+        "1F6B6",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001527",
+      "emoji": "🚶🏾‍♀️",
+      "description": "woman walking: medium-dark skin tone",
+      "unicode": [
+        "1F6B6",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001528",
+      "emoji": "🚶🏿‍♀️",
+      "description": "woman walking: dark skin tone",
+      "unicode": [
+        "1F6B6",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001529",
+      "emoji": "🧍",
+      "description": "person standing",
+      "unicode": [
+        "1F9CD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001530",
+      "emoji": "🧍🏻",
+      "description": "person standing: light skin tone",
+      "unicode": [
+        "1F9CD",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001531",
+      "emoji": "🧍🏼",
+      "description": "person standing: medium-light skin tone",
+      "unicode": [
+        "1F9CD",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001532",
+      "emoji": "🧍🏽",
+      "description": "person standing: medium skin tone",
+      "unicode": [
+        "1F9CD",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001533",
+      "emoji": "🧍🏾",
+      "description": "person standing: medium-dark skin tone",
+      "unicode": [
+        "1F9CD",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001534",
+      "emoji": "🧍🏿",
+      "description": "person standing: dark skin tone",
+      "unicode": [
+        "1F9CD",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001535",
+      "emoji": "🧍‍♂️",
+      "description": "man standing",
+      "unicode": [
+        "1F9CD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001536",
+      "emoji": "🧍🏻‍♂️",
+      "description": "man standing: light skin tone",
+      "unicode": [
+        "1F9CD",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001537",
+      "emoji": "🧍🏼‍♂️",
+      "description": "man standing: medium-light skin tone",
+      "unicode": [
+        "1F9CD",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001538",
+      "emoji": "🧍🏽‍♂️",
+      "description": "man standing: medium skin tone",
+      "unicode": [
+        "1F9CD",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001539",
+      "emoji": "🧍🏾‍♂️",
+      "description": "man standing: medium-dark skin tone",
+      "unicode": [
+        "1F9CD",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001540",
+      "emoji": "🧍🏿‍♂️",
+      "description": "man standing: dark skin tone",
+      "unicode": [
+        "1F9CD",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001541",
+      "emoji": "🧍‍♀️",
+      "description": "woman standing",
+      "unicode": [
+        "1F9CD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001542",
+      "emoji": "🧍🏻‍♀️",
+      "description": "woman standing: light skin tone",
+      "unicode": [
+        "1F9CD",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001543",
+      "emoji": "🧍🏼‍♀️",
+      "description": "woman standing: medium-light skin tone",
+      "unicode": [
+        "1F9CD",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001544",
+      "emoji": "🧍🏽‍♀️",
+      "description": "woman standing: medium skin tone",
+      "unicode": [
+        "1F9CD",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001545",
+      "emoji": "🧍🏾‍♀️",
+      "description": "woman standing: medium-dark skin tone",
+      "unicode": [
+        "1F9CD",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001546",
+      "emoji": "🧍🏿‍♀️",
+      "description": "woman standing: dark skin tone",
+      "unicode": [
+        "1F9CD",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001547",
+      "emoji": "🧎",
+      "description": "person kneeling",
+      "unicode": [
+        "1F9CE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001548",
+      "emoji": "🧎🏻",
+      "description": "person kneeling: light skin tone",
+      "unicode": [
+        "1F9CE",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001549",
+      "emoji": "🧎🏼",
+      "description": "person kneeling: medium-light skin tone",
+      "unicode": [
+        "1F9CE",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001550",
+      "emoji": "🧎🏽",
+      "description": "person kneeling: medium skin tone",
+      "unicode": [
+        "1F9CE",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001551",
+      "emoji": "🧎🏾",
+      "description": "person kneeling: medium-dark skin tone",
+      "unicode": [
+        "1F9CE",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001552",
+      "emoji": "🧎🏿",
+      "description": "person kneeling: dark skin tone",
+      "unicode": [
+        "1F9CE",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001553",
+      "emoji": "🧎‍♂️",
+      "description": "man kneeling",
+      "unicode": [
+        "1F9CE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001554",
+      "emoji": "🧎🏻‍♂️",
+      "description": "man kneeling: light skin tone",
+      "unicode": [
+        "1F9CE",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001555",
+      "emoji": "🧎🏼‍♂️",
+      "description": "man kneeling: medium-light skin tone",
+      "unicode": [
+        "1F9CE",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001556",
+      "emoji": "🧎🏽‍♂️",
+      "description": "man kneeling: medium skin tone",
+      "unicode": [
+        "1F9CE",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001557",
+      "emoji": "🧎🏾‍♂️",
+      "description": "man kneeling: medium-dark skin tone",
+      "unicode": [
+        "1F9CE",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001558",
+      "emoji": "🧎🏿‍♂️",
+      "description": "man kneeling: dark skin tone",
+      "unicode": [
+        "1F9CE",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001559",
+      "emoji": "🧎‍♀️",
+      "description": "woman kneeling",
+      "unicode": [
+        "1F9CE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001560",
+      "emoji": "🧎🏻‍♀️",
+      "description": "woman kneeling: light skin tone",
+      "unicode": [
+        "1F9CE",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001561",
+      "emoji": "🧎🏼‍♀️",
+      "description": "woman kneeling: medium-light skin tone",
+      "unicode": [
+        "1F9CE",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001562",
+      "emoji": "🧎🏽‍♀️",
+      "description": "woman kneeling: medium skin tone",
+      "unicode": [
+        "1F9CE",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001563",
+      "emoji": "🧎🏾‍♀️",
+      "description": "woman kneeling: medium-dark skin tone",
+      "unicode": [
+        "1F9CE",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001564",
+      "emoji": "🧎🏿‍♀️",
+      "description": "woman kneeling: dark skin tone",
+      "unicode": [
+        "1F9CE",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001565",
+      "emoji": "🧑‍🦯",
+      "description": "person with white cane",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001566",
+      "emoji": "🧑🏻‍🦯",
+      "description": "person with white cane: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001567",
+      "emoji": "🧑🏼‍🦯",
+      "description": "person with white cane: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001568",
+      "emoji": "🧑🏽‍🦯",
+      "description": "person with white cane: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001569",
+      "emoji": "🧑🏾‍🦯",
+      "description": "person with white cane: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001570",
+      "emoji": "🧑🏿‍🦯",
+      "description": "person with white cane: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001571",
+      "emoji": "👨‍🦯",
+      "description": "man with white cane",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001572",
+      "emoji": "👨🏻‍🦯",
+      "description": "man with white cane: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001573",
+      "emoji": "👨🏼‍🦯",
+      "description": "man with white cane: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001574",
+      "emoji": "👨🏽‍🦯",
+      "description": "man with white cane: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001575",
+      "emoji": "👨🏾‍🦯",
+      "description": "man with white cane: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001576",
+      "emoji": "👨🏿‍🦯",
+      "description": "man with white cane: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001577",
+      "emoji": "👩‍🦯",
+      "description": "woman with white cane",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001578",
+      "emoji": "👩🏻‍🦯",
+      "description": "woman with white cane: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001579",
+      "emoji": "👩🏼‍🦯",
+      "description": "woman with white cane: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001580",
+      "emoji": "👩🏽‍🦯",
+      "description": "woman with white cane: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001581",
+      "emoji": "👩🏾‍🦯",
+      "description": "woman with white cane: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001582",
+      "emoji": "👩🏿‍🦯",
+      "description": "woman with white cane: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001583",
+      "emoji": "🧑‍🦼",
+      "description": "person in motorized wheelchair",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001584",
+      "emoji": "🧑🏻‍🦼",
+      "description": "person in motorized wheelchair: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001585",
+      "emoji": "🧑🏼‍🦼",
+      "description": "person in motorized wheelchair: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001586",
+      "emoji": "🧑🏽‍🦼",
+      "description": "person in motorized wheelchair: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001587",
+      "emoji": "🧑🏾‍🦼",
+      "description": "person in motorized wheelchair: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001588",
+      "emoji": "🧑🏿‍🦼",
+      "description": "person in motorized wheelchair: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001589",
+      "emoji": "👨‍🦼",
+      "description": "man in motorized wheelchair",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001590",
+      "emoji": "👨🏻‍🦼",
+      "description": "man in motorized wheelchair: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001591",
+      "emoji": "👨🏼‍🦼",
+      "description": "man in motorized wheelchair: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001592",
+      "emoji": "👨🏽‍🦼",
+      "description": "man in motorized wheelchair: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001593",
+      "emoji": "👨🏾‍🦼",
+      "description": "man in motorized wheelchair: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001594",
+      "emoji": "👨🏿‍🦼",
+      "description": "man in motorized wheelchair: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001595",
+      "emoji": "👩‍🦼",
+      "description": "woman in motorized wheelchair",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001596",
+      "emoji": "👩🏻‍🦼",
+      "description": "woman in motorized wheelchair: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001597",
+      "emoji": "👩🏼‍🦼",
+      "description": "woman in motorized wheelchair: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001598",
+      "emoji": "👩🏽‍🦼",
+      "description": "woman in motorized wheelchair: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001599",
+      "emoji": "👩🏾‍🦼",
+      "description": "woman in motorized wheelchair: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001600",
+      "emoji": "👩🏿‍🦼",
+      "description": "woman in motorized wheelchair: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001601",
+      "emoji": "🧑‍🦽",
+      "description": "person in manual wheelchair",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001602",
+      "emoji": "🧑🏻‍🦽",
+      "description": "person in manual wheelchair: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001603",
+      "emoji": "🧑🏼‍🦽",
+      "description": "person in manual wheelchair: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001604",
+      "emoji": "🧑🏽‍🦽",
+      "description": "person in manual wheelchair: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001605",
+      "emoji": "🧑🏾‍🦽",
+      "description": "person in manual wheelchair: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001606",
+      "emoji": "🧑🏿‍🦽",
+      "description": "person in manual wheelchair: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001607",
+      "emoji": "👨‍🦽",
+      "description": "man in manual wheelchair",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001608",
+      "emoji": "👨🏻‍🦽",
+      "description": "man in manual wheelchair: light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001609",
+      "emoji": "👨🏼‍🦽",
+      "description": "man in manual wheelchair: medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001610",
+      "emoji": "👨🏽‍🦽",
+      "description": "man in manual wheelchair: medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001611",
+      "emoji": "👨🏾‍🦽",
+      "description": "man in manual wheelchair: medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001612",
+      "emoji": "👨🏿‍🦽",
+      "description": "man in manual wheelchair: dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001613",
+      "emoji": "👩‍🦽",
+      "description": "woman in manual wheelchair",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001614",
+      "emoji": "👩🏻‍🦽",
+      "description": "woman in manual wheelchair: light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001615",
+      "emoji": "👩🏼‍🦽",
+      "description": "woman in manual wheelchair: medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001616",
+      "emoji": "👩🏽‍🦽",
+      "description": "woman in manual wheelchair: medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001617",
+      "emoji": "👩🏾‍🦽",
+      "description": "woman in manual wheelchair: medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001618",
+      "emoji": "👩🏿‍🦽",
+      "description": "woman in manual wheelchair: dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001619",
+      "emoji": "🏃",
+      "description": "person running",
+      "unicode": [
+        "1F3C3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001620",
+      "emoji": "🏃🏻",
+      "description": "person running: light skin tone",
+      "unicode": [
+        "1F3C3",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001621",
+      "emoji": "🏃🏼",
+      "description": "person running: medium-light skin tone",
+      "unicode": [
+        "1F3C3",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001622",
+      "emoji": "🏃🏽",
+      "description": "person running: medium skin tone",
+      "unicode": [
+        "1F3C3",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001623",
+      "emoji": "🏃🏾",
+      "description": "person running: medium-dark skin tone",
+      "unicode": [
+        "1F3C3",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001624",
+      "emoji": "🏃🏿",
+      "description": "person running: dark skin tone",
+      "unicode": [
+        "1F3C3",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001625",
+      "emoji": "🏃‍♂️",
+      "description": "man running",
+      "unicode": [
+        "1F3C3",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001626",
+      "emoji": "🏃🏻‍♂️",
+      "description": "man running: light skin tone",
+      "unicode": [
+        "1F3C3",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001627",
+      "emoji": "🏃🏼‍♂️",
+      "description": "man running: medium-light skin tone",
+      "unicode": [
+        "1F3C3",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001628",
+      "emoji": "🏃🏽‍♂️",
+      "description": "man running: medium skin tone",
+      "unicode": [
+        "1F3C3",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001629",
+      "emoji": "🏃🏾‍♂️",
+      "description": "man running: medium-dark skin tone",
+      "unicode": [
+        "1F3C3",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001630",
+      "emoji": "🏃🏿‍♂️",
+      "description": "man running: dark skin tone",
+      "unicode": [
+        "1F3C3",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001631",
+      "emoji": "🏃‍♀️",
+      "description": "woman running",
+      "unicode": [
+        "1F3C3",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001632",
+      "emoji": "🏃🏻‍♀️",
+      "description": "woman running: light skin tone",
+      "unicode": [
+        "1F3C3",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001633",
+      "emoji": "🏃🏼‍♀️",
+      "description": "woman running: medium-light skin tone",
+      "unicode": [
+        "1F3C3",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001634",
+      "emoji": "🏃🏽‍♀️",
+      "description": "woman running: medium skin tone",
+      "unicode": [
+        "1F3C3",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001635",
+      "emoji": "🏃🏾‍♀️",
+      "description": "woman running: medium-dark skin tone",
+      "unicode": [
+        "1F3C3",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001636",
+      "emoji": "🏃🏿‍♀️",
+      "description": "woman running: dark skin tone",
+      "unicode": [
+        "1F3C3",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001637",
+      "emoji": "💃",
+      "description": "woman dancing",
+      "unicode": [
+        "1F483"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001638",
+      "emoji": "💃🏻",
+      "description": "woman dancing: light skin tone",
+      "unicode": [
+        "1F483",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001639",
+      "emoji": "💃🏼",
+      "description": "woman dancing: medium-light skin tone",
+      "unicode": [
+        "1F483",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001640",
+      "emoji": "💃🏽",
+      "description": "woman dancing: medium skin tone",
+      "unicode": [
+        "1F483",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001641",
+      "emoji": "💃🏾",
+      "description": "woman dancing: medium-dark skin tone",
+      "unicode": [
+        "1F483",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001642",
+      "emoji": "💃🏿",
+      "description": "woman dancing: dark skin tone",
+      "unicode": [
+        "1F483",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001643",
+      "emoji": "🕺",
+      "description": "man dancing",
+      "unicode": [
+        "1F57A"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001644",
+      "emoji": "🕺🏻",
+      "description": "man dancing: light skin tone",
+      "unicode": [
+        "1F57A",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001645",
+      "emoji": "🕺🏼",
+      "description": "man dancing: medium-light skin tone",
+      "unicode": [
+        "1F57A",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001646",
+      "emoji": "🕺🏽",
+      "description": "man dancing: medium skin tone",
+      "unicode": [
+        "1F57A",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001647",
+      "emoji": "🕺🏾",
+      "description": "man dancing: medium-dark skin tone",
+      "unicode": [
+        "1F57A",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001648",
+      "emoji": "🕺🏿",
+      "description": "man dancing: dark skin tone",
+      "unicode": [
+        "1F57A",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001649",
+      "emoji": "🕴️",
+      "description": "person in suit levitating",
+      "unicode": [
+        "1F574",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "001650",
+      "emoji": "🕴🏻",
+      "description": "person in suit levitating: light skin tone",
+      "unicode": [
+        "1F574",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001651",
+      "emoji": "🕴🏼",
+      "description": "person in suit levitating: medium-light skin tone",
+      "unicode": [
+        "1F574",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001652",
+      "emoji": "🕴🏽",
+      "description": "person in suit levitating: medium skin tone",
+      "unicode": [
+        "1F574",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001653",
+      "emoji": "🕴🏾",
+      "description": "person in suit levitating: medium-dark skin tone",
+      "unicode": [
+        "1F574",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001654",
+      "emoji": "🕴🏿",
+      "description": "person in suit levitating: dark skin tone",
+      "unicode": [
+        "1F574",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001655",
+      "emoji": "👯",
+      "description": "people with bunny ears",
+      "unicode": [
+        "1F46F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001656",
+      "emoji": "👯‍♂️",
+      "description": "men with bunny ears",
+      "unicode": [
+        "1F46F",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001657",
+      "emoji": "👯‍♀️",
+      "description": "women with bunny ears",
+      "unicode": [
+        "1F46F",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001658",
+      "emoji": "🧖",
+      "description": "person in steamy room",
+      "unicode": [
+        "1F9D6"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001659",
+      "emoji": "🧖🏻",
+      "description": "person in steamy room: light skin tone",
+      "unicode": [
+        "1F9D6",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001660",
+      "emoji": "🧖🏼",
+      "description": "person in steamy room: medium-light skin tone",
+      "unicode": [
+        "1F9D6",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001661",
+      "emoji": "🧖🏽",
+      "description": "person in steamy room: medium skin tone",
+      "unicode": [
+        "1F9D6",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001662",
+      "emoji": "🧖🏾",
+      "description": "person in steamy room: medium-dark skin tone",
+      "unicode": [
+        "1F9D6",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001663",
+      "emoji": "🧖🏿",
+      "description": "person in steamy room: dark skin tone",
+      "unicode": [
+        "1F9D6",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001664",
+      "emoji": "🧖‍♂️",
+      "description": "man in steamy room",
+      "unicode": [
+        "1F9D6",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001665",
+      "emoji": "🧖🏻‍♂️",
+      "description": "man in steamy room: light skin tone",
+      "unicode": [
+        "1F9D6",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001666",
+      "emoji": "🧖🏼‍♂️",
+      "description": "man in steamy room: medium-light skin tone",
+      "unicode": [
+        "1F9D6",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001667",
+      "emoji": "🧖🏽‍♂️",
+      "description": "man in steamy room: medium skin tone",
+      "unicode": [
+        "1F9D6",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001668",
+      "emoji": "🧖🏾‍♂️",
+      "description": "man in steamy room: medium-dark skin tone",
+      "unicode": [
+        "1F9D6",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001669",
+      "emoji": "🧖🏿‍♂️",
+      "description": "man in steamy room: dark skin tone",
+      "unicode": [
+        "1F9D6",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001670",
+      "emoji": "🧖‍♀️",
+      "description": "woman in steamy room",
+      "unicode": [
+        "1F9D6",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001671",
+      "emoji": "🧖🏻‍♀️",
+      "description": "woman in steamy room: light skin tone",
+      "unicode": [
+        "1F9D6",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001672",
+      "emoji": "🧖🏼‍♀️",
+      "description": "woman in steamy room: medium-light skin tone",
+      "unicode": [
+        "1F9D6",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001673",
+      "emoji": "🧖🏽‍♀️",
+      "description": "woman in steamy room: medium skin tone",
+      "unicode": [
+        "1F9D6",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001674",
+      "emoji": "🧖🏾‍♀️",
+      "description": "woman in steamy room: medium-dark skin tone",
+      "unicode": [
+        "1F9D6",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001675",
+      "emoji": "🧖🏿‍♀️",
+      "description": "woman in steamy room: dark skin tone",
+      "unicode": [
+        "1F9D6",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001676",
+      "emoji": "🧗",
+      "description": "person climbing",
+      "unicode": [
+        "1F9D7"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001677",
+      "emoji": "🧗🏻",
+      "description": "person climbing: light skin tone",
+      "unicode": [
+        "1F9D7",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001678",
+      "emoji": "🧗🏼",
+      "description": "person climbing: medium-light skin tone",
+      "unicode": [
+        "1F9D7",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001679",
+      "emoji": "🧗🏽",
+      "description": "person climbing: medium skin tone",
+      "unicode": [
+        "1F9D7",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001680",
+      "emoji": "🧗🏾",
+      "description": "person climbing: medium-dark skin tone",
+      "unicode": [
+        "1F9D7",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001681",
+      "emoji": "🧗🏿",
+      "description": "person climbing: dark skin tone",
+      "unicode": [
+        "1F9D7",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001682",
+      "emoji": "🧗‍♂️",
+      "description": "man climbing",
+      "unicode": [
+        "1F9D7",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001683",
+      "emoji": "🧗🏻‍♂️",
+      "description": "man climbing: light skin tone",
+      "unicode": [
+        "1F9D7",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001684",
+      "emoji": "🧗🏼‍♂️",
+      "description": "man climbing: medium-light skin tone",
+      "unicode": [
+        "1F9D7",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001685",
+      "emoji": "🧗🏽‍♂️",
+      "description": "man climbing: medium skin tone",
+      "unicode": [
+        "1F9D7",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001686",
+      "emoji": "🧗🏾‍♂️",
+      "description": "man climbing: medium-dark skin tone",
+      "unicode": [
+        "1F9D7",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001687",
+      "emoji": "🧗🏿‍♂️",
+      "description": "man climbing: dark skin tone",
+      "unicode": [
+        "1F9D7",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001688",
+      "emoji": "🧗‍♀️",
+      "description": "woman climbing",
+      "unicode": [
+        "1F9D7",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001689",
+      "emoji": "🧗🏻‍♀️",
+      "description": "woman climbing: light skin tone",
+      "unicode": [
+        "1F9D7",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001690",
+      "emoji": "🧗🏼‍♀️",
+      "description": "woman climbing: medium-light skin tone",
+      "unicode": [
+        "1F9D7",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001691",
+      "emoji": "🧗🏽‍♀️",
+      "description": "woman climbing: medium skin tone",
+      "unicode": [
+        "1F9D7",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001692",
+      "emoji": "🧗🏾‍♀️",
+      "description": "woman climbing: medium-dark skin tone",
+      "unicode": [
+        "1F9D7",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001693",
+      "emoji": "🧗🏿‍♀️",
+      "description": "woman climbing: dark skin tone",
+      "unicode": [
+        "1F9D7",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001694",
+      "emoji": "🤺",
+      "description": "person fencing",
+      "unicode": [
+        "1F93A"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001695",
+      "emoji": "🏇",
+      "description": "horse racing",
+      "unicode": [
+        "1F3C7"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001696",
+      "emoji": "🏇🏻",
+      "description": "horse racing: light skin tone",
+      "unicode": [
+        "1F3C7",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001697",
+      "emoji": "🏇🏼",
+      "description": "horse racing: medium-light skin tone",
+      "unicode": [
+        "1F3C7",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001698",
+      "emoji": "🏇🏽",
+      "description": "horse racing: medium skin tone",
+      "unicode": [
+        "1F3C7",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001699",
+      "emoji": "🏇🏾",
+      "description": "horse racing: medium-dark skin tone",
+      "unicode": [
+        "1F3C7",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001700",
+      "emoji": "🏇🏿",
+      "description": "horse racing: dark skin tone",
+      "unicode": [
+        "1F3C7",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001701",
+      "emoji": "⛷️",
+      "description": "skier",
+      "unicode": [
+        "26F7",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "001702",
+      "emoji": "🏂",
+      "description": "snowboarder",
+      "unicode": [
+        "1F3C2"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001703",
+      "emoji": "🏂🏻",
+      "description": "snowboarder: light skin tone",
+      "unicode": [
+        "1F3C2",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001704",
+      "emoji": "🏂🏼",
+      "description": "snowboarder: medium-light skin tone",
+      "unicode": [
+        "1F3C2",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001705",
+      "emoji": "🏂🏽",
+      "description": "snowboarder: medium skin tone",
+      "unicode": [
+        "1F3C2",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001706",
+      "emoji": "🏂🏾",
+      "description": "snowboarder: medium-dark skin tone",
+      "unicode": [
+        "1F3C2",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001707",
+      "emoji": "🏂🏿",
+      "description": "snowboarder: dark skin tone",
+      "unicode": [
+        "1F3C2",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001708",
+      "emoji": "🏌️",
+      "description": "person golfing",
+      "unicode": [
+        "1F3CC",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "001709",
+      "emoji": "🏌🏻",
+      "description": "person golfing: light skin tone",
+      "unicode": [
+        "1F3CC",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001710",
+      "emoji": "🏌🏼",
+      "description": "person golfing: medium-light skin tone",
+      "unicode": [
+        "1F3CC",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001711",
+      "emoji": "🏌🏽",
+      "description": "person golfing: medium skin tone",
+      "unicode": [
+        "1F3CC",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001712",
+      "emoji": "🏌🏾",
+      "description": "person golfing: medium-dark skin tone",
+      "unicode": [
+        "1F3CC",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001713",
+      "emoji": "🏌🏿",
+      "description": "person golfing: dark skin tone",
+      "unicode": [
+        "1F3CC",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001714",
+      "emoji": "🏌️‍♂️",
+      "description": "man golfing",
+      "unicode": [
+        "1F3CC",
+        "FE0F",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001715",
+      "emoji": "🏌🏻‍♂️",
+      "description": "man golfing: light skin tone",
+      "unicode": [
+        "1F3CC",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001716",
+      "emoji": "🏌🏼‍♂️",
+      "description": "man golfing: medium-light skin tone",
+      "unicode": [
+        "1F3CC",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001717",
+      "emoji": "🏌🏽‍♂️",
+      "description": "man golfing: medium skin tone",
+      "unicode": [
+        "1F3CC",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001718",
+      "emoji": "🏌🏾‍♂️",
+      "description": "man golfing: medium-dark skin tone",
+      "unicode": [
+        "1F3CC",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001719",
+      "emoji": "🏌🏿‍♂️",
+      "description": "man golfing: dark skin tone",
+      "unicode": [
+        "1F3CC",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001720",
+      "emoji": "🏌️‍♀️",
+      "description": "woman golfing",
+      "unicode": [
+        "1F3CC",
+        "FE0F",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001721",
+      "emoji": "🏌🏻‍♀️",
+      "description": "woman golfing: light skin tone",
+      "unicode": [
+        "1F3CC",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001722",
+      "emoji": "🏌🏼‍♀️",
+      "description": "woman golfing: medium-light skin tone",
+      "unicode": [
+        "1F3CC",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001723",
+      "emoji": "🏌🏽‍♀️",
+      "description": "woman golfing: medium skin tone",
+      "unicode": [
+        "1F3CC",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001724",
+      "emoji": "🏌🏾‍♀️",
+      "description": "woman golfing: medium-dark skin tone",
+      "unicode": [
+        "1F3CC",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001725",
+      "emoji": "🏌🏿‍♀️",
+      "description": "woman golfing: dark skin tone",
+      "unicode": [
+        "1F3CC",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001726",
+      "emoji": "🏄",
+      "description": "person surfing",
+      "unicode": [
+        "1F3C4"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001727",
+      "emoji": "🏄🏻",
+      "description": "person surfing: light skin tone",
+      "unicode": [
+        "1F3C4",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001728",
+      "emoji": "🏄🏼",
+      "description": "person surfing: medium-light skin tone",
+      "unicode": [
+        "1F3C4",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001729",
+      "emoji": "🏄🏽",
+      "description": "person surfing: medium skin tone",
+      "unicode": [
+        "1F3C4",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001730",
+      "emoji": "🏄🏾",
+      "description": "person surfing: medium-dark skin tone",
+      "unicode": [
+        "1F3C4",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001731",
+      "emoji": "🏄🏿",
+      "description": "person surfing: dark skin tone",
+      "unicode": [
+        "1F3C4",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001732",
+      "emoji": "🏄‍♂️",
+      "description": "man surfing",
+      "unicode": [
+        "1F3C4",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001733",
+      "emoji": "🏄🏻‍♂️",
+      "description": "man surfing: light skin tone",
+      "unicode": [
+        "1F3C4",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001734",
+      "emoji": "🏄🏼‍♂️",
+      "description": "man surfing: medium-light skin tone",
+      "unicode": [
+        "1F3C4",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001735",
+      "emoji": "🏄🏽‍♂️",
+      "description": "man surfing: medium skin tone",
+      "unicode": [
+        "1F3C4",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001736",
+      "emoji": "🏄🏾‍♂️",
+      "description": "man surfing: medium-dark skin tone",
+      "unicode": [
+        "1F3C4",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001737",
+      "emoji": "🏄🏿‍♂️",
+      "description": "man surfing: dark skin tone",
+      "unicode": [
+        "1F3C4",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001738",
+      "emoji": "🏄‍♀️",
+      "description": "woman surfing",
+      "unicode": [
+        "1F3C4",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001739",
+      "emoji": "🏄🏻‍♀️",
+      "description": "woman surfing: light skin tone",
+      "unicode": [
+        "1F3C4",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001740",
+      "emoji": "🏄🏼‍♀️",
+      "description": "woman surfing: medium-light skin tone",
+      "unicode": [
+        "1F3C4",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001741",
+      "emoji": "🏄🏽‍♀️",
+      "description": "woman surfing: medium skin tone",
+      "unicode": [
+        "1F3C4",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001742",
+      "emoji": "🏄🏾‍♀️",
+      "description": "woman surfing: medium-dark skin tone",
+      "unicode": [
+        "1F3C4",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001743",
+      "emoji": "🏄🏿‍♀️",
+      "description": "woman surfing: dark skin tone",
+      "unicode": [
+        "1F3C4",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001744",
+      "emoji": "🚣",
+      "description": "person rowing boat",
+      "unicode": [
+        "1F6A3"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001745",
+      "emoji": "🚣🏻",
+      "description": "person rowing boat: light skin tone",
+      "unicode": [
+        "1F6A3",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001746",
+      "emoji": "🚣🏼",
+      "description": "person rowing boat: medium-light skin tone",
+      "unicode": [
+        "1F6A3",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001747",
+      "emoji": "🚣🏽",
+      "description": "person rowing boat: medium skin tone",
+      "unicode": [
+        "1F6A3",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001748",
+      "emoji": "🚣🏾",
+      "description": "person rowing boat: medium-dark skin tone",
+      "unicode": [
+        "1F6A3",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001749",
+      "emoji": "🚣🏿",
+      "description": "person rowing boat: dark skin tone",
+      "unicode": [
+        "1F6A3",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001750",
+      "emoji": "🚣‍♂️",
+      "description": "man rowing boat",
+      "unicode": [
+        "1F6A3",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001751",
+      "emoji": "🚣🏻‍♂️",
+      "description": "man rowing boat: light skin tone",
+      "unicode": [
+        "1F6A3",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001752",
+      "emoji": "🚣🏼‍♂️",
+      "description": "man rowing boat: medium-light skin tone",
+      "unicode": [
+        "1F6A3",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001753",
+      "emoji": "🚣🏽‍♂️",
+      "description": "man rowing boat: medium skin tone",
+      "unicode": [
+        "1F6A3",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001754",
+      "emoji": "🚣🏾‍♂️",
+      "description": "man rowing boat: medium-dark skin tone",
+      "unicode": [
+        "1F6A3",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001755",
+      "emoji": "🚣🏿‍♂️",
+      "description": "man rowing boat: dark skin tone",
+      "unicode": [
+        "1F6A3",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001756",
+      "emoji": "🚣‍♀️",
+      "description": "woman rowing boat",
+      "unicode": [
+        "1F6A3",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001757",
+      "emoji": "🚣🏻‍♀️",
+      "description": "woman rowing boat: light skin tone",
+      "unicode": [
+        "1F6A3",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001758",
+      "emoji": "🚣🏼‍♀️",
+      "description": "woman rowing boat: medium-light skin tone",
+      "unicode": [
+        "1F6A3",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001759",
+      "emoji": "🚣🏽‍♀️",
+      "description": "woman rowing boat: medium skin tone",
+      "unicode": [
+        "1F6A3",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001760",
+      "emoji": "🚣🏾‍♀️",
+      "description": "woman rowing boat: medium-dark skin tone",
+      "unicode": [
+        "1F6A3",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001761",
+      "emoji": "🚣🏿‍♀️",
+      "description": "woman rowing boat: dark skin tone",
+      "unicode": [
+        "1F6A3",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001762",
+      "emoji": "🏊",
+      "description": "person swimming",
+      "unicode": [
+        "1F3CA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001763",
+      "emoji": "🏊🏻",
+      "description": "person swimming: light skin tone",
+      "unicode": [
+        "1F3CA",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001764",
+      "emoji": "🏊🏼",
+      "description": "person swimming: medium-light skin tone",
+      "unicode": [
+        "1F3CA",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001765",
+      "emoji": "🏊🏽",
+      "description": "person swimming: medium skin tone",
+      "unicode": [
+        "1F3CA",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001766",
+      "emoji": "🏊🏾",
+      "description": "person swimming: medium-dark skin tone",
+      "unicode": [
+        "1F3CA",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001767",
+      "emoji": "🏊🏿",
+      "description": "person swimming: dark skin tone",
+      "unicode": [
+        "1F3CA",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001768",
+      "emoji": "🏊‍♂️",
+      "description": "man swimming",
+      "unicode": [
+        "1F3CA",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001769",
+      "emoji": "🏊🏻‍♂️",
+      "description": "man swimming: light skin tone",
+      "unicode": [
+        "1F3CA",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001770",
+      "emoji": "🏊🏼‍♂️",
+      "description": "man swimming: medium-light skin tone",
+      "unicode": [
+        "1F3CA",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001771",
+      "emoji": "🏊🏽‍♂️",
+      "description": "man swimming: medium skin tone",
+      "unicode": [
+        "1F3CA",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001772",
+      "emoji": "🏊🏾‍♂️",
+      "description": "man swimming: medium-dark skin tone",
+      "unicode": [
+        "1F3CA",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001773",
+      "emoji": "🏊🏿‍♂️",
+      "description": "man swimming: dark skin tone",
+      "unicode": [
+        "1F3CA",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001774",
+      "emoji": "🏊‍♀️",
+      "description": "woman swimming",
+      "unicode": [
+        "1F3CA",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001775",
+      "emoji": "🏊🏻‍♀️",
+      "description": "woman swimming: light skin tone",
+      "unicode": [
+        "1F3CA",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001776",
+      "emoji": "🏊🏼‍♀️",
+      "description": "woman swimming: medium-light skin tone",
+      "unicode": [
+        "1F3CA",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001777",
+      "emoji": "🏊🏽‍♀️",
+      "description": "woman swimming: medium skin tone",
+      "unicode": [
+        "1F3CA",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001778",
+      "emoji": "🏊🏾‍♀️",
+      "description": "woman swimming: medium-dark skin tone",
+      "unicode": [
+        "1F3CA",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001779",
+      "emoji": "🏊🏿‍♀️",
+      "description": "woman swimming: dark skin tone",
+      "unicode": [
+        "1F3CA",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001780",
+      "emoji": "⛹️",
+      "description": "person bouncing ball",
+      "unicode": [
+        "26F9",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "001781",
+      "emoji": "⛹🏻",
+      "description": "person bouncing ball: light skin tone",
+      "unicode": [
+        "26F9",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "001782",
+      "emoji": "⛹🏼",
+      "description": "person bouncing ball: medium-light skin tone",
+      "unicode": [
+        "26F9",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "001783",
+      "emoji": "⛹🏽",
+      "description": "person bouncing ball: medium skin tone",
+      "unicode": [
+        "26F9",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "001784",
+      "emoji": "⛹🏾",
+      "description": "person bouncing ball: medium-dark skin tone",
+      "unicode": [
+        "26F9",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "001785",
+      "emoji": "⛹🏿",
+      "description": "person bouncing ball: dark skin tone",
+      "unicode": [
+        "26F9",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "001786",
+      "emoji": "⛹️‍♂️",
+      "description": "man bouncing ball",
+      "unicode": [
+        "26F9",
+        "FE0F",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001787",
+      "emoji": "⛹🏻‍♂️",
+      "description": "man bouncing ball: light skin tone",
+      "unicode": [
+        "26F9",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001788",
+      "emoji": "⛹🏼‍♂️",
+      "description": "man bouncing ball: medium-light skin tone",
+      "unicode": [
+        "26F9",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001789",
+      "emoji": "⛹🏽‍♂️",
+      "description": "man bouncing ball: medium skin tone",
+      "unicode": [
+        "26F9",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001790",
+      "emoji": "⛹🏾‍♂️",
+      "description": "man bouncing ball: medium-dark skin tone",
+      "unicode": [
+        "26F9",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001791",
+      "emoji": "⛹🏿‍♂️",
+      "description": "man bouncing ball: dark skin tone",
+      "unicode": [
+        "26F9",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001792",
+      "emoji": "⛹️‍♀️",
+      "description": "woman bouncing ball",
+      "unicode": [
+        "26F9",
+        "FE0F",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001793",
+      "emoji": "⛹🏻‍♀️",
+      "description": "woman bouncing ball: light skin tone",
+      "unicode": [
+        "26F9",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001794",
+      "emoji": "⛹🏼‍♀️",
+      "description": "woman bouncing ball: medium-light skin tone",
+      "unicode": [
+        "26F9",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001795",
+      "emoji": "⛹🏽‍♀️",
+      "description": "woman bouncing ball: medium skin tone",
+      "unicode": [
+        "26F9",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001796",
+      "emoji": "⛹🏾‍♀️",
+      "description": "woman bouncing ball: medium-dark skin tone",
+      "unicode": [
+        "26F9",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001797",
+      "emoji": "⛹🏿‍♀️",
+      "description": "woman bouncing ball: dark skin tone",
+      "unicode": [
+        "26F9",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001798",
+      "emoji": "🏋️",
+      "description": "person lifting weights",
+      "unicode": [
+        "1F3CB",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "001799",
+      "emoji": "🏋🏻",
+      "description": "person lifting weights: light skin tone",
+      "unicode": [
+        "1F3CB",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "001800",
+      "emoji": "🏋🏼",
+      "description": "person lifting weights: medium-light skin tone",
+      "unicode": [
+        "1F3CB",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "001801",
+      "emoji": "🏋🏽",
+      "description": "person lifting weights: medium skin tone",
+      "unicode": [
+        "1F3CB",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "001802",
+      "emoji": "🏋🏾",
+      "description": "person lifting weights: medium-dark skin tone",
+      "unicode": [
+        "1F3CB",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "001803",
+      "emoji": "🏋🏿",
+      "description": "person lifting weights: dark skin tone",
+      "unicode": [
+        "1F3CB",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "001804",
+      "emoji": "🏋️‍♂️",
+      "description": "man lifting weights",
+      "unicode": [
+        "1F3CB",
+        "FE0F",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001805",
+      "emoji": "🏋🏻‍♂️",
+      "description": "man lifting weights: light skin tone",
+      "unicode": [
+        "1F3CB",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001806",
+      "emoji": "🏋🏼‍♂️",
+      "description": "man lifting weights: medium-light skin tone",
+      "unicode": [
+        "1F3CB",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001807",
+      "emoji": "🏋🏽‍♂️",
+      "description": "man lifting weights: medium skin tone",
+      "unicode": [
+        "1F3CB",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001808",
+      "emoji": "🏋🏾‍♂️",
+      "description": "man lifting weights: medium-dark skin tone",
+      "unicode": [
+        "1F3CB",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001809",
+      "emoji": "🏋🏿‍♂️",
+      "description": "man lifting weights: dark skin tone",
+      "unicode": [
+        "1F3CB",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001810",
+      "emoji": "🏋️‍♀️",
+      "description": "woman lifting weights",
+      "unicode": [
+        "1F3CB",
+        "FE0F",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001811",
+      "emoji": "🏋🏻‍♀️",
+      "description": "woman lifting weights: light skin tone",
+      "unicode": [
+        "1F3CB",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001812",
+      "emoji": "🏋🏼‍♀️",
+      "description": "woman lifting weights: medium-light skin tone",
+      "unicode": [
+        "1F3CB",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001813",
+      "emoji": "🏋🏽‍♀️",
+      "description": "woman lifting weights: medium skin tone",
+      "unicode": [
+        "1F3CB",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001814",
+      "emoji": "🏋🏾‍♀️",
+      "description": "woman lifting weights: medium-dark skin tone",
+      "unicode": [
+        "1F3CB",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001815",
+      "emoji": "🏋🏿‍♀️",
+      "description": "woman lifting weights: dark skin tone",
+      "unicode": [
+        "1F3CB",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001816",
+      "emoji": "🚴",
+      "description": "person biking",
+      "unicode": [
+        "1F6B4"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001817",
+      "emoji": "🚴🏻",
+      "description": "person biking: light skin tone",
+      "unicode": [
+        "1F6B4",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001818",
+      "emoji": "🚴🏼",
+      "description": "person biking: medium-light skin tone",
+      "unicode": [
+        "1F6B4",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001819",
+      "emoji": "🚴🏽",
+      "description": "person biking: medium skin tone",
+      "unicode": [
+        "1F6B4",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001820",
+      "emoji": "🚴🏾",
+      "description": "person biking: medium-dark skin tone",
+      "unicode": [
+        "1F6B4",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001821",
+      "emoji": "🚴🏿",
+      "description": "person biking: dark skin tone",
+      "unicode": [
+        "1F6B4",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001822",
+      "emoji": "🚴‍♂️",
+      "description": "man biking",
+      "unicode": [
+        "1F6B4",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001823",
+      "emoji": "🚴🏻‍♂️",
+      "description": "man biking: light skin tone",
+      "unicode": [
+        "1F6B4",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001824",
+      "emoji": "🚴🏼‍♂️",
+      "description": "man biking: medium-light skin tone",
+      "unicode": [
+        "1F6B4",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001825",
+      "emoji": "🚴🏽‍♂️",
+      "description": "man biking: medium skin tone",
+      "unicode": [
+        "1F6B4",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001826",
+      "emoji": "🚴🏾‍♂️",
+      "description": "man biking: medium-dark skin tone",
+      "unicode": [
+        "1F6B4",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001827",
+      "emoji": "🚴🏿‍♂️",
+      "description": "man biking: dark skin tone",
+      "unicode": [
+        "1F6B4",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001828",
+      "emoji": "🚴‍♀️",
+      "description": "woman biking",
+      "unicode": [
+        "1F6B4",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001829",
+      "emoji": "🚴🏻‍♀️",
+      "description": "woman biking: light skin tone",
+      "unicode": [
+        "1F6B4",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001830",
+      "emoji": "🚴🏼‍♀️",
+      "description": "woman biking: medium-light skin tone",
+      "unicode": [
+        "1F6B4",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001831",
+      "emoji": "🚴🏽‍♀️",
+      "description": "woman biking: medium skin tone",
+      "unicode": [
+        "1F6B4",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001832",
+      "emoji": "🚴🏾‍♀️",
+      "description": "woman biking: medium-dark skin tone",
+      "unicode": [
+        "1F6B4",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001833",
+      "emoji": "🚴🏿‍♀️",
+      "description": "woman biking: dark skin tone",
+      "unicode": [
+        "1F6B4",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001834",
+      "emoji": "🚵",
+      "description": "person mountain biking",
+      "unicode": [
+        "1F6B5"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001835",
+      "emoji": "🚵🏻",
+      "description": "person mountain biking: light skin tone",
+      "unicode": [
+        "1F6B5",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001836",
+      "emoji": "🚵🏼",
+      "description": "person mountain biking: medium-light skin tone",
+      "unicode": [
+        "1F6B5",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001837",
+      "emoji": "🚵🏽",
+      "description": "person mountain biking: medium skin tone",
+      "unicode": [
+        "1F6B5",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001838",
+      "emoji": "🚵🏾",
+      "description": "person mountain biking: medium-dark skin tone",
+      "unicode": [
+        "1F6B5",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001839",
+      "emoji": "🚵🏿",
+      "description": "person mountain biking: dark skin tone",
+      "unicode": [
+        "1F6B5",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001840",
+      "emoji": "🚵‍♂️",
+      "description": "man mountain biking",
+      "unicode": [
+        "1F6B5",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001841",
+      "emoji": "🚵🏻‍♂️",
+      "description": "man mountain biking: light skin tone",
+      "unicode": [
+        "1F6B5",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001842",
+      "emoji": "🚵🏼‍♂️",
+      "description": "man mountain biking: medium-light skin tone",
+      "unicode": [
+        "1F6B5",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001843",
+      "emoji": "🚵🏽‍♂️",
+      "description": "man mountain biking: medium skin tone",
+      "unicode": [
+        "1F6B5",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001844",
+      "emoji": "🚵🏾‍♂️",
+      "description": "man mountain biking: medium-dark skin tone",
+      "unicode": [
+        "1F6B5",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001845",
+      "emoji": "🚵🏿‍♂️",
+      "description": "man mountain biking: dark skin tone",
+      "unicode": [
+        "1F6B5",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001846",
+      "emoji": "🚵‍♀️",
+      "description": "woman mountain biking",
+      "unicode": [
+        "1F6B5",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001847",
+      "emoji": "🚵🏻‍♀️",
+      "description": "woman mountain biking: light skin tone",
+      "unicode": [
+        "1F6B5",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001848",
+      "emoji": "🚵🏼‍♀️",
+      "description": "woman mountain biking: medium-light skin tone",
+      "unicode": [
+        "1F6B5",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001849",
+      "emoji": "🚵🏽‍♀️",
+      "description": "woman mountain biking: medium skin tone",
+      "unicode": [
+        "1F6B5",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001850",
+      "emoji": "🚵🏾‍♀️",
+      "description": "woman mountain biking: medium-dark skin tone",
+      "unicode": [
+        "1F6B5",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001851",
+      "emoji": "🚵🏿‍♀️",
+      "description": "woman mountain biking: dark skin tone",
+      "unicode": [
+        "1F6B5",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001852",
+      "emoji": "🤸",
+      "description": "person cartwheeling",
+      "unicode": [
+        "1F938"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001853",
+      "emoji": "🤸🏻",
+      "description": "person cartwheeling: light skin tone",
+      "unicode": [
+        "1F938",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001854",
+      "emoji": "🤸🏼",
+      "description": "person cartwheeling: medium-light skin tone",
+      "unicode": [
+        "1F938",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001855",
+      "emoji": "🤸🏽",
+      "description": "person cartwheeling: medium skin tone",
+      "unicode": [
+        "1F938",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001856",
+      "emoji": "🤸🏾",
+      "description": "person cartwheeling: medium-dark skin tone",
+      "unicode": [
+        "1F938",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001857",
+      "emoji": "🤸🏿",
+      "description": "person cartwheeling: dark skin tone",
+      "unicode": [
+        "1F938",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001858",
+      "emoji": "🤸‍♂️",
+      "description": "man cartwheeling",
+      "unicode": [
+        "1F938",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001859",
+      "emoji": "🤸🏻‍♂️",
+      "description": "man cartwheeling: light skin tone",
+      "unicode": [
+        "1F938",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001860",
+      "emoji": "🤸🏼‍♂️",
+      "description": "man cartwheeling: medium-light skin tone",
+      "unicode": [
+        "1F938",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001861",
+      "emoji": "🤸🏽‍♂️",
+      "description": "man cartwheeling: medium skin tone",
+      "unicode": [
+        "1F938",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001862",
+      "emoji": "🤸🏾‍♂️",
+      "description": "man cartwheeling: medium-dark skin tone",
+      "unicode": [
+        "1F938",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001863",
+      "emoji": "🤸🏿‍♂️",
+      "description": "man cartwheeling: dark skin tone",
+      "unicode": [
+        "1F938",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001864",
+      "emoji": "🤸‍♀️",
+      "description": "woman cartwheeling",
+      "unicode": [
+        "1F938",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001865",
+      "emoji": "🤸🏻‍♀️",
+      "description": "woman cartwheeling: light skin tone",
+      "unicode": [
+        "1F938",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001866",
+      "emoji": "🤸🏼‍♀️",
+      "description": "woman cartwheeling: medium-light skin tone",
+      "unicode": [
+        "1F938",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001867",
+      "emoji": "🤸🏽‍♀️",
+      "description": "woman cartwheeling: medium skin tone",
+      "unicode": [
+        "1F938",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001868",
+      "emoji": "🤸🏾‍♀️",
+      "description": "woman cartwheeling: medium-dark skin tone",
+      "unicode": [
+        "1F938",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001869",
+      "emoji": "🤸🏿‍♀️",
+      "description": "woman cartwheeling: dark skin tone",
+      "unicode": [
+        "1F938",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001870",
+      "emoji": "🤼",
+      "description": "people wrestling",
+      "unicode": [
+        "1F93C"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001871",
+      "emoji": "🤼‍♂️",
+      "description": "men wrestling",
+      "unicode": [
+        "1F93C",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001872",
+      "emoji": "🤼‍♀️",
+      "description": "women wrestling",
+      "unicode": [
+        "1F93C",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001873",
+      "emoji": "🤽",
+      "description": "person playing water polo",
+      "unicode": [
+        "1F93D"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001874",
+      "emoji": "🤽🏻",
+      "description": "person playing water polo: light skin tone",
+      "unicode": [
+        "1F93D",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001875",
+      "emoji": "🤽🏼",
+      "description": "person playing water polo: medium-light skin tone",
+      "unicode": [
+        "1F93D",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001876",
+      "emoji": "🤽🏽",
+      "description": "person playing water polo: medium skin tone",
+      "unicode": [
+        "1F93D",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001877",
+      "emoji": "🤽🏾",
+      "description": "person playing water polo: medium-dark skin tone",
+      "unicode": [
+        "1F93D",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001878",
+      "emoji": "🤽🏿",
+      "description": "person playing water polo: dark skin tone",
+      "unicode": [
+        "1F93D",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001879",
+      "emoji": "🤽‍♂️",
+      "description": "man playing water polo",
+      "unicode": [
+        "1F93D",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001880",
+      "emoji": "🤽🏻‍♂️",
+      "description": "man playing water polo: light skin tone",
+      "unicode": [
+        "1F93D",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001881",
+      "emoji": "🤽🏼‍♂️",
+      "description": "man playing water polo: medium-light skin tone",
+      "unicode": [
+        "1F93D",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001882",
+      "emoji": "🤽🏽‍♂️",
+      "description": "man playing water polo: medium skin tone",
+      "unicode": [
+        "1F93D",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001883",
+      "emoji": "🤽🏾‍♂️",
+      "description": "man playing water polo: medium-dark skin tone",
+      "unicode": [
+        "1F93D",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001884",
+      "emoji": "🤽🏿‍♂️",
+      "description": "man playing water polo: dark skin tone",
+      "unicode": [
+        "1F93D",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001885",
+      "emoji": "🤽‍♀️",
+      "description": "woman playing water polo",
+      "unicode": [
+        "1F93D",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001886",
+      "emoji": "🤽🏻‍♀️",
+      "description": "woman playing water polo: light skin tone",
+      "unicode": [
+        "1F93D",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001887",
+      "emoji": "🤽🏼‍♀️",
+      "description": "woman playing water polo: medium-light skin tone",
+      "unicode": [
+        "1F93D",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001888",
+      "emoji": "🤽🏽‍♀️",
+      "description": "woman playing water polo: medium skin tone",
+      "unicode": [
+        "1F93D",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001889",
+      "emoji": "🤽🏾‍♀️",
+      "description": "woman playing water polo: medium-dark skin tone",
+      "unicode": [
+        "1F93D",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001890",
+      "emoji": "🤽🏿‍♀️",
+      "description": "woman playing water polo: dark skin tone",
+      "unicode": [
+        "1F93D",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001891",
+      "emoji": "🤾",
+      "description": "person playing handball",
+      "unicode": [
+        "1F93E"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001892",
+      "emoji": "🤾🏻",
+      "description": "person playing handball: light skin tone",
+      "unicode": [
+        "1F93E",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001893",
+      "emoji": "🤾🏼",
+      "description": "person playing handball: medium-light skin tone",
+      "unicode": [
+        "1F93E",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001894",
+      "emoji": "🤾🏽",
+      "description": "person playing handball: medium skin tone",
+      "unicode": [
+        "1F93E",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001895",
+      "emoji": "🤾🏾",
+      "description": "person playing handball: medium-dark skin tone",
+      "unicode": [
+        "1F93E",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001896",
+      "emoji": "🤾🏿",
+      "description": "person playing handball: dark skin tone",
+      "unicode": [
+        "1F93E",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001897",
+      "emoji": "🤾‍♂️",
+      "description": "man playing handball",
+      "unicode": [
+        "1F93E",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001898",
+      "emoji": "🤾🏻‍♂️",
+      "description": "man playing handball: light skin tone",
+      "unicode": [
+        "1F93E",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001899",
+      "emoji": "🤾🏼‍♂️",
+      "description": "man playing handball: medium-light skin tone",
+      "unicode": [
+        "1F93E",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001900",
+      "emoji": "🤾🏽‍♂️",
+      "description": "man playing handball: medium skin tone",
+      "unicode": [
+        "1F93E",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001901",
+      "emoji": "🤾🏾‍♂️",
+      "description": "man playing handball: medium-dark skin tone",
+      "unicode": [
+        "1F93E",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001902",
+      "emoji": "🤾🏿‍♂️",
+      "description": "man playing handball: dark skin tone",
+      "unicode": [
+        "1F93E",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001903",
+      "emoji": "🤾‍♀️",
+      "description": "woman playing handball",
+      "unicode": [
+        "1F93E",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001904",
+      "emoji": "🤾🏻‍♀️",
+      "description": "woman playing handball: light skin tone",
+      "unicode": [
+        "1F93E",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001905",
+      "emoji": "🤾🏼‍♀️",
+      "description": "woman playing handball: medium-light skin tone",
+      "unicode": [
+        "1F93E",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001906",
+      "emoji": "🤾🏽‍♀️",
+      "description": "woman playing handball: medium skin tone",
+      "unicode": [
+        "1F93E",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001907",
+      "emoji": "🤾🏾‍♀️",
+      "description": "woman playing handball: medium-dark skin tone",
+      "unicode": [
+        "1F93E",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001908",
+      "emoji": "🤾🏿‍♀️",
+      "description": "woman playing handball: dark skin tone",
+      "unicode": [
+        "1F93E",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001909",
+      "emoji": "🤹",
+      "description": "person juggling",
+      "unicode": [
+        "1F939"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001910",
+      "emoji": "🤹🏻",
+      "description": "person juggling: light skin tone",
+      "unicode": [
+        "1F939",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001911",
+      "emoji": "🤹🏼",
+      "description": "person juggling: medium-light skin tone",
+      "unicode": [
+        "1F939",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001912",
+      "emoji": "🤹🏽",
+      "description": "person juggling: medium skin tone",
+      "unicode": [
+        "1F939",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001913",
+      "emoji": "🤹🏾",
+      "description": "person juggling: medium-dark skin tone",
+      "unicode": [
+        "1F939",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001914",
+      "emoji": "🤹🏿",
+      "description": "person juggling: dark skin tone",
+      "unicode": [
+        "1F939",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "001915",
+      "emoji": "🤹‍♂️",
+      "description": "man juggling",
+      "unicode": [
+        "1F939",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001916",
+      "emoji": "🤹🏻‍♂️",
+      "description": "man juggling: light skin tone",
+      "unicode": [
+        "1F939",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001917",
+      "emoji": "🤹🏼‍♂️",
+      "description": "man juggling: medium-light skin tone",
+      "unicode": [
+        "1F939",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001918",
+      "emoji": "🤹🏽‍♂️",
+      "description": "man juggling: medium skin tone",
+      "unicode": [
+        "1F939",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001919",
+      "emoji": "🤹🏾‍♂️",
+      "description": "man juggling: medium-dark skin tone",
+      "unicode": [
+        "1F939",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001920",
+      "emoji": "🤹🏿‍♂️",
+      "description": "man juggling: dark skin tone",
+      "unicode": [
+        "1F939",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001921",
+      "emoji": "🤹‍♀️",
+      "description": "woman juggling",
+      "unicode": [
+        "1F939",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001922",
+      "emoji": "🤹🏻‍♀️",
+      "description": "woman juggling: light skin tone",
+      "unicode": [
+        "1F939",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001923",
+      "emoji": "🤹🏼‍♀️",
+      "description": "woman juggling: medium-light skin tone",
+      "unicode": [
+        "1F939",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001924",
+      "emoji": "🤹🏽‍♀️",
+      "description": "woman juggling: medium skin tone",
+      "unicode": [
+        "1F939",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001925",
+      "emoji": "🤹🏾‍♀️",
+      "description": "woman juggling: medium-dark skin tone",
+      "unicode": [
+        "1F939",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001926",
+      "emoji": "🤹🏿‍♀️",
+      "description": "woman juggling: dark skin tone",
+      "unicode": [
+        "1F939",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001927",
+      "emoji": "🧘",
+      "description": "person in lotus position",
+      "unicode": [
+        "1F9D8"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001928",
+      "emoji": "🧘🏻",
+      "description": "person in lotus position: light skin tone",
+      "unicode": [
+        "1F9D8",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001929",
+      "emoji": "🧘🏼",
+      "description": "person in lotus position: medium-light skin tone",
+      "unicode": [
+        "1F9D8",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001930",
+      "emoji": "🧘🏽",
+      "description": "person in lotus position: medium skin tone",
+      "unicode": [
+        "1F9D8",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001931",
+      "emoji": "🧘🏾",
+      "description": "person in lotus position: medium-dark skin tone",
+      "unicode": [
+        "1F9D8",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001932",
+      "emoji": "🧘🏿",
+      "description": "person in lotus position: dark skin tone",
+      "unicode": [
+        "1F9D8",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001933",
+      "emoji": "🧘‍♂️",
+      "description": "man in lotus position",
+      "unicode": [
+        "1F9D8",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001934",
+      "emoji": "🧘🏻‍♂️",
+      "description": "man in lotus position: light skin tone",
+      "unicode": [
+        "1F9D8",
+        "1F3FB",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001935",
+      "emoji": "🧘🏼‍♂️",
+      "description": "man in lotus position: medium-light skin tone",
+      "unicode": [
+        "1F9D8",
+        "1F3FC",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001936",
+      "emoji": "🧘🏽‍♂️",
+      "description": "man in lotus position: medium skin tone",
+      "unicode": [
+        "1F9D8",
+        "1F3FD",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001937",
+      "emoji": "🧘🏾‍♂️",
+      "description": "man in lotus position: medium-dark skin tone",
+      "unicode": [
+        "1F9D8",
+        "1F3FE",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001938",
+      "emoji": "🧘🏿‍♂️",
+      "description": "man in lotus position: dark skin tone",
+      "unicode": [
+        "1F9D8",
+        "1F3FF",
+        "200D",
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001939",
+      "emoji": "🧘‍♀️",
+      "description": "woman in lotus position",
+      "unicode": [
+        "1F9D8",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001940",
+      "emoji": "🧘🏻‍♀️",
+      "description": "woman in lotus position: light skin tone",
+      "unicode": [
+        "1F9D8",
+        "1F3FB",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001941",
+      "emoji": "🧘🏼‍♀️",
+      "description": "woman in lotus position: medium-light skin tone",
+      "unicode": [
+        "1F9D8",
+        "1F3FC",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001942",
+      "emoji": "🧘🏽‍♀️",
+      "description": "woman in lotus position: medium skin tone",
+      "unicode": [
+        "1F9D8",
+        "1F3FD",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001943",
+      "emoji": "🧘🏾‍♀️",
+      "description": "woman in lotus position: medium-dark skin tone",
+      "unicode": [
+        "1F9D8",
+        "1F3FE",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001944",
+      "emoji": "🧘🏿‍♀️",
+      "description": "woman in lotus position: dark skin tone",
+      "unicode": [
+        "1F9D8",
+        "1F3FF",
+        "200D",
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "001945",
+      "emoji": "🛀",
+      "description": "person taking bath",
+      "unicode": [
+        "1F6C0"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "001946",
+      "emoji": "🛀🏻",
+      "description": "person taking bath: light skin tone",
+      "unicode": [
+        "1F6C0",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001947",
+      "emoji": "🛀🏼",
+      "description": "person taking bath: medium-light skin tone",
+      "unicode": [
+        "1F6C0",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001948",
+      "emoji": "🛀🏽",
+      "description": "person taking bath: medium skin tone",
+      "unicode": [
+        "1F6C0",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001949",
+      "emoji": "🛀🏾",
+      "description": "person taking bath: medium-dark skin tone",
+      "unicode": [
+        "1F6C0",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001950",
+      "emoji": "🛀🏿",
+      "description": "person taking bath: dark skin tone",
+      "unicode": [
+        "1F6C0",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001951",
+      "emoji": "🛌",
+      "description": "person in bed",
+      "unicode": [
+        "1F6CC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001952",
+      "emoji": "🛌🏻",
+      "description": "person in bed: light skin tone",
+      "unicode": [
+        "1F6CC",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001953",
+      "emoji": "🛌🏼",
+      "description": "person in bed: medium-light skin tone",
+      "unicode": [
+        "1F6CC",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001954",
+      "emoji": "🛌🏽",
+      "description": "person in bed: medium skin tone",
+      "unicode": [
+        "1F6CC",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001955",
+      "emoji": "🛌🏾",
+      "description": "person in bed: medium-dark skin tone",
+      "unicode": [
+        "1F6CC",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001956",
+      "emoji": "🛌🏿",
+      "description": "person in bed: dark skin tone",
+      "unicode": [
+        "1F6CC",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "001957",
+      "emoji": "🧑‍🤝‍🧑",
+      "description": "people holding hands",
+      "unicode": [
+        "1F9D1",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001958",
+      "emoji": "🧑🏻‍🤝‍🧑🏻",
+      "description": "people holding hands: light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001959",
+      "emoji": "🧑🏻‍🤝‍🧑🏼",
+      "description": "people holding hands: light skin tone, medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001960",
+      "emoji": "🧑🏻‍🤝‍🧑🏽",
+      "description": "people holding hands: light skin tone, medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001961",
+      "emoji": "🧑🏻‍🤝‍🧑🏾",
+      "description": "people holding hands: light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001962",
+      "emoji": "🧑🏻‍🤝‍🧑🏿",
+      "description": "people holding hands: light skin tone, dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001963",
+      "emoji": "🧑🏼‍🤝‍🧑🏻",
+      "description": "people holding hands: medium-light skin tone, light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001964",
+      "emoji": "🧑🏼‍🤝‍🧑🏼",
+      "description": "people holding hands: medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001965",
+      "emoji": "🧑🏼‍🤝‍🧑🏽",
+      "description": "people holding hands: medium-light skin tone, medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001966",
+      "emoji": "🧑🏼‍🤝‍🧑🏾",
+      "description": "people holding hands: medium-light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001967",
+      "emoji": "🧑🏼‍🤝‍🧑🏿",
+      "description": "people holding hands: medium-light skin tone, dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001968",
+      "emoji": "🧑🏽‍🤝‍🧑🏻",
+      "description": "people holding hands: medium skin tone, light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001969",
+      "emoji": "🧑🏽‍🤝‍🧑🏼",
+      "description": "people holding hands: medium skin tone, medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001970",
+      "emoji": "🧑🏽‍🤝‍🧑🏽",
+      "description": "people holding hands: medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001971",
+      "emoji": "🧑🏽‍🤝‍🧑🏾",
+      "description": "people holding hands: medium skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001972",
+      "emoji": "🧑🏽‍🤝‍🧑🏿",
+      "description": "people holding hands: medium skin tone, dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001973",
+      "emoji": "🧑🏾‍🤝‍🧑🏻",
+      "description": "people holding hands: medium-dark skin tone, light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001974",
+      "emoji": "🧑🏾‍🤝‍🧑🏼",
+      "description": "people holding hands: medium-dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001975",
+      "emoji": "🧑🏾‍🤝‍🧑🏽",
+      "description": "people holding hands: medium-dark skin tone, medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001976",
+      "emoji": "🧑🏾‍🤝‍🧑🏾",
+      "description": "people holding hands: medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001977",
+      "emoji": "🧑🏾‍🤝‍🧑🏿",
+      "description": "people holding hands: medium-dark skin tone, dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001978",
+      "emoji": "🧑🏿‍🤝‍🧑🏻",
+      "description": "people holding hands: dark skin tone, light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001979",
+      "emoji": "🧑🏿‍🤝‍🧑🏼",
+      "description": "people holding hands: dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001980",
+      "emoji": "🧑🏿‍🤝‍🧑🏽",
+      "description": "people holding hands: dark skin tone, medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001981",
+      "emoji": "🧑🏿‍🤝‍🧑🏾",
+      "description": "people holding hands: dark skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001982",
+      "emoji": "🧑🏿‍🤝‍🧑🏿",
+      "description": "people holding hands: dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F9D1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001983",
+      "emoji": "👭",
+      "description": "women holding hands",
+      "unicode": [
+        "1F46D"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "001984",
+      "emoji": "👭🏻",
+      "description": "women holding hands: light skin tone",
+      "unicode": [
+        "1F46D",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001985",
+      "emoji": "👩🏻‍🤝‍👩🏼",
+      "description": "women holding hands: light skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001986",
+      "emoji": "👩🏻‍🤝‍👩🏽",
+      "description": "women holding hands: light skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001987",
+      "emoji": "👩🏻‍🤝‍👩🏾",
+      "description": "women holding hands: light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001988",
+      "emoji": "👩🏻‍🤝‍👩🏿",
+      "description": "women holding hands: light skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001989",
+      "emoji": "👩🏼‍🤝‍👩🏻",
+      "description": "women holding hands: medium-light skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001990",
+      "emoji": "👭🏼",
+      "description": "women holding hands: medium-light skin tone",
+      "unicode": [
+        "1F46D",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001991",
+      "emoji": "👩🏼‍🤝‍👩🏽",
+      "description": "women holding hands: medium-light skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001992",
+      "emoji": "👩🏼‍🤝‍👩🏾",
+      "description": "women holding hands: medium-light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001993",
+      "emoji": "👩🏼‍🤝‍👩🏿",
+      "description": "women holding hands: medium-light skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001994",
+      "emoji": "👩🏽‍🤝‍👩🏻",
+      "description": "women holding hands: medium skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001995",
+      "emoji": "👩🏽‍🤝‍👩🏼",
+      "description": "women holding hands: medium skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001996",
+      "emoji": "👭🏽",
+      "description": "women holding hands: medium skin tone",
+      "unicode": [
+        "1F46D",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "001997",
+      "emoji": "👩🏽‍🤝‍👩🏾",
+      "description": "women holding hands: medium skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001998",
+      "emoji": "👩🏽‍🤝‍👩🏿",
+      "description": "women holding hands: medium skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "001999",
+      "emoji": "👩🏾‍🤝‍👩🏻",
+      "description": "women holding hands: medium-dark skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002000",
+      "emoji": "👩🏾‍🤝‍👩🏼",
+      "description": "women holding hands: medium-dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002001",
+      "emoji": "👩🏾‍🤝‍👩🏽",
+      "description": "women holding hands: medium-dark skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002002",
+      "emoji": "👭🏾",
+      "description": "women holding hands: medium-dark skin tone",
+      "unicode": [
+        "1F46D",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002003",
+      "emoji": "👩🏾‍🤝‍👩🏿",
+      "description": "women holding hands: medium-dark skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "002004",
+      "emoji": "👩🏿‍🤝‍👩🏻",
+      "description": "women holding hands: dark skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002005",
+      "emoji": "👩🏿‍🤝‍👩🏼",
+      "description": "women holding hands: dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002006",
+      "emoji": "👩🏿‍🤝‍👩🏽",
+      "description": "women holding hands: dark skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002007",
+      "emoji": "👩🏿‍🤝‍👩🏾",
+      "description": "women holding hands: dark skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F469",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002008",
+      "emoji": "👭🏿",
+      "description": "women holding hands: dark skin tone",
+      "unicode": [
+        "1F46D",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002009",
+      "emoji": "👫",
+      "description": "woman and man holding hands",
+      "unicode": [
+        "1F46B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002010",
+      "emoji": "👫🏻",
+      "description": "woman and man holding hands: light skin tone",
+      "unicode": [
+        "1F46B",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002011",
+      "emoji": "👩🏻‍🤝‍👨🏼",
+      "description": "woman and man holding hands: light skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002012",
+      "emoji": "👩🏻‍🤝‍👨🏽",
+      "description": "woman and man holding hands: light skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002013",
+      "emoji": "👩🏻‍🤝‍👨🏾",
+      "description": "woman and man holding hands: light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002014",
+      "emoji": "👩🏻‍🤝‍👨🏿",
+      "description": "woman and man holding hands: light skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002015",
+      "emoji": "👩🏼‍🤝‍👨🏻",
+      "description": "woman and man holding hands: medium-light skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002016",
+      "emoji": "👫🏼",
+      "description": "woman and man holding hands: medium-light skin tone",
+      "unicode": [
+        "1F46B",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002017",
+      "emoji": "👩🏼‍🤝‍👨🏽",
+      "description": "woman and man holding hands: medium-light skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002018",
+      "emoji": "👩🏼‍🤝‍👨🏾",
+      "description": "woman and man holding hands: medium-light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002019",
+      "emoji": "👩🏼‍🤝‍👨🏿",
+      "description": "woman and man holding hands: medium-light skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002020",
+      "emoji": "👩🏽‍🤝‍👨🏻",
+      "description": "woman and man holding hands: medium skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002021",
+      "emoji": "👩🏽‍🤝‍👨🏼",
+      "description": "woman and man holding hands: medium skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002022",
+      "emoji": "👫🏽",
+      "description": "woman and man holding hands: medium skin tone",
+      "unicode": [
+        "1F46B",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002023",
+      "emoji": "👩🏽‍🤝‍👨🏾",
+      "description": "woman and man holding hands: medium skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002024",
+      "emoji": "👩🏽‍🤝‍👨🏿",
+      "description": "woman and man holding hands: medium skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002025",
+      "emoji": "👩🏾‍🤝‍👨🏻",
+      "description": "woman and man holding hands: medium-dark skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002026",
+      "emoji": "👩🏾‍🤝‍👨🏼",
+      "description": "woman and man holding hands: medium-dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002027",
+      "emoji": "👩🏾‍🤝‍👨🏽",
+      "description": "woman and man holding hands: medium-dark skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002028",
+      "emoji": "👫🏾",
+      "description": "woman and man holding hands: medium-dark skin tone",
+      "unicode": [
+        "1F46B",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002029",
+      "emoji": "👩🏾‍🤝‍👨🏿",
+      "description": "woman and man holding hands: medium-dark skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002030",
+      "emoji": "👩🏿‍🤝‍👨🏻",
+      "description": "woman and man holding hands: dark skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002031",
+      "emoji": "👩🏿‍🤝‍👨🏼",
+      "description": "woman and man holding hands: dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002032",
+      "emoji": "👩🏿‍🤝‍👨🏽",
+      "description": "woman and man holding hands: dark skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002033",
+      "emoji": "👩🏿‍🤝‍👨🏾",
+      "description": "woman and man holding hands: dark skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002034",
+      "emoji": "👫🏿",
+      "description": "woman and man holding hands: dark skin tone",
+      "unicode": [
+        "1F46B",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002035",
+      "emoji": "👬",
+      "description": "men holding hands",
+      "unicode": [
+        "1F46C"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002036",
+      "emoji": "👬🏻",
+      "description": "men holding hands: light skin tone",
+      "unicode": [
+        "1F46C",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002037",
+      "emoji": "👨🏻‍🤝‍👨🏼",
+      "description": "men holding hands: light skin tone, medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "002038",
+      "emoji": "👨🏻‍🤝‍👨🏽",
+      "description": "men holding hands: light skin tone, medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "002039",
+      "emoji": "👨🏻‍🤝‍👨🏾",
+      "description": "men holding hands: light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "002040",
+      "emoji": "👨🏻‍🤝‍👨🏿",
+      "description": "men holding hands: light skin tone, dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "002041",
+      "emoji": "👨🏼‍🤝‍👨🏻",
+      "description": "men holding hands: medium-light skin tone, light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002042",
+      "emoji": "👬🏼",
+      "description": "men holding hands: medium-light skin tone",
+      "unicode": [
+        "1F46C",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002043",
+      "emoji": "👨🏼‍🤝‍👨🏽",
+      "description": "men holding hands: medium-light skin tone, medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "002044",
+      "emoji": "👨🏼‍🤝‍👨🏾",
+      "description": "men holding hands: medium-light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "002045",
+      "emoji": "👨🏼‍🤝‍👨🏿",
+      "description": "men holding hands: medium-light skin tone, dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "002046",
+      "emoji": "👨🏽‍🤝‍👨🏻",
+      "description": "men holding hands: medium skin tone, light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002047",
+      "emoji": "👨🏽‍🤝‍👨🏼",
+      "description": "men holding hands: medium skin tone, medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002048",
+      "emoji": "👬🏽",
+      "description": "men holding hands: medium skin tone",
+      "unicode": [
+        "1F46C",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002049",
+      "emoji": "👨🏽‍🤝‍👨🏾",
+      "description": "men holding hands: medium skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "002050",
+      "emoji": "👨🏽‍🤝‍👨🏿",
+      "description": "men holding hands: medium skin tone, dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "002051",
+      "emoji": "👨🏾‍🤝‍👨🏻",
+      "description": "men holding hands: medium-dark skin tone, light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002052",
+      "emoji": "👨🏾‍🤝‍👨🏼",
+      "description": "men holding hands: medium-dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002053",
+      "emoji": "👨🏾‍🤝‍👨🏽",
+      "description": "men holding hands: medium-dark skin tone, medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002054",
+      "emoji": "👬🏾",
+      "description": "men holding hands: medium-dark skin tone",
+      "unicode": [
+        "1F46C",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002055",
+      "emoji": "👨🏾‍🤝‍👨🏿",
+      "description": "men holding hands: medium-dark skin tone, dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.1"
+    },
+    {
+      "id": "002056",
+      "emoji": "👨🏿‍🤝‍👨🏻",
+      "description": "men holding hands: dark skin tone, light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002057",
+      "emoji": "👨🏿‍🤝‍👨🏼",
+      "description": "men holding hands: dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002058",
+      "emoji": "👨🏿‍🤝‍👨🏽",
+      "description": "men holding hands: dark skin tone, medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002059",
+      "emoji": "👨🏿‍🤝‍👨🏾",
+      "description": "men holding hands: dark skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "1F91D",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002060",
+      "emoji": "👬🏿",
+      "description": "men holding hands: dark skin tone",
+      "unicode": [
+        "1F46C",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002061",
+      "emoji": "💏",
+      "description": "kiss",
+      "unicode": [
+        "1F48F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002062",
+      "emoji": "💏🏻",
+      "description": "kiss: light skin tone",
+      "unicode": [
+        "1F48F",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002063",
+      "emoji": "💏🏼",
+      "description": "kiss: medium-light skin tone",
+      "unicode": [
+        "1F48F",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002064",
+      "emoji": "💏🏽",
+      "description": "kiss: medium skin tone",
+      "unicode": [
+        "1F48F",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002065",
+      "emoji": "💏🏾",
+      "description": "kiss: medium-dark skin tone",
+      "unicode": [
+        "1F48F",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002066",
+      "emoji": "💏🏿",
+      "description": "kiss: dark skin tone",
+      "unicode": [
+        "1F48F",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002067",
+      "emoji": "🧑🏻‍❤️‍💋‍🧑🏼",
+      "description": "kiss: person, person, light skin tone, medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002068",
+      "emoji": "🧑🏻‍❤️‍💋‍🧑🏽",
+      "description": "kiss: person, person, light skin tone, medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002069",
+      "emoji": "🧑🏻‍❤️‍💋‍🧑🏾",
+      "description": "kiss: person, person, light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002070",
+      "emoji": "🧑🏻‍❤️‍💋‍🧑🏿",
+      "description": "kiss: person, person, light skin tone, dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002071",
+      "emoji": "🧑🏼‍❤️‍💋‍🧑🏻",
+      "description": "kiss: person, person, medium-light skin tone, light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002072",
+      "emoji": "🧑🏼‍❤️‍💋‍🧑🏽",
+      "description": "kiss: person, person, medium-light skin tone, medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002073",
+      "emoji": "🧑🏼‍❤️‍💋‍🧑🏾",
+      "description": "kiss: person, person, medium-light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002074",
+      "emoji": "🧑🏼‍❤️‍💋‍🧑🏿",
+      "description": "kiss: person, person, medium-light skin tone, dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002075",
+      "emoji": "🧑🏽‍❤️‍💋‍🧑🏻",
+      "description": "kiss: person, person, medium skin tone, light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002076",
+      "emoji": "🧑🏽‍❤️‍💋‍🧑🏼",
+      "description": "kiss: person, person, medium skin tone, medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002077",
+      "emoji": "🧑🏽‍❤️‍💋‍🧑🏾",
+      "description": "kiss: person, person, medium skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002078",
+      "emoji": "🧑🏽‍❤️‍💋‍🧑🏿",
+      "description": "kiss: person, person, medium skin tone, dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002079",
+      "emoji": "🧑🏾‍❤️‍💋‍🧑🏻",
+      "description": "kiss: person, person, medium-dark skin tone, light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002080",
+      "emoji": "🧑🏾‍❤️‍💋‍🧑🏼",
+      "description": "kiss: person, person, medium-dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002081",
+      "emoji": "🧑🏾‍❤️‍💋‍🧑🏽",
+      "description": "kiss: person, person, medium-dark skin tone, medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002082",
+      "emoji": "🧑🏾‍❤️‍💋‍🧑🏿",
+      "description": "kiss: person, person, medium-dark skin tone, dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002083",
+      "emoji": "🧑🏿‍❤️‍💋‍🧑🏻",
+      "description": "kiss: person, person, dark skin tone, light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002084",
+      "emoji": "🧑🏿‍❤️‍💋‍🧑🏼",
+      "description": "kiss: person, person, dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002085",
+      "emoji": "🧑🏿‍❤️‍💋‍🧑🏽",
+      "description": "kiss: person, person, dark skin tone, medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002086",
+      "emoji": "🧑🏿‍❤️‍💋‍🧑🏾",
+      "description": "kiss: person, person, dark skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F9D1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002087",
+      "emoji": "👩‍❤️‍💋‍👨",
+      "description": "kiss: woman, man",
+      "unicode": [
+        "1F469",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002088",
+      "emoji": "👩🏻‍❤️‍💋‍👨🏻",
+      "description": "kiss: woman, man, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002089",
+      "emoji": "👩🏻‍❤️‍💋‍👨🏼",
+      "description": "kiss: woman, man, light skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002090",
+      "emoji": "👩🏻‍❤️‍💋‍👨🏽",
+      "description": "kiss: woman, man, light skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002091",
+      "emoji": "👩🏻‍❤️‍💋‍👨🏾",
+      "description": "kiss: woman, man, light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002092",
+      "emoji": "👩🏻‍❤️‍💋‍👨🏿",
+      "description": "kiss: woman, man, light skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002093",
+      "emoji": "👩🏼‍❤️‍💋‍👨🏻",
+      "description": "kiss: woman, man, medium-light skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002094",
+      "emoji": "👩🏼‍❤️‍💋‍👨🏼",
+      "description": "kiss: woman, man, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002095",
+      "emoji": "👩🏼‍❤️‍💋‍👨🏽",
+      "description": "kiss: woman, man, medium-light skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002096",
+      "emoji": "👩🏼‍❤️‍💋‍👨🏾",
+      "description": "kiss: woman, man, medium-light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002097",
+      "emoji": "👩🏼‍❤️‍💋‍👨🏿",
+      "description": "kiss: woman, man, medium-light skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002098",
+      "emoji": "👩🏽‍❤️‍💋‍👨🏻",
+      "description": "kiss: woman, man, medium skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002099",
+      "emoji": "👩🏽‍❤️‍💋‍👨🏼",
+      "description": "kiss: woman, man, medium skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002100",
+      "emoji": "👩🏽‍❤️‍💋‍👨🏽",
+      "description": "kiss: woman, man, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002101",
+      "emoji": "👩🏽‍❤️‍💋‍👨🏾",
+      "description": "kiss: woman, man, medium skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002102",
+      "emoji": "👩🏽‍❤️‍💋‍👨🏿",
+      "description": "kiss: woman, man, medium skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002103",
+      "emoji": "👩🏾‍❤️‍💋‍👨🏻",
+      "description": "kiss: woman, man, medium-dark skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002104",
+      "emoji": "👩🏾‍❤️‍💋‍👨🏼",
+      "description": "kiss: woman, man, medium-dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002105",
+      "emoji": "👩🏾‍❤️‍💋‍👨🏽",
+      "description": "kiss: woman, man, medium-dark skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002106",
+      "emoji": "👩🏾‍❤️‍💋‍👨🏾",
+      "description": "kiss: woman, man, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002107",
+      "emoji": "👩🏾‍❤️‍💋‍👨🏿",
+      "description": "kiss: woman, man, medium-dark skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002108",
+      "emoji": "👩🏿‍❤️‍💋‍👨🏻",
+      "description": "kiss: woman, man, dark skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002109",
+      "emoji": "👩🏿‍❤️‍💋‍👨🏼",
+      "description": "kiss: woman, man, dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002110",
+      "emoji": "👩🏿‍❤️‍💋‍👨🏽",
+      "description": "kiss: woman, man, dark skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002111",
+      "emoji": "👩🏿‍❤️‍💋‍👨🏾",
+      "description": "kiss: woman, man, dark skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002112",
+      "emoji": "👩🏿‍❤️‍💋‍👨🏿",
+      "description": "kiss: woman, man, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002113",
+      "emoji": "👨‍❤️‍💋‍👨",
+      "description": "kiss: man, man",
+      "unicode": [
+        "1F468",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002114",
+      "emoji": "👨🏻‍❤️‍💋‍👨🏻",
+      "description": "kiss: man, man, light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002115",
+      "emoji": "👨🏻‍❤️‍💋‍👨🏼",
+      "description": "kiss: man, man, light skin tone, medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002116",
+      "emoji": "👨🏻‍❤️‍💋‍👨🏽",
+      "description": "kiss: man, man, light skin tone, medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002117",
+      "emoji": "👨🏻‍❤️‍💋‍👨🏾",
+      "description": "kiss: man, man, light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002118",
+      "emoji": "👨🏻‍❤️‍💋‍👨🏿",
+      "description": "kiss: man, man, light skin tone, dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002119",
+      "emoji": "👨🏼‍❤️‍💋‍👨🏻",
+      "description": "kiss: man, man, medium-light skin tone, light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002120",
+      "emoji": "👨🏼‍❤️‍💋‍👨🏼",
+      "description": "kiss: man, man, medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002121",
+      "emoji": "👨🏼‍❤️‍💋‍👨🏽",
+      "description": "kiss: man, man, medium-light skin tone, medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002122",
+      "emoji": "👨🏼‍❤️‍💋‍👨🏾",
+      "description": "kiss: man, man, medium-light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002123",
+      "emoji": "👨🏼‍❤️‍💋‍👨🏿",
+      "description": "kiss: man, man, medium-light skin tone, dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002124",
+      "emoji": "👨🏽‍❤️‍💋‍👨🏻",
+      "description": "kiss: man, man, medium skin tone, light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002125",
+      "emoji": "👨🏽‍❤️‍💋‍👨🏼",
+      "description": "kiss: man, man, medium skin tone, medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002126",
+      "emoji": "👨🏽‍❤️‍💋‍👨🏽",
+      "description": "kiss: man, man, medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002127",
+      "emoji": "👨🏽‍❤️‍💋‍👨🏾",
+      "description": "kiss: man, man, medium skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002128",
+      "emoji": "👨🏽‍❤️‍💋‍👨🏿",
+      "description": "kiss: man, man, medium skin tone, dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002129",
+      "emoji": "👨🏾‍❤️‍💋‍👨🏻",
+      "description": "kiss: man, man, medium-dark skin tone, light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002130",
+      "emoji": "👨🏾‍❤️‍💋‍👨🏼",
+      "description": "kiss: man, man, medium-dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002131",
+      "emoji": "👨🏾‍❤️‍💋‍👨🏽",
+      "description": "kiss: man, man, medium-dark skin tone, medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002132",
+      "emoji": "👨🏾‍❤️‍💋‍👨🏾",
+      "description": "kiss: man, man, medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002133",
+      "emoji": "👨🏾‍❤️‍💋‍👨🏿",
+      "description": "kiss: man, man, medium-dark skin tone, dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002134",
+      "emoji": "👨🏿‍❤️‍💋‍👨🏻",
+      "description": "kiss: man, man, dark skin tone, light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002135",
+      "emoji": "👨🏿‍❤️‍💋‍👨🏼",
+      "description": "kiss: man, man, dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002136",
+      "emoji": "👨🏿‍❤️‍💋‍👨🏽",
+      "description": "kiss: man, man, dark skin tone, medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002137",
+      "emoji": "👨🏿‍❤️‍💋‍👨🏾",
+      "description": "kiss: man, man, dark skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002138",
+      "emoji": "👨🏿‍❤️‍💋‍👨🏿",
+      "description": "kiss: man, man, dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002139",
+      "emoji": "👩‍❤️‍💋‍👩",
+      "description": "kiss: woman, woman",
+      "unicode": [
+        "1F469",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002140",
+      "emoji": "👩🏻‍❤️‍💋‍👩🏻",
+      "description": "kiss: woman, woman, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002141",
+      "emoji": "👩🏻‍❤️‍💋‍👩🏼",
+      "description": "kiss: woman, woman, light skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002142",
+      "emoji": "👩🏻‍❤️‍💋‍👩🏽",
+      "description": "kiss: woman, woman, light skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002143",
+      "emoji": "👩🏻‍❤️‍💋‍👩🏾",
+      "description": "kiss: woman, woman, light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002144",
+      "emoji": "👩🏻‍❤️‍💋‍👩🏿",
+      "description": "kiss: woman, woman, light skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002145",
+      "emoji": "👩🏼‍❤️‍💋‍👩🏻",
+      "description": "kiss: woman, woman, medium-light skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002146",
+      "emoji": "👩🏼‍❤️‍💋‍👩🏼",
+      "description": "kiss: woman, woman, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002147",
+      "emoji": "👩🏼‍❤️‍💋‍👩🏽",
+      "description": "kiss: woman, woman, medium-light skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002148",
+      "emoji": "👩🏼‍❤️‍💋‍👩🏾",
+      "description": "kiss: woman, woman, medium-light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002149",
+      "emoji": "👩🏼‍❤️‍💋‍👩🏿",
+      "description": "kiss: woman, woman, medium-light skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002150",
+      "emoji": "👩🏽‍❤️‍💋‍👩🏻",
+      "description": "kiss: woman, woman, medium skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002151",
+      "emoji": "👩🏽‍❤️‍💋‍👩🏼",
+      "description": "kiss: woman, woman, medium skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002152",
+      "emoji": "👩🏽‍❤️‍💋‍👩🏽",
+      "description": "kiss: woman, woman, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002153",
+      "emoji": "👩🏽‍❤️‍💋‍👩🏾",
+      "description": "kiss: woman, woman, medium skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002154",
+      "emoji": "👩🏽‍❤️‍💋‍👩🏿",
+      "description": "kiss: woman, woman, medium skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002155",
+      "emoji": "👩🏾‍❤️‍💋‍👩🏻",
+      "description": "kiss: woman, woman, medium-dark skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002156",
+      "emoji": "👩🏾‍❤️‍💋‍👩🏼",
+      "description": "kiss: woman, woman, medium-dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002157",
+      "emoji": "👩🏾‍❤️‍💋‍👩🏽",
+      "description": "kiss: woman, woman, medium-dark skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002158",
+      "emoji": "👩🏾‍❤️‍💋‍👩🏾",
+      "description": "kiss: woman, woman, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002159",
+      "emoji": "👩🏾‍❤️‍💋‍👩🏿",
+      "description": "kiss: woman, woman, medium-dark skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002160",
+      "emoji": "👩🏿‍❤️‍💋‍👩🏻",
+      "description": "kiss: woman, woman, dark skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002161",
+      "emoji": "👩🏿‍❤️‍💋‍👩🏼",
+      "description": "kiss: woman, woman, dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002162",
+      "emoji": "👩🏿‍❤️‍💋‍👩🏽",
+      "description": "kiss: woman, woman, dark skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002163",
+      "emoji": "👩🏿‍❤️‍💋‍👩🏾",
+      "description": "kiss: woman, woman, dark skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002164",
+      "emoji": "👩🏿‍❤️‍💋‍👩🏿",
+      "description": "kiss: woman, woman, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F48B",
+        "200D",
+        "1F469",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002165",
+      "emoji": "💑",
+      "description": "couple with heart",
+      "unicode": [
+        "1F491"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002166",
+      "emoji": "💑🏻",
+      "description": "couple with heart: light skin tone",
+      "unicode": [
+        "1F491",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002167",
+      "emoji": "💑🏼",
+      "description": "couple with heart: medium-light skin tone",
+      "unicode": [
+        "1F491",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002168",
+      "emoji": "💑🏽",
+      "description": "couple with heart: medium skin tone",
+      "unicode": [
+        "1F491",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002169",
+      "emoji": "💑🏾",
+      "description": "couple with heart: medium-dark skin tone",
+      "unicode": [
+        "1F491",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002170",
+      "emoji": "💑🏿",
+      "description": "couple with heart: dark skin tone",
+      "unicode": [
+        "1F491",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002171",
+      "emoji": "🧑🏻‍❤️‍🧑🏼",
+      "description": "couple with heart: person, person, light skin tone, medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002172",
+      "emoji": "🧑🏻‍❤️‍🧑🏽",
+      "description": "couple with heart: person, person, light skin tone, medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002173",
+      "emoji": "🧑🏻‍❤️‍🧑🏾",
+      "description": "couple with heart: person, person, light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002174",
+      "emoji": "🧑🏻‍❤️‍🧑🏿",
+      "description": "couple with heart: person, person, light skin tone, dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002175",
+      "emoji": "🧑🏼‍❤️‍🧑🏻",
+      "description": "couple with heart: person, person, medium-light skin tone, light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002176",
+      "emoji": "🧑🏼‍❤️‍🧑🏽",
+      "description": "couple with heart: person, person, medium-light skin tone, medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002177",
+      "emoji": "🧑🏼‍❤️‍🧑🏾",
+      "description": "couple with heart: person, person, medium-light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002178",
+      "emoji": "🧑🏼‍❤️‍🧑🏿",
+      "description": "couple with heart: person, person, medium-light skin tone, dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002179",
+      "emoji": "🧑🏽‍❤️‍🧑🏻",
+      "description": "couple with heart: person, person, medium skin tone, light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002180",
+      "emoji": "🧑🏽‍❤️‍🧑🏼",
+      "description": "couple with heart: person, person, medium skin tone, medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002181",
+      "emoji": "🧑🏽‍❤️‍🧑🏾",
+      "description": "couple with heart: person, person, medium skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002182",
+      "emoji": "🧑🏽‍❤️‍🧑🏿",
+      "description": "couple with heart: person, person, medium skin tone, dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002183",
+      "emoji": "🧑🏾‍❤️‍🧑🏻",
+      "description": "couple with heart: person, person, medium-dark skin tone, light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002184",
+      "emoji": "🧑🏾‍❤️‍🧑🏼",
+      "description": "couple with heart: person, person, medium-dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002185",
+      "emoji": "🧑🏾‍❤️‍🧑🏽",
+      "description": "couple with heart: person, person, medium-dark skin tone, medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002186",
+      "emoji": "🧑🏾‍❤️‍🧑🏿",
+      "description": "couple with heart: person, person, medium-dark skin tone, dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002187",
+      "emoji": "🧑🏿‍❤️‍🧑🏻",
+      "description": "couple with heart: person, person, dark skin tone, light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002188",
+      "emoji": "🧑🏿‍❤️‍🧑🏼",
+      "description": "couple with heart: person, person, dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002189",
+      "emoji": "🧑🏿‍❤️‍🧑🏽",
+      "description": "couple with heart: person, person, dark skin tone, medium skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002190",
+      "emoji": "🧑🏿‍❤️‍🧑🏾",
+      "description": "couple with heart: person, person, dark skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F9D1",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F9D1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002191",
+      "emoji": "👩‍❤️‍👨",
+      "description": "couple with heart: woman, man",
+      "unicode": [
+        "1F469",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002192",
+      "emoji": "👩🏻‍❤️‍👨🏻",
+      "description": "couple with heart: woman, man, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002193",
+      "emoji": "👩🏻‍❤️‍👨🏼",
+      "description": "couple with heart: woman, man, light skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002194",
+      "emoji": "👩🏻‍❤️‍👨🏽",
+      "description": "couple with heart: woman, man, light skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002195",
+      "emoji": "👩🏻‍❤️‍👨🏾",
+      "description": "couple with heart: woman, man, light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002196",
+      "emoji": "👩🏻‍❤️‍👨🏿",
+      "description": "couple with heart: woman, man, light skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002197",
+      "emoji": "👩🏼‍❤️‍👨🏻",
+      "description": "couple with heart: woman, man, medium-light skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002198",
+      "emoji": "👩🏼‍❤️‍👨🏼",
+      "description": "couple with heart: woman, man, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002199",
+      "emoji": "👩🏼‍❤️‍👨🏽",
+      "description": "couple with heart: woman, man, medium-light skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002200",
+      "emoji": "👩🏼‍❤️‍👨🏾",
+      "description": "couple with heart: woman, man, medium-light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002201",
+      "emoji": "👩🏼‍❤️‍👨🏿",
+      "description": "couple with heart: woman, man, medium-light skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002202",
+      "emoji": "👩🏽‍❤️‍👨🏻",
+      "description": "couple with heart: woman, man, medium skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002203",
+      "emoji": "👩🏽‍❤️‍👨🏼",
+      "description": "couple with heart: woman, man, medium skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002204",
+      "emoji": "👩🏽‍❤️‍👨🏽",
+      "description": "couple with heart: woman, man, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002205",
+      "emoji": "👩🏽‍❤️‍👨🏾",
+      "description": "couple with heart: woman, man, medium skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002206",
+      "emoji": "👩🏽‍❤️‍👨🏿",
+      "description": "couple with heart: woman, man, medium skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002207",
+      "emoji": "👩🏾‍❤️‍👨🏻",
+      "description": "couple with heart: woman, man, medium-dark skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002208",
+      "emoji": "👩🏾‍❤️‍👨🏼",
+      "description": "couple with heart: woman, man, medium-dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002209",
+      "emoji": "👩🏾‍❤️‍👨🏽",
+      "description": "couple with heart: woman, man, medium-dark skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002210",
+      "emoji": "👩🏾‍❤️‍👨🏾",
+      "description": "couple with heart: woman, man, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002211",
+      "emoji": "👩🏾‍❤️‍👨🏿",
+      "description": "couple with heart: woman, man, medium-dark skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002212",
+      "emoji": "👩🏿‍❤️‍👨🏻",
+      "description": "couple with heart: woman, man, dark skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002213",
+      "emoji": "👩🏿‍❤️‍👨🏼",
+      "description": "couple with heart: woman, man, dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002214",
+      "emoji": "👩🏿‍❤️‍👨🏽",
+      "description": "couple with heart: woman, man, dark skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002215",
+      "emoji": "👩🏿‍❤️‍👨🏾",
+      "description": "couple with heart: woman, man, dark skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002216",
+      "emoji": "👩🏿‍❤️‍👨🏿",
+      "description": "couple with heart: woman, man, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002217",
+      "emoji": "👨‍❤️‍👨",
+      "description": "couple with heart: man, man",
+      "unicode": [
+        "1F468",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002218",
+      "emoji": "👨🏻‍❤️‍👨🏻",
+      "description": "couple with heart: man, man, light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002219",
+      "emoji": "👨🏻‍❤️‍👨🏼",
+      "description": "couple with heart: man, man, light skin tone, medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002220",
+      "emoji": "👨🏻‍❤️‍👨🏽",
+      "description": "couple with heart: man, man, light skin tone, medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002221",
+      "emoji": "👨🏻‍❤️‍👨🏾",
+      "description": "couple with heart: man, man, light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002222",
+      "emoji": "👨🏻‍❤️‍👨🏿",
+      "description": "couple with heart: man, man, light skin tone, dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002223",
+      "emoji": "👨🏼‍❤️‍👨🏻",
+      "description": "couple with heart: man, man, medium-light skin tone, light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002224",
+      "emoji": "👨🏼‍❤️‍👨🏼",
+      "description": "couple with heart: man, man, medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002225",
+      "emoji": "👨🏼‍❤️‍👨🏽",
+      "description": "couple with heart: man, man, medium-light skin tone, medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002226",
+      "emoji": "👨🏼‍❤️‍👨🏾",
+      "description": "couple with heart: man, man, medium-light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002227",
+      "emoji": "👨🏼‍❤️‍👨🏿",
+      "description": "couple with heart: man, man, medium-light skin tone, dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002228",
+      "emoji": "👨🏽‍❤️‍👨🏻",
+      "description": "couple with heart: man, man, medium skin tone, light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002229",
+      "emoji": "👨🏽‍❤️‍👨🏼",
+      "description": "couple with heart: man, man, medium skin tone, medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002230",
+      "emoji": "👨🏽‍❤️‍👨🏽",
+      "description": "couple with heart: man, man, medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002231",
+      "emoji": "👨🏽‍❤️‍👨🏾",
+      "description": "couple with heart: man, man, medium skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002232",
+      "emoji": "👨🏽‍❤️‍👨🏿",
+      "description": "couple with heart: man, man, medium skin tone, dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002233",
+      "emoji": "👨🏾‍❤️‍👨🏻",
+      "description": "couple with heart: man, man, medium-dark skin tone, light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002234",
+      "emoji": "👨🏾‍❤️‍👨🏼",
+      "description": "couple with heart: man, man, medium-dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002235",
+      "emoji": "👨🏾‍❤️‍👨🏽",
+      "description": "couple with heart: man, man, medium-dark skin tone, medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002236",
+      "emoji": "👨🏾‍❤️‍👨🏾",
+      "description": "couple with heart: man, man, medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002237",
+      "emoji": "👨🏾‍❤️‍👨🏿",
+      "description": "couple with heart: man, man, medium-dark skin tone, dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002238",
+      "emoji": "👨🏿‍❤️‍👨🏻",
+      "description": "couple with heart: man, man, dark skin tone, light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002239",
+      "emoji": "👨🏿‍❤️‍👨🏼",
+      "description": "couple with heart: man, man, dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002240",
+      "emoji": "👨🏿‍❤️‍👨🏽",
+      "description": "couple with heart: man, man, dark skin tone, medium skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002241",
+      "emoji": "👨🏿‍❤️‍👨🏾",
+      "description": "couple with heart: man, man, dark skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002242",
+      "emoji": "👨🏿‍❤️‍👨🏿",
+      "description": "couple with heart: man, man, dark skin tone",
+      "unicode": [
+        "1F468",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F468",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002243",
+      "emoji": "👩‍❤️‍👩",
+      "description": "couple with heart: woman, woman",
+      "unicode": [
+        "1F469",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002244",
+      "emoji": "👩🏻‍❤️‍👩🏻",
+      "description": "couple with heart: woman, woman, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002245",
+      "emoji": "👩🏻‍❤️‍👩🏼",
+      "description": "couple with heart: woman, woman, light skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002246",
+      "emoji": "👩🏻‍❤️‍👩🏽",
+      "description": "couple with heart: woman, woman, light skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002247",
+      "emoji": "👩🏻‍❤️‍👩🏾",
+      "description": "couple with heart: woman, woman, light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002248",
+      "emoji": "👩🏻‍❤️‍👩🏿",
+      "description": "couple with heart: woman, woman, light skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FB",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002249",
+      "emoji": "👩🏼‍❤️‍👩🏻",
+      "description": "couple with heart: woman, woman, medium-light skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002250",
+      "emoji": "👩🏼‍❤️‍👩🏼",
+      "description": "couple with heart: woman, woman, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002251",
+      "emoji": "👩🏼‍❤️‍👩🏽",
+      "description": "couple with heart: woman, woman, medium-light skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002252",
+      "emoji": "👩🏼‍❤️‍👩🏾",
+      "description": "couple with heart: woman, woman, medium-light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002253",
+      "emoji": "👩🏼‍❤️‍👩🏿",
+      "description": "couple with heart: woman, woman, medium-light skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FC",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002254",
+      "emoji": "👩🏽‍❤️‍👩🏻",
+      "description": "couple with heart: woman, woman, medium skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002255",
+      "emoji": "👩🏽‍❤️‍👩🏼",
+      "description": "couple with heart: woman, woman, medium skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002256",
+      "emoji": "👩🏽‍❤️‍👩🏽",
+      "description": "couple with heart: woman, woman, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002257",
+      "emoji": "👩🏽‍❤️‍👩🏾",
+      "description": "couple with heart: woman, woman, medium skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002258",
+      "emoji": "👩🏽‍❤️‍👩🏿",
+      "description": "couple with heart: woman, woman, medium skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FD",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002259",
+      "emoji": "👩🏾‍❤️‍👩🏻",
+      "description": "couple with heart: woman, woman, medium-dark skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002260",
+      "emoji": "👩🏾‍❤️‍👩🏼",
+      "description": "couple with heart: woman, woman, medium-dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002261",
+      "emoji": "👩🏾‍❤️‍👩🏽",
+      "description": "couple with heart: woman, woman, medium-dark skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002262",
+      "emoji": "👩🏾‍❤️‍👩🏾",
+      "description": "couple with heart: woman, woman, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002263",
+      "emoji": "👩🏾‍❤️‍👩🏿",
+      "description": "couple with heart: woman, woman, medium-dark skin tone, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FE",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002264",
+      "emoji": "👩🏿‍❤️‍👩🏻",
+      "description": "couple with heart: woman, woman, dark skin tone, light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002265",
+      "emoji": "👩🏿‍❤️‍👩🏼",
+      "description": "couple with heart: woman, woman, dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002266",
+      "emoji": "👩🏿‍❤️‍👩🏽",
+      "description": "couple with heart: woman, woman, dark skin tone, medium skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002267",
+      "emoji": "👩🏿‍❤️‍👩🏾",
+      "description": "couple with heart: woman, woman, dark skin tone, medium-dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002268",
+      "emoji": "👩🏿‍❤️‍👩🏿",
+      "description": "couple with heart: woman, woman, dark skin tone",
+      "unicode": [
+        "1F469",
+        "1F3FF",
+        "200D",
+        "2764",
+        "FE0F",
+        "200D",
+        "1F469",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E13.1"
+    },
+    {
+      "id": "002269",
+      "emoji": "👪",
+      "description": "family",
+      "unicode": [
+        "1F46A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002270",
+      "emoji": "👨‍👩‍👦",
+      "description": "family: man, woman, boy",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F469",
+        "200D",
+        "1F466"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002271",
+      "emoji": "👨‍👩‍👧",
+      "description": "family: man, woman, girl",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F469",
+        "200D",
+        "1F467"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002272",
+      "emoji": "👨‍👩‍👧‍👦",
+      "description": "family: man, woman, girl, boy",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F469",
+        "200D",
+        "1F467",
+        "200D",
+        "1F466"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002273",
+      "emoji": "👨‍👩‍👦‍👦",
+      "description": "family: man, woman, boy, boy",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F469",
+        "200D",
+        "1F466",
+        "200D",
+        "1F466"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002274",
+      "emoji": "👨‍👩‍👧‍👧",
+      "description": "family: man, woman, girl, girl",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F469",
+        "200D",
+        "1F467",
+        "200D",
+        "1F467"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002275",
+      "emoji": "👨‍👨‍👦",
+      "description": "family: man, man, boy",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F468",
+        "200D",
+        "1F466"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002276",
+      "emoji": "👨‍👨‍👧",
+      "description": "family: man, man, girl",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F468",
+        "200D",
+        "1F467"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002277",
+      "emoji": "👨‍👨‍👧‍👦",
+      "description": "family: man, man, girl, boy",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F468",
+        "200D",
+        "1F467",
+        "200D",
+        "1F466"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002278",
+      "emoji": "👨‍👨‍👦‍👦",
+      "description": "family: man, man, boy, boy",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F468",
+        "200D",
+        "1F466",
+        "200D",
+        "1F466"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002279",
+      "emoji": "👨‍👨‍👧‍👧",
+      "description": "family: man, man, girl, girl",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F468",
+        "200D",
+        "1F467",
+        "200D",
+        "1F467"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002280",
+      "emoji": "👩‍👩‍👦",
+      "description": "family: woman, woman, boy",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F469",
+        "200D",
+        "1F466"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002281",
+      "emoji": "👩‍👩‍👧",
+      "description": "family: woman, woman, girl",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F469",
+        "200D",
+        "1F467"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002282",
+      "emoji": "👩‍👩‍👧‍👦",
+      "description": "family: woman, woman, girl, boy",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F469",
+        "200D",
+        "1F467",
+        "200D",
+        "1F466"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002283",
+      "emoji": "👩‍👩‍👦‍👦",
+      "description": "family: woman, woman, boy, boy",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F469",
+        "200D",
+        "1F466",
+        "200D",
+        "1F466"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002284",
+      "emoji": "👩‍👩‍👧‍👧",
+      "description": "family: woman, woman, girl, girl",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F469",
+        "200D",
+        "1F467",
+        "200D",
+        "1F467"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "002285",
+      "emoji": "👨‍👦",
+      "description": "family: man, boy",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F466"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "002286",
+      "emoji": "👨‍👦‍👦",
+      "description": "family: man, boy, boy",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F466",
+        "200D",
+        "1F466"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "002287",
+      "emoji": "👨‍👧",
+      "description": "family: man, girl",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F467"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "002288",
+      "emoji": "👨‍👧‍👦",
+      "description": "family: man, girl, boy",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F467",
+        "200D",
+        "1F466"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "002289",
+      "emoji": "👨‍👧‍👧",
+      "description": "family: man, girl, girl",
+      "unicode": [
+        "1F468",
+        "200D",
+        "1F467",
+        "200D",
+        "1F467"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "002290",
+      "emoji": "👩‍👦",
+      "description": "family: woman, boy",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F466"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "002291",
+      "emoji": "👩‍👦‍👦",
+      "description": "family: woman, boy, boy",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F466",
+        "200D",
+        "1F466"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "002292",
+      "emoji": "👩‍👧",
+      "description": "family: woman, girl",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F467"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "002293",
+      "emoji": "👩‍👧‍👦",
+      "description": "family: woman, girl, boy",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F467",
+        "200D",
+        "1F466"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "002294",
+      "emoji": "👩‍👧‍👧",
+      "description": "family: woman, girl, girl",
+      "unicode": [
+        "1F469",
+        "200D",
+        "1F467",
+        "200D",
+        "1F467"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "002295",
+      "emoji": "🗣️",
+      "description": "speaking head",
+      "unicode": [
+        "1F5E3",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002296",
+      "emoji": "👤",
+      "description": "bust in silhouette",
+      "unicode": [
+        "1F464"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002297",
+      "emoji": "👥",
+      "description": "busts in silhouette",
+      "unicode": [
+        "1F465"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002298",
+      "emoji": "🫂",
+      "description": "people hugging",
+      "unicode": [
+        "1FAC2"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002299",
+      "emoji": "👣",
+      "description": "footprints",
+      "unicode": [
+        "1F463"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002300",
+      "emoji": "🐵",
+      "description": "monkey face",
+      "unicode": [
+        "1F435"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002301",
+      "emoji": "🐒",
+      "description": "monkey",
+      "unicode": [
+        "1F412"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002302",
+      "emoji": "🦍",
+      "description": "gorilla",
+      "unicode": [
+        "1F98D"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002303",
+      "emoji": "🦧",
+      "description": "orangutan",
+      "unicode": [
+        "1F9A7"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002304",
+      "emoji": "🐶",
+      "description": "dog face",
+      "unicode": [
+        "1F436"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002305",
+      "emoji": "🐕",
+      "description": "dog",
+      "unicode": [
+        "1F415"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002306",
+      "emoji": "🦮",
+      "description": "guide dog",
+      "unicode": [
+        "1F9AE"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002307",
+      "emoji": "🐕‍🦺",
+      "description": "service dog",
+      "unicode": [
+        "1F415",
+        "200D",
+        "1F9BA"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002308",
+      "emoji": "🐩",
+      "description": "poodle",
+      "unicode": [
+        "1F429"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002309",
+      "emoji": "🐺",
+      "description": "wolf",
+      "unicode": [
+        "1F43A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002310",
+      "emoji": "🦊",
+      "description": "fox",
+      "unicode": [
+        "1F98A"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002311",
+      "emoji": "🦝",
+      "description": "raccoon",
+      "unicode": [
+        "1F99D"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002312",
+      "emoji": "🐱",
+      "description": "cat face",
+      "unicode": [
+        "1F431"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002313",
+      "emoji": "🐈",
+      "description": "cat",
+      "unicode": [
+        "1F408"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002314",
+      "emoji": "🐈‍⬛",
+      "description": "black cat",
+      "unicode": [
+        "1F408",
+        "200D",
+        "2B1B"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002315",
+      "emoji": "🦁",
+      "description": "lion",
+      "unicode": [
+        "1F981"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002316",
+      "emoji": "🐯",
+      "description": "tiger face",
+      "unicode": [
+        "1F42F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002317",
+      "emoji": "🐅",
+      "description": "tiger",
+      "unicode": [
+        "1F405"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002318",
+      "emoji": "🐆",
+      "description": "leopard",
+      "unicode": [
+        "1F406"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002319",
+      "emoji": "🐴",
+      "description": "horse face",
+      "unicode": [
+        "1F434"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002320",
+      "emoji": "🐎",
+      "description": "horse",
+      "unicode": [
+        "1F40E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002321",
+      "emoji": "🦄",
+      "description": "unicorn",
+      "unicode": [
+        "1F984"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002322",
+      "emoji": "🦓",
+      "description": "zebra",
+      "unicode": [
+        "1F993"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002323",
+      "emoji": "🦌",
+      "description": "deer",
+      "unicode": [
+        "1F98C"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002324",
+      "emoji": "🦬",
+      "description": "bison",
+      "unicode": [
+        "1F9AC"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002325",
+      "emoji": "🐮",
+      "description": "cow face",
+      "unicode": [
+        "1F42E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002326",
+      "emoji": "🐂",
+      "description": "ox",
+      "unicode": [
+        "1F402"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002327",
+      "emoji": "🐃",
+      "description": "water buffalo",
+      "unicode": [
+        "1F403"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002328",
+      "emoji": "🐄",
+      "description": "cow",
+      "unicode": [
+        "1F404"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002329",
+      "emoji": "🐷",
+      "description": "pig face",
+      "unicode": [
+        "1F437"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002330",
+      "emoji": "🐖",
+      "description": "pig",
+      "unicode": [
+        "1F416"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002331",
+      "emoji": "🐗",
+      "description": "boar",
+      "unicode": [
+        "1F417"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002332",
+      "emoji": "🐽",
+      "description": "pig nose",
+      "unicode": [
+        "1F43D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002333",
+      "emoji": "🐏",
+      "description": "ram",
+      "unicode": [
+        "1F40F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002334",
+      "emoji": "🐑",
+      "description": "ewe",
+      "unicode": [
+        "1F411"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002335",
+      "emoji": "🐐",
+      "description": "goat",
+      "unicode": [
+        "1F410"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002336",
+      "emoji": "🐪",
+      "description": "camel",
+      "unicode": [
+        "1F42A"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002337",
+      "emoji": "🐫",
+      "description": "two-hump camel",
+      "unicode": [
+        "1F42B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002338",
+      "emoji": "🦙",
+      "description": "llama",
+      "unicode": [
+        "1F999"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002339",
+      "emoji": "🦒",
+      "description": "giraffe",
+      "unicode": [
+        "1F992"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002340",
+      "emoji": "🐘",
+      "description": "elephant",
+      "unicode": [
+        "1F418"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002341",
+      "emoji": "🦣",
+      "description": "mammoth",
+      "unicode": [
+        "1F9A3"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002342",
+      "emoji": "🦏",
+      "description": "rhinoceros",
+      "unicode": [
+        "1F98F"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002343",
+      "emoji": "🦛",
+      "description": "hippopotamus",
+      "unicode": [
+        "1F99B"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002344",
+      "emoji": "🐭",
+      "description": "mouse face",
+      "unicode": [
+        "1F42D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002345",
+      "emoji": "🐁",
+      "description": "mouse",
+      "unicode": [
+        "1F401"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002346",
+      "emoji": "🐀",
+      "description": "rat",
+      "unicode": [
+        "1F400"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002347",
+      "emoji": "🐹",
+      "description": "hamster",
+      "unicode": [
+        "1F439"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002348",
+      "emoji": "🐰",
+      "description": "rabbit face",
+      "unicode": [
+        "1F430"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002349",
+      "emoji": "🐇",
+      "description": "rabbit",
+      "unicode": [
+        "1F407"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002350",
+      "emoji": "🐿️",
+      "description": "chipmunk",
+      "unicode": [
+        "1F43F",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002351",
+      "emoji": "🦫",
+      "description": "beaver",
+      "unicode": [
+        "1F9AB"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002352",
+      "emoji": "🦔",
+      "description": "hedgehog",
+      "unicode": [
+        "1F994"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002353",
+      "emoji": "🦇",
+      "description": "bat",
+      "unicode": [
+        "1F987"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002354",
+      "emoji": "🐻",
+      "description": "bear",
+      "unicode": [
+        "1F43B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002355",
+      "emoji": "🐻‍❄️",
+      "description": "polar bear",
+      "unicode": [
+        "1F43B",
+        "200D",
+        "2744",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002356",
+      "emoji": "🐨",
+      "description": "koala",
+      "unicode": [
+        "1F428"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002357",
+      "emoji": "🐼",
+      "description": "panda",
+      "unicode": [
+        "1F43C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002358",
+      "emoji": "🦥",
+      "description": "sloth",
+      "unicode": [
+        "1F9A5"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002359",
+      "emoji": "🦦",
+      "description": "otter",
+      "unicode": [
+        "1F9A6"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002360",
+      "emoji": "🦨",
+      "description": "skunk",
+      "unicode": [
+        "1F9A8"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002361",
+      "emoji": "🦘",
+      "description": "kangaroo",
+      "unicode": [
+        "1F998"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002362",
+      "emoji": "🦡",
+      "description": "badger",
+      "unicode": [
+        "1F9A1"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002363",
+      "emoji": "🐾",
+      "description": "paw prints",
+      "unicode": [
+        "1F43E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002364",
+      "emoji": "🦃",
+      "description": "turkey",
+      "unicode": [
+        "1F983"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002365",
+      "emoji": "🐔",
+      "description": "chicken",
+      "unicode": [
+        "1F414"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002366",
+      "emoji": "🐓",
+      "description": "rooster",
+      "unicode": [
+        "1F413"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002367",
+      "emoji": "🐣",
+      "description": "hatching chick",
+      "unicode": [
+        "1F423"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002368",
+      "emoji": "🐤",
+      "description": "baby chick",
+      "unicode": [
+        "1F424"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002369",
+      "emoji": "🐥",
+      "description": "front-facing baby chick",
+      "unicode": [
+        "1F425"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002370",
+      "emoji": "🐦",
+      "description": "bird",
+      "unicode": [
+        "1F426"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002371",
+      "emoji": "🐧",
+      "description": "penguin",
+      "unicode": [
+        "1F427"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002372",
+      "emoji": "🕊️",
+      "description": "dove",
+      "unicode": [
+        "1F54A",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002373",
+      "emoji": "🦅",
+      "description": "eagle",
+      "unicode": [
+        "1F985"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002374",
+      "emoji": "🦆",
+      "description": "duck",
+      "unicode": [
+        "1F986"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002375",
+      "emoji": "🦢",
+      "description": "swan",
+      "unicode": [
+        "1F9A2"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002376",
+      "emoji": "🦉",
+      "description": "owl",
+      "unicode": [
+        "1F989"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002377",
+      "emoji": "🦤",
+      "description": "dodo",
+      "unicode": [
+        "1F9A4"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002378",
+      "emoji": "🪶",
+      "description": "feather",
+      "unicode": [
+        "1FAB6"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002379",
+      "emoji": "🦩",
+      "description": "flamingo",
+      "unicode": [
+        "1F9A9"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002380",
+      "emoji": "🦚",
+      "description": "peacock",
+      "unicode": [
+        "1F99A"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002381",
+      "emoji": "🦜",
+      "description": "parrot",
+      "unicode": [
+        "1F99C"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002382",
+      "emoji": "🐸",
+      "description": "frog",
+      "unicode": [
+        "1F438"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002383",
+      "emoji": "🐊",
+      "description": "crocodile",
+      "unicode": [
+        "1F40A"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002384",
+      "emoji": "🐢",
+      "description": "turtle",
+      "unicode": [
+        "1F422"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002385",
+      "emoji": "🦎",
+      "description": "lizard",
+      "unicode": [
+        "1F98E"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002386",
+      "emoji": "🐍",
+      "description": "snake",
+      "unicode": [
+        "1F40D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002387",
+      "emoji": "🐲",
+      "description": "dragon face",
+      "unicode": [
+        "1F432"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002388",
+      "emoji": "🐉",
+      "description": "dragon",
+      "unicode": [
+        "1F409"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002389",
+      "emoji": "🦕",
+      "description": "sauropod",
+      "unicode": [
+        "1F995"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002390",
+      "emoji": "🦖",
+      "description": "T-Rex",
+      "unicode": [
+        "1F996"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002391",
+      "emoji": "🐳",
+      "description": "spouting whale",
+      "unicode": [
+        "1F433"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002392",
+      "emoji": "🐋",
+      "description": "whale",
+      "unicode": [
+        "1F40B"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002393",
+      "emoji": "🐬",
+      "description": "dolphin",
+      "unicode": [
+        "1F42C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002394",
+      "emoji": "🦭",
+      "description": "seal",
+      "unicode": [
+        "1F9AD"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002395",
+      "emoji": "🐟",
+      "description": "fish",
+      "unicode": [
+        "1F41F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002396",
+      "emoji": "🐠",
+      "description": "tropical fish",
+      "unicode": [
+        "1F420"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002397",
+      "emoji": "🐡",
+      "description": "blowfish",
+      "unicode": [
+        "1F421"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002398",
+      "emoji": "🦈",
+      "description": "shark",
+      "unicode": [
+        "1F988"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002399",
+      "emoji": "🐙",
+      "description": "octopus",
+      "unicode": [
+        "1F419"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002400",
+      "emoji": "🐚",
+      "description": "spiral shell",
+      "unicode": [
+        "1F41A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002401",
+      "emoji": "🪸",
+      "description": "coral",
+      "unicode": [
+        "1FAB8"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "002402",
+      "emoji": "🐌",
+      "description": "snail",
+      "unicode": [
+        "1F40C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002403",
+      "emoji": "🦋",
+      "description": "butterfly",
+      "unicode": [
+        "1F98B"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002404",
+      "emoji": "🐛",
+      "description": "bug",
+      "unicode": [
+        "1F41B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002405",
+      "emoji": "🐜",
+      "description": "ant",
+      "unicode": [
+        "1F41C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002406",
+      "emoji": "🐝",
+      "description": "honeybee",
+      "unicode": [
+        "1F41D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002407",
+      "emoji": "🪲",
+      "description": "beetle",
+      "unicode": [
+        "1FAB2"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002408",
+      "emoji": "🐞",
+      "description": "lady beetle",
+      "unicode": [
+        "1F41E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002409",
+      "emoji": "🦗",
+      "description": "cricket",
+      "unicode": [
+        "1F997"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002410",
+      "emoji": "🪳",
+      "description": "cockroach",
+      "unicode": [
+        "1FAB3"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002411",
+      "emoji": "🕷️",
+      "description": "spider",
+      "unicode": [
+        "1F577",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002412",
+      "emoji": "🕸️",
+      "description": "spider web",
+      "unicode": [
+        "1F578",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002413",
+      "emoji": "🦂",
+      "description": "scorpion",
+      "unicode": [
+        "1F982"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002414",
+      "emoji": "🦟",
+      "description": "mosquito",
+      "unicode": [
+        "1F99F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002415",
+      "emoji": "🪰",
+      "description": "fly",
+      "unicode": [
+        "1FAB0"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002416",
+      "emoji": "🪱",
+      "description": "worm",
+      "unicode": [
+        "1FAB1"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002417",
+      "emoji": "🦠",
+      "description": "microbe",
+      "unicode": [
+        "1F9A0"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002418",
+      "emoji": "💐",
+      "description": "bouquet",
+      "unicode": [
+        "1F490"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002419",
+      "emoji": "🌸",
+      "description": "cherry blossom",
+      "unicode": [
+        "1F338"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002420",
+      "emoji": "💮",
+      "description": "white flower",
+      "unicode": [
+        "1F4AE"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002421",
+      "emoji": "🪷",
+      "description": "lotus",
+      "unicode": [
+        "1FAB7"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "002422",
+      "emoji": "🏵️",
+      "description": "rosette",
+      "unicode": [
+        "1F3F5",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002423",
+      "emoji": "🌹",
+      "description": "rose",
+      "unicode": [
+        "1F339"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002424",
+      "emoji": "🥀",
+      "description": "wilted flower",
+      "unicode": [
+        "1F940"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002425",
+      "emoji": "🌺",
+      "description": "hibiscus",
+      "unicode": [
+        "1F33A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002426",
+      "emoji": "🌻",
+      "description": "sunflower",
+      "unicode": [
+        "1F33B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002427",
+      "emoji": "🌼",
+      "description": "blossom",
+      "unicode": [
+        "1F33C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002428",
+      "emoji": "🌷",
+      "description": "tulip",
+      "unicode": [
+        "1F337"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002429",
+      "emoji": "🌱",
+      "description": "seedling",
+      "unicode": [
+        "1F331"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002430",
+      "emoji": "🪴",
+      "description": "potted plant",
+      "unicode": [
+        "1FAB4"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002431",
+      "emoji": "🌲",
+      "description": "evergreen tree",
+      "unicode": [
+        "1F332"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002432",
+      "emoji": "🌳",
+      "description": "deciduous tree",
+      "unicode": [
+        "1F333"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002433",
+      "emoji": "🌴",
+      "description": "palm tree",
+      "unicode": [
+        "1F334"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002434",
+      "emoji": "🌵",
+      "description": "cactus",
+      "unicode": [
+        "1F335"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002435",
+      "emoji": "🌾",
+      "description": "sheaf of rice",
+      "unicode": [
+        "1F33E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002436",
+      "emoji": "🌿",
+      "description": "herb",
+      "unicode": [
+        "1F33F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002437",
+      "emoji": "☘️",
+      "description": "shamrock",
+      "unicode": [
+        "2618",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002438",
+      "emoji": "🍀",
+      "description": "four leaf clover",
+      "unicode": [
+        "1F340"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002439",
+      "emoji": "🍁",
+      "description": "maple leaf",
+      "unicode": [
+        "1F341"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002440",
+      "emoji": "🍂",
+      "description": "fallen leaf",
+      "unicode": [
+        "1F342"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002441",
+      "emoji": "🍃",
+      "description": "leaf fluttering in wind",
+      "unicode": [
+        "1F343"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002442",
+      "emoji": "🪹",
+      "description": "empty nest",
+      "unicode": [
+        "1FAB9"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "002443",
+      "emoji": "🪺",
+      "description": "nest with eggs",
+      "unicode": [
+        "1FABA"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "002444",
+      "emoji": "🍇",
+      "description": "grapes",
+      "unicode": [
+        "1F347"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002445",
+      "emoji": "🍈",
+      "description": "melon",
+      "unicode": [
+        "1F348"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002446",
+      "emoji": "🍉",
+      "description": "watermelon",
+      "unicode": [
+        "1F349"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002447",
+      "emoji": "🍊",
+      "description": "tangerine",
+      "unicode": [
+        "1F34A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002448",
+      "emoji": "🍋",
+      "description": "lemon",
+      "unicode": [
+        "1F34B"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002449",
+      "emoji": "🍌",
+      "description": "banana",
+      "unicode": [
+        "1F34C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002450",
+      "emoji": "🍍",
+      "description": "pineapple",
+      "unicode": [
+        "1F34D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002451",
+      "emoji": "🥭",
+      "description": "mango",
+      "unicode": [
+        "1F96D"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002452",
+      "emoji": "🍎",
+      "description": "red apple",
+      "unicode": [
+        "1F34E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002453",
+      "emoji": "🍏",
+      "description": "green apple",
+      "unicode": [
+        "1F34F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002454",
+      "emoji": "🍐",
+      "description": "pear",
+      "unicode": [
+        "1F350"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002455",
+      "emoji": "🍑",
+      "description": "peach",
+      "unicode": [
+        "1F351"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002456",
+      "emoji": "🍒",
+      "description": "cherries",
+      "unicode": [
+        "1F352"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002457",
+      "emoji": "🍓",
+      "description": "strawberry",
+      "unicode": [
+        "1F353"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002458",
+      "emoji": "🫐",
+      "description": "blueberries",
+      "unicode": [
+        "1FAD0"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002459",
+      "emoji": "🥝",
+      "description": "kiwi fruit",
+      "unicode": [
+        "1F95D"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002460",
+      "emoji": "🍅",
+      "description": "tomato",
+      "unicode": [
+        "1F345"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002461",
+      "emoji": "🫒",
+      "description": "olive",
+      "unicode": [
+        "1FAD2"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002462",
+      "emoji": "🥥",
+      "description": "coconut",
+      "unicode": [
+        "1F965"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002463",
+      "emoji": "🥑",
+      "description": "avocado",
+      "unicode": [
+        "1F951"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002464",
+      "emoji": "🍆",
+      "description": "eggplant",
+      "unicode": [
+        "1F346"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002465",
+      "emoji": "🥔",
+      "description": "potato",
+      "unicode": [
+        "1F954"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002466",
+      "emoji": "🥕",
+      "description": "carrot",
+      "unicode": [
+        "1F955"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002467",
+      "emoji": "🌽",
+      "description": "ear of corn",
+      "unicode": [
+        "1F33D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002468",
+      "emoji": "🌶️",
+      "description": "hot pepper",
+      "unicode": [
+        "1F336",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002469",
+      "emoji": "🫑",
+      "description": "bell pepper",
+      "unicode": [
+        "1FAD1"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002470",
+      "emoji": "🥒",
+      "description": "cucumber",
+      "unicode": [
+        "1F952"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002471",
+      "emoji": "🥬",
+      "description": "leafy green",
+      "unicode": [
+        "1F96C"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002472",
+      "emoji": "🥦",
+      "description": "broccoli",
+      "unicode": [
+        "1F966"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002473",
+      "emoji": "🧄",
+      "description": "garlic",
+      "unicode": [
+        "1F9C4"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002474",
+      "emoji": "🧅",
+      "description": "onion",
+      "unicode": [
+        "1F9C5"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002475",
+      "emoji": "🍄",
+      "description": "mushroom",
+      "unicode": [
+        "1F344"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002476",
+      "emoji": "🥜",
+      "description": "peanuts",
+      "unicode": [
+        "1F95C"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002477",
+      "emoji": "🫘",
+      "description": "beans",
+      "unicode": [
+        "1FAD8"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "002478",
+      "emoji": "🌰",
+      "description": "chestnut",
+      "unicode": [
+        "1F330"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002479",
+      "emoji": "🍞",
+      "description": "bread",
+      "unicode": [
+        "1F35E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002480",
+      "emoji": "🥐",
+      "description": "croissant",
+      "unicode": [
+        "1F950"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002481",
+      "emoji": "🥖",
+      "description": "baguette bread",
+      "unicode": [
+        "1F956"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002482",
+      "emoji": "🫓",
+      "description": "flatbread",
+      "unicode": [
+        "1FAD3"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002483",
+      "emoji": "🥨",
+      "description": "pretzel",
+      "unicode": [
+        "1F968"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002484",
+      "emoji": "🥯",
+      "description": "bagel",
+      "unicode": [
+        "1F96F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002485",
+      "emoji": "🥞",
+      "description": "pancakes",
+      "unicode": [
+        "1F95E"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002486",
+      "emoji": "🧇",
+      "description": "waffle",
+      "unicode": [
+        "1F9C7"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002487",
+      "emoji": "🧀",
+      "description": "cheese wedge",
+      "unicode": [
+        "1F9C0"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002488",
+      "emoji": "🍖",
+      "description": "meat on bone",
+      "unicode": [
+        "1F356"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002489",
+      "emoji": "🍗",
+      "description": "poultry leg",
+      "unicode": [
+        "1F357"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002490",
+      "emoji": "🥩",
+      "description": "cut of meat",
+      "unicode": [
+        "1F969"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002491",
+      "emoji": "🥓",
+      "description": "bacon",
+      "unicode": [
+        "1F953"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002492",
+      "emoji": "🍔",
+      "description": "hamburger",
+      "unicode": [
+        "1F354"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002493",
+      "emoji": "🍟",
+      "description": "french fries",
+      "unicode": [
+        "1F35F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002494",
+      "emoji": "🍕",
+      "description": "pizza",
+      "unicode": [
+        "1F355"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002495",
+      "emoji": "🌭",
+      "description": "hot dog",
+      "unicode": [
+        "1F32D"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002496",
+      "emoji": "🥪",
+      "description": "sandwich",
+      "unicode": [
+        "1F96A"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002497",
+      "emoji": "🌮",
+      "description": "taco",
+      "unicode": [
+        "1F32E"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002498",
+      "emoji": "🌯",
+      "description": "burrito",
+      "unicode": [
+        "1F32F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002499",
+      "emoji": "🫔",
+      "description": "tamale",
+      "unicode": [
+        "1FAD4"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002500",
+      "emoji": "🥙",
+      "description": "stuffed flatbread",
+      "unicode": [
+        "1F959"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002501",
+      "emoji": "🧆",
+      "description": "falafel",
+      "unicode": [
+        "1F9C6"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002502",
+      "emoji": "🥚",
+      "description": "egg",
+      "unicode": [
+        "1F95A"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002503",
+      "emoji": "🍳",
+      "description": "cooking",
+      "unicode": [
+        "1F373"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002504",
+      "emoji": "🥘",
+      "description": "shallow pan of food",
+      "unicode": [
+        "1F958"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002505",
+      "emoji": "🍲",
+      "description": "pot of food",
+      "unicode": [
+        "1F372"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002506",
+      "emoji": "🫕",
+      "description": "fondue",
+      "unicode": [
+        "1FAD5"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002507",
+      "emoji": "🥣",
+      "description": "bowl with spoon",
+      "unicode": [
+        "1F963"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002508",
+      "emoji": "🥗",
+      "description": "green salad",
+      "unicode": [
+        "1F957"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002509",
+      "emoji": "🍿",
+      "description": "popcorn",
+      "unicode": [
+        "1F37F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002510",
+      "emoji": "🧈",
+      "description": "butter",
+      "unicode": [
+        "1F9C8"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002511",
+      "emoji": "🧂",
+      "description": "salt",
+      "unicode": [
+        "1F9C2"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002512",
+      "emoji": "🥫",
+      "description": "canned food",
+      "unicode": [
+        "1F96B"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002513",
+      "emoji": "🍱",
+      "description": "bento box",
+      "unicode": [
+        "1F371"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002514",
+      "emoji": "🍘",
+      "description": "rice cracker",
+      "unicode": [
+        "1F358"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002515",
+      "emoji": "🍙",
+      "description": "rice ball",
+      "unicode": [
+        "1F359"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002516",
+      "emoji": "🍚",
+      "description": "cooked rice",
+      "unicode": [
+        "1F35A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002517",
+      "emoji": "🍛",
+      "description": "curry rice",
+      "unicode": [
+        "1F35B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002518",
+      "emoji": "🍜",
+      "description": "steaming bowl",
+      "unicode": [
+        "1F35C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002519",
+      "emoji": "🍝",
+      "description": "spaghetti",
+      "unicode": [
+        "1F35D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002520",
+      "emoji": "🍠",
+      "description": "roasted sweet potato",
+      "unicode": [
+        "1F360"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002521",
+      "emoji": "🍢",
+      "description": "oden",
+      "unicode": [
+        "1F362"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002522",
+      "emoji": "🍣",
+      "description": "sushi",
+      "unicode": [
+        "1F363"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002523",
+      "emoji": "🍤",
+      "description": "fried shrimp",
+      "unicode": [
+        "1F364"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002524",
+      "emoji": "🍥",
+      "description": "fish cake with swirl",
+      "unicode": [
+        "1F365"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002525",
+      "emoji": "🥮",
+      "description": "moon cake",
+      "unicode": [
+        "1F96E"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002526",
+      "emoji": "🍡",
+      "description": "dango",
+      "unicode": [
+        "1F361"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002527",
+      "emoji": "🥟",
+      "description": "dumpling",
+      "unicode": [
+        "1F95F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002528",
+      "emoji": "🥠",
+      "description": "fortune cookie",
+      "unicode": [
+        "1F960"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002529",
+      "emoji": "🥡",
+      "description": "takeout box",
+      "unicode": [
+        "1F961"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002530",
+      "emoji": "🦀",
+      "description": "crab",
+      "unicode": [
+        "1F980"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002531",
+      "emoji": "🦞",
+      "description": "lobster",
+      "unicode": [
+        "1F99E"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002532",
+      "emoji": "🦐",
+      "description": "shrimp",
+      "unicode": [
+        "1F990"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002533",
+      "emoji": "🦑",
+      "description": "squid",
+      "unicode": [
+        "1F991"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002534",
+      "emoji": "🦪",
+      "description": "oyster",
+      "unicode": [
+        "1F9AA"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002535",
+      "emoji": "🍦",
+      "description": "soft ice cream",
+      "unicode": [
+        "1F366"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002536",
+      "emoji": "🍧",
+      "description": "shaved ice",
+      "unicode": [
+        "1F367"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002537",
+      "emoji": "🍨",
+      "description": "ice cream",
+      "unicode": [
+        "1F368"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002538",
+      "emoji": "🍩",
+      "description": "doughnut",
+      "unicode": [
+        "1F369"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002539",
+      "emoji": "🍪",
+      "description": "cookie",
+      "unicode": [
+        "1F36A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002540",
+      "emoji": "🎂",
+      "description": "birthday cake",
+      "unicode": [
+        "1F382"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002541",
+      "emoji": "🍰",
+      "description": "shortcake",
+      "unicode": [
+        "1F370"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002542",
+      "emoji": "🧁",
+      "description": "cupcake",
+      "unicode": [
+        "1F9C1"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002543",
+      "emoji": "🥧",
+      "description": "pie",
+      "unicode": [
+        "1F967"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002544",
+      "emoji": "🍫",
+      "description": "chocolate bar",
+      "unicode": [
+        "1F36B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002545",
+      "emoji": "🍬",
+      "description": "candy",
+      "unicode": [
+        "1F36C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002546",
+      "emoji": "🍭",
+      "description": "lollipop",
+      "unicode": [
+        "1F36D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002547",
+      "emoji": "🍮",
+      "description": "custard",
+      "unicode": [
+        "1F36E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002548",
+      "emoji": "🍯",
+      "description": "honey pot",
+      "unicode": [
+        "1F36F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002549",
+      "emoji": "🍼",
+      "description": "baby bottle",
+      "unicode": [
+        "1F37C"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002550",
+      "emoji": "🥛",
+      "description": "glass of milk",
+      "unicode": [
+        "1F95B"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002551",
+      "emoji": "☕",
+      "description": "hot beverage",
+      "unicode": [
+        "2615"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002552",
+      "emoji": "🫖",
+      "description": "teapot",
+      "unicode": [
+        "1FAD6"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002553",
+      "emoji": "🍵",
+      "description": "teacup without handle",
+      "unicode": [
+        "1F375"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002554",
+      "emoji": "🍶",
+      "description": "sake",
+      "unicode": [
+        "1F376"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002555",
+      "emoji": "🍾",
+      "description": "bottle with popping cork",
+      "unicode": [
+        "1F37E"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002556",
+      "emoji": "🍷",
+      "description": "wine glass",
+      "unicode": [
+        "1F377"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002557",
+      "emoji": "🍸",
+      "description": "cocktail glass",
+      "unicode": [
+        "1F378"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002558",
+      "emoji": "🍹",
+      "description": "tropical drink",
+      "unicode": [
+        "1F379"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002559",
+      "emoji": "🍺",
+      "description": "beer mug",
+      "unicode": [
+        "1F37A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002560",
+      "emoji": "🍻",
+      "description": "clinking beer mugs",
+      "unicode": [
+        "1F37B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002561",
+      "emoji": "🥂",
+      "description": "clinking glasses",
+      "unicode": [
+        "1F942"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002562",
+      "emoji": "🥃",
+      "description": "tumbler glass",
+      "unicode": [
+        "1F943"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002563",
+      "emoji": "🫗",
+      "description": "pouring liquid",
+      "unicode": [
+        "1FAD7"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "002564",
+      "emoji": "🥤",
+      "description": "cup with straw",
+      "unicode": [
+        "1F964"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002565",
+      "emoji": "🧋",
+      "description": "bubble tea",
+      "unicode": [
+        "1F9CB"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002566",
+      "emoji": "🧃",
+      "description": "beverage box",
+      "unicode": [
+        "1F9C3"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002567",
+      "emoji": "🧉",
+      "description": "mate",
+      "unicode": [
+        "1F9C9"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002568",
+      "emoji": "🧊",
+      "description": "ice",
+      "unicode": [
+        "1F9CA"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002569",
+      "emoji": "🥢",
+      "description": "chopsticks",
+      "unicode": [
+        "1F962"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002570",
+      "emoji": "🍽️",
+      "description": "fork and knife with plate",
+      "unicode": [
+        "1F37D",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002571",
+      "emoji": "🍴",
+      "description": "fork and knife",
+      "unicode": [
+        "1F374"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002572",
+      "emoji": "🥄",
+      "description": "spoon",
+      "unicode": [
+        "1F944"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002573",
+      "emoji": "🔪",
+      "description": "kitchen knife",
+      "unicode": [
+        "1F52A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002574",
+      "emoji": "🫙",
+      "description": "jar",
+      "unicode": [
+        "1FAD9"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "002575",
+      "emoji": "🏺",
+      "description": "amphora",
+      "unicode": [
+        "1F3FA"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002576",
+      "emoji": "🌍",
+      "description": "globe showing Europe-Africa",
+      "unicode": [
+        "1F30D"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002577",
+      "emoji": "🌎",
+      "description": "globe showing Americas",
+      "unicode": [
+        "1F30E"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002578",
+      "emoji": "🌏",
+      "description": "globe showing Asia-Australia",
+      "unicode": [
+        "1F30F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002579",
+      "emoji": "🌐",
+      "description": "globe with meridians",
+      "unicode": [
+        "1F310"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002580",
+      "emoji": "🗺️",
+      "description": "world map",
+      "unicode": [
+        "1F5FA",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002581",
+      "emoji": "🗾",
+      "description": "map of Japan",
+      "unicode": [
+        "1F5FE"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002582",
+      "emoji": "🧭",
+      "description": "compass",
+      "unicode": [
+        "1F9ED"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002583",
+      "emoji": "🏔️",
+      "description": "snow-capped mountain",
+      "unicode": [
+        "1F3D4",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002584",
+      "emoji": "⛰️",
+      "description": "mountain",
+      "unicode": [
+        "26F0",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002585",
+      "emoji": "🌋",
+      "description": "volcano",
+      "unicode": [
+        "1F30B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002586",
+      "emoji": "🗻",
+      "description": "mount fuji",
+      "unicode": [
+        "1F5FB"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002587",
+      "emoji": "🏕️",
+      "description": "camping",
+      "unicode": [
+        "1F3D5",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002588",
+      "emoji": "🏖️",
+      "description": "beach with umbrella",
+      "unicode": [
+        "1F3D6",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002589",
+      "emoji": "🏜️",
+      "description": "desert",
+      "unicode": [
+        "1F3DC",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002590",
+      "emoji": "🏝️",
+      "description": "desert island",
+      "unicode": [
+        "1F3DD",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002591",
+      "emoji": "🏞️",
+      "description": "national park",
+      "unicode": [
+        "1F3DE",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002592",
+      "emoji": "🏟️",
+      "description": "stadium",
+      "unicode": [
+        "1F3DF",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002593",
+      "emoji": "🏛️",
+      "description": "classical building",
+      "unicode": [
+        "1F3DB",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002594",
+      "emoji": "🏗️",
+      "description": "building construction",
+      "unicode": [
+        "1F3D7",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002595",
+      "emoji": "🧱",
+      "description": "brick",
+      "unicode": [
+        "1F9F1"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002596",
+      "emoji": "🪨",
+      "description": "rock",
+      "unicode": [
+        "1FAA8"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002597",
+      "emoji": "🪵",
+      "description": "wood",
+      "unicode": [
+        "1FAB5"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002598",
+      "emoji": "🛖",
+      "description": "hut",
+      "unicode": [
+        "1F6D6"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002599",
+      "emoji": "🏘️",
+      "description": "houses",
+      "unicode": [
+        "1F3D8",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002600",
+      "emoji": "🏚️",
+      "description": "derelict house",
+      "unicode": [
+        "1F3DA",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002601",
+      "emoji": "🏠",
+      "description": "house",
+      "unicode": [
+        "1F3E0"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002602",
+      "emoji": "🏡",
+      "description": "house with garden",
+      "unicode": [
+        "1F3E1"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002603",
+      "emoji": "🏢",
+      "description": "office building",
+      "unicode": [
+        "1F3E2"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002604",
+      "emoji": "🏣",
+      "description": "Japanese post office",
+      "unicode": [
+        "1F3E3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002605",
+      "emoji": "🏤",
+      "description": "post office",
+      "unicode": [
+        "1F3E4"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002606",
+      "emoji": "🏥",
+      "description": "hospital",
+      "unicode": [
+        "1F3E5"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002607",
+      "emoji": "🏦",
+      "description": "bank",
+      "unicode": [
+        "1F3E6"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002608",
+      "emoji": "🏨",
+      "description": "hotel",
+      "unicode": [
+        "1F3E8"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002609",
+      "emoji": "🏩",
+      "description": "love hotel",
+      "unicode": [
+        "1F3E9"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002610",
+      "emoji": "🏪",
+      "description": "convenience store",
+      "unicode": [
+        "1F3EA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002611",
+      "emoji": "🏫",
+      "description": "school",
+      "unicode": [
+        "1F3EB"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002612",
+      "emoji": "🏬",
+      "description": "department store",
+      "unicode": [
+        "1F3EC"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002613",
+      "emoji": "🏭",
+      "description": "factory",
+      "unicode": [
+        "1F3ED"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002614",
+      "emoji": "🏯",
+      "description": "Japanese castle",
+      "unicode": [
+        "1F3EF"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002615",
+      "emoji": "🏰",
+      "description": "castle",
+      "unicode": [
+        "1F3F0"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002616",
+      "emoji": "💒",
+      "description": "wedding",
+      "unicode": [
+        "1F492"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002617",
+      "emoji": "🗼",
+      "description": "Tokyo tower",
+      "unicode": [
+        "1F5FC"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002618",
+      "emoji": "🗽",
+      "description": "Statue of Liberty",
+      "unicode": [
+        "1F5FD"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002619",
+      "emoji": "⛪",
+      "description": "church",
+      "unicode": [
+        "26EA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002620",
+      "emoji": "🕌",
+      "description": "mosque",
+      "unicode": [
+        "1F54C"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002621",
+      "emoji": "🛕",
+      "description": "hindu temple",
+      "unicode": [
+        "1F6D5"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002622",
+      "emoji": "🕍",
+      "description": "synagogue",
+      "unicode": [
+        "1F54D"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002623",
+      "emoji": "⛩️",
+      "description": "shinto shrine",
+      "unicode": [
+        "26E9",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002624",
+      "emoji": "🕋",
+      "description": "kaaba",
+      "unicode": [
+        "1F54B"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002625",
+      "emoji": "⛲",
+      "description": "fountain",
+      "unicode": [
+        "26F2"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002626",
+      "emoji": "⛺",
+      "description": "tent",
+      "unicode": [
+        "26FA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002627",
+      "emoji": "🌁",
+      "description": "foggy",
+      "unicode": [
+        "1F301"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002628",
+      "emoji": "🌃",
+      "description": "night with stars",
+      "unicode": [
+        "1F303"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002629",
+      "emoji": "🏙️",
+      "description": "cityscape",
+      "unicode": [
+        "1F3D9",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002630",
+      "emoji": "🌄",
+      "description": "sunrise over mountains",
+      "unicode": [
+        "1F304"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002631",
+      "emoji": "🌅",
+      "description": "sunrise",
+      "unicode": [
+        "1F305"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002632",
+      "emoji": "🌆",
+      "description": "cityscape at dusk",
+      "unicode": [
+        "1F306"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002633",
+      "emoji": "🌇",
+      "description": "sunset",
+      "unicode": [
+        "1F307"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002634",
+      "emoji": "🌉",
+      "description": "bridge at night",
+      "unicode": [
+        "1F309"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002635",
+      "emoji": "♨️",
+      "description": "hot springs",
+      "unicode": [
+        "2668",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002636",
+      "emoji": "🎠",
+      "description": "carousel horse",
+      "unicode": [
+        "1F3A0"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002637",
+      "emoji": "🛝",
+      "description": "playground slide",
+      "unicode": [
+        "1F6DD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "002638",
+      "emoji": "🎡",
+      "description": "ferris wheel",
+      "unicode": [
+        "1F3A1"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002639",
+      "emoji": "🎢",
+      "description": "roller coaster",
+      "unicode": [
+        "1F3A2"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002640",
+      "emoji": "💈",
+      "description": "barber pole",
+      "unicode": [
+        "1F488"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002641",
+      "emoji": "🎪",
+      "description": "circus tent",
+      "unicode": [
+        "1F3AA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002642",
+      "emoji": "🚂",
+      "description": "locomotive",
+      "unicode": [
+        "1F682"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002643",
+      "emoji": "🚃",
+      "description": "railway car",
+      "unicode": [
+        "1F683"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002644",
+      "emoji": "🚄",
+      "description": "high-speed train",
+      "unicode": [
+        "1F684"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002645",
+      "emoji": "🚅",
+      "description": "bullet train",
+      "unicode": [
+        "1F685"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002646",
+      "emoji": "🚆",
+      "description": "train",
+      "unicode": [
+        "1F686"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002647",
+      "emoji": "🚇",
+      "description": "metro",
+      "unicode": [
+        "1F687"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002648",
+      "emoji": "🚈",
+      "description": "light rail",
+      "unicode": [
+        "1F688"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002649",
+      "emoji": "🚉",
+      "description": "station",
+      "unicode": [
+        "1F689"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002650",
+      "emoji": "🚊",
+      "description": "tram",
+      "unicode": [
+        "1F68A"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002651",
+      "emoji": "🚝",
+      "description": "monorail",
+      "unicode": [
+        "1F69D"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002652",
+      "emoji": "🚞",
+      "description": "mountain railway",
+      "unicode": [
+        "1F69E"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002653",
+      "emoji": "🚋",
+      "description": "tram car",
+      "unicode": [
+        "1F68B"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002654",
+      "emoji": "🚌",
+      "description": "bus",
+      "unicode": [
+        "1F68C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002655",
+      "emoji": "🚍",
+      "description": "oncoming bus",
+      "unicode": [
+        "1F68D"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002656",
+      "emoji": "🚎",
+      "description": "trolleybus",
+      "unicode": [
+        "1F68E"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002657",
+      "emoji": "🚐",
+      "description": "minibus",
+      "unicode": [
+        "1F690"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002658",
+      "emoji": "🚑",
+      "description": "ambulance",
+      "unicode": [
+        "1F691"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002659",
+      "emoji": "🚒",
+      "description": "fire engine",
+      "unicode": [
+        "1F692"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002660",
+      "emoji": "🚓",
+      "description": "police car",
+      "unicode": [
+        "1F693"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002661",
+      "emoji": "🚔",
+      "description": "oncoming police car",
+      "unicode": [
+        "1F694"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002662",
+      "emoji": "🚕",
+      "description": "taxi",
+      "unicode": [
+        "1F695"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002663",
+      "emoji": "🚖",
+      "description": "oncoming taxi",
+      "unicode": [
+        "1F696"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002664",
+      "emoji": "🚗",
+      "description": "automobile",
+      "unicode": [
+        "1F697"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002665",
+      "emoji": "🚘",
+      "description": "oncoming automobile",
+      "unicode": [
+        "1F698"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002666",
+      "emoji": "🚙",
+      "description": "sport utility vehicle",
+      "unicode": [
+        "1F699"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002667",
+      "emoji": "🛻",
+      "description": "pickup truck",
+      "unicode": [
+        "1F6FB"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002668",
+      "emoji": "🚚",
+      "description": "delivery truck",
+      "unicode": [
+        "1F69A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002669",
+      "emoji": "🚛",
+      "description": "articulated lorry",
+      "unicode": [
+        "1F69B"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002670",
+      "emoji": "🚜",
+      "description": "tractor",
+      "unicode": [
+        "1F69C"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002671",
+      "emoji": "🏎️",
+      "description": "racing car",
+      "unicode": [
+        "1F3CE",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002672",
+      "emoji": "🏍️",
+      "description": "motorcycle",
+      "unicode": [
+        "1F3CD",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002673",
+      "emoji": "🛵",
+      "description": "motor scooter",
+      "unicode": [
+        "1F6F5"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002674",
+      "emoji": "🦽",
+      "description": "manual wheelchair",
+      "unicode": [
+        "1F9BD"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002675",
+      "emoji": "🦼",
+      "description": "motorized wheelchair",
+      "unicode": [
+        "1F9BC"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002676",
+      "emoji": "🛺",
+      "description": "auto rickshaw",
+      "unicode": [
+        "1F6FA"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002677",
+      "emoji": "🚲",
+      "description": "bicycle",
+      "unicode": [
+        "1F6B2"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002678",
+      "emoji": "🛴",
+      "description": "kick scooter",
+      "unicode": [
+        "1F6F4"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002679",
+      "emoji": "🛹",
+      "description": "skateboard",
+      "unicode": [
+        "1F6F9"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002680",
+      "emoji": "🛼",
+      "description": "roller skate",
+      "unicode": [
+        "1F6FC"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002681",
+      "emoji": "🚏",
+      "description": "bus stop",
+      "unicode": [
+        "1F68F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002682",
+      "emoji": "🛣️",
+      "description": "motorway",
+      "unicode": [
+        "1F6E3",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002683",
+      "emoji": "🛤️",
+      "description": "railway track",
+      "unicode": [
+        "1F6E4",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002684",
+      "emoji": "🛢️",
+      "description": "oil drum",
+      "unicode": [
+        "1F6E2",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002685",
+      "emoji": "⛽",
+      "description": "fuel pump",
+      "unicode": [
+        "26FD"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002686",
+      "emoji": "🛞",
+      "description": "wheel",
+      "unicode": [
+        "1F6DE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "002687",
+      "emoji": "🚨",
+      "description": "police car light",
+      "unicode": [
+        "1F6A8"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002688",
+      "emoji": "🚥",
+      "description": "horizontal traffic light",
+      "unicode": [
+        "1F6A5"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002689",
+      "emoji": "🚦",
+      "description": "vertical traffic light",
+      "unicode": [
+        "1F6A6"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002690",
+      "emoji": "🛑",
+      "description": "stop sign",
+      "unicode": [
+        "1F6D1"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002691",
+      "emoji": "🚧",
+      "description": "construction",
+      "unicode": [
+        "1F6A7"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002692",
+      "emoji": "⚓",
+      "description": "anchor",
+      "unicode": [
+        "2693"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002693",
+      "emoji": "🛟",
+      "description": "ring buoy",
+      "unicode": [
+        "1F6DF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "002694",
+      "emoji": "⛵",
+      "description": "sailboat",
+      "unicode": [
+        "26F5"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002695",
+      "emoji": "🛶",
+      "description": "canoe",
+      "unicode": [
+        "1F6F6"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002696",
+      "emoji": "🚤",
+      "description": "speedboat",
+      "unicode": [
+        "1F6A4"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002697",
+      "emoji": "🛳️",
+      "description": "passenger ship",
+      "unicode": [
+        "1F6F3",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002698",
+      "emoji": "⛴️",
+      "description": "ferry",
+      "unicode": [
+        "26F4",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002699",
+      "emoji": "🛥️",
+      "description": "motor boat",
+      "unicode": [
+        "1F6E5",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002700",
+      "emoji": "🚢",
+      "description": "ship",
+      "unicode": [
+        "1F6A2"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002701",
+      "emoji": "✈️",
+      "description": "airplane",
+      "unicode": [
+        "2708",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002702",
+      "emoji": "🛩️",
+      "description": "small airplane",
+      "unicode": [
+        "1F6E9",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002703",
+      "emoji": "🛫",
+      "description": "airplane departure",
+      "unicode": [
+        "1F6EB"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002704",
+      "emoji": "🛬",
+      "description": "airplane arrival",
+      "unicode": [
+        "1F6EC"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002705",
+      "emoji": "🪂",
+      "description": "parachute",
+      "unicode": [
+        "1FA82"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002706",
+      "emoji": "💺",
+      "description": "seat",
+      "unicode": [
+        "1F4BA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002707",
+      "emoji": "🚁",
+      "description": "helicopter",
+      "unicode": [
+        "1F681"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002708",
+      "emoji": "🚟",
+      "description": "suspension railway",
+      "unicode": [
+        "1F69F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002709",
+      "emoji": "🚠",
+      "description": "mountain cableway",
+      "unicode": [
+        "1F6A0"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002710",
+      "emoji": "🚡",
+      "description": "aerial tramway",
+      "unicode": [
+        "1F6A1"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002711",
+      "emoji": "🛰️",
+      "description": "satellite",
+      "unicode": [
+        "1F6F0",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002712",
+      "emoji": "🚀",
+      "description": "rocket",
+      "unicode": [
+        "1F680"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002713",
+      "emoji": "🛸",
+      "description": "flying saucer",
+      "unicode": [
+        "1F6F8"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002714",
+      "emoji": "🛎️",
+      "description": "bellhop bell",
+      "unicode": [
+        "1F6CE",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002715",
+      "emoji": "🧳",
+      "description": "luggage",
+      "unicode": [
+        "1F9F3"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002716",
+      "emoji": "⌛",
+      "description": "hourglass done",
+      "unicode": [
+        "231B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002717",
+      "emoji": "⏳",
+      "description": "hourglass not done",
+      "unicode": [
+        "23F3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002718",
+      "emoji": "⌚",
+      "description": "watch",
+      "unicode": [
+        "231A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002719",
+      "emoji": "⏰",
+      "description": "alarm clock",
+      "unicode": [
+        "23F0"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002720",
+      "emoji": "⏱️",
+      "description": "stopwatch",
+      "unicode": [
+        "23F1",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002721",
+      "emoji": "⏲️",
+      "description": "timer clock",
+      "unicode": [
+        "23F2",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002722",
+      "emoji": "🕰️",
+      "description": "mantelpiece clock",
+      "unicode": [
+        "1F570",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002723",
+      "emoji": "🕛",
+      "description": "twelve o’clock",
+      "unicode": [
+        "1F55B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002724",
+      "emoji": "🕧",
+      "description": "twelve-thirty",
+      "unicode": [
+        "1F567"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002725",
+      "emoji": "🕐",
+      "description": "one o’clock",
+      "unicode": [
+        "1F550"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002726",
+      "emoji": "🕜",
+      "description": "one-thirty",
+      "unicode": [
+        "1F55C"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002727",
+      "emoji": "🕑",
+      "description": "two o’clock",
+      "unicode": [
+        "1F551"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002728",
+      "emoji": "🕝",
+      "description": "two-thirty",
+      "unicode": [
+        "1F55D"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002729",
+      "emoji": "🕒",
+      "description": "three o’clock",
+      "unicode": [
+        "1F552"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002730",
+      "emoji": "🕞",
+      "description": "three-thirty",
+      "unicode": [
+        "1F55E"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002731",
+      "emoji": "🕓",
+      "description": "four o’clock",
+      "unicode": [
+        "1F553"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002732",
+      "emoji": "🕟",
+      "description": "four-thirty",
+      "unicode": [
+        "1F55F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002733",
+      "emoji": "🕔",
+      "description": "five o’clock",
+      "unicode": [
+        "1F554"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002734",
+      "emoji": "🕠",
+      "description": "five-thirty",
+      "unicode": [
+        "1F560"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002735",
+      "emoji": "🕕",
+      "description": "six o’clock",
+      "unicode": [
+        "1F555"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002736",
+      "emoji": "🕡",
+      "description": "six-thirty",
+      "unicode": [
+        "1F561"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002737",
+      "emoji": "🕖",
+      "description": "seven o’clock",
+      "unicode": [
+        "1F556"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002738",
+      "emoji": "🕢",
+      "description": "seven-thirty",
+      "unicode": [
+        "1F562"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002739",
+      "emoji": "🕗",
+      "description": "eight o’clock",
+      "unicode": [
+        "1F557"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002740",
+      "emoji": "🕣",
+      "description": "eight-thirty",
+      "unicode": [
+        "1F563"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002741",
+      "emoji": "🕘",
+      "description": "nine o’clock",
+      "unicode": [
+        "1F558"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002742",
+      "emoji": "🕤",
+      "description": "nine-thirty",
+      "unicode": [
+        "1F564"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002743",
+      "emoji": "🕙",
+      "description": "ten o’clock",
+      "unicode": [
+        "1F559"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002744",
+      "emoji": "🕥",
+      "description": "ten-thirty",
+      "unicode": [
+        "1F565"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002745",
+      "emoji": "🕚",
+      "description": "eleven o’clock",
+      "unicode": [
+        "1F55A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002746",
+      "emoji": "🕦",
+      "description": "eleven-thirty",
+      "unicode": [
+        "1F566"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002747",
+      "emoji": "🌑",
+      "description": "new moon",
+      "unicode": [
+        "1F311"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002748",
+      "emoji": "🌒",
+      "description": "waxing crescent moon",
+      "unicode": [
+        "1F312"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002749",
+      "emoji": "🌓",
+      "description": "first quarter moon",
+      "unicode": [
+        "1F313"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002750",
+      "emoji": "🌔",
+      "description": "waxing gibbous moon",
+      "unicode": [
+        "1F314"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002751",
+      "emoji": "🌕",
+      "description": "full moon",
+      "unicode": [
+        "1F315"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002752",
+      "emoji": "🌖",
+      "description": "waning gibbous moon",
+      "unicode": [
+        "1F316"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002753",
+      "emoji": "🌗",
+      "description": "last quarter moon",
+      "unicode": [
+        "1F317"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002754",
+      "emoji": "🌘",
+      "description": "waning crescent moon",
+      "unicode": [
+        "1F318"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002755",
+      "emoji": "🌙",
+      "description": "crescent moon",
+      "unicode": [
+        "1F319"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002756",
+      "emoji": "🌚",
+      "description": "new moon face",
+      "unicode": [
+        "1F31A"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002757",
+      "emoji": "🌛",
+      "description": "first quarter moon face",
+      "unicode": [
+        "1F31B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002758",
+      "emoji": "🌜",
+      "description": "last quarter moon face",
+      "unicode": [
+        "1F31C"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002759",
+      "emoji": "🌡️",
+      "description": "thermometer",
+      "unicode": [
+        "1F321",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002760",
+      "emoji": "☀️",
+      "description": "sun",
+      "unicode": [
+        "2600",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002761",
+      "emoji": "🌝",
+      "description": "full moon face",
+      "unicode": [
+        "1F31D"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002762",
+      "emoji": "🌞",
+      "description": "sun with face",
+      "unicode": [
+        "1F31E"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002763",
+      "emoji": "🪐",
+      "description": "ringed planet",
+      "unicode": [
+        "1FA90"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002764",
+      "emoji": "⭐",
+      "description": "star",
+      "unicode": [
+        "2B50"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002765",
+      "emoji": "🌟",
+      "description": "glowing star",
+      "unicode": [
+        "1F31F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002766",
+      "emoji": "🌠",
+      "description": "shooting star",
+      "unicode": [
+        "1F320"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002767",
+      "emoji": "🌌",
+      "description": "milky way",
+      "unicode": [
+        "1F30C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002768",
+      "emoji": "☁️",
+      "description": "cloud",
+      "unicode": [
+        "2601",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002769",
+      "emoji": "⛅",
+      "description": "sun behind cloud",
+      "unicode": [
+        "26C5"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002770",
+      "emoji": "⛈️",
+      "description": "cloud with lightning and rain",
+      "unicode": [
+        "26C8",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002771",
+      "emoji": "🌤️",
+      "description": "sun behind small cloud",
+      "unicode": [
+        "1F324",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002772",
+      "emoji": "🌥️",
+      "description": "sun behind large cloud",
+      "unicode": [
+        "1F325",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002773",
+      "emoji": "🌦️",
+      "description": "sun behind rain cloud",
+      "unicode": [
+        "1F326",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002774",
+      "emoji": "🌧️",
+      "description": "cloud with rain",
+      "unicode": [
+        "1F327",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002775",
+      "emoji": "🌨️",
+      "description": "cloud with snow",
+      "unicode": [
+        "1F328",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002776",
+      "emoji": "🌩️",
+      "description": "cloud with lightning",
+      "unicode": [
+        "1F329",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002777",
+      "emoji": "🌪️",
+      "description": "tornado",
+      "unicode": [
+        "1F32A",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002778",
+      "emoji": "🌫️",
+      "description": "fog",
+      "unicode": [
+        "1F32B",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002779",
+      "emoji": "🌬️",
+      "description": "wind face",
+      "unicode": [
+        "1F32C",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002780",
+      "emoji": "🌀",
+      "description": "cyclone",
+      "unicode": [
+        "1F300"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002781",
+      "emoji": "🌈",
+      "description": "rainbow",
+      "unicode": [
+        "1F308"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002782",
+      "emoji": "🌂",
+      "description": "closed umbrella",
+      "unicode": [
+        "1F302"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002783",
+      "emoji": "☂️",
+      "description": "umbrella",
+      "unicode": [
+        "2602",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002784",
+      "emoji": "☔",
+      "description": "umbrella with rain drops",
+      "unicode": [
+        "2614"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002785",
+      "emoji": "⛱️",
+      "description": "umbrella on ground",
+      "unicode": [
+        "26F1",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002786",
+      "emoji": "⚡",
+      "description": "high voltage",
+      "unicode": [
+        "26A1"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002787",
+      "emoji": "❄️",
+      "description": "snowflake",
+      "unicode": [
+        "2744",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002788",
+      "emoji": "☃️",
+      "description": "snowman",
+      "unicode": [
+        "2603",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002789",
+      "emoji": "⛄",
+      "description": "snowman without snow",
+      "unicode": [
+        "26C4"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002790",
+      "emoji": "☄️",
+      "description": "comet",
+      "unicode": [
+        "2604",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002791",
+      "emoji": "🔥",
+      "description": "fire",
+      "unicode": [
+        "1F525"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002792",
+      "emoji": "💧",
+      "description": "droplet",
+      "unicode": [
+        "1F4A7"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002793",
+      "emoji": "🌊",
+      "description": "water wave",
+      "unicode": [
+        "1F30A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002794",
+      "emoji": "🎃",
+      "description": "jack-o-lantern",
+      "unicode": [
+        "1F383"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002795",
+      "emoji": "🎄",
+      "description": "Christmas tree",
+      "unicode": [
+        "1F384"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002796",
+      "emoji": "🎆",
+      "description": "fireworks",
+      "unicode": [
+        "1F386"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002797",
+      "emoji": "🎇",
+      "description": "sparkler",
+      "unicode": [
+        "1F387"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002798",
+      "emoji": "🧨",
+      "description": "firecracker",
+      "unicode": [
+        "1F9E8"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002799",
+      "emoji": "✨",
+      "description": "sparkles",
+      "unicode": [
+        "2728"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002800",
+      "emoji": "🎈",
+      "description": "balloon",
+      "unicode": [
+        "1F388"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002801",
+      "emoji": "🎉",
+      "description": "party popper",
+      "unicode": [
+        "1F389"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002802",
+      "emoji": "🎊",
+      "description": "confetti ball",
+      "unicode": [
+        "1F38A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002803",
+      "emoji": "🎋",
+      "description": "tanabata tree",
+      "unicode": [
+        "1F38B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002804",
+      "emoji": "🎍",
+      "description": "pine decoration",
+      "unicode": [
+        "1F38D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002805",
+      "emoji": "🎎",
+      "description": "Japanese dolls",
+      "unicode": [
+        "1F38E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002806",
+      "emoji": "🎏",
+      "description": "carp streamer",
+      "unicode": [
+        "1F38F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002807",
+      "emoji": "🎐",
+      "description": "wind chime",
+      "unicode": [
+        "1F390"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002808",
+      "emoji": "🎑",
+      "description": "moon viewing ceremony",
+      "unicode": [
+        "1F391"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002809",
+      "emoji": "🧧",
+      "description": "red envelope",
+      "unicode": [
+        "1F9E7"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002810",
+      "emoji": "🎀",
+      "description": "ribbon",
+      "unicode": [
+        "1F380"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002811",
+      "emoji": "🎁",
+      "description": "wrapped gift",
+      "unicode": [
+        "1F381"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002812",
+      "emoji": "🎗️",
+      "description": "reminder ribbon",
+      "unicode": [
+        "1F397",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002813",
+      "emoji": "🎟️",
+      "description": "admission tickets",
+      "unicode": [
+        "1F39F",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002814",
+      "emoji": "🎫",
+      "description": "ticket",
+      "unicode": [
+        "1F3AB"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002815",
+      "emoji": "🎖️",
+      "description": "military medal",
+      "unicode": [
+        "1F396",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002816",
+      "emoji": "🏆",
+      "description": "trophy",
+      "unicode": [
+        "1F3C6"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002817",
+      "emoji": "🏅",
+      "description": "sports medal",
+      "unicode": [
+        "1F3C5"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002818",
+      "emoji": "🥇",
+      "description": "1st place medal",
+      "unicode": [
+        "1F947"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002819",
+      "emoji": "🥈",
+      "description": "2nd place medal",
+      "unicode": [
+        "1F948"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002820",
+      "emoji": "🥉",
+      "description": "3rd place medal",
+      "unicode": [
+        "1F949"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002821",
+      "emoji": "⚽",
+      "description": "soccer ball",
+      "unicode": [
+        "26BD"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002822",
+      "emoji": "⚾",
+      "description": "baseball",
+      "unicode": [
+        "26BE"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002823",
+      "emoji": "🥎",
+      "description": "softball",
+      "unicode": [
+        "1F94E"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002824",
+      "emoji": "🏀",
+      "description": "basketball",
+      "unicode": [
+        "1F3C0"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002825",
+      "emoji": "🏐",
+      "description": "volleyball",
+      "unicode": [
+        "1F3D0"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002826",
+      "emoji": "🏈",
+      "description": "american football",
+      "unicode": [
+        "1F3C8"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002827",
+      "emoji": "🏉",
+      "description": "rugby football",
+      "unicode": [
+        "1F3C9"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002828",
+      "emoji": "🎾",
+      "description": "tennis",
+      "unicode": [
+        "1F3BE"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002829",
+      "emoji": "🥏",
+      "description": "flying disc",
+      "unicode": [
+        "1F94F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002830",
+      "emoji": "🎳",
+      "description": "bowling",
+      "unicode": [
+        "1F3B3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002831",
+      "emoji": "🏏",
+      "description": "cricket game",
+      "unicode": [
+        "1F3CF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002832",
+      "emoji": "🏑",
+      "description": "field hockey",
+      "unicode": [
+        "1F3D1"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002833",
+      "emoji": "🏒",
+      "description": "ice hockey",
+      "unicode": [
+        "1F3D2"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002834",
+      "emoji": "🥍",
+      "description": "lacrosse",
+      "unicode": [
+        "1F94D"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002835",
+      "emoji": "🏓",
+      "description": "ping pong",
+      "unicode": [
+        "1F3D3"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002836",
+      "emoji": "🏸",
+      "description": "badminton",
+      "unicode": [
+        "1F3F8"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002837",
+      "emoji": "🥊",
+      "description": "boxing glove",
+      "unicode": [
+        "1F94A"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002838",
+      "emoji": "🥋",
+      "description": "martial arts uniform",
+      "unicode": [
+        "1F94B"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002839",
+      "emoji": "🥅",
+      "description": "goal net",
+      "unicode": [
+        "1F945"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002840",
+      "emoji": "⛳",
+      "description": "flag in hole",
+      "unicode": [
+        "26F3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002841",
+      "emoji": "⛸️",
+      "description": "ice skate",
+      "unicode": [
+        "26F8",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002842",
+      "emoji": "🎣",
+      "description": "fishing pole",
+      "unicode": [
+        "1F3A3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002843",
+      "emoji": "🤿",
+      "description": "diving mask",
+      "unicode": [
+        "1F93F"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002844",
+      "emoji": "🎽",
+      "description": "running shirt",
+      "unicode": [
+        "1F3BD"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002845",
+      "emoji": "🎿",
+      "description": "skis",
+      "unicode": [
+        "1F3BF"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002846",
+      "emoji": "🛷",
+      "description": "sled",
+      "unicode": [
+        "1F6F7"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002847",
+      "emoji": "🥌",
+      "description": "curling stone",
+      "unicode": [
+        "1F94C"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002848",
+      "emoji": "🎯",
+      "description": "bullseye",
+      "unicode": [
+        "1F3AF"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002849",
+      "emoji": "🪀",
+      "description": "yo-yo",
+      "unicode": [
+        "1FA80"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002850",
+      "emoji": "🪁",
+      "description": "kite",
+      "unicode": [
+        "1FA81"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002851",
+      "emoji": "🎱",
+      "description": "pool 8 ball",
+      "unicode": [
+        "1F3B1"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002852",
+      "emoji": "🔮",
+      "description": "crystal ball",
+      "unicode": [
+        "1F52E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002853",
+      "emoji": "🪄",
+      "description": "magic wand",
+      "unicode": [
+        "1FA84"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002854",
+      "emoji": "🧿",
+      "description": "nazar amulet",
+      "unicode": [
+        "1F9FF"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002855",
+      "emoji": "🪬",
+      "description": "hamsa",
+      "unicode": [
+        "1FAAC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "002856",
+      "emoji": "🎮",
+      "description": "video game",
+      "unicode": [
+        "1F3AE"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002857",
+      "emoji": "🕹️",
+      "description": "joystick",
+      "unicode": [
+        "1F579",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002858",
+      "emoji": "🎰",
+      "description": "slot machine",
+      "unicode": [
+        "1F3B0"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002859",
+      "emoji": "🎲",
+      "description": "game die",
+      "unicode": [
+        "1F3B2"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002860",
+      "emoji": "🧩",
+      "description": "puzzle piece",
+      "unicode": [
+        "1F9E9"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002861",
+      "emoji": "🧸",
+      "description": "teddy bear",
+      "unicode": [
+        "1F9F8"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002862",
+      "emoji": "🪅",
+      "description": "piñata",
+      "unicode": [
+        "1FA85"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002863",
+      "emoji": "🪩",
+      "description": "mirror ball",
+      "unicode": [
+        "1FAA9"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "002864",
+      "emoji": "🪆",
+      "description": "nesting dolls",
+      "unicode": [
+        "1FA86"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002865",
+      "emoji": "♠️",
+      "description": "spade suit",
+      "unicode": [
+        "2660",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002866",
+      "emoji": "♥️",
+      "description": "heart suit",
+      "unicode": [
+        "2665",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002867",
+      "emoji": "♦️",
+      "description": "diamond suit",
+      "unicode": [
+        "2666",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002868",
+      "emoji": "♣️",
+      "description": "club suit",
+      "unicode": [
+        "2663",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002869",
+      "emoji": "♟️",
+      "description": "chess pawn",
+      "unicode": [
+        "265F",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002870",
+      "emoji": "🃏",
+      "description": "joker",
+      "unicode": [
+        "1F0CF"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002871",
+      "emoji": "🀄",
+      "description": "mahjong red dragon",
+      "unicode": [
+        "1F004"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002872",
+      "emoji": "🎴",
+      "description": "flower playing cards",
+      "unicode": [
+        "1F3B4"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002873",
+      "emoji": "🎭",
+      "description": "performing arts",
+      "unicode": [
+        "1F3AD"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002874",
+      "emoji": "🖼️",
+      "description": "framed picture",
+      "unicode": [
+        "1F5BC",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002875",
+      "emoji": "🎨",
+      "description": "artist palette",
+      "unicode": [
+        "1F3A8"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002876",
+      "emoji": "🧵",
+      "description": "thread",
+      "unicode": [
+        "1F9F5"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002877",
+      "emoji": "🪡",
+      "description": "sewing needle",
+      "unicode": [
+        "1FAA1"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002878",
+      "emoji": "🧶",
+      "description": "yarn",
+      "unicode": [
+        "1F9F6"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002879",
+      "emoji": "🪢",
+      "description": "knot",
+      "unicode": [
+        "1FAA2"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002880",
+      "emoji": "👓",
+      "description": "glasses",
+      "unicode": [
+        "1F453"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002881",
+      "emoji": "🕶️",
+      "description": "sunglasses",
+      "unicode": [
+        "1F576",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002882",
+      "emoji": "🥽",
+      "description": "goggles",
+      "unicode": [
+        "1F97D"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002883",
+      "emoji": "🥼",
+      "description": "lab coat",
+      "unicode": [
+        "1F97C"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002884",
+      "emoji": "🦺",
+      "description": "safety vest",
+      "unicode": [
+        "1F9BA"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002885",
+      "emoji": "👔",
+      "description": "necktie",
+      "unicode": [
+        "1F454"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002886",
+      "emoji": "👕",
+      "description": "t-shirt",
+      "unicode": [
+        "1F455"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002887",
+      "emoji": "👖",
+      "description": "jeans",
+      "unicode": [
+        "1F456"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002888",
+      "emoji": "🧣",
+      "description": "scarf",
+      "unicode": [
+        "1F9E3"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002889",
+      "emoji": "🧤",
+      "description": "gloves",
+      "unicode": [
+        "1F9E4"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002890",
+      "emoji": "🧥",
+      "description": "coat",
+      "unicode": [
+        "1F9E5"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002891",
+      "emoji": "🧦",
+      "description": "socks",
+      "unicode": [
+        "1F9E6"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002892",
+      "emoji": "👗",
+      "description": "dress",
+      "unicode": [
+        "1F457"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002893",
+      "emoji": "👘",
+      "description": "kimono",
+      "unicode": [
+        "1F458"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002894",
+      "emoji": "🥻",
+      "description": "sari",
+      "unicode": [
+        "1F97B"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002895",
+      "emoji": "🩱",
+      "description": "one-piece swimsuit",
+      "unicode": [
+        "1FA71"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002896",
+      "emoji": "🩲",
+      "description": "briefs",
+      "unicode": [
+        "1FA72"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002897",
+      "emoji": "🩳",
+      "description": "shorts",
+      "unicode": [
+        "1FA73"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002898",
+      "emoji": "👙",
+      "description": "bikini",
+      "unicode": [
+        "1F459"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002899",
+      "emoji": "👚",
+      "description": "woman’s clothes",
+      "unicode": [
+        "1F45A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002900",
+      "emoji": "👛",
+      "description": "purse",
+      "unicode": [
+        "1F45B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002901",
+      "emoji": "👜",
+      "description": "handbag",
+      "unicode": [
+        "1F45C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002902",
+      "emoji": "👝",
+      "description": "clutch bag",
+      "unicode": [
+        "1F45D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002903",
+      "emoji": "🛍️",
+      "description": "shopping bags",
+      "unicode": [
+        "1F6CD",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002904",
+      "emoji": "🎒",
+      "description": "backpack",
+      "unicode": [
+        "1F392"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002905",
+      "emoji": "🩴",
+      "description": "thong sandal",
+      "unicode": [
+        "1FA74"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002906",
+      "emoji": "👞",
+      "description": "man’s shoe",
+      "unicode": [
+        "1F45E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002907",
+      "emoji": "👟",
+      "description": "running shoe",
+      "unicode": [
+        "1F45F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002908",
+      "emoji": "🥾",
+      "description": "hiking boot",
+      "unicode": [
+        "1F97E"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002909",
+      "emoji": "🥿",
+      "description": "flat shoe",
+      "unicode": [
+        "1F97F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002910",
+      "emoji": "👠",
+      "description": "high-heeled shoe",
+      "unicode": [
+        "1F460"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002911",
+      "emoji": "👡",
+      "description": "woman’s sandal",
+      "unicode": [
+        "1F461"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002912",
+      "emoji": "🩰",
+      "description": "ballet shoes",
+      "unicode": [
+        "1FA70"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002913",
+      "emoji": "👢",
+      "description": "woman’s boot",
+      "unicode": [
+        "1F462"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002914",
+      "emoji": "👑",
+      "description": "crown",
+      "unicode": [
+        "1F451"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002915",
+      "emoji": "👒",
+      "description": "woman’s hat",
+      "unicode": [
+        "1F452"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002916",
+      "emoji": "🎩",
+      "description": "top hat",
+      "unicode": [
+        "1F3A9"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002917",
+      "emoji": "🎓",
+      "description": "graduation cap",
+      "unicode": [
+        "1F393"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002918",
+      "emoji": "🧢",
+      "description": "billed cap",
+      "unicode": [
+        "1F9E2"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "002919",
+      "emoji": "🪖",
+      "description": "military helmet",
+      "unicode": [
+        "1FA96"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002920",
+      "emoji": "⛑️",
+      "description": "rescue worker’s helmet",
+      "unicode": [
+        "26D1",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002921",
+      "emoji": "📿",
+      "description": "prayer beads",
+      "unicode": [
+        "1F4FF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002922",
+      "emoji": "💄",
+      "description": "lipstick",
+      "unicode": [
+        "1F484"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002923",
+      "emoji": "💍",
+      "description": "ring",
+      "unicode": [
+        "1F48D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002924",
+      "emoji": "💎",
+      "description": "gem stone",
+      "unicode": [
+        "1F48E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002925",
+      "emoji": "🔇",
+      "description": "muted speaker",
+      "unicode": [
+        "1F507"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002926",
+      "emoji": "🔈",
+      "description": "speaker low volume",
+      "unicode": [
+        "1F508"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002927",
+      "emoji": "🔉",
+      "description": "speaker medium volume",
+      "unicode": [
+        "1F509"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002928",
+      "emoji": "🔊",
+      "description": "speaker high volume",
+      "unicode": [
+        "1F50A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002929",
+      "emoji": "📢",
+      "description": "loudspeaker",
+      "unicode": [
+        "1F4E2"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002930",
+      "emoji": "📣",
+      "description": "megaphone",
+      "unicode": [
+        "1F4E3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002931",
+      "emoji": "📯",
+      "description": "postal horn",
+      "unicode": [
+        "1F4EF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002932",
+      "emoji": "🔔",
+      "description": "bell",
+      "unicode": [
+        "1F514"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002933",
+      "emoji": "🔕",
+      "description": "bell with slash",
+      "unicode": [
+        "1F515"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002934",
+      "emoji": "🎼",
+      "description": "musical score",
+      "unicode": [
+        "1F3BC"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002935",
+      "emoji": "🎵",
+      "description": "musical note",
+      "unicode": [
+        "1F3B5"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002936",
+      "emoji": "🎶",
+      "description": "musical notes",
+      "unicode": [
+        "1F3B6"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002937",
+      "emoji": "🎙️",
+      "description": "studio microphone",
+      "unicode": [
+        "1F399",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002938",
+      "emoji": "🎚️",
+      "description": "level slider",
+      "unicode": [
+        "1F39A",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002939",
+      "emoji": "🎛️",
+      "description": "control knobs",
+      "unicode": [
+        "1F39B",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002940",
+      "emoji": "🎤",
+      "description": "microphone",
+      "unicode": [
+        "1F3A4"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002941",
+      "emoji": "🎧",
+      "description": "headphone",
+      "unicode": [
+        "1F3A7"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002942",
+      "emoji": "📻",
+      "description": "radio",
+      "unicode": [
+        "1F4FB"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002943",
+      "emoji": "🎷",
+      "description": "saxophone",
+      "unicode": [
+        "1F3B7"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002944",
+      "emoji": "🪗",
+      "description": "accordion",
+      "unicode": [
+        "1FA97"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002945",
+      "emoji": "🎸",
+      "description": "guitar",
+      "unicode": [
+        "1F3B8"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002946",
+      "emoji": "🎹",
+      "description": "musical keyboard",
+      "unicode": [
+        "1F3B9"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002947",
+      "emoji": "🎺",
+      "description": "trumpet",
+      "unicode": [
+        "1F3BA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002948",
+      "emoji": "🎻",
+      "description": "violin",
+      "unicode": [
+        "1F3BB"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002949",
+      "emoji": "🪕",
+      "description": "banjo",
+      "unicode": [
+        "1FA95"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002950",
+      "emoji": "🥁",
+      "description": "drum",
+      "unicode": [
+        "1F941"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "002951",
+      "emoji": "🪘",
+      "description": "long drum",
+      "unicode": [
+        "1FA98"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "002952",
+      "emoji": "📱",
+      "description": "mobile phone",
+      "unicode": [
+        "1F4F1"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002953",
+      "emoji": "📲",
+      "description": "mobile phone with arrow",
+      "unicode": [
+        "1F4F2"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002954",
+      "emoji": "☎️",
+      "description": "telephone",
+      "unicode": [
+        "260E",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002955",
+      "emoji": "📞",
+      "description": "telephone receiver",
+      "unicode": [
+        "1F4DE"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002956",
+      "emoji": "📟",
+      "description": "pager",
+      "unicode": [
+        "1F4DF"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002957",
+      "emoji": "📠",
+      "description": "fax machine",
+      "unicode": [
+        "1F4E0"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002958",
+      "emoji": "🔋",
+      "description": "battery",
+      "unicode": [
+        "1F50B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002959",
+      "emoji": "🪫",
+      "description": "low battery",
+      "unicode": [
+        "1FAAB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "002960",
+      "emoji": "🔌",
+      "description": "electric plug",
+      "unicode": [
+        "1F50C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002961",
+      "emoji": "💻",
+      "description": "laptop",
+      "unicode": [
+        "1F4BB"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002962",
+      "emoji": "🖥️",
+      "description": "desktop computer",
+      "unicode": [
+        "1F5A5",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002963",
+      "emoji": "🖨️",
+      "description": "printer",
+      "unicode": [
+        "1F5A8",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002964",
+      "emoji": "⌨️",
+      "description": "keyboard",
+      "unicode": [
+        "2328",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002965",
+      "emoji": "🖱️",
+      "description": "computer mouse",
+      "unicode": [
+        "1F5B1",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002966",
+      "emoji": "🖲️",
+      "description": "trackball",
+      "unicode": [
+        "1F5B2",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002967",
+      "emoji": "💽",
+      "description": "computer disk",
+      "unicode": [
+        "1F4BD"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002968",
+      "emoji": "💾",
+      "description": "floppy disk",
+      "unicode": [
+        "1F4BE"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002969",
+      "emoji": "💿",
+      "description": "optical disk",
+      "unicode": [
+        "1F4BF"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002970",
+      "emoji": "📀",
+      "description": "dvd",
+      "unicode": [
+        "1F4C0"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002971",
+      "emoji": "🧮",
+      "description": "abacus",
+      "unicode": [
+        "1F9EE"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "002972",
+      "emoji": "🎥",
+      "description": "movie camera",
+      "unicode": [
+        "1F3A5"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002973",
+      "emoji": "🎞️",
+      "description": "film frames",
+      "unicode": [
+        "1F39E",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002974",
+      "emoji": "📽️",
+      "description": "film projector",
+      "unicode": [
+        "1F4FD",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002975",
+      "emoji": "🎬",
+      "description": "clapper board",
+      "unicode": [
+        "1F3AC"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002976",
+      "emoji": "📺",
+      "description": "television",
+      "unicode": [
+        "1F4FA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002977",
+      "emoji": "📷",
+      "description": "camera",
+      "unicode": [
+        "1F4F7"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002978",
+      "emoji": "📸",
+      "description": "camera with flash",
+      "unicode": [
+        "1F4F8"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "002979",
+      "emoji": "📹",
+      "description": "video camera",
+      "unicode": [
+        "1F4F9"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002980",
+      "emoji": "📼",
+      "description": "videocassette",
+      "unicode": [
+        "1F4FC"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002981",
+      "emoji": "🔍",
+      "description": "magnifying glass tilted left",
+      "unicode": [
+        "1F50D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002982",
+      "emoji": "🔎",
+      "description": "magnifying glass tilted right",
+      "unicode": [
+        "1F50E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002983",
+      "emoji": "🕯️",
+      "description": "candle",
+      "unicode": [
+        "1F56F",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "002984",
+      "emoji": "💡",
+      "description": "light bulb",
+      "unicode": [
+        "1F4A1"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002985",
+      "emoji": "🔦",
+      "description": "flashlight",
+      "unicode": [
+        "1F526"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002986",
+      "emoji": "🏮",
+      "description": "red paper lantern",
+      "unicode": [
+        "1F3EE"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002987",
+      "emoji": "🪔",
+      "description": "diya lamp",
+      "unicode": [
+        "1FA94"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "002988",
+      "emoji": "📔",
+      "description": "notebook with decorative cover",
+      "unicode": [
+        "1F4D4"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002989",
+      "emoji": "📕",
+      "description": "closed book",
+      "unicode": [
+        "1F4D5"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002990",
+      "emoji": "📖",
+      "description": "open book",
+      "unicode": [
+        "1F4D6"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002991",
+      "emoji": "📗",
+      "description": "green book",
+      "unicode": [
+        "1F4D7"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002992",
+      "emoji": "📘",
+      "description": "blue book",
+      "unicode": [
+        "1F4D8"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002993",
+      "emoji": "📙",
+      "description": "orange book",
+      "unicode": [
+        "1F4D9"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002994",
+      "emoji": "📚",
+      "description": "books",
+      "unicode": [
+        "1F4DA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002995",
+      "emoji": "📓",
+      "description": "notebook",
+      "unicode": [
+        "1F4D3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002996",
+      "emoji": "📒",
+      "description": "ledger",
+      "unicode": [
+        "1F4D2"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002997",
+      "emoji": "📃",
+      "description": "page with curl",
+      "unicode": [
+        "1F4C3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002998",
+      "emoji": "📜",
+      "description": "scroll",
+      "unicode": [
+        "1F4DC"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "002999",
+      "emoji": "📄",
+      "description": "page facing up",
+      "unicode": [
+        "1F4C4"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003000",
+      "emoji": "📰",
+      "description": "newspaper",
+      "unicode": [
+        "1F4F0"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003001",
+      "emoji": "🗞️",
+      "description": "rolled-up newspaper",
+      "unicode": [
+        "1F5DE",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003002",
+      "emoji": "📑",
+      "description": "bookmark tabs",
+      "unicode": [
+        "1F4D1"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003003",
+      "emoji": "🔖",
+      "description": "bookmark",
+      "unicode": [
+        "1F516"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003004",
+      "emoji": "🏷️",
+      "description": "label",
+      "unicode": [
+        "1F3F7",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003005",
+      "emoji": "💰",
+      "description": "money bag",
+      "unicode": [
+        "1F4B0"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003006",
+      "emoji": "🪙",
+      "description": "coin",
+      "unicode": [
+        "1FA99"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003007",
+      "emoji": "💴",
+      "description": "yen banknote",
+      "unicode": [
+        "1F4B4"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003008",
+      "emoji": "💵",
+      "description": "dollar banknote",
+      "unicode": [
+        "1F4B5"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003009",
+      "emoji": "💶",
+      "description": "euro banknote",
+      "unicode": [
+        "1F4B6"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003010",
+      "emoji": "💷",
+      "description": "pound banknote",
+      "unicode": [
+        "1F4B7"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003011",
+      "emoji": "💸",
+      "description": "money with wings",
+      "unicode": [
+        "1F4B8"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003012",
+      "emoji": "💳",
+      "description": "credit card",
+      "unicode": [
+        "1F4B3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003013",
+      "emoji": "🧾",
+      "description": "receipt",
+      "unicode": [
+        "1F9FE"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003014",
+      "emoji": "💹",
+      "description": "chart increasing with yen",
+      "unicode": [
+        "1F4B9"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003015",
+      "emoji": "✉️",
+      "description": "envelope",
+      "unicode": [
+        "2709",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003016",
+      "emoji": "📧",
+      "description": "e-mail",
+      "unicode": [
+        "1F4E7"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003017",
+      "emoji": "📨",
+      "description": "incoming envelope",
+      "unicode": [
+        "1F4E8"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003018",
+      "emoji": "📩",
+      "description": "envelope with arrow",
+      "unicode": [
+        "1F4E9"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003019",
+      "emoji": "📤",
+      "description": "outbox tray",
+      "unicode": [
+        "1F4E4"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003020",
+      "emoji": "📥",
+      "description": "inbox tray",
+      "unicode": [
+        "1F4E5"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003021",
+      "emoji": "📦",
+      "description": "package",
+      "unicode": [
+        "1F4E6"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003022",
+      "emoji": "📫",
+      "description": "closed mailbox with raised flag",
+      "unicode": [
+        "1F4EB"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003023",
+      "emoji": "📪",
+      "description": "closed mailbox with lowered flag",
+      "unicode": [
+        "1F4EA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003024",
+      "emoji": "📬",
+      "description": "open mailbox with raised flag",
+      "unicode": [
+        "1F4EC"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003025",
+      "emoji": "📭",
+      "description": "open mailbox with lowered flag",
+      "unicode": [
+        "1F4ED"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003026",
+      "emoji": "📮",
+      "description": "postbox",
+      "unicode": [
+        "1F4EE"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003027",
+      "emoji": "🗳️",
+      "description": "ballot box with ballot",
+      "unicode": [
+        "1F5F3",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003028",
+      "emoji": "✏️",
+      "description": "pencil",
+      "unicode": [
+        "270F",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003029",
+      "emoji": "✒️",
+      "description": "black nib",
+      "unicode": [
+        "2712",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003030",
+      "emoji": "🖋️",
+      "description": "fountain pen",
+      "unicode": [
+        "1F58B",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003031",
+      "emoji": "🖊️",
+      "description": "pen",
+      "unicode": [
+        "1F58A",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003032",
+      "emoji": "🖌️",
+      "description": "paintbrush",
+      "unicode": [
+        "1F58C",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003033",
+      "emoji": "🖍️",
+      "description": "crayon",
+      "unicode": [
+        "1F58D",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003034",
+      "emoji": "📝",
+      "description": "memo",
+      "unicode": [
+        "1F4DD"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003035",
+      "emoji": "💼",
+      "description": "briefcase",
+      "unicode": [
+        "1F4BC"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003036",
+      "emoji": "📁",
+      "description": "file folder",
+      "unicode": [
+        "1F4C1"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003037",
+      "emoji": "📂",
+      "description": "open file folder",
+      "unicode": [
+        "1F4C2"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003038",
+      "emoji": "🗂️",
+      "description": "card index dividers",
+      "unicode": [
+        "1F5C2",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003039",
+      "emoji": "📅",
+      "description": "calendar",
+      "unicode": [
+        "1F4C5"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003040",
+      "emoji": "📆",
+      "description": "tear-off calendar",
+      "unicode": [
+        "1F4C6"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003041",
+      "emoji": "🗒️",
+      "description": "spiral notepad",
+      "unicode": [
+        "1F5D2",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003042",
+      "emoji": "🗓️",
+      "description": "spiral calendar",
+      "unicode": [
+        "1F5D3",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003043",
+      "emoji": "📇",
+      "description": "card index",
+      "unicode": [
+        "1F4C7"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003044",
+      "emoji": "📈",
+      "description": "chart increasing",
+      "unicode": [
+        "1F4C8"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003045",
+      "emoji": "📉",
+      "description": "chart decreasing",
+      "unicode": [
+        "1F4C9"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003046",
+      "emoji": "📊",
+      "description": "bar chart",
+      "unicode": [
+        "1F4CA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003047",
+      "emoji": "📋",
+      "description": "clipboard",
+      "unicode": [
+        "1F4CB"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003048",
+      "emoji": "📌",
+      "description": "pushpin",
+      "unicode": [
+        "1F4CC"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003049",
+      "emoji": "📍",
+      "description": "round pushpin",
+      "unicode": [
+        "1F4CD"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003050",
+      "emoji": "📎",
+      "description": "paperclip",
+      "unicode": [
+        "1F4CE"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003051",
+      "emoji": "🖇️",
+      "description": "linked paperclips",
+      "unicode": [
+        "1F587",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003052",
+      "emoji": "📏",
+      "description": "straight ruler",
+      "unicode": [
+        "1F4CF"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003053",
+      "emoji": "📐",
+      "description": "triangular ruler",
+      "unicode": [
+        "1F4D0"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003054",
+      "emoji": "✂️",
+      "description": "scissors",
+      "unicode": [
+        "2702",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003055",
+      "emoji": "🗃️",
+      "description": "card file box",
+      "unicode": [
+        "1F5C3",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003056",
+      "emoji": "🗄️",
+      "description": "file cabinet",
+      "unicode": [
+        "1F5C4",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003057",
+      "emoji": "🗑️",
+      "description": "wastebasket",
+      "unicode": [
+        "1F5D1",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003058",
+      "emoji": "🔒",
+      "description": "locked",
+      "unicode": [
+        "1F512"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003059",
+      "emoji": "🔓",
+      "description": "unlocked",
+      "unicode": [
+        "1F513"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003060",
+      "emoji": "🔏",
+      "description": "locked with pen",
+      "unicode": [
+        "1F50F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003061",
+      "emoji": "🔐",
+      "description": "locked with key",
+      "unicode": [
+        "1F510"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003062",
+      "emoji": "🔑",
+      "description": "key",
+      "unicode": [
+        "1F511"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003063",
+      "emoji": "🗝️",
+      "description": "old key",
+      "unicode": [
+        "1F5DD",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003064",
+      "emoji": "🔨",
+      "description": "hammer",
+      "unicode": [
+        "1F528"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003065",
+      "emoji": "🪓",
+      "description": "axe",
+      "unicode": [
+        "1FA93"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003066",
+      "emoji": "⛏️",
+      "description": "pick",
+      "unicode": [
+        "26CF",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003067",
+      "emoji": "⚒️",
+      "description": "hammer and pick",
+      "unicode": [
+        "2692",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003068",
+      "emoji": "🛠️",
+      "description": "hammer and wrench",
+      "unicode": [
+        "1F6E0",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003069",
+      "emoji": "🗡️",
+      "description": "dagger",
+      "unicode": [
+        "1F5E1",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003070",
+      "emoji": "⚔️",
+      "description": "crossed swords",
+      "unicode": [
+        "2694",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003071",
+      "emoji": "🔫",
+      "description": "water pistol",
+      "unicode": [
+        "1F52B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003072",
+      "emoji": "🪃",
+      "description": "boomerang",
+      "unicode": [
+        "1FA83"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003073",
+      "emoji": "🏹",
+      "description": "bow and arrow",
+      "unicode": [
+        "1F3F9"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003074",
+      "emoji": "🛡️",
+      "description": "shield",
+      "unicode": [
+        "1F6E1",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003075",
+      "emoji": "🪚",
+      "description": "carpentry saw",
+      "unicode": [
+        "1FA9A"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003076",
+      "emoji": "🔧",
+      "description": "wrench",
+      "unicode": [
+        "1F527"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003077",
+      "emoji": "🪛",
+      "description": "screwdriver",
+      "unicode": [
+        "1FA9B"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003078",
+      "emoji": "🔩",
+      "description": "nut and bolt",
+      "unicode": [
+        "1F529"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003079",
+      "emoji": "⚙️",
+      "description": "gear",
+      "unicode": [
+        "2699",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003080",
+      "emoji": "🗜️",
+      "description": "clamp",
+      "unicode": [
+        "1F5DC",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003081",
+      "emoji": "⚖️",
+      "description": "balance scale",
+      "unicode": [
+        "2696",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003082",
+      "emoji": "🦯",
+      "description": "white cane",
+      "unicode": [
+        "1F9AF"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003083",
+      "emoji": "🔗",
+      "description": "link",
+      "unicode": [
+        "1F517"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003084",
+      "emoji": "⛓️",
+      "description": "chains",
+      "unicode": [
+        "26D3",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003085",
+      "emoji": "🪝",
+      "description": "hook",
+      "unicode": [
+        "1FA9D"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003086",
+      "emoji": "🧰",
+      "description": "toolbox",
+      "unicode": [
+        "1F9F0"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003087",
+      "emoji": "🧲",
+      "description": "magnet",
+      "unicode": [
+        "1F9F2"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003088",
+      "emoji": "🪜",
+      "description": "ladder",
+      "unicode": [
+        "1FA9C"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003089",
+      "emoji": "⚗️",
+      "description": "alembic",
+      "unicode": [
+        "2697",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003090",
+      "emoji": "🧪",
+      "description": "test tube",
+      "unicode": [
+        "1F9EA"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003091",
+      "emoji": "🧫",
+      "description": "petri dish",
+      "unicode": [
+        "1F9EB"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003092",
+      "emoji": "🧬",
+      "description": "dna",
+      "unicode": [
+        "1F9EC"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003093",
+      "emoji": "🔬",
+      "description": "microscope",
+      "unicode": [
+        "1F52C"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003094",
+      "emoji": "🔭",
+      "description": "telescope",
+      "unicode": [
+        "1F52D"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003095",
+      "emoji": "📡",
+      "description": "satellite antenna",
+      "unicode": [
+        "1F4E1"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003096",
+      "emoji": "💉",
+      "description": "syringe",
+      "unicode": [
+        "1F489"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003097",
+      "emoji": "🩸",
+      "description": "drop of blood",
+      "unicode": [
+        "1FA78"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003098",
+      "emoji": "💊",
+      "description": "pill",
+      "unicode": [
+        "1F48A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003099",
+      "emoji": "🩹",
+      "description": "adhesive bandage",
+      "unicode": [
+        "1FA79"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003100",
+      "emoji": "🩼",
+      "description": "crutch",
+      "unicode": [
+        "1FA7C"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003101",
+      "emoji": "🩺",
+      "description": "stethoscope",
+      "unicode": [
+        "1FA7A"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003102",
+      "emoji": "🩻",
+      "description": "x-ray",
+      "unicode": [
+        "1FA7B"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003103",
+      "emoji": "🚪",
+      "description": "door",
+      "unicode": [
+        "1F6AA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003104",
+      "emoji": "🛗",
+      "description": "elevator",
+      "unicode": [
+        "1F6D7"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003105",
+      "emoji": "🪞",
+      "description": "mirror",
+      "unicode": [
+        "1FA9E"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003106",
+      "emoji": "🪟",
+      "description": "window",
+      "unicode": [
+        "1FA9F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003107",
+      "emoji": "🛏️",
+      "description": "bed",
+      "unicode": [
+        "1F6CF",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003108",
+      "emoji": "🛋️",
+      "description": "couch and lamp",
+      "unicode": [
+        "1F6CB",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003109",
+      "emoji": "🪑",
+      "description": "chair",
+      "unicode": [
+        "1FA91"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003110",
+      "emoji": "🚽",
+      "description": "toilet",
+      "unicode": [
+        "1F6BD"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003111",
+      "emoji": "🪠",
+      "description": "plunger",
+      "unicode": [
+        "1FAA0"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003112",
+      "emoji": "🚿",
+      "description": "shower",
+      "unicode": [
+        "1F6BF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003113",
+      "emoji": "🛁",
+      "description": "bathtub",
+      "unicode": [
+        "1F6C1"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003114",
+      "emoji": "🪤",
+      "description": "mouse trap",
+      "unicode": [
+        "1FAA4"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003115",
+      "emoji": "🪒",
+      "description": "razor",
+      "unicode": [
+        "1FA92"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003116",
+      "emoji": "🧴",
+      "description": "lotion bottle",
+      "unicode": [
+        "1F9F4"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003117",
+      "emoji": "🧷",
+      "description": "safety pin",
+      "unicode": [
+        "1F9F7"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003118",
+      "emoji": "🧹",
+      "description": "broom",
+      "unicode": [
+        "1F9F9"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003119",
+      "emoji": "🧺",
+      "description": "basket",
+      "unicode": [
+        "1F9FA"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003120",
+      "emoji": "🧻",
+      "description": "roll of paper",
+      "unicode": [
+        "1F9FB"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003121",
+      "emoji": "🪣",
+      "description": "bucket",
+      "unicode": [
+        "1FAA3"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003122",
+      "emoji": "🧼",
+      "description": "soap",
+      "unicode": [
+        "1F9FC"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003123",
+      "emoji": "🫧",
+      "description": "bubbles",
+      "unicode": [
+        "1FAE7"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003124",
+      "emoji": "🪥",
+      "description": "toothbrush",
+      "unicode": [
+        "1FAA5"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003125",
+      "emoji": "🧽",
+      "description": "sponge",
+      "unicode": [
+        "1F9FD"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003126",
+      "emoji": "🧯",
+      "description": "fire extinguisher",
+      "unicode": [
+        "1F9EF"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003127",
+      "emoji": "🛒",
+      "description": "shopping cart",
+      "unicode": [
+        "1F6D2"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "003128",
+      "emoji": "🚬",
+      "description": "cigarette",
+      "unicode": [
+        "1F6AC"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003129",
+      "emoji": "⚰️",
+      "description": "coffin",
+      "unicode": [
+        "26B0",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003130",
+      "emoji": "🪦",
+      "description": "headstone",
+      "unicode": [
+        "1FAA6"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003131",
+      "emoji": "⚱️",
+      "description": "funeral urn",
+      "unicode": [
+        "26B1",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003132",
+      "emoji": "🗿",
+      "description": "moai",
+      "unicode": [
+        "1F5FF"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003133",
+      "emoji": "🪧",
+      "description": "placard",
+      "unicode": [
+        "1FAA7"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003134",
+      "emoji": "🪪",
+      "description": "identification card",
+      "unicode": [
+        "1FAAA"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003135",
+      "emoji": "🏧",
+      "description": "ATM sign",
+      "unicode": [
+        "1F3E7"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003136",
+      "emoji": "🚮",
+      "description": "litter in bin sign",
+      "unicode": [
+        "1F6AE"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003137",
+      "emoji": "🚰",
+      "description": "potable water",
+      "unicode": [
+        "1F6B0"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003138",
+      "emoji": "♿",
+      "description": "wheelchair symbol",
+      "unicode": [
+        "267F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003139",
+      "emoji": "🚹",
+      "description": "men’s room",
+      "unicode": [
+        "1F6B9"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003140",
+      "emoji": "🚺",
+      "description": "women’s room",
+      "unicode": [
+        "1F6BA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003141",
+      "emoji": "🚻",
+      "description": "restroom",
+      "unicode": [
+        "1F6BB"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003142",
+      "emoji": "🚼",
+      "description": "baby symbol",
+      "unicode": [
+        "1F6BC"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003143",
+      "emoji": "🚾",
+      "description": "water closet",
+      "unicode": [
+        "1F6BE"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003144",
+      "emoji": "🛂",
+      "description": "passport control",
+      "unicode": [
+        "1F6C2"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003145",
+      "emoji": "🛃",
+      "description": "customs",
+      "unicode": [
+        "1F6C3"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003146",
+      "emoji": "🛄",
+      "description": "baggage claim",
+      "unicode": [
+        "1F6C4"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003147",
+      "emoji": "🛅",
+      "description": "left luggage",
+      "unicode": [
+        "1F6C5"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003148",
+      "emoji": "⚠️",
+      "description": "warning",
+      "unicode": [
+        "26A0",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003149",
+      "emoji": "🚸",
+      "description": "children crossing",
+      "unicode": [
+        "1F6B8"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003150",
+      "emoji": "⛔",
+      "description": "no entry",
+      "unicode": [
+        "26D4"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003151",
+      "emoji": "🚫",
+      "description": "prohibited",
+      "unicode": [
+        "1F6AB"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003152",
+      "emoji": "🚳",
+      "description": "no bicycles",
+      "unicode": [
+        "1F6B3"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003153",
+      "emoji": "🚭",
+      "description": "no smoking",
+      "unicode": [
+        "1F6AD"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003154",
+      "emoji": "🚯",
+      "description": "no littering",
+      "unicode": [
+        "1F6AF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003155",
+      "emoji": "🚱",
+      "description": "non-potable water",
+      "unicode": [
+        "1F6B1"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003156",
+      "emoji": "🚷",
+      "description": "no pedestrians",
+      "unicode": [
+        "1F6B7"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003157",
+      "emoji": "📵",
+      "description": "no mobile phones",
+      "unicode": [
+        "1F4F5"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003158",
+      "emoji": "🔞",
+      "description": "no one under eighteen",
+      "unicode": [
+        "1F51E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003159",
+      "emoji": "☢️",
+      "description": "radioactive",
+      "unicode": [
+        "2622",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003160",
+      "emoji": "☣️",
+      "description": "biohazard",
+      "unicode": [
+        "2623",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003161",
+      "emoji": "⬆️",
+      "description": "up arrow",
+      "unicode": [
+        "2B06",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003162",
+      "emoji": "↗️",
+      "description": "up-right arrow",
+      "unicode": [
+        "2197",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003163",
+      "emoji": "➡️",
+      "description": "right arrow",
+      "unicode": [
+        "27A1",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003164",
+      "emoji": "↘️",
+      "description": "down-right arrow",
+      "unicode": [
+        "2198",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003165",
+      "emoji": "⬇️",
+      "description": "down arrow",
+      "unicode": [
+        "2B07",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003166",
+      "emoji": "↙️",
+      "description": "down-left arrow",
+      "unicode": [
+        "2199",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003167",
+      "emoji": "⬅️",
+      "description": "left arrow",
+      "unicode": [
+        "2B05",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003168",
+      "emoji": "↖️",
+      "description": "up-left arrow",
+      "unicode": [
+        "2196",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003169",
+      "emoji": "↕️",
+      "description": "up-down arrow",
+      "unicode": [
+        "2195",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003170",
+      "emoji": "↔️",
+      "description": "left-right arrow",
+      "unicode": [
+        "2194",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003171",
+      "emoji": "↩️",
+      "description": "right arrow curving left",
+      "unicode": [
+        "21A9",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003172",
+      "emoji": "↪️",
+      "description": "left arrow curving right",
+      "unicode": [
+        "21AA",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003173",
+      "emoji": "⤴️",
+      "description": "right arrow curving up",
+      "unicode": [
+        "2934",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003174",
+      "emoji": "⤵️",
+      "description": "right arrow curving down",
+      "unicode": [
+        "2935",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003175",
+      "emoji": "🔃",
+      "description": "clockwise vertical arrows",
+      "unicode": [
+        "1F503"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003176",
+      "emoji": "🔄",
+      "description": "counterclockwise arrows button",
+      "unicode": [
+        "1F504"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003177",
+      "emoji": "🔙",
+      "description": "BACK arrow",
+      "unicode": [
+        "1F519"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003178",
+      "emoji": "🔚",
+      "description": "END arrow",
+      "unicode": [
+        "1F51A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003179",
+      "emoji": "🔛",
+      "description": "ON! arrow",
+      "unicode": [
+        "1F51B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003180",
+      "emoji": "🔜",
+      "description": "SOON arrow",
+      "unicode": [
+        "1F51C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003181",
+      "emoji": "🔝",
+      "description": "TOP arrow",
+      "unicode": [
+        "1F51D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003182",
+      "emoji": "🛐",
+      "description": "place of worship",
+      "unicode": [
+        "1F6D0"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003183",
+      "emoji": "⚛️",
+      "description": "atom symbol",
+      "unicode": [
+        "269B",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003184",
+      "emoji": "🕉️",
+      "description": "om",
+      "unicode": [
+        "1F549",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003185",
+      "emoji": "✡️",
+      "description": "star of David",
+      "unicode": [
+        "2721",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003186",
+      "emoji": "☸️",
+      "description": "wheel of dharma",
+      "unicode": [
+        "2638",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003187",
+      "emoji": "☯️",
+      "description": "yin yang",
+      "unicode": [
+        "262F",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003188",
+      "emoji": "✝️",
+      "description": "latin cross",
+      "unicode": [
+        "271D",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003189",
+      "emoji": "☦️",
+      "description": "orthodox cross",
+      "unicode": [
+        "2626",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003190",
+      "emoji": "☪️",
+      "description": "star and crescent",
+      "unicode": [
+        "262A",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003191",
+      "emoji": "☮️",
+      "description": "peace symbol",
+      "unicode": [
+        "262E",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003192",
+      "emoji": "🕎",
+      "description": "menorah",
+      "unicode": [
+        "1F54E"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003193",
+      "emoji": "🔯",
+      "description": "dotted six-pointed star",
+      "unicode": [
+        "1F52F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003194",
+      "emoji": "♈",
+      "description": "Aries",
+      "unicode": [
+        "2648"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003195",
+      "emoji": "♉",
+      "description": "Taurus",
+      "unicode": [
+        "2649"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003196",
+      "emoji": "♊",
+      "description": "Gemini",
+      "unicode": [
+        "264A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003197",
+      "emoji": "♋",
+      "description": "Cancer",
+      "unicode": [
+        "264B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003198",
+      "emoji": "♌",
+      "description": "Leo",
+      "unicode": [
+        "264C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003199",
+      "emoji": "♍",
+      "description": "Virgo",
+      "unicode": [
+        "264D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003200",
+      "emoji": "♎",
+      "description": "Libra",
+      "unicode": [
+        "264E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003201",
+      "emoji": "♏",
+      "description": "Scorpio",
+      "unicode": [
+        "264F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003202",
+      "emoji": "♐",
+      "description": "Sagittarius",
+      "unicode": [
+        "2650"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003203",
+      "emoji": "♑",
+      "description": "Capricorn",
+      "unicode": [
+        "2651"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003204",
+      "emoji": "♒",
+      "description": "Aquarius",
+      "unicode": [
+        "2652"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003205",
+      "emoji": "♓",
+      "description": "Pisces",
+      "unicode": [
+        "2653"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003206",
+      "emoji": "⛎",
+      "description": "Ophiuchus",
+      "unicode": [
+        "26CE"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003207",
+      "emoji": "🔀",
+      "description": "shuffle tracks button",
+      "unicode": [
+        "1F500"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003208",
+      "emoji": "🔁",
+      "description": "repeat button",
+      "unicode": [
+        "1F501"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003209",
+      "emoji": "🔂",
+      "description": "repeat single button",
+      "unicode": [
+        "1F502"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003210",
+      "emoji": "▶️",
+      "description": "play button",
+      "unicode": [
+        "25B6",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003211",
+      "emoji": "⏩",
+      "description": "fast-forward button",
+      "unicode": [
+        "23E9"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003212",
+      "emoji": "⏭️",
+      "description": "next track button",
+      "unicode": [
+        "23ED",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003213",
+      "emoji": "⏯️",
+      "description": "play or pause button",
+      "unicode": [
+        "23EF",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003214",
+      "emoji": "◀️",
+      "description": "reverse button",
+      "unicode": [
+        "25C0",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003215",
+      "emoji": "⏪",
+      "description": "fast reverse button",
+      "unicode": [
+        "23EA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003216",
+      "emoji": "⏮️",
+      "description": "last track button",
+      "unicode": [
+        "23EE",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003217",
+      "emoji": "🔼",
+      "description": "upwards button",
+      "unicode": [
+        "1F53C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003218",
+      "emoji": "⏫",
+      "description": "fast up button",
+      "unicode": [
+        "23EB"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003219",
+      "emoji": "🔽",
+      "description": "downwards button",
+      "unicode": [
+        "1F53D"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003220",
+      "emoji": "⏬",
+      "description": "fast down button",
+      "unicode": [
+        "23EC"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003221",
+      "emoji": "⏸️",
+      "description": "pause button",
+      "unicode": [
+        "23F8",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003222",
+      "emoji": "⏹️",
+      "description": "stop button",
+      "unicode": [
+        "23F9",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003223",
+      "emoji": "⏺️",
+      "description": "record button",
+      "unicode": [
+        "23FA",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003224",
+      "emoji": "⏏️",
+      "description": "eject button",
+      "unicode": [
+        "23CF",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003225",
+      "emoji": "🎦",
+      "description": "cinema",
+      "unicode": [
+        "1F3A6"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003226",
+      "emoji": "🔅",
+      "description": "dim button",
+      "unicode": [
+        "1F505"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003227",
+      "emoji": "🔆",
+      "description": "bright button",
+      "unicode": [
+        "1F506"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003228",
+      "emoji": "📶",
+      "description": "antenna bars",
+      "unicode": [
+        "1F4F6"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003229",
+      "emoji": "📳",
+      "description": "vibration mode",
+      "unicode": [
+        "1F4F3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003230",
+      "emoji": "📴",
+      "description": "mobile phone off",
+      "unicode": [
+        "1F4F4"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003231",
+      "emoji": "♀️",
+      "description": "female sign",
+      "unicode": [
+        "2640",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "003232",
+      "emoji": "♂️",
+      "description": "male sign",
+      "unicode": [
+        "2642",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "003233",
+      "emoji": "⚧️",
+      "description": "transgender symbol",
+      "unicode": [
+        "26A7",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003234",
+      "emoji": "✖️",
+      "description": "multiply",
+      "unicode": [
+        "2716",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003235",
+      "emoji": "➕",
+      "description": "plus",
+      "unicode": [
+        "2795"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003236",
+      "emoji": "➖",
+      "description": "minus",
+      "unicode": [
+        "2796"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003237",
+      "emoji": "➗",
+      "description": "divide",
+      "unicode": [
+        "2797"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003238",
+      "emoji": "🟰",
+      "description": "heavy equals sign",
+      "unicode": [
+        "1F7F0"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003239",
+      "emoji": "♾️",
+      "description": "infinity",
+      "unicode": [
+        "267E",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003240",
+      "emoji": "‼️",
+      "description": "double exclamation mark",
+      "unicode": [
+        "203C",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003241",
+      "emoji": "⁉️",
+      "description": "exclamation question mark",
+      "unicode": [
+        "2049",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003242",
+      "emoji": "❓",
+      "description": "red question mark",
+      "unicode": [
+        "2753"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003243",
+      "emoji": "❔",
+      "description": "white question mark",
+      "unicode": [
+        "2754"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003244",
+      "emoji": "❕",
+      "description": "white exclamation mark",
+      "unicode": [
+        "2755"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003245",
+      "emoji": "❗",
+      "description": "red exclamation mark",
+      "unicode": [
+        "2757"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003246",
+      "emoji": "〰️",
+      "description": "wavy dash",
+      "unicode": [
+        "3030",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003247",
+      "emoji": "💱",
+      "description": "currency exchange",
+      "unicode": [
+        "1F4B1"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003248",
+      "emoji": "💲",
+      "description": "heavy dollar sign",
+      "unicode": [
+        "1F4B2"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003249",
+      "emoji": "⚕️",
+      "description": "medical symbol",
+      "unicode": [
+        "2695",
+        "FE0F"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "003250",
+      "emoji": "♻️",
+      "description": "recycling symbol",
+      "unicode": [
+        "267B",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003251",
+      "emoji": "⚜️",
+      "description": "fleur-de-lis",
+      "unicode": [
+        "269C",
+        "FE0F"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003252",
+      "emoji": "🔱",
+      "description": "trident emblem",
+      "unicode": [
+        "1F531"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003253",
+      "emoji": "📛",
+      "description": "name badge",
+      "unicode": [
+        "1F4DB"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003254",
+      "emoji": "🔰",
+      "description": "Japanese symbol for beginner",
+      "unicode": [
+        "1F530"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003255",
+      "emoji": "⭕",
+      "description": "hollow red circle",
+      "unicode": [
+        "2B55"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003256",
+      "emoji": "✅",
+      "description": "check mark button",
+      "unicode": [
+        "2705"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003257",
+      "emoji": "☑️",
+      "description": "check box with check",
+      "unicode": [
+        "2611",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003258",
+      "emoji": "✔️",
+      "description": "check mark",
+      "unicode": [
+        "2714",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003259",
+      "emoji": "❌",
+      "description": "cross mark",
+      "unicode": [
+        "274C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003260",
+      "emoji": "❎",
+      "description": "cross mark button",
+      "unicode": [
+        "274E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003261",
+      "emoji": "➰",
+      "description": "curly loop",
+      "unicode": [
+        "27B0"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003262",
+      "emoji": "➿",
+      "description": "double curly loop",
+      "unicode": [
+        "27BF"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003263",
+      "emoji": "〽️",
+      "description": "part alternation mark",
+      "unicode": [
+        "303D",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003264",
+      "emoji": "✳️",
+      "description": "eight-spoked asterisk",
+      "unicode": [
+        "2733",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003265",
+      "emoji": "✴️",
+      "description": "eight-pointed star",
+      "unicode": [
+        "2734",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003266",
+      "emoji": "❇️",
+      "description": "sparkle",
+      "unicode": [
+        "2747",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003267",
+      "emoji": "©️",
+      "description": "copyright",
+      "unicode": [
+        "00A9",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003268",
+      "emoji": "®️",
+      "description": "registered",
+      "unicode": [
+        "00AE",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003269",
+      "emoji": "™️",
+      "description": "trade mark",
+      "unicode": [
+        "2122",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003270",
+      "emoji": "#️⃣",
+      "description": "keycap: #",
+      "unicode": [
+        "0023",
+        "FE0F",
+        "20E3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003271",
+      "emoji": "*️⃣",
+      "description": "keycap: *",
+      "unicode": [
+        "002A",
+        "FE0F",
+        "20E3"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003272",
+      "emoji": "0️⃣",
+      "description": "keycap: 0",
+      "unicode": [
+        "0030",
+        "FE0F",
+        "20E3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003273",
+      "emoji": "1️⃣",
+      "description": "keycap: 1",
+      "unicode": [
+        "0031",
+        "FE0F",
+        "20E3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003274",
+      "emoji": "2️⃣",
+      "description": "keycap: 2",
+      "unicode": [
+        "0032",
+        "FE0F",
+        "20E3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003275",
+      "emoji": "3️⃣",
+      "description": "keycap: 3",
+      "unicode": [
+        "0033",
+        "FE0F",
+        "20E3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003276",
+      "emoji": "4️⃣",
+      "description": "keycap: 4",
+      "unicode": [
+        "0034",
+        "FE0F",
+        "20E3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003277",
+      "emoji": "5️⃣",
+      "description": "keycap: 5",
+      "unicode": [
+        "0035",
+        "FE0F",
+        "20E3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003278",
+      "emoji": "6️⃣",
+      "description": "keycap: 6",
+      "unicode": [
+        "0036",
+        "FE0F",
+        "20E3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003279",
+      "emoji": "7️⃣",
+      "description": "keycap: 7",
+      "unicode": [
+        "0037",
+        "FE0F",
+        "20E3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003280",
+      "emoji": "8️⃣",
+      "description": "keycap: 8",
+      "unicode": [
+        "0038",
+        "FE0F",
+        "20E3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003281",
+      "emoji": "9️⃣",
+      "description": "keycap: 9",
+      "unicode": [
+        "0039",
+        "FE0F",
+        "20E3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003282",
+      "emoji": "🔟",
+      "description": "keycap: 10",
+      "unicode": [
+        "1F51F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003283",
+      "emoji": "🔠",
+      "description": "input latin uppercase",
+      "unicode": [
+        "1F520"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003284",
+      "emoji": "🔡",
+      "description": "input latin lowercase",
+      "unicode": [
+        "1F521"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003285",
+      "emoji": "🔢",
+      "description": "input numbers",
+      "unicode": [
+        "1F522"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003286",
+      "emoji": "🔣",
+      "description": "input symbols",
+      "unicode": [
+        "1F523"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003287",
+      "emoji": "🔤",
+      "description": "input latin letters",
+      "unicode": [
+        "1F524"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003288",
+      "emoji": "🅰️",
+      "description": "A button (blood type)",
+      "unicode": [
+        "1F170",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003289",
+      "emoji": "🆎",
+      "description": "AB button (blood type)",
+      "unicode": [
+        "1F18E"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003290",
+      "emoji": "🅱️",
+      "description": "B button (blood type)",
+      "unicode": [
+        "1F171",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003291",
+      "emoji": "🆑",
+      "description": "CL button",
+      "unicode": [
+        "1F191"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003292",
+      "emoji": "🆒",
+      "description": "COOL button",
+      "unicode": [
+        "1F192"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003293",
+      "emoji": "🆓",
+      "description": "FREE button",
+      "unicode": [
+        "1F193"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003294",
+      "emoji": "ℹ️",
+      "description": "information",
+      "unicode": [
+        "2139",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003295",
+      "emoji": "🆔",
+      "description": "ID button",
+      "unicode": [
+        "1F194"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003296",
+      "emoji": "Ⓜ️",
+      "description": "circled M",
+      "unicode": [
+        "24C2",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003297",
+      "emoji": "🆕",
+      "description": "NEW button",
+      "unicode": [
+        "1F195"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003298",
+      "emoji": "🆖",
+      "description": "NG button",
+      "unicode": [
+        "1F196"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003299",
+      "emoji": "🅾️",
+      "description": "O button (blood type)",
+      "unicode": [
+        "1F17E",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003300",
+      "emoji": "🆗",
+      "description": "OK button",
+      "unicode": [
+        "1F197"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003301",
+      "emoji": "🅿️",
+      "description": "P button",
+      "unicode": [
+        "1F17F",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003302",
+      "emoji": "🆘",
+      "description": "SOS button",
+      "unicode": [
+        "1F198"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003303",
+      "emoji": "🆙",
+      "description": "UP! button",
+      "unicode": [
+        "1F199"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003304",
+      "emoji": "🆚",
+      "description": "VS button",
+      "unicode": [
+        "1F19A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003305",
+      "emoji": "🈁",
+      "description": "Japanese “here” button",
+      "unicode": [
+        "1F201"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003306",
+      "emoji": "🈂️",
+      "description": "Japanese “service charge” button",
+      "unicode": [
+        "1F202",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003307",
+      "emoji": "🈷️",
+      "description": "Japanese “monthly amount” button",
+      "unicode": [
+        "1F237",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003308",
+      "emoji": "🈶",
+      "description": "Japanese “not free of charge” button",
+      "unicode": [
+        "1F236"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003309",
+      "emoji": "🈯",
+      "description": "Japanese “reserved” button",
+      "unicode": [
+        "1F22F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003310",
+      "emoji": "🉐",
+      "description": "Japanese “bargain” button",
+      "unicode": [
+        "1F250"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003311",
+      "emoji": "🈹",
+      "description": "Japanese “discount” button",
+      "unicode": [
+        "1F239"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003312",
+      "emoji": "🈚",
+      "description": "Japanese “free of charge” button",
+      "unicode": [
+        "1F21A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003313",
+      "emoji": "🈲",
+      "description": "Japanese “prohibited” button",
+      "unicode": [
+        "1F232"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003314",
+      "emoji": "🉑",
+      "description": "Japanese “acceptable” button",
+      "unicode": [
+        "1F251"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003315",
+      "emoji": "🈸",
+      "description": "Japanese “application” button",
+      "unicode": [
+        "1F238"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003316",
+      "emoji": "🈴",
+      "description": "Japanese “passing grade” button",
+      "unicode": [
+        "1F234"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003317",
+      "emoji": "🈳",
+      "description": "Japanese “vacancy” button",
+      "unicode": [
+        "1F233"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003318",
+      "emoji": "㊗️",
+      "description": "Japanese “congratulations” button",
+      "unicode": [
+        "3297",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003319",
+      "emoji": "㊙️",
+      "description": "Japanese “secret” button",
+      "unicode": [
+        "3299",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003320",
+      "emoji": "🈺",
+      "description": "Japanese “open for business” button",
+      "unicode": [
+        "1F23A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003321",
+      "emoji": "🈵",
+      "description": "Japanese “no vacancy” button",
+      "unicode": [
+        "1F235"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003322",
+      "emoji": "🔴",
+      "description": "red circle",
+      "unicode": [
+        "1F534"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003323",
+      "emoji": "🟠",
+      "description": "orange circle",
+      "unicode": [
+        "1F7E0"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003324",
+      "emoji": "🟡",
+      "description": "yellow circle",
+      "unicode": [
+        "1F7E1"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003325",
+      "emoji": "🟢",
+      "description": "green circle",
+      "unicode": [
+        "1F7E2"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003326",
+      "emoji": "🔵",
+      "description": "blue circle",
+      "unicode": [
+        "1F535"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003327",
+      "emoji": "🟣",
+      "description": "purple circle",
+      "unicode": [
+        "1F7E3"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003328",
+      "emoji": "🟤",
+      "description": "brown circle",
+      "unicode": [
+        "1F7E4"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003329",
+      "emoji": "⚫",
+      "description": "black circle",
+      "unicode": [
+        "26AB"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003330",
+      "emoji": "⚪",
+      "description": "white circle",
+      "unicode": [
+        "26AA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003331",
+      "emoji": "🟥",
+      "description": "red square",
+      "unicode": [
+        "1F7E5"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003332",
+      "emoji": "🟧",
+      "description": "orange square",
+      "unicode": [
+        "1F7E7"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003333",
+      "emoji": "🟨",
+      "description": "yellow square",
+      "unicode": [
+        "1F7E8"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003334",
+      "emoji": "🟩",
+      "description": "green square",
+      "unicode": [
+        "1F7E9"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003335",
+      "emoji": "🟦",
+      "description": "blue square",
+      "unicode": [
+        "1F7E6"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003336",
+      "emoji": "🟪",
+      "description": "purple square",
+      "unicode": [
+        "1F7EA"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003337",
+      "emoji": "🟫",
+      "description": "brown square",
+      "unicode": [
+        "1F7EB"
+      ],
+      "versionIntroduced": "E12.0"
+    },
+    {
+      "id": "003338",
+      "emoji": "⬛",
+      "description": "black large square",
+      "unicode": [
+        "2B1B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003339",
+      "emoji": "⬜",
+      "description": "white large square",
+      "unicode": [
+        "2B1C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003340",
+      "emoji": "◼️",
+      "description": "black medium square",
+      "unicode": [
+        "25FC",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003341",
+      "emoji": "◻️",
+      "description": "white medium square",
+      "unicode": [
+        "25FB",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003342",
+      "emoji": "◾",
+      "description": "black medium-small square",
+      "unicode": [
+        "25FE"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003343",
+      "emoji": "◽",
+      "description": "white medium-small square",
+      "unicode": [
+        "25FD"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003344",
+      "emoji": "▪️",
+      "description": "black small square",
+      "unicode": [
+        "25AA",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003345",
+      "emoji": "▫️",
+      "description": "white small square",
+      "unicode": [
+        "25AB",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003346",
+      "emoji": "🔶",
+      "description": "large orange diamond",
+      "unicode": [
+        "1F536"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003347",
+      "emoji": "🔷",
+      "description": "large blue diamond",
+      "unicode": [
+        "1F537"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003348",
+      "emoji": "🔸",
+      "description": "small orange diamond",
+      "unicode": [
+        "1F538"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003349",
+      "emoji": "🔹",
+      "description": "small blue diamond",
+      "unicode": [
+        "1F539"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003350",
+      "emoji": "🔺",
+      "description": "red triangle pointed up",
+      "unicode": [
+        "1F53A"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003351",
+      "emoji": "🔻",
+      "description": "red triangle pointed down",
+      "unicode": [
+        "1F53B"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003352",
+      "emoji": "💠",
+      "description": "diamond with a dot",
+      "unicode": [
+        "1F4A0"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003353",
+      "emoji": "🔘",
+      "description": "radio button",
+      "unicode": [
+        "1F518"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003354",
+      "emoji": "🔳",
+      "description": "white square button",
+      "unicode": [
+        "1F533"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003355",
+      "emoji": "🔲",
+      "description": "black square button",
+      "unicode": [
+        "1F532"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003356",
+      "emoji": "🏁",
+      "description": "chequered flag",
+      "unicode": [
+        "1F3C1"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003357",
+      "emoji": "🚩",
+      "description": "triangular flag",
+      "unicode": [
+        "1F6A9"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003358",
+      "emoji": "🎌",
+      "description": "crossed flags",
+      "unicode": [
+        "1F38C"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003359",
+      "emoji": "🏴",
+      "description": "black flag",
+      "unicode": [
+        "1F3F4"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003360",
+      "emoji": "🏳️",
+      "description": "white flag",
+      "unicode": [
+        "1F3F3",
+        "FE0F"
+      ],
+      "versionIntroduced": "E0.7"
+    },
+    {
+      "id": "003361",
+      "emoji": "🏳️‍🌈",
+      "description": "rainbow flag",
+      "unicode": [
+        "1F3F3",
+        "FE0F",
+        "200D",
+        "1F308"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "003362",
+      "emoji": "🏳️‍⚧️",
+      "description": "transgender flag",
+      "unicode": [
+        "1F3F3",
+        "FE0F",
+        "200D",
+        "26A7",
+        "FE0F"
+      ],
+      "versionIntroduced": "E13.0"
+    },
+    {
+      "id": "003363",
+      "emoji": "🏴‍☠️",
+      "description": "pirate flag",
+      "unicode": [
+        "1F3F4",
+        "200D",
+        "2620",
+        "FE0F"
+      ],
+      "versionIntroduced": "E11.0"
+    },
+    {
+      "id": "003364",
+      "emoji": "🇦🇨",
+      "description": "flag: Ascension Island",
+      "unicode": [
+        "1F1E6",
+        "1F1E8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003365",
+      "emoji": "🇦🇩",
+      "description": "flag: Andorra",
+      "unicode": [
+        "1F1E6",
+        "1F1E9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003366",
+      "emoji": "🇦🇪",
+      "description": "flag: United Arab Emirates",
+      "unicode": [
+        "1F1E6",
+        "1F1EA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003367",
+      "emoji": "🇦🇫",
+      "description": "flag: Afghanistan",
+      "unicode": [
+        "1F1E6",
+        "1F1EB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003368",
+      "emoji": "🇦🇬",
+      "description": "flag: Antigua & Barbuda",
+      "unicode": [
+        "1F1E6",
+        "1F1EC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003369",
+      "emoji": "🇦🇮",
+      "description": "flag: Anguilla",
+      "unicode": [
+        "1F1E6",
+        "1F1EE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003370",
+      "emoji": "🇦🇱",
+      "description": "flag: Albania",
+      "unicode": [
+        "1F1E6",
+        "1F1F1"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003371",
+      "emoji": "🇦🇲",
+      "description": "flag: Armenia",
+      "unicode": [
+        "1F1E6",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003372",
+      "emoji": "🇦🇴",
+      "description": "flag: Angola",
+      "unicode": [
+        "1F1E6",
+        "1F1F4"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003373",
+      "emoji": "🇦🇶",
+      "description": "flag: Antarctica",
+      "unicode": [
+        "1F1E6",
+        "1F1F6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003374",
+      "emoji": "🇦🇷",
+      "description": "flag: Argentina",
+      "unicode": [
+        "1F1E6",
+        "1F1F7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003375",
+      "emoji": "🇦🇸",
+      "description": "flag: American Samoa",
+      "unicode": [
+        "1F1E6",
+        "1F1F8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003376",
+      "emoji": "🇦🇹",
+      "description": "flag: Austria",
+      "unicode": [
+        "1F1E6",
+        "1F1F9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003377",
+      "emoji": "🇦🇺",
+      "description": "flag: Australia",
+      "unicode": [
+        "1F1E6",
+        "1F1FA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003378",
+      "emoji": "🇦🇼",
+      "description": "flag: Aruba",
+      "unicode": [
+        "1F1E6",
+        "1F1FC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003379",
+      "emoji": "🇦🇽",
+      "description": "flag: Åland Islands",
+      "unicode": [
+        "1F1E6",
+        "1F1FD"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003380",
+      "emoji": "🇦🇿",
+      "description": "flag: Azerbaijan",
+      "unicode": [
+        "1F1E6",
+        "1F1FF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003381",
+      "emoji": "🇧🇦",
+      "description": "flag: Bosnia & Herzegovina",
+      "unicode": [
+        "1F1E7",
+        "1F1E6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003382",
+      "emoji": "🇧🇧",
+      "description": "flag: Barbados",
+      "unicode": [
+        "1F1E7",
+        "1F1E7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003383",
+      "emoji": "🇧🇩",
+      "description": "flag: Bangladesh",
+      "unicode": [
+        "1F1E7",
+        "1F1E9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003384",
+      "emoji": "🇧🇪",
+      "description": "flag: Belgium",
+      "unicode": [
+        "1F1E7",
+        "1F1EA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003385",
+      "emoji": "🇧🇫",
+      "description": "flag: Burkina Faso",
+      "unicode": [
+        "1F1E7",
+        "1F1EB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003386",
+      "emoji": "🇧🇬",
+      "description": "flag: Bulgaria",
+      "unicode": [
+        "1F1E7",
+        "1F1EC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003387",
+      "emoji": "🇧🇭",
+      "description": "flag: Bahrain",
+      "unicode": [
+        "1F1E7",
+        "1F1ED"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003388",
+      "emoji": "🇧🇮",
+      "description": "flag: Burundi",
+      "unicode": [
+        "1F1E7",
+        "1F1EE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003389",
+      "emoji": "🇧🇯",
+      "description": "flag: Benin",
+      "unicode": [
+        "1F1E7",
+        "1F1EF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003390",
+      "emoji": "🇧🇱",
+      "description": "flag: St. Barthélemy",
+      "unicode": [
+        "1F1E7",
+        "1F1F1"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003391",
+      "emoji": "🇧🇲",
+      "description": "flag: Bermuda",
+      "unicode": [
+        "1F1E7",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003392",
+      "emoji": "🇧🇳",
+      "description": "flag: Brunei",
+      "unicode": [
+        "1F1E7",
+        "1F1F3"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003393",
+      "emoji": "🇧🇴",
+      "description": "flag: Bolivia",
+      "unicode": [
+        "1F1E7",
+        "1F1F4"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003394",
+      "emoji": "🇧🇶",
+      "description": "flag: Caribbean Netherlands",
+      "unicode": [
+        "1F1E7",
+        "1F1F6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003395",
+      "emoji": "🇧🇷",
+      "description": "flag: Brazil",
+      "unicode": [
+        "1F1E7",
+        "1F1F7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003396",
+      "emoji": "🇧🇸",
+      "description": "flag: Bahamas",
+      "unicode": [
+        "1F1E7",
+        "1F1F8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003397",
+      "emoji": "🇧🇹",
+      "description": "flag: Bhutan",
+      "unicode": [
+        "1F1E7",
+        "1F1F9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003398",
+      "emoji": "🇧🇻",
+      "description": "flag: Bouvet Island",
+      "unicode": [
+        "1F1E7",
+        "1F1FB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003399",
+      "emoji": "🇧🇼",
+      "description": "flag: Botswana",
+      "unicode": [
+        "1F1E7",
+        "1F1FC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003400",
+      "emoji": "🇧🇾",
+      "description": "flag: Belarus",
+      "unicode": [
+        "1F1E7",
+        "1F1FE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003401",
+      "emoji": "🇧🇿",
+      "description": "flag: Belize",
+      "unicode": [
+        "1F1E7",
+        "1F1FF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003402",
+      "emoji": "🇨🇦",
+      "description": "flag: Canada",
+      "unicode": [
+        "1F1E8",
+        "1F1E6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003403",
+      "emoji": "🇨🇨",
+      "description": "flag: Cocos (Keeling) Islands",
+      "unicode": [
+        "1F1E8",
+        "1F1E8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003404",
+      "emoji": "🇨🇩",
+      "description": "flag: Congo - Kinshasa",
+      "unicode": [
+        "1F1E8",
+        "1F1E9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003405",
+      "emoji": "🇨🇫",
+      "description": "flag: Central African Republic",
+      "unicode": [
+        "1F1E8",
+        "1F1EB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003406",
+      "emoji": "🇨🇬",
+      "description": "flag: Congo - Brazzaville",
+      "unicode": [
+        "1F1E8",
+        "1F1EC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003407",
+      "emoji": "🇨🇭",
+      "description": "flag: Switzerland",
+      "unicode": [
+        "1F1E8",
+        "1F1ED"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003408",
+      "emoji": "🇨🇮",
+      "description": "flag: Côte d’Ivoire",
+      "unicode": [
+        "1F1E8",
+        "1F1EE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003409",
+      "emoji": "🇨🇰",
+      "description": "flag: Cook Islands",
+      "unicode": [
+        "1F1E8",
+        "1F1F0"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003410",
+      "emoji": "🇨🇱",
+      "description": "flag: Chile",
+      "unicode": [
+        "1F1E8",
+        "1F1F1"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003411",
+      "emoji": "🇨🇲",
+      "description": "flag: Cameroon",
+      "unicode": [
+        "1F1E8",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003412",
+      "emoji": "🇨🇳",
+      "description": "flag: China",
+      "unicode": [
+        "1F1E8",
+        "1F1F3"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003413",
+      "emoji": "🇨🇴",
+      "description": "flag: Colombia",
+      "unicode": [
+        "1F1E8",
+        "1F1F4"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003414",
+      "emoji": "🇨🇵",
+      "description": "flag: Clipperton Island",
+      "unicode": [
+        "1F1E8",
+        "1F1F5"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003415",
+      "emoji": "🇨🇷",
+      "description": "flag: Costa Rica",
+      "unicode": [
+        "1F1E8",
+        "1F1F7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003416",
+      "emoji": "🇨🇺",
+      "description": "flag: Cuba",
+      "unicode": [
+        "1F1E8",
+        "1F1FA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003417",
+      "emoji": "🇨🇻",
+      "description": "flag: Cape Verde",
+      "unicode": [
+        "1F1E8",
+        "1F1FB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003418",
+      "emoji": "🇨🇼",
+      "description": "flag: Curaçao",
+      "unicode": [
+        "1F1E8",
+        "1F1FC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003419",
+      "emoji": "🇨🇽",
+      "description": "flag: Christmas Island",
+      "unicode": [
+        "1F1E8",
+        "1F1FD"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003420",
+      "emoji": "🇨🇾",
+      "description": "flag: Cyprus",
+      "unicode": [
+        "1F1E8",
+        "1F1FE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003421",
+      "emoji": "🇨🇿",
+      "description": "flag: Czechia",
+      "unicode": [
+        "1F1E8",
+        "1F1FF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003422",
+      "emoji": "🇩🇪",
+      "description": "flag: Germany",
+      "unicode": [
+        "1F1E9",
+        "1F1EA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003423",
+      "emoji": "🇩🇬",
+      "description": "flag: Diego Garcia",
+      "unicode": [
+        "1F1E9",
+        "1F1EC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003424",
+      "emoji": "🇩🇯",
+      "description": "flag: Djibouti",
+      "unicode": [
+        "1F1E9",
+        "1F1EF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003425",
+      "emoji": "🇩🇰",
+      "description": "flag: Denmark",
+      "unicode": [
+        "1F1E9",
+        "1F1F0"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003426",
+      "emoji": "🇩🇲",
+      "description": "flag: Dominica",
+      "unicode": [
+        "1F1E9",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003427",
+      "emoji": "🇩🇴",
+      "description": "flag: Dominican Republic",
+      "unicode": [
+        "1F1E9",
+        "1F1F4"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003428",
+      "emoji": "🇩🇿",
+      "description": "flag: Algeria",
+      "unicode": [
+        "1F1E9",
+        "1F1FF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003429",
+      "emoji": "🇪🇦",
+      "description": "flag: Ceuta & Melilla",
+      "unicode": [
+        "1F1EA",
+        "1F1E6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003430",
+      "emoji": "🇪🇨",
+      "description": "flag: Ecuador",
+      "unicode": [
+        "1F1EA",
+        "1F1E8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003431",
+      "emoji": "🇪🇪",
+      "description": "flag: Estonia",
+      "unicode": [
+        "1F1EA",
+        "1F1EA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003432",
+      "emoji": "🇪🇬",
+      "description": "flag: Egypt",
+      "unicode": [
+        "1F1EA",
+        "1F1EC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003433",
+      "emoji": "🇪🇭",
+      "description": "flag: Western Sahara",
+      "unicode": [
+        "1F1EA",
+        "1F1ED"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003434",
+      "emoji": "🇪🇷",
+      "description": "flag: Eritrea",
+      "unicode": [
+        "1F1EA",
+        "1F1F7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003435",
+      "emoji": "🇪🇸",
+      "description": "flag: Spain",
+      "unicode": [
+        "1F1EA",
+        "1F1F8"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003436",
+      "emoji": "🇪🇹",
+      "description": "flag: Ethiopia",
+      "unicode": [
+        "1F1EA",
+        "1F1F9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003437",
+      "emoji": "🇪🇺",
+      "description": "flag: European Union",
+      "unicode": [
+        "1F1EA",
+        "1F1FA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003438",
+      "emoji": "🇫🇮",
+      "description": "flag: Finland",
+      "unicode": [
+        "1F1EB",
+        "1F1EE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003439",
+      "emoji": "🇫🇯",
+      "description": "flag: Fiji",
+      "unicode": [
+        "1F1EB",
+        "1F1EF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003440",
+      "emoji": "🇫🇰",
+      "description": "flag: Falkland Islands",
+      "unicode": [
+        "1F1EB",
+        "1F1F0"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003441",
+      "emoji": "🇫🇲",
+      "description": "flag: Micronesia",
+      "unicode": [
+        "1F1EB",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003442",
+      "emoji": "🇫🇴",
+      "description": "flag: Faroe Islands",
+      "unicode": [
+        "1F1EB",
+        "1F1F4"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003443",
+      "emoji": "🇫🇷",
+      "description": "flag: France",
+      "unicode": [
+        "1F1EB",
+        "1F1F7"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003444",
+      "emoji": "🇬🇦",
+      "description": "flag: Gabon",
+      "unicode": [
+        "1F1EC",
+        "1F1E6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003445",
+      "emoji": "🇬🇧",
+      "description": "flag: United Kingdom",
+      "unicode": [
+        "1F1EC",
+        "1F1E7"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003446",
+      "emoji": "🇬🇩",
+      "description": "flag: Grenada",
+      "unicode": [
+        "1F1EC",
+        "1F1E9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003447",
+      "emoji": "🇬🇪",
+      "description": "flag: Georgia",
+      "unicode": [
+        "1F1EC",
+        "1F1EA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003448",
+      "emoji": "🇬🇫",
+      "description": "flag: French Guiana",
+      "unicode": [
+        "1F1EC",
+        "1F1EB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003449",
+      "emoji": "🇬🇬",
+      "description": "flag: Guernsey",
+      "unicode": [
+        "1F1EC",
+        "1F1EC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003450",
+      "emoji": "🇬🇭",
+      "description": "flag: Ghana",
+      "unicode": [
+        "1F1EC",
+        "1F1ED"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003451",
+      "emoji": "🇬🇮",
+      "description": "flag: Gibraltar",
+      "unicode": [
+        "1F1EC",
+        "1F1EE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003452",
+      "emoji": "🇬🇱",
+      "description": "flag: Greenland",
+      "unicode": [
+        "1F1EC",
+        "1F1F1"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003453",
+      "emoji": "🇬🇲",
+      "description": "flag: Gambia",
+      "unicode": [
+        "1F1EC",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003454",
+      "emoji": "🇬🇳",
+      "description": "flag: Guinea",
+      "unicode": [
+        "1F1EC",
+        "1F1F3"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003455",
+      "emoji": "🇬🇵",
+      "description": "flag: Guadeloupe",
+      "unicode": [
+        "1F1EC",
+        "1F1F5"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003456",
+      "emoji": "🇬🇶",
+      "description": "flag: Equatorial Guinea",
+      "unicode": [
+        "1F1EC",
+        "1F1F6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003457",
+      "emoji": "🇬🇷",
+      "description": "flag: Greece",
+      "unicode": [
+        "1F1EC",
+        "1F1F7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003458",
+      "emoji": "🇬🇸",
+      "description": "flag: South Georgia & South Sandwich Islands",
+      "unicode": [
+        "1F1EC",
+        "1F1F8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003459",
+      "emoji": "🇬🇹",
+      "description": "flag: Guatemala",
+      "unicode": [
+        "1F1EC",
+        "1F1F9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003460",
+      "emoji": "🇬🇺",
+      "description": "flag: Guam",
+      "unicode": [
+        "1F1EC",
+        "1F1FA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003461",
+      "emoji": "🇬🇼",
+      "description": "flag: Guinea-Bissau",
+      "unicode": [
+        "1F1EC",
+        "1F1FC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003462",
+      "emoji": "🇬🇾",
+      "description": "flag: Guyana",
+      "unicode": [
+        "1F1EC",
+        "1F1FE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003463",
+      "emoji": "🇭🇰",
+      "description": "flag: Hong Kong SAR China",
+      "unicode": [
+        "1F1ED",
+        "1F1F0"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003464",
+      "emoji": "🇭🇲",
+      "description": "flag: Heard & McDonald Islands",
+      "unicode": [
+        "1F1ED",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003465",
+      "emoji": "🇭🇳",
+      "description": "flag: Honduras",
+      "unicode": [
+        "1F1ED",
+        "1F1F3"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003466",
+      "emoji": "🇭🇷",
+      "description": "flag: Croatia",
+      "unicode": [
+        "1F1ED",
+        "1F1F7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003467",
+      "emoji": "🇭🇹",
+      "description": "flag: Haiti",
+      "unicode": [
+        "1F1ED",
+        "1F1F9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003468",
+      "emoji": "🇭🇺",
+      "description": "flag: Hungary",
+      "unicode": [
+        "1F1ED",
+        "1F1FA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003469",
+      "emoji": "🇮🇨",
+      "description": "flag: Canary Islands",
+      "unicode": [
+        "1F1EE",
+        "1F1E8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003470",
+      "emoji": "🇮🇩",
+      "description": "flag: Indonesia",
+      "unicode": [
+        "1F1EE",
+        "1F1E9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003471",
+      "emoji": "🇮🇪",
+      "description": "flag: Ireland",
+      "unicode": [
+        "1F1EE",
+        "1F1EA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003472",
+      "emoji": "🇮🇱",
+      "description": "flag: Israel",
+      "unicode": [
+        "1F1EE",
+        "1F1F1"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003473",
+      "emoji": "🇮🇲",
+      "description": "flag: Isle of Man",
+      "unicode": [
+        "1F1EE",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003474",
+      "emoji": "🇮🇳",
+      "description": "flag: India",
+      "unicode": [
+        "1F1EE",
+        "1F1F3"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003475",
+      "emoji": "🇮🇴",
+      "description": "flag: British Indian Ocean Territory",
+      "unicode": [
+        "1F1EE",
+        "1F1F4"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003476",
+      "emoji": "🇮🇶",
+      "description": "flag: Iraq",
+      "unicode": [
+        "1F1EE",
+        "1F1F6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003477",
+      "emoji": "🇮🇷",
+      "description": "flag: Iran",
+      "unicode": [
+        "1F1EE",
+        "1F1F7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003478",
+      "emoji": "🇮🇸",
+      "description": "flag: Iceland",
+      "unicode": [
+        "1F1EE",
+        "1F1F8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003479",
+      "emoji": "🇮🇹",
+      "description": "flag: Italy",
+      "unicode": [
+        "1F1EE",
+        "1F1F9"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003480",
+      "emoji": "🇯🇪",
+      "description": "flag: Jersey",
+      "unicode": [
+        "1F1EF",
+        "1F1EA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003481",
+      "emoji": "🇯🇲",
+      "description": "flag: Jamaica",
+      "unicode": [
+        "1F1EF",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003482",
+      "emoji": "🇯🇴",
+      "description": "flag: Jordan",
+      "unicode": [
+        "1F1EF",
+        "1F1F4"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003483",
+      "emoji": "🇯🇵",
+      "description": "flag: Japan",
+      "unicode": [
+        "1F1EF",
+        "1F1F5"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003484",
+      "emoji": "🇰🇪",
+      "description": "flag: Kenya",
+      "unicode": [
+        "1F1F0",
+        "1F1EA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003485",
+      "emoji": "🇰🇬",
+      "description": "flag: Kyrgyzstan",
+      "unicode": [
+        "1F1F0",
+        "1F1EC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003486",
+      "emoji": "🇰🇭",
+      "description": "flag: Cambodia",
+      "unicode": [
+        "1F1F0",
+        "1F1ED"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003487",
+      "emoji": "🇰🇮",
+      "description": "flag: Kiribati",
+      "unicode": [
+        "1F1F0",
+        "1F1EE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003488",
+      "emoji": "🇰🇲",
+      "description": "flag: Comoros",
+      "unicode": [
+        "1F1F0",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003489",
+      "emoji": "🇰🇳",
+      "description": "flag: St. Kitts & Nevis",
+      "unicode": [
+        "1F1F0",
+        "1F1F3"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003490",
+      "emoji": "🇰🇵",
+      "description": "flag: North Korea",
+      "unicode": [
+        "1F1F0",
+        "1F1F5"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003491",
+      "emoji": "🇰🇷",
+      "description": "flag: South Korea",
+      "unicode": [
+        "1F1F0",
+        "1F1F7"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003492",
+      "emoji": "🇰🇼",
+      "description": "flag: Kuwait",
+      "unicode": [
+        "1F1F0",
+        "1F1FC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003493",
+      "emoji": "🇰🇾",
+      "description": "flag: Cayman Islands",
+      "unicode": [
+        "1F1F0",
+        "1F1FE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003494",
+      "emoji": "🇰🇿",
+      "description": "flag: Kazakhstan",
+      "unicode": [
+        "1F1F0",
+        "1F1FF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003495",
+      "emoji": "🇱🇦",
+      "description": "flag: Laos",
+      "unicode": [
+        "1F1F1",
+        "1F1E6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003496",
+      "emoji": "🇱🇧",
+      "description": "flag: Lebanon",
+      "unicode": [
+        "1F1F1",
+        "1F1E7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003497",
+      "emoji": "🇱🇨",
+      "description": "flag: St. Lucia",
+      "unicode": [
+        "1F1F1",
+        "1F1E8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003498",
+      "emoji": "🇱🇮",
+      "description": "flag: Liechtenstein",
+      "unicode": [
+        "1F1F1",
+        "1F1EE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003499",
+      "emoji": "🇱🇰",
+      "description": "flag: Sri Lanka",
+      "unicode": [
+        "1F1F1",
+        "1F1F0"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003500",
+      "emoji": "🇱🇷",
+      "description": "flag: Liberia",
+      "unicode": [
+        "1F1F1",
+        "1F1F7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003501",
+      "emoji": "🇱🇸",
+      "description": "flag: Lesotho",
+      "unicode": [
+        "1F1F1",
+        "1F1F8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003502",
+      "emoji": "🇱🇹",
+      "description": "flag: Lithuania",
+      "unicode": [
+        "1F1F1",
+        "1F1F9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003503",
+      "emoji": "🇱🇺",
+      "description": "flag: Luxembourg",
+      "unicode": [
+        "1F1F1",
+        "1F1FA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003504",
+      "emoji": "🇱🇻",
+      "description": "flag: Latvia",
+      "unicode": [
+        "1F1F1",
+        "1F1FB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003505",
+      "emoji": "🇱🇾",
+      "description": "flag: Libya",
+      "unicode": [
+        "1F1F1",
+        "1F1FE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003506",
+      "emoji": "🇲🇦",
+      "description": "flag: Morocco",
+      "unicode": [
+        "1F1F2",
+        "1F1E6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003507",
+      "emoji": "🇲🇨",
+      "description": "flag: Monaco",
+      "unicode": [
+        "1F1F2",
+        "1F1E8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003508",
+      "emoji": "🇲🇩",
+      "description": "flag: Moldova",
+      "unicode": [
+        "1F1F2",
+        "1F1E9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003509",
+      "emoji": "🇲🇪",
+      "description": "flag: Montenegro",
+      "unicode": [
+        "1F1F2",
+        "1F1EA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003510",
+      "emoji": "🇲🇫",
+      "description": "flag: St. Martin",
+      "unicode": [
+        "1F1F2",
+        "1F1EB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003511",
+      "emoji": "🇲🇬",
+      "description": "flag: Madagascar",
+      "unicode": [
+        "1F1F2",
+        "1F1EC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003512",
+      "emoji": "🇲🇭",
+      "description": "flag: Marshall Islands",
+      "unicode": [
+        "1F1F2",
+        "1F1ED"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003513",
+      "emoji": "🇲🇰",
+      "description": "flag: North Macedonia",
+      "unicode": [
+        "1F1F2",
+        "1F1F0"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003514",
+      "emoji": "🇲🇱",
+      "description": "flag: Mali",
+      "unicode": [
+        "1F1F2",
+        "1F1F1"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003515",
+      "emoji": "🇲🇲",
+      "description": "flag: Myanmar (Burma)",
+      "unicode": [
+        "1F1F2",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003516",
+      "emoji": "🇲🇳",
+      "description": "flag: Mongolia",
+      "unicode": [
+        "1F1F2",
+        "1F1F3"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003517",
+      "emoji": "🇲🇴",
+      "description": "flag: Macao SAR China",
+      "unicode": [
+        "1F1F2",
+        "1F1F4"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003518",
+      "emoji": "🇲🇵",
+      "description": "flag: Northern Mariana Islands",
+      "unicode": [
+        "1F1F2",
+        "1F1F5"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003519",
+      "emoji": "🇲🇶",
+      "description": "flag: Martinique",
+      "unicode": [
+        "1F1F2",
+        "1F1F6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003520",
+      "emoji": "🇲🇷",
+      "description": "flag: Mauritania",
+      "unicode": [
+        "1F1F2",
+        "1F1F7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003521",
+      "emoji": "🇲🇸",
+      "description": "flag: Montserrat",
+      "unicode": [
+        "1F1F2",
+        "1F1F8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003522",
+      "emoji": "🇲🇹",
+      "description": "flag: Malta",
+      "unicode": [
+        "1F1F2",
+        "1F1F9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003523",
+      "emoji": "🇲🇺",
+      "description": "flag: Mauritius",
+      "unicode": [
+        "1F1F2",
+        "1F1FA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003524",
+      "emoji": "🇲🇻",
+      "description": "flag: Maldives",
+      "unicode": [
+        "1F1F2",
+        "1F1FB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003525",
+      "emoji": "🇲🇼",
+      "description": "flag: Malawi",
+      "unicode": [
+        "1F1F2",
+        "1F1FC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003526",
+      "emoji": "🇲🇽",
+      "description": "flag: Mexico",
+      "unicode": [
+        "1F1F2",
+        "1F1FD"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003527",
+      "emoji": "🇲🇾",
+      "description": "flag: Malaysia",
+      "unicode": [
+        "1F1F2",
+        "1F1FE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003528",
+      "emoji": "🇲🇿",
+      "description": "flag: Mozambique",
+      "unicode": [
+        "1F1F2",
+        "1F1FF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003529",
+      "emoji": "🇳🇦",
+      "description": "flag: Namibia",
+      "unicode": [
+        "1F1F3",
+        "1F1E6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003530",
+      "emoji": "🇳🇨",
+      "description": "flag: New Caledonia",
+      "unicode": [
+        "1F1F3",
+        "1F1E8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003531",
+      "emoji": "🇳🇪",
+      "description": "flag: Niger",
+      "unicode": [
+        "1F1F3",
+        "1F1EA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003532",
+      "emoji": "🇳🇫",
+      "description": "flag: Norfolk Island",
+      "unicode": [
+        "1F1F3",
+        "1F1EB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003533",
+      "emoji": "🇳🇬",
+      "description": "flag: Nigeria",
+      "unicode": [
+        "1F1F3",
+        "1F1EC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003534",
+      "emoji": "🇳🇮",
+      "description": "flag: Nicaragua",
+      "unicode": [
+        "1F1F3",
+        "1F1EE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003535",
+      "emoji": "🇳🇱",
+      "description": "flag: Netherlands",
+      "unicode": [
+        "1F1F3",
+        "1F1F1"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003536",
+      "emoji": "🇳🇴",
+      "description": "flag: Norway",
+      "unicode": [
+        "1F1F3",
+        "1F1F4"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003537",
+      "emoji": "🇳🇵",
+      "description": "flag: Nepal",
+      "unicode": [
+        "1F1F3",
+        "1F1F5"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003538",
+      "emoji": "🇳🇷",
+      "description": "flag: Nauru",
+      "unicode": [
+        "1F1F3",
+        "1F1F7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003539",
+      "emoji": "🇳🇺",
+      "description": "flag: Niue",
+      "unicode": [
+        "1F1F3",
+        "1F1FA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003540",
+      "emoji": "🇳🇿",
+      "description": "flag: New Zealand",
+      "unicode": [
+        "1F1F3",
+        "1F1FF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003541",
+      "emoji": "🇴🇲",
+      "description": "flag: Oman",
+      "unicode": [
+        "1F1F4",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003542",
+      "emoji": "🇵🇦",
+      "description": "flag: Panama",
+      "unicode": [
+        "1F1F5",
+        "1F1E6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003543",
+      "emoji": "🇵🇪",
+      "description": "flag: Peru",
+      "unicode": [
+        "1F1F5",
+        "1F1EA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003544",
+      "emoji": "🇵🇫",
+      "description": "flag: French Polynesia",
+      "unicode": [
+        "1F1F5",
+        "1F1EB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003545",
+      "emoji": "🇵🇬",
+      "description": "flag: Papua New Guinea",
+      "unicode": [
+        "1F1F5",
+        "1F1EC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003546",
+      "emoji": "🇵🇭",
+      "description": "flag: Philippines",
+      "unicode": [
+        "1F1F5",
+        "1F1ED"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003547",
+      "emoji": "🇵🇰",
+      "description": "flag: Pakistan",
+      "unicode": [
+        "1F1F5",
+        "1F1F0"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003548",
+      "emoji": "🇵🇱",
+      "description": "flag: Poland",
+      "unicode": [
+        "1F1F5",
+        "1F1F1"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003549",
+      "emoji": "🇵🇲",
+      "description": "flag: St. Pierre & Miquelon",
+      "unicode": [
+        "1F1F5",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003550",
+      "emoji": "🇵🇳",
+      "description": "flag: Pitcairn Islands",
+      "unicode": [
+        "1F1F5",
+        "1F1F3"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003551",
+      "emoji": "🇵🇷",
+      "description": "flag: Puerto Rico",
+      "unicode": [
+        "1F1F5",
+        "1F1F7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003552",
+      "emoji": "🇵🇸",
+      "description": "flag: Palestinian Territories",
+      "unicode": [
+        "1F1F5",
+        "1F1F8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003553",
+      "emoji": "🇵🇹",
+      "description": "flag: Portugal",
+      "unicode": [
+        "1F1F5",
+        "1F1F9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003554",
+      "emoji": "🇵🇼",
+      "description": "flag: Palau",
+      "unicode": [
+        "1F1F5",
+        "1F1FC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003555",
+      "emoji": "🇵🇾",
+      "description": "flag: Paraguay",
+      "unicode": [
+        "1F1F5",
+        "1F1FE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003556",
+      "emoji": "🇶🇦",
+      "description": "flag: Qatar",
+      "unicode": [
+        "1F1F6",
+        "1F1E6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003557",
+      "emoji": "🇷🇪",
+      "description": "flag: Réunion",
+      "unicode": [
+        "1F1F7",
+        "1F1EA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003558",
+      "emoji": "🇷🇴",
+      "description": "flag: Romania",
+      "unicode": [
+        "1F1F7",
+        "1F1F4"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003559",
+      "emoji": "🇷🇸",
+      "description": "flag: Serbia",
+      "unicode": [
+        "1F1F7",
+        "1F1F8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003560",
+      "emoji": "🇷🇺",
+      "description": "flag: Russia",
+      "unicode": [
+        "1F1F7",
+        "1F1FA"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003561",
+      "emoji": "🇷🇼",
+      "description": "flag: Rwanda",
+      "unicode": [
+        "1F1F7",
+        "1F1FC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003562",
+      "emoji": "🇸🇦",
+      "description": "flag: Saudi Arabia",
+      "unicode": [
+        "1F1F8",
+        "1F1E6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003563",
+      "emoji": "🇸🇧",
+      "description": "flag: Solomon Islands",
+      "unicode": [
+        "1F1F8",
+        "1F1E7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003564",
+      "emoji": "🇸🇨",
+      "description": "flag: Seychelles",
+      "unicode": [
+        "1F1F8",
+        "1F1E8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003565",
+      "emoji": "🇸🇩",
+      "description": "flag: Sudan",
+      "unicode": [
+        "1F1F8",
+        "1F1E9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003566",
+      "emoji": "🇸🇪",
+      "description": "flag: Sweden",
+      "unicode": [
+        "1F1F8",
+        "1F1EA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003567",
+      "emoji": "🇸🇬",
+      "description": "flag: Singapore",
+      "unicode": [
+        "1F1F8",
+        "1F1EC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003568",
+      "emoji": "🇸🇭",
+      "description": "flag: St. Helena",
+      "unicode": [
+        "1F1F8",
+        "1F1ED"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003569",
+      "emoji": "🇸🇮",
+      "description": "flag: Slovenia",
+      "unicode": [
+        "1F1F8",
+        "1F1EE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003570",
+      "emoji": "🇸🇯",
+      "description": "flag: Svalbard & Jan Mayen",
+      "unicode": [
+        "1F1F8",
+        "1F1EF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003571",
+      "emoji": "🇸🇰",
+      "description": "flag: Slovakia",
+      "unicode": [
+        "1F1F8",
+        "1F1F0"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003572",
+      "emoji": "🇸🇱",
+      "description": "flag: Sierra Leone",
+      "unicode": [
+        "1F1F8",
+        "1F1F1"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003573",
+      "emoji": "🇸🇲",
+      "description": "flag: San Marino",
+      "unicode": [
+        "1F1F8",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003574",
+      "emoji": "🇸🇳",
+      "description": "flag: Senegal",
+      "unicode": [
+        "1F1F8",
+        "1F1F3"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003575",
+      "emoji": "🇸🇴",
+      "description": "flag: Somalia",
+      "unicode": [
+        "1F1F8",
+        "1F1F4"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003576",
+      "emoji": "🇸🇷",
+      "description": "flag: Suriname",
+      "unicode": [
+        "1F1F8",
+        "1F1F7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003577",
+      "emoji": "🇸🇸",
+      "description": "flag: South Sudan",
+      "unicode": [
+        "1F1F8",
+        "1F1F8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003578",
+      "emoji": "🇸🇹",
+      "description": "flag: São Tomé & Príncipe",
+      "unicode": [
+        "1F1F8",
+        "1F1F9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003579",
+      "emoji": "🇸🇻",
+      "description": "flag: El Salvador",
+      "unicode": [
+        "1F1F8",
+        "1F1FB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003580",
+      "emoji": "🇸🇽",
+      "description": "flag: Sint Maarten",
+      "unicode": [
+        "1F1F8",
+        "1F1FD"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003581",
+      "emoji": "🇸🇾",
+      "description": "flag: Syria",
+      "unicode": [
+        "1F1F8",
+        "1F1FE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003582",
+      "emoji": "🇸🇿",
+      "description": "flag: Eswatini",
+      "unicode": [
+        "1F1F8",
+        "1F1FF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003583",
+      "emoji": "🇹🇦",
+      "description": "flag: Tristan da Cunha",
+      "unicode": [
+        "1F1F9",
+        "1F1E6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003584",
+      "emoji": "🇹🇨",
+      "description": "flag: Turks & Caicos Islands",
+      "unicode": [
+        "1F1F9",
+        "1F1E8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003585",
+      "emoji": "🇹🇩",
+      "description": "flag: Chad",
+      "unicode": [
+        "1F1F9",
+        "1F1E9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003586",
+      "emoji": "🇹🇫",
+      "description": "flag: French Southern Territories",
+      "unicode": [
+        "1F1F9",
+        "1F1EB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003587",
+      "emoji": "🇹🇬",
+      "description": "flag: Togo",
+      "unicode": [
+        "1F1F9",
+        "1F1EC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003588",
+      "emoji": "🇹🇭",
+      "description": "flag: Thailand",
+      "unicode": [
+        "1F1F9",
+        "1F1ED"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003589",
+      "emoji": "🇹🇯",
+      "description": "flag: Tajikistan",
+      "unicode": [
+        "1F1F9",
+        "1F1EF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003590",
+      "emoji": "🇹🇰",
+      "description": "flag: Tokelau",
+      "unicode": [
+        "1F1F9",
+        "1F1F0"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003591",
+      "emoji": "🇹🇱",
+      "description": "flag: Timor-Leste",
+      "unicode": [
+        "1F1F9",
+        "1F1F1"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003592",
+      "emoji": "🇹🇲",
+      "description": "flag: Turkmenistan",
+      "unicode": [
+        "1F1F9",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003593",
+      "emoji": "🇹🇳",
+      "description": "flag: Tunisia",
+      "unicode": [
+        "1F1F9",
+        "1F1F3"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003594",
+      "emoji": "🇹🇴",
+      "description": "flag: Tonga",
+      "unicode": [
+        "1F1F9",
+        "1F1F4"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003595",
+      "emoji": "🇹🇷",
+      "description": "flag: Turkey",
+      "unicode": [
+        "1F1F9",
+        "1F1F7"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003596",
+      "emoji": "🇹🇹",
+      "description": "flag: Trinidad & Tobago",
+      "unicode": [
+        "1F1F9",
+        "1F1F9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003597",
+      "emoji": "🇹🇻",
+      "description": "flag: Tuvalu",
+      "unicode": [
+        "1F1F9",
+        "1F1FB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003598",
+      "emoji": "🇹🇼",
+      "description": "flag: Taiwan",
+      "unicode": [
+        "1F1F9",
+        "1F1FC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003599",
+      "emoji": "🇹🇿",
+      "description": "flag: Tanzania",
+      "unicode": [
+        "1F1F9",
+        "1F1FF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003600",
+      "emoji": "🇺🇦",
+      "description": "flag: Ukraine",
+      "unicode": [
+        "1F1FA",
+        "1F1E6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003601",
+      "emoji": "🇺🇬",
+      "description": "flag: Uganda",
+      "unicode": [
+        "1F1FA",
+        "1F1EC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003602",
+      "emoji": "🇺🇲",
+      "description": "flag: U.S. Outlying Islands",
+      "unicode": [
+        "1F1FA",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003603",
+      "emoji": "🇺🇳",
+      "description": "flag: United Nations",
+      "unicode": [
+        "1F1FA",
+        "1F1F3"
+      ],
+      "versionIntroduced": "E4.0"
+    },
+    {
+      "id": "003604",
+      "emoji": "🇺🇸",
+      "description": "flag: United States",
+      "unicode": [
+        "1F1FA",
+        "1F1F8"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003605",
+      "emoji": "🇺🇾",
+      "description": "flag: Uruguay",
+      "unicode": [
+        "1F1FA",
+        "1F1FE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003606",
+      "emoji": "🇺🇿",
+      "description": "flag: Uzbekistan",
+      "unicode": [
+        "1F1FA",
+        "1F1FF"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003607",
+      "emoji": "🇻🇦",
+      "description": "flag: Vatican City",
+      "unicode": [
+        "1F1FB",
+        "1F1E6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003608",
+      "emoji": "🇻🇨",
+      "description": "flag: St. Vincent & Grenadines",
+      "unicode": [
+        "1F1FB",
+        "1F1E8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003609",
+      "emoji": "🇻🇪",
+      "description": "flag: Venezuela",
+      "unicode": [
+        "1F1FB",
+        "1F1EA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003610",
+      "emoji": "🇻🇬",
+      "description": "flag: British Virgin Islands",
+      "unicode": [
+        "1F1FB",
+        "1F1EC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003611",
+      "emoji": "🇻🇮",
+      "description": "flag: U.S. Virgin Islands",
+      "unicode": [
+        "1F1FB",
+        "1F1EE"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003612",
+      "emoji": "🇻🇳",
+      "description": "flag: Vietnam",
+      "unicode": [
+        "1F1FB",
+        "1F1F3"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003613",
+      "emoji": "🇻🇺",
+      "description": "flag: Vanuatu",
+      "unicode": [
+        "1F1FB",
+        "1F1FA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003614",
+      "emoji": "🇼🇫",
+      "description": "flag: Wallis & Futuna",
+      "unicode": [
+        "1F1FC",
+        "1F1EB"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003615",
+      "emoji": "🇼🇸",
+      "description": "flag: Samoa",
+      "unicode": [
+        "1F1FC",
+        "1F1F8"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003616",
+      "emoji": "🇽🇰",
+      "description": "flag: Kosovo",
+      "unicode": [
+        "1F1FD",
+        "1F1F0"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003617",
+      "emoji": "🇾🇪",
+      "description": "flag: Yemen",
+      "unicode": [
+        "1F1FE",
+        "1F1EA"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003618",
+      "emoji": "🇾🇹",
+      "description": "flag: Mayotte",
+      "unicode": [
+        "1F1FE",
+        "1F1F9"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003619",
+      "emoji": "🇿🇦",
+      "description": "flag: South Africa",
+      "unicode": [
+        "1F1FF",
+        "1F1E6"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003620",
+      "emoji": "🇿🇲",
+      "description": "flag: Zambia",
+      "unicode": [
+        "1F1FF",
+        "1F1F2"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003621",
+      "emoji": "🇿🇼",
+      "description": "flag: Zimbabwe",
+      "unicode": [
+        "1F1FF",
+        "1F1FC"
+      ],
+      "versionIntroduced": "E2.0"
+    },
+    {
+      "id": "003622",
+      "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "description": "flag: England",
+      "unicode": [
+        "1F3F4",
+        "E0067",
+        "E0062",
+        "E0065",
+        "E006E",
+        "E0067",
+        "E007F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "003623",
+      "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "description": "flag: Scotland",
+      "unicode": [
+        "1F3F4",
+        "E0067",
+        "E0062",
+        "E0073",
+        "E0063",
+        "E0074",
+        "E007F"
+      ],
+      "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "003624",
+      "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+      "description": "flag: Wales",
+      "unicode": [
+        "1F3F4",
+        "E0067",
+        "E0062",
+        "E0077",
+        "E006C",
+        "E0073",
+        "E007F"
+      ],
+      "versionIntroduced": "E5.0"
+    }
+  ]
+}
+export { uniqueEmojisIDs }

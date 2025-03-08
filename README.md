@@ -35,13 +35,12 @@ will be:
 
 ## To get back to the same IDs if something goes wrong
 
-Start from Unicode Emojis v13.0, then run the script on all versions after. That will so far be:
+Start from Unicode Emojis v14.0, then run the script on all versions after. That will so far be:
 
-* 13.0
-* 13.1
 * 14.0 <- We have gotten this far
 * 15.0
 * 15.1
+* 16.0
 * [future versions]
 
 Version 15 won't happen before I get regex to work for the [two-character emojis introduced in v15.0 and v15.1](https://github.com/eklem/unicode-emojis-unique-id-json/issues/9).

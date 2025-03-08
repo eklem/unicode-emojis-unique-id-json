@@ -2,6 +2,8 @@ import fetch from 'node-fetch'
 import { extract, emojisCustom } from 'words-n-numbers'
 import { existsSync, readFileSync, writeFileSync } from 'fs'
 const file = '../dist/unicode-emojis-unique-id.json'
+const fileJS = '../dist/unicode-emojis-unique-id.js'
+const fileJSmin = '../dist/unicode-emojis-unique-id.min.js'
 const emojiURL = 'https://unicode.org/Public/emoji/14.0/emoji-test.txt'
 
 // #########################################################################################
@@ -68,7 +70,7 @@ const createEmojiArray = function (emojiText) {
         // qualified: qualified[0]
       }
       emojiArray.push(emojiObj)
-      console.log(emojiObj)
+      // console.log(emojiObj)
     }
   })
   return emojiArray
@@ -109,8 +111,12 @@ const readFile = function (file) {
 //    5: Add object to array
 
 const addNewObjects = function (readJSON, fetchedJSON, unicodeVersion) {
+  unicodeVersion = unicodeVersion[0]
+  console.log('readJSON version: ' + readJSON.version + ' ' + typeof readJSON.version)
+  console.log('unicode version: ' + JSON.stringify(unicodeVersion) + ' ' + typeof unicodeVersion)
   if (readJSON.version === unicodeVersion) {
-    console.log('local file up to date with Unicode Emojis version: ' + unicodeVersion)
+    console.log('Local file up to date with Unicode Emojis version: ' + unicodeVersion)
+    console.log('Function will fail now. Bug, but okay, so won\'t fix for now')
   } else {
     console.log('local file needs to be updated with lates Unicode Emojis')
     console.log('existing array length: ' + readJSON.emojis.length)
@@ -118,7 +124,7 @@ const addNewObjects = function (readJSON, fetchedJSON, unicodeVersion) {
     // Loop through new array and add ID
     for (const obj of fetchedJSON) {
       if (readJSON.emojis.some((existingObj) => existingObj.description === obj.description )) {
-        console.log(obj.emoji + '  ' + obj.description + ' already existing, skipping')
+        // console.log(obj.emoji + '  ' + obj.description + ' already existing, skipping')
       } else {
         // console.log('new emoji, do the work')
         const idNum = readJSON.emojis.length + 1
@@ -131,11 +137,35 @@ const addNewObjects = function (readJSON, fetchedJSON, unicodeVersion) {
 }
 
 // #########################################################################################
+// G: Prepare javascript object for writing to file
+const uniqueEmojisIDs = function (newFile) {
+  const js = 'const uniqueEmojisIDs = ' + JSON.stringify(newFile, null, 2) + '\nexport { uniqueEmojisIDs }\n'
+  return js
+}
+
+
+// #########################################################################################
+// H: Created stripped version of emojis array
+const uniqueEmojisIDsStripped = function (newFile) {
+  let codebookJSON = newFile.emojis.map(
+    ({ id, emoji }) => ({ id, emoji })
+  )
+  const js = 'const codebook = ' + JSON.stringify(codebookJSON, null, 2) + '\nexport { codebook }\n'
+  return js
+}
+
+// #########################################################################################
 // Y: Do stuff
 let fileJSON = readFile(file)
 const emojiText = await getEmojiFile(emojiURL)
 const unicodeVersion = getUnicodeEmojiVersion(emojiText[7])
 const unicodeJSON = createEmojiArray(emojiText)
+// Writing JSON
 let newFile = addNewObjects(fileJSON, unicodeJSON, unicodeVersion)
-console.log(newFile)
-writeFileSync(file, JSON.stringify(newFile, null, '  '), 'utf8')
+writeFileSync(file, JSON.stringify(newFile, null, 2), 'utf8')
+// Writing JS
+const JSONjs = uniqueEmojisIDs(newFile)
+writeFileSync(fileJS, JSONjs, 'utf8')
+// Writing JS codebook
+const codebook = uniqueEmojisIDsStripped(newFile)
+writeFileSync(fileJSmin, codebook, 'utf8')

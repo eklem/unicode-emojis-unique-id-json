@@ -4,17 +4,17 @@ import arr from '../dist/unicode-emojis-unique-id.json' with { type: 'json' }
 const emojisArr = arr.emojis
 
 const e06 = {
-  "id": "000001",
-  "emoji": "😀",
-  "description": "grinning face",
+  "id": "00001",
+  "emoji": "😃",
+  "description": "grinning face with big eyes",
   "unicode": [
-    "1F600"
+    "U+1F603"
   ],
-  "versionIntroduced": "E1.0"
+  "versionIntroduced": "0.6"
 }
 
 const e07 = {
-  "id": "000039",
+  "id": "000035",
   "emoji": "😐",
   "description": "neutral face",
   "unicode": [
@@ -24,7 +24,7 @@ const e07 = {
 }
 
 const e10 = {
-  "id": "000035",
+  "id": "000032",
   "emoji": "🤔",
   "description": "thinking face",
   "unicode": [
@@ -44,7 +44,7 @@ const e30 = {
 }
 
 const e40 = {
-  "id": "000616",
+  "id": "000541",
   "emoji": "👱‍♀️",
   "description": "woman: blond hair",
   "unicode": [
@@ -57,7 +57,7 @@ const e40 = {
 }
 
 const e50 = {
-  "id": "000017",
+  "id": "000016",
   "emoji": "🤩",
   "description": "star-struck",
   "unicode": [
@@ -67,7 +67,7 @@ const e50 = {
 }
 
 const e110 = {
-  "id": "000015",
+  "id": "000014",
   "emoji": "🥰",
   "description": "smiling face with hearts",
   "unicode": [
@@ -77,7 +77,7 @@ const e110 = {
 }
 
 const e120 = {
-  "id": "000098",
+  "id": "000091",
   "emoji": "🥱",
   "description": "yawning face",
   "unicode": [
@@ -87,7 +87,7 @@ const e120 = {
 }
 
 const e130 = {
-  "id": "000023",
+  "id": "000022",
   "emoji": "🥲",
   "description": "smiling face with tear",
   "unicode": [
@@ -96,8 +96,24 @@ const e130 = {
   "versionIntroduced": "E13.0"
 }
 
+const flagWales = {
+  "id": "003512",
+  "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+  "description": "flag: Wales",
+  "unicode": [
+    "1F3F4",
+    "E0067",
+    "E0062",
+    "E0077",
+    "E006C",
+    "E0073",
+    "E007F"
+  ],
+  "versionIntroduced": "E5.0"
+} 
+
 const e140 = {
-  "id": "000011",
+  "id": "003513",
   "emoji": "🫠",
   "description": "melting face",
   "unicode": [
@@ -158,6 +174,12 @@ test('Testing one of emojis v E13.0', t => {
   t.plan(1)
   const objActual = emojisArr.find(({ id }) => id === e130.id)
 	t.deepEqual(objActual, e130)
+})
+
+test('Testing last in v13.1, flag of Wales', t => {
+  t.plan(1)
+  const objActual = emojisArr.find(({ id }) => id === flagWales.id)
+	t.deepEqual(objActual, flagWales)
 })
 
 test('Testing one of emojis v E14.0', t => {

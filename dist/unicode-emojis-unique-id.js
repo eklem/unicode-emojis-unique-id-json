@@ -1,23 +1,23 @@
 const uniqueEmojisIDs = {
-  "version": "14.0",
+  "unicodeEmojisVersion": "14.0",
   "emojis": [
     {
-      "id": "000001",
+      "id": "00001",
+      "emoji": "😃",
+      "description": "grinning face with big eyes",
+      "unicode": [
+        "U+1F603"
+      ],
+      "versionIntroduced": "0.6"
+    },
+    {
+      "id": "000002",
       "emoji": "😀",
       "description": "grinning face",
       "unicode": [
         "1F600"
       ],
       "versionIntroduced": "E1.0"
-    },
-    {
-      "id": "000002",
-      "emoji": "😃",
-      "description": "grinning face with big eyes",
-      "unicode": [
-        "1F603"
-      ],
-      "versionIntroduced": "E0.6"
     },
     {
       "id": "000003",
@@ -93,15 +93,6 @@ const uniqueEmojisIDs = {
     },
     {
       "id": "000011",
-      "emoji": "🫠",
-      "description": "melting face",
-      "unicode": [
-        "1FAE0"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000012",
       "emoji": "😉",
       "description": "winking face",
       "unicode": [
@@ -110,7 +101,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000013",
+      "id": "000012",
       "emoji": "😊",
       "description": "smiling face with smiling eyes",
       "unicode": [
@@ -119,7 +110,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000014",
+      "id": "000013",
       "emoji": "😇",
       "description": "smiling face with halo",
       "unicode": [
@@ -128,7 +119,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000015",
+      "id": "000014",
       "emoji": "🥰",
       "description": "smiling face with hearts",
       "unicode": [
@@ -137,7 +128,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000016",
+      "id": "000015",
       "emoji": "😍",
       "description": "smiling face with heart-eyes",
       "unicode": [
@@ -146,7 +137,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000017",
+      "id": "000016",
       "emoji": "🤩",
       "description": "star-struck",
       "unicode": [
@@ -155,7 +146,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000018",
+      "id": "000017",
       "emoji": "😘",
       "description": "face blowing a kiss",
       "unicode": [
@@ -164,7 +155,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000019",
+      "id": "000018",
       "emoji": "😗",
       "description": "kissing face",
       "unicode": [
@@ -173,7 +164,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000020",
+      "id": "000019",
       "emoji": "☺️",
       "description": "smiling face",
       "unicode": [
@@ -183,7 +174,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000021",
+      "id": "000020",
       "emoji": "😚",
       "description": "kissing face with closed eyes",
       "unicode": [
@@ -192,7 +183,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000022",
+      "id": "000021",
       "emoji": "😙",
       "description": "kissing face with smiling eyes",
       "unicode": [
@@ -201,7 +192,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000023",
+      "id": "000022",
       "emoji": "🥲",
       "description": "smiling face with tear",
       "unicode": [
@@ -210,7 +201,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "000024",
+      "id": "000023",
       "emoji": "😋",
       "description": "face savoring food",
       "unicode": [
@@ -219,7 +210,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000025",
+      "id": "000024",
       "emoji": "😛",
       "description": "face with tongue",
       "unicode": [
@@ -228,7 +219,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000026",
+      "id": "000025",
       "emoji": "😜",
       "description": "winking face with tongue",
       "unicode": [
@@ -237,7 +228,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000027",
+      "id": "000026",
       "emoji": "🤪",
       "description": "zany face",
       "unicode": [
@@ -246,7 +237,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000028",
+      "id": "000027",
       "emoji": "😝",
       "description": "squinting face with tongue",
       "unicode": [
@@ -255,7 +246,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000029",
+      "id": "000028",
       "emoji": "🤑",
       "description": "money-mouth face",
       "unicode": [
@@ -264,16 +255,16 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000030",
+      "id": "000029",
       "emoji": "🤗",
-      "description": "smiling face with open hands",
+      "description": "hugging face",
       "unicode": [
         "1F917"
       ],
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000031",
+      "id": "000030",
       "emoji": "🤭",
       "description": "face with hand over mouth",
       "unicode": [
@@ -282,25 +273,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000032",
-      "emoji": "🫢",
-      "description": "face with open eyes and hand over mouth",
-      "unicode": [
-        "1FAE2"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000033",
-      "emoji": "🫣",
-      "description": "face with peeking eye",
-      "unicode": [
-        "1FAE3"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000034",
+      "id": "000031",
       "emoji": "🤫",
       "description": "shushing face",
       "unicode": [
@@ -309,7 +282,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000035",
+      "id": "000032",
       "emoji": "🤔",
       "description": "thinking face",
       "unicode": [
@@ -318,16 +291,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000036",
-      "emoji": "🫡",
-      "description": "saluting face",
-      "unicode": [
-        "1FAE1"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000037",
+      "id": "000033",
       "emoji": "🤐",
       "description": "zipper-mouth face",
       "unicode": [
@@ -336,7 +300,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000038",
+      "id": "000034",
       "emoji": "🤨",
       "description": "face with raised eyebrow",
       "unicode": [
@@ -345,7 +309,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000039",
+      "id": "000035",
       "emoji": "😐",
       "description": "neutral face",
       "unicode": [
@@ -354,7 +318,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "000040",
+      "id": "000036",
       "emoji": "😑",
       "description": "expressionless face",
       "unicode": [
@@ -363,7 +327,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000041",
+      "id": "000037",
       "emoji": "😶",
       "description": "face without mouth",
       "unicode": [
@@ -372,16 +336,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000042",
-      "emoji": "🫥",
-      "description": "dotted line face",
-      "unicode": [
-        "1FAE5"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000043",
+      "id": "000038",
       "emoji": "😶‍🌫️",
       "description": "face in clouds",
       "unicode": [
@@ -393,7 +348,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000044",
+      "id": "000039",
       "emoji": "😏",
       "description": "smirking face",
       "unicode": [
@@ -402,7 +357,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000045",
+      "id": "000040",
       "emoji": "😒",
       "description": "unamused face",
       "unicode": [
@@ -411,7 +366,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000046",
+      "id": "000041",
       "emoji": "🙄",
       "description": "face with rolling eyes",
       "unicode": [
@@ -420,7 +375,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000047",
+      "id": "000042",
       "emoji": "😬",
       "description": "grimacing face",
       "unicode": [
@@ -429,7 +384,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000048",
+      "id": "000043",
       "emoji": "😮‍💨",
       "description": "face exhaling",
       "unicode": [
@@ -440,7 +395,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000049",
+      "id": "000044",
       "emoji": "🤥",
       "description": "lying face",
       "unicode": [
@@ -449,7 +404,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000050",
+      "id": "000045",
       "emoji": "😌",
       "description": "relieved face",
       "unicode": [
@@ -458,7 +413,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000051",
+      "id": "000046",
       "emoji": "😔",
       "description": "pensive face",
       "unicode": [
@@ -467,7 +422,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000052",
+      "id": "000047",
       "emoji": "😪",
       "description": "sleepy face",
       "unicode": [
@@ -476,7 +431,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000053",
+      "id": "000048",
       "emoji": "🤤",
       "description": "drooling face",
       "unicode": [
@@ -485,7 +440,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000054",
+      "id": "000049",
       "emoji": "😴",
       "description": "sleeping face",
       "unicode": [
@@ -494,7 +449,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000055",
+      "id": "000050",
       "emoji": "😷",
       "description": "face with medical mask",
       "unicode": [
@@ -503,7 +458,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000056",
+      "id": "000051",
       "emoji": "🤒",
       "description": "face with thermometer",
       "unicode": [
@@ -512,7 +467,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000057",
+      "id": "000052",
       "emoji": "🤕",
       "description": "face with head-bandage",
       "unicode": [
@@ -521,7 +476,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000058",
+      "id": "000053",
       "emoji": "🤢",
       "description": "nauseated face",
       "unicode": [
@@ -530,7 +485,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000059",
+      "id": "000054",
       "emoji": "🤮",
       "description": "face vomiting",
       "unicode": [
@@ -539,7 +494,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000060",
+      "id": "000055",
       "emoji": "🤧",
       "description": "sneezing face",
       "unicode": [
@@ -548,7 +503,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000061",
+      "id": "000056",
       "emoji": "🥵",
       "description": "hot face",
       "unicode": [
@@ -557,7 +512,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000062",
+      "id": "000057",
       "emoji": "🥶",
       "description": "cold face",
       "unicode": [
@@ -566,7 +521,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000063",
+      "id": "000058",
       "emoji": "🥴",
       "description": "woozy face",
       "unicode": [
@@ -575,16 +530,16 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000064",
+      "id": "000059",
       "emoji": "😵",
-      "description": "face with crossed-out eyes",
+      "description": "knocked-out face",
       "unicode": [
         "1F635"
       ],
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000065",
+      "id": "000060",
       "emoji": "😵‍💫",
       "description": "face with spiral eyes",
       "unicode": [
@@ -595,7 +550,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000066",
+      "id": "000061",
       "emoji": "🤯",
       "description": "exploding head",
       "unicode": [
@@ -604,7 +559,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000067",
+      "id": "000062",
       "emoji": "🤠",
       "description": "cowboy hat face",
       "unicode": [
@@ -613,7 +568,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000068",
+      "id": "000063",
       "emoji": "🥳",
       "description": "partying face",
       "unicode": [
@@ -622,7 +577,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000069",
+      "id": "000064",
       "emoji": "🥸",
       "description": "disguised face",
       "unicode": [
@@ -631,7 +586,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "000070",
+      "id": "000065",
       "emoji": "😎",
       "description": "smiling face with sunglasses",
       "unicode": [
@@ -640,7 +595,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000071",
+      "id": "000066",
       "emoji": "🤓",
       "description": "nerd face",
       "unicode": [
@@ -649,7 +604,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000072",
+      "id": "000067",
       "emoji": "🧐",
       "description": "face with monocle",
       "unicode": [
@@ -658,7 +613,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000073",
+      "id": "000068",
       "emoji": "😕",
       "description": "confused face",
       "unicode": [
@@ -667,16 +622,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000074",
-      "emoji": "🫤",
-      "description": "face with diagonal mouth",
-      "unicode": [
-        "1FAE4"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000075",
+      "id": "000069",
       "emoji": "😟",
       "description": "worried face",
       "unicode": [
@@ -685,7 +631,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000076",
+      "id": "000070",
       "emoji": "🙁",
       "description": "slightly frowning face",
       "unicode": [
@@ -694,7 +640,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000077",
+      "id": "000071",
       "emoji": "☹️",
       "description": "frowning face",
       "unicode": [
@@ -704,7 +650,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "000078",
+      "id": "000072",
       "emoji": "😮",
       "description": "face with open mouth",
       "unicode": [
@@ -713,7 +659,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000079",
+      "id": "000073",
       "emoji": "😯",
       "description": "hushed face",
       "unicode": [
@@ -722,7 +668,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000080",
+      "id": "000074",
       "emoji": "😲",
       "description": "astonished face",
       "unicode": [
@@ -731,7 +677,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000081",
+      "id": "000075",
       "emoji": "😳",
       "description": "flushed face",
       "unicode": [
@@ -740,7 +686,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000082",
+      "id": "000076",
       "emoji": "🥺",
       "description": "pleading face",
       "unicode": [
@@ -749,16 +695,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000083",
-      "emoji": "🥹",
-      "description": "face holding back tears",
-      "unicode": [
-        "1F979"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000084",
+      "id": "000077",
       "emoji": "😦",
       "description": "frowning face with open mouth",
       "unicode": [
@@ -767,7 +704,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000085",
+      "id": "000078",
       "emoji": "😧",
       "description": "anguished face",
       "unicode": [
@@ -776,7 +713,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000086",
+      "id": "000079",
       "emoji": "😨",
       "description": "fearful face",
       "unicode": [
@@ -785,7 +722,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000087",
+      "id": "000080",
       "emoji": "😰",
       "description": "anxious face with sweat",
       "unicode": [
@@ -794,7 +731,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000088",
+      "id": "000081",
       "emoji": "😥",
       "description": "sad but relieved face",
       "unicode": [
@@ -803,7 +740,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000089",
+      "id": "000082",
       "emoji": "😢",
       "description": "crying face",
       "unicode": [
@@ -812,7 +749,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000090",
+      "id": "000083",
       "emoji": "😭",
       "description": "loudly crying face",
       "unicode": [
@@ -821,7 +758,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000091",
+      "id": "000084",
       "emoji": "😱",
       "description": "face screaming in fear",
       "unicode": [
@@ -830,7 +767,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000092",
+      "id": "000085",
       "emoji": "😖",
       "description": "confounded face",
       "unicode": [
@@ -839,7 +776,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000093",
+      "id": "000086",
       "emoji": "😣",
       "description": "persevering face",
       "unicode": [
@@ -848,7 +785,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000094",
+      "id": "000087",
       "emoji": "😞",
       "description": "disappointed face",
       "unicode": [
@@ -857,7 +794,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000095",
+      "id": "000088",
       "emoji": "😓",
       "description": "downcast face with sweat",
       "unicode": [
@@ -866,7 +803,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000096",
+      "id": "000089",
       "emoji": "😩",
       "description": "weary face",
       "unicode": [
@@ -875,7 +812,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000097",
+      "id": "000090",
       "emoji": "😫",
       "description": "tired face",
       "unicode": [
@@ -884,7 +821,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000098",
+      "id": "000091",
       "emoji": "🥱",
       "description": "yawning face",
       "unicode": [
@@ -893,7 +830,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000099",
+      "id": "000092",
       "emoji": "😤",
       "description": "face with steam from nose",
       "unicode": [
@@ -902,7 +839,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000100",
+      "id": "000093",
       "emoji": "😡",
       "description": "pouting face",
       "unicode": [
@@ -911,7 +848,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000101",
+      "id": "000094",
       "emoji": "😠",
       "description": "angry face",
       "unicode": [
@@ -920,7 +857,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000102",
+      "id": "000095",
       "emoji": "🤬",
       "description": "face with symbols on mouth",
       "unicode": [
@@ -929,7 +866,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000103",
+      "id": "000096",
       "emoji": "😈",
       "description": "smiling face with horns",
       "unicode": [
@@ -938,7 +875,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000104",
+      "id": "000097",
       "emoji": "👿",
       "description": "angry face with horns",
       "unicode": [
@@ -947,7 +884,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000105",
+      "id": "000098",
       "emoji": "💀",
       "description": "skull",
       "unicode": [
@@ -956,7 +893,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000106",
+      "id": "000099",
       "emoji": "☠️",
       "description": "skull and crossbones",
       "unicode": [
@@ -966,7 +903,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000107",
+      "id": "000100",
       "emoji": "💩",
       "description": "pile of poo",
       "unicode": [
@@ -975,7 +912,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000108",
+      "id": "000101",
       "emoji": "🤡",
       "description": "clown face",
       "unicode": [
@@ -984,7 +921,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000109",
+      "id": "000102",
       "emoji": "👹",
       "description": "ogre",
       "unicode": [
@@ -993,7 +930,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000110",
+      "id": "000103",
       "emoji": "👺",
       "description": "goblin",
       "unicode": [
@@ -1002,7 +939,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000111",
+      "id": "000104",
       "emoji": "👻",
       "description": "ghost",
       "unicode": [
@@ -1011,7 +948,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000112",
+      "id": "000105",
       "emoji": "👽",
       "description": "alien",
       "unicode": [
@@ -1020,7 +957,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000113",
+      "id": "000106",
       "emoji": "👾",
       "description": "alien monster",
       "unicode": [
@@ -1029,7 +966,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000114",
+      "id": "000107",
       "emoji": "🤖",
       "description": "robot",
       "unicode": [
@@ -1038,7 +975,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000115",
+      "id": "000108",
       "emoji": "😺",
       "description": "grinning cat",
       "unicode": [
@@ -1047,7 +984,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000116",
+      "id": "000109",
       "emoji": "😸",
       "description": "grinning cat with smiling eyes",
       "unicode": [
@@ -1056,7 +993,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000117",
+      "id": "000110",
       "emoji": "😹",
       "description": "cat with tears of joy",
       "unicode": [
@@ -1065,7 +1002,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000118",
+      "id": "000111",
       "emoji": "😻",
       "description": "smiling cat with heart-eyes",
       "unicode": [
@@ -1074,7 +1011,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000119",
+      "id": "000112",
       "emoji": "😼",
       "description": "cat with wry smile",
       "unicode": [
@@ -1083,7 +1020,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000120",
+      "id": "000113",
       "emoji": "😽",
       "description": "kissing cat",
       "unicode": [
@@ -1092,7 +1029,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000121",
+      "id": "000114",
       "emoji": "🙀",
       "description": "weary cat",
       "unicode": [
@@ -1101,7 +1038,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000122",
+      "id": "000115",
       "emoji": "😿",
       "description": "crying cat",
       "unicode": [
@@ -1110,7 +1047,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000123",
+      "id": "000116",
       "emoji": "😾",
       "description": "pouting cat",
       "unicode": [
@@ -1119,7 +1056,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000124",
+      "id": "000117",
       "emoji": "🙈",
       "description": "see-no-evil monkey",
       "unicode": [
@@ -1128,7 +1065,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000125",
+      "id": "000118",
       "emoji": "🙉",
       "description": "hear-no-evil monkey",
       "unicode": [
@@ -1137,7 +1074,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000126",
+      "id": "000119",
       "emoji": "🙊",
       "description": "speak-no-evil monkey",
       "unicode": [
@@ -1146,7 +1083,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000127",
+      "id": "000120",
       "emoji": "💋",
       "description": "kiss mark",
       "unicode": [
@@ -1155,7 +1092,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000128",
+      "id": "000121",
       "emoji": "💌",
       "description": "love letter",
       "unicode": [
@@ -1164,7 +1101,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000129",
+      "id": "000122",
       "emoji": "💘",
       "description": "heart with arrow",
       "unicode": [
@@ -1173,7 +1110,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000130",
+      "id": "000123",
       "emoji": "💝",
       "description": "heart with ribbon",
       "unicode": [
@@ -1182,7 +1119,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000131",
+      "id": "000124",
       "emoji": "💖",
       "description": "sparkling heart",
       "unicode": [
@@ -1191,7 +1128,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000132",
+      "id": "000125",
       "emoji": "💗",
       "description": "growing heart",
       "unicode": [
@@ -1200,7 +1137,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000133",
+      "id": "000126",
       "emoji": "💓",
       "description": "beating heart",
       "unicode": [
@@ -1209,7 +1146,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000134",
+      "id": "000127",
       "emoji": "💞",
       "description": "revolving hearts",
       "unicode": [
@@ -1218,7 +1155,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000135",
+      "id": "000128",
       "emoji": "💕",
       "description": "two hearts",
       "unicode": [
@@ -1227,7 +1164,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000136",
+      "id": "000129",
       "emoji": "💟",
       "description": "heart decoration",
       "unicode": [
@@ -1236,7 +1173,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000137",
+      "id": "000130",
       "emoji": "❣️",
       "description": "heart exclamation",
       "unicode": [
@@ -1246,7 +1183,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000138",
+      "id": "000131",
       "emoji": "💔",
       "description": "broken heart",
       "unicode": [
@@ -1255,7 +1192,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000139",
+      "id": "000132",
       "emoji": "❤️‍🔥",
       "description": "heart on fire",
       "unicode": [
@@ -1267,7 +1204,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000140",
+      "id": "000133",
       "emoji": "❤️‍🩹",
       "description": "mending heart",
       "unicode": [
@@ -1279,7 +1216,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000141",
+      "id": "000134",
       "emoji": "❤️",
       "description": "red heart",
       "unicode": [
@@ -1289,7 +1226,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000142",
+      "id": "000135",
       "emoji": "🧡",
       "description": "orange heart",
       "unicode": [
@@ -1298,7 +1235,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000143",
+      "id": "000136",
       "emoji": "💛",
       "description": "yellow heart",
       "unicode": [
@@ -1307,7 +1244,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000144",
+      "id": "000137",
       "emoji": "💚",
       "description": "green heart",
       "unicode": [
@@ -1316,7 +1253,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000145",
+      "id": "000138",
       "emoji": "💙",
       "description": "blue heart",
       "unicode": [
@@ -1325,7 +1262,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000146",
+      "id": "000139",
       "emoji": "💜",
       "description": "purple heart",
       "unicode": [
@@ -1334,7 +1271,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000147",
+      "id": "000140",
       "emoji": "🤎",
       "description": "brown heart",
       "unicode": [
@@ -1343,7 +1280,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000148",
+      "id": "000141",
       "emoji": "🖤",
       "description": "black heart",
       "unicode": [
@@ -1352,7 +1289,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000149",
+      "id": "000142",
       "emoji": "🤍",
       "description": "white heart",
       "unicode": [
@@ -1361,7 +1298,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000150",
+      "id": "000143",
       "emoji": "💯",
       "description": "hundred points",
       "unicode": [
@@ -1370,7 +1307,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000151",
+      "id": "000144",
       "emoji": "💢",
       "description": "anger symbol",
       "unicode": [
@@ -1379,7 +1316,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000152",
+      "id": "000145",
       "emoji": "💥",
       "description": "collision",
       "unicode": [
@@ -1388,7 +1325,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000153",
+      "id": "000146",
       "emoji": "💫",
       "description": "dizzy",
       "unicode": [
@@ -1397,7 +1334,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000154",
+      "id": "000147",
       "emoji": "💦",
       "description": "sweat droplets",
       "unicode": [
@@ -1406,7 +1343,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000155",
+      "id": "000148",
       "emoji": "💨",
       "description": "dashing away",
       "unicode": [
@@ -1415,7 +1352,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000156",
+      "id": "000149",
       "emoji": "🕳️",
       "description": "hole",
       "unicode": [
@@ -1425,7 +1362,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "000157",
+      "id": "000150",
       "emoji": "💣",
       "description": "bomb",
       "unicode": [
@@ -1434,7 +1371,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000158",
+      "id": "000151",
       "emoji": "💬",
       "description": "speech balloon",
       "unicode": [
@@ -1443,7 +1380,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000159",
+      "id": "000152",
       "emoji": "👁️‍🗨️",
       "description": "eye in speech bubble",
       "unicode": [
@@ -1456,7 +1393,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "000160",
+      "id": "000153",
       "emoji": "🗨️",
       "description": "left speech bubble",
       "unicode": [
@@ -1466,7 +1403,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "000161",
+      "id": "000154",
       "emoji": "🗯️",
       "description": "right anger bubble",
       "unicode": [
@@ -1476,7 +1413,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "000162",
+      "id": "000155",
       "emoji": "💭",
       "description": "thought balloon",
       "unicode": [
@@ -1485,7 +1422,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000163",
+      "id": "000156",
       "emoji": "💤",
       "description": "zzz",
       "unicode": [
@@ -1494,7 +1431,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000164",
+      "id": "000157",
       "emoji": "👋",
       "description": "waving hand",
       "unicode": [
@@ -1503,7 +1440,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000165",
+      "id": "000158",
       "emoji": "👋🏻",
       "description": "waving hand: light skin tone",
       "unicode": [
@@ -1513,7 +1450,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000166",
+      "id": "000159",
       "emoji": "👋🏼",
       "description": "waving hand: medium-light skin tone",
       "unicode": [
@@ -1523,7 +1460,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000167",
+      "id": "000160",
       "emoji": "👋🏽",
       "description": "waving hand: medium skin tone",
       "unicode": [
@@ -1533,7 +1470,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000168",
+      "id": "000161",
       "emoji": "👋🏾",
       "description": "waving hand: medium-dark skin tone",
       "unicode": [
@@ -1543,7 +1480,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000169",
+      "id": "000162",
       "emoji": "👋🏿",
       "description": "waving hand: dark skin tone",
       "unicode": [
@@ -1553,7 +1490,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000170",
+      "id": "000163",
       "emoji": "🤚",
       "description": "raised back of hand",
       "unicode": [
@@ -1562,7 +1499,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000171",
+      "id": "000164",
       "emoji": "🤚🏻",
       "description": "raised back of hand: light skin tone",
       "unicode": [
@@ -1572,7 +1509,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000172",
+      "id": "000165",
       "emoji": "🤚🏼",
       "description": "raised back of hand: medium-light skin tone",
       "unicode": [
@@ -1582,7 +1519,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000173",
+      "id": "000166",
       "emoji": "🤚🏽",
       "description": "raised back of hand: medium skin tone",
       "unicode": [
@@ -1592,7 +1529,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000174",
+      "id": "000167",
       "emoji": "🤚🏾",
       "description": "raised back of hand: medium-dark skin tone",
       "unicode": [
@@ -1602,7 +1539,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000175",
+      "id": "000168",
       "emoji": "🤚🏿",
       "description": "raised back of hand: dark skin tone",
       "unicode": [
@@ -1612,7 +1549,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000176",
+      "id": "000169",
       "emoji": "🖐️",
       "description": "hand with fingers splayed",
       "unicode": [
@@ -1622,7 +1559,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "000177",
+      "id": "000170",
       "emoji": "🖐🏻",
       "description": "hand with fingers splayed: light skin tone",
       "unicode": [
@@ -1632,7 +1569,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000178",
+      "id": "000171",
       "emoji": "🖐🏼",
       "description": "hand with fingers splayed: medium-light skin tone",
       "unicode": [
@@ -1642,7 +1579,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000179",
+      "id": "000172",
       "emoji": "🖐🏽",
       "description": "hand with fingers splayed: medium skin tone",
       "unicode": [
@@ -1652,7 +1589,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000180",
+      "id": "000173",
       "emoji": "🖐🏾",
       "description": "hand with fingers splayed: medium-dark skin tone",
       "unicode": [
@@ -1662,7 +1599,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000181",
+      "id": "000174",
       "emoji": "🖐🏿",
       "description": "hand with fingers splayed: dark skin tone",
       "unicode": [
@@ -1672,7 +1609,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000182",
+      "id": "000175",
       "emoji": "✋",
       "description": "raised hand",
       "unicode": [
@@ -1681,7 +1618,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000183",
+      "id": "000176",
       "emoji": "✋🏻",
       "description": "raised hand: light skin tone",
       "unicode": [
@@ -1691,7 +1628,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000184",
+      "id": "000177",
       "emoji": "✋🏼",
       "description": "raised hand: medium-light skin tone",
       "unicode": [
@@ -1701,7 +1638,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000185",
+      "id": "000178",
       "emoji": "✋🏽",
       "description": "raised hand: medium skin tone",
       "unicode": [
@@ -1711,7 +1648,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000186",
+      "id": "000179",
       "emoji": "✋🏾",
       "description": "raised hand: medium-dark skin tone",
       "unicode": [
@@ -1721,7 +1658,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000187",
+      "id": "000180",
       "emoji": "✋🏿",
       "description": "raised hand: dark skin tone",
       "unicode": [
@@ -1731,7 +1668,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000188",
+      "id": "000181",
       "emoji": "🖖",
       "description": "vulcan salute",
       "unicode": [
@@ -1740,7 +1677,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000189",
+      "id": "000182",
       "emoji": "🖖🏻",
       "description": "vulcan salute: light skin tone",
       "unicode": [
@@ -1750,7 +1687,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000190",
+      "id": "000183",
       "emoji": "🖖🏼",
       "description": "vulcan salute: medium-light skin tone",
       "unicode": [
@@ -1760,7 +1697,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000191",
+      "id": "000184",
       "emoji": "🖖🏽",
       "description": "vulcan salute: medium skin tone",
       "unicode": [
@@ -1770,7 +1707,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000192",
+      "id": "000185",
       "emoji": "🖖🏾",
       "description": "vulcan salute: medium-dark skin tone",
       "unicode": [
@@ -1780,7 +1717,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000193",
+      "id": "000186",
       "emoji": "🖖🏿",
       "description": "vulcan salute: dark skin tone",
       "unicode": [
@@ -1790,243 +1727,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000194",
-      "emoji": "🫱",
-      "description": "rightwards hand",
-      "unicode": [
-        "1FAF1"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000195",
-      "emoji": "🫱🏻",
-      "description": "rightwards hand: light skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FB"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000196",
-      "emoji": "🫱🏼",
-      "description": "rightwards hand: medium-light skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000197",
-      "emoji": "🫱🏽",
-      "description": "rightwards hand: medium skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FD"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000198",
-      "emoji": "🫱🏾",
-      "description": "rightwards hand: medium-dark skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FE"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000199",
-      "emoji": "🫱🏿",
-      "description": "rightwards hand: dark skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FF"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000200",
-      "emoji": "🫲",
-      "description": "leftwards hand",
-      "unicode": [
-        "1FAF2"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000201",
-      "emoji": "🫲🏻",
-      "description": "leftwards hand: light skin tone",
-      "unicode": [
-        "1FAF2",
-        "1F3FB"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000202",
-      "emoji": "🫲🏼",
-      "description": "leftwards hand: medium-light skin tone",
-      "unicode": [
-        "1FAF2",
-        "1F3FC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000203",
-      "emoji": "🫲🏽",
-      "description": "leftwards hand: medium skin tone",
-      "unicode": [
-        "1FAF2",
-        "1F3FD"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000204",
-      "emoji": "🫲🏾",
-      "description": "leftwards hand: medium-dark skin tone",
-      "unicode": [
-        "1FAF2",
-        "1F3FE"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000205",
-      "emoji": "🫲🏿",
-      "description": "leftwards hand: dark skin tone",
-      "unicode": [
-        "1FAF2",
-        "1F3FF"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000206",
-      "emoji": "🫳",
-      "description": "palm down hand",
-      "unicode": [
-        "1FAF3"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000207",
-      "emoji": "🫳🏻",
-      "description": "palm down hand: light skin tone",
-      "unicode": [
-        "1FAF3",
-        "1F3FB"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000208",
-      "emoji": "🫳🏼",
-      "description": "palm down hand: medium-light skin tone",
-      "unicode": [
-        "1FAF3",
-        "1F3FC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000209",
-      "emoji": "🫳🏽",
-      "description": "palm down hand: medium skin tone",
-      "unicode": [
-        "1FAF3",
-        "1F3FD"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000210",
-      "emoji": "🫳🏾",
-      "description": "palm down hand: medium-dark skin tone",
-      "unicode": [
-        "1FAF3",
-        "1F3FE"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000211",
-      "emoji": "🫳🏿",
-      "description": "palm down hand: dark skin tone",
-      "unicode": [
-        "1FAF3",
-        "1F3FF"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000212",
-      "emoji": "🫴",
-      "description": "palm up hand",
-      "unicode": [
-        "1FAF4"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000213",
-      "emoji": "🫴🏻",
-      "description": "palm up hand: light skin tone",
-      "unicode": [
-        "1FAF4",
-        "1F3FB"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000214",
-      "emoji": "🫴🏼",
-      "description": "palm up hand: medium-light skin tone",
-      "unicode": [
-        "1FAF4",
-        "1F3FC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000215",
-      "emoji": "🫴🏽",
-      "description": "palm up hand: medium skin tone",
-      "unicode": [
-        "1FAF4",
-        "1F3FD"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000216",
-      "emoji": "🫴🏾",
-      "description": "palm up hand: medium-dark skin tone",
-      "unicode": [
-        "1FAF4",
-        "1F3FE"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000217",
-      "emoji": "🫴🏿",
-      "description": "palm up hand: dark skin tone",
-      "unicode": [
-        "1FAF4",
-        "1F3FF"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000218",
+      "id": "000187",
       "emoji": "👌",
       "description": "OK hand",
       "unicode": [
@@ -2035,7 +1736,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000219",
+      "id": "000188",
       "emoji": "👌🏻",
       "description": "OK hand: light skin tone",
       "unicode": [
@@ -2045,7 +1746,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000220",
+      "id": "000189",
       "emoji": "👌🏼",
       "description": "OK hand: medium-light skin tone",
       "unicode": [
@@ -2055,7 +1756,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000221",
+      "id": "000190",
       "emoji": "👌🏽",
       "description": "OK hand: medium skin tone",
       "unicode": [
@@ -2065,7 +1766,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000222",
+      "id": "000191",
       "emoji": "👌🏾",
       "description": "OK hand: medium-dark skin tone",
       "unicode": [
@@ -2075,7 +1776,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000223",
+      "id": "000192",
       "emoji": "👌🏿",
       "description": "OK hand: dark skin tone",
       "unicode": [
@@ -2085,7 +1786,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000224",
+      "id": "000193",
       "emoji": "🤌",
       "description": "pinched fingers",
       "unicode": [
@@ -2094,7 +1795,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "000225",
+      "id": "000194",
       "emoji": "🤌🏻",
       "description": "pinched fingers: light skin tone",
       "unicode": [
@@ -2104,7 +1805,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "000226",
+      "id": "000195",
       "emoji": "🤌🏼",
       "description": "pinched fingers: medium-light skin tone",
       "unicode": [
@@ -2114,7 +1815,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "000227",
+      "id": "000196",
       "emoji": "🤌🏽",
       "description": "pinched fingers: medium skin tone",
       "unicode": [
@@ -2124,7 +1825,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "000228",
+      "id": "000197",
       "emoji": "🤌🏾",
       "description": "pinched fingers: medium-dark skin tone",
       "unicode": [
@@ -2134,7 +1835,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "000229",
+      "id": "000198",
       "emoji": "🤌🏿",
       "description": "pinched fingers: dark skin tone",
       "unicode": [
@@ -2144,7 +1845,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "000230",
+      "id": "000199",
       "emoji": "🤏",
       "description": "pinching hand",
       "unicode": [
@@ -2153,7 +1854,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000231",
+      "id": "000200",
       "emoji": "🤏🏻",
       "description": "pinching hand: light skin tone",
       "unicode": [
@@ -2163,7 +1864,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000232",
+      "id": "000201",
       "emoji": "🤏🏼",
       "description": "pinching hand: medium-light skin tone",
       "unicode": [
@@ -2173,7 +1874,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000233",
+      "id": "000202",
       "emoji": "🤏🏽",
       "description": "pinching hand: medium skin tone",
       "unicode": [
@@ -2183,7 +1884,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000234",
+      "id": "000203",
       "emoji": "🤏🏾",
       "description": "pinching hand: medium-dark skin tone",
       "unicode": [
@@ -2193,7 +1894,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000235",
+      "id": "000204",
       "emoji": "🤏🏿",
       "description": "pinching hand: dark skin tone",
       "unicode": [
@@ -2203,7 +1904,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000236",
+      "id": "000205",
       "emoji": "✌️",
       "description": "victory hand",
       "unicode": [
@@ -2213,7 +1914,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000237",
+      "id": "000206",
       "emoji": "✌🏻",
       "description": "victory hand: light skin tone",
       "unicode": [
@@ -2223,7 +1924,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000238",
+      "id": "000207",
       "emoji": "✌🏼",
       "description": "victory hand: medium-light skin tone",
       "unicode": [
@@ -2233,7 +1934,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000239",
+      "id": "000208",
       "emoji": "✌🏽",
       "description": "victory hand: medium skin tone",
       "unicode": [
@@ -2243,7 +1944,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000240",
+      "id": "000209",
       "emoji": "✌🏾",
       "description": "victory hand: medium-dark skin tone",
       "unicode": [
@@ -2253,7 +1954,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000241",
+      "id": "000210",
       "emoji": "✌🏿",
       "description": "victory hand: dark skin tone",
       "unicode": [
@@ -2263,7 +1964,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000242",
+      "id": "000211",
       "emoji": "🤞",
       "description": "crossed fingers",
       "unicode": [
@@ -2272,7 +1973,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000243",
+      "id": "000212",
       "emoji": "🤞🏻",
       "description": "crossed fingers: light skin tone",
       "unicode": [
@@ -2282,7 +1983,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000244",
+      "id": "000213",
       "emoji": "🤞🏼",
       "description": "crossed fingers: medium-light skin tone",
       "unicode": [
@@ -2292,7 +1993,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000245",
+      "id": "000214",
       "emoji": "🤞🏽",
       "description": "crossed fingers: medium skin tone",
       "unicode": [
@@ -2302,7 +2003,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000246",
+      "id": "000215",
       "emoji": "🤞🏾",
       "description": "crossed fingers: medium-dark skin tone",
       "unicode": [
@@ -2312,7 +2013,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000247",
+      "id": "000216",
       "emoji": "🤞🏿",
       "description": "crossed fingers: dark skin tone",
       "unicode": [
@@ -2322,66 +2023,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000248",
-      "emoji": "🫰",
-      "description": "hand with index finger and thumb crossed",
-      "unicode": [
-        "1FAF0"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000249",
-      "emoji": "🫰🏻",
-      "description": "hand with index finger and thumb crossed: light skin tone",
-      "unicode": [
-        "1FAF0",
-        "1F3FB"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000250",
-      "emoji": "🫰🏼",
-      "description": "hand with index finger and thumb crossed: medium-light skin tone",
-      "unicode": [
-        "1FAF0",
-        "1F3FC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000251",
-      "emoji": "🫰🏽",
-      "description": "hand with index finger and thumb crossed: medium skin tone",
-      "unicode": [
-        "1FAF0",
-        "1F3FD"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000252",
-      "emoji": "🫰🏾",
-      "description": "hand with index finger and thumb crossed: medium-dark skin tone",
-      "unicode": [
-        "1FAF0",
-        "1F3FE"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000253",
-      "emoji": "🫰🏿",
-      "description": "hand with index finger and thumb crossed: dark skin tone",
-      "unicode": [
-        "1FAF0",
-        "1F3FF"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000254",
+      "id": "000217",
       "emoji": "🤟",
       "description": "love-you gesture",
       "unicode": [
@@ -2390,7 +2032,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000255",
+      "id": "000218",
       "emoji": "🤟🏻",
       "description": "love-you gesture: light skin tone",
       "unicode": [
@@ -2400,7 +2042,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000256",
+      "id": "000219",
       "emoji": "🤟🏼",
       "description": "love-you gesture: medium-light skin tone",
       "unicode": [
@@ -2410,7 +2052,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000257",
+      "id": "000220",
       "emoji": "🤟🏽",
       "description": "love-you gesture: medium skin tone",
       "unicode": [
@@ -2420,7 +2062,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000258",
+      "id": "000221",
       "emoji": "🤟🏾",
       "description": "love-you gesture: medium-dark skin tone",
       "unicode": [
@@ -2430,7 +2072,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000259",
+      "id": "000222",
       "emoji": "🤟🏿",
       "description": "love-you gesture: dark skin tone",
       "unicode": [
@@ -2440,7 +2082,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000260",
+      "id": "000223",
       "emoji": "🤘",
       "description": "sign of the horns",
       "unicode": [
@@ -2449,7 +2091,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000261",
+      "id": "000224",
       "emoji": "🤘🏻",
       "description": "sign of the horns: light skin tone",
       "unicode": [
@@ -2459,7 +2101,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000262",
+      "id": "000225",
       "emoji": "🤘🏼",
       "description": "sign of the horns: medium-light skin tone",
       "unicode": [
@@ -2469,7 +2111,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000263",
+      "id": "000226",
       "emoji": "🤘🏽",
       "description": "sign of the horns: medium skin tone",
       "unicode": [
@@ -2479,7 +2121,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000264",
+      "id": "000227",
       "emoji": "🤘🏾",
       "description": "sign of the horns: medium-dark skin tone",
       "unicode": [
@@ -2489,7 +2131,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000265",
+      "id": "000228",
       "emoji": "🤘🏿",
       "description": "sign of the horns: dark skin tone",
       "unicode": [
@@ -2499,7 +2141,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000266",
+      "id": "000229",
       "emoji": "🤙",
       "description": "call me hand",
       "unicode": [
@@ -2508,7 +2150,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000267",
+      "id": "000230",
       "emoji": "🤙🏻",
       "description": "call me hand: light skin tone",
       "unicode": [
@@ -2518,7 +2160,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000268",
+      "id": "000231",
       "emoji": "🤙🏼",
       "description": "call me hand: medium-light skin tone",
       "unicode": [
@@ -2528,7 +2170,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000269",
+      "id": "000232",
       "emoji": "🤙🏽",
       "description": "call me hand: medium skin tone",
       "unicode": [
@@ -2538,7 +2180,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000270",
+      "id": "000233",
       "emoji": "🤙🏾",
       "description": "call me hand: medium-dark skin tone",
       "unicode": [
@@ -2548,7 +2190,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000271",
+      "id": "000234",
       "emoji": "🤙🏿",
       "description": "call me hand: dark skin tone",
       "unicode": [
@@ -2558,7 +2200,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000272",
+      "id": "000235",
       "emoji": "👈",
       "description": "backhand index pointing left",
       "unicode": [
@@ -2567,7 +2209,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000273",
+      "id": "000236",
       "emoji": "👈🏻",
       "description": "backhand index pointing left: light skin tone",
       "unicode": [
@@ -2577,7 +2219,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000274",
+      "id": "000237",
       "emoji": "👈🏼",
       "description": "backhand index pointing left: medium-light skin tone",
       "unicode": [
@@ -2587,7 +2229,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000275",
+      "id": "000238",
       "emoji": "👈🏽",
       "description": "backhand index pointing left: medium skin tone",
       "unicode": [
@@ -2597,7 +2239,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000276",
+      "id": "000239",
       "emoji": "👈🏾",
       "description": "backhand index pointing left: medium-dark skin tone",
       "unicode": [
@@ -2607,7 +2249,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000277",
+      "id": "000240",
       "emoji": "👈🏿",
       "description": "backhand index pointing left: dark skin tone",
       "unicode": [
@@ -2617,7 +2259,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000278",
+      "id": "000241",
       "emoji": "👉",
       "description": "backhand index pointing right",
       "unicode": [
@@ -2626,7 +2268,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000279",
+      "id": "000242",
       "emoji": "👉🏻",
       "description": "backhand index pointing right: light skin tone",
       "unicode": [
@@ -2636,7 +2278,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000280",
+      "id": "000243",
       "emoji": "👉🏼",
       "description": "backhand index pointing right: medium-light skin tone",
       "unicode": [
@@ -2646,7 +2288,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000281",
+      "id": "000244",
       "emoji": "👉🏽",
       "description": "backhand index pointing right: medium skin tone",
       "unicode": [
@@ -2656,7 +2298,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000282",
+      "id": "000245",
       "emoji": "👉🏾",
       "description": "backhand index pointing right: medium-dark skin tone",
       "unicode": [
@@ -2666,7 +2308,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000283",
+      "id": "000246",
       "emoji": "👉🏿",
       "description": "backhand index pointing right: dark skin tone",
       "unicode": [
@@ -2676,7 +2318,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000284",
+      "id": "000247",
       "emoji": "👆",
       "description": "backhand index pointing up",
       "unicode": [
@@ -2685,7 +2327,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000285",
+      "id": "000248",
       "emoji": "👆🏻",
       "description": "backhand index pointing up: light skin tone",
       "unicode": [
@@ -2695,7 +2337,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000286",
+      "id": "000249",
       "emoji": "👆🏼",
       "description": "backhand index pointing up: medium-light skin tone",
       "unicode": [
@@ -2705,7 +2347,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000287",
+      "id": "000250",
       "emoji": "👆🏽",
       "description": "backhand index pointing up: medium skin tone",
       "unicode": [
@@ -2715,7 +2357,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000288",
+      "id": "000251",
       "emoji": "👆🏾",
       "description": "backhand index pointing up: medium-dark skin tone",
       "unicode": [
@@ -2725,7 +2367,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000289",
+      "id": "000252",
       "emoji": "👆🏿",
       "description": "backhand index pointing up: dark skin tone",
       "unicode": [
@@ -2735,7 +2377,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000290",
+      "id": "000253",
       "emoji": "🖕",
       "description": "middle finger",
       "unicode": [
@@ -2744,7 +2386,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000291",
+      "id": "000254",
       "emoji": "🖕🏻",
       "description": "middle finger: light skin tone",
       "unicode": [
@@ -2754,7 +2396,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000292",
+      "id": "000255",
       "emoji": "🖕🏼",
       "description": "middle finger: medium-light skin tone",
       "unicode": [
@@ -2764,7 +2406,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000293",
+      "id": "000256",
       "emoji": "🖕🏽",
       "description": "middle finger: medium skin tone",
       "unicode": [
@@ -2774,7 +2416,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000294",
+      "id": "000257",
       "emoji": "🖕🏾",
       "description": "middle finger: medium-dark skin tone",
       "unicode": [
@@ -2784,7 +2426,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000295",
+      "id": "000258",
       "emoji": "🖕🏿",
       "description": "middle finger: dark skin tone",
       "unicode": [
@@ -2794,7 +2436,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000296",
+      "id": "000259",
       "emoji": "👇",
       "description": "backhand index pointing down",
       "unicode": [
@@ -2803,7 +2445,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000297",
+      "id": "000260",
       "emoji": "👇🏻",
       "description": "backhand index pointing down: light skin tone",
       "unicode": [
@@ -2813,7 +2455,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000298",
+      "id": "000261",
       "emoji": "👇🏼",
       "description": "backhand index pointing down: medium-light skin tone",
       "unicode": [
@@ -2823,7 +2465,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000299",
+      "id": "000262",
       "emoji": "👇🏽",
       "description": "backhand index pointing down: medium skin tone",
       "unicode": [
@@ -2833,7 +2475,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000300",
+      "id": "000263",
       "emoji": "👇🏾",
       "description": "backhand index pointing down: medium-dark skin tone",
       "unicode": [
@@ -2843,7 +2485,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000301",
+      "id": "000264",
       "emoji": "👇🏿",
       "description": "backhand index pointing down: dark skin tone",
       "unicode": [
@@ -2853,7 +2495,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000302",
+      "id": "000265",
       "emoji": "☝️",
       "description": "index pointing up",
       "unicode": [
@@ -2863,7 +2505,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000303",
+      "id": "000266",
       "emoji": "☝🏻",
       "description": "index pointing up: light skin tone",
       "unicode": [
@@ -2873,7 +2515,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000304",
+      "id": "000267",
       "emoji": "☝🏼",
       "description": "index pointing up: medium-light skin tone",
       "unicode": [
@@ -2883,7 +2525,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000305",
+      "id": "000268",
       "emoji": "☝🏽",
       "description": "index pointing up: medium skin tone",
       "unicode": [
@@ -2893,7 +2535,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000306",
+      "id": "000269",
       "emoji": "☝🏾",
       "description": "index pointing up: medium-dark skin tone",
       "unicode": [
@@ -2903,7 +2545,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000307",
+      "id": "000270",
       "emoji": "☝🏿",
       "description": "index pointing up: dark skin tone",
       "unicode": [
@@ -2913,66 +2555,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000308",
-      "emoji": "🫵",
-      "description": "index pointing at the viewer",
-      "unicode": [
-        "1FAF5"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000309",
-      "emoji": "🫵🏻",
-      "description": "index pointing at the viewer: light skin tone",
-      "unicode": [
-        "1FAF5",
-        "1F3FB"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000310",
-      "emoji": "🫵🏼",
-      "description": "index pointing at the viewer: medium-light skin tone",
-      "unicode": [
-        "1FAF5",
-        "1F3FC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000311",
-      "emoji": "🫵🏽",
-      "description": "index pointing at the viewer: medium skin tone",
-      "unicode": [
-        "1FAF5",
-        "1F3FD"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000312",
-      "emoji": "🫵🏾",
-      "description": "index pointing at the viewer: medium-dark skin tone",
-      "unicode": [
-        "1FAF5",
-        "1F3FE"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000313",
-      "emoji": "🫵🏿",
-      "description": "index pointing at the viewer: dark skin tone",
-      "unicode": [
-        "1FAF5",
-        "1F3FF"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000314",
+      "id": "000271",
       "emoji": "👍",
       "description": "thumbs up",
       "unicode": [
@@ -2981,7 +2564,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000315",
+      "id": "000272",
       "emoji": "👍🏻",
       "description": "thumbs up: light skin tone",
       "unicode": [
@@ -2991,7 +2574,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000316",
+      "id": "000273",
       "emoji": "👍🏼",
       "description": "thumbs up: medium-light skin tone",
       "unicode": [
@@ -3001,7 +2584,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000317",
+      "id": "000274",
       "emoji": "👍🏽",
       "description": "thumbs up: medium skin tone",
       "unicode": [
@@ -3011,7 +2594,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000318",
+      "id": "000275",
       "emoji": "👍🏾",
       "description": "thumbs up: medium-dark skin tone",
       "unicode": [
@@ -3021,7 +2604,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000319",
+      "id": "000276",
       "emoji": "👍🏿",
       "description": "thumbs up: dark skin tone",
       "unicode": [
@@ -3031,7 +2614,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000320",
+      "id": "000277",
       "emoji": "👎",
       "description": "thumbs down",
       "unicode": [
@@ -3040,7 +2623,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000321",
+      "id": "000278",
       "emoji": "👎🏻",
       "description": "thumbs down: light skin tone",
       "unicode": [
@@ -3050,7 +2633,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000322",
+      "id": "000279",
       "emoji": "👎🏼",
       "description": "thumbs down: medium-light skin tone",
       "unicode": [
@@ -3060,7 +2643,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000323",
+      "id": "000280",
       "emoji": "👎🏽",
       "description": "thumbs down: medium skin tone",
       "unicode": [
@@ -3070,7 +2653,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000324",
+      "id": "000281",
       "emoji": "👎🏾",
       "description": "thumbs down: medium-dark skin tone",
       "unicode": [
@@ -3080,7 +2663,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000325",
+      "id": "000282",
       "emoji": "👎🏿",
       "description": "thumbs down: dark skin tone",
       "unicode": [
@@ -3090,7 +2673,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000326",
+      "id": "000283",
       "emoji": "✊",
       "description": "raised fist",
       "unicode": [
@@ -3099,7 +2682,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000327",
+      "id": "000284",
       "emoji": "✊🏻",
       "description": "raised fist: light skin tone",
       "unicode": [
@@ -3109,7 +2692,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000328",
+      "id": "000285",
       "emoji": "✊🏼",
       "description": "raised fist: medium-light skin tone",
       "unicode": [
@@ -3119,7 +2702,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000329",
+      "id": "000286",
       "emoji": "✊🏽",
       "description": "raised fist: medium skin tone",
       "unicode": [
@@ -3129,7 +2712,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000330",
+      "id": "000287",
       "emoji": "✊🏾",
       "description": "raised fist: medium-dark skin tone",
       "unicode": [
@@ -3139,7 +2722,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000331",
+      "id": "000288",
       "emoji": "✊🏿",
       "description": "raised fist: dark skin tone",
       "unicode": [
@@ -3149,7 +2732,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000332",
+      "id": "000289",
       "emoji": "👊",
       "description": "oncoming fist",
       "unicode": [
@@ -3158,7 +2741,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000333",
+      "id": "000290",
       "emoji": "👊🏻",
       "description": "oncoming fist: light skin tone",
       "unicode": [
@@ -3168,7 +2751,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000334",
+      "id": "000291",
       "emoji": "👊🏼",
       "description": "oncoming fist: medium-light skin tone",
       "unicode": [
@@ -3178,7 +2761,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000335",
+      "id": "000292",
       "emoji": "👊🏽",
       "description": "oncoming fist: medium skin tone",
       "unicode": [
@@ -3188,7 +2771,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000336",
+      "id": "000293",
       "emoji": "👊🏾",
       "description": "oncoming fist: medium-dark skin tone",
       "unicode": [
@@ -3198,7 +2781,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000337",
+      "id": "000294",
       "emoji": "👊🏿",
       "description": "oncoming fist: dark skin tone",
       "unicode": [
@@ -3208,7 +2791,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000338",
+      "id": "000295",
       "emoji": "🤛",
       "description": "left-facing fist",
       "unicode": [
@@ -3217,7 +2800,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000339",
+      "id": "000296",
       "emoji": "🤛🏻",
       "description": "left-facing fist: light skin tone",
       "unicode": [
@@ -3227,7 +2810,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000340",
+      "id": "000297",
       "emoji": "🤛🏼",
       "description": "left-facing fist: medium-light skin tone",
       "unicode": [
@@ -3237,7 +2820,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000341",
+      "id": "000298",
       "emoji": "🤛🏽",
       "description": "left-facing fist: medium skin tone",
       "unicode": [
@@ -3247,7 +2830,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000342",
+      "id": "000299",
       "emoji": "🤛🏾",
       "description": "left-facing fist: medium-dark skin tone",
       "unicode": [
@@ -3257,7 +2840,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000343",
+      "id": "000300",
       "emoji": "🤛🏿",
       "description": "left-facing fist: dark skin tone",
       "unicode": [
@@ -3267,7 +2850,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000344",
+      "id": "000301",
       "emoji": "🤜",
       "description": "right-facing fist",
       "unicode": [
@@ -3276,7 +2859,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000345",
+      "id": "000302",
       "emoji": "🤜🏻",
       "description": "right-facing fist: light skin tone",
       "unicode": [
@@ -3286,7 +2869,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000346",
+      "id": "000303",
       "emoji": "🤜🏼",
       "description": "right-facing fist: medium-light skin tone",
       "unicode": [
@@ -3296,7 +2879,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000347",
+      "id": "000304",
       "emoji": "🤜🏽",
       "description": "right-facing fist: medium skin tone",
       "unicode": [
@@ -3306,7 +2889,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000348",
+      "id": "000305",
       "emoji": "🤜🏾",
       "description": "right-facing fist: medium-dark skin tone",
       "unicode": [
@@ -3316,7 +2899,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000349",
+      "id": "000306",
       "emoji": "🤜🏿",
       "description": "right-facing fist: dark skin tone",
       "unicode": [
@@ -3326,7 +2909,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000350",
+      "id": "000307",
       "emoji": "👏",
       "description": "clapping hands",
       "unicode": [
@@ -3335,7 +2918,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000351",
+      "id": "000308",
       "emoji": "👏🏻",
       "description": "clapping hands: light skin tone",
       "unicode": [
@@ -3345,7 +2928,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000352",
+      "id": "000309",
       "emoji": "👏🏼",
       "description": "clapping hands: medium-light skin tone",
       "unicode": [
@@ -3355,7 +2938,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000353",
+      "id": "000310",
       "emoji": "👏🏽",
       "description": "clapping hands: medium skin tone",
       "unicode": [
@@ -3365,7 +2948,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000354",
+      "id": "000311",
       "emoji": "👏🏾",
       "description": "clapping hands: medium-dark skin tone",
       "unicode": [
@@ -3375,7 +2958,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000355",
+      "id": "000312",
       "emoji": "👏🏿",
       "description": "clapping hands: dark skin tone",
       "unicode": [
@@ -3385,7 +2968,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000356",
+      "id": "000313",
       "emoji": "🙌",
       "description": "raising hands",
       "unicode": [
@@ -3394,7 +2977,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000357",
+      "id": "000314",
       "emoji": "🙌🏻",
       "description": "raising hands: light skin tone",
       "unicode": [
@@ -3404,7 +2987,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000358",
+      "id": "000315",
       "emoji": "🙌🏼",
       "description": "raising hands: medium-light skin tone",
       "unicode": [
@@ -3414,7 +2997,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000359",
+      "id": "000316",
       "emoji": "🙌🏽",
       "description": "raising hands: medium skin tone",
       "unicode": [
@@ -3424,7 +3007,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000360",
+      "id": "000317",
       "emoji": "🙌🏾",
       "description": "raising hands: medium-dark skin tone",
       "unicode": [
@@ -3434,7 +3017,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000361",
+      "id": "000318",
       "emoji": "🙌🏿",
       "description": "raising hands: dark skin tone",
       "unicode": [
@@ -3444,66 +3027,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000362",
-      "emoji": "🫶",
-      "description": "heart hands",
-      "unicode": [
-        "1FAF6"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000363",
-      "emoji": "🫶🏻",
-      "description": "heart hands: light skin tone",
-      "unicode": [
-        "1FAF6",
-        "1F3FB"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000364",
-      "emoji": "🫶🏼",
-      "description": "heart hands: medium-light skin tone",
-      "unicode": [
-        "1FAF6",
-        "1F3FC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000365",
-      "emoji": "🫶🏽",
-      "description": "heart hands: medium skin tone",
-      "unicode": [
-        "1FAF6",
-        "1F3FD"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000366",
-      "emoji": "🫶🏾",
-      "description": "heart hands: medium-dark skin tone",
-      "unicode": [
-        "1FAF6",
-        "1F3FE"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000367",
-      "emoji": "🫶🏿",
-      "description": "heart hands: dark skin tone",
-      "unicode": [
-        "1FAF6",
-        "1F3FF"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000368",
+      "id": "000319",
       "emoji": "👐",
       "description": "open hands",
       "unicode": [
@@ -3512,7 +3036,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000369",
+      "id": "000320",
       "emoji": "👐🏻",
       "description": "open hands: light skin tone",
       "unicode": [
@@ -3522,7 +3046,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000370",
+      "id": "000321",
       "emoji": "👐🏼",
       "description": "open hands: medium-light skin tone",
       "unicode": [
@@ -3532,7 +3056,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000371",
+      "id": "000322",
       "emoji": "👐🏽",
       "description": "open hands: medium skin tone",
       "unicode": [
@@ -3542,7 +3066,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000372",
+      "id": "000323",
       "emoji": "👐🏾",
       "description": "open hands: medium-dark skin tone",
       "unicode": [
@@ -3552,7 +3076,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000373",
+      "id": "000324",
       "emoji": "👐🏿",
       "description": "open hands: dark skin tone",
       "unicode": [
@@ -3562,7 +3086,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000374",
+      "id": "000325",
       "emoji": "🤲",
       "description": "palms up together",
       "unicode": [
@@ -3571,7 +3095,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000375",
+      "id": "000326",
       "emoji": "🤲🏻",
       "description": "palms up together: light skin tone",
       "unicode": [
@@ -3581,7 +3105,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000376",
+      "id": "000327",
       "emoji": "🤲🏼",
       "description": "palms up together: medium-light skin tone",
       "unicode": [
@@ -3591,7 +3115,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000377",
+      "id": "000328",
       "emoji": "🤲🏽",
       "description": "palms up together: medium skin tone",
       "unicode": [
@@ -3601,7 +3125,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000378",
+      "id": "000329",
       "emoji": "🤲🏾",
       "description": "palms up together: medium-dark skin tone",
       "unicode": [
@@ -3611,7 +3135,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000379",
+      "id": "000330",
       "emoji": "🤲🏿",
       "description": "palms up together: dark skin tone",
       "unicode": [
@@ -3621,7 +3145,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000380",
+      "id": "000331",
       "emoji": "🤝",
       "description": "handshake",
       "unicode": [
@@ -3630,317 +3154,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000381",
-      "emoji": "🤝🏻",
-      "description": "handshake: light skin tone",
-      "unicode": [
-        "1F91D",
-        "1F3FB"
-      ],
-      "versionIntroduced": "E3.0"
-    },
-    {
-      "id": "000382",
-      "emoji": "🤝🏼",
-      "description": "handshake: medium-light skin tone",
-      "unicode": [
-        "1F91D",
-        "1F3FC"
-      ],
-      "versionIntroduced": "E3.0"
-    },
-    {
-      "id": "000383",
-      "emoji": "🤝🏽",
-      "description": "handshake: medium skin tone",
-      "unicode": [
-        "1F91D",
-        "1F3FD"
-      ],
-      "versionIntroduced": "E3.0"
-    },
-    {
-      "id": "000384",
-      "emoji": "🤝🏾",
-      "description": "handshake: medium-dark skin tone",
-      "unicode": [
-        "1F91D",
-        "1F3FE"
-      ],
-      "versionIntroduced": "E3.0"
-    },
-    {
-      "id": "000385",
-      "emoji": "🤝🏿",
-      "description": "handshake: dark skin tone",
-      "unicode": [
-        "1F91D",
-        "1F3FF"
-      ],
-      "versionIntroduced": "E3.0"
-    },
-    {
-      "id": "000386",
-      "emoji": "🫱🏻‍🫲🏼",
-      "description": "handshake: light skin tone, medium-light skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FB",
-        "200D",
-        "1FAF2",
-        "1F3FC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000387",
-      "emoji": "🫱🏻‍🫲🏽",
-      "description": "handshake: light skin tone, medium skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FB",
-        "200D",
-        "1FAF2",
-        "1F3FD"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000388",
-      "emoji": "🫱🏻‍🫲🏾",
-      "description": "handshake: light skin tone, medium-dark skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FB",
-        "200D",
-        "1FAF2",
-        "1F3FE"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000389",
-      "emoji": "🫱🏻‍🫲🏿",
-      "description": "handshake: light skin tone, dark skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FB",
-        "200D",
-        "1FAF2",
-        "1F3FF"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000390",
-      "emoji": "🫱🏼‍🫲🏻",
-      "description": "handshake: medium-light skin tone, light skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FC",
-        "200D",
-        "1FAF2",
-        "1F3FB"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000391",
-      "emoji": "🫱🏼‍🫲🏽",
-      "description": "handshake: medium-light skin tone, medium skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FC",
-        "200D",
-        "1FAF2",
-        "1F3FD"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000392",
-      "emoji": "🫱🏼‍🫲🏾",
-      "description": "handshake: medium-light skin tone, medium-dark skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FC",
-        "200D",
-        "1FAF2",
-        "1F3FE"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000393",
-      "emoji": "🫱🏼‍🫲🏿",
-      "description": "handshake: medium-light skin tone, dark skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FC",
-        "200D",
-        "1FAF2",
-        "1F3FF"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000394",
-      "emoji": "🫱🏽‍🫲🏻",
-      "description": "handshake: medium skin tone, light skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FD",
-        "200D",
-        "1FAF2",
-        "1F3FB"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000395",
-      "emoji": "🫱🏽‍🫲🏼",
-      "description": "handshake: medium skin tone, medium-light skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FD",
-        "200D",
-        "1FAF2",
-        "1F3FC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000396",
-      "emoji": "🫱🏽‍🫲🏾",
-      "description": "handshake: medium skin tone, medium-dark skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FD",
-        "200D",
-        "1FAF2",
-        "1F3FE"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000397",
-      "emoji": "🫱🏽‍🫲🏿",
-      "description": "handshake: medium skin tone, dark skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FD",
-        "200D",
-        "1FAF2",
-        "1F3FF"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000398",
-      "emoji": "🫱🏾‍🫲🏻",
-      "description": "handshake: medium-dark skin tone, light skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FE",
-        "200D",
-        "1FAF2",
-        "1F3FB"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000399",
-      "emoji": "🫱🏾‍🫲🏼",
-      "description": "handshake: medium-dark skin tone, medium-light skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FE",
-        "200D",
-        "1FAF2",
-        "1F3FC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000400",
-      "emoji": "🫱🏾‍🫲🏽",
-      "description": "handshake: medium-dark skin tone, medium skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FE",
-        "200D",
-        "1FAF2",
-        "1F3FD"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000401",
-      "emoji": "🫱🏾‍🫲🏿",
-      "description": "handshake: medium-dark skin tone, dark skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FE",
-        "200D",
-        "1FAF2",
-        "1F3FF"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000402",
-      "emoji": "🫱🏿‍🫲🏻",
-      "description": "handshake: dark skin tone, light skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FF",
-        "200D",
-        "1FAF2",
-        "1F3FB"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000403",
-      "emoji": "🫱🏿‍🫲🏼",
-      "description": "handshake: dark skin tone, medium-light skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FF",
-        "200D",
-        "1FAF2",
-        "1F3FC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000404",
-      "emoji": "🫱🏿‍🫲🏽",
-      "description": "handshake: dark skin tone, medium skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FF",
-        "200D",
-        "1FAF2",
-        "1F3FD"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000405",
-      "emoji": "🫱🏿‍🫲🏾",
-      "description": "handshake: dark skin tone, medium-dark skin tone",
-      "unicode": [
-        "1FAF1",
-        "1F3FF",
-        "200D",
-        "1FAF2",
-        "1F3FE"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000406",
+      "id": "000332",
       "emoji": "🙏",
       "description": "folded hands",
       "unicode": [
@@ -3949,7 +3163,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000407",
+      "id": "000333",
       "emoji": "🙏🏻",
       "description": "folded hands: light skin tone",
       "unicode": [
@@ -3959,7 +3173,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000408",
+      "id": "000334",
       "emoji": "🙏🏼",
       "description": "folded hands: medium-light skin tone",
       "unicode": [
@@ -3969,7 +3183,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000409",
+      "id": "000335",
       "emoji": "🙏🏽",
       "description": "folded hands: medium skin tone",
       "unicode": [
@@ -3979,7 +3193,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000410",
+      "id": "000336",
       "emoji": "🙏🏾",
       "description": "folded hands: medium-dark skin tone",
       "unicode": [
@@ -3989,7 +3203,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000411",
+      "id": "000337",
       "emoji": "🙏🏿",
       "description": "folded hands: dark skin tone",
       "unicode": [
@@ -3999,7 +3213,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000412",
+      "id": "000338",
       "emoji": "✍️",
       "description": "writing hand",
       "unicode": [
@@ -4009,7 +3223,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "000413",
+      "id": "000339",
       "emoji": "✍🏻",
       "description": "writing hand: light skin tone",
       "unicode": [
@@ -4019,7 +3233,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000414",
+      "id": "000340",
       "emoji": "✍🏼",
       "description": "writing hand: medium-light skin tone",
       "unicode": [
@@ -4029,7 +3243,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000415",
+      "id": "000341",
       "emoji": "✍🏽",
       "description": "writing hand: medium skin tone",
       "unicode": [
@@ -4039,7 +3253,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000416",
+      "id": "000342",
       "emoji": "✍🏾",
       "description": "writing hand: medium-dark skin tone",
       "unicode": [
@@ -4049,7 +3263,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000417",
+      "id": "000343",
       "emoji": "✍🏿",
       "description": "writing hand: dark skin tone",
       "unicode": [
@@ -4059,7 +3273,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000418",
+      "id": "000344",
       "emoji": "💅",
       "description": "nail polish",
       "unicode": [
@@ -4068,7 +3282,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000419",
+      "id": "000345",
       "emoji": "💅🏻",
       "description": "nail polish: light skin tone",
       "unicode": [
@@ -4078,7 +3292,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000420",
+      "id": "000346",
       "emoji": "💅🏼",
       "description": "nail polish: medium-light skin tone",
       "unicode": [
@@ -4088,7 +3302,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000421",
+      "id": "000347",
       "emoji": "💅🏽",
       "description": "nail polish: medium skin tone",
       "unicode": [
@@ -4098,7 +3312,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000422",
+      "id": "000348",
       "emoji": "💅🏾",
       "description": "nail polish: medium-dark skin tone",
       "unicode": [
@@ -4108,7 +3322,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000423",
+      "id": "000349",
       "emoji": "💅🏿",
       "description": "nail polish: dark skin tone",
       "unicode": [
@@ -4118,7 +3332,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000424",
+      "id": "000350",
       "emoji": "🤳",
       "description": "selfie",
       "unicode": [
@@ -4127,7 +3341,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000425",
+      "id": "000351",
       "emoji": "🤳🏻",
       "description": "selfie: light skin tone",
       "unicode": [
@@ -4137,7 +3351,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000426",
+      "id": "000352",
       "emoji": "🤳🏼",
       "description": "selfie: medium-light skin tone",
       "unicode": [
@@ -4147,7 +3361,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000427",
+      "id": "000353",
       "emoji": "🤳🏽",
       "description": "selfie: medium skin tone",
       "unicode": [
@@ -4157,7 +3371,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000428",
+      "id": "000354",
       "emoji": "🤳🏾",
       "description": "selfie: medium-dark skin tone",
       "unicode": [
@@ -4167,7 +3381,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000429",
+      "id": "000355",
       "emoji": "🤳🏿",
       "description": "selfie: dark skin tone",
       "unicode": [
@@ -4177,7 +3391,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000430",
+      "id": "000356",
       "emoji": "💪",
       "description": "flexed biceps",
       "unicode": [
@@ -4186,7 +3400,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000431",
+      "id": "000357",
       "emoji": "💪🏻",
       "description": "flexed biceps: light skin tone",
       "unicode": [
@@ -4196,7 +3410,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000432",
+      "id": "000358",
       "emoji": "💪🏼",
       "description": "flexed biceps: medium-light skin tone",
       "unicode": [
@@ -4206,7 +3420,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000433",
+      "id": "000359",
       "emoji": "💪🏽",
       "description": "flexed biceps: medium skin tone",
       "unicode": [
@@ -4216,7 +3430,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000434",
+      "id": "000360",
       "emoji": "💪🏾",
       "description": "flexed biceps: medium-dark skin tone",
       "unicode": [
@@ -4226,7 +3440,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000435",
+      "id": "000361",
       "emoji": "💪🏿",
       "description": "flexed biceps: dark skin tone",
       "unicode": [
@@ -4236,7 +3450,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000436",
+      "id": "000362",
       "emoji": "🦾",
       "description": "mechanical arm",
       "unicode": [
@@ -4245,7 +3459,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000437",
+      "id": "000363",
       "emoji": "🦿",
       "description": "mechanical leg",
       "unicode": [
@@ -4254,7 +3468,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000438",
+      "id": "000364",
       "emoji": "🦵",
       "description": "leg",
       "unicode": [
@@ -4263,7 +3477,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000439",
+      "id": "000365",
       "emoji": "🦵🏻",
       "description": "leg: light skin tone",
       "unicode": [
@@ -4273,7 +3487,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000440",
+      "id": "000366",
       "emoji": "🦵🏼",
       "description": "leg: medium-light skin tone",
       "unicode": [
@@ -4283,7 +3497,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000441",
+      "id": "000367",
       "emoji": "🦵🏽",
       "description": "leg: medium skin tone",
       "unicode": [
@@ -4293,7 +3507,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000442",
+      "id": "000368",
       "emoji": "🦵🏾",
       "description": "leg: medium-dark skin tone",
       "unicode": [
@@ -4303,7 +3517,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000443",
+      "id": "000369",
       "emoji": "🦵🏿",
       "description": "leg: dark skin tone",
       "unicode": [
@@ -4313,7 +3527,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000444",
+      "id": "000370",
       "emoji": "🦶",
       "description": "foot",
       "unicode": [
@@ -4322,7 +3536,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000445",
+      "id": "000371",
       "emoji": "🦶🏻",
       "description": "foot: light skin tone",
       "unicode": [
@@ -4332,7 +3546,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000446",
+      "id": "000372",
       "emoji": "🦶🏼",
       "description": "foot: medium-light skin tone",
       "unicode": [
@@ -4342,7 +3556,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000447",
+      "id": "000373",
       "emoji": "🦶🏽",
       "description": "foot: medium skin tone",
       "unicode": [
@@ -4352,7 +3566,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000448",
+      "id": "000374",
       "emoji": "🦶🏾",
       "description": "foot: medium-dark skin tone",
       "unicode": [
@@ -4362,7 +3576,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000449",
+      "id": "000375",
       "emoji": "🦶🏿",
       "description": "foot: dark skin tone",
       "unicode": [
@@ -4372,7 +3586,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000450",
+      "id": "000376",
       "emoji": "👂",
       "description": "ear",
       "unicode": [
@@ -4381,7 +3595,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000451",
+      "id": "000377",
       "emoji": "👂🏻",
       "description": "ear: light skin tone",
       "unicode": [
@@ -4391,7 +3605,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000452",
+      "id": "000378",
       "emoji": "👂🏼",
       "description": "ear: medium-light skin tone",
       "unicode": [
@@ -4401,7 +3615,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000453",
+      "id": "000379",
       "emoji": "👂🏽",
       "description": "ear: medium skin tone",
       "unicode": [
@@ -4411,7 +3625,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000454",
+      "id": "000380",
       "emoji": "👂🏾",
       "description": "ear: medium-dark skin tone",
       "unicode": [
@@ -4421,7 +3635,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000455",
+      "id": "000381",
       "emoji": "👂🏿",
       "description": "ear: dark skin tone",
       "unicode": [
@@ -4431,7 +3645,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000456",
+      "id": "000382",
       "emoji": "🦻",
       "description": "ear with hearing aid",
       "unicode": [
@@ -4440,7 +3654,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000457",
+      "id": "000383",
       "emoji": "🦻🏻",
       "description": "ear with hearing aid: light skin tone",
       "unicode": [
@@ -4450,7 +3664,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000458",
+      "id": "000384",
       "emoji": "🦻🏼",
       "description": "ear with hearing aid: medium-light skin tone",
       "unicode": [
@@ -4460,7 +3674,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000459",
+      "id": "000385",
       "emoji": "🦻🏽",
       "description": "ear with hearing aid: medium skin tone",
       "unicode": [
@@ -4470,7 +3684,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000460",
+      "id": "000386",
       "emoji": "🦻🏾",
       "description": "ear with hearing aid: medium-dark skin tone",
       "unicode": [
@@ -4480,7 +3694,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000461",
+      "id": "000387",
       "emoji": "🦻🏿",
       "description": "ear with hearing aid: dark skin tone",
       "unicode": [
@@ -4490,7 +3704,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000462",
+      "id": "000388",
       "emoji": "👃",
       "description": "nose",
       "unicode": [
@@ -4499,7 +3713,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000463",
+      "id": "000389",
       "emoji": "👃🏻",
       "description": "nose: light skin tone",
       "unicode": [
@@ -4509,7 +3723,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000464",
+      "id": "000390",
       "emoji": "👃🏼",
       "description": "nose: medium-light skin tone",
       "unicode": [
@@ -4519,7 +3733,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000465",
+      "id": "000391",
       "emoji": "👃🏽",
       "description": "nose: medium skin tone",
       "unicode": [
@@ -4529,7 +3743,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000466",
+      "id": "000392",
       "emoji": "👃🏾",
       "description": "nose: medium-dark skin tone",
       "unicode": [
@@ -4539,7 +3753,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000467",
+      "id": "000393",
       "emoji": "👃🏿",
       "description": "nose: dark skin tone",
       "unicode": [
@@ -4549,7 +3763,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000468",
+      "id": "000394",
       "emoji": "🧠",
       "description": "brain",
       "unicode": [
@@ -4558,7 +3772,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000469",
+      "id": "000395",
       "emoji": "🫀",
       "description": "anatomical heart",
       "unicode": [
@@ -4567,7 +3781,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "000470",
+      "id": "000396",
       "emoji": "🫁",
       "description": "lungs",
       "unicode": [
@@ -4576,7 +3790,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "000471",
+      "id": "000397",
       "emoji": "🦷",
       "description": "tooth",
       "unicode": [
@@ -4585,7 +3799,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000472",
+      "id": "000398",
       "emoji": "🦴",
       "description": "bone",
       "unicode": [
@@ -4594,7 +3808,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000473",
+      "id": "000399",
       "emoji": "👀",
       "description": "eyes",
       "unicode": [
@@ -4603,7 +3817,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000474",
+      "id": "000400",
       "emoji": "👁️",
       "description": "eye",
       "unicode": [
@@ -4613,7 +3827,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "000475",
+      "id": "000401",
       "emoji": "👅",
       "description": "tongue",
       "unicode": [
@@ -4622,7 +3836,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000476",
+      "id": "000402",
       "emoji": "👄",
       "description": "mouth",
       "unicode": [
@@ -4631,16 +3845,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000477",
-      "emoji": "🫦",
-      "description": "biting lip",
-      "unicode": [
-        "1FAE6"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "000478",
+      "id": "000403",
       "emoji": "👶",
       "description": "baby",
       "unicode": [
@@ -4649,7 +3854,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000479",
+      "id": "000404",
       "emoji": "👶🏻",
       "description": "baby: light skin tone",
       "unicode": [
@@ -4659,7 +3864,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000480",
+      "id": "000405",
       "emoji": "👶🏼",
       "description": "baby: medium-light skin tone",
       "unicode": [
@@ -4669,7 +3874,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000481",
+      "id": "000406",
       "emoji": "👶🏽",
       "description": "baby: medium skin tone",
       "unicode": [
@@ -4679,7 +3884,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000482",
+      "id": "000407",
       "emoji": "👶🏾",
       "description": "baby: medium-dark skin tone",
       "unicode": [
@@ -4689,7 +3894,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000483",
+      "id": "000408",
       "emoji": "👶🏿",
       "description": "baby: dark skin tone",
       "unicode": [
@@ -4699,7 +3904,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000484",
+      "id": "000409",
       "emoji": "🧒",
       "description": "child",
       "unicode": [
@@ -4708,7 +3913,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000485",
+      "id": "000410",
       "emoji": "🧒🏻",
       "description": "child: light skin tone",
       "unicode": [
@@ -4718,7 +3923,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000486",
+      "id": "000411",
       "emoji": "🧒🏼",
       "description": "child: medium-light skin tone",
       "unicode": [
@@ -4728,7 +3933,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000487",
+      "id": "000412",
       "emoji": "🧒🏽",
       "description": "child: medium skin tone",
       "unicode": [
@@ -4738,7 +3943,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000488",
+      "id": "000413",
       "emoji": "🧒🏾",
       "description": "child: medium-dark skin tone",
       "unicode": [
@@ -4748,7 +3953,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000489",
+      "id": "000414",
       "emoji": "🧒🏿",
       "description": "child: dark skin tone",
       "unicode": [
@@ -4758,7 +3963,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000490",
+      "id": "000415",
       "emoji": "👦",
       "description": "boy",
       "unicode": [
@@ -4767,7 +3972,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000491",
+      "id": "000416",
       "emoji": "👦🏻",
       "description": "boy: light skin tone",
       "unicode": [
@@ -4777,7 +3982,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000492",
+      "id": "000417",
       "emoji": "👦🏼",
       "description": "boy: medium-light skin tone",
       "unicode": [
@@ -4787,7 +3992,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000493",
+      "id": "000418",
       "emoji": "👦🏽",
       "description": "boy: medium skin tone",
       "unicode": [
@@ -4797,7 +4002,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000494",
+      "id": "000419",
       "emoji": "👦🏾",
       "description": "boy: medium-dark skin tone",
       "unicode": [
@@ -4807,7 +4012,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000495",
+      "id": "000420",
       "emoji": "👦🏿",
       "description": "boy: dark skin tone",
       "unicode": [
@@ -4817,7 +4022,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000496",
+      "id": "000421",
       "emoji": "👧",
       "description": "girl",
       "unicode": [
@@ -4826,7 +4031,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000497",
+      "id": "000422",
       "emoji": "👧🏻",
       "description": "girl: light skin tone",
       "unicode": [
@@ -4836,7 +4041,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000498",
+      "id": "000423",
       "emoji": "👧🏼",
       "description": "girl: medium-light skin tone",
       "unicode": [
@@ -4846,7 +4051,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000499",
+      "id": "000424",
       "emoji": "👧🏽",
       "description": "girl: medium skin tone",
       "unicode": [
@@ -4856,7 +4061,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000500",
+      "id": "000425",
       "emoji": "👧🏾",
       "description": "girl: medium-dark skin tone",
       "unicode": [
@@ -4866,7 +4071,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000501",
+      "id": "000426",
       "emoji": "👧🏿",
       "description": "girl: dark skin tone",
       "unicode": [
@@ -4876,7 +4081,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000502",
+      "id": "000427",
       "emoji": "🧑",
       "description": "person",
       "unicode": [
@@ -4885,7 +4090,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000503",
+      "id": "000428",
       "emoji": "🧑🏻",
       "description": "person: light skin tone",
       "unicode": [
@@ -4895,7 +4100,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000504",
+      "id": "000429",
       "emoji": "🧑🏼",
       "description": "person: medium-light skin tone",
       "unicode": [
@@ -4905,7 +4110,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000505",
+      "id": "000430",
       "emoji": "🧑🏽",
       "description": "person: medium skin tone",
       "unicode": [
@@ -4915,7 +4120,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000506",
+      "id": "000431",
       "emoji": "🧑🏾",
       "description": "person: medium-dark skin tone",
       "unicode": [
@@ -4925,7 +4130,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000507",
+      "id": "000432",
       "emoji": "🧑🏿",
       "description": "person: dark skin tone",
       "unicode": [
@@ -4935,7 +4140,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000508",
+      "id": "000433",
       "emoji": "👱",
       "description": "person: blond hair",
       "unicode": [
@@ -4944,7 +4149,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000509",
+      "id": "000434",
       "emoji": "👱🏻",
       "description": "person: light skin tone, blond hair",
       "unicode": [
@@ -4954,7 +4159,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000510",
+      "id": "000435",
       "emoji": "👱🏼",
       "description": "person: medium-light skin tone, blond hair",
       "unicode": [
@@ -4964,7 +4169,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000511",
+      "id": "000436",
       "emoji": "👱🏽",
       "description": "person: medium skin tone, blond hair",
       "unicode": [
@@ -4974,7 +4179,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000512",
+      "id": "000437",
       "emoji": "👱🏾",
       "description": "person: medium-dark skin tone, blond hair",
       "unicode": [
@@ -4984,7 +4189,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000513",
+      "id": "000438",
       "emoji": "👱🏿",
       "description": "person: dark skin tone, blond hair",
       "unicode": [
@@ -4994,7 +4199,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000514",
+      "id": "000439",
       "emoji": "👨",
       "description": "man",
       "unicode": [
@@ -5003,7 +4208,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000515",
+      "id": "000440",
       "emoji": "👨🏻",
       "description": "man: light skin tone",
       "unicode": [
@@ -5013,7 +4218,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000516",
+      "id": "000441",
       "emoji": "👨🏼",
       "description": "man: medium-light skin tone",
       "unicode": [
@@ -5023,7 +4228,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000517",
+      "id": "000442",
       "emoji": "👨🏽",
       "description": "man: medium skin tone",
       "unicode": [
@@ -5033,7 +4238,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000518",
+      "id": "000443",
       "emoji": "👨🏾",
       "description": "man: medium-dark skin tone",
       "unicode": [
@@ -5043,7 +4248,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000519",
+      "id": "000444",
       "emoji": "👨🏿",
       "description": "man: dark skin tone",
       "unicode": [
@@ -5053,7 +4258,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000520",
+      "id": "000445",
       "emoji": "🧔",
       "description": "person: beard",
       "unicode": [
@@ -5062,7 +4267,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000521",
+      "id": "000446",
       "emoji": "🧔🏻",
       "description": "person: light skin tone, beard",
       "unicode": [
@@ -5072,7 +4277,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000522",
+      "id": "000447",
       "emoji": "🧔🏼",
       "description": "person: medium-light skin tone, beard",
       "unicode": [
@@ -5082,7 +4287,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000523",
+      "id": "000448",
       "emoji": "🧔🏽",
       "description": "person: medium skin tone, beard",
       "unicode": [
@@ -5092,7 +4297,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000524",
+      "id": "000449",
       "emoji": "🧔🏾",
       "description": "person: medium-dark skin tone, beard",
       "unicode": [
@@ -5102,7 +4307,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000525",
+      "id": "000450",
       "emoji": "🧔🏿",
       "description": "person: dark skin tone, beard",
       "unicode": [
@@ -5112,7 +4317,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000526",
+      "id": "000451",
       "emoji": "🧔‍♂️",
       "description": "man: beard",
       "unicode": [
@@ -5124,7 +4329,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000527",
+      "id": "000452",
       "emoji": "🧔🏻‍♂️",
       "description": "man: light skin tone, beard",
       "unicode": [
@@ -5137,7 +4342,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000528",
+      "id": "000453",
       "emoji": "🧔🏼‍♂️",
       "description": "man: medium-light skin tone, beard",
       "unicode": [
@@ -5150,7 +4355,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000529",
+      "id": "000454",
       "emoji": "🧔🏽‍♂️",
       "description": "man: medium skin tone, beard",
       "unicode": [
@@ -5163,7 +4368,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000530",
+      "id": "000455",
       "emoji": "🧔🏾‍♂️",
       "description": "man: medium-dark skin tone, beard",
       "unicode": [
@@ -5176,7 +4381,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000531",
+      "id": "000456",
       "emoji": "🧔🏿‍♂️",
       "description": "man: dark skin tone, beard",
       "unicode": [
@@ -5189,7 +4394,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000532",
+      "id": "000457",
       "emoji": "🧔‍♀️",
       "description": "woman: beard",
       "unicode": [
@@ -5201,7 +4406,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000533",
+      "id": "000458",
       "emoji": "🧔🏻‍♀️",
       "description": "woman: light skin tone, beard",
       "unicode": [
@@ -5214,7 +4419,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000534",
+      "id": "000459",
       "emoji": "🧔🏼‍♀️",
       "description": "woman: medium-light skin tone, beard",
       "unicode": [
@@ -5227,7 +4432,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000535",
+      "id": "000460",
       "emoji": "🧔🏽‍♀️",
       "description": "woman: medium skin tone, beard",
       "unicode": [
@@ -5240,7 +4445,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000536",
+      "id": "000461",
       "emoji": "🧔🏾‍♀️",
       "description": "woman: medium-dark skin tone, beard",
       "unicode": [
@@ -5253,7 +4458,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000537",
+      "id": "000462",
       "emoji": "🧔🏿‍♀️",
       "description": "woman: dark skin tone, beard",
       "unicode": [
@@ -5266,7 +4471,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "000538",
+      "id": "000463",
       "emoji": "👨‍🦰",
       "description": "man: red hair",
       "unicode": [
@@ -5277,7 +4482,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000539",
+      "id": "000464",
       "emoji": "👨🏻‍🦰",
       "description": "man: light skin tone, red hair",
       "unicode": [
@@ -5289,7 +4494,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000540",
+      "id": "000465",
       "emoji": "👨🏼‍🦰",
       "description": "man: medium-light skin tone, red hair",
       "unicode": [
@@ -5301,7 +4506,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000541",
+      "id": "000466",
       "emoji": "👨🏽‍🦰",
       "description": "man: medium skin tone, red hair",
       "unicode": [
@@ -5313,7 +4518,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000542",
+      "id": "000467",
       "emoji": "👨🏾‍🦰",
       "description": "man: medium-dark skin tone, red hair",
       "unicode": [
@@ -5325,7 +4530,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000543",
+      "id": "000468",
       "emoji": "👨🏿‍🦰",
       "description": "man: dark skin tone, red hair",
       "unicode": [
@@ -5337,7 +4542,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000544",
+      "id": "000469",
       "emoji": "👨‍🦱",
       "description": "man: curly hair",
       "unicode": [
@@ -5348,7 +4553,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000545",
+      "id": "000470",
       "emoji": "👨🏻‍🦱",
       "description": "man: light skin tone, curly hair",
       "unicode": [
@@ -5360,7 +4565,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000546",
+      "id": "000471",
       "emoji": "👨🏼‍🦱",
       "description": "man: medium-light skin tone, curly hair",
       "unicode": [
@@ -5372,7 +4577,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000547",
+      "id": "000472",
       "emoji": "👨🏽‍🦱",
       "description": "man: medium skin tone, curly hair",
       "unicode": [
@@ -5384,7 +4589,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000548",
+      "id": "000473",
       "emoji": "👨🏾‍🦱",
       "description": "man: medium-dark skin tone, curly hair",
       "unicode": [
@@ -5396,7 +4601,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000549",
+      "id": "000474",
       "emoji": "👨🏿‍🦱",
       "description": "man: dark skin tone, curly hair",
       "unicode": [
@@ -5408,7 +4613,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000550",
+      "id": "000475",
       "emoji": "👨‍🦳",
       "description": "man: white hair",
       "unicode": [
@@ -5419,7 +4624,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000551",
+      "id": "000476",
       "emoji": "👨🏻‍🦳",
       "description": "man: light skin tone, white hair",
       "unicode": [
@@ -5431,7 +4636,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000552",
+      "id": "000477",
       "emoji": "👨🏼‍🦳",
       "description": "man: medium-light skin tone, white hair",
       "unicode": [
@@ -5443,7 +4648,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000553",
+      "id": "000478",
       "emoji": "👨🏽‍🦳",
       "description": "man: medium skin tone, white hair",
       "unicode": [
@@ -5455,7 +4660,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000554",
+      "id": "000479",
       "emoji": "👨🏾‍🦳",
       "description": "man: medium-dark skin tone, white hair",
       "unicode": [
@@ -5467,7 +4672,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000555",
+      "id": "000480",
       "emoji": "👨🏿‍🦳",
       "description": "man: dark skin tone, white hair",
       "unicode": [
@@ -5479,7 +4684,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000556",
+      "id": "000481",
       "emoji": "👨‍🦲",
       "description": "man: bald",
       "unicode": [
@@ -5490,7 +4695,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000557",
+      "id": "000482",
       "emoji": "👨🏻‍🦲",
       "description": "man: light skin tone, bald",
       "unicode": [
@@ -5502,7 +4707,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000558",
+      "id": "000483",
       "emoji": "👨🏼‍🦲",
       "description": "man: medium-light skin tone, bald",
       "unicode": [
@@ -5514,7 +4719,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000559",
+      "id": "000484",
       "emoji": "👨🏽‍🦲",
       "description": "man: medium skin tone, bald",
       "unicode": [
@@ -5526,7 +4731,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000560",
+      "id": "000485",
       "emoji": "👨🏾‍🦲",
       "description": "man: medium-dark skin tone, bald",
       "unicode": [
@@ -5538,7 +4743,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000561",
+      "id": "000486",
       "emoji": "👨🏿‍🦲",
       "description": "man: dark skin tone, bald",
       "unicode": [
@@ -5550,7 +4755,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000562",
+      "id": "000487",
       "emoji": "👩",
       "description": "woman",
       "unicode": [
@@ -5559,7 +4764,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000563",
+      "id": "000488",
       "emoji": "👩🏻",
       "description": "woman: light skin tone",
       "unicode": [
@@ -5569,7 +4774,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000564",
+      "id": "000489",
       "emoji": "👩🏼",
       "description": "woman: medium-light skin tone",
       "unicode": [
@@ -5579,7 +4784,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000565",
+      "id": "000490",
       "emoji": "👩🏽",
       "description": "woman: medium skin tone",
       "unicode": [
@@ -5589,7 +4794,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000566",
+      "id": "000491",
       "emoji": "👩🏾",
       "description": "woman: medium-dark skin tone",
       "unicode": [
@@ -5599,7 +4804,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000567",
+      "id": "000492",
       "emoji": "👩🏿",
       "description": "woman: dark skin tone",
       "unicode": [
@@ -5609,7 +4814,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000568",
+      "id": "000493",
       "emoji": "👩‍🦰",
       "description": "woman: red hair",
       "unicode": [
@@ -5620,7 +4825,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000569",
+      "id": "000494",
       "emoji": "👩🏻‍🦰",
       "description": "woman: light skin tone, red hair",
       "unicode": [
@@ -5632,7 +4837,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000570",
+      "id": "000495",
       "emoji": "👩🏼‍🦰",
       "description": "woman: medium-light skin tone, red hair",
       "unicode": [
@@ -5644,7 +4849,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000571",
+      "id": "000496",
       "emoji": "👩🏽‍🦰",
       "description": "woman: medium skin tone, red hair",
       "unicode": [
@@ -5656,7 +4861,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000572",
+      "id": "000497",
       "emoji": "👩🏾‍🦰",
       "description": "woman: medium-dark skin tone, red hair",
       "unicode": [
@@ -5668,7 +4873,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000573",
+      "id": "000498",
       "emoji": "👩🏿‍🦰",
       "description": "woman: dark skin tone, red hair",
       "unicode": [
@@ -5680,7 +4885,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000574",
+      "id": "000499",
       "emoji": "🧑‍🦰",
       "description": "person: red hair",
       "unicode": [
@@ -5691,7 +4896,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000575",
+      "id": "000500",
       "emoji": "🧑🏻‍🦰",
       "description": "person: light skin tone, red hair",
       "unicode": [
@@ -5703,7 +4908,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000576",
+      "id": "000501",
       "emoji": "🧑🏼‍🦰",
       "description": "person: medium-light skin tone, red hair",
       "unicode": [
@@ -5715,7 +4920,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000577",
+      "id": "000502",
       "emoji": "🧑🏽‍🦰",
       "description": "person: medium skin tone, red hair",
       "unicode": [
@@ -5727,7 +4932,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000578",
+      "id": "000503",
       "emoji": "🧑🏾‍🦰",
       "description": "person: medium-dark skin tone, red hair",
       "unicode": [
@@ -5739,7 +4944,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000579",
+      "id": "000504",
       "emoji": "🧑🏿‍🦰",
       "description": "person: dark skin tone, red hair",
       "unicode": [
@@ -5751,7 +4956,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000580",
+      "id": "000505",
       "emoji": "👩‍🦱",
       "description": "woman: curly hair",
       "unicode": [
@@ -5762,7 +4967,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000581",
+      "id": "000506",
       "emoji": "👩🏻‍🦱",
       "description": "woman: light skin tone, curly hair",
       "unicode": [
@@ -5774,7 +4979,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000582",
+      "id": "000507",
       "emoji": "👩🏼‍🦱",
       "description": "woman: medium-light skin tone, curly hair",
       "unicode": [
@@ -5786,7 +4991,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000583",
+      "id": "000508",
       "emoji": "👩🏽‍🦱",
       "description": "woman: medium skin tone, curly hair",
       "unicode": [
@@ -5798,7 +5003,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000584",
+      "id": "000509",
       "emoji": "👩🏾‍🦱",
       "description": "woman: medium-dark skin tone, curly hair",
       "unicode": [
@@ -5810,7 +5015,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000585",
+      "id": "000510",
       "emoji": "👩🏿‍🦱",
       "description": "woman: dark skin tone, curly hair",
       "unicode": [
@@ -5822,7 +5027,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000586",
+      "id": "000511",
       "emoji": "🧑‍🦱",
       "description": "person: curly hair",
       "unicode": [
@@ -5833,7 +5038,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000587",
+      "id": "000512",
       "emoji": "🧑🏻‍🦱",
       "description": "person: light skin tone, curly hair",
       "unicode": [
@@ -5845,7 +5050,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000588",
+      "id": "000513",
       "emoji": "🧑🏼‍🦱",
       "description": "person: medium-light skin tone, curly hair",
       "unicode": [
@@ -5857,7 +5062,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000589",
+      "id": "000514",
       "emoji": "🧑🏽‍🦱",
       "description": "person: medium skin tone, curly hair",
       "unicode": [
@@ -5869,7 +5074,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000590",
+      "id": "000515",
       "emoji": "🧑🏾‍🦱",
       "description": "person: medium-dark skin tone, curly hair",
       "unicode": [
@@ -5881,7 +5086,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000591",
+      "id": "000516",
       "emoji": "🧑🏿‍🦱",
       "description": "person: dark skin tone, curly hair",
       "unicode": [
@@ -5893,7 +5098,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000592",
+      "id": "000517",
       "emoji": "👩‍🦳",
       "description": "woman: white hair",
       "unicode": [
@@ -5904,7 +5109,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000593",
+      "id": "000518",
       "emoji": "👩🏻‍🦳",
       "description": "woman: light skin tone, white hair",
       "unicode": [
@@ -5916,7 +5121,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000594",
+      "id": "000519",
       "emoji": "👩🏼‍🦳",
       "description": "woman: medium-light skin tone, white hair",
       "unicode": [
@@ -5928,7 +5133,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000595",
+      "id": "000520",
       "emoji": "👩🏽‍🦳",
       "description": "woman: medium skin tone, white hair",
       "unicode": [
@@ -5940,7 +5145,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000596",
+      "id": "000521",
       "emoji": "👩🏾‍🦳",
       "description": "woman: medium-dark skin tone, white hair",
       "unicode": [
@@ -5952,7 +5157,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000597",
+      "id": "000522",
       "emoji": "👩🏿‍🦳",
       "description": "woman: dark skin tone, white hair",
       "unicode": [
@@ -5964,7 +5169,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000598",
+      "id": "000523",
       "emoji": "🧑‍🦳",
       "description": "person: white hair",
       "unicode": [
@@ -5975,7 +5180,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000599",
+      "id": "000524",
       "emoji": "🧑🏻‍🦳",
       "description": "person: light skin tone, white hair",
       "unicode": [
@@ -5987,7 +5192,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000600",
+      "id": "000525",
       "emoji": "🧑🏼‍🦳",
       "description": "person: medium-light skin tone, white hair",
       "unicode": [
@@ -5999,7 +5204,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000601",
+      "id": "000526",
       "emoji": "🧑🏽‍🦳",
       "description": "person: medium skin tone, white hair",
       "unicode": [
@@ -6011,7 +5216,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000602",
+      "id": "000527",
       "emoji": "🧑🏾‍🦳",
       "description": "person: medium-dark skin tone, white hair",
       "unicode": [
@@ -6023,7 +5228,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000603",
+      "id": "000528",
       "emoji": "🧑🏿‍🦳",
       "description": "person: dark skin tone, white hair",
       "unicode": [
@@ -6035,7 +5240,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000604",
+      "id": "000529",
       "emoji": "👩‍🦲",
       "description": "woman: bald",
       "unicode": [
@@ -6046,7 +5251,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000605",
+      "id": "000530",
       "emoji": "👩🏻‍🦲",
       "description": "woman: light skin tone, bald",
       "unicode": [
@@ -6058,7 +5263,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000606",
+      "id": "000531",
       "emoji": "👩🏼‍🦲",
       "description": "woman: medium-light skin tone, bald",
       "unicode": [
@@ -6070,7 +5275,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000607",
+      "id": "000532",
       "emoji": "👩🏽‍🦲",
       "description": "woman: medium skin tone, bald",
       "unicode": [
@@ -6082,7 +5287,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000608",
+      "id": "000533",
       "emoji": "👩🏾‍🦲",
       "description": "woman: medium-dark skin tone, bald",
       "unicode": [
@@ -6094,7 +5299,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000609",
+      "id": "000534",
       "emoji": "👩🏿‍🦲",
       "description": "woman: dark skin tone, bald",
       "unicode": [
@@ -6106,7 +5311,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "000610",
+      "id": "000535",
       "emoji": "🧑‍🦲",
       "description": "person: bald",
       "unicode": [
@@ -6117,7 +5322,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000611",
+      "id": "000536",
       "emoji": "🧑🏻‍🦲",
       "description": "person: light skin tone, bald",
       "unicode": [
@@ -6129,7 +5334,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000612",
+      "id": "000537",
       "emoji": "🧑🏼‍🦲",
       "description": "person: medium-light skin tone, bald",
       "unicode": [
@@ -6141,7 +5346,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000613",
+      "id": "000538",
       "emoji": "🧑🏽‍🦲",
       "description": "person: medium skin tone, bald",
       "unicode": [
@@ -6153,7 +5358,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000614",
+      "id": "000539",
       "emoji": "🧑🏾‍🦲",
       "description": "person: medium-dark skin tone, bald",
       "unicode": [
@@ -6165,7 +5370,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000615",
+      "id": "000540",
       "emoji": "🧑🏿‍🦲",
       "description": "person: dark skin tone, bald",
       "unicode": [
@@ -6177,7 +5382,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000616",
+      "id": "000541",
       "emoji": "👱‍♀️",
       "description": "woman: blond hair",
       "unicode": [
@@ -6189,7 +5394,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000617",
+      "id": "000542",
       "emoji": "👱🏻‍♀️",
       "description": "woman: light skin tone, blond hair",
       "unicode": [
@@ -6202,7 +5407,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000618",
+      "id": "000543",
       "emoji": "👱🏼‍♀️",
       "description": "woman: medium-light skin tone, blond hair",
       "unicode": [
@@ -6215,7 +5420,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000619",
+      "id": "000544",
       "emoji": "👱🏽‍♀️",
       "description": "woman: medium skin tone, blond hair",
       "unicode": [
@@ -6228,7 +5433,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000620",
+      "id": "000545",
       "emoji": "👱🏾‍♀️",
       "description": "woman: medium-dark skin tone, blond hair",
       "unicode": [
@@ -6241,7 +5446,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000621",
+      "id": "000546",
       "emoji": "👱🏿‍♀️",
       "description": "woman: dark skin tone, blond hair",
       "unicode": [
@@ -6254,7 +5459,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000622",
+      "id": "000547",
       "emoji": "👱‍♂️",
       "description": "man: blond hair",
       "unicode": [
@@ -6266,7 +5471,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000623",
+      "id": "000548",
       "emoji": "👱🏻‍♂️",
       "description": "man: light skin tone, blond hair",
       "unicode": [
@@ -6279,7 +5484,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000624",
+      "id": "000549",
       "emoji": "👱🏼‍♂️",
       "description": "man: medium-light skin tone, blond hair",
       "unicode": [
@@ -6292,7 +5497,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000625",
+      "id": "000550",
       "emoji": "👱🏽‍♂️",
       "description": "man: medium skin tone, blond hair",
       "unicode": [
@@ -6305,7 +5510,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000626",
+      "id": "000551",
       "emoji": "👱🏾‍♂️",
       "description": "man: medium-dark skin tone, blond hair",
       "unicode": [
@@ -6318,7 +5523,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000627",
+      "id": "000552",
       "emoji": "👱🏿‍♂️",
       "description": "man: dark skin tone, blond hair",
       "unicode": [
@@ -6331,7 +5536,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000628",
+      "id": "000553",
       "emoji": "🧓",
       "description": "older person",
       "unicode": [
@@ -6340,7 +5545,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000629",
+      "id": "000554",
       "emoji": "🧓🏻",
       "description": "older person: light skin tone",
       "unicode": [
@@ -6350,7 +5555,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000630",
+      "id": "000555",
       "emoji": "🧓🏼",
       "description": "older person: medium-light skin tone",
       "unicode": [
@@ -6360,7 +5565,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000631",
+      "id": "000556",
       "emoji": "🧓🏽",
       "description": "older person: medium skin tone",
       "unicode": [
@@ -6370,7 +5575,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000632",
+      "id": "000557",
       "emoji": "🧓🏾",
       "description": "older person: medium-dark skin tone",
       "unicode": [
@@ -6380,7 +5585,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000633",
+      "id": "000558",
       "emoji": "🧓🏿",
       "description": "older person: dark skin tone",
       "unicode": [
@@ -6390,7 +5595,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "000634",
+      "id": "000559",
       "emoji": "👴",
       "description": "old man",
       "unicode": [
@@ -6399,7 +5604,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000635",
+      "id": "000560",
       "emoji": "👴🏻",
       "description": "old man: light skin tone",
       "unicode": [
@@ -6409,7 +5614,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000636",
+      "id": "000561",
       "emoji": "👴🏼",
       "description": "old man: medium-light skin tone",
       "unicode": [
@@ -6419,7 +5624,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000637",
+      "id": "000562",
       "emoji": "👴🏽",
       "description": "old man: medium skin tone",
       "unicode": [
@@ -6429,7 +5634,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000638",
+      "id": "000563",
       "emoji": "👴🏾",
       "description": "old man: medium-dark skin tone",
       "unicode": [
@@ -6439,7 +5644,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000639",
+      "id": "000564",
       "emoji": "👴🏿",
       "description": "old man: dark skin tone",
       "unicode": [
@@ -6449,7 +5654,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000640",
+      "id": "000565",
       "emoji": "👵",
       "description": "old woman",
       "unicode": [
@@ -6458,7 +5663,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000641",
+      "id": "000566",
       "emoji": "👵🏻",
       "description": "old woman: light skin tone",
       "unicode": [
@@ -6468,7 +5673,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000642",
+      "id": "000567",
       "emoji": "👵🏼",
       "description": "old woman: medium-light skin tone",
       "unicode": [
@@ -6478,7 +5683,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000643",
+      "id": "000568",
       "emoji": "👵🏽",
       "description": "old woman: medium skin tone",
       "unicode": [
@@ -6488,7 +5693,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000644",
+      "id": "000569",
       "emoji": "👵🏾",
       "description": "old woman: medium-dark skin tone",
       "unicode": [
@@ -6498,7 +5703,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000645",
+      "id": "000570",
       "emoji": "👵🏿",
       "description": "old woman: dark skin tone",
       "unicode": [
@@ -6508,7 +5713,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000646",
+      "id": "000571",
       "emoji": "🙍",
       "description": "person frowning",
       "unicode": [
@@ -6517,7 +5722,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000647",
+      "id": "000572",
       "emoji": "🙍🏻",
       "description": "person frowning: light skin tone",
       "unicode": [
@@ -6527,7 +5732,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000648",
+      "id": "000573",
       "emoji": "🙍🏼",
       "description": "person frowning: medium-light skin tone",
       "unicode": [
@@ -6537,7 +5742,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000649",
+      "id": "000574",
       "emoji": "🙍🏽",
       "description": "person frowning: medium skin tone",
       "unicode": [
@@ -6547,7 +5752,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000650",
+      "id": "000575",
       "emoji": "🙍🏾",
       "description": "person frowning: medium-dark skin tone",
       "unicode": [
@@ -6557,7 +5762,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000651",
+      "id": "000576",
       "emoji": "🙍🏿",
       "description": "person frowning: dark skin tone",
       "unicode": [
@@ -6567,7 +5772,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000652",
+      "id": "000577",
       "emoji": "🙍‍♂️",
       "description": "man frowning",
       "unicode": [
@@ -6579,7 +5784,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000653",
+      "id": "000578",
       "emoji": "🙍🏻‍♂️",
       "description": "man frowning: light skin tone",
       "unicode": [
@@ -6592,7 +5797,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000654",
+      "id": "000579",
       "emoji": "🙍🏼‍♂️",
       "description": "man frowning: medium-light skin tone",
       "unicode": [
@@ -6605,7 +5810,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000655",
+      "id": "000580",
       "emoji": "🙍🏽‍♂️",
       "description": "man frowning: medium skin tone",
       "unicode": [
@@ -6618,7 +5823,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000656",
+      "id": "000581",
       "emoji": "🙍🏾‍♂️",
       "description": "man frowning: medium-dark skin tone",
       "unicode": [
@@ -6631,7 +5836,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000657",
+      "id": "000582",
       "emoji": "🙍🏿‍♂️",
       "description": "man frowning: dark skin tone",
       "unicode": [
@@ -6644,7 +5849,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000658",
+      "id": "000583",
       "emoji": "🙍‍♀️",
       "description": "woman frowning",
       "unicode": [
@@ -6656,7 +5861,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000659",
+      "id": "000584",
       "emoji": "🙍🏻‍♀️",
       "description": "woman frowning: light skin tone",
       "unicode": [
@@ -6669,7 +5874,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000660",
+      "id": "000585",
       "emoji": "🙍🏼‍♀️",
       "description": "woman frowning: medium-light skin tone",
       "unicode": [
@@ -6682,7 +5887,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000661",
+      "id": "000586",
       "emoji": "🙍🏽‍♀️",
       "description": "woman frowning: medium skin tone",
       "unicode": [
@@ -6695,7 +5900,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000662",
+      "id": "000587",
       "emoji": "🙍🏾‍♀️",
       "description": "woman frowning: medium-dark skin tone",
       "unicode": [
@@ -6708,7 +5913,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000663",
+      "id": "000588",
       "emoji": "🙍🏿‍♀️",
       "description": "woman frowning: dark skin tone",
       "unicode": [
@@ -6721,7 +5926,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000664",
+      "id": "000589",
       "emoji": "🙎",
       "description": "person pouting",
       "unicode": [
@@ -6730,7 +5935,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000665",
+      "id": "000590",
       "emoji": "🙎🏻",
       "description": "person pouting: light skin tone",
       "unicode": [
@@ -6740,7 +5945,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000666",
+      "id": "000591",
       "emoji": "🙎🏼",
       "description": "person pouting: medium-light skin tone",
       "unicode": [
@@ -6750,7 +5955,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000667",
+      "id": "000592",
       "emoji": "🙎🏽",
       "description": "person pouting: medium skin tone",
       "unicode": [
@@ -6760,7 +5965,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000668",
+      "id": "000593",
       "emoji": "🙎🏾",
       "description": "person pouting: medium-dark skin tone",
       "unicode": [
@@ -6770,7 +5975,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000669",
+      "id": "000594",
       "emoji": "🙎🏿",
       "description": "person pouting: dark skin tone",
       "unicode": [
@@ -6780,7 +5985,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000670",
+      "id": "000595",
       "emoji": "🙎‍♂️",
       "description": "man pouting",
       "unicode": [
@@ -6792,7 +5997,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000671",
+      "id": "000596",
       "emoji": "🙎🏻‍♂️",
       "description": "man pouting: light skin tone",
       "unicode": [
@@ -6805,7 +6010,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000672",
+      "id": "000597",
       "emoji": "🙎🏼‍♂️",
       "description": "man pouting: medium-light skin tone",
       "unicode": [
@@ -6818,7 +6023,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000673",
+      "id": "000598",
       "emoji": "🙎🏽‍♂️",
       "description": "man pouting: medium skin tone",
       "unicode": [
@@ -6831,7 +6036,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000674",
+      "id": "000599",
       "emoji": "🙎🏾‍♂️",
       "description": "man pouting: medium-dark skin tone",
       "unicode": [
@@ -6844,7 +6049,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000675",
+      "id": "000600",
       "emoji": "🙎🏿‍♂️",
       "description": "man pouting: dark skin tone",
       "unicode": [
@@ -6857,7 +6062,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000676",
+      "id": "000601",
       "emoji": "🙎‍♀️",
       "description": "woman pouting",
       "unicode": [
@@ -6869,7 +6074,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000677",
+      "id": "000602",
       "emoji": "🙎🏻‍♀️",
       "description": "woman pouting: light skin tone",
       "unicode": [
@@ -6882,7 +6087,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000678",
+      "id": "000603",
       "emoji": "🙎🏼‍♀️",
       "description": "woman pouting: medium-light skin tone",
       "unicode": [
@@ -6895,7 +6100,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000679",
+      "id": "000604",
       "emoji": "🙎🏽‍♀️",
       "description": "woman pouting: medium skin tone",
       "unicode": [
@@ -6908,7 +6113,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000680",
+      "id": "000605",
       "emoji": "🙎🏾‍♀️",
       "description": "woman pouting: medium-dark skin tone",
       "unicode": [
@@ -6921,7 +6126,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000681",
+      "id": "000606",
       "emoji": "🙎🏿‍♀️",
       "description": "woman pouting: dark skin tone",
       "unicode": [
@@ -6934,7 +6139,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000682",
+      "id": "000607",
       "emoji": "🙅",
       "description": "person gesturing NO",
       "unicode": [
@@ -6943,7 +6148,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000683",
+      "id": "000608",
       "emoji": "🙅🏻",
       "description": "person gesturing NO: light skin tone",
       "unicode": [
@@ -6953,7 +6158,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000684",
+      "id": "000609",
       "emoji": "🙅🏼",
       "description": "person gesturing NO: medium-light skin tone",
       "unicode": [
@@ -6963,7 +6168,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000685",
+      "id": "000610",
       "emoji": "🙅🏽",
       "description": "person gesturing NO: medium skin tone",
       "unicode": [
@@ -6973,7 +6178,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000686",
+      "id": "000611",
       "emoji": "🙅🏾",
       "description": "person gesturing NO: medium-dark skin tone",
       "unicode": [
@@ -6983,7 +6188,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000687",
+      "id": "000612",
       "emoji": "🙅🏿",
       "description": "person gesturing NO: dark skin tone",
       "unicode": [
@@ -6993,7 +6198,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000688",
+      "id": "000613",
       "emoji": "🙅‍♂️",
       "description": "man gesturing NO",
       "unicode": [
@@ -7005,7 +6210,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000689",
+      "id": "000614",
       "emoji": "🙅🏻‍♂️",
       "description": "man gesturing NO: light skin tone",
       "unicode": [
@@ -7018,7 +6223,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000690",
+      "id": "000615",
       "emoji": "🙅🏼‍♂️",
       "description": "man gesturing NO: medium-light skin tone",
       "unicode": [
@@ -7031,7 +6236,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000691",
+      "id": "000616",
       "emoji": "🙅🏽‍♂️",
       "description": "man gesturing NO: medium skin tone",
       "unicode": [
@@ -7044,7 +6249,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000692",
+      "id": "000617",
       "emoji": "🙅🏾‍♂️",
       "description": "man gesturing NO: medium-dark skin tone",
       "unicode": [
@@ -7057,7 +6262,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000693",
+      "id": "000618",
       "emoji": "🙅🏿‍♂️",
       "description": "man gesturing NO: dark skin tone",
       "unicode": [
@@ -7070,7 +6275,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000694",
+      "id": "000619",
       "emoji": "🙅‍♀️",
       "description": "woman gesturing NO",
       "unicode": [
@@ -7082,7 +6287,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000695",
+      "id": "000620",
       "emoji": "🙅🏻‍♀️",
       "description": "woman gesturing NO: light skin tone",
       "unicode": [
@@ -7095,7 +6300,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000696",
+      "id": "000621",
       "emoji": "🙅🏼‍♀️",
       "description": "woman gesturing NO: medium-light skin tone",
       "unicode": [
@@ -7108,7 +6313,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000697",
+      "id": "000622",
       "emoji": "🙅🏽‍♀️",
       "description": "woman gesturing NO: medium skin tone",
       "unicode": [
@@ -7121,7 +6326,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000698",
+      "id": "000623",
       "emoji": "🙅🏾‍♀️",
       "description": "woman gesturing NO: medium-dark skin tone",
       "unicode": [
@@ -7134,7 +6339,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000699",
+      "id": "000624",
       "emoji": "🙅🏿‍♀️",
       "description": "woman gesturing NO: dark skin tone",
       "unicode": [
@@ -7147,7 +6352,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000700",
+      "id": "000625",
       "emoji": "🙆",
       "description": "person gesturing OK",
       "unicode": [
@@ -7156,7 +6361,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000701",
+      "id": "000626",
       "emoji": "🙆🏻",
       "description": "person gesturing OK: light skin tone",
       "unicode": [
@@ -7166,7 +6371,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000702",
+      "id": "000627",
       "emoji": "🙆🏼",
       "description": "person gesturing OK: medium-light skin tone",
       "unicode": [
@@ -7176,7 +6381,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000703",
+      "id": "000628",
       "emoji": "🙆🏽",
       "description": "person gesturing OK: medium skin tone",
       "unicode": [
@@ -7186,7 +6391,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000704",
+      "id": "000629",
       "emoji": "🙆🏾",
       "description": "person gesturing OK: medium-dark skin tone",
       "unicode": [
@@ -7196,7 +6401,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000705",
+      "id": "000630",
       "emoji": "🙆🏿",
       "description": "person gesturing OK: dark skin tone",
       "unicode": [
@@ -7206,7 +6411,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000706",
+      "id": "000631",
       "emoji": "🙆‍♂️",
       "description": "man gesturing OK",
       "unicode": [
@@ -7218,7 +6423,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000707",
+      "id": "000632",
       "emoji": "🙆🏻‍♂️",
       "description": "man gesturing OK: light skin tone",
       "unicode": [
@@ -7231,7 +6436,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000708",
+      "id": "000633",
       "emoji": "🙆🏼‍♂️",
       "description": "man gesturing OK: medium-light skin tone",
       "unicode": [
@@ -7244,7 +6449,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000709",
+      "id": "000634",
       "emoji": "🙆🏽‍♂️",
       "description": "man gesturing OK: medium skin tone",
       "unicode": [
@@ -7257,7 +6462,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000710",
+      "id": "000635",
       "emoji": "🙆🏾‍♂️",
       "description": "man gesturing OK: medium-dark skin tone",
       "unicode": [
@@ -7270,7 +6475,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000711",
+      "id": "000636",
       "emoji": "🙆🏿‍♂️",
       "description": "man gesturing OK: dark skin tone",
       "unicode": [
@@ -7283,7 +6488,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000712",
+      "id": "000637",
       "emoji": "🙆‍♀️",
       "description": "woman gesturing OK",
       "unicode": [
@@ -7295,7 +6500,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000713",
+      "id": "000638",
       "emoji": "🙆🏻‍♀️",
       "description": "woman gesturing OK: light skin tone",
       "unicode": [
@@ -7308,7 +6513,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000714",
+      "id": "000639",
       "emoji": "🙆🏼‍♀️",
       "description": "woman gesturing OK: medium-light skin tone",
       "unicode": [
@@ -7321,7 +6526,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000715",
+      "id": "000640",
       "emoji": "🙆🏽‍♀️",
       "description": "woman gesturing OK: medium skin tone",
       "unicode": [
@@ -7334,7 +6539,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000716",
+      "id": "000641",
       "emoji": "🙆🏾‍♀️",
       "description": "woman gesturing OK: medium-dark skin tone",
       "unicode": [
@@ -7347,7 +6552,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000717",
+      "id": "000642",
       "emoji": "🙆🏿‍♀️",
       "description": "woman gesturing OK: dark skin tone",
       "unicode": [
@@ -7360,7 +6565,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000718",
+      "id": "000643",
       "emoji": "💁",
       "description": "person tipping hand",
       "unicode": [
@@ -7369,7 +6574,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000719",
+      "id": "000644",
       "emoji": "💁🏻",
       "description": "person tipping hand: light skin tone",
       "unicode": [
@@ -7379,7 +6584,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000720",
+      "id": "000645",
       "emoji": "💁🏼",
       "description": "person tipping hand: medium-light skin tone",
       "unicode": [
@@ -7389,7 +6594,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000721",
+      "id": "000646",
       "emoji": "💁🏽",
       "description": "person tipping hand: medium skin tone",
       "unicode": [
@@ -7399,7 +6604,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000722",
+      "id": "000647",
       "emoji": "💁🏾",
       "description": "person tipping hand: medium-dark skin tone",
       "unicode": [
@@ -7409,7 +6614,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000723",
+      "id": "000648",
       "emoji": "💁🏿",
       "description": "person tipping hand: dark skin tone",
       "unicode": [
@@ -7419,7 +6624,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000724",
+      "id": "000649",
       "emoji": "💁‍♂️",
       "description": "man tipping hand",
       "unicode": [
@@ -7431,7 +6636,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000725",
+      "id": "000650",
       "emoji": "💁🏻‍♂️",
       "description": "man tipping hand: light skin tone",
       "unicode": [
@@ -7444,7 +6649,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000726",
+      "id": "000651",
       "emoji": "💁🏼‍♂️",
       "description": "man tipping hand: medium-light skin tone",
       "unicode": [
@@ -7457,7 +6662,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000727",
+      "id": "000652",
       "emoji": "💁🏽‍♂️",
       "description": "man tipping hand: medium skin tone",
       "unicode": [
@@ -7470,7 +6675,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000728",
+      "id": "000653",
       "emoji": "💁🏾‍♂️",
       "description": "man tipping hand: medium-dark skin tone",
       "unicode": [
@@ -7483,7 +6688,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000729",
+      "id": "000654",
       "emoji": "💁🏿‍♂️",
       "description": "man tipping hand: dark skin tone",
       "unicode": [
@@ -7496,7 +6701,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000730",
+      "id": "000655",
       "emoji": "💁‍♀️",
       "description": "woman tipping hand",
       "unicode": [
@@ -7508,7 +6713,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000731",
+      "id": "000656",
       "emoji": "💁🏻‍♀️",
       "description": "woman tipping hand: light skin tone",
       "unicode": [
@@ -7521,7 +6726,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000732",
+      "id": "000657",
       "emoji": "💁🏼‍♀️",
       "description": "woman tipping hand: medium-light skin tone",
       "unicode": [
@@ -7534,7 +6739,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000733",
+      "id": "000658",
       "emoji": "💁🏽‍♀️",
       "description": "woman tipping hand: medium skin tone",
       "unicode": [
@@ -7547,7 +6752,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000734",
+      "id": "000659",
       "emoji": "💁🏾‍♀️",
       "description": "woman tipping hand: medium-dark skin tone",
       "unicode": [
@@ -7560,7 +6765,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000735",
+      "id": "000660",
       "emoji": "💁🏿‍♀️",
       "description": "woman tipping hand: dark skin tone",
       "unicode": [
@@ -7573,7 +6778,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000736",
+      "id": "000661",
       "emoji": "🙋",
       "description": "person raising hand",
       "unicode": [
@@ -7582,7 +6787,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000737",
+      "id": "000662",
       "emoji": "🙋🏻",
       "description": "person raising hand: light skin tone",
       "unicode": [
@@ -7592,7 +6797,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000738",
+      "id": "000663",
       "emoji": "🙋🏼",
       "description": "person raising hand: medium-light skin tone",
       "unicode": [
@@ -7602,7 +6807,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000739",
+      "id": "000664",
       "emoji": "🙋🏽",
       "description": "person raising hand: medium skin tone",
       "unicode": [
@@ -7612,7 +6817,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000740",
+      "id": "000665",
       "emoji": "🙋🏾",
       "description": "person raising hand: medium-dark skin tone",
       "unicode": [
@@ -7622,7 +6827,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000741",
+      "id": "000666",
       "emoji": "🙋🏿",
       "description": "person raising hand: dark skin tone",
       "unicode": [
@@ -7632,7 +6837,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000742",
+      "id": "000667",
       "emoji": "🙋‍♂️",
       "description": "man raising hand",
       "unicode": [
@@ -7644,7 +6849,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000743",
+      "id": "000668",
       "emoji": "🙋🏻‍♂️",
       "description": "man raising hand: light skin tone",
       "unicode": [
@@ -7657,7 +6862,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000744",
+      "id": "000669",
       "emoji": "🙋🏼‍♂️",
       "description": "man raising hand: medium-light skin tone",
       "unicode": [
@@ -7670,7 +6875,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000745",
+      "id": "000670",
       "emoji": "🙋🏽‍♂️",
       "description": "man raising hand: medium skin tone",
       "unicode": [
@@ -7683,7 +6888,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000746",
+      "id": "000671",
       "emoji": "🙋🏾‍♂️",
       "description": "man raising hand: medium-dark skin tone",
       "unicode": [
@@ -7696,7 +6901,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000747",
+      "id": "000672",
       "emoji": "🙋🏿‍♂️",
       "description": "man raising hand: dark skin tone",
       "unicode": [
@@ -7709,7 +6914,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000748",
+      "id": "000673",
       "emoji": "🙋‍♀️",
       "description": "woman raising hand",
       "unicode": [
@@ -7721,7 +6926,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000749",
+      "id": "000674",
       "emoji": "🙋🏻‍♀️",
       "description": "woman raising hand: light skin tone",
       "unicode": [
@@ -7734,7 +6939,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000750",
+      "id": "000675",
       "emoji": "🙋🏼‍♀️",
       "description": "woman raising hand: medium-light skin tone",
       "unicode": [
@@ -7747,7 +6952,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000751",
+      "id": "000676",
       "emoji": "🙋🏽‍♀️",
       "description": "woman raising hand: medium skin tone",
       "unicode": [
@@ -7760,7 +6965,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000752",
+      "id": "000677",
       "emoji": "🙋🏾‍♀️",
       "description": "woman raising hand: medium-dark skin tone",
       "unicode": [
@@ -7773,7 +6978,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000753",
+      "id": "000678",
       "emoji": "🙋🏿‍♀️",
       "description": "woman raising hand: dark skin tone",
       "unicode": [
@@ -7786,7 +6991,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000754",
+      "id": "000679",
       "emoji": "🧏",
       "description": "deaf person",
       "unicode": [
@@ -7795,7 +7000,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000755",
+      "id": "000680",
       "emoji": "🧏🏻",
       "description": "deaf person: light skin tone",
       "unicode": [
@@ -7805,7 +7010,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000756",
+      "id": "000681",
       "emoji": "🧏🏼",
       "description": "deaf person: medium-light skin tone",
       "unicode": [
@@ -7815,7 +7020,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000757",
+      "id": "000682",
       "emoji": "🧏🏽",
       "description": "deaf person: medium skin tone",
       "unicode": [
@@ -7825,7 +7030,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000758",
+      "id": "000683",
       "emoji": "🧏🏾",
       "description": "deaf person: medium-dark skin tone",
       "unicode": [
@@ -7835,7 +7040,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000759",
+      "id": "000684",
       "emoji": "🧏🏿",
       "description": "deaf person: dark skin tone",
       "unicode": [
@@ -7845,7 +7050,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000760",
+      "id": "000685",
       "emoji": "🧏‍♂️",
       "description": "deaf man",
       "unicode": [
@@ -7857,7 +7062,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000761",
+      "id": "000686",
       "emoji": "🧏🏻‍♂️",
       "description": "deaf man: light skin tone",
       "unicode": [
@@ -7870,7 +7075,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000762",
+      "id": "000687",
       "emoji": "🧏🏼‍♂️",
       "description": "deaf man: medium-light skin tone",
       "unicode": [
@@ -7883,7 +7088,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000763",
+      "id": "000688",
       "emoji": "🧏🏽‍♂️",
       "description": "deaf man: medium skin tone",
       "unicode": [
@@ -7896,7 +7101,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000764",
+      "id": "000689",
       "emoji": "🧏🏾‍♂️",
       "description": "deaf man: medium-dark skin tone",
       "unicode": [
@@ -7909,7 +7114,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000765",
+      "id": "000690",
       "emoji": "🧏🏿‍♂️",
       "description": "deaf man: dark skin tone",
       "unicode": [
@@ -7922,7 +7127,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000766",
+      "id": "000691",
       "emoji": "🧏‍♀️",
       "description": "deaf woman",
       "unicode": [
@@ -7934,7 +7139,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000767",
+      "id": "000692",
       "emoji": "🧏🏻‍♀️",
       "description": "deaf woman: light skin tone",
       "unicode": [
@@ -7947,7 +7152,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000768",
+      "id": "000693",
       "emoji": "🧏🏼‍♀️",
       "description": "deaf woman: medium-light skin tone",
       "unicode": [
@@ -7960,7 +7165,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000769",
+      "id": "000694",
       "emoji": "🧏🏽‍♀️",
       "description": "deaf woman: medium skin tone",
       "unicode": [
@@ -7973,7 +7178,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000770",
+      "id": "000695",
       "emoji": "🧏🏾‍♀️",
       "description": "deaf woman: medium-dark skin tone",
       "unicode": [
@@ -7986,7 +7191,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000771",
+      "id": "000696",
       "emoji": "🧏🏿‍♀️",
       "description": "deaf woman: dark skin tone",
       "unicode": [
@@ -7999,7 +7204,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "000772",
+      "id": "000697",
       "emoji": "🙇",
       "description": "person bowing",
       "unicode": [
@@ -8008,7 +7213,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "000773",
+      "id": "000698",
       "emoji": "🙇🏻",
       "description": "person bowing: light skin tone",
       "unicode": [
@@ -8018,7 +7223,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000774",
+      "id": "000699",
       "emoji": "🙇🏼",
       "description": "person bowing: medium-light skin tone",
       "unicode": [
@@ -8028,7 +7233,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000775",
+      "id": "000700",
       "emoji": "🙇🏽",
       "description": "person bowing: medium skin tone",
       "unicode": [
@@ -8038,7 +7243,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000776",
+      "id": "000701",
       "emoji": "🙇🏾",
       "description": "person bowing: medium-dark skin tone",
       "unicode": [
@@ -8048,7 +7253,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000777",
+      "id": "000702",
       "emoji": "🙇🏿",
       "description": "person bowing: dark skin tone",
       "unicode": [
@@ -8058,7 +7263,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "000778",
+      "id": "000703",
       "emoji": "🙇‍♂️",
       "description": "man bowing",
       "unicode": [
@@ -8070,7 +7275,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000779",
+      "id": "000704",
       "emoji": "🙇🏻‍♂️",
       "description": "man bowing: light skin tone",
       "unicode": [
@@ -8083,7 +7288,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000780",
+      "id": "000705",
       "emoji": "🙇🏼‍♂️",
       "description": "man bowing: medium-light skin tone",
       "unicode": [
@@ -8096,7 +7301,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000781",
+      "id": "000706",
       "emoji": "🙇🏽‍♂️",
       "description": "man bowing: medium skin tone",
       "unicode": [
@@ -8109,7 +7314,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000782",
+      "id": "000707",
       "emoji": "🙇🏾‍♂️",
       "description": "man bowing: medium-dark skin tone",
       "unicode": [
@@ -8122,7 +7327,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000783",
+      "id": "000708",
       "emoji": "🙇🏿‍♂️",
       "description": "man bowing: dark skin tone",
       "unicode": [
@@ -8135,7 +7340,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000784",
+      "id": "000709",
       "emoji": "🙇‍♀️",
       "description": "woman bowing",
       "unicode": [
@@ -8147,7 +7352,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000785",
+      "id": "000710",
       "emoji": "🙇🏻‍♀️",
       "description": "woman bowing: light skin tone",
       "unicode": [
@@ -8160,7 +7365,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000786",
+      "id": "000711",
       "emoji": "🙇🏼‍♀️",
       "description": "woman bowing: medium-light skin tone",
       "unicode": [
@@ -8173,7 +7378,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000787",
+      "id": "000712",
       "emoji": "🙇🏽‍♀️",
       "description": "woman bowing: medium skin tone",
       "unicode": [
@@ -8186,7 +7391,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000788",
+      "id": "000713",
       "emoji": "🙇🏾‍♀️",
       "description": "woman bowing: medium-dark skin tone",
       "unicode": [
@@ -8199,7 +7404,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000789",
+      "id": "000714",
       "emoji": "🙇🏿‍♀️",
       "description": "woman bowing: dark skin tone",
       "unicode": [
@@ -8212,7 +7417,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000790",
+      "id": "000715",
       "emoji": "🤦",
       "description": "person facepalming",
       "unicode": [
@@ -8221,7 +7426,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000791",
+      "id": "000716",
       "emoji": "🤦🏻",
       "description": "person facepalming: light skin tone",
       "unicode": [
@@ -8231,7 +7436,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000792",
+      "id": "000717",
       "emoji": "🤦🏼",
       "description": "person facepalming: medium-light skin tone",
       "unicode": [
@@ -8241,7 +7446,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000793",
+      "id": "000718",
       "emoji": "🤦🏽",
       "description": "person facepalming: medium skin tone",
       "unicode": [
@@ -8251,7 +7456,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000794",
+      "id": "000719",
       "emoji": "🤦🏾",
       "description": "person facepalming: medium-dark skin tone",
       "unicode": [
@@ -8261,7 +7466,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000795",
+      "id": "000720",
       "emoji": "🤦🏿",
       "description": "person facepalming: dark skin tone",
       "unicode": [
@@ -8271,7 +7476,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000796",
+      "id": "000721",
       "emoji": "🤦‍♂️",
       "description": "man facepalming",
       "unicode": [
@@ -8283,7 +7488,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000797",
+      "id": "000722",
       "emoji": "🤦🏻‍♂️",
       "description": "man facepalming: light skin tone",
       "unicode": [
@@ -8296,7 +7501,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000798",
+      "id": "000723",
       "emoji": "🤦🏼‍♂️",
       "description": "man facepalming: medium-light skin tone",
       "unicode": [
@@ -8309,7 +7514,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000799",
+      "id": "000724",
       "emoji": "🤦🏽‍♂️",
       "description": "man facepalming: medium skin tone",
       "unicode": [
@@ -8322,7 +7527,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000800",
+      "id": "000725",
       "emoji": "🤦🏾‍♂️",
       "description": "man facepalming: medium-dark skin tone",
       "unicode": [
@@ -8335,7 +7540,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000801",
+      "id": "000726",
       "emoji": "🤦🏿‍♂️",
       "description": "man facepalming: dark skin tone",
       "unicode": [
@@ -8348,7 +7553,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000802",
+      "id": "000727",
       "emoji": "🤦‍♀️",
       "description": "woman facepalming",
       "unicode": [
@@ -8360,7 +7565,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000803",
+      "id": "000728",
       "emoji": "🤦🏻‍♀️",
       "description": "woman facepalming: light skin tone",
       "unicode": [
@@ -8373,7 +7578,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000804",
+      "id": "000729",
       "emoji": "🤦🏼‍♀️",
       "description": "woman facepalming: medium-light skin tone",
       "unicode": [
@@ -8386,7 +7591,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000805",
+      "id": "000730",
       "emoji": "🤦🏽‍♀️",
       "description": "woman facepalming: medium skin tone",
       "unicode": [
@@ -8399,7 +7604,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000806",
+      "id": "000731",
       "emoji": "🤦🏾‍♀️",
       "description": "woman facepalming: medium-dark skin tone",
       "unicode": [
@@ -8412,7 +7617,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000807",
+      "id": "000732",
       "emoji": "🤦🏿‍♀️",
       "description": "woman facepalming: dark skin tone",
       "unicode": [
@@ -8425,7 +7630,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000808",
+      "id": "000733",
       "emoji": "🤷",
       "description": "person shrugging",
       "unicode": [
@@ -8434,7 +7639,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000809",
+      "id": "000734",
       "emoji": "🤷🏻",
       "description": "person shrugging: light skin tone",
       "unicode": [
@@ -8444,7 +7649,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000810",
+      "id": "000735",
       "emoji": "🤷🏼",
       "description": "person shrugging: medium-light skin tone",
       "unicode": [
@@ -8454,7 +7659,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000811",
+      "id": "000736",
       "emoji": "🤷🏽",
       "description": "person shrugging: medium skin tone",
       "unicode": [
@@ -8464,7 +7669,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000812",
+      "id": "000737",
       "emoji": "🤷🏾",
       "description": "person shrugging: medium-dark skin tone",
       "unicode": [
@@ -8474,7 +7679,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000813",
+      "id": "000738",
       "emoji": "🤷🏿",
       "description": "person shrugging: dark skin tone",
       "unicode": [
@@ -8484,7 +7689,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "000814",
+      "id": "000739",
       "emoji": "🤷‍♂️",
       "description": "man shrugging",
       "unicode": [
@@ -8496,7 +7701,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000815",
+      "id": "000740",
       "emoji": "🤷🏻‍♂️",
       "description": "man shrugging: light skin tone",
       "unicode": [
@@ -8509,7 +7714,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000816",
+      "id": "000741",
       "emoji": "🤷🏼‍♂️",
       "description": "man shrugging: medium-light skin tone",
       "unicode": [
@@ -8522,7 +7727,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000817",
+      "id": "000742",
       "emoji": "🤷🏽‍♂️",
       "description": "man shrugging: medium skin tone",
       "unicode": [
@@ -8535,7 +7740,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000818",
+      "id": "000743",
       "emoji": "🤷🏾‍♂️",
       "description": "man shrugging: medium-dark skin tone",
       "unicode": [
@@ -8548,7 +7753,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000819",
+      "id": "000744",
       "emoji": "🤷🏿‍♂️",
       "description": "man shrugging: dark skin tone",
       "unicode": [
@@ -8561,7 +7766,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000820",
+      "id": "000745",
       "emoji": "🤷‍♀️",
       "description": "woman shrugging",
       "unicode": [
@@ -8573,7 +7778,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000821",
+      "id": "000746",
       "emoji": "🤷🏻‍♀️",
       "description": "woman shrugging: light skin tone",
       "unicode": [
@@ -8586,7 +7791,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000822",
+      "id": "000747",
       "emoji": "🤷🏼‍♀️",
       "description": "woman shrugging: medium-light skin tone",
       "unicode": [
@@ -8599,7 +7804,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000823",
+      "id": "000748",
       "emoji": "🤷🏽‍♀️",
       "description": "woman shrugging: medium skin tone",
       "unicode": [
@@ -8612,7 +7817,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000824",
+      "id": "000749",
       "emoji": "🤷🏾‍♀️",
       "description": "woman shrugging: medium-dark skin tone",
       "unicode": [
@@ -8625,7 +7830,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000825",
+      "id": "000750",
       "emoji": "🤷🏿‍♀️",
       "description": "woman shrugging: dark skin tone",
       "unicode": [
@@ -8638,7 +7843,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000826",
+      "id": "000751",
       "emoji": "🧑‍⚕️",
       "description": "health worker",
       "unicode": [
@@ -8650,7 +7855,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000827",
+      "id": "000752",
       "emoji": "🧑🏻‍⚕️",
       "description": "health worker: light skin tone",
       "unicode": [
@@ -8663,7 +7868,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000828",
+      "id": "000753",
       "emoji": "🧑🏼‍⚕️",
       "description": "health worker: medium-light skin tone",
       "unicode": [
@@ -8676,7 +7881,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000829",
+      "id": "000754",
       "emoji": "🧑🏽‍⚕️",
       "description": "health worker: medium skin tone",
       "unicode": [
@@ -8689,7 +7894,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000830",
+      "id": "000755",
       "emoji": "🧑🏾‍⚕️",
       "description": "health worker: medium-dark skin tone",
       "unicode": [
@@ -8702,7 +7907,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000831",
+      "id": "000756",
       "emoji": "🧑🏿‍⚕️",
       "description": "health worker: dark skin tone",
       "unicode": [
@@ -8715,7 +7920,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000832",
+      "id": "000757",
       "emoji": "👨‍⚕️",
       "description": "man health worker",
       "unicode": [
@@ -8727,7 +7932,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000833",
+      "id": "000758",
       "emoji": "👨🏻‍⚕️",
       "description": "man health worker: light skin tone",
       "unicode": [
@@ -8740,7 +7945,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000834",
+      "id": "000759",
       "emoji": "👨🏼‍⚕️",
       "description": "man health worker: medium-light skin tone",
       "unicode": [
@@ -8753,7 +7958,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000835",
+      "id": "000760",
       "emoji": "👨🏽‍⚕️",
       "description": "man health worker: medium skin tone",
       "unicode": [
@@ -8766,7 +7971,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000836",
+      "id": "000761",
       "emoji": "👨🏾‍⚕️",
       "description": "man health worker: medium-dark skin tone",
       "unicode": [
@@ -8779,7 +7984,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000837",
+      "id": "000762",
       "emoji": "👨🏿‍⚕️",
       "description": "man health worker: dark skin tone",
       "unicode": [
@@ -8792,7 +7997,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000838",
+      "id": "000763",
       "emoji": "👩‍⚕️",
       "description": "woman health worker",
       "unicode": [
@@ -8804,7 +8009,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000839",
+      "id": "000764",
       "emoji": "👩🏻‍⚕️",
       "description": "woman health worker: light skin tone",
       "unicode": [
@@ -8817,7 +8022,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000840",
+      "id": "000765",
       "emoji": "👩🏼‍⚕️",
       "description": "woman health worker: medium-light skin tone",
       "unicode": [
@@ -8830,7 +8035,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000841",
+      "id": "000766",
       "emoji": "👩🏽‍⚕️",
       "description": "woman health worker: medium skin tone",
       "unicode": [
@@ -8843,7 +8048,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000842",
+      "id": "000767",
       "emoji": "👩🏾‍⚕️",
       "description": "woman health worker: medium-dark skin tone",
       "unicode": [
@@ -8856,7 +8061,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000843",
+      "id": "000768",
       "emoji": "👩🏿‍⚕️",
       "description": "woman health worker: dark skin tone",
       "unicode": [
@@ -8869,7 +8074,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000844",
+      "id": "000769",
       "emoji": "🧑‍🎓",
       "description": "student",
       "unicode": [
@@ -8880,7 +8085,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000845",
+      "id": "000770",
       "emoji": "🧑🏻‍🎓",
       "description": "student: light skin tone",
       "unicode": [
@@ -8892,7 +8097,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000846",
+      "id": "000771",
       "emoji": "🧑🏼‍🎓",
       "description": "student: medium-light skin tone",
       "unicode": [
@@ -8904,7 +8109,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000847",
+      "id": "000772",
       "emoji": "🧑🏽‍🎓",
       "description": "student: medium skin tone",
       "unicode": [
@@ -8916,7 +8121,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000848",
+      "id": "000773",
       "emoji": "🧑🏾‍🎓",
       "description": "student: medium-dark skin tone",
       "unicode": [
@@ -8928,7 +8133,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000849",
+      "id": "000774",
       "emoji": "🧑🏿‍🎓",
       "description": "student: dark skin tone",
       "unicode": [
@@ -8940,7 +8145,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000850",
+      "id": "000775",
       "emoji": "👨‍🎓",
       "description": "man student",
       "unicode": [
@@ -8951,7 +8156,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000851",
+      "id": "000776",
       "emoji": "👨🏻‍🎓",
       "description": "man student: light skin tone",
       "unicode": [
@@ -8963,7 +8168,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000852",
+      "id": "000777",
       "emoji": "👨🏼‍🎓",
       "description": "man student: medium-light skin tone",
       "unicode": [
@@ -8975,7 +8180,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000853",
+      "id": "000778",
       "emoji": "👨🏽‍🎓",
       "description": "man student: medium skin tone",
       "unicode": [
@@ -8987,7 +8192,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000854",
+      "id": "000779",
       "emoji": "👨🏾‍🎓",
       "description": "man student: medium-dark skin tone",
       "unicode": [
@@ -8999,7 +8204,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000855",
+      "id": "000780",
       "emoji": "👨🏿‍🎓",
       "description": "man student: dark skin tone",
       "unicode": [
@@ -9011,7 +8216,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000856",
+      "id": "000781",
       "emoji": "👩‍🎓",
       "description": "woman student",
       "unicode": [
@@ -9022,7 +8227,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000857",
+      "id": "000782",
       "emoji": "👩🏻‍🎓",
       "description": "woman student: light skin tone",
       "unicode": [
@@ -9034,7 +8239,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000858",
+      "id": "000783",
       "emoji": "👩🏼‍🎓",
       "description": "woman student: medium-light skin tone",
       "unicode": [
@@ -9046,7 +8251,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000859",
+      "id": "000784",
       "emoji": "👩🏽‍🎓",
       "description": "woman student: medium skin tone",
       "unicode": [
@@ -9058,7 +8263,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000860",
+      "id": "000785",
       "emoji": "👩🏾‍🎓",
       "description": "woman student: medium-dark skin tone",
       "unicode": [
@@ -9070,7 +8275,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000861",
+      "id": "000786",
       "emoji": "👩🏿‍🎓",
       "description": "woman student: dark skin tone",
       "unicode": [
@@ -9082,7 +8287,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000862",
+      "id": "000787",
       "emoji": "🧑‍🏫",
       "description": "teacher",
       "unicode": [
@@ -9093,7 +8298,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000863",
+      "id": "000788",
       "emoji": "🧑🏻‍🏫",
       "description": "teacher: light skin tone",
       "unicode": [
@@ -9105,7 +8310,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000864",
+      "id": "000789",
       "emoji": "🧑🏼‍🏫",
       "description": "teacher: medium-light skin tone",
       "unicode": [
@@ -9117,7 +8322,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000865",
+      "id": "000790",
       "emoji": "🧑🏽‍🏫",
       "description": "teacher: medium skin tone",
       "unicode": [
@@ -9129,7 +8334,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000866",
+      "id": "000791",
       "emoji": "🧑🏾‍🏫",
       "description": "teacher: medium-dark skin tone",
       "unicode": [
@@ -9141,7 +8346,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000867",
+      "id": "000792",
       "emoji": "🧑🏿‍🏫",
       "description": "teacher: dark skin tone",
       "unicode": [
@@ -9153,7 +8358,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000868",
+      "id": "000793",
       "emoji": "👨‍🏫",
       "description": "man teacher",
       "unicode": [
@@ -9164,7 +8369,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000869",
+      "id": "000794",
       "emoji": "👨🏻‍🏫",
       "description": "man teacher: light skin tone",
       "unicode": [
@@ -9176,7 +8381,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000870",
+      "id": "000795",
       "emoji": "👨🏼‍🏫",
       "description": "man teacher: medium-light skin tone",
       "unicode": [
@@ -9188,7 +8393,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000871",
+      "id": "000796",
       "emoji": "👨🏽‍🏫",
       "description": "man teacher: medium skin tone",
       "unicode": [
@@ -9200,7 +8405,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000872",
+      "id": "000797",
       "emoji": "👨🏾‍🏫",
       "description": "man teacher: medium-dark skin tone",
       "unicode": [
@@ -9212,7 +8417,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000873",
+      "id": "000798",
       "emoji": "👨🏿‍🏫",
       "description": "man teacher: dark skin tone",
       "unicode": [
@@ -9224,7 +8429,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000874",
+      "id": "000799",
       "emoji": "👩‍🏫",
       "description": "woman teacher",
       "unicode": [
@@ -9235,7 +8440,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000875",
+      "id": "000800",
       "emoji": "👩🏻‍🏫",
       "description": "woman teacher: light skin tone",
       "unicode": [
@@ -9247,7 +8452,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000876",
+      "id": "000801",
       "emoji": "👩🏼‍🏫",
       "description": "woman teacher: medium-light skin tone",
       "unicode": [
@@ -9259,7 +8464,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000877",
+      "id": "000802",
       "emoji": "👩🏽‍🏫",
       "description": "woman teacher: medium skin tone",
       "unicode": [
@@ -9271,7 +8476,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000878",
+      "id": "000803",
       "emoji": "👩🏾‍🏫",
       "description": "woman teacher: medium-dark skin tone",
       "unicode": [
@@ -9283,7 +8488,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000879",
+      "id": "000804",
       "emoji": "👩🏿‍🏫",
       "description": "woman teacher: dark skin tone",
       "unicode": [
@@ -9295,7 +8500,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000880",
+      "id": "000805",
       "emoji": "🧑‍⚖️",
       "description": "judge",
       "unicode": [
@@ -9307,7 +8512,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000881",
+      "id": "000806",
       "emoji": "🧑🏻‍⚖️",
       "description": "judge: light skin tone",
       "unicode": [
@@ -9320,7 +8525,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000882",
+      "id": "000807",
       "emoji": "🧑🏼‍⚖️",
       "description": "judge: medium-light skin tone",
       "unicode": [
@@ -9333,7 +8538,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000883",
+      "id": "000808",
       "emoji": "🧑🏽‍⚖️",
       "description": "judge: medium skin tone",
       "unicode": [
@@ -9346,7 +8551,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000884",
+      "id": "000809",
       "emoji": "🧑🏾‍⚖️",
       "description": "judge: medium-dark skin tone",
       "unicode": [
@@ -9359,7 +8564,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000885",
+      "id": "000810",
       "emoji": "🧑🏿‍⚖️",
       "description": "judge: dark skin tone",
       "unicode": [
@@ -9372,7 +8577,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000886",
+      "id": "000811",
       "emoji": "👨‍⚖️",
       "description": "man judge",
       "unicode": [
@@ -9384,7 +8589,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000887",
+      "id": "000812",
       "emoji": "👨🏻‍⚖️",
       "description": "man judge: light skin tone",
       "unicode": [
@@ -9397,7 +8602,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000888",
+      "id": "000813",
       "emoji": "👨🏼‍⚖️",
       "description": "man judge: medium-light skin tone",
       "unicode": [
@@ -9410,7 +8615,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000889",
+      "id": "000814",
       "emoji": "👨🏽‍⚖️",
       "description": "man judge: medium skin tone",
       "unicode": [
@@ -9423,7 +8628,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000890",
+      "id": "000815",
       "emoji": "👨🏾‍⚖️",
       "description": "man judge: medium-dark skin tone",
       "unicode": [
@@ -9436,7 +8641,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000891",
+      "id": "000816",
       "emoji": "👨🏿‍⚖️",
       "description": "man judge: dark skin tone",
       "unicode": [
@@ -9449,7 +8654,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000892",
+      "id": "000817",
       "emoji": "👩‍⚖️",
       "description": "woman judge",
       "unicode": [
@@ -9461,7 +8666,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000893",
+      "id": "000818",
       "emoji": "👩🏻‍⚖️",
       "description": "woman judge: light skin tone",
       "unicode": [
@@ -9474,7 +8679,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000894",
+      "id": "000819",
       "emoji": "👩🏼‍⚖️",
       "description": "woman judge: medium-light skin tone",
       "unicode": [
@@ -9487,7 +8692,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000895",
+      "id": "000820",
       "emoji": "👩🏽‍⚖️",
       "description": "woman judge: medium skin tone",
       "unicode": [
@@ -9500,7 +8705,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000896",
+      "id": "000821",
       "emoji": "👩🏾‍⚖️",
       "description": "woman judge: medium-dark skin tone",
       "unicode": [
@@ -9513,7 +8718,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000897",
+      "id": "000822",
       "emoji": "👩🏿‍⚖️",
       "description": "woman judge: dark skin tone",
       "unicode": [
@@ -9526,7 +8731,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000898",
+      "id": "000823",
       "emoji": "🧑‍🌾",
       "description": "farmer",
       "unicode": [
@@ -9537,7 +8742,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000899",
+      "id": "000824",
       "emoji": "🧑🏻‍🌾",
       "description": "farmer: light skin tone",
       "unicode": [
@@ -9549,7 +8754,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000900",
+      "id": "000825",
       "emoji": "🧑🏼‍🌾",
       "description": "farmer: medium-light skin tone",
       "unicode": [
@@ -9561,7 +8766,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000901",
+      "id": "000826",
       "emoji": "🧑🏽‍🌾",
       "description": "farmer: medium skin tone",
       "unicode": [
@@ -9573,7 +8778,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000902",
+      "id": "000827",
       "emoji": "🧑🏾‍🌾",
       "description": "farmer: medium-dark skin tone",
       "unicode": [
@@ -9585,7 +8790,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000903",
+      "id": "000828",
       "emoji": "🧑🏿‍🌾",
       "description": "farmer: dark skin tone",
       "unicode": [
@@ -9597,7 +8802,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000904",
+      "id": "000829",
       "emoji": "👨‍🌾",
       "description": "man farmer",
       "unicode": [
@@ -9608,7 +8813,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000905",
+      "id": "000830",
       "emoji": "👨🏻‍🌾",
       "description": "man farmer: light skin tone",
       "unicode": [
@@ -9620,7 +8825,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000906",
+      "id": "000831",
       "emoji": "👨🏼‍🌾",
       "description": "man farmer: medium-light skin tone",
       "unicode": [
@@ -9632,7 +8837,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000907",
+      "id": "000832",
       "emoji": "👨🏽‍🌾",
       "description": "man farmer: medium skin tone",
       "unicode": [
@@ -9644,7 +8849,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000908",
+      "id": "000833",
       "emoji": "👨🏾‍🌾",
       "description": "man farmer: medium-dark skin tone",
       "unicode": [
@@ -9656,7 +8861,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000909",
+      "id": "000834",
       "emoji": "👨🏿‍🌾",
       "description": "man farmer: dark skin tone",
       "unicode": [
@@ -9668,7 +8873,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000910",
+      "id": "000835",
       "emoji": "👩‍🌾",
       "description": "woman farmer",
       "unicode": [
@@ -9679,7 +8884,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000911",
+      "id": "000836",
       "emoji": "👩🏻‍🌾",
       "description": "woman farmer: light skin tone",
       "unicode": [
@@ -9691,7 +8896,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000912",
+      "id": "000837",
       "emoji": "👩🏼‍🌾",
       "description": "woman farmer: medium-light skin tone",
       "unicode": [
@@ -9703,7 +8908,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000913",
+      "id": "000838",
       "emoji": "👩🏽‍🌾",
       "description": "woman farmer: medium skin tone",
       "unicode": [
@@ -9715,7 +8920,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000914",
+      "id": "000839",
       "emoji": "👩🏾‍🌾",
       "description": "woman farmer: medium-dark skin tone",
       "unicode": [
@@ -9727,7 +8932,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000915",
+      "id": "000840",
       "emoji": "👩🏿‍🌾",
       "description": "woman farmer: dark skin tone",
       "unicode": [
@@ -9739,7 +8944,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000916",
+      "id": "000841",
       "emoji": "🧑‍🍳",
       "description": "cook",
       "unicode": [
@@ -9750,7 +8955,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000917",
+      "id": "000842",
       "emoji": "🧑🏻‍🍳",
       "description": "cook: light skin tone",
       "unicode": [
@@ -9762,7 +8967,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000918",
+      "id": "000843",
       "emoji": "🧑🏼‍🍳",
       "description": "cook: medium-light skin tone",
       "unicode": [
@@ -9774,7 +8979,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000919",
+      "id": "000844",
       "emoji": "🧑🏽‍🍳",
       "description": "cook: medium skin tone",
       "unicode": [
@@ -9786,7 +8991,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000920",
+      "id": "000845",
       "emoji": "🧑🏾‍🍳",
       "description": "cook: medium-dark skin tone",
       "unicode": [
@@ -9798,7 +9003,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000921",
+      "id": "000846",
       "emoji": "🧑🏿‍🍳",
       "description": "cook: dark skin tone",
       "unicode": [
@@ -9810,7 +9015,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000922",
+      "id": "000847",
       "emoji": "👨‍🍳",
       "description": "man cook",
       "unicode": [
@@ -9821,7 +9026,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000923",
+      "id": "000848",
       "emoji": "👨🏻‍🍳",
       "description": "man cook: light skin tone",
       "unicode": [
@@ -9833,7 +9038,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000924",
+      "id": "000849",
       "emoji": "👨🏼‍🍳",
       "description": "man cook: medium-light skin tone",
       "unicode": [
@@ -9845,7 +9050,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000925",
+      "id": "000850",
       "emoji": "👨🏽‍🍳",
       "description": "man cook: medium skin tone",
       "unicode": [
@@ -9857,7 +9062,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000926",
+      "id": "000851",
       "emoji": "👨🏾‍🍳",
       "description": "man cook: medium-dark skin tone",
       "unicode": [
@@ -9869,7 +9074,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000927",
+      "id": "000852",
       "emoji": "👨🏿‍🍳",
       "description": "man cook: dark skin tone",
       "unicode": [
@@ -9881,7 +9086,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000928",
+      "id": "000853",
       "emoji": "👩‍🍳",
       "description": "woman cook",
       "unicode": [
@@ -9892,7 +9097,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000929",
+      "id": "000854",
       "emoji": "👩🏻‍🍳",
       "description": "woman cook: light skin tone",
       "unicode": [
@@ -9904,7 +9109,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000930",
+      "id": "000855",
       "emoji": "👩🏼‍🍳",
       "description": "woman cook: medium-light skin tone",
       "unicode": [
@@ -9916,7 +9121,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000931",
+      "id": "000856",
       "emoji": "👩🏽‍🍳",
       "description": "woman cook: medium skin tone",
       "unicode": [
@@ -9928,7 +9133,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000932",
+      "id": "000857",
       "emoji": "👩🏾‍🍳",
       "description": "woman cook: medium-dark skin tone",
       "unicode": [
@@ -9940,7 +9145,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000933",
+      "id": "000858",
       "emoji": "👩🏿‍🍳",
       "description": "woman cook: dark skin tone",
       "unicode": [
@@ -9952,7 +9157,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000934",
+      "id": "000859",
       "emoji": "🧑‍🔧",
       "description": "mechanic",
       "unicode": [
@@ -9963,7 +9168,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000935",
+      "id": "000860",
       "emoji": "🧑🏻‍🔧",
       "description": "mechanic: light skin tone",
       "unicode": [
@@ -9975,7 +9180,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000936",
+      "id": "000861",
       "emoji": "🧑🏼‍🔧",
       "description": "mechanic: medium-light skin tone",
       "unicode": [
@@ -9987,7 +9192,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000937",
+      "id": "000862",
       "emoji": "🧑🏽‍🔧",
       "description": "mechanic: medium skin tone",
       "unicode": [
@@ -9999,7 +9204,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000938",
+      "id": "000863",
       "emoji": "🧑🏾‍🔧",
       "description": "mechanic: medium-dark skin tone",
       "unicode": [
@@ -10011,7 +9216,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000939",
+      "id": "000864",
       "emoji": "🧑🏿‍🔧",
       "description": "mechanic: dark skin tone",
       "unicode": [
@@ -10023,7 +9228,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000940",
+      "id": "000865",
       "emoji": "👨‍🔧",
       "description": "man mechanic",
       "unicode": [
@@ -10034,7 +9239,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000941",
+      "id": "000866",
       "emoji": "👨🏻‍🔧",
       "description": "man mechanic: light skin tone",
       "unicode": [
@@ -10046,7 +9251,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000942",
+      "id": "000867",
       "emoji": "👨🏼‍🔧",
       "description": "man mechanic: medium-light skin tone",
       "unicode": [
@@ -10058,7 +9263,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000943",
+      "id": "000868",
       "emoji": "👨🏽‍🔧",
       "description": "man mechanic: medium skin tone",
       "unicode": [
@@ -10070,7 +9275,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000944",
+      "id": "000869",
       "emoji": "👨🏾‍🔧",
       "description": "man mechanic: medium-dark skin tone",
       "unicode": [
@@ -10082,7 +9287,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000945",
+      "id": "000870",
       "emoji": "👨🏿‍🔧",
       "description": "man mechanic: dark skin tone",
       "unicode": [
@@ -10094,7 +9299,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000946",
+      "id": "000871",
       "emoji": "👩‍🔧",
       "description": "woman mechanic",
       "unicode": [
@@ -10105,7 +9310,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000947",
+      "id": "000872",
       "emoji": "👩🏻‍🔧",
       "description": "woman mechanic: light skin tone",
       "unicode": [
@@ -10117,7 +9322,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000948",
+      "id": "000873",
       "emoji": "👩🏼‍🔧",
       "description": "woman mechanic: medium-light skin tone",
       "unicode": [
@@ -10129,7 +9334,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000949",
+      "id": "000874",
       "emoji": "👩🏽‍🔧",
       "description": "woman mechanic: medium skin tone",
       "unicode": [
@@ -10141,7 +9346,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000950",
+      "id": "000875",
       "emoji": "👩🏾‍🔧",
       "description": "woman mechanic: medium-dark skin tone",
       "unicode": [
@@ -10153,7 +9358,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000951",
+      "id": "000876",
       "emoji": "👩🏿‍🔧",
       "description": "woman mechanic: dark skin tone",
       "unicode": [
@@ -10165,7 +9370,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000952",
+      "id": "000877",
       "emoji": "🧑‍🏭",
       "description": "factory worker",
       "unicode": [
@@ -10176,7 +9381,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000953",
+      "id": "000878",
       "emoji": "🧑🏻‍🏭",
       "description": "factory worker: light skin tone",
       "unicode": [
@@ -10188,7 +9393,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000954",
+      "id": "000879",
       "emoji": "🧑🏼‍🏭",
       "description": "factory worker: medium-light skin tone",
       "unicode": [
@@ -10200,7 +9405,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000955",
+      "id": "000880",
       "emoji": "🧑🏽‍🏭",
       "description": "factory worker: medium skin tone",
       "unicode": [
@@ -10212,7 +9417,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000956",
+      "id": "000881",
       "emoji": "🧑🏾‍🏭",
       "description": "factory worker: medium-dark skin tone",
       "unicode": [
@@ -10224,7 +9429,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000957",
+      "id": "000882",
       "emoji": "🧑🏿‍🏭",
       "description": "factory worker: dark skin tone",
       "unicode": [
@@ -10236,7 +9441,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000958",
+      "id": "000883",
       "emoji": "👨‍🏭",
       "description": "man factory worker",
       "unicode": [
@@ -10247,7 +9452,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000959",
+      "id": "000884",
       "emoji": "👨🏻‍🏭",
       "description": "man factory worker: light skin tone",
       "unicode": [
@@ -10259,7 +9464,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000960",
+      "id": "000885",
       "emoji": "👨🏼‍🏭",
       "description": "man factory worker: medium-light skin tone",
       "unicode": [
@@ -10271,7 +9476,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000961",
+      "id": "000886",
       "emoji": "👨🏽‍🏭",
       "description": "man factory worker: medium skin tone",
       "unicode": [
@@ -10283,7 +9488,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000962",
+      "id": "000887",
       "emoji": "👨🏾‍🏭",
       "description": "man factory worker: medium-dark skin tone",
       "unicode": [
@@ -10295,7 +9500,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000963",
+      "id": "000888",
       "emoji": "👨🏿‍🏭",
       "description": "man factory worker: dark skin tone",
       "unicode": [
@@ -10307,7 +9512,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000964",
+      "id": "000889",
       "emoji": "👩‍🏭",
       "description": "woman factory worker",
       "unicode": [
@@ -10318,7 +9523,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000965",
+      "id": "000890",
       "emoji": "👩🏻‍🏭",
       "description": "woman factory worker: light skin tone",
       "unicode": [
@@ -10330,7 +9535,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000966",
+      "id": "000891",
       "emoji": "👩🏼‍🏭",
       "description": "woman factory worker: medium-light skin tone",
       "unicode": [
@@ -10342,7 +9547,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000967",
+      "id": "000892",
       "emoji": "👩🏽‍🏭",
       "description": "woman factory worker: medium skin tone",
       "unicode": [
@@ -10354,7 +9559,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000968",
+      "id": "000893",
       "emoji": "👩🏾‍🏭",
       "description": "woman factory worker: medium-dark skin tone",
       "unicode": [
@@ -10366,7 +9571,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000969",
+      "id": "000894",
       "emoji": "👩🏿‍🏭",
       "description": "woman factory worker: dark skin tone",
       "unicode": [
@@ -10378,7 +9583,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000970",
+      "id": "000895",
       "emoji": "🧑‍💼",
       "description": "office worker",
       "unicode": [
@@ -10389,7 +9594,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000971",
+      "id": "000896",
       "emoji": "🧑🏻‍💼",
       "description": "office worker: light skin tone",
       "unicode": [
@@ -10401,7 +9606,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000972",
+      "id": "000897",
       "emoji": "🧑🏼‍💼",
       "description": "office worker: medium-light skin tone",
       "unicode": [
@@ -10413,7 +9618,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000973",
+      "id": "000898",
       "emoji": "🧑🏽‍💼",
       "description": "office worker: medium skin tone",
       "unicode": [
@@ -10425,7 +9630,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000974",
+      "id": "000899",
       "emoji": "🧑🏾‍💼",
       "description": "office worker: medium-dark skin tone",
       "unicode": [
@@ -10437,7 +9642,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000975",
+      "id": "000900",
       "emoji": "🧑🏿‍💼",
       "description": "office worker: dark skin tone",
       "unicode": [
@@ -10449,7 +9654,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000976",
+      "id": "000901",
       "emoji": "👨‍💼",
       "description": "man office worker",
       "unicode": [
@@ -10460,7 +9665,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000977",
+      "id": "000902",
       "emoji": "👨🏻‍💼",
       "description": "man office worker: light skin tone",
       "unicode": [
@@ -10472,7 +9677,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000978",
+      "id": "000903",
       "emoji": "👨🏼‍💼",
       "description": "man office worker: medium-light skin tone",
       "unicode": [
@@ -10484,7 +9689,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000979",
+      "id": "000904",
       "emoji": "👨🏽‍💼",
       "description": "man office worker: medium skin tone",
       "unicode": [
@@ -10496,7 +9701,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000980",
+      "id": "000905",
       "emoji": "👨🏾‍💼",
       "description": "man office worker: medium-dark skin tone",
       "unicode": [
@@ -10508,7 +9713,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000981",
+      "id": "000906",
       "emoji": "👨🏿‍💼",
       "description": "man office worker: dark skin tone",
       "unicode": [
@@ -10520,7 +9725,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000982",
+      "id": "000907",
       "emoji": "👩‍💼",
       "description": "woman office worker",
       "unicode": [
@@ -10531,7 +9736,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000983",
+      "id": "000908",
       "emoji": "👩🏻‍💼",
       "description": "woman office worker: light skin tone",
       "unicode": [
@@ -10543,7 +9748,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000984",
+      "id": "000909",
       "emoji": "👩🏼‍💼",
       "description": "woman office worker: medium-light skin tone",
       "unicode": [
@@ -10555,7 +9760,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000985",
+      "id": "000910",
       "emoji": "👩🏽‍💼",
       "description": "woman office worker: medium skin tone",
       "unicode": [
@@ -10567,7 +9772,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000986",
+      "id": "000911",
       "emoji": "👩🏾‍💼",
       "description": "woman office worker: medium-dark skin tone",
       "unicode": [
@@ -10579,7 +9784,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000987",
+      "id": "000912",
       "emoji": "👩🏿‍💼",
       "description": "woman office worker: dark skin tone",
       "unicode": [
@@ -10591,7 +9796,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000988",
+      "id": "000913",
       "emoji": "🧑‍🔬",
       "description": "scientist",
       "unicode": [
@@ -10602,7 +9807,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000989",
+      "id": "000914",
       "emoji": "🧑🏻‍🔬",
       "description": "scientist: light skin tone",
       "unicode": [
@@ -10614,7 +9819,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000990",
+      "id": "000915",
       "emoji": "🧑🏼‍🔬",
       "description": "scientist: medium-light skin tone",
       "unicode": [
@@ -10626,7 +9831,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000991",
+      "id": "000916",
       "emoji": "🧑🏽‍🔬",
       "description": "scientist: medium skin tone",
       "unicode": [
@@ -10638,7 +9843,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000992",
+      "id": "000917",
       "emoji": "🧑🏾‍🔬",
       "description": "scientist: medium-dark skin tone",
       "unicode": [
@@ -10650,7 +9855,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000993",
+      "id": "000918",
       "emoji": "🧑🏿‍🔬",
       "description": "scientist: dark skin tone",
       "unicode": [
@@ -10662,7 +9867,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "000994",
+      "id": "000919",
       "emoji": "👨‍🔬",
       "description": "man scientist",
       "unicode": [
@@ -10673,7 +9878,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000995",
+      "id": "000920",
       "emoji": "👨🏻‍🔬",
       "description": "man scientist: light skin tone",
       "unicode": [
@@ -10685,7 +9890,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000996",
+      "id": "000921",
       "emoji": "👨🏼‍🔬",
       "description": "man scientist: medium-light skin tone",
       "unicode": [
@@ -10697,7 +9902,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000997",
+      "id": "000922",
       "emoji": "👨🏽‍🔬",
       "description": "man scientist: medium skin tone",
       "unicode": [
@@ -10709,7 +9914,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000998",
+      "id": "000923",
       "emoji": "👨🏾‍🔬",
       "description": "man scientist: medium-dark skin tone",
       "unicode": [
@@ -10721,7 +9926,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "000999",
+      "id": "000924",
       "emoji": "👨🏿‍🔬",
       "description": "man scientist: dark skin tone",
       "unicode": [
@@ -10733,7 +9938,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001000",
+      "id": "000925",
       "emoji": "👩‍🔬",
       "description": "woman scientist",
       "unicode": [
@@ -10744,7 +9949,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001001",
+      "id": "000926",
       "emoji": "👩🏻‍🔬",
       "description": "woman scientist: light skin tone",
       "unicode": [
@@ -10756,7 +9961,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001002",
+      "id": "000927",
       "emoji": "👩🏼‍🔬",
       "description": "woman scientist: medium-light skin tone",
       "unicode": [
@@ -10768,7 +9973,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001003",
+      "id": "000928",
       "emoji": "👩🏽‍🔬",
       "description": "woman scientist: medium skin tone",
       "unicode": [
@@ -10780,7 +9985,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001004",
+      "id": "000929",
       "emoji": "👩🏾‍🔬",
       "description": "woman scientist: medium-dark skin tone",
       "unicode": [
@@ -10792,7 +9997,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001005",
+      "id": "000930",
       "emoji": "👩🏿‍🔬",
       "description": "woman scientist: dark skin tone",
       "unicode": [
@@ -10804,7 +10009,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001006",
+      "id": "000931",
       "emoji": "🧑‍💻",
       "description": "technologist",
       "unicode": [
@@ -10815,7 +10020,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001007",
+      "id": "000932",
       "emoji": "🧑🏻‍💻",
       "description": "technologist: light skin tone",
       "unicode": [
@@ -10827,7 +10032,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001008",
+      "id": "000933",
       "emoji": "🧑🏼‍💻",
       "description": "technologist: medium-light skin tone",
       "unicode": [
@@ -10839,7 +10044,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001009",
+      "id": "000934",
       "emoji": "🧑🏽‍💻",
       "description": "technologist: medium skin tone",
       "unicode": [
@@ -10851,7 +10056,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001010",
+      "id": "000935",
       "emoji": "🧑🏾‍💻",
       "description": "technologist: medium-dark skin tone",
       "unicode": [
@@ -10863,7 +10068,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001011",
+      "id": "000936",
       "emoji": "🧑🏿‍💻",
       "description": "technologist: dark skin tone",
       "unicode": [
@@ -10875,7 +10080,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001012",
+      "id": "000937",
       "emoji": "👨‍💻",
       "description": "man technologist",
       "unicode": [
@@ -10886,7 +10091,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001013",
+      "id": "000938",
       "emoji": "👨🏻‍💻",
       "description": "man technologist: light skin tone",
       "unicode": [
@@ -10898,7 +10103,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001014",
+      "id": "000939",
       "emoji": "👨🏼‍💻",
       "description": "man technologist: medium-light skin tone",
       "unicode": [
@@ -10910,7 +10115,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001015",
+      "id": "000940",
       "emoji": "👨🏽‍💻",
       "description": "man technologist: medium skin tone",
       "unicode": [
@@ -10922,7 +10127,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001016",
+      "id": "000941",
       "emoji": "👨🏾‍💻",
       "description": "man technologist: medium-dark skin tone",
       "unicode": [
@@ -10934,7 +10139,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001017",
+      "id": "000942",
       "emoji": "👨🏿‍💻",
       "description": "man technologist: dark skin tone",
       "unicode": [
@@ -10946,7 +10151,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001018",
+      "id": "000943",
       "emoji": "👩‍💻",
       "description": "woman technologist",
       "unicode": [
@@ -10957,7 +10162,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001019",
+      "id": "000944",
       "emoji": "👩🏻‍💻",
       "description": "woman technologist: light skin tone",
       "unicode": [
@@ -10969,7 +10174,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001020",
+      "id": "000945",
       "emoji": "👩🏼‍💻",
       "description": "woman technologist: medium-light skin tone",
       "unicode": [
@@ -10981,7 +10186,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001021",
+      "id": "000946",
       "emoji": "👩🏽‍💻",
       "description": "woman technologist: medium skin tone",
       "unicode": [
@@ -10993,7 +10198,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001022",
+      "id": "000947",
       "emoji": "👩🏾‍💻",
       "description": "woman technologist: medium-dark skin tone",
       "unicode": [
@@ -11005,7 +10210,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001023",
+      "id": "000948",
       "emoji": "👩🏿‍💻",
       "description": "woman technologist: dark skin tone",
       "unicode": [
@@ -11017,7 +10222,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001024",
+      "id": "000949",
       "emoji": "🧑‍🎤",
       "description": "singer",
       "unicode": [
@@ -11028,7 +10233,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001025",
+      "id": "000950",
       "emoji": "🧑🏻‍🎤",
       "description": "singer: light skin tone",
       "unicode": [
@@ -11040,7 +10245,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001026",
+      "id": "000951",
       "emoji": "🧑🏼‍🎤",
       "description": "singer: medium-light skin tone",
       "unicode": [
@@ -11052,7 +10257,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001027",
+      "id": "000952",
       "emoji": "🧑🏽‍🎤",
       "description": "singer: medium skin tone",
       "unicode": [
@@ -11064,7 +10269,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001028",
+      "id": "000953",
       "emoji": "🧑🏾‍🎤",
       "description": "singer: medium-dark skin tone",
       "unicode": [
@@ -11076,7 +10281,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001029",
+      "id": "000954",
       "emoji": "🧑🏿‍🎤",
       "description": "singer: dark skin tone",
       "unicode": [
@@ -11088,7 +10293,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001030",
+      "id": "000955",
       "emoji": "👨‍🎤",
       "description": "man singer",
       "unicode": [
@@ -11099,7 +10304,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001031",
+      "id": "000956",
       "emoji": "👨🏻‍🎤",
       "description": "man singer: light skin tone",
       "unicode": [
@@ -11111,7 +10316,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001032",
+      "id": "000957",
       "emoji": "👨🏼‍🎤",
       "description": "man singer: medium-light skin tone",
       "unicode": [
@@ -11123,7 +10328,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001033",
+      "id": "000958",
       "emoji": "👨🏽‍🎤",
       "description": "man singer: medium skin tone",
       "unicode": [
@@ -11135,7 +10340,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001034",
+      "id": "000959",
       "emoji": "👨🏾‍🎤",
       "description": "man singer: medium-dark skin tone",
       "unicode": [
@@ -11147,7 +10352,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001035",
+      "id": "000960",
       "emoji": "👨🏿‍🎤",
       "description": "man singer: dark skin tone",
       "unicode": [
@@ -11159,7 +10364,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001036",
+      "id": "000961",
       "emoji": "👩‍🎤",
       "description": "woman singer",
       "unicode": [
@@ -11170,7 +10375,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001037",
+      "id": "000962",
       "emoji": "👩🏻‍🎤",
       "description": "woman singer: light skin tone",
       "unicode": [
@@ -11182,7 +10387,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001038",
+      "id": "000963",
       "emoji": "👩🏼‍🎤",
       "description": "woman singer: medium-light skin tone",
       "unicode": [
@@ -11194,7 +10399,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001039",
+      "id": "000964",
       "emoji": "👩🏽‍🎤",
       "description": "woman singer: medium skin tone",
       "unicode": [
@@ -11206,7 +10411,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001040",
+      "id": "000965",
       "emoji": "👩🏾‍🎤",
       "description": "woman singer: medium-dark skin tone",
       "unicode": [
@@ -11218,7 +10423,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001041",
+      "id": "000966",
       "emoji": "👩🏿‍🎤",
       "description": "woman singer: dark skin tone",
       "unicode": [
@@ -11230,7 +10435,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001042",
+      "id": "000967",
       "emoji": "🧑‍🎨",
       "description": "artist",
       "unicode": [
@@ -11241,7 +10446,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001043",
+      "id": "000968",
       "emoji": "🧑🏻‍🎨",
       "description": "artist: light skin tone",
       "unicode": [
@@ -11253,7 +10458,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001044",
+      "id": "000969",
       "emoji": "🧑🏼‍🎨",
       "description": "artist: medium-light skin tone",
       "unicode": [
@@ -11265,7 +10470,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001045",
+      "id": "000970",
       "emoji": "🧑🏽‍🎨",
       "description": "artist: medium skin tone",
       "unicode": [
@@ -11277,7 +10482,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001046",
+      "id": "000971",
       "emoji": "🧑🏾‍🎨",
       "description": "artist: medium-dark skin tone",
       "unicode": [
@@ -11289,7 +10494,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001047",
+      "id": "000972",
       "emoji": "🧑🏿‍🎨",
       "description": "artist: dark skin tone",
       "unicode": [
@@ -11301,7 +10506,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001048",
+      "id": "000973",
       "emoji": "👨‍🎨",
       "description": "man artist",
       "unicode": [
@@ -11312,7 +10517,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001049",
+      "id": "000974",
       "emoji": "👨🏻‍🎨",
       "description": "man artist: light skin tone",
       "unicode": [
@@ -11324,7 +10529,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001050",
+      "id": "000975",
       "emoji": "👨🏼‍🎨",
       "description": "man artist: medium-light skin tone",
       "unicode": [
@@ -11336,7 +10541,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001051",
+      "id": "000976",
       "emoji": "👨🏽‍🎨",
       "description": "man artist: medium skin tone",
       "unicode": [
@@ -11348,7 +10553,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001052",
+      "id": "000977",
       "emoji": "👨🏾‍🎨",
       "description": "man artist: medium-dark skin tone",
       "unicode": [
@@ -11360,7 +10565,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001053",
+      "id": "000978",
       "emoji": "👨🏿‍🎨",
       "description": "man artist: dark skin tone",
       "unicode": [
@@ -11372,7 +10577,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001054",
+      "id": "000979",
       "emoji": "👩‍🎨",
       "description": "woman artist",
       "unicode": [
@@ -11383,7 +10588,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001055",
+      "id": "000980",
       "emoji": "👩🏻‍🎨",
       "description": "woman artist: light skin tone",
       "unicode": [
@@ -11395,7 +10600,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001056",
+      "id": "000981",
       "emoji": "👩🏼‍🎨",
       "description": "woman artist: medium-light skin tone",
       "unicode": [
@@ -11407,7 +10612,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001057",
+      "id": "000982",
       "emoji": "👩🏽‍🎨",
       "description": "woman artist: medium skin tone",
       "unicode": [
@@ -11419,7 +10624,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001058",
+      "id": "000983",
       "emoji": "👩🏾‍🎨",
       "description": "woman artist: medium-dark skin tone",
       "unicode": [
@@ -11431,7 +10636,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001059",
+      "id": "000984",
       "emoji": "👩🏿‍🎨",
       "description": "woman artist: dark skin tone",
       "unicode": [
@@ -11443,7 +10648,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001060",
+      "id": "000985",
       "emoji": "🧑‍✈️",
       "description": "pilot",
       "unicode": [
@@ -11455,7 +10660,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001061",
+      "id": "000986",
       "emoji": "🧑🏻‍✈️",
       "description": "pilot: light skin tone",
       "unicode": [
@@ -11468,7 +10673,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001062",
+      "id": "000987",
       "emoji": "🧑🏼‍✈️",
       "description": "pilot: medium-light skin tone",
       "unicode": [
@@ -11481,7 +10686,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001063",
+      "id": "000988",
       "emoji": "🧑🏽‍✈️",
       "description": "pilot: medium skin tone",
       "unicode": [
@@ -11494,7 +10699,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001064",
+      "id": "000989",
       "emoji": "🧑🏾‍✈️",
       "description": "pilot: medium-dark skin tone",
       "unicode": [
@@ -11507,7 +10712,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001065",
+      "id": "000990",
       "emoji": "🧑🏿‍✈️",
       "description": "pilot: dark skin tone",
       "unicode": [
@@ -11520,7 +10725,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001066",
+      "id": "000991",
       "emoji": "👨‍✈️",
       "description": "man pilot",
       "unicode": [
@@ -11532,7 +10737,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001067",
+      "id": "000992",
       "emoji": "👨🏻‍✈️",
       "description": "man pilot: light skin tone",
       "unicode": [
@@ -11545,7 +10750,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001068",
+      "id": "000993",
       "emoji": "👨🏼‍✈️",
       "description": "man pilot: medium-light skin tone",
       "unicode": [
@@ -11558,7 +10763,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001069",
+      "id": "000994",
       "emoji": "👨🏽‍✈️",
       "description": "man pilot: medium skin tone",
       "unicode": [
@@ -11571,7 +10776,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001070",
+      "id": "000995",
       "emoji": "👨🏾‍✈️",
       "description": "man pilot: medium-dark skin tone",
       "unicode": [
@@ -11584,7 +10789,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001071",
+      "id": "000996",
       "emoji": "👨🏿‍✈️",
       "description": "man pilot: dark skin tone",
       "unicode": [
@@ -11597,7 +10802,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001072",
+      "id": "000997",
       "emoji": "👩‍✈️",
       "description": "woman pilot",
       "unicode": [
@@ -11609,7 +10814,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001073",
+      "id": "000998",
       "emoji": "👩🏻‍✈️",
       "description": "woman pilot: light skin tone",
       "unicode": [
@@ -11622,7 +10827,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001074",
+      "id": "000999",
       "emoji": "👩🏼‍✈️",
       "description": "woman pilot: medium-light skin tone",
       "unicode": [
@@ -11635,7 +10840,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001075",
+      "id": "001000",
       "emoji": "👩🏽‍✈️",
       "description": "woman pilot: medium skin tone",
       "unicode": [
@@ -11648,7 +10853,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001076",
+      "id": "001001",
       "emoji": "👩🏾‍✈️",
       "description": "woman pilot: medium-dark skin tone",
       "unicode": [
@@ -11661,7 +10866,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001077",
+      "id": "001002",
       "emoji": "👩🏿‍✈️",
       "description": "woman pilot: dark skin tone",
       "unicode": [
@@ -11674,7 +10879,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001078",
+      "id": "001003",
       "emoji": "🧑‍🚀",
       "description": "astronaut",
       "unicode": [
@@ -11685,7 +10890,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001079",
+      "id": "001004",
       "emoji": "🧑🏻‍🚀",
       "description": "astronaut: light skin tone",
       "unicode": [
@@ -11697,7 +10902,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001080",
+      "id": "001005",
       "emoji": "🧑🏼‍🚀",
       "description": "astronaut: medium-light skin tone",
       "unicode": [
@@ -11709,7 +10914,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001081",
+      "id": "001006",
       "emoji": "🧑🏽‍🚀",
       "description": "astronaut: medium skin tone",
       "unicode": [
@@ -11721,7 +10926,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001082",
+      "id": "001007",
       "emoji": "🧑🏾‍🚀",
       "description": "astronaut: medium-dark skin tone",
       "unicode": [
@@ -11733,7 +10938,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001083",
+      "id": "001008",
       "emoji": "🧑🏿‍🚀",
       "description": "astronaut: dark skin tone",
       "unicode": [
@@ -11745,7 +10950,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001084",
+      "id": "001009",
       "emoji": "👨‍🚀",
       "description": "man astronaut",
       "unicode": [
@@ -11756,7 +10961,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001085",
+      "id": "001010",
       "emoji": "👨🏻‍🚀",
       "description": "man astronaut: light skin tone",
       "unicode": [
@@ -11768,7 +10973,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001086",
+      "id": "001011",
       "emoji": "👨🏼‍🚀",
       "description": "man astronaut: medium-light skin tone",
       "unicode": [
@@ -11780,7 +10985,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001087",
+      "id": "001012",
       "emoji": "👨🏽‍🚀",
       "description": "man astronaut: medium skin tone",
       "unicode": [
@@ -11792,7 +10997,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001088",
+      "id": "001013",
       "emoji": "👨🏾‍🚀",
       "description": "man astronaut: medium-dark skin tone",
       "unicode": [
@@ -11804,7 +11009,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001089",
+      "id": "001014",
       "emoji": "👨🏿‍🚀",
       "description": "man astronaut: dark skin tone",
       "unicode": [
@@ -11816,7 +11021,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001090",
+      "id": "001015",
       "emoji": "👩‍🚀",
       "description": "woman astronaut",
       "unicode": [
@@ -11827,7 +11032,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001091",
+      "id": "001016",
       "emoji": "👩🏻‍🚀",
       "description": "woman astronaut: light skin tone",
       "unicode": [
@@ -11839,7 +11044,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001092",
+      "id": "001017",
       "emoji": "👩🏼‍🚀",
       "description": "woman astronaut: medium-light skin tone",
       "unicode": [
@@ -11851,7 +11056,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001093",
+      "id": "001018",
       "emoji": "👩🏽‍🚀",
       "description": "woman astronaut: medium skin tone",
       "unicode": [
@@ -11863,7 +11068,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001094",
+      "id": "001019",
       "emoji": "👩🏾‍🚀",
       "description": "woman astronaut: medium-dark skin tone",
       "unicode": [
@@ -11875,7 +11080,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001095",
+      "id": "001020",
       "emoji": "👩🏿‍🚀",
       "description": "woman astronaut: dark skin tone",
       "unicode": [
@@ -11887,7 +11092,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001096",
+      "id": "001021",
       "emoji": "🧑‍🚒",
       "description": "firefighter",
       "unicode": [
@@ -11898,7 +11103,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001097",
+      "id": "001022",
       "emoji": "🧑🏻‍🚒",
       "description": "firefighter: light skin tone",
       "unicode": [
@@ -11910,7 +11115,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001098",
+      "id": "001023",
       "emoji": "🧑🏼‍🚒",
       "description": "firefighter: medium-light skin tone",
       "unicode": [
@@ -11922,7 +11127,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001099",
+      "id": "001024",
       "emoji": "🧑🏽‍🚒",
       "description": "firefighter: medium skin tone",
       "unicode": [
@@ -11934,7 +11139,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001100",
+      "id": "001025",
       "emoji": "🧑🏾‍🚒",
       "description": "firefighter: medium-dark skin tone",
       "unicode": [
@@ -11946,7 +11151,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001101",
+      "id": "001026",
       "emoji": "🧑🏿‍🚒",
       "description": "firefighter: dark skin tone",
       "unicode": [
@@ -11958,7 +11163,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001102",
+      "id": "001027",
       "emoji": "👨‍🚒",
       "description": "man firefighter",
       "unicode": [
@@ -11969,7 +11174,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001103",
+      "id": "001028",
       "emoji": "👨🏻‍🚒",
       "description": "man firefighter: light skin tone",
       "unicode": [
@@ -11981,7 +11186,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001104",
+      "id": "001029",
       "emoji": "👨🏼‍🚒",
       "description": "man firefighter: medium-light skin tone",
       "unicode": [
@@ -11993,7 +11198,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001105",
+      "id": "001030",
       "emoji": "👨🏽‍🚒",
       "description": "man firefighter: medium skin tone",
       "unicode": [
@@ -12005,7 +11210,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001106",
+      "id": "001031",
       "emoji": "👨🏾‍🚒",
       "description": "man firefighter: medium-dark skin tone",
       "unicode": [
@@ -12017,7 +11222,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001107",
+      "id": "001032",
       "emoji": "👨🏿‍🚒",
       "description": "man firefighter: dark skin tone",
       "unicode": [
@@ -12029,7 +11234,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001108",
+      "id": "001033",
       "emoji": "👩‍🚒",
       "description": "woman firefighter",
       "unicode": [
@@ -12040,7 +11245,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001109",
+      "id": "001034",
       "emoji": "👩🏻‍🚒",
       "description": "woman firefighter: light skin tone",
       "unicode": [
@@ -12052,7 +11257,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001110",
+      "id": "001035",
       "emoji": "👩🏼‍🚒",
       "description": "woman firefighter: medium-light skin tone",
       "unicode": [
@@ -12064,7 +11269,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001111",
+      "id": "001036",
       "emoji": "👩🏽‍🚒",
       "description": "woman firefighter: medium skin tone",
       "unicode": [
@@ -12076,7 +11281,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001112",
+      "id": "001037",
       "emoji": "👩🏾‍🚒",
       "description": "woman firefighter: medium-dark skin tone",
       "unicode": [
@@ -12088,7 +11293,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001113",
+      "id": "001038",
       "emoji": "👩🏿‍🚒",
       "description": "woman firefighter: dark skin tone",
       "unicode": [
@@ -12100,7 +11305,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001114",
+      "id": "001039",
       "emoji": "👮",
       "description": "police officer",
       "unicode": [
@@ -12109,7 +11314,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001115",
+      "id": "001040",
       "emoji": "👮🏻",
       "description": "police officer: light skin tone",
       "unicode": [
@@ -12119,7 +11324,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001116",
+      "id": "001041",
       "emoji": "👮🏼",
       "description": "police officer: medium-light skin tone",
       "unicode": [
@@ -12129,7 +11334,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001117",
+      "id": "001042",
       "emoji": "👮🏽",
       "description": "police officer: medium skin tone",
       "unicode": [
@@ -12139,7 +11344,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001118",
+      "id": "001043",
       "emoji": "👮🏾",
       "description": "police officer: medium-dark skin tone",
       "unicode": [
@@ -12149,7 +11354,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001119",
+      "id": "001044",
       "emoji": "👮🏿",
       "description": "police officer: dark skin tone",
       "unicode": [
@@ -12159,7 +11364,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001120",
+      "id": "001045",
       "emoji": "👮‍♂️",
       "description": "man police officer",
       "unicode": [
@@ -12171,7 +11376,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001121",
+      "id": "001046",
       "emoji": "👮🏻‍♂️",
       "description": "man police officer: light skin tone",
       "unicode": [
@@ -12184,7 +11389,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001122",
+      "id": "001047",
       "emoji": "👮🏼‍♂️",
       "description": "man police officer: medium-light skin tone",
       "unicode": [
@@ -12197,7 +11402,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001123",
+      "id": "001048",
       "emoji": "👮🏽‍♂️",
       "description": "man police officer: medium skin tone",
       "unicode": [
@@ -12210,7 +11415,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001124",
+      "id": "001049",
       "emoji": "👮🏾‍♂️",
       "description": "man police officer: medium-dark skin tone",
       "unicode": [
@@ -12223,7 +11428,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001125",
+      "id": "001050",
       "emoji": "👮🏿‍♂️",
       "description": "man police officer: dark skin tone",
       "unicode": [
@@ -12236,7 +11441,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001126",
+      "id": "001051",
       "emoji": "👮‍♀️",
       "description": "woman police officer",
       "unicode": [
@@ -12248,7 +11453,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001127",
+      "id": "001052",
       "emoji": "👮🏻‍♀️",
       "description": "woman police officer: light skin tone",
       "unicode": [
@@ -12261,7 +11466,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001128",
+      "id": "001053",
       "emoji": "👮🏼‍♀️",
       "description": "woman police officer: medium-light skin tone",
       "unicode": [
@@ -12274,7 +11479,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001129",
+      "id": "001054",
       "emoji": "👮🏽‍♀️",
       "description": "woman police officer: medium skin tone",
       "unicode": [
@@ -12287,7 +11492,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001130",
+      "id": "001055",
       "emoji": "👮🏾‍♀️",
       "description": "woman police officer: medium-dark skin tone",
       "unicode": [
@@ -12300,7 +11505,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001131",
+      "id": "001056",
       "emoji": "👮🏿‍♀️",
       "description": "woman police officer: dark skin tone",
       "unicode": [
@@ -12313,7 +11518,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001132",
+      "id": "001057",
       "emoji": "🕵️",
       "description": "detective",
       "unicode": [
@@ -12323,7 +11528,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "001133",
+      "id": "001058",
       "emoji": "🕵🏻",
       "description": "detective: light skin tone",
       "unicode": [
@@ -12333,7 +11538,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "001134",
+      "id": "001059",
       "emoji": "🕵🏼",
       "description": "detective: medium-light skin tone",
       "unicode": [
@@ -12343,7 +11548,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "001135",
+      "id": "001060",
       "emoji": "🕵🏽",
       "description": "detective: medium skin tone",
       "unicode": [
@@ -12353,7 +11558,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "001136",
+      "id": "001061",
       "emoji": "🕵🏾",
       "description": "detective: medium-dark skin tone",
       "unicode": [
@@ -12363,7 +11568,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "001137",
+      "id": "001062",
       "emoji": "🕵🏿",
       "description": "detective: dark skin tone",
       "unicode": [
@@ -12373,7 +11578,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "001138",
+      "id": "001063",
       "emoji": "🕵️‍♂️",
       "description": "man detective",
       "unicode": [
@@ -12386,7 +11591,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001139",
+      "id": "001064",
       "emoji": "🕵🏻‍♂️",
       "description": "man detective: light skin tone",
       "unicode": [
@@ -12399,7 +11604,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001140",
+      "id": "001065",
       "emoji": "🕵🏼‍♂️",
       "description": "man detective: medium-light skin tone",
       "unicode": [
@@ -12412,7 +11617,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001141",
+      "id": "001066",
       "emoji": "🕵🏽‍♂️",
       "description": "man detective: medium skin tone",
       "unicode": [
@@ -12425,7 +11630,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001142",
+      "id": "001067",
       "emoji": "🕵🏾‍♂️",
       "description": "man detective: medium-dark skin tone",
       "unicode": [
@@ -12438,7 +11643,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001143",
+      "id": "001068",
       "emoji": "🕵🏿‍♂️",
       "description": "man detective: dark skin tone",
       "unicode": [
@@ -12451,7 +11656,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001144",
+      "id": "001069",
       "emoji": "🕵️‍♀️",
       "description": "woman detective",
       "unicode": [
@@ -12464,7 +11669,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001145",
+      "id": "001070",
       "emoji": "🕵🏻‍♀️",
       "description": "woman detective: light skin tone",
       "unicode": [
@@ -12477,7 +11682,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001146",
+      "id": "001071",
       "emoji": "🕵🏼‍♀️",
       "description": "woman detective: medium-light skin tone",
       "unicode": [
@@ -12490,7 +11695,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001147",
+      "id": "001072",
       "emoji": "🕵🏽‍♀️",
       "description": "woman detective: medium skin tone",
       "unicode": [
@@ -12503,7 +11708,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001148",
+      "id": "001073",
       "emoji": "🕵🏾‍♀️",
       "description": "woman detective: medium-dark skin tone",
       "unicode": [
@@ -12516,7 +11721,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001149",
+      "id": "001074",
       "emoji": "🕵🏿‍♀️",
       "description": "woman detective: dark skin tone",
       "unicode": [
@@ -12529,7 +11734,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001150",
+      "id": "001075",
       "emoji": "💂",
       "description": "guard",
       "unicode": [
@@ -12538,7 +11743,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001151",
+      "id": "001076",
       "emoji": "💂🏻",
       "description": "guard: light skin tone",
       "unicode": [
@@ -12548,7 +11753,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001152",
+      "id": "001077",
       "emoji": "💂🏼",
       "description": "guard: medium-light skin tone",
       "unicode": [
@@ -12558,7 +11763,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001153",
+      "id": "001078",
       "emoji": "💂🏽",
       "description": "guard: medium skin tone",
       "unicode": [
@@ -12568,7 +11773,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001154",
+      "id": "001079",
       "emoji": "💂🏾",
       "description": "guard: medium-dark skin tone",
       "unicode": [
@@ -12578,7 +11783,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001155",
+      "id": "001080",
       "emoji": "💂🏿",
       "description": "guard: dark skin tone",
       "unicode": [
@@ -12588,7 +11793,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001156",
+      "id": "001081",
       "emoji": "💂‍♂️",
       "description": "man guard",
       "unicode": [
@@ -12600,7 +11805,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001157",
+      "id": "001082",
       "emoji": "💂🏻‍♂️",
       "description": "man guard: light skin tone",
       "unicode": [
@@ -12613,7 +11818,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001158",
+      "id": "001083",
       "emoji": "💂🏼‍♂️",
       "description": "man guard: medium-light skin tone",
       "unicode": [
@@ -12626,7 +11831,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001159",
+      "id": "001084",
       "emoji": "💂🏽‍♂️",
       "description": "man guard: medium skin tone",
       "unicode": [
@@ -12639,7 +11844,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001160",
+      "id": "001085",
       "emoji": "💂🏾‍♂️",
       "description": "man guard: medium-dark skin tone",
       "unicode": [
@@ -12652,7 +11857,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001161",
+      "id": "001086",
       "emoji": "💂🏿‍♂️",
       "description": "man guard: dark skin tone",
       "unicode": [
@@ -12665,7 +11870,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001162",
+      "id": "001087",
       "emoji": "💂‍♀️",
       "description": "woman guard",
       "unicode": [
@@ -12677,7 +11882,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001163",
+      "id": "001088",
       "emoji": "💂🏻‍♀️",
       "description": "woman guard: light skin tone",
       "unicode": [
@@ -12690,7 +11895,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001164",
+      "id": "001089",
       "emoji": "💂🏼‍♀️",
       "description": "woman guard: medium-light skin tone",
       "unicode": [
@@ -12703,7 +11908,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001165",
+      "id": "001090",
       "emoji": "💂🏽‍♀️",
       "description": "woman guard: medium skin tone",
       "unicode": [
@@ -12716,7 +11921,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001166",
+      "id": "001091",
       "emoji": "💂🏾‍♀️",
       "description": "woman guard: medium-dark skin tone",
       "unicode": [
@@ -12729,7 +11934,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001167",
+      "id": "001092",
       "emoji": "💂🏿‍♀️",
       "description": "woman guard: dark skin tone",
       "unicode": [
@@ -12742,7 +11947,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001168",
+      "id": "001093",
       "emoji": "🥷",
       "description": "ninja",
       "unicode": [
@@ -12751,7 +11956,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001169",
+      "id": "001094",
       "emoji": "🥷🏻",
       "description": "ninja: light skin tone",
       "unicode": [
@@ -12761,7 +11966,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001170",
+      "id": "001095",
       "emoji": "🥷🏼",
       "description": "ninja: medium-light skin tone",
       "unicode": [
@@ -12771,7 +11976,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001171",
+      "id": "001096",
       "emoji": "🥷🏽",
       "description": "ninja: medium skin tone",
       "unicode": [
@@ -12781,7 +11986,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001172",
+      "id": "001097",
       "emoji": "🥷🏾",
       "description": "ninja: medium-dark skin tone",
       "unicode": [
@@ -12791,7 +11996,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001173",
+      "id": "001098",
       "emoji": "🥷🏿",
       "description": "ninja: dark skin tone",
       "unicode": [
@@ -12801,7 +12006,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001174",
+      "id": "001099",
       "emoji": "👷",
       "description": "construction worker",
       "unicode": [
@@ -12810,7 +12015,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001175",
+      "id": "001100",
       "emoji": "👷🏻",
       "description": "construction worker: light skin tone",
       "unicode": [
@@ -12820,7 +12025,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001176",
+      "id": "001101",
       "emoji": "👷🏼",
       "description": "construction worker: medium-light skin tone",
       "unicode": [
@@ -12830,7 +12035,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001177",
+      "id": "001102",
       "emoji": "👷🏽",
       "description": "construction worker: medium skin tone",
       "unicode": [
@@ -12840,7 +12045,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001178",
+      "id": "001103",
       "emoji": "👷🏾",
       "description": "construction worker: medium-dark skin tone",
       "unicode": [
@@ -12850,7 +12055,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001179",
+      "id": "001104",
       "emoji": "👷🏿",
       "description": "construction worker: dark skin tone",
       "unicode": [
@@ -12860,7 +12065,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001180",
+      "id": "001105",
       "emoji": "👷‍♂️",
       "description": "man construction worker",
       "unicode": [
@@ -12872,7 +12077,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001181",
+      "id": "001106",
       "emoji": "👷🏻‍♂️",
       "description": "man construction worker: light skin tone",
       "unicode": [
@@ -12885,7 +12090,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001182",
+      "id": "001107",
       "emoji": "👷🏼‍♂️",
       "description": "man construction worker: medium-light skin tone",
       "unicode": [
@@ -12898,7 +12103,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001183",
+      "id": "001108",
       "emoji": "👷🏽‍♂️",
       "description": "man construction worker: medium skin tone",
       "unicode": [
@@ -12911,7 +12116,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001184",
+      "id": "001109",
       "emoji": "👷🏾‍♂️",
       "description": "man construction worker: medium-dark skin tone",
       "unicode": [
@@ -12924,7 +12129,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001185",
+      "id": "001110",
       "emoji": "👷🏿‍♂️",
       "description": "man construction worker: dark skin tone",
       "unicode": [
@@ -12937,7 +12142,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001186",
+      "id": "001111",
       "emoji": "👷‍♀️",
       "description": "woman construction worker",
       "unicode": [
@@ -12949,7 +12154,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001187",
+      "id": "001112",
       "emoji": "👷🏻‍♀️",
       "description": "woman construction worker: light skin tone",
       "unicode": [
@@ -12962,7 +12167,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001188",
+      "id": "001113",
       "emoji": "👷🏼‍♀️",
       "description": "woman construction worker: medium-light skin tone",
       "unicode": [
@@ -12975,7 +12180,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001189",
+      "id": "001114",
       "emoji": "👷🏽‍♀️",
       "description": "woman construction worker: medium skin tone",
       "unicode": [
@@ -12988,7 +12193,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001190",
+      "id": "001115",
       "emoji": "👷🏾‍♀️",
       "description": "woman construction worker: medium-dark skin tone",
       "unicode": [
@@ -13001,7 +12206,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001191",
+      "id": "001116",
       "emoji": "👷🏿‍♀️",
       "description": "woman construction worker: dark skin tone",
       "unicode": [
@@ -13014,66 +12219,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001192",
-      "emoji": "🫅",
-      "description": "person with crown",
-      "unicode": [
-        "1FAC5"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001193",
-      "emoji": "🫅🏻",
-      "description": "person with crown: light skin tone",
-      "unicode": [
-        "1FAC5",
-        "1F3FB"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001194",
-      "emoji": "🫅🏼",
-      "description": "person with crown: medium-light skin tone",
-      "unicode": [
-        "1FAC5",
-        "1F3FC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001195",
-      "emoji": "🫅🏽",
-      "description": "person with crown: medium skin tone",
-      "unicode": [
-        "1FAC5",
-        "1F3FD"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001196",
-      "emoji": "🫅🏾",
-      "description": "person with crown: medium-dark skin tone",
-      "unicode": [
-        "1FAC5",
-        "1F3FE"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001197",
-      "emoji": "🫅🏿",
-      "description": "person with crown: dark skin tone",
-      "unicode": [
-        "1FAC5",
-        "1F3FF"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001198",
+      "id": "001117",
       "emoji": "🤴",
       "description": "prince",
       "unicode": [
@@ -13082,7 +12228,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001199",
+      "id": "001118",
       "emoji": "🤴🏻",
       "description": "prince: light skin tone",
       "unicode": [
@@ -13092,7 +12238,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001200",
+      "id": "001119",
       "emoji": "🤴🏼",
       "description": "prince: medium-light skin tone",
       "unicode": [
@@ -13102,7 +12248,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001201",
+      "id": "001120",
       "emoji": "🤴🏽",
       "description": "prince: medium skin tone",
       "unicode": [
@@ -13112,7 +12258,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001202",
+      "id": "001121",
       "emoji": "🤴🏾",
       "description": "prince: medium-dark skin tone",
       "unicode": [
@@ -13122,7 +12268,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001203",
+      "id": "001122",
       "emoji": "🤴🏿",
       "description": "prince: dark skin tone",
       "unicode": [
@@ -13132,7 +12278,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001204",
+      "id": "001123",
       "emoji": "👸",
       "description": "princess",
       "unicode": [
@@ -13141,7 +12287,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001205",
+      "id": "001124",
       "emoji": "👸🏻",
       "description": "princess: light skin tone",
       "unicode": [
@@ -13151,7 +12297,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001206",
+      "id": "001125",
       "emoji": "👸🏼",
       "description": "princess: medium-light skin tone",
       "unicode": [
@@ -13161,7 +12307,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001207",
+      "id": "001126",
       "emoji": "👸🏽",
       "description": "princess: medium skin tone",
       "unicode": [
@@ -13171,7 +12317,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001208",
+      "id": "001127",
       "emoji": "👸🏾",
       "description": "princess: medium-dark skin tone",
       "unicode": [
@@ -13181,7 +12327,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001209",
+      "id": "001128",
       "emoji": "👸🏿",
       "description": "princess: dark skin tone",
       "unicode": [
@@ -13191,7 +12337,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001210",
+      "id": "001129",
       "emoji": "👳",
       "description": "person wearing turban",
       "unicode": [
@@ -13200,7 +12346,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001211",
+      "id": "001130",
       "emoji": "👳🏻",
       "description": "person wearing turban: light skin tone",
       "unicode": [
@@ -13210,7 +12356,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001212",
+      "id": "001131",
       "emoji": "👳🏼",
       "description": "person wearing turban: medium-light skin tone",
       "unicode": [
@@ -13220,7 +12366,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001213",
+      "id": "001132",
       "emoji": "👳🏽",
       "description": "person wearing turban: medium skin tone",
       "unicode": [
@@ -13230,7 +12376,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001214",
+      "id": "001133",
       "emoji": "👳🏾",
       "description": "person wearing turban: medium-dark skin tone",
       "unicode": [
@@ -13240,7 +12386,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001215",
+      "id": "001134",
       "emoji": "👳🏿",
       "description": "person wearing turban: dark skin tone",
       "unicode": [
@@ -13250,7 +12396,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001216",
+      "id": "001135",
       "emoji": "👳‍♂️",
       "description": "man wearing turban",
       "unicode": [
@@ -13262,7 +12408,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001217",
+      "id": "001136",
       "emoji": "👳🏻‍♂️",
       "description": "man wearing turban: light skin tone",
       "unicode": [
@@ -13275,7 +12421,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001218",
+      "id": "001137",
       "emoji": "👳🏼‍♂️",
       "description": "man wearing turban: medium-light skin tone",
       "unicode": [
@@ -13288,7 +12434,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001219",
+      "id": "001138",
       "emoji": "👳🏽‍♂️",
       "description": "man wearing turban: medium skin tone",
       "unicode": [
@@ -13301,7 +12447,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001220",
+      "id": "001139",
       "emoji": "👳🏾‍♂️",
       "description": "man wearing turban: medium-dark skin tone",
       "unicode": [
@@ -13314,7 +12460,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001221",
+      "id": "001140",
       "emoji": "👳🏿‍♂️",
       "description": "man wearing turban: dark skin tone",
       "unicode": [
@@ -13327,7 +12473,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001222",
+      "id": "001141",
       "emoji": "👳‍♀️",
       "description": "woman wearing turban",
       "unicode": [
@@ -13339,7 +12485,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001223",
+      "id": "001142",
       "emoji": "👳🏻‍♀️",
       "description": "woman wearing turban: light skin tone",
       "unicode": [
@@ -13352,7 +12498,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001224",
+      "id": "001143",
       "emoji": "👳🏼‍♀️",
       "description": "woman wearing turban: medium-light skin tone",
       "unicode": [
@@ -13365,7 +12511,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001225",
+      "id": "001144",
       "emoji": "👳🏽‍♀️",
       "description": "woman wearing turban: medium skin tone",
       "unicode": [
@@ -13378,7 +12524,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001226",
+      "id": "001145",
       "emoji": "👳🏾‍♀️",
       "description": "woman wearing turban: medium-dark skin tone",
       "unicode": [
@@ -13391,7 +12537,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001227",
+      "id": "001146",
       "emoji": "👳🏿‍♀️",
       "description": "woman wearing turban: dark skin tone",
       "unicode": [
@@ -13404,7 +12550,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001228",
+      "id": "001147",
       "emoji": "👲",
       "description": "person with skullcap",
       "unicode": [
@@ -13413,7 +12559,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001229",
+      "id": "001148",
       "emoji": "👲🏻",
       "description": "person with skullcap: light skin tone",
       "unicode": [
@@ -13423,7 +12569,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001230",
+      "id": "001149",
       "emoji": "👲🏼",
       "description": "person with skullcap: medium-light skin tone",
       "unicode": [
@@ -13433,7 +12579,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001231",
+      "id": "001150",
       "emoji": "👲🏽",
       "description": "person with skullcap: medium skin tone",
       "unicode": [
@@ -13443,7 +12589,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001232",
+      "id": "001151",
       "emoji": "👲🏾",
       "description": "person with skullcap: medium-dark skin tone",
       "unicode": [
@@ -13453,7 +12599,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001233",
+      "id": "001152",
       "emoji": "👲🏿",
       "description": "person with skullcap: dark skin tone",
       "unicode": [
@@ -13463,7 +12609,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001234",
+      "id": "001153",
       "emoji": "🧕",
       "description": "woman with headscarf",
       "unicode": [
@@ -13472,7 +12618,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001235",
+      "id": "001154",
       "emoji": "🧕🏻",
       "description": "woman with headscarf: light skin tone",
       "unicode": [
@@ -13482,7 +12628,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001236",
+      "id": "001155",
       "emoji": "🧕🏼",
       "description": "woman with headscarf: medium-light skin tone",
       "unicode": [
@@ -13492,7 +12638,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001237",
+      "id": "001156",
       "emoji": "🧕🏽",
       "description": "woman with headscarf: medium skin tone",
       "unicode": [
@@ -13502,7 +12648,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001238",
+      "id": "001157",
       "emoji": "🧕🏾",
       "description": "woman with headscarf: medium-dark skin tone",
       "unicode": [
@@ -13512,7 +12658,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001239",
+      "id": "001158",
       "emoji": "🧕🏿",
       "description": "woman with headscarf: dark skin tone",
       "unicode": [
@@ -13522,7 +12668,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001240",
+      "id": "001159",
       "emoji": "🤵",
       "description": "person in tuxedo",
       "unicode": [
@@ -13531,7 +12677,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001241",
+      "id": "001160",
       "emoji": "🤵🏻",
       "description": "person in tuxedo: light skin tone",
       "unicode": [
@@ -13541,7 +12687,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001242",
+      "id": "001161",
       "emoji": "🤵🏼",
       "description": "person in tuxedo: medium-light skin tone",
       "unicode": [
@@ -13551,7 +12697,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001243",
+      "id": "001162",
       "emoji": "🤵🏽",
       "description": "person in tuxedo: medium skin tone",
       "unicode": [
@@ -13561,7 +12707,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001244",
+      "id": "001163",
       "emoji": "🤵🏾",
       "description": "person in tuxedo: medium-dark skin tone",
       "unicode": [
@@ -13571,7 +12717,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001245",
+      "id": "001164",
       "emoji": "🤵🏿",
       "description": "person in tuxedo: dark skin tone",
       "unicode": [
@@ -13581,7 +12727,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001246",
+      "id": "001165",
       "emoji": "🤵‍♂️",
       "description": "man in tuxedo",
       "unicode": [
@@ -13593,7 +12739,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001247",
+      "id": "001166",
       "emoji": "🤵🏻‍♂️",
       "description": "man in tuxedo: light skin tone",
       "unicode": [
@@ -13606,7 +12752,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001248",
+      "id": "001167",
       "emoji": "🤵🏼‍♂️",
       "description": "man in tuxedo: medium-light skin tone",
       "unicode": [
@@ -13619,7 +12765,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001249",
+      "id": "001168",
       "emoji": "🤵🏽‍♂️",
       "description": "man in tuxedo: medium skin tone",
       "unicode": [
@@ -13632,7 +12778,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001250",
+      "id": "001169",
       "emoji": "🤵🏾‍♂️",
       "description": "man in tuxedo: medium-dark skin tone",
       "unicode": [
@@ -13645,7 +12791,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001251",
+      "id": "001170",
       "emoji": "🤵🏿‍♂️",
       "description": "man in tuxedo: dark skin tone",
       "unicode": [
@@ -13658,7 +12804,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001252",
+      "id": "001171",
       "emoji": "🤵‍♀️",
       "description": "woman in tuxedo",
       "unicode": [
@@ -13670,7 +12816,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001253",
+      "id": "001172",
       "emoji": "🤵🏻‍♀️",
       "description": "woman in tuxedo: light skin tone",
       "unicode": [
@@ -13683,7 +12829,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001254",
+      "id": "001173",
       "emoji": "🤵🏼‍♀️",
       "description": "woman in tuxedo: medium-light skin tone",
       "unicode": [
@@ -13696,7 +12842,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001255",
+      "id": "001174",
       "emoji": "🤵🏽‍♀️",
       "description": "woman in tuxedo: medium skin tone",
       "unicode": [
@@ -13709,7 +12855,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001256",
+      "id": "001175",
       "emoji": "🤵🏾‍♀️",
       "description": "woman in tuxedo: medium-dark skin tone",
       "unicode": [
@@ -13722,7 +12868,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001257",
+      "id": "001176",
       "emoji": "🤵🏿‍♀️",
       "description": "woman in tuxedo: dark skin tone",
       "unicode": [
@@ -13735,7 +12881,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001258",
+      "id": "001177",
       "emoji": "👰",
       "description": "person with veil",
       "unicode": [
@@ -13744,7 +12890,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001259",
+      "id": "001178",
       "emoji": "👰🏻",
       "description": "person with veil: light skin tone",
       "unicode": [
@@ -13754,7 +12900,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001260",
+      "id": "001179",
       "emoji": "👰🏼",
       "description": "person with veil: medium-light skin tone",
       "unicode": [
@@ -13764,7 +12910,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001261",
+      "id": "001180",
       "emoji": "👰🏽",
       "description": "person with veil: medium skin tone",
       "unicode": [
@@ -13774,7 +12920,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001262",
+      "id": "001181",
       "emoji": "👰🏾",
       "description": "person with veil: medium-dark skin tone",
       "unicode": [
@@ -13784,7 +12930,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001263",
+      "id": "001182",
       "emoji": "👰🏿",
       "description": "person with veil: dark skin tone",
       "unicode": [
@@ -13794,7 +12940,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001264",
+      "id": "001183",
       "emoji": "👰‍♂️",
       "description": "man with veil",
       "unicode": [
@@ -13806,7 +12952,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001265",
+      "id": "001184",
       "emoji": "👰🏻‍♂️",
       "description": "man with veil: light skin tone",
       "unicode": [
@@ -13819,7 +12965,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001266",
+      "id": "001185",
       "emoji": "👰🏼‍♂️",
       "description": "man with veil: medium-light skin tone",
       "unicode": [
@@ -13832,7 +12978,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001267",
+      "id": "001186",
       "emoji": "👰🏽‍♂️",
       "description": "man with veil: medium skin tone",
       "unicode": [
@@ -13845,7 +12991,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001268",
+      "id": "001187",
       "emoji": "👰🏾‍♂️",
       "description": "man with veil: medium-dark skin tone",
       "unicode": [
@@ -13858,7 +13004,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001269",
+      "id": "001188",
       "emoji": "👰🏿‍♂️",
       "description": "man with veil: dark skin tone",
       "unicode": [
@@ -13871,7 +13017,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001270",
+      "id": "001189",
       "emoji": "👰‍♀️",
       "description": "woman with veil",
       "unicode": [
@@ -13883,7 +13029,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001271",
+      "id": "001190",
       "emoji": "👰🏻‍♀️",
       "description": "woman with veil: light skin tone",
       "unicode": [
@@ -13896,7 +13042,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001272",
+      "id": "001191",
       "emoji": "👰🏼‍♀️",
       "description": "woman with veil: medium-light skin tone",
       "unicode": [
@@ -13909,7 +13055,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001273",
+      "id": "001192",
       "emoji": "👰🏽‍♀️",
       "description": "woman with veil: medium skin tone",
       "unicode": [
@@ -13922,7 +13068,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001274",
+      "id": "001193",
       "emoji": "👰🏾‍♀️",
       "description": "woman with veil: medium-dark skin tone",
       "unicode": [
@@ -13935,7 +13081,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001275",
+      "id": "001194",
       "emoji": "👰🏿‍♀️",
       "description": "woman with veil: dark skin tone",
       "unicode": [
@@ -13948,7 +13094,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001276",
+      "id": "001195",
       "emoji": "🤰",
       "description": "pregnant woman",
       "unicode": [
@@ -13957,7 +13103,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001277",
+      "id": "001196",
       "emoji": "🤰🏻",
       "description": "pregnant woman: light skin tone",
       "unicode": [
@@ -13967,7 +13113,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001278",
+      "id": "001197",
       "emoji": "🤰🏼",
       "description": "pregnant woman: medium-light skin tone",
       "unicode": [
@@ -13977,7 +13123,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001279",
+      "id": "001198",
       "emoji": "🤰🏽",
       "description": "pregnant woman: medium skin tone",
       "unicode": [
@@ -13987,7 +13133,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001280",
+      "id": "001199",
       "emoji": "🤰🏾",
       "description": "pregnant woman: medium-dark skin tone",
       "unicode": [
@@ -13997,7 +13143,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001281",
+      "id": "001200",
       "emoji": "🤰🏿",
       "description": "pregnant woman: dark skin tone",
       "unicode": [
@@ -14007,125 +13153,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001282",
-      "emoji": "🫃",
-      "description": "pregnant man",
-      "unicode": [
-        "1FAC3"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001283",
-      "emoji": "🫃🏻",
-      "description": "pregnant man: light skin tone",
-      "unicode": [
-        "1FAC3",
-        "1F3FB"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001284",
-      "emoji": "🫃🏼",
-      "description": "pregnant man: medium-light skin tone",
-      "unicode": [
-        "1FAC3",
-        "1F3FC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001285",
-      "emoji": "🫃🏽",
-      "description": "pregnant man: medium skin tone",
-      "unicode": [
-        "1FAC3",
-        "1F3FD"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001286",
-      "emoji": "🫃🏾",
-      "description": "pregnant man: medium-dark skin tone",
-      "unicode": [
-        "1FAC3",
-        "1F3FE"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001287",
-      "emoji": "🫃🏿",
-      "description": "pregnant man: dark skin tone",
-      "unicode": [
-        "1FAC3",
-        "1F3FF"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001288",
-      "emoji": "🫄",
-      "description": "pregnant person",
-      "unicode": [
-        "1FAC4"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001289",
-      "emoji": "🫄🏻",
-      "description": "pregnant person: light skin tone",
-      "unicode": [
-        "1FAC4",
-        "1F3FB"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001290",
-      "emoji": "🫄🏼",
-      "description": "pregnant person: medium-light skin tone",
-      "unicode": [
-        "1FAC4",
-        "1F3FC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001291",
-      "emoji": "🫄🏽",
-      "description": "pregnant person: medium skin tone",
-      "unicode": [
-        "1FAC4",
-        "1F3FD"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001292",
-      "emoji": "🫄🏾",
-      "description": "pregnant person: medium-dark skin tone",
-      "unicode": [
-        "1FAC4",
-        "1F3FE"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001293",
-      "emoji": "🫄🏿",
-      "description": "pregnant person: dark skin tone",
-      "unicode": [
-        "1FAC4",
-        "1F3FF"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001294",
+      "id": "001201",
       "emoji": "🤱",
       "description": "breast-feeding",
       "unicode": [
@@ -14134,7 +13162,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001295",
+      "id": "001202",
       "emoji": "🤱🏻",
       "description": "breast-feeding: light skin tone",
       "unicode": [
@@ -14144,7 +13172,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001296",
+      "id": "001203",
       "emoji": "🤱🏼",
       "description": "breast-feeding: medium-light skin tone",
       "unicode": [
@@ -14154,7 +13182,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001297",
+      "id": "001204",
       "emoji": "🤱🏽",
       "description": "breast-feeding: medium skin tone",
       "unicode": [
@@ -14164,7 +13192,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001298",
+      "id": "001205",
       "emoji": "🤱🏾",
       "description": "breast-feeding: medium-dark skin tone",
       "unicode": [
@@ -14174,7 +13202,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001299",
+      "id": "001206",
       "emoji": "🤱🏿",
       "description": "breast-feeding: dark skin tone",
       "unicode": [
@@ -14184,7 +13212,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001300",
+      "id": "001207",
       "emoji": "👩‍🍼",
       "description": "woman feeding baby",
       "unicode": [
@@ -14195,7 +13223,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001301",
+      "id": "001208",
       "emoji": "👩🏻‍🍼",
       "description": "woman feeding baby: light skin tone",
       "unicode": [
@@ -14207,7 +13235,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001302",
+      "id": "001209",
       "emoji": "👩🏼‍🍼",
       "description": "woman feeding baby: medium-light skin tone",
       "unicode": [
@@ -14219,7 +13247,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001303",
+      "id": "001210",
       "emoji": "👩🏽‍🍼",
       "description": "woman feeding baby: medium skin tone",
       "unicode": [
@@ -14231,7 +13259,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001304",
+      "id": "001211",
       "emoji": "👩🏾‍🍼",
       "description": "woman feeding baby: medium-dark skin tone",
       "unicode": [
@@ -14243,7 +13271,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001305",
+      "id": "001212",
       "emoji": "👩🏿‍🍼",
       "description": "woman feeding baby: dark skin tone",
       "unicode": [
@@ -14255,7 +13283,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001306",
+      "id": "001213",
       "emoji": "👨‍🍼",
       "description": "man feeding baby",
       "unicode": [
@@ -14266,7 +13294,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001307",
+      "id": "001214",
       "emoji": "👨🏻‍🍼",
       "description": "man feeding baby: light skin tone",
       "unicode": [
@@ -14278,7 +13306,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001308",
+      "id": "001215",
       "emoji": "👨🏼‍🍼",
       "description": "man feeding baby: medium-light skin tone",
       "unicode": [
@@ -14290,7 +13318,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001309",
+      "id": "001216",
       "emoji": "👨🏽‍🍼",
       "description": "man feeding baby: medium skin tone",
       "unicode": [
@@ -14302,7 +13330,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001310",
+      "id": "001217",
       "emoji": "👨🏾‍🍼",
       "description": "man feeding baby: medium-dark skin tone",
       "unicode": [
@@ -14314,7 +13342,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001311",
+      "id": "001218",
       "emoji": "👨🏿‍🍼",
       "description": "man feeding baby: dark skin tone",
       "unicode": [
@@ -14326,7 +13354,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001312",
+      "id": "001219",
       "emoji": "🧑‍🍼",
       "description": "person feeding baby",
       "unicode": [
@@ -14337,7 +13365,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001313",
+      "id": "001220",
       "emoji": "🧑🏻‍🍼",
       "description": "person feeding baby: light skin tone",
       "unicode": [
@@ -14349,7 +13377,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001314",
+      "id": "001221",
       "emoji": "🧑🏼‍🍼",
       "description": "person feeding baby: medium-light skin tone",
       "unicode": [
@@ -14361,7 +13389,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001315",
+      "id": "001222",
       "emoji": "🧑🏽‍🍼",
       "description": "person feeding baby: medium skin tone",
       "unicode": [
@@ -14373,7 +13401,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001316",
+      "id": "001223",
       "emoji": "🧑🏾‍🍼",
       "description": "person feeding baby: medium-dark skin tone",
       "unicode": [
@@ -14385,7 +13413,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001317",
+      "id": "001224",
       "emoji": "🧑🏿‍🍼",
       "description": "person feeding baby: dark skin tone",
       "unicode": [
@@ -14397,7 +13425,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001318",
+      "id": "001225",
       "emoji": "👼",
       "description": "baby angel",
       "unicode": [
@@ -14406,7 +13434,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001319",
+      "id": "001226",
       "emoji": "👼🏻",
       "description": "baby angel: light skin tone",
       "unicode": [
@@ -14416,7 +13444,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001320",
+      "id": "001227",
       "emoji": "👼🏼",
       "description": "baby angel: medium-light skin tone",
       "unicode": [
@@ -14426,7 +13454,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001321",
+      "id": "001228",
       "emoji": "👼🏽",
       "description": "baby angel: medium skin tone",
       "unicode": [
@@ -14436,7 +13464,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001322",
+      "id": "001229",
       "emoji": "👼🏾",
       "description": "baby angel: medium-dark skin tone",
       "unicode": [
@@ -14446,7 +13474,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001323",
+      "id": "001230",
       "emoji": "👼🏿",
       "description": "baby angel: dark skin tone",
       "unicode": [
@@ -14456,7 +13484,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001324",
+      "id": "001231",
       "emoji": "🎅",
       "description": "Santa Claus",
       "unicode": [
@@ -14465,7 +13493,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001325",
+      "id": "001232",
       "emoji": "🎅🏻",
       "description": "Santa Claus: light skin tone",
       "unicode": [
@@ -14475,7 +13503,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001326",
+      "id": "001233",
       "emoji": "🎅🏼",
       "description": "Santa Claus: medium-light skin tone",
       "unicode": [
@@ -14485,7 +13513,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001327",
+      "id": "001234",
       "emoji": "🎅🏽",
       "description": "Santa Claus: medium skin tone",
       "unicode": [
@@ -14495,7 +13523,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001328",
+      "id": "001235",
       "emoji": "🎅🏾",
       "description": "Santa Claus: medium-dark skin tone",
       "unicode": [
@@ -14505,7 +13533,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001329",
+      "id": "001236",
       "emoji": "🎅🏿",
       "description": "Santa Claus: dark skin tone",
       "unicode": [
@@ -14515,7 +13543,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001330",
+      "id": "001237",
       "emoji": "🤶",
       "description": "Mrs. Claus",
       "unicode": [
@@ -14524,7 +13552,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001331",
+      "id": "001238",
       "emoji": "🤶🏻",
       "description": "Mrs. Claus: light skin tone",
       "unicode": [
@@ -14534,7 +13562,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001332",
+      "id": "001239",
       "emoji": "🤶🏼",
       "description": "Mrs. Claus: medium-light skin tone",
       "unicode": [
@@ -14544,7 +13572,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001333",
+      "id": "001240",
       "emoji": "🤶🏽",
       "description": "Mrs. Claus: medium skin tone",
       "unicode": [
@@ -14554,7 +13582,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001334",
+      "id": "001241",
       "emoji": "🤶🏾",
       "description": "Mrs. Claus: medium-dark skin tone",
       "unicode": [
@@ -14564,7 +13592,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001335",
+      "id": "001242",
       "emoji": "🤶🏿",
       "description": "Mrs. Claus: dark skin tone",
       "unicode": [
@@ -14574,7 +13602,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001336",
+      "id": "001243",
       "emoji": "🧑‍🎄",
       "description": "mx claus",
       "unicode": [
@@ -14585,7 +13613,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001337",
+      "id": "001244",
       "emoji": "🧑🏻‍🎄",
       "description": "mx claus: light skin tone",
       "unicode": [
@@ -14597,7 +13625,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001338",
+      "id": "001245",
       "emoji": "🧑🏼‍🎄",
       "description": "mx claus: medium-light skin tone",
       "unicode": [
@@ -14609,7 +13637,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001339",
+      "id": "001246",
       "emoji": "🧑🏽‍🎄",
       "description": "mx claus: medium skin tone",
       "unicode": [
@@ -14621,7 +13649,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001340",
+      "id": "001247",
       "emoji": "🧑🏾‍🎄",
       "description": "mx claus: medium-dark skin tone",
       "unicode": [
@@ -14633,7 +13661,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001341",
+      "id": "001248",
       "emoji": "🧑🏿‍🎄",
       "description": "mx claus: dark skin tone",
       "unicode": [
@@ -14645,7 +13673,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "001342",
+      "id": "001249",
       "emoji": "🦸",
       "description": "superhero",
       "unicode": [
@@ -14654,7 +13682,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001343",
+      "id": "001250",
       "emoji": "🦸🏻",
       "description": "superhero: light skin tone",
       "unicode": [
@@ -14664,7 +13692,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001344",
+      "id": "001251",
       "emoji": "🦸🏼",
       "description": "superhero: medium-light skin tone",
       "unicode": [
@@ -14674,7 +13702,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001345",
+      "id": "001252",
       "emoji": "🦸🏽",
       "description": "superhero: medium skin tone",
       "unicode": [
@@ -14684,7 +13712,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001346",
+      "id": "001253",
       "emoji": "🦸🏾",
       "description": "superhero: medium-dark skin tone",
       "unicode": [
@@ -14694,7 +13722,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001347",
+      "id": "001254",
       "emoji": "🦸🏿",
       "description": "superhero: dark skin tone",
       "unicode": [
@@ -14704,7 +13732,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001348",
+      "id": "001255",
       "emoji": "🦸‍♂️",
       "description": "man superhero",
       "unicode": [
@@ -14716,7 +13744,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001349",
+      "id": "001256",
       "emoji": "🦸🏻‍♂️",
       "description": "man superhero: light skin tone",
       "unicode": [
@@ -14729,7 +13757,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001350",
+      "id": "001257",
       "emoji": "🦸🏼‍♂️",
       "description": "man superhero: medium-light skin tone",
       "unicode": [
@@ -14742,7 +13770,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001351",
+      "id": "001258",
       "emoji": "🦸🏽‍♂️",
       "description": "man superhero: medium skin tone",
       "unicode": [
@@ -14755,7 +13783,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001352",
+      "id": "001259",
       "emoji": "🦸🏾‍♂️",
       "description": "man superhero: medium-dark skin tone",
       "unicode": [
@@ -14768,7 +13796,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001353",
+      "id": "001260",
       "emoji": "🦸🏿‍♂️",
       "description": "man superhero: dark skin tone",
       "unicode": [
@@ -14781,7 +13809,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001354",
+      "id": "001261",
       "emoji": "🦸‍♀️",
       "description": "woman superhero",
       "unicode": [
@@ -14793,7 +13821,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001355",
+      "id": "001262",
       "emoji": "🦸🏻‍♀️",
       "description": "woman superhero: light skin tone",
       "unicode": [
@@ -14806,7 +13834,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001356",
+      "id": "001263",
       "emoji": "🦸🏼‍♀️",
       "description": "woman superhero: medium-light skin tone",
       "unicode": [
@@ -14819,7 +13847,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001357",
+      "id": "001264",
       "emoji": "🦸🏽‍♀️",
       "description": "woman superhero: medium skin tone",
       "unicode": [
@@ -14832,7 +13860,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001358",
+      "id": "001265",
       "emoji": "🦸🏾‍♀️",
       "description": "woman superhero: medium-dark skin tone",
       "unicode": [
@@ -14845,7 +13873,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001359",
+      "id": "001266",
       "emoji": "🦸🏿‍♀️",
       "description": "woman superhero: dark skin tone",
       "unicode": [
@@ -14858,7 +13886,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001360",
+      "id": "001267",
       "emoji": "🦹",
       "description": "supervillain",
       "unicode": [
@@ -14867,7 +13895,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001361",
+      "id": "001268",
       "emoji": "🦹🏻",
       "description": "supervillain: light skin tone",
       "unicode": [
@@ -14877,7 +13905,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001362",
+      "id": "001269",
       "emoji": "🦹🏼",
       "description": "supervillain: medium-light skin tone",
       "unicode": [
@@ -14887,7 +13915,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001363",
+      "id": "001270",
       "emoji": "🦹🏽",
       "description": "supervillain: medium skin tone",
       "unicode": [
@@ -14897,7 +13925,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001364",
+      "id": "001271",
       "emoji": "🦹🏾",
       "description": "supervillain: medium-dark skin tone",
       "unicode": [
@@ -14907,7 +13935,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001365",
+      "id": "001272",
       "emoji": "🦹🏿",
       "description": "supervillain: dark skin tone",
       "unicode": [
@@ -14917,7 +13945,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001366",
+      "id": "001273",
       "emoji": "🦹‍♂️",
       "description": "man supervillain",
       "unicode": [
@@ -14929,7 +13957,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001367",
+      "id": "001274",
       "emoji": "🦹🏻‍♂️",
       "description": "man supervillain: light skin tone",
       "unicode": [
@@ -14942,7 +13970,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001368",
+      "id": "001275",
       "emoji": "🦹🏼‍♂️",
       "description": "man supervillain: medium-light skin tone",
       "unicode": [
@@ -14955,7 +13983,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001369",
+      "id": "001276",
       "emoji": "🦹🏽‍♂️",
       "description": "man supervillain: medium skin tone",
       "unicode": [
@@ -14968,7 +13996,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001370",
+      "id": "001277",
       "emoji": "🦹🏾‍♂️",
       "description": "man supervillain: medium-dark skin tone",
       "unicode": [
@@ -14981,7 +14009,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001371",
+      "id": "001278",
       "emoji": "🦹🏿‍♂️",
       "description": "man supervillain: dark skin tone",
       "unicode": [
@@ -14994,7 +14022,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001372",
+      "id": "001279",
       "emoji": "🦹‍♀️",
       "description": "woman supervillain",
       "unicode": [
@@ -15006,7 +14034,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001373",
+      "id": "001280",
       "emoji": "🦹🏻‍♀️",
       "description": "woman supervillain: light skin tone",
       "unicode": [
@@ -15019,7 +14047,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001374",
+      "id": "001281",
       "emoji": "🦹🏼‍♀️",
       "description": "woman supervillain: medium-light skin tone",
       "unicode": [
@@ -15032,7 +14060,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001375",
+      "id": "001282",
       "emoji": "🦹🏽‍♀️",
       "description": "woman supervillain: medium skin tone",
       "unicode": [
@@ -15045,7 +14073,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001376",
+      "id": "001283",
       "emoji": "🦹🏾‍♀️",
       "description": "woman supervillain: medium-dark skin tone",
       "unicode": [
@@ -15058,7 +14086,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001377",
+      "id": "001284",
       "emoji": "🦹🏿‍♀️",
       "description": "woman supervillain: dark skin tone",
       "unicode": [
@@ -15071,7 +14099,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "001378",
+      "id": "001285",
       "emoji": "🧙",
       "description": "mage",
       "unicode": [
@@ -15080,7 +14108,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001379",
+      "id": "001286",
       "emoji": "🧙🏻",
       "description": "mage: light skin tone",
       "unicode": [
@@ -15090,7 +14118,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001380",
+      "id": "001287",
       "emoji": "🧙🏼",
       "description": "mage: medium-light skin tone",
       "unicode": [
@@ -15100,7 +14128,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001381",
+      "id": "001288",
       "emoji": "🧙🏽",
       "description": "mage: medium skin tone",
       "unicode": [
@@ -15110,7 +14138,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001382",
+      "id": "001289",
       "emoji": "🧙🏾",
       "description": "mage: medium-dark skin tone",
       "unicode": [
@@ -15120,7 +14148,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001383",
+      "id": "001290",
       "emoji": "🧙🏿",
       "description": "mage: dark skin tone",
       "unicode": [
@@ -15130,7 +14158,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001384",
+      "id": "001291",
       "emoji": "🧙‍♂️",
       "description": "man mage",
       "unicode": [
@@ -15142,7 +14170,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001385",
+      "id": "001292",
       "emoji": "🧙🏻‍♂️",
       "description": "man mage: light skin tone",
       "unicode": [
@@ -15155,7 +14183,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001386",
+      "id": "001293",
       "emoji": "🧙🏼‍♂️",
       "description": "man mage: medium-light skin tone",
       "unicode": [
@@ -15168,7 +14196,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001387",
+      "id": "001294",
       "emoji": "🧙🏽‍♂️",
       "description": "man mage: medium skin tone",
       "unicode": [
@@ -15181,7 +14209,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001388",
+      "id": "001295",
       "emoji": "🧙🏾‍♂️",
       "description": "man mage: medium-dark skin tone",
       "unicode": [
@@ -15194,7 +14222,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001389",
+      "id": "001296",
       "emoji": "🧙🏿‍♂️",
       "description": "man mage: dark skin tone",
       "unicode": [
@@ -15207,7 +14235,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001390",
+      "id": "001297",
       "emoji": "🧙‍♀️",
       "description": "woman mage",
       "unicode": [
@@ -15219,7 +14247,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001391",
+      "id": "001298",
       "emoji": "🧙🏻‍♀️",
       "description": "woman mage: light skin tone",
       "unicode": [
@@ -15232,7 +14260,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001392",
+      "id": "001299",
       "emoji": "🧙🏼‍♀️",
       "description": "woman mage: medium-light skin tone",
       "unicode": [
@@ -15245,7 +14273,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001393",
+      "id": "001300",
       "emoji": "🧙🏽‍♀️",
       "description": "woman mage: medium skin tone",
       "unicode": [
@@ -15258,7 +14286,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001394",
+      "id": "001301",
       "emoji": "🧙🏾‍♀️",
       "description": "woman mage: medium-dark skin tone",
       "unicode": [
@@ -15271,7 +14299,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001395",
+      "id": "001302",
       "emoji": "🧙🏿‍♀️",
       "description": "woman mage: dark skin tone",
       "unicode": [
@@ -15284,7 +14312,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001396",
+      "id": "001303",
       "emoji": "🧚",
       "description": "fairy",
       "unicode": [
@@ -15293,7 +14321,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001397",
+      "id": "001304",
       "emoji": "🧚🏻",
       "description": "fairy: light skin tone",
       "unicode": [
@@ -15303,7 +14331,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001398",
+      "id": "001305",
       "emoji": "🧚🏼",
       "description": "fairy: medium-light skin tone",
       "unicode": [
@@ -15313,7 +14341,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001399",
+      "id": "001306",
       "emoji": "🧚🏽",
       "description": "fairy: medium skin tone",
       "unicode": [
@@ -15323,7 +14351,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001400",
+      "id": "001307",
       "emoji": "🧚🏾",
       "description": "fairy: medium-dark skin tone",
       "unicode": [
@@ -15333,7 +14361,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001401",
+      "id": "001308",
       "emoji": "🧚🏿",
       "description": "fairy: dark skin tone",
       "unicode": [
@@ -15343,7 +14371,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001402",
+      "id": "001309",
       "emoji": "🧚‍♂️",
       "description": "man fairy",
       "unicode": [
@@ -15355,7 +14383,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001403",
+      "id": "001310",
       "emoji": "🧚🏻‍♂️",
       "description": "man fairy: light skin tone",
       "unicode": [
@@ -15368,7 +14396,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001404",
+      "id": "001311",
       "emoji": "🧚🏼‍♂️",
       "description": "man fairy: medium-light skin tone",
       "unicode": [
@@ -15381,7 +14409,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001405",
+      "id": "001312",
       "emoji": "🧚🏽‍♂️",
       "description": "man fairy: medium skin tone",
       "unicode": [
@@ -15394,7 +14422,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001406",
+      "id": "001313",
       "emoji": "🧚🏾‍♂️",
       "description": "man fairy: medium-dark skin tone",
       "unicode": [
@@ -15407,7 +14435,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001407",
+      "id": "001314",
       "emoji": "🧚🏿‍♂️",
       "description": "man fairy: dark skin tone",
       "unicode": [
@@ -15420,7 +14448,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001408",
+      "id": "001315",
       "emoji": "🧚‍♀️",
       "description": "woman fairy",
       "unicode": [
@@ -15432,7 +14460,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001409",
+      "id": "001316",
       "emoji": "🧚🏻‍♀️",
       "description": "woman fairy: light skin tone",
       "unicode": [
@@ -15445,7 +14473,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001410",
+      "id": "001317",
       "emoji": "🧚🏼‍♀️",
       "description": "woman fairy: medium-light skin tone",
       "unicode": [
@@ -15458,7 +14486,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001411",
+      "id": "001318",
       "emoji": "🧚🏽‍♀️",
       "description": "woman fairy: medium skin tone",
       "unicode": [
@@ -15471,7 +14499,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001412",
+      "id": "001319",
       "emoji": "🧚🏾‍♀️",
       "description": "woman fairy: medium-dark skin tone",
       "unicode": [
@@ -15484,7 +14512,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001413",
+      "id": "001320",
       "emoji": "🧚🏿‍♀️",
       "description": "woman fairy: dark skin tone",
       "unicode": [
@@ -15497,7 +14525,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001414",
+      "id": "001321",
       "emoji": "🧛",
       "description": "vampire",
       "unicode": [
@@ -15506,7 +14534,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001415",
+      "id": "001322",
       "emoji": "🧛🏻",
       "description": "vampire: light skin tone",
       "unicode": [
@@ -15516,7 +14544,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001416",
+      "id": "001323",
       "emoji": "🧛🏼",
       "description": "vampire: medium-light skin tone",
       "unicode": [
@@ -15526,7 +14554,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001417",
+      "id": "001324",
       "emoji": "🧛🏽",
       "description": "vampire: medium skin tone",
       "unicode": [
@@ -15536,7 +14564,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001418",
+      "id": "001325",
       "emoji": "🧛🏾",
       "description": "vampire: medium-dark skin tone",
       "unicode": [
@@ -15546,7 +14574,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001419",
+      "id": "001326",
       "emoji": "🧛🏿",
       "description": "vampire: dark skin tone",
       "unicode": [
@@ -15556,7 +14584,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001420",
+      "id": "001327",
       "emoji": "🧛‍♂️",
       "description": "man vampire",
       "unicode": [
@@ -15568,7 +14596,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001421",
+      "id": "001328",
       "emoji": "🧛🏻‍♂️",
       "description": "man vampire: light skin tone",
       "unicode": [
@@ -15581,7 +14609,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001422",
+      "id": "001329",
       "emoji": "🧛🏼‍♂️",
       "description": "man vampire: medium-light skin tone",
       "unicode": [
@@ -15594,7 +14622,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001423",
+      "id": "001330",
       "emoji": "🧛🏽‍♂️",
       "description": "man vampire: medium skin tone",
       "unicode": [
@@ -15607,7 +14635,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001424",
+      "id": "001331",
       "emoji": "🧛🏾‍♂️",
       "description": "man vampire: medium-dark skin tone",
       "unicode": [
@@ -15620,7 +14648,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001425",
+      "id": "001332",
       "emoji": "🧛🏿‍♂️",
       "description": "man vampire: dark skin tone",
       "unicode": [
@@ -15633,7 +14661,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001426",
+      "id": "001333",
       "emoji": "🧛‍♀️",
       "description": "woman vampire",
       "unicode": [
@@ -15645,7 +14673,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001427",
+      "id": "001334",
       "emoji": "🧛🏻‍♀️",
       "description": "woman vampire: light skin tone",
       "unicode": [
@@ -15658,7 +14686,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001428",
+      "id": "001335",
       "emoji": "🧛🏼‍♀️",
       "description": "woman vampire: medium-light skin tone",
       "unicode": [
@@ -15671,7 +14699,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001429",
+      "id": "001336",
       "emoji": "🧛🏽‍♀️",
       "description": "woman vampire: medium skin tone",
       "unicode": [
@@ -15684,7 +14712,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001430",
+      "id": "001337",
       "emoji": "🧛🏾‍♀️",
       "description": "woman vampire: medium-dark skin tone",
       "unicode": [
@@ -15697,7 +14725,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001431",
+      "id": "001338",
       "emoji": "🧛🏿‍♀️",
       "description": "woman vampire: dark skin tone",
       "unicode": [
@@ -15710,7 +14738,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001432",
+      "id": "001339",
       "emoji": "🧜",
       "description": "merperson",
       "unicode": [
@@ -15719,7 +14747,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001433",
+      "id": "001340",
       "emoji": "🧜🏻",
       "description": "merperson: light skin tone",
       "unicode": [
@@ -15729,7 +14757,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001434",
+      "id": "001341",
       "emoji": "🧜🏼",
       "description": "merperson: medium-light skin tone",
       "unicode": [
@@ -15739,7 +14767,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001435",
+      "id": "001342",
       "emoji": "🧜🏽",
       "description": "merperson: medium skin tone",
       "unicode": [
@@ -15749,7 +14777,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001436",
+      "id": "001343",
       "emoji": "🧜🏾",
       "description": "merperson: medium-dark skin tone",
       "unicode": [
@@ -15759,7 +14787,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001437",
+      "id": "001344",
       "emoji": "🧜🏿",
       "description": "merperson: dark skin tone",
       "unicode": [
@@ -15769,7 +14797,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001438",
+      "id": "001345",
       "emoji": "🧜‍♂️",
       "description": "merman",
       "unicode": [
@@ -15781,7 +14809,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001439",
+      "id": "001346",
       "emoji": "🧜🏻‍♂️",
       "description": "merman: light skin tone",
       "unicode": [
@@ -15794,7 +14822,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001440",
+      "id": "001347",
       "emoji": "🧜🏼‍♂️",
       "description": "merman: medium-light skin tone",
       "unicode": [
@@ -15807,7 +14835,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001441",
+      "id": "001348",
       "emoji": "🧜🏽‍♂️",
       "description": "merman: medium skin tone",
       "unicode": [
@@ -15820,7 +14848,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001442",
+      "id": "001349",
       "emoji": "🧜🏾‍♂️",
       "description": "merman: medium-dark skin tone",
       "unicode": [
@@ -15833,7 +14861,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001443",
+      "id": "001350",
       "emoji": "🧜🏿‍♂️",
       "description": "merman: dark skin tone",
       "unicode": [
@@ -15846,7 +14874,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001444",
+      "id": "001351",
       "emoji": "🧜‍♀️",
       "description": "mermaid",
       "unicode": [
@@ -15858,7 +14886,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001445",
+      "id": "001352",
       "emoji": "🧜🏻‍♀️",
       "description": "mermaid: light skin tone",
       "unicode": [
@@ -15871,7 +14899,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001446",
+      "id": "001353",
       "emoji": "🧜🏼‍♀️",
       "description": "mermaid: medium-light skin tone",
       "unicode": [
@@ -15884,7 +14912,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001447",
+      "id": "001354",
       "emoji": "🧜🏽‍♀️",
       "description": "mermaid: medium skin tone",
       "unicode": [
@@ -15897,7 +14925,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001448",
+      "id": "001355",
       "emoji": "🧜🏾‍♀️",
       "description": "mermaid: medium-dark skin tone",
       "unicode": [
@@ -15910,7 +14938,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001449",
+      "id": "001356",
       "emoji": "🧜🏿‍♀️",
       "description": "mermaid: dark skin tone",
       "unicode": [
@@ -15923,7 +14951,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001450",
+      "id": "001357",
       "emoji": "🧝",
       "description": "elf",
       "unicode": [
@@ -15932,7 +14960,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001451",
+      "id": "001358",
       "emoji": "🧝🏻",
       "description": "elf: light skin tone",
       "unicode": [
@@ -15942,7 +14970,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001452",
+      "id": "001359",
       "emoji": "🧝🏼",
       "description": "elf: medium-light skin tone",
       "unicode": [
@@ -15952,7 +14980,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001453",
+      "id": "001360",
       "emoji": "🧝🏽",
       "description": "elf: medium skin tone",
       "unicode": [
@@ -15962,7 +14990,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001454",
+      "id": "001361",
       "emoji": "🧝🏾",
       "description": "elf: medium-dark skin tone",
       "unicode": [
@@ -15972,7 +15000,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001455",
+      "id": "001362",
       "emoji": "🧝🏿",
       "description": "elf: dark skin tone",
       "unicode": [
@@ -15982,7 +15010,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001456",
+      "id": "001363",
       "emoji": "🧝‍♂️",
       "description": "man elf",
       "unicode": [
@@ -15994,7 +15022,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001457",
+      "id": "001364",
       "emoji": "🧝🏻‍♂️",
       "description": "man elf: light skin tone",
       "unicode": [
@@ -16007,7 +15035,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001458",
+      "id": "001365",
       "emoji": "🧝🏼‍♂️",
       "description": "man elf: medium-light skin tone",
       "unicode": [
@@ -16020,7 +15048,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001459",
+      "id": "001366",
       "emoji": "🧝🏽‍♂️",
       "description": "man elf: medium skin tone",
       "unicode": [
@@ -16033,7 +15061,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001460",
+      "id": "001367",
       "emoji": "🧝🏾‍♂️",
       "description": "man elf: medium-dark skin tone",
       "unicode": [
@@ -16046,7 +15074,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001461",
+      "id": "001368",
       "emoji": "🧝🏿‍♂️",
       "description": "man elf: dark skin tone",
       "unicode": [
@@ -16059,7 +15087,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001462",
+      "id": "001369",
       "emoji": "🧝‍♀️",
       "description": "woman elf",
       "unicode": [
@@ -16071,7 +15099,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001463",
+      "id": "001370",
       "emoji": "🧝🏻‍♀️",
       "description": "woman elf: light skin tone",
       "unicode": [
@@ -16084,7 +15112,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001464",
+      "id": "001371",
       "emoji": "🧝🏼‍♀️",
       "description": "woman elf: medium-light skin tone",
       "unicode": [
@@ -16097,7 +15125,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001465",
+      "id": "001372",
       "emoji": "🧝🏽‍♀️",
       "description": "woman elf: medium skin tone",
       "unicode": [
@@ -16110,7 +15138,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001466",
+      "id": "001373",
       "emoji": "🧝🏾‍♀️",
       "description": "woman elf: medium-dark skin tone",
       "unicode": [
@@ -16123,7 +15151,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001467",
+      "id": "001374",
       "emoji": "🧝🏿‍♀️",
       "description": "woman elf: dark skin tone",
       "unicode": [
@@ -16136,7 +15164,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001468",
+      "id": "001375",
       "emoji": "🧞",
       "description": "genie",
       "unicode": [
@@ -16145,7 +15173,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001469",
+      "id": "001376",
       "emoji": "🧞‍♂️",
       "description": "man genie",
       "unicode": [
@@ -16157,7 +15185,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001470",
+      "id": "001377",
       "emoji": "🧞‍♀️",
       "description": "woman genie",
       "unicode": [
@@ -16169,7 +15197,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001471",
+      "id": "001378",
       "emoji": "🧟",
       "description": "zombie",
       "unicode": [
@@ -16178,7 +15206,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001472",
+      "id": "001379",
       "emoji": "🧟‍♂️",
       "description": "man zombie",
       "unicode": [
@@ -16190,7 +15218,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001473",
+      "id": "001380",
       "emoji": "🧟‍♀️",
       "description": "woman zombie",
       "unicode": [
@@ -16202,16 +15230,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001474",
-      "emoji": "🧌",
-      "description": "troll",
-      "unicode": [
-        "1F9CC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "001475",
+      "id": "001381",
       "emoji": "💆",
       "description": "person getting massage",
       "unicode": [
@@ -16220,7 +15239,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001476",
+      "id": "001382",
       "emoji": "💆🏻",
       "description": "person getting massage: light skin tone",
       "unicode": [
@@ -16230,7 +15249,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001477",
+      "id": "001383",
       "emoji": "💆🏼",
       "description": "person getting massage: medium-light skin tone",
       "unicode": [
@@ -16240,7 +15259,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001478",
+      "id": "001384",
       "emoji": "💆🏽",
       "description": "person getting massage: medium skin tone",
       "unicode": [
@@ -16250,7 +15269,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001479",
+      "id": "001385",
       "emoji": "💆🏾",
       "description": "person getting massage: medium-dark skin tone",
       "unicode": [
@@ -16260,7 +15279,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001480",
+      "id": "001386",
       "emoji": "💆🏿",
       "description": "person getting massage: dark skin tone",
       "unicode": [
@@ -16270,7 +15289,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001481",
+      "id": "001387",
       "emoji": "💆‍♂️",
       "description": "man getting massage",
       "unicode": [
@@ -16282,7 +15301,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001482",
+      "id": "001388",
       "emoji": "💆🏻‍♂️",
       "description": "man getting massage: light skin tone",
       "unicode": [
@@ -16295,7 +15314,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001483",
+      "id": "001389",
       "emoji": "💆🏼‍♂️",
       "description": "man getting massage: medium-light skin tone",
       "unicode": [
@@ -16308,7 +15327,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001484",
+      "id": "001390",
       "emoji": "💆🏽‍♂️",
       "description": "man getting massage: medium skin tone",
       "unicode": [
@@ -16321,7 +15340,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001485",
+      "id": "001391",
       "emoji": "💆🏾‍♂️",
       "description": "man getting massage: medium-dark skin tone",
       "unicode": [
@@ -16334,7 +15353,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001486",
+      "id": "001392",
       "emoji": "💆🏿‍♂️",
       "description": "man getting massage: dark skin tone",
       "unicode": [
@@ -16347,7 +15366,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001487",
+      "id": "001393",
       "emoji": "💆‍♀️",
       "description": "woman getting massage",
       "unicode": [
@@ -16359,7 +15378,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001488",
+      "id": "001394",
       "emoji": "💆🏻‍♀️",
       "description": "woman getting massage: light skin tone",
       "unicode": [
@@ -16372,7 +15391,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001489",
+      "id": "001395",
       "emoji": "💆🏼‍♀️",
       "description": "woman getting massage: medium-light skin tone",
       "unicode": [
@@ -16385,7 +15404,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001490",
+      "id": "001396",
       "emoji": "💆🏽‍♀️",
       "description": "woman getting massage: medium skin tone",
       "unicode": [
@@ -16398,7 +15417,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001491",
+      "id": "001397",
       "emoji": "💆🏾‍♀️",
       "description": "woman getting massage: medium-dark skin tone",
       "unicode": [
@@ -16411,7 +15430,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001492",
+      "id": "001398",
       "emoji": "💆🏿‍♀️",
       "description": "woman getting massage: dark skin tone",
       "unicode": [
@@ -16424,7 +15443,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001493",
+      "id": "001399",
       "emoji": "💇",
       "description": "person getting haircut",
       "unicode": [
@@ -16433,7 +15452,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001494",
+      "id": "001400",
       "emoji": "💇🏻",
       "description": "person getting haircut: light skin tone",
       "unicode": [
@@ -16443,7 +15462,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001495",
+      "id": "001401",
       "emoji": "💇🏼",
       "description": "person getting haircut: medium-light skin tone",
       "unicode": [
@@ -16453,7 +15472,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001496",
+      "id": "001402",
       "emoji": "💇🏽",
       "description": "person getting haircut: medium skin tone",
       "unicode": [
@@ -16463,7 +15482,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001497",
+      "id": "001403",
       "emoji": "💇🏾",
       "description": "person getting haircut: medium-dark skin tone",
       "unicode": [
@@ -16473,7 +15492,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001498",
+      "id": "001404",
       "emoji": "💇🏿",
       "description": "person getting haircut: dark skin tone",
       "unicode": [
@@ -16483,7 +15502,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001499",
+      "id": "001405",
       "emoji": "💇‍♂️",
       "description": "man getting haircut",
       "unicode": [
@@ -16495,7 +15514,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001500",
+      "id": "001406",
       "emoji": "💇🏻‍♂️",
       "description": "man getting haircut: light skin tone",
       "unicode": [
@@ -16508,7 +15527,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001501",
+      "id": "001407",
       "emoji": "💇🏼‍♂️",
       "description": "man getting haircut: medium-light skin tone",
       "unicode": [
@@ -16521,7 +15540,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001502",
+      "id": "001408",
       "emoji": "💇🏽‍♂️",
       "description": "man getting haircut: medium skin tone",
       "unicode": [
@@ -16534,7 +15553,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001503",
+      "id": "001409",
       "emoji": "💇🏾‍♂️",
       "description": "man getting haircut: medium-dark skin tone",
       "unicode": [
@@ -16547,7 +15566,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001504",
+      "id": "001410",
       "emoji": "💇🏿‍♂️",
       "description": "man getting haircut: dark skin tone",
       "unicode": [
@@ -16560,7 +15579,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001505",
+      "id": "001411",
       "emoji": "💇‍♀️",
       "description": "woman getting haircut",
       "unicode": [
@@ -16572,7 +15591,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001506",
+      "id": "001412",
       "emoji": "💇🏻‍♀️",
       "description": "woman getting haircut: light skin tone",
       "unicode": [
@@ -16585,7 +15604,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001507",
+      "id": "001413",
       "emoji": "💇🏼‍♀️",
       "description": "woman getting haircut: medium-light skin tone",
       "unicode": [
@@ -16598,7 +15617,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001508",
+      "id": "001414",
       "emoji": "💇🏽‍♀️",
       "description": "woman getting haircut: medium skin tone",
       "unicode": [
@@ -16611,7 +15630,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001509",
+      "id": "001415",
       "emoji": "💇🏾‍♀️",
       "description": "woman getting haircut: medium-dark skin tone",
       "unicode": [
@@ -16624,7 +15643,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001510",
+      "id": "001416",
       "emoji": "💇🏿‍♀️",
       "description": "woman getting haircut: dark skin tone",
       "unicode": [
@@ -16637,7 +15656,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001511",
+      "id": "001417",
       "emoji": "🚶",
       "description": "person walking",
       "unicode": [
@@ -16646,7 +15665,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001512",
+      "id": "001418",
       "emoji": "🚶🏻",
       "description": "person walking: light skin tone",
       "unicode": [
@@ -16656,7 +15675,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001513",
+      "id": "001419",
       "emoji": "🚶🏼",
       "description": "person walking: medium-light skin tone",
       "unicode": [
@@ -16666,7 +15685,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001514",
+      "id": "001420",
       "emoji": "🚶🏽",
       "description": "person walking: medium skin tone",
       "unicode": [
@@ -16676,7 +15695,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001515",
+      "id": "001421",
       "emoji": "🚶🏾",
       "description": "person walking: medium-dark skin tone",
       "unicode": [
@@ -16686,7 +15705,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001516",
+      "id": "001422",
       "emoji": "🚶🏿",
       "description": "person walking: dark skin tone",
       "unicode": [
@@ -16696,7 +15715,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001517",
+      "id": "001423",
       "emoji": "🚶‍♂️",
       "description": "man walking",
       "unicode": [
@@ -16708,7 +15727,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001518",
+      "id": "001424",
       "emoji": "🚶🏻‍♂️",
       "description": "man walking: light skin tone",
       "unicode": [
@@ -16721,7 +15740,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001519",
+      "id": "001425",
       "emoji": "🚶🏼‍♂️",
       "description": "man walking: medium-light skin tone",
       "unicode": [
@@ -16734,7 +15753,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001520",
+      "id": "001426",
       "emoji": "🚶🏽‍♂️",
       "description": "man walking: medium skin tone",
       "unicode": [
@@ -16747,7 +15766,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001521",
+      "id": "001427",
       "emoji": "🚶🏾‍♂️",
       "description": "man walking: medium-dark skin tone",
       "unicode": [
@@ -16760,7 +15779,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001522",
+      "id": "001428",
       "emoji": "🚶🏿‍♂️",
       "description": "man walking: dark skin tone",
       "unicode": [
@@ -16773,7 +15792,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001523",
+      "id": "001429",
       "emoji": "🚶‍♀️",
       "description": "woman walking",
       "unicode": [
@@ -16785,7 +15804,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001524",
+      "id": "001430",
       "emoji": "🚶🏻‍♀️",
       "description": "woman walking: light skin tone",
       "unicode": [
@@ -16798,7 +15817,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001525",
+      "id": "001431",
       "emoji": "🚶🏼‍♀️",
       "description": "woman walking: medium-light skin tone",
       "unicode": [
@@ -16811,7 +15830,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001526",
+      "id": "001432",
       "emoji": "🚶🏽‍♀️",
       "description": "woman walking: medium skin tone",
       "unicode": [
@@ -16824,7 +15843,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001527",
+      "id": "001433",
       "emoji": "🚶🏾‍♀️",
       "description": "woman walking: medium-dark skin tone",
       "unicode": [
@@ -16837,7 +15856,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001528",
+      "id": "001434",
       "emoji": "🚶🏿‍♀️",
       "description": "woman walking: dark skin tone",
       "unicode": [
@@ -16850,7 +15869,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001529",
+      "id": "001435",
       "emoji": "🧍",
       "description": "person standing",
       "unicode": [
@@ -16859,7 +15878,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001530",
+      "id": "001436",
       "emoji": "🧍🏻",
       "description": "person standing: light skin tone",
       "unicode": [
@@ -16869,7 +15888,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001531",
+      "id": "001437",
       "emoji": "🧍🏼",
       "description": "person standing: medium-light skin tone",
       "unicode": [
@@ -16879,7 +15898,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001532",
+      "id": "001438",
       "emoji": "🧍🏽",
       "description": "person standing: medium skin tone",
       "unicode": [
@@ -16889,7 +15908,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001533",
+      "id": "001439",
       "emoji": "🧍🏾",
       "description": "person standing: medium-dark skin tone",
       "unicode": [
@@ -16899,7 +15918,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001534",
+      "id": "001440",
       "emoji": "🧍🏿",
       "description": "person standing: dark skin tone",
       "unicode": [
@@ -16909,7 +15928,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001535",
+      "id": "001441",
       "emoji": "🧍‍♂️",
       "description": "man standing",
       "unicode": [
@@ -16921,7 +15940,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001536",
+      "id": "001442",
       "emoji": "🧍🏻‍♂️",
       "description": "man standing: light skin tone",
       "unicode": [
@@ -16934,7 +15953,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001537",
+      "id": "001443",
       "emoji": "🧍🏼‍♂️",
       "description": "man standing: medium-light skin tone",
       "unicode": [
@@ -16947,7 +15966,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001538",
+      "id": "001444",
       "emoji": "🧍🏽‍♂️",
       "description": "man standing: medium skin tone",
       "unicode": [
@@ -16960,7 +15979,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001539",
+      "id": "001445",
       "emoji": "🧍🏾‍♂️",
       "description": "man standing: medium-dark skin tone",
       "unicode": [
@@ -16973,7 +15992,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001540",
+      "id": "001446",
       "emoji": "🧍🏿‍♂️",
       "description": "man standing: dark skin tone",
       "unicode": [
@@ -16986,7 +16005,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001541",
+      "id": "001447",
       "emoji": "🧍‍♀️",
       "description": "woman standing",
       "unicode": [
@@ -16998,7 +16017,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001542",
+      "id": "001448",
       "emoji": "🧍🏻‍♀️",
       "description": "woman standing: light skin tone",
       "unicode": [
@@ -17011,7 +16030,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001543",
+      "id": "001449",
       "emoji": "🧍🏼‍♀️",
       "description": "woman standing: medium-light skin tone",
       "unicode": [
@@ -17024,7 +16043,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001544",
+      "id": "001450",
       "emoji": "🧍🏽‍♀️",
       "description": "woman standing: medium skin tone",
       "unicode": [
@@ -17037,7 +16056,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001545",
+      "id": "001451",
       "emoji": "🧍🏾‍♀️",
       "description": "woman standing: medium-dark skin tone",
       "unicode": [
@@ -17050,7 +16069,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001546",
+      "id": "001452",
       "emoji": "🧍🏿‍♀️",
       "description": "woman standing: dark skin tone",
       "unicode": [
@@ -17063,7 +16082,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001547",
+      "id": "001453",
       "emoji": "🧎",
       "description": "person kneeling",
       "unicode": [
@@ -17072,7 +16091,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001548",
+      "id": "001454",
       "emoji": "🧎🏻",
       "description": "person kneeling: light skin tone",
       "unicode": [
@@ -17082,7 +16101,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001549",
+      "id": "001455",
       "emoji": "🧎🏼",
       "description": "person kneeling: medium-light skin tone",
       "unicode": [
@@ -17092,7 +16111,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001550",
+      "id": "001456",
       "emoji": "🧎🏽",
       "description": "person kneeling: medium skin tone",
       "unicode": [
@@ -17102,7 +16121,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001551",
+      "id": "001457",
       "emoji": "🧎🏾",
       "description": "person kneeling: medium-dark skin tone",
       "unicode": [
@@ -17112,7 +16131,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001552",
+      "id": "001458",
       "emoji": "🧎🏿",
       "description": "person kneeling: dark skin tone",
       "unicode": [
@@ -17122,7 +16141,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001553",
+      "id": "001459",
       "emoji": "🧎‍♂️",
       "description": "man kneeling",
       "unicode": [
@@ -17134,7 +16153,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001554",
+      "id": "001460",
       "emoji": "🧎🏻‍♂️",
       "description": "man kneeling: light skin tone",
       "unicode": [
@@ -17147,7 +16166,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001555",
+      "id": "001461",
       "emoji": "🧎🏼‍♂️",
       "description": "man kneeling: medium-light skin tone",
       "unicode": [
@@ -17160,7 +16179,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001556",
+      "id": "001462",
       "emoji": "🧎🏽‍♂️",
       "description": "man kneeling: medium skin tone",
       "unicode": [
@@ -17173,7 +16192,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001557",
+      "id": "001463",
       "emoji": "🧎🏾‍♂️",
       "description": "man kneeling: medium-dark skin tone",
       "unicode": [
@@ -17186,7 +16205,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001558",
+      "id": "001464",
       "emoji": "🧎🏿‍♂️",
       "description": "man kneeling: dark skin tone",
       "unicode": [
@@ -17199,7 +16218,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001559",
+      "id": "001465",
       "emoji": "🧎‍♀️",
       "description": "woman kneeling",
       "unicode": [
@@ -17211,7 +16230,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001560",
+      "id": "001466",
       "emoji": "🧎🏻‍♀️",
       "description": "woman kneeling: light skin tone",
       "unicode": [
@@ -17224,7 +16243,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001561",
+      "id": "001467",
       "emoji": "🧎🏼‍♀️",
       "description": "woman kneeling: medium-light skin tone",
       "unicode": [
@@ -17237,7 +16256,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001562",
+      "id": "001468",
       "emoji": "🧎🏽‍♀️",
       "description": "woman kneeling: medium skin tone",
       "unicode": [
@@ -17250,7 +16269,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001563",
+      "id": "001469",
       "emoji": "🧎🏾‍♀️",
       "description": "woman kneeling: medium-dark skin tone",
       "unicode": [
@@ -17263,7 +16282,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001564",
+      "id": "001470",
       "emoji": "🧎🏿‍♀️",
       "description": "woman kneeling: dark skin tone",
       "unicode": [
@@ -17276,7 +16295,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001565",
+      "id": "001471",
       "emoji": "🧑‍🦯",
       "description": "person with white cane",
       "unicode": [
@@ -17287,7 +16306,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001566",
+      "id": "001472",
       "emoji": "🧑🏻‍🦯",
       "description": "person with white cane: light skin tone",
       "unicode": [
@@ -17299,7 +16318,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001567",
+      "id": "001473",
       "emoji": "🧑🏼‍🦯",
       "description": "person with white cane: medium-light skin tone",
       "unicode": [
@@ -17311,7 +16330,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001568",
+      "id": "001474",
       "emoji": "🧑🏽‍🦯",
       "description": "person with white cane: medium skin tone",
       "unicode": [
@@ -17323,7 +16342,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001569",
+      "id": "001475",
       "emoji": "🧑🏾‍🦯",
       "description": "person with white cane: medium-dark skin tone",
       "unicode": [
@@ -17335,7 +16354,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001570",
+      "id": "001476",
       "emoji": "🧑🏿‍🦯",
       "description": "person with white cane: dark skin tone",
       "unicode": [
@@ -17347,7 +16366,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001571",
+      "id": "001477",
       "emoji": "👨‍🦯",
       "description": "man with white cane",
       "unicode": [
@@ -17358,7 +16377,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001572",
+      "id": "001478",
       "emoji": "👨🏻‍🦯",
       "description": "man with white cane: light skin tone",
       "unicode": [
@@ -17370,7 +16389,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001573",
+      "id": "001479",
       "emoji": "👨🏼‍🦯",
       "description": "man with white cane: medium-light skin tone",
       "unicode": [
@@ -17382,7 +16401,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001574",
+      "id": "001480",
       "emoji": "👨🏽‍🦯",
       "description": "man with white cane: medium skin tone",
       "unicode": [
@@ -17394,7 +16413,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001575",
+      "id": "001481",
       "emoji": "👨🏾‍🦯",
       "description": "man with white cane: medium-dark skin tone",
       "unicode": [
@@ -17406,7 +16425,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001576",
+      "id": "001482",
       "emoji": "👨🏿‍🦯",
       "description": "man with white cane: dark skin tone",
       "unicode": [
@@ -17418,7 +16437,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001577",
+      "id": "001483",
       "emoji": "👩‍🦯",
       "description": "woman with white cane",
       "unicode": [
@@ -17429,7 +16448,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001578",
+      "id": "001484",
       "emoji": "👩🏻‍🦯",
       "description": "woman with white cane: light skin tone",
       "unicode": [
@@ -17441,7 +16460,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001579",
+      "id": "001485",
       "emoji": "👩🏼‍🦯",
       "description": "woman with white cane: medium-light skin tone",
       "unicode": [
@@ -17453,7 +16472,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001580",
+      "id": "001486",
       "emoji": "👩🏽‍🦯",
       "description": "woman with white cane: medium skin tone",
       "unicode": [
@@ -17465,7 +16484,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001581",
+      "id": "001487",
       "emoji": "👩🏾‍🦯",
       "description": "woman with white cane: medium-dark skin tone",
       "unicode": [
@@ -17477,7 +16496,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001582",
+      "id": "001488",
       "emoji": "👩🏿‍🦯",
       "description": "woman with white cane: dark skin tone",
       "unicode": [
@@ -17489,7 +16508,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001583",
+      "id": "001489",
       "emoji": "🧑‍🦼",
       "description": "person in motorized wheelchair",
       "unicode": [
@@ -17500,7 +16519,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001584",
+      "id": "001490",
       "emoji": "🧑🏻‍🦼",
       "description": "person in motorized wheelchair: light skin tone",
       "unicode": [
@@ -17512,7 +16531,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001585",
+      "id": "001491",
       "emoji": "🧑🏼‍🦼",
       "description": "person in motorized wheelchair: medium-light skin tone",
       "unicode": [
@@ -17524,7 +16543,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001586",
+      "id": "001492",
       "emoji": "🧑🏽‍🦼",
       "description": "person in motorized wheelchair: medium skin tone",
       "unicode": [
@@ -17536,7 +16555,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001587",
+      "id": "001493",
       "emoji": "🧑🏾‍🦼",
       "description": "person in motorized wheelchair: medium-dark skin tone",
       "unicode": [
@@ -17548,7 +16567,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001588",
+      "id": "001494",
       "emoji": "🧑🏿‍🦼",
       "description": "person in motorized wheelchair: dark skin tone",
       "unicode": [
@@ -17560,7 +16579,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001589",
+      "id": "001495",
       "emoji": "👨‍🦼",
       "description": "man in motorized wheelchair",
       "unicode": [
@@ -17571,7 +16590,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001590",
+      "id": "001496",
       "emoji": "👨🏻‍🦼",
       "description": "man in motorized wheelchair: light skin tone",
       "unicode": [
@@ -17583,7 +16602,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001591",
+      "id": "001497",
       "emoji": "👨🏼‍🦼",
       "description": "man in motorized wheelchair: medium-light skin tone",
       "unicode": [
@@ -17595,7 +16614,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001592",
+      "id": "001498",
       "emoji": "👨🏽‍🦼",
       "description": "man in motorized wheelchair: medium skin tone",
       "unicode": [
@@ -17607,7 +16626,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001593",
+      "id": "001499",
       "emoji": "👨🏾‍🦼",
       "description": "man in motorized wheelchair: medium-dark skin tone",
       "unicode": [
@@ -17619,7 +16638,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001594",
+      "id": "001500",
       "emoji": "👨🏿‍🦼",
       "description": "man in motorized wheelchair: dark skin tone",
       "unicode": [
@@ -17631,7 +16650,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001595",
+      "id": "001501",
       "emoji": "👩‍🦼",
       "description": "woman in motorized wheelchair",
       "unicode": [
@@ -17642,7 +16661,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001596",
+      "id": "001502",
       "emoji": "👩🏻‍🦼",
       "description": "woman in motorized wheelchair: light skin tone",
       "unicode": [
@@ -17654,7 +16673,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001597",
+      "id": "001503",
       "emoji": "👩🏼‍🦼",
       "description": "woman in motorized wheelchair: medium-light skin tone",
       "unicode": [
@@ -17666,7 +16685,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001598",
+      "id": "001504",
       "emoji": "👩🏽‍🦼",
       "description": "woman in motorized wheelchair: medium skin tone",
       "unicode": [
@@ -17678,7 +16697,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001599",
+      "id": "001505",
       "emoji": "👩🏾‍🦼",
       "description": "woman in motorized wheelchair: medium-dark skin tone",
       "unicode": [
@@ -17690,7 +16709,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001600",
+      "id": "001506",
       "emoji": "👩🏿‍🦼",
       "description": "woman in motorized wheelchair: dark skin tone",
       "unicode": [
@@ -17702,7 +16721,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001601",
+      "id": "001507",
       "emoji": "🧑‍🦽",
       "description": "person in manual wheelchair",
       "unicode": [
@@ -17713,7 +16732,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001602",
+      "id": "001508",
       "emoji": "🧑🏻‍🦽",
       "description": "person in manual wheelchair: light skin tone",
       "unicode": [
@@ -17725,7 +16744,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001603",
+      "id": "001509",
       "emoji": "🧑🏼‍🦽",
       "description": "person in manual wheelchair: medium-light skin tone",
       "unicode": [
@@ -17737,7 +16756,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001604",
+      "id": "001510",
       "emoji": "🧑🏽‍🦽",
       "description": "person in manual wheelchair: medium skin tone",
       "unicode": [
@@ -17749,7 +16768,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001605",
+      "id": "001511",
       "emoji": "🧑🏾‍🦽",
       "description": "person in manual wheelchair: medium-dark skin tone",
       "unicode": [
@@ -17761,7 +16780,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001606",
+      "id": "001512",
       "emoji": "🧑🏿‍🦽",
       "description": "person in manual wheelchair: dark skin tone",
       "unicode": [
@@ -17773,7 +16792,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001607",
+      "id": "001513",
       "emoji": "👨‍🦽",
       "description": "man in manual wheelchair",
       "unicode": [
@@ -17784,7 +16803,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001608",
+      "id": "001514",
       "emoji": "👨🏻‍🦽",
       "description": "man in manual wheelchair: light skin tone",
       "unicode": [
@@ -17796,7 +16815,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001609",
+      "id": "001515",
       "emoji": "👨🏼‍🦽",
       "description": "man in manual wheelchair: medium-light skin tone",
       "unicode": [
@@ -17808,7 +16827,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001610",
+      "id": "001516",
       "emoji": "👨🏽‍🦽",
       "description": "man in manual wheelchair: medium skin tone",
       "unicode": [
@@ -17820,7 +16839,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001611",
+      "id": "001517",
       "emoji": "👨🏾‍🦽",
       "description": "man in manual wheelchair: medium-dark skin tone",
       "unicode": [
@@ -17832,7 +16851,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001612",
+      "id": "001518",
       "emoji": "👨🏿‍🦽",
       "description": "man in manual wheelchair: dark skin tone",
       "unicode": [
@@ -17844,7 +16863,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001613",
+      "id": "001519",
       "emoji": "👩‍🦽",
       "description": "woman in manual wheelchair",
       "unicode": [
@@ -17855,7 +16874,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001614",
+      "id": "001520",
       "emoji": "👩🏻‍🦽",
       "description": "woman in manual wheelchair: light skin tone",
       "unicode": [
@@ -17867,7 +16886,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001615",
+      "id": "001521",
       "emoji": "👩🏼‍🦽",
       "description": "woman in manual wheelchair: medium-light skin tone",
       "unicode": [
@@ -17879,7 +16898,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001616",
+      "id": "001522",
       "emoji": "👩🏽‍🦽",
       "description": "woman in manual wheelchair: medium skin tone",
       "unicode": [
@@ -17891,7 +16910,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001617",
+      "id": "001523",
       "emoji": "👩🏾‍🦽",
       "description": "woman in manual wheelchair: medium-dark skin tone",
       "unicode": [
@@ -17903,7 +16922,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001618",
+      "id": "001524",
       "emoji": "👩🏿‍🦽",
       "description": "woman in manual wheelchair: dark skin tone",
       "unicode": [
@@ -17915,7 +16934,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001619",
+      "id": "001525",
       "emoji": "🏃",
       "description": "person running",
       "unicode": [
@@ -17924,7 +16943,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001620",
+      "id": "001526",
       "emoji": "🏃🏻",
       "description": "person running: light skin tone",
       "unicode": [
@@ -17934,7 +16953,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001621",
+      "id": "001527",
       "emoji": "🏃🏼",
       "description": "person running: medium-light skin tone",
       "unicode": [
@@ -17944,7 +16963,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001622",
+      "id": "001528",
       "emoji": "🏃🏽",
       "description": "person running: medium skin tone",
       "unicode": [
@@ -17954,7 +16973,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001623",
+      "id": "001529",
       "emoji": "🏃🏾",
       "description": "person running: medium-dark skin tone",
       "unicode": [
@@ -17964,7 +16983,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001624",
+      "id": "001530",
       "emoji": "🏃🏿",
       "description": "person running: dark skin tone",
       "unicode": [
@@ -17974,7 +16993,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001625",
+      "id": "001531",
       "emoji": "🏃‍♂️",
       "description": "man running",
       "unicode": [
@@ -17986,7 +17005,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001626",
+      "id": "001532",
       "emoji": "🏃🏻‍♂️",
       "description": "man running: light skin tone",
       "unicode": [
@@ -17999,7 +17018,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001627",
+      "id": "001533",
       "emoji": "🏃🏼‍♂️",
       "description": "man running: medium-light skin tone",
       "unicode": [
@@ -18012,7 +17031,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001628",
+      "id": "001534",
       "emoji": "🏃🏽‍♂️",
       "description": "man running: medium skin tone",
       "unicode": [
@@ -18025,7 +17044,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001629",
+      "id": "001535",
       "emoji": "🏃🏾‍♂️",
       "description": "man running: medium-dark skin tone",
       "unicode": [
@@ -18038,7 +17057,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001630",
+      "id": "001536",
       "emoji": "🏃🏿‍♂️",
       "description": "man running: dark skin tone",
       "unicode": [
@@ -18051,7 +17070,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001631",
+      "id": "001537",
       "emoji": "🏃‍♀️",
       "description": "woman running",
       "unicode": [
@@ -18063,7 +17082,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001632",
+      "id": "001538",
       "emoji": "🏃🏻‍♀️",
       "description": "woman running: light skin tone",
       "unicode": [
@@ -18076,7 +17095,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001633",
+      "id": "001539",
       "emoji": "🏃🏼‍♀️",
       "description": "woman running: medium-light skin tone",
       "unicode": [
@@ -18089,7 +17108,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001634",
+      "id": "001540",
       "emoji": "🏃🏽‍♀️",
       "description": "woman running: medium skin tone",
       "unicode": [
@@ -18102,7 +17121,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001635",
+      "id": "001541",
       "emoji": "🏃🏾‍♀️",
       "description": "woman running: medium-dark skin tone",
       "unicode": [
@@ -18115,7 +17134,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001636",
+      "id": "001542",
       "emoji": "🏃🏿‍♀️",
       "description": "woman running: dark skin tone",
       "unicode": [
@@ -18128,7 +17147,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001637",
+      "id": "001543",
       "emoji": "💃",
       "description": "woman dancing",
       "unicode": [
@@ -18137,7 +17156,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001638",
+      "id": "001544",
       "emoji": "💃🏻",
       "description": "woman dancing: light skin tone",
       "unicode": [
@@ -18147,7 +17166,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001639",
+      "id": "001545",
       "emoji": "💃🏼",
       "description": "woman dancing: medium-light skin tone",
       "unicode": [
@@ -18157,7 +17176,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001640",
+      "id": "001546",
       "emoji": "💃🏽",
       "description": "woman dancing: medium skin tone",
       "unicode": [
@@ -18167,7 +17186,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001641",
+      "id": "001547",
       "emoji": "💃🏾",
       "description": "woman dancing: medium-dark skin tone",
       "unicode": [
@@ -18177,7 +17196,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001642",
+      "id": "001548",
       "emoji": "💃🏿",
       "description": "woman dancing: dark skin tone",
       "unicode": [
@@ -18187,7 +17206,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001643",
+      "id": "001549",
       "emoji": "🕺",
       "description": "man dancing",
       "unicode": [
@@ -18196,7 +17215,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001644",
+      "id": "001550",
       "emoji": "🕺🏻",
       "description": "man dancing: light skin tone",
       "unicode": [
@@ -18206,7 +17225,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001645",
+      "id": "001551",
       "emoji": "🕺🏼",
       "description": "man dancing: medium-light skin tone",
       "unicode": [
@@ -18216,7 +17235,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001646",
+      "id": "001552",
       "emoji": "🕺🏽",
       "description": "man dancing: medium skin tone",
       "unicode": [
@@ -18226,7 +17245,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001647",
+      "id": "001553",
       "emoji": "🕺🏾",
       "description": "man dancing: medium-dark skin tone",
       "unicode": [
@@ -18236,7 +17255,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001648",
+      "id": "001554",
       "emoji": "🕺🏿",
       "description": "man dancing: dark skin tone",
       "unicode": [
@@ -18246,7 +17265,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001649",
+      "id": "001555",
       "emoji": "🕴️",
       "description": "person in suit levitating",
       "unicode": [
@@ -18256,7 +17275,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "001650",
+      "id": "001556",
       "emoji": "🕴🏻",
       "description": "person in suit levitating: light skin tone",
       "unicode": [
@@ -18266,7 +17285,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001651",
+      "id": "001557",
       "emoji": "🕴🏼",
       "description": "person in suit levitating: medium-light skin tone",
       "unicode": [
@@ -18276,7 +17295,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001652",
+      "id": "001558",
       "emoji": "🕴🏽",
       "description": "person in suit levitating: medium skin tone",
       "unicode": [
@@ -18286,7 +17305,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001653",
+      "id": "001559",
       "emoji": "🕴🏾",
       "description": "person in suit levitating: medium-dark skin tone",
       "unicode": [
@@ -18296,7 +17315,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001654",
+      "id": "001560",
       "emoji": "🕴🏿",
       "description": "person in suit levitating: dark skin tone",
       "unicode": [
@@ -18306,7 +17325,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001655",
+      "id": "001561",
       "emoji": "👯",
       "description": "people with bunny ears",
       "unicode": [
@@ -18315,7 +17334,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001656",
+      "id": "001562",
       "emoji": "👯‍♂️",
       "description": "men with bunny ears",
       "unicode": [
@@ -18327,7 +17346,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001657",
+      "id": "001563",
       "emoji": "👯‍♀️",
       "description": "women with bunny ears",
       "unicode": [
@@ -18339,7 +17358,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001658",
+      "id": "001564",
       "emoji": "🧖",
       "description": "person in steamy room",
       "unicode": [
@@ -18348,7 +17367,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001659",
+      "id": "001565",
       "emoji": "🧖🏻",
       "description": "person in steamy room: light skin tone",
       "unicode": [
@@ -18358,7 +17377,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001660",
+      "id": "001566",
       "emoji": "🧖🏼",
       "description": "person in steamy room: medium-light skin tone",
       "unicode": [
@@ -18368,7 +17387,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001661",
+      "id": "001567",
       "emoji": "🧖🏽",
       "description": "person in steamy room: medium skin tone",
       "unicode": [
@@ -18378,7 +17397,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001662",
+      "id": "001568",
       "emoji": "🧖🏾",
       "description": "person in steamy room: medium-dark skin tone",
       "unicode": [
@@ -18388,7 +17407,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001663",
+      "id": "001569",
       "emoji": "🧖🏿",
       "description": "person in steamy room: dark skin tone",
       "unicode": [
@@ -18398,7 +17417,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001664",
+      "id": "001570",
       "emoji": "🧖‍♂️",
       "description": "man in steamy room",
       "unicode": [
@@ -18410,7 +17429,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001665",
+      "id": "001571",
       "emoji": "🧖🏻‍♂️",
       "description": "man in steamy room: light skin tone",
       "unicode": [
@@ -18423,7 +17442,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001666",
+      "id": "001572",
       "emoji": "🧖🏼‍♂️",
       "description": "man in steamy room: medium-light skin tone",
       "unicode": [
@@ -18436,7 +17455,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001667",
+      "id": "001573",
       "emoji": "🧖🏽‍♂️",
       "description": "man in steamy room: medium skin tone",
       "unicode": [
@@ -18449,7 +17468,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001668",
+      "id": "001574",
       "emoji": "🧖🏾‍♂️",
       "description": "man in steamy room: medium-dark skin tone",
       "unicode": [
@@ -18462,7 +17481,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001669",
+      "id": "001575",
       "emoji": "🧖🏿‍♂️",
       "description": "man in steamy room: dark skin tone",
       "unicode": [
@@ -18475,7 +17494,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001670",
+      "id": "001576",
       "emoji": "🧖‍♀️",
       "description": "woman in steamy room",
       "unicode": [
@@ -18487,7 +17506,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001671",
+      "id": "001577",
       "emoji": "🧖🏻‍♀️",
       "description": "woman in steamy room: light skin tone",
       "unicode": [
@@ -18500,7 +17519,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001672",
+      "id": "001578",
       "emoji": "🧖🏼‍♀️",
       "description": "woman in steamy room: medium-light skin tone",
       "unicode": [
@@ -18513,7 +17532,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001673",
+      "id": "001579",
       "emoji": "🧖🏽‍♀️",
       "description": "woman in steamy room: medium skin tone",
       "unicode": [
@@ -18526,7 +17545,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001674",
+      "id": "001580",
       "emoji": "🧖🏾‍♀️",
       "description": "woman in steamy room: medium-dark skin tone",
       "unicode": [
@@ -18539,7 +17558,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001675",
+      "id": "001581",
       "emoji": "🧖🏿‍♀️",
       "description": "woman in steamy room: dark skin tone",
       "unicode": [
@@ -18552,7 +17571,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001676",
+      "id": "001582",
       "emoji": "🧗",
       "description": "person climbing",
       "unicode": [
@@ -18561,7 +17580,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001677",
+      "id": "001583",
       "emoji": "🧗🏻",
       "description": "person climbing: light skin tone",
       "unicode": [
@@ -18571,7 +17590,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001678",
+      "id": "001584",
       "emoji": "🧗🏼",
       "description": "person climbing: medium-light skin tone",
       "unicode": [
@@ -18581,7 +17600,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001679",
+      "id": "001585",
       "emoji": "🧗🏽",
       "description": "person climbing: medium skin tone",
       "unicode": [
@@ -18591,7 +17610,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001680",
+      "id": "001586",
       "emoji": "🧗🏾",
       "description": "person climbing: medium-dark skin tone",
       "unicode": [
@@ -18601,7 +17620,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001681",
+      "id": "001587",
       "emoji": "🧗🏿",
       "description": "person climbing: dark skin tone",
       "unicode": [
@@ -18611,7 +17630,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001682",
+      "id": "001588",
       "emoji": "🧗‍♂️",
       "description": "man climbing",
       "unicode": [
@@ -18623,7 +17642,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001683",
+      "id": "001589",
       "emoji": "🧗🏻‍♂️",
       "description": "man climbing: light skin tone",
       "unicode": [
@@ -18636,7 +17655,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001684",
+      "id": "001590",
       "emoji": "🧗🏼‍♂️",
       "description": "man climbing: medium-light skin tone",
       "unicode": [
@@ -18649,7 +17668,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001685",
+      "id": "001591",
       "emoji": "🧗🏽‍♂️",
       "description": "man climbing: medium skin tone",
       "unicode": [
@@ -18662,7 +17681,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001686",
+      "id": "001592",
       "emoji": "🧗🏾‍♂️",
       "description": "man climbing: medium-dark skin tone",
       "unicode": [
@@ -18675,7 +17694,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001687",
+      "id": "001593",
       "emoji": "🧗🏿‍♂️",
       "description": "man climbing: dark skin tone",
       "unicode": [
@@ -18688,7 +17707,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001688",
+      "id": "001594",
       "emoji": "🧗‍♀️",
       "description": "woman climbing",
       "unicode": [
@@ -18700,7 +17719,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001689",
+      "id": "001595",
       "emoji": "🧗🏻‍♀️",
       "description": "woman climbing: light skin tone",
       "unicode": [
@@ -18713,7 +17732,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001690",
+      "id": "001596",
       "emoji": "🧗🏼‍♀️",
       "description": "woman climbing: medium-light skin tone",
       "unicode": [
@@ -18726,7 +17745,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001691",
+      "id": "001597",
       "emoji": "🧗🏽‍♀️",
       "description": "woman climbing: medium skin tone",
       "unicode": [
@@ -18739,7 +17758,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001692",
+      "id": "001598",
       "emoji": "🧗🏾‍♀️",
       "description": "woman climbing: medium-dark skin tone",
       "unicode": [
@@ -18752,7 +17771,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001693",
+      "id": "001599",
       "emoji": "🧗🏿‍♀️",
       "description": "woman climbing: dark skin tone",
       "unicode": [
@@ -18765,7 +17784,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001694",
+      "id": "001600",
       "emoji": "🤺",
       "description": "person fencing",
       "unicode": [
@@ -18774,7 +17793,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001695",
+      "id": "001601",
       "emoji": "🏇",
       "description": "horse racing",
       "unicode": [
@@ -18783,7 +17802,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001696",
+      "id": "001602",
       "emoji": "🏇🏻",
       "description": "horse racing: light skin tone",
       "unicode": [
@@ -18793,7 +17812,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001697",
+      "id": "001603",
       "emoji": "🏇🏼",
       "description": "horse racing: medium-light skin tone",
       "unicode": [
@@ -18803,7 +17822,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001698",
+      "id": "001604",
       "emoji": "🏇🏽",
       "description": "horse racing: medium skin tone",
       "unicode": [
@@ -18813,7 +17832,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001699",
+      "id": "001605",
       "emoji": "🏇🏾",
       "description": "horse racing: medium-dark skin tone",
       "unicode": [
@@ -18823,7 +17842,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001700",
+      "id": "001606",
       "emoji": "🏇🏿",
       "description": "horse racing: dark skin tone",
       "unicode": [
@@ -18833,7 +17852,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001701",
+      "id": "001607",
       "emoji": "⛷️",
       "description": "skier",
       "unicode": [
@@ -18843,7 +17862,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "001702",
+      "id": "001608",
       "emoji": "🏂",
       "description": "snowboarder",
       "unicode": [
@@ -18852,7 +17871,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001703",
+      "id": "001609",
       "emoji": "🏂🏻",
       "description": "snowboarder: light skin tone",
       "unicode": [
@@ -18862,7 +17881,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001704",
+      "id": "001610",
       "emoji": "🏂🏼",
       "description": "snowboarder: medium-light skin tone",
       "unicode": [
@@ -18872,7 +17891,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001705",
+      "id": "001611",
       "emoji": "🏂🏽",
       "description": "snowboarder: medium skin tone",
       "unicode": [
@@ -18882,7 +17901,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001706",
+      "id": "001612",
       "emoji": "🏂🏾",
       "description": "snowboarder: medium-dark skin tone",
       "unicode": [
@@ -18892,7 +17911,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001707",
+      "id": "001613",
       "emoji": "🏂🏿",
       "description": "snowboarder: dark skin tone",
       "unicode": [
@@ -18902,7 +17921,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001708",
+      "id": "001614",
       "emoji": "🏌️",
       "description": "person golfing",
       "unicode": [
@@ -18912,7 +17931,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "001709",
+      "id": "001615",
       "emoji": "🏌🏻",
       "description": "person golfing: light skin tone",
       "unicode": [
@@ -18922,7 +17941,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001710",
+      "id": "001616",
       "emoji": "🏌🏼",
       "description": "person golfing: medium-light skin tone",
       "unicode": [
@@ -18932,7 +17951,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001711",
+      "id": "001617",
       "emoji": "🏌🏽",
       "description": "person golfing: medium skin tone",
       "unicode": [
@@ -18942,7 +17961,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001712",
+      "id": "001618",
       "emoji": "🏌🏾",
       "description": "person golfing: medium-dark skin tone",
       "unicode": [
@@ -18952,7 +17971,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001713",
+      "id": "001619",
       "emoji": "🏌🏿",
       "description": "person golfing: dark skin tone",
       "unicode": [
@@ -18962,7 +17981,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001714",
+      "id": "001620",
       "emoji": "🏌️‍♂️",
       "description": "man golfing",
       "unicode": [
@@ -18975,7 +17994,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001715",
+      "id": "001621",
       "emoji": "🏌🏻‍♂️",
       "description": "man golfing: light skin tone",
       "unicode": [
@@ -18988,7 +18007,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001716",
+      "id": "001622",
       "emoji": "🏌🏼‍♂️",
       "description": "man golfing: medium-light skin tone",
       "unicode": [
@@ -19001,7 +18020,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001717",
+      "id": "001623",
       "emoji": "🏌🏽‍♂️",
       "description": "man golfing: medium skin tone",
       "unicode": [
@@ -19014,7 +18033,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001718",
+      "id": "001624",
       "emoji": "🏌🏾‍♂️",
       "description": "man golfing: medium-dark skin tone",
       "unicode": [
@@ -19027,7 +18046,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001719",
+      "id": "001625",
       "emoji": "🏌🏿‍♂️",
       "description": "man golfing: dark skin tone",
       "unicode": [
@@ -19040,7 +18059,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001720",
+      "id": "001626",
       "emoji": "🏌️‍♀️",
       "description": "woman golfing",
       "unicode": [
@@ -19053,7 +18072,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001721",
+      "id": "001627",
       "emoji": "🏌🏻‍♀️",
       "description": "woman golfing: light skin tone",
       "unicode": [
@@ -19066,7 +18085,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001722",
+      "id": "001628",
       "emoji": "🏌🏼‍♀️",
       "description": "woman golfing: medium-light skin tone",
       "unicode": [
@@ -19079,7 +18098,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001723",
+      "id": "001629",
       "emoji": "🏌🏽‍♀️",
       "description": "woman golfing: medium skin tone",
       "unicode": [
@@ -19092,7 +18111,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001724",
+      "id": "001630",
       "emoji": "🏌🏾‍♀️",
       "description": "woman golfing: medium-dark skin tone",
       "unicode": [
@@ -19105,7 +18124,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001725",
+      "id": "001631",
       "emoji": "🏌🏿‍♀️",
       "description": "woman golfing: dark skin tone",
       "unicode": [
@@ -19118,7 +18137,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001726",
+      "id": "001632",
       "emoji": "🏄",
       "description": "person surfing",
       "unicode": [
@@ -19127,7 +18146,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001727",
+      "id": "001633",
       "emoji": "🏄🏻",
       "description": "person surfing: light skin tone",
       "unicode": [
@@ -19137,7 +18156,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001728",
+      "id": "001634",
       "emoji": "🏄🏼",
       "description": "person surfing: medium-light skin tone",
       "unicode": [
@@ -19147,7 +18166,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001729",
+      "id": "001635",
       "emoji": "🏄🏽",
       "description": "person surfing: medium skin tone",
       "unicode": [
@@ -19157,7 +18176,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001730",
+      "id": "001636",
       "emoji": "🏄🏾",
       "description": "person surfing: medium-dark skin tone",
       "unicode": [
@@ -19167,7 +18186,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001731",
+      "id": "001637",
       "emoji": "🏄🏿",
       "description": "person surfing: dark skin tone",
       "unicode": [
@@ -19177,7 +18196,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001732",
+      "id": "001638",
       "emoji": "🏄‍♂️",
       "description": "man surfing",
       "unicode": [
@@ -19189,7 +18208,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001733",
+      "id": "001639",
       "emoji": "🏄🏻‍♂️",
       "description": "man surfing: light skin tone",
       "unicode": [
@@ -19202,7 +18221,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001734",
+      "id": "001640",
       "emoji": "🏄🏼‍♂️",
       "description": "man surfing: medium-light skin tone",
       "unicode": [
@@ -19215,7 +18234,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001735",
+      "id": "001641",
       "emoji": "🏄🏽‍♂️",
       "description": "man surfing: medium skin tone",
       "unicode": [
@@ -19228,7 +18247,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001736",
+      "id": "001642",
       "emoji": "🏄🏾‍♂️",
       "description": "man surfing: medium-dark skin tone",
       "unicode": [
@@ -19241,7 +18260,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001737",
+      "id": "001643",
       "emoji": "🏄🏿‍♂️",
       "description": "man surfing: dark skin tone",
       "unicode": [
@@ -19254,7 +18273,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001738",
+      "id": "001644",
       "emoji": "🏄‍♀️",
       "description": "woman surfing",
       "unicode": [
@@ -19266,7 +18285,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001739",
+      "id": "001645",
       "emoji": "🏄🏻‍♀️",
       "description": "woman surfing: light skin tone",
       "unicode": [
@@ -19279,7 +18298,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001740",
+      "id": "001646",
       "emoji": "🏄🏼‍♀️",
       "description": "woman surfing: medium-light skin tone",
       "unicode": [
@@ -19292,7 +18311,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001741",
+      "id": "001647",
       "emoji": "🏄🏽‍♀️",
       "description": "woman surfing: medium skin tone",
       "unicode": [
@@ -19305,7 +18324,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001742",
+      "id": "001648",
       "emoji": "🏄🏾‍♀️",
       "description": "woman surfing: medium-dark skin tone",
       "unicode": [
@@ -19318,7 +18337,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001743",
+      "id": "001649",
       "emoji": "🏄🏿‍♀️",
       "description": "woman surfing: dark skin tone",
       "unicode": [
@@ -19331,7 +18350,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001744",
+      "id": "001650",
       "emoji": "🚣",
       "description": "person rowing boat",
       "unicode": [
@@ -19340,7 +18359,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001745",
+      "id": "001651",
       "emoji": "🚣🏻",
       "description": "person rowing boat: light skin tone",
       "unicode": [
@@ -19350,7 +18369,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001746",
+      "id": "001652",
       "emoji": "🚣🏼",
       "description": "person rowing boat: medium-light skin tone",
       "unicode": [
@@ -19360,7 +18379,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001747",
+      "id": "001653",
       "emoji": "🚣🏽",
       "description": "person rowing boat: medium skin tone",
       "unicode": [
@@ -19370,7 +18389,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001748",
+      "id": "001654",
       "emoji": "🚣🏾",
       "description": "person rowing boat: medium-dark skin tone",
       "unicode": [
@@ -19380,7 +18399,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001749",
+      "id": "001655",
       "emoji": "🚣🏿",
       "description": "person rowing boat: dark skin tone",
       "unicode": [
@@ -19390,7 +18409,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001750",
+      "id": "001656",
       "emoji": "🚣‍♂️",
       "description": "man rowing boat",
       "unicode": [
@@ -19402,7 +18421,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001751",
+      "id": "001657",
       "emoji": "🚣🏻‍♂️",
       "description": "man rowing boat: light skin tone",
       "unicode": [
@@ -19415,7 +18434,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001752",
+      "id": "001658",
       "emoji": "🚣🏼‍♂️",
       "description": "man rowing boat: medium-light skin tone",
       "unicode": [
@@ -19428,7 +18447,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001753",
+      "id": "001659",
       "emoji": "🚣🏽‍♂️",
       "description": "man rowing boat: medium skin tone",
       "unicode": [
@@ -19441,7 +18460,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001754",
+      "id": "001660",
       "emoji": "🚣🏾‍♂️",
       "description": "man rowing boat: medium-dark skin tone",
       "unicode": [
@@ -19454,7 +18473,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001755",
+      "id": "001661",
       "emoji": "🚣🏿‍♂️",
       "description": "man rowing boat: dark skin tone",
       "unicode": [
@@ -19467,7 +18486,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001756",
+      "id": "001662",
       "emoji": "🚣‍♀️",
       "description": "woman rowing boat",
       "unicode": [
@@ -19479,7 +18498,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001757",
+      "id": "001663",
       "emoji": "🚣🏻‍♀️",
       "description": "woman rowing boat: light skin tone",
       "unicode": [
@@ -19492,7 +18511,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001758",
+      "id": "001664",
       "emoji": "🚣🏼‍♀️",
       "description": "woman rowing boat: medium-light skin tone",
       "unicode": [
@@ -19505,7 +18524,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001759",
+      "id": "001665",
       "emoji": "🚣🏽‍♀️",
       "description": "woman rowing boat: medium skin tone",
       "unicode": [
@@ -19518,7 +18537,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001760",
+      "id": "001666",
       "emoji": "🚣🏾‍♀️",
       "description": "woman rowing boat: medium-dark skin tone",
       "unicode": [
@@ -19531,7 +18550,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001761",
+      "id": "001667",
       "emoji": "🚣🏿‍♀️",
       "description": "woman rowing boat: dark skin tone",
       "unicode": [
@@ -19544,7 +18563,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001762",
+      "id": "001668",
       "emoji": "🏊",
       "description": "person swimming",
       "unicode": [
@@ -19553,7 +18572,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001763",
+      "id": "001669",
       "emoji": "🏊🏻",
       "description": "person swimming: light skin tone",
       "unicode": [
@@ -19563,7 +18582,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001764",
+      "id": "001670",
       "emoji": "🏊🏼",
       "description": "person swimming: medium-light skin tone",
       "unicode": [
@@ -19573,7 +18592,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001765",
+      "id": "001671",
       "emoji": "🏊🏽",
       "description": "person swimming: medium skin tone",
       "unicode": [
@@ -19583,7 +18602,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001766",
+      "id": "001672",
       "emoji": "🏊🏾",
       "description": "person swimming: medium-dark skin tone",
       "unicode": [
@@ -19593,7 +18612,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001767",
+      "id": "001673",
       "emoji": "🏊🏿",
       "description": "person swimming: dark skin tone",
       "unicode": [
@@ -19603,7 +18622,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001768",
+      "id": "001674",
       "emoji": "🏊‍♂️",
       "description": "man swimming",
       "unicode": [
@@ -19615,7 +18634,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001769",
+      "id": "001675",
       "emoji": "🏊🏻‍♂️",
       "description": "man swimming: light skin tone",
       "unicode": [
@@ -19628,7 +18647,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001770",
+      "id": "001676",
       "emoji": "🏊🏼‍♂️",
       "description": "man swimming: medium-light skin tone",
       "unicode": [
@@ -19641,7 +18660,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001771",
+      "id": "001677",
       "emoji": "🏊🏽‍♂️",
       "description": "man swimming: medium skin tone",
       "unicode": [
@@ -19654,7 +18673,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001772",
+      "id": "001678",
       "emoji": "🏊🏾‍♂️",
       "description": "man swimming: medium-dark skin tone",
       "unicode": [
@@ -19667,7 +18686,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001773",
+      "id": "001679",
       "emoji": "🏊🏿‍♂️",
       "description": "man swimming: dark skin tone",
       "unicode": [
@@ -19680,7 +18699,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001774",
+      "id": "001680",
       "emoji": "🏊‍♀️",
       "description": "woman swimming",
       "unicode": [
@@ -19692,7 +18711,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001775",
+      "id": "001681",
       "emoji": "🏊🏻‍♀️",
       "description": "woman swimming: light skin tone",
       "unicode": [
@@ -19705,7 +18724,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001776",
+      "id": "001682",
       "emoji": "🏊🏼‍♀️",
       "description": "woman swimming: medium-light skin tone",
       "unicode": [
@@ -19718,7 +18737,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001777",
+      "id": "001683",
       "emoji": "🏊🏽‍♀️",
       "description": "woman swimming: medium skin tone",
       "unicode": [
@@ -19731,7 +18750,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001778",
+      "id": "001684",
       "emoji": "🏊🏾‍♀️",
       "description": "woman swimming: medium-dark skin tone",
       "unicode": [
@@ -19744,7 +18763,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001779",
+      "id": "001685",
       "emoji": "🏊🏿‍♀️",
       "description": "woman swimming: dark skin tone",
       "unicode": [
@@ -19757,7 +18776,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001780",
+      "id": "001686",
       "emoji": "⛹️",
       "description": "person bouncing ball",
       "unicode": [
@@ -19767,7 +18786,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "001781",
+      "id": "001687",
       "emoji": "⛹🏻",
       "description": "person bouncing ball: light skin tone",
       "unicode": [
@@ -19777,7 +18796,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "001782",
+      "id": "001688",
       "emoji": "⛹🏼",
       "description": "person bouncing ball: medium-light skin tone",
       "unicode": [
@@ -19787,7 +18806,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "001783",
+      "id": "001689",
       "emoji": "⛹🏽",
       "description": "person bouncing ball: medium skin tone",
       "unicode": [
@@ -19797,7 +18816,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "001784",
+      "id": "001690",
       "emoji": "⛹🏾",
       "description": "person bouncing ball: medium-dark skin tone",
       "unicode": [
@@ -19807,7 +18826,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "001785",
+      "id": "001691",
       "emoji": "⛹🏿",
       "description": "person bouncing ball: dark skin tone",
       "unicode": [
@@ -19817,7 +18836,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "001786",
+      "id": "001692",
       "emoji": "⛹️‍♂️",
       "description": "man bouncing ball",
       "unicode": [
@@ -19830,7 +18849,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001787",
+      "id": "001693",
       "emoji": "⛹🏻‍♂️",
       "description": "man bouncing ball: light skin tone",
       "unicode": [
@@ -19843,7 +18862,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001788",
+      "id": "001694",
       "emoji": "⛹🏼‍♂️",
       "description": "man bouncing ball: medium-light skin tone",
       "unicode": [
@@ -19856,7 +18875,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001789",
+      "id": "001695",
       "emoji": "⛹🏽‍♂️",
       "description": "man bouncing ball: medium skin tone",
       "unicode": [
@@ -19869,7 +18888,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001790",
+      "id": "001696",
       "emoji": "⛹🏾‍♂️",
       "description": "man bouncing ball: medium-dark skin tone",
       "unicode": [
@@ -19882,7 +18901,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001791",
+      "id": "001697",
       "emoji": "⛹🏿‍♂️",
       "description": "man bouncing ball: dark skin tone",
       "unicode": [
@@ -19895,7 +18914,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001792",
+      "id": "001698",
       "emoji": "⛹️‍♀️",
       "description": "woman bouncing ball",
       "unicode": [
@@ -19908,7 +18927,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001793",
+      "id": "001699",
       "emoji": "⛹🏻‍♀️",
       "description": "woman bouncing ball: light skin tone",
       "unicode": [
@@ -19921,7 +18940,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001794",
+      "id": "001700",
       "emoji": "⛹🏼‍♀️",
       "description": "woman bouncing ball: medium-light skin tone",
       "unicode": [
@@ -19934,7 +18953,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001795",
+      "id": "001701",
       "emoji": "⛹🏽‍♀️",
       "description": "woman bouncing ball: medium skin tone",
       "unicode": [
@@ -19947,7 +18966,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001796",
+      "id": "001702",
       "emoji": "⛹🏾‍♀️",
       "description": "woman bouncing ball: medium-dark skin tone",
       "unicode": [
@@ -19960,7 +18979,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001797",
+      "id": "001703",
       "emoji": "⛹🏿‍♀️",
       "description": "woman bouncing ball: dark skin tone",
       "unicode": [
@@ -19973,7 +18992,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001798",
+      "id": "001704",
       "emoji": "🏋️",
       "description": "person lifting weights",
       "unicode": [
@@ -19983,7 +19002,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "001799",
+      "id": "001705",
       "emoji": "🏋🏻",
       "description": "person lifting weights: light skin tone",
       "unicode": [
@@ -19993,7 +19012,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "001800",
+      "id": "001706",
       "emoji": "🏋🏼",
       "description": "person lifting weights: medium-light skin tone",
       "unicode": [
@@ -20003,7 +19022,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "001801",
+      "id": "001707",
       "emoji": "🏋🏽",
       "description": "person lifting weights: medium skin tone",
       "unicode": [
@@ -20013,7 +19032,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "001802",
+      "id": "001708",
       "emoji": "🏋🏾",
       "description": "person lifting weights: medium-dark skin tone",
       "unicode": [
@@ -20023,7 +19042,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "001803",
+      "id": "001709",
       "emoji": "🏋🏿",
       "description": "person lifting weights: dark skin tone",
       "unicode": [
@@ -20033,7 +19052,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "001804",
+      "id": "001710",
       "emoji": "🏋️‍♂️",
       "description": "man lifting weights",
       "unicode": [
@@ -20046,7 +19065,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001805",
+      "id": "001711",
       "emoji": "🏋🏻‍♂️",
       "description": "man lifting weights: light skin tone",
       "unicode": [
@@ -20059,7 +19078,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001806",
+      "id": "001712",
       "emoji": "🏋🏼‍♂️",
       "description": "man lifting weights: medium-light skin tone",
       "unicode": [
@@ -20072,7 +19091,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001807",
+      "id": "001713",
       "emoji": "🏋🏽‍♂️",
       "description": "man lifting weights: medium skin tone",
       "unicode": [
@@ -20085,7 +19104,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001808",
+      "id": "001714",
       "emoji": "🏋🏾‍♂️",
       "description": "man lifting weights: medium-dark skin tone",
       "unicode": [
@@ -20098,7 +19117,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001809",
+      "id": "001715",
       "emoji": "🏋🏿‍♂️",
       "description": "man lifting weights: dark skin tone",
       "unicode": [
@@ -20111,7 +19130,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001810",
+      "id": "001716",
       "emoji": "🏋️‍♀️",
       "description": "woman lifting weights",
       "unicode": [
@@ -20124,7 +19143,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001811",
+      "id": "001717",
       "emoji": "🏋🏻‍♀️",
       "description": "woman lifting weights: light skin tone",
       "unicode": [
@@ -20137,7 +19156,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001812",
+      "id": "001718",
       "emoji": "🏋🏼‍♀️",
       "description": "woman lifting weights: medium-light skin tone",
       "unicode": [
@@ -20150,7 +19169,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001813",
+      "id": "001719",
       "emoji": "🏋🏽‍♀️",
       "description": "woman lifting weights: medium skin tone",
       "unicode": [
@@ -20163,7 +19182,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001814",
+      "id": "001720",
       "emoji": "🏋🏾‍♀️",
       "description": "woman lifting weights: medium-dark skin tone",
       "unicode": [
@@ -20176,7 +19195,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001815",
+      "id": "001721",
       "emoji": "🏋🏿‍♀️",
       "description": "woman lifting weights: dark skin tone",
       "unicode": [
@@ -20189,7 +19208,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001816",
+      "id": "001722",
       "emoji": "🚴",
       "description": "person biking",
       "unicode": [
@@ -20198,7 +19217,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001817",
+      "id": "001723",
       "emoji": "🚴🏻",
       "description": "person biking: light skin tone",
       "unicode": [
@@ -20208,7 +19227,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001818",
+      "id": "001724",
       "emoji": "🚴🏼",
       "description": "person biking: medium-light skin tone",
       "unicode": [
@@ -20218,7 +19237,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001819",
+      "id": "001725",
       "emoji": "🚴🏽",
       "description": "person biking: medium skin tone",
       "unicode": [
@@ -20228,7 +19247,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001820",
+      "id": "001726",
       "emoji": "🚴🏾",
       "description": "person biking: medium-dark skin tone",
       "unicode": [
@@ -20238,7 +19257,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001821",
+      "id": "001727",
       "emoji": "🚴🏿",
       "description": "person biking: dark skin tone",
       "unicode": [
@@ -20248,7 +19267,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001822",
+      "id": "001728",
       "emoji": "🚴‍♂️",
       "description": "man biking",
       "unicode": [
@@ -20260,7 +19279,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001823",
+      "id": "001729",
       "emoji": "🚴🏻‍♂️",
       "description": "man biking: light skin tone",
       "unicode": [
@@ -20273,7 +19292,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001824",
+      "id": "001730",
       "emoji": "🚴🏼‍♂️",
       "description": "man biking: medium-light skin tone",
       "unicode": [
@@ -20286,7 +19305,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001825",
+      "id": "001731",
       "emoji": "🚴🏽‍♂️",
       "description": "man biking: medium skin tone",
       "unicode": [
@@ -20299,7 +19318,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001826",
+      "id": "001732",
       "emoji": "🚴🏾‍♂️",
       "description": "man biking: medium-dark skin tone",
       "unicode": [
@@ -20312,7 +19331,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001827",
+      "id": "001733",
       "emoji": "🚴🏿‍♂️",
       "description": "man biking: dark skin tone",
       "unicode": [
@@ -20325,7 +19344,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001828",
+      "id": "001734",
       "emoji": "🚴‍♀️",
       "description": "woman biking",
       "unicode": [
@@ -20337,7 +19356,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001829",
+      "id": "001735",
       "emoji": "🚴🏻‍♀️",
       "description": "woman biking: light skin tone",
       "unicode": [
@@ -20350,7 +19369,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001830",
+      "id": "001736",
       "emoji": "🚴🏼‍♀️",
       "description": "woman biking: medium-light skin tone",
       "unicode": [
@@ -20363,7 +19382,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001831",
+      "id": "001737",
       "emoji": "🚴🏽‍♀️",
       "description": "woman biking: medium skin tone",
       "unicode": [
@@ -20376,7 +19395,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001832",
+      "id": "001738",
       "emoji": "🚴🏾‍♀️",
       "description": "woman biking: medium-dark skin tone",
       "unicode": [
@@ -20389,7 +19408,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001833",
+      "id": "001739",
       "emoji": "🚴🏿‍♀️",
       "description": "woman biking: dark skin tone",
       "unicode": [
@@ -20402,7 +19421,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001834",
+      "id": "001740",
       "emoji": "🚵",
       "description": "person mountain biking",
       "unicode": [
@@ -20411,7 +19430,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001835",
+      "id": "001741",
       "emoji": "🚵🏻",
       "description": "person mountain biking: light skin tone",
       "unicode": [
@@ -20421,7 +19440,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001836",
+      "id": "001742",
       "emoji": "🚵🏼",
       "description": "person mountain biking: medium-light skin tone",
       "unicode": [
@@ -20431,7 +19450,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001837",
+      "id": "001743",
       "emoji": "🚵🏽",
       "description": "person mountain biking: medium skin tone",
       "unicode": [
@@ -20441,7 +19460,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001838",
+      "id": "001744",
       "emoji": "🚵🏾",
       "description": "person mountain biking: medium-dark skin tone",
       "unicode": [
@@ -20451,7 +19470,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001839",
+      "id": "001745",
       "emoji": "🚵🏿",
       "description": "person mountain biking: dark skin tone",
       "unicode": [
@@ -20461,7 +19480,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001840",
+      "id": "001746",
       "emoji": "🚵‍♂️",
       "description": "man mountain biking",
       "unicode": [
@@ -20473,7 +19492,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001841",
+      "id": "001747",
       "emoji": "🚵🏻‍♂️",
       "description": "man mountain biking: light skin tone",
       "unicode": [
@@ -20486,7 +19505,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001842",
+      "id": "001748",
       "emoji": "🚵🏼‍♂️",
       "description": "man mountain biking: medium-light skin tone",
       "unicode": [
@@ -20499,7 +19518,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001843",
+      "id": "001749",
       "emoji": "🚵🏽‍♂️",
       "description": "man mountain biking: medium skin tone",
       "unicode": [
@@ -20512,7 +19531,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001844",
+      "id": "001750",
       "emoji": "🚵🏾‍♂️",
       "description": "man mountain biking: medium-dark skin tone",
       "unicode": [
@@ -20525,7 +19544,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001845",
+      "id": "001751",
       "emoji": "🚵🏿‍♂️",
       "description": "man mountain biking: dark skin tone",
       "unicode": [
@@ -20538,7 +19557,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001846",
+      "id": "001752",
       "emoji": "🚵‍♀️",
       "description": "woman mountain biking",
       "unicode": [
@@ -20550,7 +19569,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001847",
+      "id": "001753",
       "emoji": "🚵🏻‍♀️",
       "description": "woman mountain biking: light skin tone",
       "unicode": [
@@ -20563,7 +19582,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001848",
+      "id": "001754",
       "emoji": "🚵🏼‍♀️",
       "description": "woman mountain biking: medium-light skin tone",
       "unicode": [
@@ -20576,7 +19595,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001849",
+      "id": "001755",
       "emoji": "🚵🏽‍♀️",
       "description": "woman mountain biking: medium skin tone",
       "unicode": [
@@ -20589,7 +19608,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001850",
+      "id": "001756",
       "emoji": "🚵🏾‍♀️",
       "description": "woman mountain biking: medium-dark skin tone",
       "unicode": [
@@ -20602,7 +19621,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001851",
+      "id": "001757",
       "emoji": "🚵🏿‍♀️",
       "description": "woman mountain biking: dark skin tone",
       "unicode": [
@@ -20615,7 +19634,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001852",
+      "id": "001758",
       "emoji": "🤸",
       "description": "person cartwheeling",
       "unicode": [
@@ -20624,7 +19643,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001853",
+      "id": "001759",
       "emoji": "🤸🏻",
       "description": "person cartwheeling: light skin tone",
       "unicode": [
@@ -20634,7 +19653,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001854",
+      "id": "001760",
       "emoji": "🤸🏼",
       "description": "person cartwheeling: medium-light skin tone",
       "unicode": [
@@ -20644,7 +19663,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001855",
+      "id": "001761",
       "emoji": "🤸🏽",
       "description": "person cartwheeling: medium skin tone",
       "unicode": [
@@ -20654,7 +19673,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001856",
+      "id": "001762",
       "emoji": "🤸🏾",
       "description": "person cartwheeling: medium-dark skin tone",
       "unicode": [
@@ -20664,7 +19683,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001857",
+      "id": "001763",
       "emoji": "🤸🏿",
       "description": "person cartwheeling: dark skin tone",
       "unicode": [
@@ -20674,7 +19693,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001858",
+      "id": "001764",
       "emoji": "🤸‍♂️",
       "description": "man cartwheeling",
       "unicode": [
@@ -20686,7 +19705,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001859",
+      "id": "001765",
       "emoji": "🤸🏻‍♂️",
       "description": "man cartwheeling: light skin tone",
       "unicode": [
@@ -20699,7 +19718,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001860",
+      "id": "001766",
       "emoji": "🤸🏼‍♂️",
       "description": "man cartwheeling: medium-light skin tone",
       "unicode": [
@@ -20712,7 +19731,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001861",
+      "id": "001767",
       "emoji": "🤸🏽‍♂️",
       "description": "man cartwheeling: medium skin tone",
       "unicode": [
@@ -20725,7 +19744,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001862",
+      "id": "001768",
       "emoji": "🤸🏾‍♂️",
       "description": "man cartwheeling: medium-dark skin tone",
       "unicode": [
@@ -20738,7 +19757,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001863",
+      "id": "001769",
       "emoji": "🤸🏿‍♂️",
       "description": "man cartwheeling: dark skin tone",
       "unicode": [
@@ -20751,7 +19770,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001864",
+      "id": "001770",
       "emoji": "🤸‍♀️",
       "description": "woman cartwheeling",
       "unicode": [
@@ -20763,7 +19782,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001865",
+      "id": "001771",
       "emoji": "🤸🏻‍♀️",
       "description": "woman cartwheeling: light skin tone",
       "unicode": [
@@ -20776,7 +19795,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001866",
+      "id": "001772",
       "emoji": "🤸🏼‍♀️",
       "description": "woman cartwheeling: medium-light skin tone",
       "unicode": [
@@ -20789,7 +19808,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001867",
+      "id": "001773",
       "emoji": "🤸🏽‍♀️",
       "description": "woman cartwheeling: medium skin tone",
       "unicode": [
@@ -20802,7 +19821,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001868",
+      "id": "001774",
       "emoji": "🤸🏾‍♀️",
       "description": "woman cartwheeling: medium-dark skin tone",
       "unicode": [
@@ -20815,7 +19834,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001869",
+      "id": "001775",
       "emoji": "🤸🏿‍♀️",
       "description": "woman cartwheeling: dark skin tone",
       "unicode": [
@@ -20828,7 +19847,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001870",
+      "id": "001776",
       "emoji": "🤼",
       "description": "people wrestling",
       "unicode": [
@@ -20837,7 +19856,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001871",
+      "id": "001777",
       "emoji": "🤼‍♂️",
       "description": "men wrestling",
       "unicode": [
@@ -20849,7 +19868,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001872",
+      "id": "001778",
       "emoji": "🤼‍♀️",
       "description": "women wrestling",
       "unicode": [
@@ -20861,7 +19880,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001873",
+      "id": "001779",
       "emoji": "🤽",
       "description": "person playing water polo",
       "unicode": [
@@ -20870,7 +19889,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001874",
+      "id": "001780",
       "emoji": "🤽🏻",
       "description": "person playing water polo: light skin tone",
       "unicode": [
@@ -20880,7 +19899,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001875",
+      "id": "001781",
       "emoji": "🤽🏼",
       "description": "person playing water polo: medium-light skin tone",
       "unicode": [
@@ -20890,7 +19909,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001876",
+      "id": "001782",
       "emoji": "🤽🏽",
       "description": "person playing water polo: medium skin tone",
       "unicode": [
@@ -20900,7 +19919,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001877",
+      "id": "001783",
       "emoji": "🤽🏾",
       "description": "person playing water polo: medium-dark skin tone",
       "unicode": [
@@ -20910,7 +19929,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001878",
+      "id": "001784",
       "emoji": "🤽🏿",
       "description": "person playing water polo: dark skin tone",
       "unicode": [
@@ -20920,7 +19939,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001879",
+      "id": "001785",
       "emoji": "🤽‍♂️",
       "description": "man playing water polo",
       "unicode": [
@@ -20932,7 +19951,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001880",
+      "id": "001786",
       "emoji": "🤽🏻‍♂️",
       "description": "man playing water polo: light skin tone",
       "unicode": [
@@ -20945,7 +19964,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001881",
+      "id": "001787",
       "emoji": "🤽🏼‍♂️",
       "description": "man playing water polo: medium-light skin tone",
       "unicode": [
@@ -20958,7 +19977,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001882",
+      "id": "001788",
       "emoji": "🤽🏽‍♂️",
       "description": "man playing water polo: medium skin tone",
       "unicode": [
@@ -20971,7 +19990,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001883",
+      "id": "001789",
       "emoji": "🤽🏾‍♂️",
       "description": "man playing water polo: medium-dark skin tone",
       "unicode": [
@@ -20984,7 +20003,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001884",
+      "id": "001790",
       "emoji": "🤽🏿‍♂️",
       "description": "man playing water polo: dark skin tone",
       "unicode": [
@@ -20997,7 +20016,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001885",
+      "id": "001791",
       "emoji": "🤽‍♀️",
       "description": "woman playing water polo",
       "unicode": [
@@ -21009,7 +20028,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001886",
+      "id": "001792",
       "emoji": "🤽🏻‍♀️",
       "description": "woman playing water polo: light skin tone",
       "unicode": [
@@ -21022,7 +20041,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001887",
+      "id": "001793",
       "emoji": "🤽🏼‍♀️",
       "description": "woman playing water polo: medium-light skin tone",
       "unicode": [
@@ -21035,7 +20054,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001888",
+      "id": "001794",
       "emoji": "🤽🏽‍♀️",
       "description": "woman playing water polo: medium skin tone",
       "unicode": [
@@ -21048,7 +20067,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001889",
+      "id": "001795",
       "emoji": "🤽🏾‍♀️",
       "description": "woman playing water polo: medium-dark skin tone",
       "unicode": [
@@ -21061,7 +20080,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001890",
+      "id": "001796",
       "emoji": "🤽🏿‍♀️",
       "description": "woman playing water polo: dark skin tone",
       "unicode": [
@@ -21074,7 +20093,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001891",
+      "id": "001797",
       "emoji": "🤾",
       "description": "person playing handball",
       "unicode": [
@@ -21083,7 +20102,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001892",
+      "id": "001798",
       "emoji": "🤾🏻",
       "description": "person playing handball: light skin tone",
       "unicode": [
@@ -21093,7 +20112,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001893",
+      "id": "001799",
       "emoji": "🤾🏼",
       "description": "person playing handball: medium-light skin tone",
       "unicode": [
@@ -21103,7 +20122,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001894",
+      "id": "001800",
       "emoji": "🤾🏽",
       "description": "person playing handball: medium skin tone",
       "unicode": [
@@ -21113,7 +20132,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001895",
+      "id": "001801",
       "emoji": "🤾🏾",
       "description": "person playing handball: medium-dark skin tone",
       "unicode": [
@@ -21123,7 +20142,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001896",
+      "id": "001802",
       "emoji": "🤾🏿",
       "description": "person playing handball: dark skin tone",
       "unicode": [
@@ -21133,7 +20152,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001897",
+      "id": "001803",
       "emoji": "🤾‍♂️",
       "description": "man playing handball",
       "unicode": [
@@ -21145,7 +20164,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001898",
+      "id": "001804",
       "emoji": "🤾🏻‍♂️",
       "description": "man playing handball: light skin tone",
       "unicode": [
@@ -21158,7 +20177,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001899",
+      "id": "001805",
       "emoji": "🤾🏼‍♂️",
       "description": "man playing handball: medium-light skin tone",
       "unicode": [
@@ -21171,7 +20190,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001900",
+      "id": "001806",
       "emoji": "🤾🏽‍♂️",
       "description": "man playing handball: medium skin tone",
       "unicode": [
@@ -21184,7 +20203,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001901",
+      "id": "001807",
       "emoji": "🤾🏾‍♂️",
       "description": "man playing handball: medium-dark skin tone",
       "unicode": [
@@ -21197,7 +20216,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001902",
+      "id": "001808",
       "emoji": "🤾🏿‍♂️",
       "description": "man playing handball: dark skin tone",
       "unicode": [
@@ -21210,7 +20229,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001903",
+      "id": "001809",
       "emoji": "🤾‍♀️",
       "description": "woman playing handball",
       "unicode": [
@@ -21222,7 +20241,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001904",
+      "id": "001810",
       "emoji": "🤾🏻‍♀️",
       "description": "woman playing handball: light skin tone",
       "unicode": [
@@ -21235,7 +20254,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001905",
+      "id": "001811",
       "emoji": "🤾🏼‍♀️",
       "description": "woman playing handball: medium-light skin tone",
       "unicode": [
@@ -21248,7 +20267,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001906",
+      "id": "001812",
       "emoji": "🤾🏽‍♀️",
       "description": "woman playing handball: medium skin tone",
       "unicode": [
@@ -21261,7 +20280,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001907",
+      "id": "001813",
       "emoji": "🤾🏾‍♀️",
       "description": "woman playing handball: medium-dark skin tone",
       "unicode": [
@@ -21274,7 +20293,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001908",
+      "id": "001814",
       "emoji": "🤾🏿‍♀️",
       "description": "woman playing handball: dark skin tone",
       "unicode": [
@@ -21287,7 +20306,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001909",
+      "id": "001815",
       "emoji": "🤹",
       "description": "person juggling",
       "unicode": [
@@ -21296,7 +20315,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001910",
+      "id": "001816",
       "emoji": "🤹🏻",
       "description": "person juggling: light skin tone",
       "unicode": [
@@ -21306,7 +20325,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001911",
+      "id": "001817",
       "emoji": "🤹🏼",
       "description": "person juggling: medium-light skin tone",
       "unicode": [
@@ -21316,7 +20335,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001912",
+      "id": "001818",
       "emoji": "🤹🏽",
       "description": "person juggling: medium skin tone",
       "unicode": [
@@ -21326,7 +20345,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001913",
+      "id": "001819",
       "emoji": "🤹🏾",
       "description": "person juggling: medium-dark skin tone",
       "unicode": [
@@ -21336,7 +20355,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001914",
+      "id": "001820",
       "emoji": "🤹🏿",
       "description": "person juggling: dark skin tone",
       "unicode": [
@@ -21346,7 +20365,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "001915",
+      "id": "001821",
       "emoji": "🤹‍♂️",
       "description": "man juggling",
       "unicode": [
@@ -21358,7 +20377,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001916",
+      "id": "001822",
       "emoji": "🤹🏻‍♂️",
       "description": "man juggling: light skin tone",
       "unicode": [
@@ -21371,7 +20390,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001917",
+      "id": "001823",
       "emoji": "🤹🏼‍♂️",
       "description": "man juggling: medium-light skin tone",
       "unicode": [
@@ -21384,7 +20403,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001918",
+      "id": "001824",
       "emoji": "🤹🏽‍♂️",
       "description": "man juggling: medium skin tone",
       "unicode": [
@@ -21397,7 +20416,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001919",
+      "id": "001825",
       "emoji": "🤹🏾‍♂️",
       "description": "man juggling: medium-dark skin tone",
       "unicode": [
@@ -21410,7 +20429,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001920",
+      "id": "001826",
       "emoji": "🤹🏿‍♂️",
       "description": "man juggling: dark skin tone",
       "unicode": [
@@ -21423,7 +20442,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001921",
+      "id": "001827",
       "emoji": "🤹‍♀️",
       "description": "woman juggling",
       "unicode": [
@@ -21435,7 +20454,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001922",
+      "id": "001828",
       "emoji": "🤹🏻‍♀️",
       "description": "woman juggling: light skin tone",
       "unicode": [
@@ -21448,7 +20467,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001923",
+      "id": "001829",
       "emoji": "🤹🏼‍♀️",
       "description": "woman juggling: medium-light skin tone",
       "unicode": [
@@ -21461,7 +20480,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001924",
+      "id": "001830",
       "emoji": "🤹🏽‍♀️",
       "description": "woman juggling: medium skin tone",
       "unicode": [
@@ -21474,7 +20493,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001925",
+      "id": "001831",
       "emoji": "🤹🏾‍♀️",
       "description": "woman juggling: medium-dark skin tone",
       "unicode": [
@@ -21487,7 +20506,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001926",
+      "id": "001832",
       "emoji": "🤹🏿‍♀️",
       "description": "woman juggling: dark skin tone",
       "unicode": [
@@ -21500,7 +20519,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001927",
+      "id": "001833",
       "emoji": "🧘",
       "description": "person in lotus position",
       "unicode": [
@@ -21509,7 +20528,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001928",
+      "id": "001834",
       "emoji": "🧘🏻",
       "description": "person in lotus position: light skin tone",
       "unicode": [
@@ -21519,7 +20538,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001929",
+      "id": "001835",
       "emoji": "🧘🏼",
       "description": "person in lotus position: medium-light skin tone",
       "unicode": [
@@ -21529,7 +20548,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001930",
+      "id": "001836",
       "emoji": "🧘🏽",
       "description": "person in lotus position: medium skin tone",
       "unicode": [
@@ -21539,7 +20558,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001931",
+      "id": "001837",
       "emoji": "🧘🏾",
       "description": "person in lotus position: medium-dark skin tone",
       "unicode": [
@@ -21549,7 +20568,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001932",
+      "id": "001838",
       "emoji": "🧘🏿",
       "description": "person in lotus position: dark skin tone",
       "unicode": [
@@ -21559,7 +20578,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001933",
+      "id": "001839",
       "emoji": "🧘‍♂️",
       "description": "man in lotus position",
       "unicode": [
@@ -21571,7 +20590,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001934",
+      "id": "001840",
       "emoji": "🧘🏻‍♂️",
       "description": "man in lotus position: light skin tone",
       "unicode": [
@@ -21584,7 +20603,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001935",
+      "id": "001841",
       "emoji": "🧘🏼‍♂️",
       "description": "man in lotus position: medium-light skin tone",
       "unicode": [
@@ -21597,7 +20616,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001936",
+      "id": "001842",
       "emoji": "🧘🏽‍♂️",
       "description": "man in lotus position: medium skin tone",
       "unicode": [
@@ -21610,7 +20629,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001937",
+      "id": "001843",
       "emoji": "🧘🏾‍♂️",
       "description": "man in lotus position: medium-dark skin tone",
       "unicode": [
@@ -21623,7 +20642,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001938",
+      "id": "001844",
       "emoji": "🧘🏿‍♂️",
       "description": "man in lotus position: dark skin tone",
       "unicode": [
@@ -21636,7 +20655,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001939",
+      "id": "001845",
       "emoji": "🧘‍♀️",
       "description": "woman in lotus position",
       "unicode": [
@@ -21648,7 +20667,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001940",
+      "id": "001846",
       "emoji": "🧘🏻‍♀️",
       "description": "woman in lotus position: light skin tone",
       "unicode": [
@@ -21661,7 +20680,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001941",
+      "id": "001847",
       "emoji": "🧘🏼‍♀️",
       "description": "woman in lotus position: medium-light skin tone",
       "unicode": [
@@ -21674,7 +20693,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001942",
+      "id": "001848",
       "emoji": "🧘🏽‍♀️",
       "description": "woman in lotus position: medium skin tone",
       "unicode": [
@@ -21687,7 +20706,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001943",
+      "id": "001849",
       "emoji": "🧘🏾‍♀️",
       "description": "woman in lotus position: medium-dark skin tone",
       "unicode": [
@@ -21700,7 +20719,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001944",
+      "id": "001850",
       "emoji": "🧘🏿‍♀️",
       "description": "woman in lotus position: dark skin tone",
       "unicode": [
@@ -21713,7 +20732,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "001945",
+      "id": "001851",
       "emoji": "🛀",
       "description": "person taking bath",
       "unicode": [
@@ -21722,7 +20741,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "001946",
+      "id": "001852",
       "emoji": "🛀🏻",
       "description": "person taking bath: light skin tone",
       "unicode": [
@@ -21732,7 +20751,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001947",
+      "id": "001853",
       "emoji": "🛀🏼",
       "description": "person taking bath: medium-light skin tone",
       "unicode": [
@@ -21742,7 +20761,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001948",
+      "id": "001854",
       "emoji": "🛀🏽",
       "description": "person taking bath: medium skin tone",
       "unicode": [
@@ -21752,7 +20771,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001949",
+      "id": "001855",
       "emoji": "🛀🏾",
       "description": "person taking bath: medium-dark skin tone",
       "unicode": [
@@ -21762,7 +20781,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001950",
+      "id": "001856",
       "emoji": "🛀🏿",
       "description": "person taking bath: dark skin tone",
       "unicode": [
@@ -21772,7 +20791,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001951",
+      "id": "001857",
       "emoji": "🛌",
       "description": "person in bed",
       "unicode": [
@@ -21781,7 +20800,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001952",
+      "id": "001858",
       "emoji": "🛌🏻",
       "description": "person in bed: light skin tone",
       "unicode": [
@@ -21791,7 +20810,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001953",
+      "id": "001859",
       "emoji": "🛌🏼",
       "description": "person in bed: medium-light skin tone",
       "unicode": [
@@ -21801,7 +20820,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001954",
+      "id": "001860",
       "emoji": "🛌🏽",
       "description": "person in bed: medium skin tone",
       "unicode": [
@@ -21811,7 +20830,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001955",
+      "id": "001861",
       "emoji": "🛌🏾",
       "description": "person in bed: medium-dark skin tone",
       "unicode": [
@@ -21821,7 +20840,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001956",
+      "id": "001862",
       "emoji": "🛌🏿",
       "description": "person in bed: dark skin tone",
       "unicode": [
@@ -21831,7 +20850,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "001957",
+      "id": "001863",
       "emoji": "🧑‍🤝‍🧑",
       "description": "people holding hands",
       "unicode": [
@@ -21844,7 +20863,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001958",
+      "id": "001864",
       "emoji": "🧑🏻‍🤝‍🧑🏻",
       "description": "people holding hands: light skin tone",
       "unicode": [
@@ -21859,7 +20878,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001959",
+      "id": "001865",
       "emoji": "🧑🏻‍🤝‍🧑🏼",
       "description": "people holding hands: light skin tone, medium-light skin tone",
       "unicode": [
@@ -21874,7 +20893,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001960",
+      "id": "001866",
       "emoji": "🧑🏻‍🤝‍🧑🏽",
       "description": "people holding hands: light skin tone, medium skin tone",
       "unicode": [
@@ -21889,7 +20908,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001961",
+      "id": "001867",
       "emoji": "🧑🏻‍🤝‍🧑🏾",
       "description": "people holding hands: light skin tone, medium-dark skin tone",
       "unicode": [
@@ -21904,7 +20923,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001962",
+      "id": "001868",
       "emoji": "🧑🏻‍🤝‍🧑🏿",
       "description": "people holding hands: light skin tone, dark skin tone",
       "unicode": [
@@ -21919,7 +20938,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001963",
+      "id": "001869",
       "emoji": "🧑🏼‍🤝‍🧑🏻",
       "description": "people holding hands: medium-light skin tone, light skin tone",
       "unicode": [
@@ -21934,7 +20953,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001964",
+      "id": "001870",
       "emoji": "🧑🏼‍🤝‍🧑🏼",
       "description": "people holding hands: medium-light skin tone",
       "unicode": [
@@ -21949,7 +20968,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001965",
+      "id": "001871",
       "emoji": "🧑🏼‍🤝‍🧑🏽",
       "description": "people holding hands: medium-light skin tone, medium skin tone",
       "unicode": [
@@ -21964,7 +20983,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001966",
+      "id": "001872",
       "emoji": "🧑🏼‍🤝‍🧑🏾",
       "description": "people holding hands: medium-light skin tone, medium-dark skin tone",
       "unicode": [
@@ -21979,7 +20998,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001967",
+      "id": "001873",
       "emoji": "🧑🏼‍🤝‍🧑🏿",
       "description": "people holding hands: medium-light skin tone, dark skin tone",
       "unicode": [
@@ -21994,7 +21013,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001968",
+      "id": "001874",
       "emoji": "🧑🏽‍🤝‍🧑🏻",
       "description": "people holding hands: medium skin tone, light skin tone",
       "unicode": [
@@ -22009,7 +21028,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001969",
+      "id": "001875",
       "emoji": "🧑🏽‍🤝‍🧑🏼",
       "description": "people holding hands: medium skin tone, medium-light skin tone",
       "unicode": [
@@ -22024,7 +21043,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001970",
+      "id": "001876",
       "emoji": "🧑🏽‍🤝‍🧑🏽",
       "description": "people holding hands: medium skin tone",
       "unicode": [
@@ -22039,7 +21058,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001971",
+      "id": "001877",
       "emoji": "🧑🏽‍🤝‍🧑🏾",
       "description": "people holding hands: medium skin tone, medium-dark skin tone",
       "unicode": [
@@ -22054,7 +21073,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001972",
+      "id": "001878",
       "emoji": "🧑🏽‍🤝‍🧑🏿",
       "description": "people holding hands: medium skin tone, dark skin tone",
       "unicode": [
@@ -22069,7 +21088,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001973",
+      "id": "001879",
       "emoji": "🧑🏾‍🤝‍🧑🏻",
       "description": "people holding hands: medium-dark skin tone, light skin tone",
       "unicode": [
@@ -22084,7 +21103,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001974",
+      "id": "001880",
       "emoji": "🧑🏾‍🤝‍🧑🏼",
       "description": "people holding hands: medium-dark skin tone, medium-light skin tone",
       "unicode": [
@@ -22099,7 +21118,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001975",
+      "id": "001881",
       "emoji": "🧑🏾‍🤝‍🧑🏽",
       "description": "people holding hands: medium-dark skin tone, medium skin tone",
       "unicode": [
@@ -22114,7 +21133,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001976",
+      "id": "001882",
       "emoji": "🧑🏾‍🤝‍🧑🏾",
       "description": "people holding hands: medium-dark skin tone",
       "unicode": [
@@ -22129,7 +21148,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001977",
+      "id": "001883",
       "emoji": "🧑🏾‍🤝‍🧑🏿",
       "description": "people holding hands: medium-dark skin tone, dark skin tone",
       "unicode": [
@@ -22144,7 +21163,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001978",
+      "id": "001884",
       "emoji": "🧑🏿‍🤝‍🧑🏻",
       "description": "people holding hands: dark skin tone, light skin tone",
       "unicode": [
@@ -22159,7 +21178,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001979",
+      "id": "001885",
       "emoji": "🧑🏿‍🤝‍🧑🏼",
       "description": "people holding hands: dark skin tone, medium-light skin tone",
       "unicode": [
@@ -22174,7 +21193,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001980",
+      "id": "001886",
       "emoji": "🧑🏿‍🤝‍🧑🏽",
       "description": "people holding hands: dark skin tone, medium skin tone",
       "unicode": [
@@ -22189,7 +21208,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001981",
+      "id": "001887",
       "emoji": "🧑🏿‍🤝‍🧑🏾",
       "description": "people holding hands: dark skin tone, medium-dark skin tone",
       "unicode": [
@@ -22204,7 +21223,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001982",
+      "id": "001888",
       "emoji": "🧑🏿‍🤝‍🧑🏿",
       "description": "people holding hands: dark skin tone",
       "unicode": [
@@ -22219,7 +21238,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001983",
+      "id": "001889",
       "emoji": "👭",
       "description": "women holding hands",
       "unicode": [
@@ -22228,7 +21247,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "001984",
+      "id": "001890",
       "emoji": "👭🏻",
       "description": "women holding hands: light skin tone",
       "unicode": [
@@ -22238,7 +21257,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001985",
+      "id": "001891",
       "emoji": "👩🏻‍🤝‍👩🏼",
       "description": "women holding hands: light skin tone, medium-light skin tone",
       "unicode": [
@@ -22253,7 +21272,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001986",
+      "id": "001892",
       "emoji": "👩🏻‍🤝‍👩🏽",
       "description": "women holding hands: light skin tone, medium skin tone",
       "unicode": [
@@ -22268,7 +21287,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001987",
+      "id": "001893",
       "emoji": "👩🏻‍🤝‍👩🏾",
       "description": "women holding hands: light skin tone, medium-dark skin tone",
       "unicode": [
@@ -22283,7 +21302,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001988",
+      "id": "001894",
       "emoji": "👩🏻‍🤝‍👩🏿",
       "description": "women holding hands: light skin tone, dark skin tone",
       "unicode": [
@@ -22298,7 +21317,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001989",
+      "id": "001895",
       "emoji": "👩🏼‍🤝‍👩🏻",
       "description": "women holding hands: medium-light skin tone, light skin tone",
       "unicode": [
@@ -22313,7 +21332,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001990",
+      "id": "001896",
       "emoji": "👭🏼",
       "description": "women holding hands: medium-light skin tone",
       "unicode": [
@@ -22323,7 +21342,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001991",
+      "id": "001897",
       "emoji": "👩🏼‍🤝‍👩🏽",
       "description": "women holding hands: medium-light skin tone, medium skin tone",
       "unicode": [
@@ -22338,7 +21357,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001992",
+      "id": "001898",
       "emoji": "👩🏼‍🤝‍👩🏾",
       "description": "women holding hands: medium-light skin tone, medium-dark skin tone",
       "unicode": [
@@ -22353,7 +21372,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001993",
+      "id": "001899",
       "emoji": "👩🏼‍🤝‍👩🏿",
       "description": "women holding hands: medium-light skin tone, dark skin tone",
       "unicode": [
@@ -22368,7 +21387,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001994",
+      "id": "001900",
       "emoji": "👩🏽‍🤝‍👩🏻",
       "description": "women holding hands: medium skin tone, light skin tone",
       "unicode": [
@@ -22383,7 +21402,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001995",
+      "id": "001901",
       "emoji": "👩🏽‍🤝‍👩🏼",
       "description": "women holding hands: medium skin tone, medium-light skin tone",
       "unicode": [
@@ -22398,7 +21417,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001996",
+      "id": "001902",
       "emoji": "👭🏽",
       "description": "women holding hands: medium skin tone",
       "unicode": [
@@ -22408,7 +21427,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "001997",
+      "id": "001903",
       "emoji": "👩🏽‍🤝‍👩🏾",
       "description": "women holding hands: medium skin tone, medium-dark skin tone",
       "unicode": [
@@ -22423,7 +21442,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001998",
+      "id": "001904",
       "emoji": "👩🏽‍🤝‍👩🏿",
       "description": "women holding hands: medium skin tone, dark skin tone",
       "unicode": [
@@ -22438,7 +21457,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "001999",
+      "id": "001905",
       "emoji": "👩🏾‍🤝‍👩🏻",
       "description": "women holding hands: medium-dark skin tone, light skin tone",
       "unicode": [
@@ -22453,7 +21472,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002000",
+      "id": "001906",
       "emoji": "👩🏾‍🤝‍👩🏼",
       "description": "women holding hands: medium-dark skin tone, medium-light skin tone",
       "unicode": [
@@ -22468,7 +21487,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002001",
+      "id": "001907",
       "emoji": "👩🏾‍🤝‍👩🏽",
       "description": "women holding hands: medium-dark skin tone, medium skin tone",
       "unicode": [
@@ -22483,7 +21502,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002002",
+      "id": "001908",
       "emoji": "👭🏾",
       "description": "women holding hands: medium-dark skin tone",
       "unicode": [
@@ -22493,7 +21512,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002003",
+      "id": "001909",
       "emoji": "👩🏾‍🤝‍👩🏿",
       "description": "women holding hands: medium-dark skin tone, dark skin tone",
       "unicode": [
@@ -22508,7 +21527,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "002004",
+      "id": "001910",
       "emoji": "👩🏿‍🤝‍👩🏻",
       "description": "women holding hands: dark skin tone, light skin tone",
       "unicode": [
@@ -22523,7 +21542,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002005",
+      "id": "001911",
       "emoji": "👩🏿‍🤝‍👩🏼",
       "description": "women holding hands: dark skin tone, medium-light skin tone",
       "unicode": [
@@ -22538,7 +21557,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002006",
+      "id": "001912",
       "emoji": "👩🏿‍🤝‍👩🏽",
       "description": "women holding hands: dark skin tone, medium skin tone",
       "unicode": [
@@ -22553,7 +21572,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002007",
+      "id": "001913",
       "emoji": "👩🏿‍🤝‍👩🏾",
       "description": "women holding hands: dark skin tone, medium-dark skin tone",
       "unicode": [
@@ -22568,7 +21587,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002008",
+      "id": "001914",
       "emoji": "👭🏿",
       "description": "women holding hands: dark skin tone",
       "unicode": [
@@ -22578,7 +21597,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002009",
+      "id": "001915",
       "emoji": "👫",
       "description": "woman and man holding hands",
       "unicode": [
@@ -22587,7 +21606,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002010",
+      "id": "001916",
       "emoji": "👫🏻",
       "description": "woman and man holding hands: light skin tone",
       "unicode": [
@@ -22597,7 +21616,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002011",
+      "id": "001917",
       "emoji": "👩🏻‍🤝‍👨🏼",
       "description": "woman and man holding hands: light skin tone, medium-light skin tone",
       "unicode": [
@@ -22612,7 +21631,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002012",
+      "id": "001918",
       "emoji": "👩🏻‍🤝‍👨🏽",
       "description": "woman and man holding hands: light skin tone, medium skin tone",
       "unicode": [
@@ -22627,7 +21646,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002013",
+      "id": "001919",
       "emoji": "👩🏻‍🤝‍👨🏾",
       "description": "woman and man holding hands: light skin tone, medium-dark skin tone",
       "unicode": [
@@ -22642,7 +21661,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002014",
+      "id": "001920",
       "emoji": "👩🏻‍🤝‍👨🏿",
       "description": "woman and man holding hands: light skin tone, dark skin tone",
       "unicode": [
@@ -22657,7 +21676,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002015",
+      "id": "001921",
       "emoji": "👩🏼‍🤝‍👨🏻",
       "description": "woman and man holding hands: medium-light skin tone, light skin tone",
       "unicode": [
@@ -22672,7 +21691,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002016",
+      "id": "001922",
       "emoji": "👫🏼",
       "description": "woman and man holding hands: medium-light skin tone",
       "unicode": [
@@ -22682,7 +21701,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002017",
+      "id": "001923",
       "emoji": "👩🏼‍🤝‍👨🏽",
       "description": "woman and man holding hands: medium-light skin tone, medium skin tone",
       "unicode": [
@@ -22697,7 +21716,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002018",
+      "id": "001924",
       "emoji": "👩🏼‍🤝‍👨🏾",
       "description": "woman and man holding hands: medium-light skin tone, medium-dark skin tone",
       "unicode": [
@@ -22712,7 +21731,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002019",
+      "id": "001925",
       "emoji": "👩🏼‍🤝‍👨🏿",
       "description": "woman and man holding hands: medium-light skin tone, dark skin tone",
       "unicode": [
@@ -22727,7 +21746,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002020",
+      "id": "001926",
       "emoji": "👩🏽‍🤝‍👨🏻",
       "description": "woman and man holding hands: medium skin tone, light skin tone",
       "unicode": [
@@ -22742,7 +21761,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002021",
+      "id": "001927",
       "emoji": "👩🏽‍🤝‍👨🏼",
       "description": "woman and man holding hands: medium skin tone, medium-light skin tone",
       "unicode": [
@@ -22757,7 +21776,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002022",
+      "id": "001928",
       "emoji": "👫🏽",
       "description": "woman and man holding hands: medium skin tone",
       "unicode": [
@@ -22767,7 +21786,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002023",
+      "id": "001929",
       "emoji": "👩🏽‍🤝‍👨🏾",
       "description": "woman and man holding hands: medium skin tone, medium-dark skin tone",
       "unicode": [
@@ -22782,7 +21801,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002024",
+      "id": "001930",
       "emoji": "👩🏽‍🤝‍👨🏿",
       "description": "woman and man holding hands: medium skin tone, dark skin tone",
       "unicode": [
@@ -22797,7 +21816,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002025",
+      "id": "001931",
       "emoji": "👩🏾‍🤝‍👨🏻",
       "description": "woman and man holding hands: medium-dark skin tone, light skin tone",
       "unicode": [
@@ -22812,7 +21831,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002026",
+      "id": "001932",
       "emoji": "👩🏾‍🤝‍👨🏼",
       "description": "woman and man holding hands: medium-dark skin tone, medium-light skin tone",
       "unicode": [
@@ -22827,7 +21846,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002027",
+      "id": "001933",
       "emoji": "👩🏾‍🤝‍👨🏽",
       "description": "woman and man holding hands: medium-dark skin tone, medium skin tone",
       "unicode": [
@@ -22842,7 +21861,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002028",
+      "id": "001934",
       "emoji": "👫🏾",
       "description": "woman and man holding hands: medium-dark skin tone",
       "unicode": [
@@ -22852,7 +21871,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002029",
+      "id": "001935",
       "emoji": "👩🏾‍🤝‍👨🏿",
       "description": "woman and man holding hands: medium-dark skin tone, dark skin tone",
       "unicode": [
@@ -22867,7 +21886,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002030",
+      "id": "001936",
       "emoji": "👩🏿‍🤝‍👨🏻",
       "description": "woman and man holding hands: dark skin tone, light skin tone",
       "unicode": [
@@ -22882,7 +21901,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002031",
+      "id": "001937",
       "emoji": "👩🏿‍🤝‍👨🏼",
       "description": "woman and man holding hands: dark skin tone, medium-light skin tone",
       "unicode": [
@@ -22897,7 +21916,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002032",
+      "id": "001938",
       "emoji": "👩🏿‍🤝‍👨🏽",
       "description": "woman and man holding hands: dark skin tone, medium skin tone",
       "unicode": [
@@ -22912,7 +21931,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002033",
+      "id": "001939",
       "emoji": "👩🏿‍🤝‍👨🏾",
       "description": "woman and man holding hands: dark skin tone, medium-dark skin tone",
       "unicode": [
@@ -22927,7 +21946,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002034",
+      "id": "001940",
       "emoji": "👫🏿",
       "description": "woman and man holding hands: dark skin tone",
       "unicode": [
@@ -22937,7 +21956,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002035",
+      "id": "001941",
       "emoji": "👬",
       "description": "men holding hands",
       "unicode": [
@@ -22946,7 +21965,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002036",
+      "id": "001942",
       "emoji": "👬🏻",
       "description": "men holding hands: light skin tone",
       "unicode": [
@@ -22956,7 +21975,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002037",
+      "id": "001943",
       "emoji": "👨🏻‍🤝‍👨🏼",
       "description": "men holding hands: light skin tone, medium-light skin tone",
       "unicode": [
@@ -22971,7 +21990,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "002038",
+      "id": "001944",
       "emoji": "👨🏻‍🤝‍👨🏽",
       "description": "men holding hands: light skin tone, medium skin tone",
       "unicode": [
@@ -22986,7 +22005,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "002039",
+      "id": "001945",
       "emoji": "👨🏻‍🤝‍👨🏾",
       "description": "men holding hands: light skin tone, medium-dark skin tone",
       "unicode": [
@@ -23001,7 +22020,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "002040",
+      "id": "001946",
       "emoji": "👨🏻‍🤝‍👨🏿",
       "description": "men holding hands: light skin tone, dark skin tone",
       "unicode": [
@@ -23016,7 +22035,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "002041",
+      "id": "001947",
       "emoji": "👨🏼‍🤝‍👨🏻",
       "description": "men holding hands: medium-light skin tone, light skin tone",
       "unicode": [
@@ -23031,7 +22050,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002042",
+      "id": "001948",
       "emoji": "👬🏼",
       "description": "men holding hands: medium-light skin tone",
       "unicode": [
@@ -23041,7 +22060,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002043",
+      "id": "001949",
       "emoji": "👨🏼‍🤝‍👨🏽",
       "description": "men holding hands: medium-light skin tone, medium skin tone",
       "unicode": [
@@ -23056,7 +22075,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "002044",
+      "id": "001950",
       "emoji": "👨🏼‍🤝‍👨🏾",
       "description": "men holding hands: medium-light skin tone, medium-dark skin tone",
       "unicode": [
@@ -23071,7 +22090,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "002045",
+      "id": "001951",
       "emoji": "👨🏼‍🤝‍👨🏿",
       "description": "men holding hands: medium-light skin tone, dark skin tone",
       "unicode": [
@@ -23086,7 +22105,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "002046",
+      "id": "001952",
       "emoji": "👨🏽‍🤝‍👨🏻",
       "description": "men holding hands: medium skin tone, light skin tone",
       "unicode": [
@@ -23101,7 +22120,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002047",
+      "id": "001953",
       "emoji": "👨🏽‍🤝‍👨🏼",
       "description": "men holding hands: medium skin tone, medium-light skin tone",
       "unicode": [
@@ -23116,7 +22135,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002048",
+      "id": "001954",
       "emoji": "👬🏽",
       "description": "men holding hands: medium skin tone",
       "unicode": [
@@ -23126,7 +22145,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002049",
+      "id": "001955",
       "emoji": "👨🏽‍🤝‍👨🏾",
       "description": "men holding hands: medium skin tone, medium-dark skin tone",
       "unicode": [
@@ -23141,7 +22160,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "002050",
+      "id": "001956",
       "emoji": "👨🏽‍🤝‍👨🏿",
       "description": "men holding hands: medium skin tone, dark skin tone",
       "unicode": [
@@ -23156,7 +22175,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "002051",
+      "id": "001957",
       "emoji": "👨🏾‍🤝‍👨🏻",
       "description": "men holding hands: medium-dark skin tone, light skin tone",
       "unicode": [
@@ -23171,7 +22190,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002052",
+      "id": "001958",
       "emoji": "👨🏾‍🤝‍👨🏼",
       "description": "men holding hands: medium-dark skin tone, medium-light skin tone",
       "unicode": [
@@ -23186,7 +22205,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002053",
+      "id": "001959",
       "emoji": "👨🏾‍🤝‍👨🏽",
       "description": "men holding hands: medium-dark skin tone, medium skin tone",
       "unicode": [
@@ -23201,7 +22220,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002054",
+      "id": "001960",
       "emoji": "👬🏾",
       "description": "men holding hands: medium-dark skin tone",
       "unicode": [
@@ -23211,7 +22230,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002055",
+      "id": "001961",
       "emoji": "👨🏾‍🤝‍👨🏿",
       "description": "men holding hands: medium-dark skin tone, dark skin tone",
       "unicode": [
@@ -23226,7 +22245,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.1"
     },
     {
-      "id": "002056",
+      "id": "001962",
       "emoji": "👨🏿‍🤝‍👨🏻",
       "description": "men holding hands: dark skin tone, light skin tone",
       "unicode": [
@@ -23241,7 +22260,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002057",
+      "id": "001963",
       "emoji": "👨🏿‍🤝‍👨🏼",
       "description": "men holding hands: dark skin tone, medium-light skin tone",
       "unicode": [
@@ -23256,7 +22275,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002058",
+      "id": "001964",
       "emoji": "👨🏿‍🤝‍👨🏽",
       "description": "men holding hands: dark skin tone, medium skin tone",
       "unicode": [
@@ -23271,7 +22290,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002059",
+      "id": "001965",
       "emoji": "👨🏿‍🤝‍👨🏾",
       "description": "men holding hands: dark skin tone, medium-dark skin tone",
       "unicode": [
@@ -23286,7 +22305,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002060",
+      "id": "001966",
       "emoji": "👬🏿",
       "description": "men holding hands: dark skin tone",
       "unicode": [
@@ -23296,7 +22315,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002061",
+      "id": "001967",
       "emoji": "💏",
       "description": "kiss",
       "unicode": [
@@ -23305,7 +22324,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002062",
+      "id": "001968",
       "emoji": "💏🏻",
       "description": "kiss: light skin tone",
       "unicode": [
@@ -23315,7 +22334,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002063",
+      "id": "001969",
       "emoji": "💏🏼",
       "description": "kiss: medium-light skin tone",
       "unicode": [
@@ -23325,7 +22344,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002064",
+      "id": "001970",
       "emoji": "💏🏽",
       "description": "kiss: medium skin tone",
       "unicode": [
@@ -23335,7 +22354,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002065",
+      "id": "001971",
       "emoji": "💏🏾",
       "description": "kiss: medium-dark skin tone",
       "unicode": [
@@ -23345,7 +22364,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002066",
+      "id": "001972",
       "emoji": "💏🏿",
       "description": "kiss: dark skin tone",
       "unicode": [
@@ -23355,7 +22374,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002067",
+      "id": "001973",
       "emoji": "🧑🏻‍❤️‍💋‍🧑🏼",
       "description": "kiss: person, person, light skin tone, medium-light skin tone",
       "unicode": [
@@ -23373,7 +22392,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002068",
+      "id": "001974",
       "emoji": "🧑🏻‍❤️‍💋‍🧑🏽",
       "description": "kiss: person, person, light skin tone, medium skin tone",
       "unicode": [
@@ -23391,7 +22410,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002069",
+      "id": "001975",
       "emoji": "🧑🏻‍❤️‍💋‍🧑🏾",
       "description": "kiss: person, person, light skin tone, medium-dark skin tone",
       "unicode": [
@@ -23409,7 +22428,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002070",
+      "id": "001976",
       "emoji": "🧑🏻‍❤️‍💋‍🧑🏿",
       "description": "kiss: person, person, light skin tone, dark skin tone",
       "unicode": [
@@ -23427,7 +22446,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002071",
+      "id": "001977",
       "emoji": "🧑🏼‍❤️‍💋‍🧑🏻",
       "description": "kiss: person, person, medium-light skin tone, light skin tone",
       "unicode": [
@@ -23445,7 +22464,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002072",
+      "id": "001978",
       "emoji": "🧑🏼‍❤️‍💋‍🧑🏽",
       "description": "kiss: person, person, medium-light skin tone, medium skin tone",
       "unicode": [
@@ -23463,7 +22482,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002073",
+      "id": "001979",
       "emoji": "🧑🏼‍❤️‍💋‍🧑🏾",
       "description": "kiss: person, person, medium-light skin tone, medium-dark skin tone",
       "unicode": [
@@ -23481,7 +22500,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002074",
+      "id": "001980",
       "emoji": "🧑🏼‍❤️‍💋‍🧑🏿",
       "description": "kiss: person, person, medium-light skin tone, dark skin tone",
       "unicode": [
@@ -23499,7 +22518,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002075",
+      "id": "001981",
       "emoji": "🧑🏽‍❤️‍💋‍🧑🏻",
       "description": "kiss: person, person, medium skin tone, light skin tone",
       "unicode": [
@@ -23517,7 +22536,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002076",
+      "id": "001982",
       "emoji": "🧑🏽‍❤️‍💋‍🧑🏼",
       "description": "kiss: person, person, medium skin tone, medium-light skin tone",
       "unicode": [
@@ -23535,7 +22554,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002077",
+      "id": "001983",
       "emoji": "🧑🏽‍❤️‍💋‍🧑🏾",
       "description": "kiss: person, person, medium skin tone, medium-dark skin tone",
       "unicode": [
@@ -23553,7 +22572,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002078",
+      "id": "001984",
       "emoji": "🧑🏽‍❤️‍💋‍🧑🏿",
       "description": "kiss: person, person, medium skin tone, dark skin tone",
       "unicode": [
@@ -23571,7 +22590,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002079",
+      "id": "001985",
       "emoji": "🧑🏾‍❤️‍💋‍🧑🏻",
       "description": "kiss: person, person, medium-dark skin tone, light skin tone",
       "unicode": [
@@ -23589,7 +22608,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002080",
+      "id": "001986",
       "emoji": "🧑🏾‍❤️‍💋‍🧑🏼",
       "description": "kiss: person, person, medium-dark skin tone, medium-light skin tone",
       "unicode": [
@@ -23607,7 +22626,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002081",
+      "id": "001987",
       "emoji": "🧑🏾‍❤️‍💋‍🧑🏽",
       "description": "kiss: person, person, medium-dark skin tone, medium skin tone",
       "unicode": [
@@ -23625,7 +22644,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002082",
+      "id": "001988",
       "emoji": "🧑🏾‍❤️‍💋‍🧑🏿",
       "description": "kiss: person, person, medium-dark skin tone, dark skin tone",
       "unicode": [
@@ -23643,7 +22662,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002083",
+      "id": "001989",
       "emoji": "🧑🏿‍❤️‍💋‍🧑🏻",
       "description": "kiss: person, person, dark skin tone, light skin tone",
       "unicode": [
@@ -23661,7 +22680,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002084",
+      "id": "001990",
       "emoji": "🧑🏿‍❤️‍💋‍🧑🏼",
       "description": "kiss: person, person, dark skin tone, medium-light skin tone",
       "unicode": [
@@ -23679,7 +22698,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002085",
+      "id": "001991",
       "emoji": "🧑🏿‍❤️‍💋‍🧑🏽",
       "description": "kiss: person, person, dark skin tone, medium skin tone",
       "unicode": [
@@ -23697,7 +22716,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002086",
+      "id": "001992",
       "emoji": "🧑🏿‍❤️‍💋‍🧑🏾",
       "description": "kiss: person, person, dark skin tone, medium-dark skin tone",
       "unicode": [
@@ -23715,7 +22734,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002087",
+      "id": "001993",
       "emoji": "👩‍❤️‍💋‍👨",
       "description": "kiss: woman, man",
       "unicode": [
@@ -23731,7 +22750,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002088",
+      "id": "001994",
       "emoji": "👩🏻‍❤️‍💋‍👨🏻",
       "description": "kiss: woman, man, light skin tone",
       "unicode": [
@@ -23749,7 +22768,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002089",
+      "id": "001995",
       "emoji": "👩🏻‍❤️‍💋‍👨🏼",
       "description": "kiss: woman, man, light skin tone, medium-light skin tone",
       "unicode": [
@@ -23767,7 +22786,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002090",
+      "id": "001996",
       "emoji": "👩🏻‍❤️‍💋‍👨🏽",
       "description": "kiss: woman, man, light skin tone, medium skin tone",
       "unicode": [
@@ -23785,7 +22804,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002091",
+      "id": "001997",
       "emoji": "👩🏻‍❤️‍💋‍👨🏾",
       "description": "kiss: woman, man, light skin tone, medium-dark skin tone",
       "unicode": [
@@ -23803,7 +22822,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002092",
+      "id": "001998",
       "emoji": "👩🏻‍❤️‍💋‍👨🏿",
       "description": "kiss: woman, man, light skin tone, dark skin tone",
       "unicode": [
@@ -23821,7 +22840,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002093",
+      "id": "001999",
       "emoji": "👩🏼‍❤️‍💋‍👨🏻",
       "description": "kiss: woman, man, medium-light skin tone, light skin tone",
       "unicode": [
@@ -23839,7 +22858,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002094",
+      "id": "002000",
       "emoji": "👩🏼‍❤️‍💋‍👨🏼",
       "description": "kiss: woman, man, medium-light skin tone",
       "unicode": [
@@ -23857,7 +22876,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002095",
+      "id": "002001",
       "emoji": "👩🏼‍❤️‍💋‍👨🏽",
       "description": "kiss: woman, man, medium-light skin tone, medium skin tone",
       "unicode": [
@@ -23875,7 +22894,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002096",
+      "id": "002002",
       "emoji": "👩🏼‍❤️‍💋‍👨🏾",
       "description": "kiss: woman, man, medium-light skin tone, medium-dark skin tone",
       "unicode": [
@@ -23893,7 +22912,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002097",
+      "id": "002003",
       "emoji": "👩🏼‍❤️‍💋‍👨🏿",
       "description": "kiss: woman, man, medium-light skin tone, dark skin tone",
       "unicode": [
@@ -23911,7 +22930,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002098",
+      "id": "002004",
       "emoji": "👩🏽‍❤️‍💋‍👨🏻",
       "description": "kiss: woman, man, medium skin tone, light skin tone",
       "unicode": [
@@ -23929,7 +22948,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002099",
+      "id": "002005",
       "emoji": "👩🏽‍❤️‍💋‍👨🏼",
       "description": "kiss: woman, man, medium skin tone, medium-light skin tone",
       "unicode": [
@@ -23947,7 +22966,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002100",
+      "id": "002006",
       "emoji": "👩🏽‍❤️‍💋‍👨🏽",
       "description": "kiss: woman, man, medium skin tone",
       "unicode": [
@@ -23965,7 +22984,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002101",
+      "id": "002007",
       "emoji": "👩🏽‍❤️‍💋‍👨🏾",
       "description": "kiss: woman, man, medium skin tone, medium-dark skin tone",
       "unicode": [
@@ -23983,7 +23002,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002102",
+      "id": "002008",
       "emoji": "👩🏽‍❤️‍💋‍👨🏿",
       "description": "kiss: woman, man, medium skin tone, dark skin tone",
       "unicode": [
@@ -24001,7 +23020,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002103",
+      "id": "002009",
       "emoji": "👩🏾‍❤️‍💋‍👨🏻",
       "description": "kiss: woman, man, medium-dark skin tone, light skin tone",
       "unicode": [
@@ -24019,7 +23038,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002104",
+      "id": "002010",
       "emoji": "👩🏾‍❤️‍💋‍👨🏼",
       "description": "kiss: woman, man, medium-dark skin tone, medium-light skin tone",
       "unicode": [
@@ -24037,7 +23056,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002105",
+      "id": "002011",
       "emoji": "👩🏾‍❤️‍💋‍👨🏽",
       "description": "kiss: woman, man, medium-dark skin tone, medium skin tone",
       "unicode": [
@@ -24055,7 +23074,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002106",
+      "id": "002012",
       "emoji": "👩🏾‍❤️‍💋‍👨🏾",
       "description": "kiss: woman, man, medium-dark skin tone",
       "unicode": [
@@ -24073,7 +23092,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002107",
+      "id": "002013",
       "emoji": "👩🏾‍❤️‍💋‍👨🏿",
       "description": "kiss: woman, man, medium-dark skin tone, dark skin tone",
       "unicode": [
@@ -24091,7 +23110,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002108",
+      "id": "002014",
       "emoji": "👩🏿‍❤️‍💋‍👨🏻",
       "description": "kiss: woman, man, dark skin tone, light skin tone",
       "unicode": [
@@ -24109,7 +23128,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002109",
+      "id": "002015",
       "emoji": "👩🏿‍❤️‍💋‍👨🏼",
       "description": "kiss: woman, man, dark skin tone, medium-light skin tone",
       "unicode": [
@@ -24127,7 +23146,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002110",
+      "id": "002016",
       "emoji": "👩🏿‍❤️‍💋‍👨🏽",
       "description": "kiss: woman, man, dark skin tone, medium skin tone",
       "unicode": [
@@ -24145,7 +23164,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002111",
+      "id": "002017",
       "emoji": "👩🏿‍❤️‍💋‍👨🏾",
       "description": "kiss: woman, man, dark skin tone, medium-dark skin tone",
       "unicode": [
@@ -24163,7 +23182,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002112",
+      "id": "002018",
       "emoji": "👩🏿‍❤️‍💋‍👨🏿",
       "description": "kiss: woman, man, dark skin tone",
       "unicode": [
@@ -24181,7 +23200,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002113",
+      "id": "002019",
       "emoji": "👨‍❤️‍💋‍👨",
       "description": "kiss: man, man",
       "unicode": [
@@ -24197,7 +23216,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002114",
+      "id": "002020",
       "emoji": "👨🏻‍❤️‍💋‍👨🏻",
       "description": "kiss: man, man, light skin tone",
       "unicode": [
@@ -24215,7 +23234,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002115",
+      "id": "002021",
       "emoji": "👨🏻‍❤️‍💋‍👨🏼",
       "description": "kiss: man, man, light skin tone, medium-light skin tone",
       "unicode": [
@@ -24233,7 +23252,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002116",
+      "id": "002022",
       "emoji": "👨🏻‍❤️‍💋‍👨🏽",
       "description": "kiss: man, man, light skin tone, medium skin tone",
       "unicode": [
@@ -24251,7 +23270,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002117",
+      "id": "002023",
       "emoji": "👨🏻‍❤️‍💋‍👨🏾",
       "description": "kiss: man, man, light skin tone, medium-dark skin tone",
       "unicode": [
@@ -24269,7 +23288,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002118",
+      "id": "002024",
       "emoji": "👨🏻‍❤️‍💋‍👨🏿",
       "description": "kiss: man, man, light skin tone, dark skin tone",
       "unicode": [
@@ -24287,7 +23306,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002119",
+      "id": "002025",
       "emoji": "👨🏼‍❤️‍💋‍👨🏻",
       "description": "kiss: man, man, medium-light skin tone, light skin tone",
       "unicode": [
@@ -24305,7 +23324,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002120",
+      "id": "002026",
       "emoji": "👨🏼‍❤️‍💋‍👨🏼",
       "description": "kiss: man, man, medium-light skin tone",
       "unicode": [
@@ -24323,7 +23342,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002121",
+      "id": "002027",
       "emoji": "👨🏼‍❤️‍💋‍👨🏽",
       "description": "kiss: man, man, medium-light skin tone, medium skin tone",
       "unicode": [
@@ -24341,7 +23360,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002122",
+      "id": "002028",
       "emoji": "👨🏼‍❤️‍💋‍👨🏾",
       "description": "kiss: man, man, medium-light skin tone, medium-dark skin tone",
       "unicode": [
@@ -24359,7 +23378,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002123",
+      "id": "002029",
       "emoji": "👨🏼‍❤️‍💋‍👨🏿",
       "description": "kiss: man, man, medium-light skin tone, dark skin tone",
       "unicode": [
@@ -24377,7 +23396,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002124",
+      "id": "002030",
       "emoji": "👨🏽‍❤️‍💋‍👨🏻",
       "description": "kiss: man, man, medium skin tone, light skin tone",
       "unicode": [
@@ -24395,7 +23414,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002125",
+      "id": "002031",
       "emoji": "👨🏽‍❤️‍💋‍👨🏼",
       "description": "kiss: man, man, medium skin tone, medium-light skin tone",
       "unicode": [
@@ -24413,7 +23432,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002126",
+      "id": "002032",
       "emoji": "👨🏽‍❤️‍💋‍👨🏽",
       "description": "kiss: man, man, medium skin tone",
       "unicode": [
@@ -24431,7 +23450,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002127",
+      "id": "002033",
       "emoji": "👨🏽‍❤️‍💋‍👨🏾",
       "description": "kiss: man, man, medium skin tone, medium-dark skin tone",
       "unicode": [
@@ -24449,7 +23468,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002128",
+      "id": "002034",
       "emoji": "👨🏽‍❤️‍💋‍👨🏿",
       "description": "kiss: man, man, medium skin tone, dark skin tone",
       "unicode": [
@@ -24467,7 +23486,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002129",
+      "id": "002035",
       "emoji": "👨🏾‍❤️‍💋‍👨🏻",
       "description": "kiss: man, man, medium-dark skin tone, light skin tone",
       "unicode": [
@@ -24485,7 +23504,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002130",
+      "id": "002036",
       "emoji": "👨🏾‍❤️‍💋‍👨🏼",
       "description": "kiss: man, man, medium-dark skin tone, medium-light skin tone",
       "unicode": [
@@ -24503,7 +23522,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002131",
+      "id": "002037",
       "emoji": "👨🏾‍❤️‍💋‍👨🏽",
       "description": "kiss: man, man, medium-dark skin tone, medium skin tone",
       "unicode": [
@@ -24521,7 +23540,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002132",
+      "id": "002038",
       "emoji": "👨🏾‍❤️‍💋‍👨🏾",
       "description": "kiss: man, man, medium-dark skin tone",
       "unicode": [
@@ -24539,7 +23558,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002133",
+      "id": "002039",
       "emoji": "👨🏾‍❤️‍💋‍👨🏿",
       "description": "kiss: man, man, medium-dark skin tone, dark skin tone",
       "unicode": [
@@ -24557,7 +23576,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002134",
+      "id": "002040",
       "emoji": "👨🏿‍❤️‍💋‍👨🏻",
       "description": "kiss: man, man, dark skin tone, light skin tone",
       "unicode": [
@@ -24575,7 +23594,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002135",
+      "id": "002041",
       "emoji": "👨🏿‍❤️‍💋‍👨🏼",
       "description": "kiss: man, man, dark skin tone, medium-light skin tone",
       "unicode": [
@@ -24593,7 +23612,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002136",
+      "id": "002042",
       "emoji": "👨🏿‍❤️‍💋‍👨🏽",
       "description": "kiss: man, man, dark skin tone, medium skin tone",
       "unicode": [
@@ -24611,7 +23630,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002137",
+      "id": "002043",
       "emoji": "👨🏿‍❤️‍💋‍👨🏾",
       "description": "kiss: man, man, dark skin tone, medium-dark skin tone",
       "unicode": [
@@ -24629,7 +23648,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002138",
+      "id": "002044",
       "emoji": "👨🏿‍❤️‍💋‍👨🏿",
       "description": "kiss: man, man, dark skin tone",
       "unicode": [
@@ -24647,7 +23666,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002139",
+      "id": "002045",
       "emoji": "👩‍❤️‍💋‍👩",
       "description": "kiss: woman, woman",
       "unicode": [
@@ -24663,7 +23682,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002140",
+      "id": "002046",
       "emoji": "👩🏻‍❤️‍💋‍👩🏻",
       "description": "kiss: woman, woman, light skin tone",
       "unicode": [
@@ -24681,7 +23700,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002141",
+      "id": "002047",
       "emoji": "👩🏻‍❤️‍💋‍👩🏼",
       "description": "kiss: woman, woman, light skin tone, medium-light skin tone",
       "unicode": [
@@ -24699,7 +23718,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002142",
+      "id": "002048",
       "emoji": "👩🏻‍❤️‍💋‍👩🏽",
       "description": "kiss: woman, woman, light skin tone, medium skin tone",
       "unicode": [
@@ -24717,7 +23736,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002143",
+      "id": "002049",
       "emoji": "👩🏻‍❤️‍💋‍👩🏾",
       "description": "kiss: woman, woman, light skin tone, medium-dark skin tone",
       "unicode": [
@@ -24735,7 +23754,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002144",
+      "id": "002050",
       "emoji": "👩🏻‍❤️‍💋‍👩🏿",
       "description": "kiss: woman, woman, light skin tone, dark skin tone",
       "unicode": [
@@ -24753,7 +23772,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002145",
+      "id": "002051",
       "emoji": "👩🏼‍❤️‍💋‍👩🏻",
       "description": "kiss: woman, woman, medium-light skin tone, light skin tone",
       "unicode": [
@@ -24771,7 +23790,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002146",
+      "id": "002052",
       "emoji": "👩🏼‍❤️‍💋‍👩🏼",
       "description": "kiss: woman, woman, medium-light skin tone",
       "unicode": [
@@ -24789,7 +23808,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002147",
+      "id": "002053",
       "emoji": "👩🏼‍❤️‍💋‍👩🏽",
       "description": "kiss: woman, woman, medium-light skin tone, medium skin tone",
       "unicode": [
@@ -24807,7 +23826,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002148",
+      "id": "002054",
       "emoji": "👩🏼‍❤️‍💋‍👩🏾",
       "description": "kiss: woman, woman, medium-light skin tone, medium-dark skin tone",
       "unicode": [
@@ -24825,7 +23844,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002149",
+      "id": "002055",
       "emoji": "👩🏼‍❤️‍💋‍👩🏿",
       "description": "kiss: woman, woman, medium-light skin tone, dark skin tone",
       "unicode": [
@@ -24843,7 +23862,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002150",
+      "id": "002056",
       "emoji": "👩🏽‍❤️‍💋‍👩🏻",
       "description": "kiss: woman, woman, medium skin tone, light skin tone",
       "unicode": [
@@ -24861,7 +23880,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002151",
+      "id": "002057",
       "emoji": "👩🏽‍❤️‍💋‍👩🏼",
       "description": "kiss: woman, woman, medium skin tone, medium-light skin tone",
       "unicode": [
@@ -24879,7 +23898,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002152",
+      "id": "002058",
       "emoji": "👩🏽‍❤️‍💋‍👩🏽",
       "description": "kiss: woman, woman, medium skin tone",
       "unicode": [
@@ -24897,7 +23916,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002153",
+      "id": "002059",
       "emoji": "👩🏽‍❤️‍💋‍👩🏾",
       "description": "kiss: woman, woman, medium skin tone, medium-dark skin tone",
       "unicode": [
@@ -24915,7 +23934,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002154",
+      "id": "002060",
       "emoji": "👩🏽‍❤️‍💋‍👩🏿",
       "description": "kiss: woman, woman, medium skin tone, dark skin tone",
       "unicode": [
@@ -24933,7 +23952,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002155",
+      "id": "002061",
       "emoji": "👩🏾‍❤️‍💋‍👩🏻",
       "description": "kiss: woman, woman, medium-dark skin tone, light skin tone",
       "unicode": [
@@ -24951,7 +23970,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002156",
+      "id": "002062",
       "emoji": "👩🏾‍❤️‍💋‍👩🏼",
       "description": "kiss: woman, woman, medium-dark skin tone, medium-light skin tone",
       "unicode": [
@@ -24969,7 +23988,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002157",
+      "id": "002063",
       "emoji": "👩🏾‍❤️‍💋‍👩🏽",
       "description": "kiss: woman, woman, medium-dark skin tone, medium skin tone",
       "unicode": [
@@ -24987,7 +24006,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002158",
+      "id": "002064",
       "emoji": "👩🏾‍❤️‍💋‍👩🏾",
       "description": "kiss: woman, woman, medium-dark skin tone",
       "unicode": [
@@ -25005,7 +24024,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002159",
+      "id": "002065",
       "emoji": "👩🏾‍❤️‍💋‍👩🏿",
       "description": "kiss: woman, woman, medium-dark skin tone, dark skin tone",
       "unicode": [
@@ -25023,7 +24042,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002160",
+      "id": "002066",
       "emoji": "👩🏿‍❤️‍💋‍👩🏻",
       "description": "kiss: woman, woman, dark skin tone, light skin tone",
       "unicode": [
@@ -25041,7 +24060,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002161",
+      "id": "002067",
       "emoji": "👩🏿‍❤️‍💋‍👩🏼",
       "description": "kiss: woman, woman, dark skin tone, medium-light skin tone",
       "unicode": [
@@ -25059,7 +24078,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002162",
+      "id": "002068",
       "emoji": "👩🏿‍❤️‍💋‍👩🏽",
       "description": "kiss: woman, woman, dark skin tone, medium skin tone",
       "unicode": [
@@ -25077,7 +24096,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002163",
+      "id": "002069",
       "emoji": "👩🏿‍❤️‍💋‍👩🏾",
       "description": "kiss: woman, woman, dark skin tone, medium-dark skin tone",
       "unicode": [
@@ -25095,7 +24114,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002164",
+      "id": "002070",
       "emoji": "👩🏿‍❤️‍💋‍👩🏿",
       "description": "kiss: woman, woman, dark skin tone",
       "unicode": [
@@ -25113,7 +24132,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002165",
+      "id": "002071",
       "emoji": "💑",
       "description": "couple with heart",
       "unicode": [
@@ -25122,7 +24141,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002166",
+      "id": "002072",
       "emoji": "💑🏻",
       "description": "couple with heart: light skin tone",
       "unicode": [
@@ -25132,7 +24151,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002167",
+      "id": "002073",
       "emoji": "💑🏼",
       "description": "couple with heart: medium-light skin tone",
       "unicode": [
@@ -25142,7 +24161,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002168",
+      "id": "002074",
       "emoji": "💑🏽",
       "description": "couple with heart: medium skin tone",
       "unicode": [
@@ -25152,7 +24171,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002169",
+      "id": "002075",
       "emoji": "💑🏾",
       "description": "couple with heart: medium-dark skin tone",
       "unicode": [
@@ -25162,7 +24181,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002170",
+      "id": "002076",
       "emoji": "💑🏿",
       "description": "couple with heart: dark skin tone",
       "unicode": [
@@ -25172,7 +24191,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002171",
+      "id": "002077",
       "emoji": "🧑🏻‍❤️‍🧑🏼",
       "description": "couple with heart: person, person, light skin tone, medium-light skin tone",
       "unicode": [
@@ -25188,7 +24207,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002172",
+      "id": "002078",
       "emoji": "🧑🏻‍❤️‍🧑🏽",
       "description": "couple with heart: person, person, light skin tone, medium skin tone",
       "unicode": [
@@ -25204,7 +24223,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002173",
+      "id": "002079",
       "emoji": "🧑🏻‍❤️‍🧑🏾",
       "description": "couple with heart: person, person, light skin tone, medium-dark skin tone",
       "unicode": [
@@ -25220,7 +24239,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002174",
+      "id": "002080",
       "emoji": "🧑🏻‍❤️‍🧑🏿",
       "description": "couple with heart: person, person, light skin tone, dark skin tone",
       "unicode": [
@@ -25236,7 +24255,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002175",
+      "id": "002081",
       "emoji": "🧑🏼‍❤️‍🧑🏻",
       "description": "couple with heart: person, person, medium-light skin tone, light skin tone",
       "unicode": [
@@ -25252,7 +24271,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002176",
+      "id": "002082",
       "emoji": "🧑🏼‍❤️‍🧑🏽",
       "description": "couple with heart: person, person, medium-light skin tone, medium skin tone",
       "unicode": [
@@ -25268,7 +24287,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002177",
+      "id": "002083",
       "emoji": "🧑🏼‍❤️‍🧑🏾",
       "description": "couple with heart: person, person, medium-light skin tone, medium-dark skin tone",
       "unicode": [
@@ -25284,7 +24303,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002178",
+      "id": "002084",
       "emoji": "🧑🏼‍❤️‍🧑🏿",
       "description": "couple with heart: person, person, medium-light skin tone, dark skin tone",
       "unicode": [
@@ -25300,7 +24319,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002179",
+      "id": "002085",
       "emoji": "🧑🏽‍❤️‍🧑🏻",
       "description": "couple with heart: person, person, medium skin tone, light skin tone",
       "unicode": [
@@ -25316,7 +24335,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002180",
+      "id": "002086",
       "emoji": "🧑🏽‍❤️‍🧑🏼",
       "description": "couple with heart: person, person, medium skin tone, medium-light skin tone",
       "unicode": [
@@ -25332,7 +24351,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002181",
+      "id": "002087",
       "emoji": "🧑🏽‍❤️‍🧑🏾",
       "description": "couple with heart: person, person, medium skin tone, medium-dark skin tone",
       "unicode": [
@@ -25348,7 +24367,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002182",
+      "id": "002088",
       "emoji": "🧑🏽‍❤️‍🧑🏿",
       "description": "couple with heart: person, person, medium skin tone, dark skin tone",
       "unicode": [
@@ -25364,7 +24383,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002183",
+      "id": "002089",
       "emoji": "🧑🏾‍❤️‍🧑🏻",
       "description": "couple with heart: person, person, medium-dark skin tone, light skin tone",
       "unicode": [
@@ -25380,7 +24399,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002184",
+      "id": "002090",
       "emoji": "🧑🏾‍❤️‍🧑🏼",
       "description": "couple with heart: person, person, medium-dark skin tone, medium-light skin tone",
       "unicode": [
@@ -25396,7 +24415,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002185",
+      "id": "002091",
       "emoji": "🧑🏾‍❤️‍🧑🏽",
       "description": "couple with heart: person, person, medium-dark skin tone, medium skin tone",
       "unicode": [
@@ -25412,7 +24431,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002186",
+      "id": "002092",
       "emoji": "🧑🏾‍❤️‍🧑🏿",
       "description": "couple with heart: person, person, medium-dark skin tone, dark skin tone",
       "unicode": [
@@ -25428,7 +24447,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002187",
+      "id": "002093",
       "emoji": "🧑🏿‍❤️‍🧑🏻",
       "description": "couple with heart: person, person, dark skin tone, light skin tone",
       "unicode": [
@@ -25444,7 +24463,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002188",
+      "id": "002094",
       "emoji": "🧑🏿‍❤️‍🧑🏼",
       "description": "couple with heart: person, person, dark skin tone, medium-light skin tone",
       "unicode": [
@@ -25460,7 +24479,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002189",
+      "id": "002095",
       "emoji": "🧑🏿‍❤️‍🧑🏽",
       "description": "couple with heart: person, person, dark skin tone, medium skin tone",
       "unicode": [
@@ -25476,7 +24495,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002190",
+      "id": "002096",
       "emoji": "🧑🏿‍❤️‍🧑🏾",
       "description": "couple with heart: person, person, dark skin tone, medium-dark skin tone",
       "unicode": [
@@ -25492,7 +24511,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002191",
+      "id": "002097",
       "emoji": "👩‍❤️‍👨",
       "description": "couple with heart: woman, man",
       "unicode": [
@@ -25506,7 +24525,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002192",
+      "id": "002098",
       "emoji": "👩🏻‍❤️‍👨🏻",
       "description": "couple with heart: woman, man, light skin tone",
       "unicode": [
@@ -25522,7 +24541,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002193",
+      "id": "002099",
       "emoji": "👩🏻‍❤️‍👨🏼",
       "description": "couple with heart: woman, man, light skin tone, medium-light skin tone",
       "unicode": [
@@ -25538,7 +24557,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002194",
+      "id": "002100",
       "emoji": "👩🏻‍❤️‍👨🏽",
       "description": "couple with heart: woman, man, light skin tone, medium skin tone",
       "unicode": [
@@ -25554,7 +24573,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002195",
+      "id": "002101",
       "emoji": "👩🏻‍❤️‍👨🏾",
       "description": "couple with heart: woman, man, light skin tone, medium-dark skin tone",
       "unicode": [
@@ -25570,7 +24589,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002196",
+      "id": "002102",
       "emoji": "👩🏻‍❤️‍👨🏿",
       "description": "couple with heart: woman, man, light skin tone, dark skin tone",
       "unicode": [
@@ -25586,7 +24605,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002197",
+      "id": "002103",
       "emoji": "👩🏼‍❤️‍👨🏻",
       "description": "couple with heart: woman, man, medium-light skin tone, light skin tone",
       "unicode": [
@@ -25602,7 +24621,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002198",
+      "id": "002104",
       "emoji": "👩🏼‍❤️‍👨🏼",
       "description": "couple with heart: woman, man, medium-light skin tone",
       "unicode": [
@@ -25618,7 +24637,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002199",
+      "id": "002105",
       "emoji": "👩🏼‍❤️‍👨🏽",
       "description": "couple with heart: woman, man, medium-light skin tone, medium skin tone",
       "unicode": [
@@ -25634,7 +24653,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002200",
+      "id": "002106",
       "emoji": "👩🏼‍❤️‍👨🏾",
       "description": "couple with heart: woman, man, medium-light skin tone, medium-dark skin tone",
       "unicode": [
@@ -25650,7 +24669,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002201",
+      "id": "002107",
       "emoji": "👩🏼‍❤️‍👨🏿",
       "description": "couple with heart: woman, man, medium-light skin tone, dark skin tone",
       "unicode": [
@@ -25666,7 +24685,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002202",
+      "id": "002108",
       "emoji": "👩🏽‍❤️‍👨🏻",
       "description": "couple with heart: woman, man, medium skin tone, light skin tone",
       "unicode": [
@@ -25682,7 +24701,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002203",
+      "id": "002109",
       "emoji": "👩🏽‍❤️‍👨🏼",
       "description": "couple with heart: woman, man, medium skin tone, medium-light skin tone",
       "unicode": [
@@ -25698,7 +24717,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002204",
+      "id": "002110",
       "emoji": "👩🏽‍❤️‍👨🏽",
       "description": "couple with heart: woman, man, medium skin tone",
       "unicode": [
@@ -25714,7 +24733,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002205",
+      "id": "002111",
       "emoji": "👩🏽‍❤️‍👨🏾",
       "description": "couple with heart: woman, man, medium skin tone, medium-dark skin tone",
       "unicode": [
@@ -25730,7 +24749,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002206",
+      "id": "002112",
       "emoji": "👩🏽‍❤️‍👨🏿",
       "description": "couple with heart: woman, man, medium skin tone, dark skin tone",
       "unicode": [
@@ -25746,7 +24765,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002207",
+      "id": "002113",
       "emoji": "👩🏾‍❤️‍👨🏻",
       "description": "couple with heart: woman, man, medium-dark skin tone, light skin tone",
       "unicode": [
@@ -25762,7 +24781,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002208",
+      "id": "002114",
       "emoji": "👩🏾‍❤️‍👨🏼",
       "description": "couple with heart: woman, man, medium-dark skin tone, medium-light skin tone",
       "unicode": [
@@ -25778,7 +24797,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002209",
+      "id": "002115",
       "emoji": "👩🏾‍❤️‍👨🏽",
       "description": "couple with heart: woman, man, medium-dark skin tone, medium skin tone",
       "unicode": [
@@ -25794,7 +24813,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002210",
+      "id": "002116",
       "emoji": "👩🏾‍❤️‍👨🏾",
       "description": "couple with heart: woman, man, medium-dark skin tone",
       "unicode": [
@@ -25810,7 +24829,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002211",
+      "id": "002117",
       "emoji": "👩🏾‍❤️‍👨🏿",
       "description": "couple with heart: woman, man, medium-dark skin tone, dark skin tone",
       "unicode": [
@@ -25826,7 +24845,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002212",
+      "id": "002118",
       "emoji": "👩🏿‍❤️‍👨🏻",
       "description": "couple with heart: woman, man, dark skin tone, light skin tone",
       "unicode": [
@@ -25842,7 +24861,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002213",
+      "id": "002119",
       "emoji": "👩🏿‍❤️‍👨🏼",
       "description": "couple with heart: woman, man, dark skin tone, medium-light skin tone",
       "unicode": [
@@ -25858,7 +24877,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002214",
+      "id": "002120",
       "emoji": "👩🏿‍❤️‍👨🏽",
       "description": "couple with heart: woman, man, dark skin tone, medium skin tone",
       "unicode": [
@@ -25874,7 +24893,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002215",
+      "id": "002121",
       "emoji": "👩🏿‍❤️‍👨🏾",
       "description": "couple with heart: woman, man, dark skin tone, medium-dark skin tone",
       "unicode": [
@@ -25890,7 +24909,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002216",
+      "id": "002122",
       "emoji": "👩🏿‍❤️‍👨🏿",
       "description": "couple with heart: woman, man, dark skin tone",
       "unicode": [
@@ -25906,7 +24925,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002217",
+      "id": "002123",
       "emoji": "👨‍❤️‍👨",
       "description": "couple with heart: man, man",
       "unicode": [
@@ -25920,7 +24939,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002218",
+      "id": "002124",
       "emoji": "👨🏻‍❤️‍👨🏻",
       "description": "couple with heart: man, man, light skin tone",
       "unicode": [
@@ -25936,7 +24955,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002219",
+      "id": "002125",
       "emoji": "👨🏻‍❤️‍👨🏼",
       "description": "couple with heart: man, man, light skin tone, medium-light skin tone",
       "unicode": [
@@ -25952,7 +24971,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002220",
+      "id": "002126",
       "emoji": "👨🏻‍❤️‍👨🏽",
       "description": "couple with heart: man, man, light skin tone, medium skin tone",
       "unicode": [
@@ -25968,7 +24987,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002221",
+      "id": "002127",
       "emoji": "👨🏻‍❤️‍👨🏾",
       "description": "couple with heart: man, man, light skin tone, medium-dark skin tone",
       "unicode": [
@@ -25984,7 +25003,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002222",
+      "id": "002128",
       "emoji": "👨🏻‍❤️‍👨🏿",
       "description": "couple with heart: man, man, light skin tone, dark skin tone",
       "unicode": [
@@ -26000,7 +25019,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002223",
+      "id": "002129",
       "emoji": "👨🏼‍❤️‍👨🏻",
       "description": "couple with heart: man, man, medium-light skin tone, light skin tone",
       "unicode": [
@@ -26016,7 +25035,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002224",
+      "id": "002130",
       "emoji": "👨🏼‍❤️‍👨🏼",
       "description": "couple with heart: man, man, medium-light skin tone",
       "unicode": [
@@ -26032,7 +25051,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002225",
+      "id": "002131",
       "emoji": "👨🏼‍❤️‍👨🏽",
       "description": "couple with heart: man, man, medium-light skin tone, medium skin tone",
       "unicode": [
@@ -26048,7 +25067,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002226",
+      "id": "002132",
       "emoji": "👨🏼‍❤️‍👨🏾",
       "description": "couple with heart: man, man, medium-light skin tone, medium-dark skin tone",
       "unicode": [
@@ -26064,7 +25083,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002227",
+      "id": "002133",
       "emoji": "👨🏼‍❤️‍👨🏿",
       "description": "couple with heart: man, man, medium-light skin tone, dark skin tone",
       "unicode": [
@@ -26080,7 +25099,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002228",
+      "id": "002134",
       "emoji": "👨🏽‍❤️‍👨🏻",
       "description": "couple with heart: man, man, medium skin tone, light skin tone",
       "unicode": [
@@ -26096,7 +25115,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002229",
+      "id": "002135",
       "emoji": "👨🏽‍❤️‍👨🏼",
       "description": "couple with heart: man, man, medium skin tone, medium-light skin tone",
       "unicode": [
@@ -26112,7 +25131,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002230",
+      "id": "002136",
       "emoji": "👨🏽‍❤️‍👨🏽",
       "description": "couple with heart: man, man, medium skin tone",
       "unicode": [
@@ -26128,7 +25147,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002231",
+      "id": "002137",
       "emoji": "👨🏽‍❤️‍👨🏾",
       "description": "couple with heart: man, man, medium skin tone, medium-dark skin tone",
       "unicode": [
@@ -26144,7 +25163,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002232",
+      "id": "002138",
       "emoji": "👨🏽‍❤️‍👨🏿",
       "description": "couple with heart: man, man, medium skin tone, dark skin tone",
       "unicode": [
@@ -26160,7 +25179,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002233",
+      "id": "002139",
       "emoji": "👨🏾‍❤️‍👨🏻",
       "description": "couple with heart: man, man, medium-dark skin tone, light skin tone",
       "unicode": [
@@ -26176,7 +25195,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002234",
+      "id": "002140",
       "emoji": "👨🏾‍❤️‍👨🏼",
       "description": "couple with heart: man, man, medium-dark skin tone, medium-light skin tone",
       "unicode": [
@@ -26192,7 +25211,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002235",
+      "id": "002141",
       "emoji": "👨🏾‍❤️‍👨🏽",
       "description": "couple with heart: man, man, medium-dark skin tone, medium skin tone",
       "unicode": [
@@ -26208,7 +25227,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002236",
+      "id": "002142",
       "emoji": "👨🏾‍❤️‍👨🏾",
       "description": "couple with heart: man, man, medium-dark skin tone",
       "unicode": [
@@ -26224,7 +25243,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002237",
+      "id": "002143",
       "emoji": "👨🏾‍❤️‍👨🏿",
       "description": "couple with heart: man, man, medium-dark skin tone, dark skin tone",
       "unicode": [
@@ -26240,7 +25259,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002238",
+      "id": "002144",
       "emoji": "👨🏿‍❤️‍👨🏻",
       "description": "couple with heart: man, man, dark skin tone, light skin tone",
       "unicode": [
@@ -26256,7 +25275,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002239",
+      "id": "002145",
       "emoji": "👨🏿‍❤️‍👨🏼",
       "description": "couple with heart: man, man, dark skin tone, medium-light skin tone",
       "unicode": [
@@ -26272,7 +25291,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002240",
+      "id": "002146",
       "emoji": "👨🏿‍❤️‍👨🏽",
       "description": "couple with heart: man, man, dark skin tone, medium skin tone",
       "unicode": [
@@ -26288,7 +25307,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002241",
+      "id": "002147",
       "emoji": "👨🏿‍❤️‍👨🏾",
       "description": "couple with heart: man, man, dark skin tone, medium-dark skin tone",
       "unicode": [
@@ -26304,7 +25323,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002242",
+      "id": "002148",
       "emoji": "👨🏿‍❤️‍👨🏿",
       "description": "couple with heart: man, man, dark skin tone",
       "unicode": [
@@ -26320,7 +25339,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002243",
+      "id": "002149",
       "emoji": "👩‍❤️‍👩",
       "description": "couple with heart: woman, woman",
       "unicode": [
@@ -26334,7 +25353,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002244",
+      "id": "002150",
       "emoji": "👩🏻‍❤️‍👩🏻",
       "description": "couple with heart: woman, woman, light skin tone",
       "unicode": [
@@ -26350,7 +25369,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002245",
+      "id": "002151",
       "emoji": "👩🏻‍❤️‍👩🏼",
       "description": "couple with heart: woman, woman, light skin tone, medium-light skin tone",
       "unicode": [
@@ -26366,7 +25385,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002246",
+      "id": "002152",
       "emoji": "👩🏻‍❤️‍👩🏽",
       "description": "couple with heart: woman, woman, light skin tone, medium skin tone",
       "unicode": [
@@ -26382,7 +25401,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002247",
+      "id": "002153",
       "emoji": "👩🏻‍❤️‍👩🏾",
       "description": "couple with heart: woman, woman, light skin tone, medium-dark skin tone",
       "unicode": [
@@ -26398,7 +25417,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002248",
+      "id": "002154",
       "emoji": "👩🏻‍❤️‍👩🏿",
       "description": "couple with heart: woman, woman, light skin tone, dark skin tone",
       "unicode": [
@@ -26414,7 +25433,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002249",
+      "id": "002155",
       "emoji": "👩🏼‍❤️‍👩🏻",
       "description": "couple with heart: woman, woman, medium-light skin tone, light skin tone",
       "unicode": [
@@ -26430,7 +25449,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002250",
+      "id": "002156",
       "emoji": "👩🏼‍❤️‍👩🏼",
       "description": "couple with heart: woman, woman, medium-light skin tone",
       "unicode": [
@@ -26446,7 +25465,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002251",
+      "id": "002157",
       "emoji": "👩🏼‍❤️‍👩🏽",
       "description": "couple with heart: woman, woman, medium-light skin tone, medium skin tone",
       "unicode": [
@@ -26462,7 +25481,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002252",
+      "id": "002158",
       "emoji": "👩🏼‍❤️‍👩🏾",
       "description": "couple with heart: woman, woman, medium-light skin tone, medium-dark skin tone",
       "unicode": [
@@ -26478,7 +25497,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002253",
+      "id": "002159",
       "emoji": "👩🏼‍❤️‍👩🏿",
       "description": "couple with heart: woman, woman, medium-light skin tone, dark skin tone",
       "unicode": [
@@ -26494,7 +25513,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002254",
+      "id": "002160",
       "emoji": "👩🏽‍❤️‍👩🏻",
       "description": "couple with heart: woman, woman, medium skin tone, light skin tone",
       "unicode": [
@@ -26510,7 +25529,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002255",
+      "id": "002161",
       "emoji": "👩🏽‍❤️‍👩🏼",
       "description": "couple with heart: woman, woman, medium skin tone, medium-light skin tone",
       "unicode": [
@@ -26526,7 +25545,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002256",
+      "id": "002162",
       "emoji": "👩🏽‍❤️‍👩🏽",
       "description": "couple with heart: woman, woman, medium skin tone",
       "unicode": [
@@ -26542,7 +25561,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002257",
+      "id": "002163",
       "emoji": "👩🏽‍❤️‍👩🏾",
       "description": "couple with heart: woman, woman, medium skin tone, medium-dark skin tone",
       "unicode": [
@@ -26558,7 +25577,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002258",
+      "id": "002164",
       "emoji": "👩🏽‍❤️‍👩🏿",
       "description": "couple with heart: woman, woman, medium skin tone, dark skin tone",
       "unicode": [
@@ -26574,7 +25593,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002259",
+      "id": "002165",
       "emoji": "👩🏾‍❤️‍👩🏻",
       "description": "couple with heart: woman, woman, medium-dark skin tone, light skin tone",
       "unicode": [
@@ -26590,7 +25609,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002260",
+      "id": "002166",
       "emoji": "👩🏾‍❤️‍👩🏼",
       "description": "couple with heart: woman, woman, medium-dark skin tone, medium-light skin tone",
       "unicode": [
@@ -26606,7 +25625,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002261",
+      "id": "002167",
       "emoji": "👩🏾‍❤️‍👩🏽",
       "description": "couple with heart: woman, woman, medium-dark skin tone, medium skin tone",
       "unicode": [
@@ -26622,7 +25641,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002262",
+      "id": "002168",
       "emoji": "👩🏾‍❤️‍👩🏾",
       "description": "couple with heart: woman, woman, medium-dark skin tone",
       "unicode": [
@@ -26638,7 +25657,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002263",
+      "id": "002169",
       "emoji": "👩🏾‍❤️‍👩🏿",
       "description": "couple with heart: woman, woman, medium-dark skin tone, dark skin tone",
       "unicode": [
@@ -26654,7 +25673,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002264",
+      "id": "002170",
       "emoji": "👩🏿‍❤️‍👩🏻",
       "description": "couple with heart: woman, woman, dark skin tone, light skin tone",
       "unicode": [
@@ -26670,7 +25689,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002265",
+      "id": "002171",
       "emoji": "👩🏿‍❤️‍👩🏼",
       "description": "couple with heart: woman, woman, dark skin tone, medium-light skin tone",
       "unicode": [
@@ -26686,7 +25705,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002266",
+      "id": "002172",
       "emoji": "👩🏿‍❤️‍👩🏽",
       "description": "couple with heart: woman, woman, dark skin tone, medium skin tone",
       "unicode": [
@@ -26702,7 +25721,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002267",
+      "id": "002173",
       "emoji": "👩🏿‍❤️‍👩🏾",
       "description": "couple with heart: woman, woman, dark skin tone, medium-dark skin tone",
       "unicode": [
@@ -26718,7 +25737,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002268",
+      "id": "002174",
       "emoji": "👩🏿‍❤️‍👩🏿",
       "description": "couple with heart: woman, woman, dark skin tone",
       "unicode": [
@@ -26734,7 +25753,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.1"
     },
     {
-      "id": "002269",
+      "id": "002175",
       "emoji": "👪",
       "description": "family",
       "unicode": [
@@ -26743,7 +25762,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002270",
+      "id": "002176",
       "emoji": "👨‍👩‍👦",
       "description": "family: man, woman, boy",
       "unicode": [
@@ -26756,7 +25775,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002271",
+      "id": "002177",
       "emoji": "👨‍👩‍👧",
       "description": "family: man, woman, girl",
       "unicode": [
@@ -26769,7 +25788,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002272",
+      "id": "002178",
       "emoji": "👨‍👩‍👧‍👦",
       "description": "family: man, woman, girl, boy",
       "unicode": [
@@ -26784,7 +25803,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002273",
+      "id": "002179",
       "emoji": "👨‍👩‍👦‍👦",
       "description": "family: man, woman, boy, boy",
       "unicode": [
@@ -26799,7 +25818,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002274",
+      "id": "002180",
       "emoji": "👨‍👩‍👧‍👧",
       "description": "family: man, woman, girl, girl",
       "unicode": [
@@ -26814,7 +25833,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002275",
+      "id": "002181",
       "emoji": "👨‍👨‍👦",
       "description": "family: man, man, boy",
       "unicode": [
@@ -26827,7 +25846,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002276",
+      "id": "002182",
       "emoji": "👨‍👨‍👧",
       "description": "family: man, man, girl",
       "unicode": [
@@ -26840,7 +25859,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002277",
+      "id": "002183",
       "emoji": "👨‍👨‍👧‍👦",
       "description": "family: man, man, girl, boy",
       "unicode": [
@@ -26855,7 +25874,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002278",
+      "id": "002184",
       "emoji": "👨‍👨‍👦‍👦",
       "description": "family: man, man, boy, boy",
       "unicode": [
@@ -26870,7 +25889,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002279",
+      "id": "002185",
       "emoji": "👨‍👨‍👧‍👧",
       "description": "family: man, man, girl, girl",
       "unicode": [
@@ -26885,7 +25904,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002280",
+      "id": "002186",
       "emoji": "👩‍👩‍👦",
       "description": "family: woman, woman, boy",
       "unicode": [
@@ -26898,7 +25917,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002281",
+      "id": "002187",
       "emoji": "👩‍👩‍👧",
       "description": "family: woman, woman, girl",
       "unicode": [
@@ -26911,7 +25930,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002282",
+      "id": "002188",
       "emoji": "👩‍👩‍👧‍👦",
       "description": "family: woman, woman, girl, boy",
       "unicode": [
@@ -26926,7 +25945,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002283",
+      "id": "002189",
       "emoji": "👩‍👩‍👦‍👦",
       "description": "family: woman, woman, boy, boy",
       "unicode": [
@@ -26941,7 +25960,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002284",
+      "id": "002190",
       "emoji": "👩‍👩‍👧‍👧",
       "description": "family: woman, woman, girl, girl",
       "unicode": [
@@ -26956,7 +25975,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "002285",
+      "id": "002191",
       "emoji": "👨‍👦",
       "description": "family: man, boy",
       "unicode": [
@@ -26967,7 +25986,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "002286",
+      "id": "002192",
       "emoji": "👨‍👦‍👦",
       "description": "family: man, boy, boy",
       "unicode": [
@@ -26980,7 +25999,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "002287",
+      "id": "002193",
       "emoji": "👨‍👧",
       "description": "family: man, girl",
       "unicode": [
@@ -26991,7 +26010,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "002288",
+      "id": "002194",
       "emoji": "👨‍👧‍👦",
       "description": "family: man, girl, boy",
       "unicode": [
@@ -27004,7 +26023,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "002289",
+      "id": "002195",
       "emoji": "👨‍👧‍👧",
       "description": "family: man, girl, girl",
       "unicode": [
@@ -27017,7 +26036,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "002290",
+      "id": "002196",
       "emoji": "👩‍👦",
       "description": "family: woman, boy",
       "unicode": [
@@ -27028,7 +26047,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "002291",
+      "id": "002197",
       "emoji": "👩‍👦‍👦",
       "description": "family: woman, boy, boy",
       "unicode": [
@@ -27041,7 +26060,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "002292",
+      "id": "002198",
       "emoji": "👩‍👧",
       "description": "family: woman, girl",
       "unicode": [
@@ -27052,7 +26071,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "002293",
+      "id": "002199",
       "emoji": "👩‍👧‍👦",
       "description": "family: woman, girl, boy",
       "unicode": [
@@ -27065,7 +26084,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "002294",
+      "id": "002200",
       "emoji": "👩‍👧‍👧",
       "description": "family: woman, girl, girl",
       "unicode": [
@@ -27078,7 +26097,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "002295",
+      "id": "002201",
       "emoji": "🗣️",
       "description": "speaking head",
       "unicode": [
@@ -27088,7 +26107,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002296",
+      "id": "002202",
       "emoji": "👤",
       "description": "bust in silhouette",
       "unicode": [
@@ -27097,7 +26116,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002297",
+      "id": "002203",
       "emoji": "👥",
       "description": "busts in silhouette",
       "unicode": [
@@ -27106,7 +26125,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002298",
+      "id": "002204",
       "emoji": "🫂",
       "description": "people hugging",
       "unicode": [
@@ -27115,7 +26134,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002299",
+      "id": "002205",
       "emoji": "👣",
       "description": "footprints",
       "unicode": [
@@ -27124,7 +26143,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002300",
+      "id": "002206",
       "emoji": "🐵",
       "description": "monkey face",
       "unicode": [
@@ -27133,7 +26152,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002301",
+      "id": "002207",
       "emoji": "🐒",
       "description": "monkey",
       "unicode": [
@@ -27142,7 +26161,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002302",
+      "id": "002208",
       "emoji": "🦍",
       "description": "gorilla",
       "unicode": [
@@ -27151,7 +26170,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002303",
+      "id": "002209",
       "emoji": "🦧",
       "description": "orangutan",
       "unicode": [
@@ -27160,7 +26179,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002304",
+      "id": "002210",
       "emoji": "🐶",
       "description": "dog face",
       "unicode": [
@@ -27169,7 +26188,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002305",
+      "id": "002211",
       "emoji": "🐕",
       "description": "dog",
       "unicode": [
@@ -27178,7 +26197,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002306",
+      "id": "002212",
       "emoji": "🦮",
       "description": "guide dog",
       "unicode": [
@@ -27187,7 +26206,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002307",
+      "id": "002213",
       "emoji": "🐕‍🦺",
       "description": "service dog",
       "unicode": [
@@ -27198,7 +26217,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002308",
+      "id": "002214",
       "emoji": "🐩",
       "description": "poodle",
       "unicode": [
@@ -27207,7 +26226,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002309",
+      "id": "002215",
       "emoji": "🐺",
       "description": "wolf",
       "unicode": [
@@ -27216,7 +26235,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002310",
+      "id": "002216",
       "emoji": "🦊",
       "description": "fox",
       "unicode": [
@@ -27225,7 +26244,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002311",
+      "id": "002217",
       "emoji": "🦝",
       "description": "raccoon",
       "unicode": [
@@ -27234,7 +26253,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002312",
+      "id": "002218",
       "emoji": "🐱",
       "description": "cat face",
       "unicode": [
@@ -27243,7 +26262,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002313",
+      "id": "002219",
       "emoji": "🐈",
       "description": "cat",
       "unicode": [
@@ -27252,7 +26271,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002314",
+      "id": "002220",
       "emoji": "🐈‍⬛",
       "description": "black cat",
       "unicode": [
@@ -27263,7 +26282,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002315",
+      "id": "002221",
       "emoji": "🦁",
       "description": "lion",
       "unicode": [
@@ -27272,7 +26291,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002316",
+      "id": "002222",
       "emoji": "🐯",
       "description": "tiger face",
       "unicode": [
@@ -27281,7 +26300,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002317",
+      "id": "002223",
       "emoji": "🐅",
       "description": "tiger",
       "unicode": [
@@ -27290,7 +26309,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002318",
+      "id": "002224",
       "emoji": "🐆",
       "description": "leopard",
       "unicode": [
@@ -27299,7 +26318,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002319",
+      "id": "002225",
       "emoji": "🐴",
       "description": "horse face",
       "unicode": [
@@ -27308,7 +26327,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002320",
+      "id": "002226",
       "emoji": "🐎",
       "description": "horse",
       "unicode": [
@@ -27317,7 +26336,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002321",
+      "id": "002227",
       "emoji": "🦄",
       "description": "unicorn",
       "unicode": [
@@ -27326,7 +26345,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002322",
+      "id": "002228",
       "emoji": "🦓",
       "description": "zebra",
       "unicode": [
@@ -27335,7 +26354,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002323",
+      "id": "002229",
       "emoji": "🦌",
       "description": "deer",
       "unicode": [
@@ -27344,7 +26363,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002324",
+      "id": "002230",
       "emoji": "🦬",
       "description": "bison",
       "unicode": [
@@ -27353,7 +26372,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002325",
+      "id": "002231",
       "emoji": "🐮",
       "description": "cow face",
       "unicode": [
@@ -27362,7 +26381,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002326",
+      "id": "002232",
       "emoji": "🐂",
       "description": "ox",
       "unicode": [
@@ -27371,7 +26390,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002327",
+      "id": "002233",
       "emoji": "🐃",
       "description": "water buffalo",
       "unicode": [
@@ -27380,7 +26399,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002328",
+      "id": "002234",
       "emoji": "🐄",
       "description": "cow",
       "unicode": [
@@ -27389,7 +26408,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002329",
+      "id": "002235",
       "emoji": "🐷",
       "description": "pig face",
       "unicode": [
@@ -27398,7 +26417,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002330",
+      "id": "002236",
       "emoji": "🐖",
       "description": "pig",
       "unicode": [
@@ -27407,7 +26426,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002331",
+      "id": "002237",
       "emoji": "🐗",
       "description": "boar",
       "unicode": [
@@ -27416,7 +26435,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002332",
+      "id": "002238",
       "emoji": "🐽",
       "description": "pig nose",
       "unicode": [
@@ -27425,7 +26444,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002333",
+      "id": "002239",
       "emoji": "🐏",
       "description": "ram",
       "unicode": [
@@ -27434,7 +26453,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002334",
+      "id": "002240",
       "emoji": "🐑",
       "description": "ewe",
       "unicode": [
@@ -27443,7 +26462,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002335",
+      "id": "002241",
       "emoji": "🐐",
       "description": "goat",
       "unicode": [
@@ -27452,7 +26471,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002336",
+      "id": "002242",
       "emoji": "🐪",
       "description": "camel",
       "unicode": [
@@ -27461,7 +26480,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002337",
+      "id": "002243",
       "emoji": "🐫",
       "description": "two-hump camel",
       "unicode": [
@@ -27470,7 +26489,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002338",
+      "id": "002244",
       "emoji": "🦙",
       "description": "llama",
       "unicode": [
@@ -27479,7 +26498,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002339",
+      "id": "002245",
       "emoji": "🦒",
       "description": "giraffe",
       "unicode": [
@@ -27488,7 +26507,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002340",
+      "id": "002246",
       "emoji": "🐘",
       "description": "elephant",
       "unicode": [
@@ -27497,7 +26516,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002341",
+      "id": "002247",
       "emoji": "🦣",
       "description": "mammoth",
       "unicode": [
@@ -27506,7 +26525,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002342",
+      "id": "002248",
       "emoji": "🦏",
       "description": "rhinoceros",
       "unicode": [
@@ -27515,7 +26534,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002343",
+      "id": "002249",
       "emoji": "🦛",
       "description": "hippopotamus",
       "unicode": [
@@ -27524,7 +26543,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002344",
+      "id": "002250",
       "emoji": "🐭",
       "description": "mouse face",
       "unicode": [
@@ -27533,7 +26552,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002345",
+      "id": "002251",
       "emoji": "🐁",
       "description": "mouse",
       "unicode": [
@@ -27542,7 +26561,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002346",
+      "id": "002252",
       "emoji": "🐀",
       "description": "rat",
       "unicode": [
@@ -27551,7 +26570,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002347",
+      "id": "002253",
       "emoji": "🐹",
       "description": "hamster",
       "unicode": [
@@ -27560,7 +26579,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002348",
+      "id": "002254",
       "emoji": "🐰",
       "description": "rabbit face",
       "unicode": [
@@ -27569,7 +26588,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002349",
+      "id": "002255",
       "emoji": "🐇",
       "description": "rabbit",
       "unicode": [
@@ -27578,7 +26597,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002350",
+      "id": "002256",
       "emoji": "🐿️",
       "description": "chipmunk",
       "unicode": [
@@ -27588,7 +26607,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002351",
+      "id": "002257",
       "emoji": "🦫",
       "description": "beaver",
       "unicode": [
@@ -27597,7 +26616,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002352",
+      "id": "002258",
       "emoji": "🦔",
       "description": "hedgehog",
       "unicode": [
@@ -27606,7 +26625,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002353",
+      "id": "002259",
       "emoji": "🦇",
       "description": "bat",
       "unicode": [
@@ -27615,7 +26634,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002354",
+      "id": "002260",
       "emoji": "🐻",
       "description": "bear",
       "unicode": [
@@ -27624,7 +26643,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002355",
+      "id": "002261",
       "emoji": "🐻‍❄️",
       "description": "polar bear",
       "unicode": [
@@ -27636,7 +26655,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002356",
+      "id": "002262",
       "emoji": "🐨",
       "description": "koala",
       "unicode": [
@@ -27645,7 +26664,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002357",
+      "id": "002263",
       "emoji": "🐼",
       "description": "panda",
       "unicode": [
@@ -27654,7 +26673,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002358",
+      "id": "002264",
       "emoji": "🦥",
       "description": "sloth",
       "unicode": [
@@ -27663,7 +26682,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002359",
+      "id": "002265",
       "emoji": "🦦",
       "description": "otter",
       "unicode": [
@@ -27672,7 +26691,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002360",
+      "id": "002266",
       "emoji": "🦨",
       "description": "skunk",
       "unicode": [
@@ -27681,7 +26700,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002361",
+      "id": "002267",
       "emoji": "🦘",
       "description": "kangaroo",
       "unicode": [
@@ -27690,7 +26709,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002362",
+      "id": "002268",
       "emoji": "🦡",
       "description": "badger",
       "unicode": [
@@ -27699,7 +26718,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002363",
+      "id": "002269",
       "emoji": "🐾",
       "description": "paw prints",
       "unicode": [
@@ -27708,7 +26727,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002364",
+      "id": "002270",
       "emoji": "🦃",
       "description": "turkey",
       "unicode": [
@@ -27717,7 +26736,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002365",
+      "id": "002271",
       "emoji": "🐔",
       "description": "chicken",
       "unicode": [
@@ -27726,7 +26745,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002366",
+      "id": "002272",
       "emoji": "🐓",
       "description": "rooster",
       "unicode": [
@@ -27735,7 +26754,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002367",
+      "id": "002273",
       "emoji": "🐣",
       "description": "hatching chick",
       "unicode": [
@@ -27744,7 +26763,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002368",
+      "id": "002274",
       "emoji": "🐤",
       "description": "baby chick",
       "unicode": [
@@ -27753,7 +26772,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002369",
+      "id": "002275",
       "emoji": "🐥",
       "description": "front-facing baby chick",
       "unicode": [
@@ -27762,7 +26781,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002370",
+      "id": "002276",
       "emoji": "🐦",
       "description": "bird",
       "unicode": [
@@ -27771,7 +26790,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002371",
+      "id": "002277",
       "emoji": "🐧",
       "description": "penguin",
       "unicode": [
@@ -27780,7 +26799,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002372",
+      "id": "002278",
       "emoji": "🕊️",
       "description": "dove",
       "unicode": [
@@ -27790,7 +26809,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002373",
+      "id": "002279",
       "emoji": "🦅",
       "description": "eagle",
       "unicode": [
@@ -27799,7 +26818,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002374",
+      "id": "002280",
       "emoji": "🦆",
       "description": "duck",
       "unicode": [
@@ -27808,7 +26827,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002375",
+      "id": "002281",
       "emoji": "🦢",
       "description": "swan",
       "unicode": [
@@ -27817,7 +26836,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002376",
+      "id": "002282",
       "emoji": "🦉",
       "description": "owl",
       "unicode": [
@@ -27826,7 +26845,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002377",
+      "id": "002283",
       "emoji": "🦤",
       "description": "dodo",
       "unicode": [
@@ -27835,7 +26854,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002378",
+      "id": "002284",
       "emoji": "🪶",
       "description": "feather",
       "unicode": [
@@ -27844,7 +26863,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002379",
+      "id": "002285",
       "emoji": "🦩",
       "description": "flamingo",
       "unicode": [
@@ -27853,7 +26872,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002380",
+      "id": "002286",
       "emoji": "🦚",
       "description": "peacock",
       "unicode": [
@@ -27862,7 +26881,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002381",
+      "id": "002287",
       "emoji": "🦜",
       "description": "parrot",
       "unicode": [
@@ -27871,7 +26890,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002382",
+      "id": "002288",
       "emoji": "🐸",
       "description": "frog",
       "unicode": [
@@ -27880,7 +26899,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002383",
+      "id": "002289",
       "emoji": "🐊",
       "description": "crocodile",
       "unicode": [
@@ -27889,7 +26908,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002384",
+      "id": "002290",
       "emoji": "🐢",
       "description": "turtle",
       "unicode": [
@@ -27898,7 +26917,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002385",
+      "id": "002291",
       "emoji": "🦎",
       "description": "lizard",
       "unicode": [
@@ -27907,7 +26926,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002386",
+      "id": "002292",
       "emoji": "🐍",
       "description": "snake",
       "unicode": [
@@ -27916,7 +26935,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002387",
+      "id": "002293",
       "emoji": "🐲",
       "description": "dragon face",
       "unicode": [
@@ -27925,7 +26944,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002388",
+      "id": "002294",
       "emoji": "🐉",
       "description": "dragon",
       "unicode": [
@@ -27934,7 +26953,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002389",
+      "id": "002295",
       "emoji": "🦕",
       "description": "sauropod",
       "unicode": [
@@ -27943,7 +26962,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002390",
+      "id": "002296",
       "emoji": "🦖",
       "description": "T-Rex",
       "unicode": [
@@ -27952,7 +26971,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002391",
+      "id": "002297",
       "emoji": "🐳",
       "description": "spouting whale",
       "unicode": [
@@ -27961,7 +26980,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002392",
+      "id": "002298",
       "emoji": "🐋",
       "description": "whale",
       "unicode": [
@@ -27970,7 +26989,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002393",
+      "id": "002299",
       "emoji": "🐬",
       "description": "dolphin",
       "unicode": [
@@ -27979,7 +26998,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002394",
+      "id": "002300",
       "emoji": "🦭",
       "description": "seal",
       "unicode": [
@@ -27988,7 +27007,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002395",
+      "id": "002301",
       "emoji": "🐟",
       "description": "fish",
       "unicode": [
@@ -27997,7 +27016,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002396",
+      "id": "002302",
       "emoji": "🐠",
       "description": "tropical fish",
       "unicode": [
@@ -28006,7 +27025,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002397",
+      "id": "002303",
       "emoji": "🐡",
       "description": "blowfish",
       "unicode": [
@@ -28015,7 +27034,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002398",
+      "id": "002304",
       "emoji": "🦈",
       "description": "shark",
       "unicode": [
@@ -28024,7 +27043,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002399",
+      "id": "002305",
       "emoji": "🐙",
       "description": "octopus",
       "unicode": [
@@ -28033,7 +27052,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002400",
+      "id": "002306",
       "emoji": "🐚",
       "description": "spiral shell",
       "unicode": [
@@ -28042,16 +27061,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002401",
-      "emoji": "🪸",
-      "description": "coral",
-      "unicode": [
-        "1FAB8"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "002402",
+      "id": "002307",
       "emoji": "🐌",
       "description": "snail",
       "unicode": [
@@ -28060,7 +27070,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002403",
+      "id": "002308",
       "emoji": "🦋",
       "description": "butterfly",
       "unicode": [
@@ -28069,7 +27079,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002404",
+      "id": "002309",
       "emoji": "🐛",
       "description": "bug",
       "unicode": [
@@ -28078,7 +27088,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002405",
+      "id": "002310",
       "emoji": "🐜",
       "description": "ant",
       "unicode": [
@@ -28087,7 +27097,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002406",
+      "id": "002311",
       "emoji": "🐝",
       "description": "honeybee",
       "unicode": [
@@ -28096,7 +27106,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002407",
+      "id": "002312",
       "emoji": "🪲",
       "description": "beetle",
       "unicode": [
@@ -28105,7 +27115,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002408",
+      "id": "002313",
       "emoji": "🐞",
       "description": "lady beetle",
       "unicode": [
@@ -28114,7 +27124,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002409",
+      "id": "002314",
       "emoji": "🦗",
       "description": "cricket",
       "unicode": [
@@ -28123,7 +27133,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002410",
+      "id": "002315",
       "emoji": "🪳",
       "description": "cockroach",
       "unicode": [
@@ -28132,7 +27142,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002411",
+      "id": "002316",
       "emoji": "🕷️",
       "description": "spider",
       "unicode": [
@@ -28142,7 +27152,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002412",
+      "id": "002317",
       "emoji": "🕸️",
       "description": "spider web",
       "unicode": [
@@ -28152,7 +27162,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002413",
+      "id": "002318",
       "emoji": "🦂",
       "description": "scorpion",
       "unicode": [
@@ -28161,7 +27171,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002414",
+      "id": "002319",
       "emoji": "🦟",
       "description": "mosquito",
       "unicode": [
@@ -28170,7 +27180,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002415",
+      "id": "002320",
       "emoji": "🪰",
       "description": "fly",
       "unicode": [
@@ -28179,7 +27189,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002416",
+      "id": "002321",
       "emoji": "🪱",
       "description": "worm",
       "unicode": [
@@ -28188,7 +27198,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002417",
+      "id": "002322",
       "emoji": "🦠",
       "description": "microbe",
       "unicode": [
@@ -28197,7 +27207,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002418",
+      "id": "002323",
       "emoji": "💐",
       "description": "bouquet",
       "unicode": [
@@ -28206,7 +27216,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002419",
+      "id": "002324",
       "emoji": "🌸",
       "description": "cherry blossom",
       "unicode": [
@@ -28215,7 +27225,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002420",
+      "id": "002325",
       "emoji": "💮",
       "description": "white flower",
       "unicode": [
@@ -28224,16 +27234,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002421",
-      "emoji": "🪷",
-      "description": "lotus",
-      "unicode": [
-        "1FAB7"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "002422",
+      "id": "002326",
       "emoji": "🏵️",
       "description": "rosette",
       "unicode": [
@@ -28243,7 +27244,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002423",
+      "id": "002327",
       "emoji": "🌹",
       "description": "rose",
       "unicode": [
@@ -28252,7 +27253,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002424",
+      "id": "002328",
       "emoji": "🥀",
       "description": "wilted flower",
       "unicode": [
@@ -28261,7 +27262,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002425",
+      "id": "002329",
       "emoji": "🌺",
       "description": "hibiscus",
       "unicode": [
@@ -28270,7 +27271,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002426",
+      "id": "002330",
       "emoji": "🌻",
       "description": "sunflower",
       "unicode": [
@@ -28279,7 +27280,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002427",
+      "id": "002331",
       "emoji": "🌼",
       "description": "blossom",
       "unicode": [
@@ -28288,7 +27289,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002428",
+      "id": "002332",
       "emoji": "🌷",
       "description": "tulip",
       "unicode": [
@@ -28297,7 +27298,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002429",
+      "id": "002333",
       "emoji": "🌱",
       "description": "seedling",
       "unicode": [
@@ -28306,7 +27307,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002430",
+      "id": "002334",
       "emoji": "🪴",
       "description": "potted plant",
       "unicode": [
@@ -28315,7 +27316,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002431",
+      "id": "002335",
       "emoji": "🌲",
       "description": "evergreen tree",
       "unicode": [
@@ -28324,7 +27325,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002432",
+      "id": "002336",
       "emoji": "🌳",
       "description": "deciduous tree",
       "unicode": [
@@ -28333,7 +27334,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002433",
+      "id": "002337",
       "emoji": "🌴",
       "description": "palm tree",
       "unicode": [
@@ -28342,7 +27343,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002434",
+      "id": "002338",
       "emoji": "🌵",
       "description": "cactus",
       "unicode": [
@@ -28351,7 +27352,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002435",
+      "id": "002339",
       "emoji": "🌾",
       "description": "sheaf of rice",
       "unicode": [
@@ -28360,7 +27361,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002436",
+      "id": "002340",
       "emoji": "🌿",
       "description": "herb",
       "unicode": [
@@ -28369,7 +27370,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002437",
+      "id": "002341",
       "emoji": "☘️",
       "description": "shamrock",
       "unicode": [
@@ -28379,7 +27380,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002438",
+      "id": "002342",
       "emoji": "🍀",
       "description": "four leaf clover",
       "unicode": [
@@ -28388,7 +27389,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002439",
+      "id": "002343",
       "emoji": "🍁",
       "description": "maple leaf",
       "unicode": [
@@ -28397,7 +27398,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002440",
+      "id": "002344",
       "emoji": "🍂",
       "description": "fallen leaf",
       "unicode": [
@@ -28406,7 +27407,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002441",
+      "id": "002345",
       "emoji": "🍃",
       "description": "leaf fluttering in wind",
       "unicode": [
@@ -28415,25 +27416,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002442",
-      "emoji": "🪹",
-      "description": "empty nest",
-      "unicode": [
-        "1FAB9"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "002443",
-      "emoji": "🪺",
-      "description": "nest with eggs",
-      "unicode": [
-        "1FABA"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "002444",
+      "id": "002346",
       "emoji": "🍇",
       "description": "grapes",
       "unicode": [
@@ -28442,7 +27425,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002445",
+      "id": "002347",
       "emoji": "🍈",
       "description": "melon",
       "unicode": [
@@ -28451,7 +27434,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002446",
+      "id": "002348",
       "emoji": "🍉",
       "description": "watermelon",
       "unicode": [
@@ -28460,7 +27443,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002447",
+      "id": "002349",
       "emoji": "🍊",
       "description": "tangerine",
       "unicode": [
@@ -28469,7 +27452,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002448",
+      "id": "002350",
       "emoji": "🍋",
       "description": "lemon",
       "unicode": [
@@ -28478,7 +27461,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002449",
+      "id": "002351",
       "emoji": "🍌",
       "description": "banana",
       "unicode": [
@@ -28487,7 +27470,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002450",
+      "id": "002352",
       "emoji": "🍍",
       "description": "pineapple",
       "unicode": [
@@ -28496,7 +27479,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002451",
+      "id": "002353",
       "emoji": "🥭",
       "description": "mango",
       "unicode": [
@@ -28505,7 +27488,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002452",
+      "id": "002354",
       "emoji": "🍎",
       "description": "red apple",
       "unicode": [
@@ -28514,7 +27497,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002453",
+      "id": "002355",
       "emoji": "🍏",
       "description": "green apple",
       "unicode": [
@@ -28523,7 +27506,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002454",
+      "id": "002356",
       "emoji": "🍐",
       "description": "pear",
       "unicode": [
@@ -28532,7 +27515,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002455",
+      "id": "002357",
       "emoji": "🍑",
       "description": "peach",
       "unicode": [
@@ -28541,7 +27524,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002456",
+      "id": "002358",
       "emoji": "🍒",
       "description": "cherries",
       "unicode": [
@@ -28550,7 +27533,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002457",
+      "id": "002359",
       "emoji": "🍓",
       "description": "strawberry",
       "unicode": [
@@ -28559,7 +27542,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002458",
+      "id": "002360",
       "emoji": "🫐",
       "description": "blueberries",
       "unicode": [
@@ -28568,7 +27551,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002459",
+      "id": "002361",
       "emoji": "🥝",
       "description": "kiwi fruit",
       "unicode": [
@@ -28577,7 +27560,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002460",
+      "id": "002362",
       "emoji": "🍅",
       "description": "tomato",
       "unicode": [
@@ -28586,7 +27569,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002461",
+      "id": "002363",
       "emoji": "🫒",
       "description": "olive",
       "unicode": [
@@ -28595,7 +27578,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002462",
+      "id": "002364",
       "emoji": "🥥",
       "description": "coconut",
       "unicode": [
@@ -28604,7 +27587,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002463",
+      "id": "002365",
       "emoji": "🥑",
       "description": "avocado",
       "unicode": [
@@ -28613,7 +27596,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002464",
+      "id": "002366",
       "emoji": "🍆",
       "description": "eggplant",
       "unicode": [
@@ -28622,7 +27605,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002465",
+      "id": "002367",
       "emoji": "🥔",
       "description": "potato",
       "unicode": [
@@ -28631,7 +27614,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002466",
+      "id": "002368",
       "emoji": "🥕",
       "description": "carrot",
       "unicode": [
@@ -28640,7 +27623,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002467",
+      "id": "002369",
       "emoji": "🌽",
       "description": "ear of corn",
       "unicode": [
@@ -28649,7 +27632,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002468",
+      "id": "002370",
       "emoji": "🌶️",
       "description": "hot pepper",
       "unicode": [
@@ -28659,7 +27642,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002469",
+      "id": "002371",
       "emoji": "🫑",
       "description": "bell pepper",
       "unicode": [
@@ -28668,7 +27651,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002470",
+      "id": "002372",
       "emoji": "🥒",
       "description": "cucumber",
       "unicode": [
@@ -28677,7 +27660,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002471",
+      "id": "002373",
       "emoji": "🥬",
       "description": "leafy green",
       "unicode": [
@@ -28686,7 +27669,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002472",
+      "id": "002374",
       "emoji": "🥦",
       "description": "broccoli",
       "unicode": [
@@ -28695,7 +27678,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002473",
+      "id": "002375",
       "emoji": "🧄",
       "description": "garlic",
       "unicode": [
@@ -28704,7 +27687,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002474",
+      "id": "002376",
       "emoji": "🧅",
       "description": "onion",
       "unicode": [
@@ -28713,7 +27696,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002475",
+      "id": "002377",
       "emoji": "🍄",
       "description": "mushroom",
       "unicode": [
@@ -28722,7 +27705,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002476",
+      "id": "002378",
       "emoji": "🥜",
       "description": "peanuts",
       "unicode": [
@@ -28731,16 +27714,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002477",
-      "emoji": "🫘",
-      "description": "beans",
-      "unicode": [
-        "1FAD8"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "002478",
+      "id": "002379",
       "emoji": "🌰",
       "description": "chestnut",
       "unicode": [
@@ -28749,7 +27723,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002479",
+      "id": "002380",
       "emoji": "🍞",
       "description": "bread",
       "unicode": [
@@ -28758,7 +27732,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002480",
+      "id": "002381",
       "emoji": "🥐",
       "description": "croissant",
       "unicode": [
@@ -28767,7 +27741,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002481",
+      "id": "002382",
       "emoji": "🥖",
       "description": "baguette bread",
       "unicode": [
@@ -28776,7 +27750,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002482",
+      "id": "002383",
       "emoji": "🫓",
       "description": "flatbread",
       "unicode": [
@@ -28785,7 +27759,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002483",
+      "id": "002384",
       "emoji": "🥨",
       "description": "pretzel",
       "unicode": [
@@ -28794,7 +27768,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002484",
+      "id": "002385",
       "emoji": "🥯",
       "description": "bagel",
       "unicode": [
@@ -28803,7 +27777,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002485",
+      "id": "002386",
       "emoji": "🥞",
       "description": "pancakes",
       "unicode": [
@@ -28812,7 +27786,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002486",
+      "id": "002387",
       "emoji": "🧇",
       "description": "waffle",
       "unicode": [
@@ -28821,7 +27795,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002487",
+      "id": "002388",
       "emoji": "🧀",
       "description": "cheese wedge",
       "unicode": [
@@ -28830,7 +27804,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002488",
+      "id": "002389",
       "emoji": "🍖",
       "description": "meat on bone",
       "unicode": [
@@ -28839,7 +27813,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002489",
+      "id": "002390",
       "emoji": "🍗",
       "description": "poultry leg",
       "unicode": [
@@ -28848,7 +27822,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002490",
+      "id": "002391",
       "emoji": "🥩",
       "description": "cut of meat",
       "unicode": [
@@ -28857,7 +27831,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002491",
+      "id": "002392",
       "emoji": "🥓",
       "description": "bacon",
       "unicode": [
@@ -28866,7 +27840,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002492",
+      "id": "002393",
       "emoji": "🍔",
       "description": "hamburger",
       "unicode": [
@@ -28875,7 +27849,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002493",
+      "id": "002394",
       "emoji": "🍟",
       "description": "french fries",
       "unicode": [
@@ -28884,7 +27858,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002494",
+      "id": "002395",
       "emoji": "🍕",
       "description": "pizza",
       "unicode": [
@@ -28893,7 +27867,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002495",
+      "id": "002396",
       "emoji": "🌭",
       "description": "hot dog",
       "unicode": [
@@ -28902,7 +27876,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002496",
+      "id": "002397",
       "emoji": "🥪",
       "description": "sandwich",
       "unicode": [
@@ -28911,7 +27885,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002497",
+      "id": "002398",
       "emoji": "🌮",
       "description": "taco",
       "unicode": [
@@ -28920,7 +27894,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002498",
+      "id": "002399",
       "emoji": "🌯",
       "description": "burrito",
       "unicode": [
@@ -28929,7 +27903,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002499",
+      "id": "002400",
       "emoji": "🫔",
       "description": "tamale",
       "unicode": [
@@ -28938,7 +27912,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002500",
+      "id": "002401",
       "emoji": "🥙",
       "description": "stuffed flatbread",
       "unicode": [
@@ -28947,7 +27921,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002501",
+      "id": "002402",
       "emoji": "🧆",
       "description": "falafel",
       "unicode": [
@@ -28956,7 +27930,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002502",
+      "id": "002403",
       "emoji": "🥚",
       "description": "egg",
       "unicode": [
@@ -28965,7 +27939,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002503",
+      "id": "002404",
       "emoji": "🍳",
       "description": "cooking",
       "unicode": [
@@ -28974,7 +27948,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002504",
+      "id": "002405",
       "emoji": "🥘",
       "description": "shallow pan of food",
       "unicode": [
@@ -28983,7 +27957,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002505",
+      "id": "002406",
       "emoji": "🍲",
       "description": "pot of food",
       "unicode": [
@@ -28992,7 +27966,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002506",
+      "id": "002407",
       "emoji": "🫕",
       "description": "fondue",
       "unicode": [
@@ -29001,7 +27975,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002507",
+      "id": "002408",
       "emoji": "🥣",
       "description": "bowl with spoon",
       "unicode": [
@@ -29010,7 +27984,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002508",
+      "id": "002409",
       "emoji": "🥗",
       "description": "green salad",
       "unicode": [
@@ -29019,7 +27993,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002509",
+      "id": "002410",
       "emoji": "🍿",
       "description": "popcorn",
       "unicode": [
@@ -29028,7 +28002,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002510",
+      "id": "002411",
       "emoji": "🧈",
       "description": "butter",
       "unicode": [
@@ -29037,7 +28011,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002511",
+      "id": "002412",
       "emoji": "🧂",
       "description": "salt",
       "unicode": [
@@ -29046,7 +28020,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002512",
+      "id": "002413",
       "emoji": "🥫",
       "description": "canned food",
       "unicode": [
@@ -29055,7 +28029,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002513",
+      "id": "002414",
       "emoji": "🍱",
       "description": "bento box",
       "unicode": [
@@ -29064,7 +28038,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002514",
+      "id": "002415",
       "emoji": "🍘",
       "description": "rice cracker",
       "unicode": [
@@ -29073,7 +28047,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002515",
+      "id": "002416",
       "emoji": "🍙",
       "description": "rice ball",
       "unicode": [
@@ -29082,7 +28056,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002516",
+      "id": "002417",
       "emoji": "🍚",
       "description": "cooked rice",
       "unicode": [
@@ -29091,7 +28065,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002517",
+      "id": "002418",
       "emoji": "🍛",
       "description": "curry rice",
       "unicode": [
@@ -29100,7 +28074,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002518",
+      "id": "002419",
       "emoji": "🍜",
       "description": "steaming bowl",
       "unicode": [
@@ -29109,7 +28083,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002519",
+      "id": "002420",
       "emoji": "🍝",
       "description": "spaghetti",
       "unicode": [
@@ -29118,7 +28092,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002520",
+      "id": "002421",
       "emoji": "🍠",
       "description": "roasted sweet potato",
       "unicode": [
@@ -29127,7 +28101,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002521",
+      "id": "002422",
       "emoji": "🍢",
       "description": "oden",
       "unicode": [
@@ -29136,7 +28110,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002522",
+      "id": "002423",
       "emoji": "🍣",
       "description": "sushi",
       "unicode": [
@@ -29145,7 +28119,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002523",
+      "id": "002424",
       "emoji": "🍤",
       "description": "fried shrimp",
       "unicode": [
@@ -29154,7 +28128,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002524",
+      "id": "002425",
       "emoji": "🍥",
       "description": "fish cake with swirl",
       "unicode": [
@@ -29163,7 +28137,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002525",
+      "id": "002426",
       "emoji": "🥮",
       "description": "moon cake",
       "unicode": [
@@ -29172,7 +28146,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002526",
+      "id": "002427",
       "emoji": "🍡",
       "description": "dango",
       "unicode": [
@@ -29181,7 +28155,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002527",
+      "id": "002428",
       "emoji": "🥟",
       "description": "dumpling",
       "unicode": [
@@ -29190,7 +28164,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002528",
+      "id": "002429",
       "emoji": "🥠",
       "description": "fortune cookie",
       "unicode": [
@@ -29199,7 +28173,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002529",
+      "id": "002430",
       "emoji": "🥡",
       "description": "takeout box",
       "unicode": [
@@ -29208,7 +28182,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002530",
+      "id": "002431",
       "emoji": "🦀",
       "description": "crab",
       "unicode": [
@@ -29217,7 +28191,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002531",
+      "id": "002432",
       "emoji": "🦞",
       "description": "lobster",
       "unicode": [
@@ -29226,7 +28200,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002532",
+      "id": "002433",
       "emoji": "🦐",
       "description": "shrimp",
       "unicode": [
@@ -29235,7 +28209,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002533",
+      "id": "002434",
       "emoji": "🦑",
       "description": "squid",
       "unicode": [
@@ -29244,7 +28218,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002534",
+      "id": "002435",
       "emoji": "🦪",
       "description": "oyster",
       "unicode": [
@@ -29253,7 +28227,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002535",
+      "id": "002436",
       "emoji": "🍦",
       "description": "soft ice cream",
       "unicode": [
@@ -29262,7 +28236,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002536",
+      "id": "002437",
       "emoji": "🍧",
       "description": "shaved ice",
       "unicode": [
@@ -29271,7 +28245,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002537",
+      "id": "002438",
       "emoji": "🍨",
       "description": "ice cream",
       "unicode": [
@@ -29280,7 +28254,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002538",
+      "id": "002439",
       "emoji": "🍩",
       "description": "doughnut",
       "unicode": [
@@ -29289,7 +28263,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002539",
+      "id": "002440",
       "emoji": "🍪",
       "description": "cookie",
       "unicode": [
@@ -29298,7 +28272,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002540",
+      "id": "002441",
       "emoji": "🎂",
       "description": "birthday cake",
       "unicode": [
@@ -29307,7 +28281,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002541",
+      "id": "002442",
       "emoji": "🍰",
       "description": "shortcake",
       "unicode": [
@@ -29316,7 +28290,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002542",
+      "id": "002443",
       "emoji": "🧁",
       "description": "cupcake",
       "unicode": [
@@ -29325,7 +28299,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002543",
+      "id": "002444",
       "emoji": "🥧",
       "description": "pie",
       "unicode": [
@@ -29334,7 +28308,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002544",
+      "id": "002445",
       "emoji": "🍫",
       "description": "chocolate bar",
       "unicode": [
@@ -29343,7 +28317,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002545",
+      "id": "002446",
       "emoji": "🍬",
       "description": "candy",
       "unicode": [
@@ -29352,7 +28326,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002546",
+      "id": "002447",
       "emoji": "🍭",
       "description": "lollipop",
       "unicode": [
@@ -29361,7 +28335,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002547",
+      "id": "002448",
       "emoji": "🍮",
       "description": "custard",
       "unicode": [
@@ -29370,7 +28344,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002548",
+      "id": "002449",
       "emoji": "🍯",
       "description": "honey pot",
       "unicode": [
@@ -29379,7 +28353,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002549",
+      "id": "002450",
       "emoji": "🍼",
       "description": "baby bottle",
       "unicode": [
@@ -29388,7 +28362,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002550",
+      "id": "002451",
       "emoji": "🥛",
       "description": "glass of milk",
       "unicode": [
@@ -29397,7 +28371,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002551",
+      "id": "002452",
       "emoji": "☕",
       "description": "hot beverage",
       "unicode": [
@@ -29406,7 +28380,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002552",
+      "id": "002453",
       "emoji": "🫖",
       "description": "teapot",
       "unicode": [
@@ -29415,7 +28389,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002553",
+      "id": "002454",
       "emoji": "🍵",
       "description": "teacup without handle",
       "unicode": [
@@ -29424,7 +28398,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002554",
+      "id": "002455",
       "emoji": "🍶",
       "description": "sake",
       "unicode": [
@@ -29433,7 +28407,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002555",
+      "id": "002456",
       "emoji": "🍾",
       "description": "bottle with popping cork",
       "unicode": [
@@ -29442,7 +28416,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002556",
+      "id": "002457",
       "emoji": "🍷",
       "description": "wine glass",
       "unicode": [
@@ -29451,7 +28425,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002557",
+      "id": "002458",
       "emoji": "🍸",
       "description": "cocktail glass",
       "unicode": [
@@ -29460,7 +28434,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002558",
+      "id": "002459",
       "emoji": "🍹",
       "description": "tropical drink",
       "unicode": [
@@ -29469,7 +28443,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002559",
+      "id": "002460",
       "emoji": "🍺",
       "description": "beer mug",
       "unicode": [
@@ -29478,7 +28452,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002560",
+      "id": "002461",
       "emoji": "🍻",
       "description": "clinking beer mugs",
       "unicode": [
@@ -29487,7 +28461,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002561",
+      "id": "002462",
       "emoji": "🥂",
       "description": "clinking glasses",
       "unicode": [
@@ -29496,7 +28470,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002562",
+      "id": "002463",
       "emoji": "🥃",
       "description": "tumbler glass",
       "unicode": [
@@ -29505,16 +28479,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002563",
-      "emoji": "🫗",
-      "description": "pouring liquid",
-      "unicode": [
-        "1FAD7"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "002564",
+      "id": "002464",
       "emoji": "🥤",
       "description": "cup with straw",
       "unicode": [
@@ -29523,7 +28488,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002565",
+      "id": "002465",
       "emoji": "🧋",
       "description": "bubble tea",
       "unicode": [
@@ -29532,7 +28497,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002566",
+      "id": "002466",
       "emoji": "🧃",
       "description": "beverage box",
       "unicode": [
@@ -29541,7 +28506,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002567",
+      "id": "002467",
       "emoji": "🧉",
       "description": "mate",
       "unicode": [
@@ -29550,7 +28515,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002568",
+      "id": "002468",
       "emoji": "🧊",
       "description": "ice",
       "unicode": [
@@ -29559,7 +28524,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002569",
+      "id": "002469",
       "emoji": "🥢",
       "description": "chopsticks",
       "unicode": [
@@ -29568,7 +28533,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002570",
+      "id": "002470",
       "emoji": "🍽️",
       "description": "fork and knife with plate",
       "unicode": [
@@ -29578,7 +28543,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002571",
+      "id": "002471",
       "emoji": "🍴",
       "description": "fork and knife",
       "unicode": [
@@ -29587,7 +28552,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002572",
+      "id": "002472",
       "emoji": "🥄",
       "description": "spoon",
       "unicode": [
@@ -29596,7 +28561,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002573",
+      "id": "002473",
       "emoji": "🔪",
       "description": "kitchen knife",
       "unicode": [
@@ -29605,16 +28570,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002574",
-      "emoji": "🫙",
-      "description": "jar",
-      "unicode": [
-        "1FAD9"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "002575",
+      "id": "002474",
       "emoji": "🏺",
       "description": "amphora",
       "unicode": [
@@ -29623,7 +28579,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002576",
+      "id": "002475",
       "emoji": "🌍",
       "description": "globe showing Europe-Africa",
       "unicode": [
@@ -29632,7 +28588,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002577",
+      "id": "002476",
       "emoji": "🌎",
       "description": "globe showing Americas",
       "unicode": [
@@ -29641,7 +28597,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002578",
+      "id": "002477",
       "emoji": "🌏",
       "description": "globe showing Asia-Australia",
       "unicode": [
@@ -29650,7 +28606,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002579",
+      "id": "002478",
       "emoji": "🌐",
       "description": "globe with meridians",
       "unicode": [
@@ -29659,7 +28615,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002580",
+      "id": "002479",
       "emoji": "🗺️",
       "description": "world map",
       "unicode": [
@@ -29669,7 +28625,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002581",
+      "id": "002480",
       "emoji": "🗾",
       "description": "map of Japan",
       "unicode": [
@@ -29678,7 +28634,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002582",
+      "id": "002481",
       "emoji": "🧭",
       "description": "compass",
       "unicode": [
@@ -29687,7 +28643,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002583",
+      "id": "002482",
       "emoji": "🏔️",
       "description": "snow-capped mountain",
       "unicode": [
@@ -29697,7 +28653,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002584",
+      "id": "002483",
       "emoji": "⛰️",
       "description": "mountain",
       "unicode": [
@@ -29707,7 +28663,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002585",
+      "id": "002484",
       "emoji": "🌋",
       "description": "volcano",
       "unicode": [
@@ -29716,7 +28672,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002586",
+      "id": "002485",
       "emoji": "🗻",
       "description": "mount fuji",
       "unicode": [
@@ -29725,7 +28681,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002587",
+      "id": "002486",
       "emoji": "🏕️",
       "description": "camping",
       "unicode": [
@@ -29735,7 +28691,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002588",
+      "id": "002487",
       "emoji": "🏖️",
       "description": "beach with umbrella",
       "unicode": [
@@ -29745,7 +28701,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002589",
+      "id": "002488",
       "emoji": "🏜️",
       "description": "desert",
       "unicode": [
@@ -29755,7 +28711,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002590",
+      "id": "002489",
       "emoji": "🏝️",
       "description": "desert island",
       "unicode": [
@@ -29765,7 +28721,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002591",
+      "id": "002490",
       "emoji": "🏞️",
       "description": "national park",
       "unicode": [
@@ -29775,7 +28731,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002592",
+      "id": "002491",
       "emoji": "🏟️",
       "description": "stadium",
       "unicode": [
@@ -29785,7 +28741,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002593",
+      "id": "002492",
       "emoji": "🏛️",
       "description": "classical building",
       "unicode": [
@@ -29795,7 +28751,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002594",
+      "id": "002493",
       "emoji": "🏗️",
       "description": "building construction",
       "unicode": [
@@ -29805,7 +28761,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002595",
+      "id": "002494",
       "emoji": "🧱",
       "description": "brick",
       "unicode": [
@@ -29814,7 +28770,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002596",
+      "id": "002495",
       "emoji": "🪨",
       "description": "rock",
       "unicode": [
@@ -29823,7 +28779,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002597",
+      "id": "002496",
       "emoji": "🪵",
       "description": "wood",
       "unicode": [
@@ -29832,7 +28788,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002598",
+      "id": "002497",
       "emoji": "🛖",
       "description": "hut",
       "unicode": [
@@ -29841,7 +28797,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002599",
+      "id": "002498",
       "emoji": "🏘️",
       "description": "houses",
       "unicode": [
@@ -29851,7 +28807,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002600",
+      "id": "002499",
       "emoji": "🏚️",
       "description": "derelict house",
       "unicode": [
@@ -29861,7 +28817,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002601",
+      "id": "002500",
       "emoji": "🏠",
       "description": "house",
       "unicode": [
@@ -29870,7 +28826,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002602",
+      "id": "002501",
       "emoji": "🏡",
       "description": "house with garden",
       "unicode": [
@@ -29879,7 +28835,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002603",
+      "id": "002502",
       "emoji": "🏢",
       "description": "office building",
       "unicode": [
@@ -29888,7 +28844,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002604",
+      "id": "002503",
       "emoji": "🏣",
       "description": "Japanese post office",
       "unicode": [
@@ -29897,7 +28853,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002605",
+      "id": "002504",
       "emoji": "🏤",
       "description": "post office",
       "unicode": [
@@ -29906,7 +28862,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002606",
+      "id": "002505",
       "emoji": "🏥",
       "description": "hospital",
       "unicode": [
@@ -29915,7 +28871,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002607",
+      "id": "002506",
       "emoji": "🏦",
       "description": "bank",
       "unicode": [
@@ -29924,7 +28880,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002608",
+      "id": "002507",
       "emoji": "🏨",
       "description": "hotel",
       "unicode": [
@@ -29933,7 +28889,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002609",
+      "id": "002508",
       "emoji": "🏩",
       "description": "love hotel",
       "unicode": [
@@ -29942,7 +28898,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002610",
+      "id": "002509",
       "emoji": "🏪",
       "description": "convenience store",
       "unicode": [
@@ -29951,7 +28907,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002611",
+      "id": "002510",
       "emoji": "🏫",
       "description": "school",
       "unicode": [
@@ -29960,7 +28916,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002612",
+      "id": "002511",
       "emoji": "🏬",
       "description": "department store",
       "unicode": [
@@ -29969,7 +28925,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002613",
+      "id": "002512",
       "emoji": "🏭",
       "description": "factory",
       "unicode": [
@@ -29978,7 +28934,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002614",
+      "id": "002513",
       "emoji": "🏯",
       "description": "Japanese castle",
       "unicode": [
@@ -29987,7 +28943,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002615",
+      "id": "002514",
       "emoji": "🏰",
       "description": "castle",
       "unicode": [
@@ -29996,7 +28952,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002616",
+      "id": "002515",
       "emoji": "💒",
       "description": "wedding",
       "unicode": [
@@ -30005,7 +28961,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002617",
+      "id": "002516",
       "emoji": "🗼",
       "description": "Tokyo tower",
       "unicode": [
@@ -30014,7 +28970,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002618",
+      "id": "002517",
       "emoji": "🗽",
       "description": "Statue of Liberty",
       "unicode": [
@@ -30023,7 +28979,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002619",
+      "id": "002518",
       "emoji": "⛪",
       "description": "church",
       "unicode": [
@@ -30032,7 +28988,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002620",
+      "id": "002519",
       "emoji": "🕌",
       "description": "mosque",
       "unicode": [
@@ -30041,7 +28997,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002621",
+      "id": "002520",
       "emoji": "🛕",
       "description": "hindu temple",
       "unicode": [
@@ -30050,7 +29006,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002622",
+      "id": "002521",
       "emoji": "🕍",
       "description": "synagogue",
       "unicode": [
@@ -30059,7 +29015,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002623",
+      "id": "002522",
       "emoji": "⛩️",
       "description": "shinto shrine",
       "unicode": [
@@ -30069,7 +29025,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002624",
+      "id": "002523",
       "emoji": "🕋",
       "description": "kaaba",
       "unicode": [
@@ -30078,7 +29034,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002625",
+      "id": "002524",
       "emoji": "⛲",
       "description": "fountain",
       "unicode": [
@@ -30087,7 +29043,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002626",
+      "id": "002525",
       "emoji": "⛺",
       "description": "tent",
       "unicode": [
@@ -30096,7 +29052,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002627",
+      "id": "002526",
       "emoji": "🌁",
       "description": "foggy",
       "unicode": [
@@ -30105,7 +29061,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002628",
+      "id": "002527",
       "emoji": "🌃",
       "description": "night with stars",
       "unicode": [
@@ -30114,7 +29070,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002629",
+      "id": "002528",
       "emoji": "🏙️",
       "description": "cityscape",
       "unicode": [
@@ -30124,7 +29080,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002630",
+      "id": "002529",
       "emoji": "🌄",
       "description": "sunrise over mountains",
       "unicode": [
@@ -30133,7 +29089,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002631",
+      "id": "002530",
       "emoji": "🌅",
       "description": "sunrise",
       "unicode": [
@@ -30142,7 +29098,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002632",
+      "id": "002531",
       "emoji": "🌆",
       "description": "cityscape at dusk",
       "unicode": [
@@ -30151,7 +29107,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002633",
+      "id": "002532",
       "emoji": "🌇",
       "description": "sunset",
       "unicode": [
@@ -30160,7 +29116,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002634",
+      "id": "002533",
       "emoji": "🌉",
       "description": "bridge at night",
       "unicode": [
@@ -30169,7 +29125,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002635",
+      "id": "002534",
       "emoji": "♨️",
       "description": "hot springs",
       "unicode": [
@@ -30179,7 +29135,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002636",
+      "id": "002535",
       "emoji": "🎠",
       "description": "carousel horse",
       "unicode": [
@@ -30188,16 +29144,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002637",
-      "emoji": "🛝",
-      "description": "playground slide",
-      "unicode": [
-        "1F6DD"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "002638",
+      "id": "002536",
       "emoji": "🎡",
       "description": "ferris wheel",
       "unicode": [
@@ -30206,7 +29153,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002639",
+      "id": "002537",
       "emoji": "🎢",
       "description": "roller coaster",
       "unicode": [
@@ -30215,7 +29162,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002640",
+      "id": "002538",
       "emoji": "💈",
       "description": "barber pole",
       "unicode": [
@@ -30224,7 +29171,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002641",
+      "id": "002539",
       "emoji": "🎪",
       "description": "circus tent",
       "unicode": [
@@ -30233,7 +29180,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002642",
+      "id": "002540",
       "emoji": "🚂",
       "description": "locomotive",
       "unicode": [
@@ -30242,7 +29189,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002643",
+      "id": "002541",
       "emoji": "🚃",
       "description": "railway car",
       "unicode": [
@@ -30251,7 +29198,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002644",
+      "id": "002542",
       "emoji": "🚄",
       "description": "high-speed train",
       "unicode": [
@@ -30260,7 +29207,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002645",
+      "id": "002543",
       "emoji": "🚅",
       "description": "bullet train",
       "unicode": [
@@ -30269,7 +29216,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002646",
+      "id": "002544",
       "emoji": "🚆",
       "description": "train",
       "unicode": [
@@ -30278,7 +29225,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002647",
+      "id": "002545",
       "emoji": "🚇",
       "description": "metro",
       "unicode": [
@@ -30287,7 +29234,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002648",
+      "id": "002546",
       "emoji": "🚈",
       "description": "light rail",
       "unicode": [
@@ -30296,7 +29243,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002649",
+      "id": "002547",
       "emoji": "🚉",
       "description": "station",
       "unicode": [
@@ -30305,7 +29252,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002650",
+      "id": "002548",
       "emoji": "🚊",
       "description": "tram",
       "unicode": [
@@ -30314,7 +29261,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002651",
+      "id": "002549",
       "emoji": "🚝",
       "description": "monorail",
       "unicode": [
@@ -30323,7 +29270,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002652",
+      "id": "002550",
       "emoji": "🚞",
       "description": "mountain railway",
       "unicode": [
@@ -30332,7 +29279,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002653",
+      "id": "002551",
       "emoji": "🚋",
       "description": "tram car",
       "unicode": [
@@ -30341,7 +29288,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002654",
+      "id": "002552",
       "emoji": "🚌",
       "description": "bus",
       "unicode": [
@@ -30350,7 +29297,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002655",
+      "id": "002553",
       "emoji": "🚍",
       "description": "oncoming bus",
       "unicode": [
@@ -30359,7 +29306,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002656",
+      "id": "002554",
       "emoji": "🚎",
       "description": "trolleybus",
       "unicode": [
@@ -30368,7 +29315,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002657",
+      "id": "002555",
       "emoji": "🚐",
       "description": "minibus",
       "unicode": [
@@ -30377,7 +29324,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002658",
+      "id": "002556",
       "emoji": "🚑",
       "description": "ambulance",
       "unicode": [
@@ -30386,7 +29333,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002659",
+      "id": "002557",
       "emoji": "🚒",
       "description": "fire engine",
       "unicode": [
@@ -30395,7 +29342,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002660",
+      "id": "002558",
       "emoji": "🚓",
       "description": "police car",
       "unicode": [
@@ -30404,7 +29351,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002661",
+      "id": "002559",
       "emoji": "🚔",
       "description": "oncoming police car",
       "unicode": [
@@ -30413,7 +29360,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002662",
+      "id": "002560",
       "emoji": "🚕",
       "description": "taxi",
       "unicode": [
@@ -30422,7 +29369,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002663",
+      "id": "002561",
       "emoji": "🚖",
       "description": "oncoming taxi",
       "unicode": [
@@ -30431,7 +29378,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002664",
+      "id": "002562",
       "emoji": "🚗",
       "description": "automobile",
       "unicode": [
@@ -30440,7 +29387,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002665",
+      "id": "002563",
       "emoji": "🚘",
       "description": "oncoming automobile",
       "unicode": [
@@ -30449,7 +29396,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002666",
+      "id": "002564",
       "emoji": "🚙",
       "description": "sport utility vehicle",
       "unicode": [
@@ -30458,7 +29405,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002667",
+      "id": "002565",
       "emoji": "🛻",
       "description": "pickup truck",
       "unicode": [
@@ -30467,7 +29414,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002668",
+      "id": "002566",
       "emoji": "🚚",
       "description": "delivery truck",
       "unicode": [
@@ -30476,7 +29423,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002669",
+      "id": "002567",
       "emoji": "🚛",
       "description": "articulated lorry",
       "unicode": [
@@ -30485,7 +29432,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002670",
+      "id": "002568",
       "emoji": "🚜",
       "description": "tractor",
       "unicode": [
@@ -30494,7 +29441,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002671",
+      "id": "002569",
       "emoji": "🏎️",
       "description": "racing car",
       "unicode": [
@@ -30504,7 +29451,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002672",
+      "id": "002570",
       "emoji": "🏍️",
       "description": "motorcycle",
       "unicode": [
@@ -30514,7 +29461,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002673",
+      "id": "002571",
       "emoji": "🛵",
       "description": "motor scooter",
       "unicode": [
@@ -30523,7 +29470,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002674",
+      "id": "002572",
       "emoji": "🦽",
       "description": "manual wheelchair",
       "unicode": [
@@ -30532,7 +29479,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002675",
+      "id": "002573",
       "emoji": "🦼",
       "description": "motorized wheelchair",
       "unicode": [
@@ -30541,7 +29488,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002676",
+      "id": "002574",
       "emoji": "🛺",
       "description": "auto rickshaw",
       "unicode": [
@@ -30550,7 +29497,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002677",
+      "id": "002575",
       "emoji": "🚲",
       "description": "bicycle",
       "unicode": [
@@ -30559,7 +29506,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002678",
+      "id": "002576",
       "emoji": "🛴",
       "description": "kick scooter",
       "unicode": [
@@ -30568,7 +29515,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002679",
+      "id": "002577",
       "emoji": "🛹",
       "description": "skateboard",
       "unicode": [
@@ -30577,7 +29524,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002680",
+      "id": "002578",
       "emoji": "🛼",
       "description": "roller skate",
       "unicode": [
@@ -30586,7 +29533,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002681",
+      "id": "002579",
       "emoji": "🚏",
       "description": "bus stop",
       "unicode": [
@@ -30595,7 +29542,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002682",
+      "id": "002580",
       "emoji": "🛣️",
       "description": "motorway",
       "unicode": [
@@ -30605,7 +29552,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002683",
+      "id": "002581",
       "emoji": "🛤️",
       "description": "railway track",
       "unicode": [
@@ -30615,7 +29562,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002684",
+      "id": "002582",
       "emoji": "🛢️",
       "description": "oil drum",
       "unicode": [
@@ -30625,7 +29572,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002685",
+      "id": "002583",
       "emoji": "⛽",
       "description": "fuel pump",
       "unicode": [
@@ -30634,16 +29581,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002686",
-      "emoji": "🛞",
-      "description": "wheel",
-      "unicode": [
-        "1F6DE"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "002687",
+      "id": "002584",
       "emoji": "🚨",
       "description": "police car light",
       "unicode": [
@@ -30652,7 +29590,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002688",
+      "id": "002585",
       "emoji": "🚥",
       "description": "horizontal traffic light",
       "unicode": [
@@ -30661,7 +29599,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002689",
+      "id": "002586",
       "emoji": "🚦",
       "description": "vertical traffic light",
       "unicode": [
@@ -30670,7 +29608,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002690",
+      "id": "002587",
       "emoji": "🛑",
       "description": "stop sign",
       "unicode": [
@@ -30679,7 +29617,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002691",
+      "id": "002588",
       "emoji": "🚧",
       "description": "construction",
       "unicode": [
@@ -30688,7 +29626,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002692",
+      "id": "002589",
       "emoji": "⚓",
       "description": "anchor",
       "unicode": [
@@ -30697,16 +29635,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002693",
-      "emoji": "🛟",
-      "description": "ring buoy",
-      "unicode": [
-        "1F6DF"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "002694",
+      "id": "002590",
       "emoji": "⛵",
       "description": "sailboat",
       "unicode": [
@@ -30715,7 +29644,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002695",
+      "id": "002591",
       "emoji": "🛶",
       "description": "canoe",
       "unicode": [
@@ -30724,7 +29653,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002696",
+      "id": "002592",
       "emoji": "🚤",
       "description": "speedboat",
       "unicode": [
@@ -30733,7 +29662,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002697",
+      "id": "002593",
       "emoji": "🛳️",
       "description": "passenger ship",
       "unicode": [
@@ -30743,7 +29672,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002698",
+      "id": "002594",
       "emoji": "⛴️",
       "description": "ferry",
       "unicode": [
@@ -30753,7 +29682,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002699",
+      "id": "002595",
       "emoji": "🛥️",
       "description": "motor boat",
       "unicode": [
@@ -30763,7 +29692,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002700",
+      "id": "002596",
       "emoji": "🚢",
       "description": "ship",
       "unicode": [
@@ -30772,7 +29701,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002701",
+      "id": "002597",
       "emoji": "✈️",
       "description": "airplane",
       "unicode": [
@@ -30782,7 +29711,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002702",
+      "id": "002598",
       "emoji": "🛩️",
       "description": "small airplane",
       "unicode": [
@@ -30792,7 +29721,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002703",
+      "id": "002599",
       "emoji": "🛫",
       "description": "airplane departure",
       "unicode": [
@@ -30801,7 +29730,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002704",
+      "id": "002600",
       "emoji": "🛬",
       "description": "airplane arrival",
       "unicode": [
@@ -30810,7 +29739,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002705",
+      "id": "002601",
       "emoji": "🪂",
       "description": "parachute",
       "unicode": [
@@ -30819,7 +29748,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002706",
+      "id": "002602",
       "emoji": "💺",
       "description": "seat",
       "unicode": [
@@ -30828,7 +29757,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002707",
+      "id": "002603",
       "emoji": "🚁",
       "description": "helicopter",
       "unicode": [
@@ -30837,7 +29766,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002708",
+      "id": "002604",
       "emoji": "🚟",
       "description": "suspension railway",
       "unicode": [
@@ -30846,7 +29775,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002709",
+      "id": "002605",
       "emoji": "🚠",
       "description": "mountain cableway",
       "unicode": [
@@ -30855,7 +29784,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002710",
+      "id": "002606",
       "emoji": "🚡",
       "description": "aerial tramway",
       "unicode": [
@@ -30864,7 +29793,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002711",
+      "id": "002607",
       "emoji": "🛰️",
       "description": "satellite",
       "unicode": [
@@ -30874,7 +29803,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002712",
+      "id": "002608",
       "emoji": "🚀",
       "description": "rocket",
       "unicode": [
@@ -30883,7 +29812,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002713",
+      "id": "002609",
       "emoji": "🛸",
       "description": "flying saucer",
       "unicode": [
@@ -30892,7 +29821,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002714",
+      "id": "002610",
       "emoji": "🛎️",
       "description": "bellhop bell",
       "unicode": [
@@ -30902,7 +29831,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002715",
+      "id": "002611",
       "emoji": "🧳",
       "description": "luggage",
       "unicode": [
@@ -30911,7 +29840,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002716",
+      "id": "002612",
       "emoji": "⌛",
       "description": "hourglass done",
       "unicode": [
@@ -30920,7 +29849,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002717",
+      "id": "002613",
       "emoji": "⏳",
       "description": "hourglass not done",
       "unicode": [
@@ -30929,7 +29858,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002718",
+      "id": "002614",
       "emoji": "⌚",
       "description": "watch",
       "unicode": [
@@ -30938,7 +29867,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002719",
+      "id": "002615",
       "emoji": "⏰",
       "description": "alarm clock",
       "unicode": [
@@ -30947,7 +29876,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002720",
+      "id": "002616",
       "emoji": "⏱️",
       "description": "stopwatch",
       "unicode": [
@@ -30957,7 +29886,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002721",
+      "id": "002617",
       "emoji": "⏲️",
       "description": "timer clock",
       "unicode": [
@@ -30967,7 +29896,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002722",
+      "id": "002618",
       "emoji": "🕰️",
       "description": "mantelpiece clock",
       "unicode": [
@@ -30977,7 +29906,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002723",
+      "id": "002619",
       "emoji": "🕛",
       "description": "twelve o’clock",
       "unicode": [
@@ -30986,7 +29915,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002724",
+      "id": "002620",
       "emoji": "🕧",
       "description": "twelve-thirty",
       "unicode": [
@@ -30995,7 +29924,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002725",
+      "id": "002621",
       "emoji": "🕐",
       "description": "one o’clock",
       "unicode": [
@@ -31004,7 +29933,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002726",
+      "id": "002622",
       "emoji": "🕜",
       "description": "one-thirty",
       "unicode": [
@@ -31013,7 +29942,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002727",
+      "id": "002623",
       "emoji": "🕑",
       "description": "two o’clock",
       "unicode": [
@@ -31022,7 +29951,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002728",
+      "id": "002624",
       "emoji": "🕝",
       "description": "two-thirty",
       "unicode": [
@@ -31031,7 +29960,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002729",
+      "id": "002625",
       "emoji": "🕒",
       "description": "three o’clock",
       "unicode": [
@@ -31040,7 +29969,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002730",
+      "id": "002626",
       "emoji": "🕞",
       "description": "three-thirty",
       "unicode": [
@@ -31049,7 +29978,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002731",
+      "id": "002627",
       "emoji": "🕓",
       "description": "four o’clock",
       "unicode": [
@@ -31058,7 +29987,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002732",
+      "id": "002628",
       "emoji": "🕟",
       "description": "four-thirty",
       "unicode": [
@@ -31067,7 +29996,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002733",
+      "id": "002629",
       "emoji": "🕔",
       "description": "five o’clock",
       "unicode": [
@@ -31076,7 +30005,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002734",
+      "id": "002630",
       "emoji": "🕠",
       "description": "five-thirty",
       "unicode": [
@@ -31085,7 +30014,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002735",
+      "id": "002631",
       "emoji": "🕕",
       "description": "six o’clock",
       "unicode": [
@@ -31094,7 +30023,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002736",
+      "id": "002632",
       "emoji": "🕡",
       "description": "six-thirty",
       "unicode": [
@@ -31103,7 +30032,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002737",
+      "id": "002633",
       "emoji": "🕖",
       "description": "seven o’clock",
       "unicode": [
@@ -31112,7 +30041,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002738",
+      "id": "002634",
       "emoji": "🕢",
       "description": "seven-thirty",
       "unicode": [
@@ -31121,7 +30050,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002739",
+      "id": "002635",
       "emoji": "🕗",
       "description": "eight o’clock",
       "unicode": [
@@ -31130,7 +30059,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002740",
+      "id": "002636",
       "emoji": "🕣",
       "description": "eight-thirty",
       "unicode": [
@@ -31139,7 +30068,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002741",
+      "id": "002637",
       "emoji": "🕘",
       "description": "nine o’clock",
       "unicode": [
@@ -31148,7 +30077,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002742",
+      "id": "002638",
       "emoji": "🕤",
       "description": "nine-thirty",
       "unicode": [
@@ -31157,7 +30086,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002743",
+      "id": "002639",
       "emoji": "🕙",
       "description": "ten o’clock",
       "unicode": [
@@ -31166,7 +30095,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002744",
+      "id": "002640",
       "emoji": "🕥",
       "description": "ten-thirty",
       "unicode": [
@@ -31175,7 +30104,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002745",
+      "id": "002641",
       "emoji": "🕚",
       "description": "eleven o’clock",
       "unicode": [
@@ -31184,7 +30113,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002746",
+      "id": "002642",
       "emoji": "🕦",
       "description": "eleven-thirty",
       "unicode": [
@@ -31193,7 +30122,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002747",
+      "id": "002643",
       "emoji": "🌑",
       "description": "new moon",
       "unicode": [
@@ -31202,7 +30131,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002748",
+      "id": "002644",
       "emoji": "🌒",
       "description": "waxing crescent moon",
       "unicode": [
@@ -31211,7 +30140,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002749",
+      "id": "002645",
       "emoji": "🌓",
       "description": "first quarter moon",
       "unicode": [
@@ -31220,7 +30149,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002750",
+      "id": "002646",
       "emoji": "🌔",
       "description": "waxing gibbous moon",
       "unicode": [
@@ -31229,7 +30158,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002751",
+      "id": "002647",
       "emoji": "🌕",
       "description": "full moon",
       "unicode": [
@@ -31238,7 +30167,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002752",
+      "id": "002648",
       "emoji": "🌖",
       "description": "waning gibbous moon",
       "unicode": [
@@ -31247,7 +30176,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002753",
+      "id": "002649",
       "emoji": "🌗",
       "description": "last quarter moon",
       "unicode": [
@@ -31256,7 +30185,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002754",
+      "id": "002650",
       "emoji": "🌘",
       "description": "waning crescent moon",
       "unicode": [
@@ -31265,7 +30194,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002755",
+      "id": "002651",
       "emoji": "🌙",
       "description": "crescent moon",
       "unicode": [
@@ -31274,7 +30203,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002756",
+      "id": "002652",
       "emoji": "🌚",
       "description": "new moon face",
       "unicode": [
@@ -31283,7 +30212,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002757",
+      "id": "002653",
       "emoji": "🌛",
       "description": "first quarter moon face",
       "unicode": [
@@ -31292,7 +30221,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002758",
+      "id": "002654",
       "emoji": "🌜",
       "description": "last quarter moon face",
       "unicode": [
@@ -31301,7 +30230,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002759",
+      "id": "002655",
       "emoji": "🌡️",
       "description": "thermometer",
       "unicode": [
@@ -31311,7 +30240,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002760",
+      "id": "002656",
       "emoji": "☀️",
       "description": "sun",
       "unicode": [
@@ -31321,7 +30250,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002761",
+      "id": "002657",
       "emoji": "🌝",
       "description": "full moon face",
       "unicode": [
@@ -31330,7 +30259,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002762",
+      "id": "002658",
       "emoji": "🌞",
       "description": "sun with face",
       "unicode": [
@@ -31339,7 +30268,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002763",
+      "id": "002659",
       "emoji": "🪐",
       "description": "ringed planet",
       "unicode": [
@@ -31348,7 +30277,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002764",
+      "id": "002660",
       "emoji": "⭐",
       "description": "star",
       "unicode": [
@@ -31357,7 +30286,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002765",
+      "id": "002661",
       "emoji": "🌟",
       "description": "glowing star",
       "unicode": [
@@ -31366,7 +30295,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002766",
+      "id": "002662",
       "emoji": "🌠",
       "description": "shooting star",
       "unicode": [
@@ -31375,7 +30304,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002767",
+      "id": "002663",
       "emoji": "🌌",
       "description": "milky way",
       "unicode": [
@@ -31384,7 +30313,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002768",
+      "id": "002664",
       "emoji": "☁️",
       "description": "cloud",
       "unicode": [
@@ -31394,7 +30323,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002769",
+      "id": "002665",
       "emoji": "⛅",
       "description": "sun behind cloud",
       "unicode": [
@@ -31403,7 +30332,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002770",
+      "id": "002666",
       "emoji": "⛈️",
       "description": "cloud with lightning and rain",
       "unicode": [
@@ -31413,7 +30342,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002771",
+      "id": "002667",
       "emoji": "🌤️",
       "description": "sun behind small cloud",
       "unicode": [
@@ -31423,7 +30352,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002772",
+      "id": "002668",
       "emoji": "🌥️",
       "description": "sun behind large cloud",
       "unicode": [
@@ -31433,7 +30362,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002773",
+      "id": "002669",
       "emoji": "🌦️",
       "description": "sun behind rain cloud",
       "unicode": [
@@ -31443,7 +30372,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002774",
+      "id": "002670",
       "emoji": "🌧️",
       "description": "cloud with rain",
       "unicode": [
@@ -31453,7 +30382,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002775",
+      "id": "002671",
       "emoji": "🌨️",
       "description": "cloud with snow",
       "unicode": [
@@ -31463,7 +30392,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002776",
+      "id": "002672",
       "emoji": "🌩️",
       "description": "cloud with lightning",
       "unicode": [
@@ -31473,7 +30402,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002777",
+      "id": "002673",
       "emoji": "🌪️",
       "description": "tornado",
       "unicode": [
@@ -31483,7 +30412,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002778",
+      "id": "002674",
       "emoji": "🌫️",
       "description": "fog",
       "unicode": [
@@ -31493,7 +30422,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002779",
+      "id": "002675",
       "emoji": "🌬️",
       "description": "wind face",
       "unicode": [
@@ -31503,7 +30432,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002780",
+      "id": "002676",
       "emoji": "🌀",
       "description": "cyclone",
       "unicode": [
@@ -31512,7 +30441,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002781",
+      "id": "002677",
       "emoji": "🌈",
       "description": "rainbow",
       "unicode": [
@@ -31521,7 +30450,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002782",
+      "id": "002678",
       "emoji": "🌂",
       "description": "closed umbrella",
       "unicode": [
@@ -31530,7 +30459,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002783",
+      "id": "002679",
       "emoji": "☂️",
       "description": "umbrella",
       "unicode": [
@@ -31540,7 +30469,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002784",
+      "id": "002680",
       "emoji": "☔",
       "description": "umbrella with rain drops",
       "unicode": [
@@ -31549,7 +30478,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002785",
+      "id": "002681",
       "emoji": "⛱️",
       "description": "umbrella on ground",
       "unicode": [
@@ -31559,7 +30488,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002786",
+      "id": "002682",
       "emoji": "⚡",
       "description": "high voltage",
       "unicode": [
@@ -31568,7 +30497,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002787",
+      "id": "002683",
       "emoji": "❄️",
       "description": "snowflake",
       "unicode": [
@@ -31578,7 +30507,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002788",
+      "id": "002684",
       "emoji": "☃️",
       "description": "snowman",
       "unicode": [
@@ -31588,7 +30517,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002789",
+      "id": "002685",
       "emoji": "⛄",
       "description": "snowman without snow",
       "unicode": [
@@ -31597,7 +30526,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002790",
+      "id": "002686",
       "emoji": "☄️",
       "description": "comet",
       "unicode": [
@@ -31607,7 +30536,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002791",
+      "id": "002687",
       "emoji": "🔥",
       "description": "fire",
       "unicode": [
@@ -31616,7 +30545,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002792",
+      "id": "002688",
       "emoji": "💧",
       "description": "droplet",
       "unicode": [
@@ -31625,7 +30554,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002793",
+      "id": "002689",
       "emoji": "🌊",
       "description": "water wave",
       "unicode": [
@@ -31634,7 +30563,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002794",
+      "id": "002690",
       "emoji": "🎃",
       "description": "jack-o-lantern",
       "unicode": [
@@ -31643,7 +30572,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002795",
+      "id": "002691",
       "emoji": "🎄",
       "description": "Christmas tree",
       "unicode": [
@@ -31652,7 +30581,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002796",
+      "id": "002692",
       "emoji": "🎆",
       "description": "fireworks",
       "unicode": [
@@ -31661,7 +30590,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002797",
+      "id": "002693",
       "emoji": "🎇",
       "description": "sparkler",
       "unicode": [
@@ -31670,7 +30599,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002798",
+      "id": "002694",
       "emoji": "🧨",
       "description": "firecracker",
       "unicode": [
@@ -31679,7 +30608,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002799",
+      "id": "002695",
       "emoji": "✨",
       "description": "sparkles",
       "unicode": [
@@ -31688,7 +30617,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002800",
+      "id": "002696",
       "emoji": "🎈",
       "description": "balloon",
       "unicode": [
@@ -31697,7 +30626,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002801",
+      "id": "002697",
       "emoji": "🎉",
       "description": "party popper",
       "unicode": [
@@ -31706,7 +30635,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002802",
+      "id": "002698",
       "emoji": "🎊",
       "description": "confetti ball",
       "unicode": [
@@ -31715,7 +30644,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002803",
+      "id": "002699",
       "emoji": "🎋",
       "description": "tanabata tree",
       "unicode": [
@@ -31724,7 +30653,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002804",
+      "id": "002700",
       "emoji": "🎍",
       "description": "pine decoration",
       "unicode": [
@@ -31733,7 +30662,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002805",
+      "id": "002701",
       "emoji": "🎎",
       "description": "Japanese dolls",
       "unicode": [
@@ -31742,7 +30671,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002806",
+      "id": "002702",
       "emoji": "🎏",
       "description": "carp streamer",
       "unicode": [
@@ -31751,7 +30680,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002807",
+      "id": "002703",
       "emoji": "🎐",
       "description": "wind chime",
       "unicode": [
@@ -31760,7 +30689,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002808",
+      "id": "002704",
       "emoji": "🎑",
       "description": "moon viewing ceremony",
       "unicode": [
@@ -31769,7 +30698,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002809",
+      "id": "002705",
       "emoji": "🧧",
       "description": "red envelope",
       "unicode": [
@@ -31778,7 +30707,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002810",
+      "id": "002706",
       "emoji": "🎀",
       "description": "ribbon",
       "unicode": [
@@ -31787,7 +30716,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002811",
+      "id": "002707",
       "emoji": "🎁",
       "description": "wrapped gift",
       "unicode": [
@@ -31796,7 +30725,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002812",
+      "id": "002708",
       "emoji": "🎗️",
       "description": "reminder ribbon",
       "unicode": [
@@ -31806,7 +30735,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002813",
+      "id": "002709",
       "emoji": "🎟️",
       "description": "admission tickets",
       "unicode": [
@@ -31816,7 +30745,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002814",
+      "id": "002710",
       "emoji": "🎫",
       "description": "ticket",
       "unicode": [
@@ -31825,7 +30754,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002815",
+      "id": "002711",
       "emoji": "🎖️",
       "description": "military medal",
       "unicode": [
@@ -31835,7 +30764,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002816",
+      "id": "002712",
       "emoji": "🏆",
       "description": "trophy",
       "unicode": [
@@ -31844,7 +30773,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002817",
+      "id": "002713",
       "emoji": "🏅",
       "description": "sports medal",
       "unicode": [
@@ -31853,7 +30782,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002818",
+      "id": "002714",
       "emoji": "🥇",
       "description": "1st place medal",
       "unicode": [
@@ -31862,7 +30791,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002819",
+      "id": "002715",
       "emoji": "🥈",
       "description": "2nd place medal",
       "unicode": [
@@ -31871,7 +30800,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002820",
+      "id": "002716",
       "emoji": "🥉",
       "description": "3rd place medal",
       "unicode": [
@@ -31880,7 +30809,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002821",
+      "id": "002717",
       "emoji": "⚽",
       "description": "soccer ball",
       "unicode": [
@@ -31889,7 +30818,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002822",
+      "id": "002718",
       "emoji": "⚾",
       "description": "baseball",
       "unicode": [
@@ -31898,7 +30827,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002823",
+      "id": "002719",
       "emoji": "🥎",
       "description": "softball",
       "unicode": [
@@ -31907,7 +30836,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002824",
+      "id": "002720",
       "emoji": "🏀",
       "description": "basketball",
       "unicode": [
@@ -31916,7 +30845,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002825",
+      "id": "002721",
       "emoji": "🏐",
       "description": "volleyball",
       "unicode": [
@@ -31925,7 +30854,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002826",
+      "id": "002722",
       "emoji": "🏈",
       "description": "american football",
       "unicode": [
@@ -31934,7 +30863,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002827",
+      "id": "002723",
       "emoji": "🏉",
       "description": "rugby football",
       "unicode": [
@@ -31943,7 +30872,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002828",
+      "id": "002724",
       "emoji": "🎾",
       "description": "tennis",
       "unicode": [
@@ -31952,7 +30881,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002829",
+      "id": "002725",
       "emoji": "🥏",
       "description": "flying disc",
       "unicode": [
@@ -31961,7 +30890,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002830",
+      "id": "002726",
       "emoji": "🎳",
       "description": "bowling",
       "unicode": [
@@ -31970,7 +30899,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002831",
+      "id": "002727",
       "emoji": "🏏",
       "description": "cricket game",
       "unicode": [
@@ -31979,7 +30908,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002832",
+      "id": "002728",
       "emoji": "🏑",
       "description": "field hockey",
       "unicode": [
@@ -31988,7 +30917,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002833",
+      "id": "002729",
       "emoji": "🏒",
       "description": "ice hockey",
       "unicode": [
@@ -31997,7 +30926,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002834",
+      "id": "002730",
       "emoji": "🥍",
       "description": "lacrosse",
       "unicode": [
@@ -32006,7 +30935,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002835",
+      "id": "002731",
       "emoji": "🏓",
       "description": "ping pong",
       "unicode": [
@@ -32015,7 +30944,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002836",
+      "id": "002732",
       "emoji": "🏸",
       "description": "badminton",
       "unicode": [
@@ -32024,7 +30953,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002837",
+      "id": "002733",
       "emoji": "🥊",
       "description": "boxing glove",
       "unicode": [
@@ -32033,7 +30962,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002838",
+      "id": "002734",
       "emoji": "🥋",
       "description": "martial arts uniform",
       "unicode": [
@@ -32042,7 +30971,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002839",
+      "id": "002735",
       "emoji": "🥅",
       "description": "goal net",
       "unicode": [
@@ -32051,7 +30980,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002840",
+      "id": "002736",
       "emoji": "⛳",
       "description": "flag in hole",
       "unicode": [
@@ -32060,7 +30989,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002841",
+      "id": "002737",
       "emoji": "⛸️",
       "description": "ice skate",
       "unicode": [
@@ -32070,7 +30999,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002842",
+      "id": "002738",
       "emoji": "🎣",
       "description": "fishing pole",
       "unicode": [
@@ -32079,7 +31008,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002843",
+      "id": "002739",
       "emoji": "🤿",
       "description": "diving mask",
       "unicode": [
@@ -32088,7 +31017,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002844",
+      "id": "002740",
       "emoji": "🎽",
       "description": "running shirt",
       "unicode": [
@@ -32097,7 +31026,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002845",
+      "id": "002741",
       "emoji": "🎿",
       "description": "skis",
       "unicode": [
@@ -32106,7 +31035,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002846",
+      "id": "002742",
       "emoji": "🛷",
       "description": "sled",
       "unicode": [
@@ -32115,7 +31044,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002847",
+      "id": "002743",
       "emoji": "🥌",
       "description": "curling stone",
       "unicode": [
@@ -32124,7 +31053,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002848",
+      "id": "002744",
       "emoji": "🎯",
       "description": "bullseye",
       "unicode": [
@@ -32133,7 +31062,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002849",
+      "id": "002745",
       "emoji": "🪀",
       "description": "yo-yo",
       "unicode": [
@@ -32142,7 +31071,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002850",
+      "id": "002746",
       "emoji": "🪁",
       "description": "kite",
       "unicode": [
@@ -32151,7 +31080,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002851",
+      "id": "002747",
       "emoji": "🎱",
       "description": "pool 8 ball",
       "unicode": [
@@ -32160,7 +31089,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002852",
+      "id": "002748",
       "emoji": "🔮",
       "description": "crystal ball",
       "unicode": [
@@ -32169,7 +31098,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002853",
+      "id": "002749",
       "emoji": "🪄",
       "description": "magic wand",
       "unicode": [
@@ -32178,7 +31107,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002854",
+      "id": "002750",
       "emoji": "🧿",
       "description": "nazar amulet",
       "unicode": [
@@ -32187,16 +31116,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002855",
-      "emoji": "🪬",
-      "description": "hamsa",
-      "unicode": [
-        "1FAAC"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "002856",
+      "id": "002751",
       "emoji": "🎮",
       "description": "video game",
       "unicode": [
@@ -32205,7 +31125,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002857",
+      "id": "002752",
       "emoji": "🕹️",
       "description": "joystick",
       "unicode": [
@@ -32215,7 +31135,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002858",
+      "id": "002753",
       "emoji": "🎰",
       "description": "slot machine",
       "unicode": [
@@ -32224,7 +31144,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002859",
+      "id": "002754",
       "emoji": "🎲",
       "description": "game die",
       "unicode": [
@@ -32233,7 +31153,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002860",
+      "id": "002755",
       "emoji": "🧩",
       "description": "puzzle piece",
       "unicode": [
@@ -32242,7 +31162,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002861",
+      "id": "002756",
       "emoji": "🧸",
       "description": "teddy bear",
       "unicode": [
@@ -32251,7 +31171,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002862",
+      "id": "002757",
       "emoji": "🪅",
       "description": "piñata",
       "unicode": [
@@ -32260,16 +31180,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002863",
-      "emoji": "🪩",
-      "description": "mirror ball",
-      "unicode": [
-        "1FAA9"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "002864",
+      "id": "002758",
       "emoji": "🪆",
       "description": "nesting dolls",
       "unicode": [
@@ -32278,7 +31189,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002865",
+      "id": "002759",
       "emoji": "♠️",
       "description": "spade suit",
       "unicode": [
@@ -32288,7 +31199,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002866",
+      "id": "002760",
       "emoji": "♥️",
       "description": "heart suit",
       "unicode": [
@@ -32298,7 +31209,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002867",
+      "id": "002761",
       "emoji": "♦️",
       "description": "diamond suit",
       "unicode": [
@@ -32308,7 +31219,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002868",
+      "id": "002762",
       "emoji": "♣️",
       "description": "club suit",
       "unicode": [
@@ -32318,7 +31229,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002869",
+      "id": "002763",
       "emoji": "♟️",
       "description": "chess pawn",
       "unicode": [
@@ -32328,7 +31239,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002870",
+      "id": "002764",
       "emoji": "🃏",
       "description": "joker",
       "unicode": [
@@ -32337,7 +31248,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002871",
+      "id": "002765",
       "emoji": "🀄",
       "description": "mahjong red dragon",
       "unicode": [
@@ -32346,7 +31257,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002872",
+      "id": "002766",
       "emoji": "🎴",
       "description": "flower playing cards",
       "unicode": [
@@ -32355,7 +31266,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002873",
+      "id": "002767",
       "emoji": "🎭",
       "description": "performing arts",
       "unicode": [
@@ -32364,7 +31275,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002874",
+      "id": "002768",
       "emoji": "🖼️",
       "description": "framed picture",
       "unicode": [
@@ -32374,7 +31285,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002875",
+      "id": "002769",
       "emoji": "🎨",
       "description": "artist palette",
       "unicode": [
@@ -32383,7 +31294,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002876",
+      "id": "002770",
       "emoji": "🧵",
       "description": "thread",
       "unicode": [
@@ -32392,7 +31303,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002877",
+      "id": "002771",
       "emoji": "🪡",
       "description": "sewing needle",
       "unicode": [
@@ -32401,7 +31312,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002878",
+      "id": "002772",
       "emoji": "🧶",
       "description": "yarn",
       "unicode": [
@@ -32410,7 +31321,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002879",
+      "id": "002773",
       "emoji": "🪢",
       "description": "knot",
       "unicode": [
@@ -32419,7 +31330,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002880",
+      "id": "002774",
       "emoji": "👓",
       "description": "glasses",
       "unicode": [
@@ -32428,7 +31339,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002881",
+      "id": "002775",
       "emoji": "🕶️",
       "description": "sunglasses",
       "unicode": [
@@ -32438,7 +31349,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002882",
+      "id": "002776",
       "emoji": "🥽",
       "description": "goggles",
       "unicode": [
@@ -32447,7 +31358,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002883",
+      "id": "002777",
       "emoji": "🥼",
       "description": "lab coat",
       "unicode": [
@@ -32456,7 +31367,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002884",
+      "id": "002778",
       "emoji": "🦺",
       "description": "safety vest",
       "unicode": [
@@ -32465,7 +31376,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002885",
+      "id": "002779",
       "emoji": "👔",
       "description": "necktie",
       "unicode": [
@@ -32474,7 +31385,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002886",
+      "id": "002780",
       "emoji": "👕",
       "description": "t-shirt",
       "unicode": [
@@ -32483,7 +31394,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002887",
+      "id": "002781",
       "emoji": "👖",
       "description": "jeans",
       "unicode": [
@@ -32492,7 +31403,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002888",
+      "id": "002782",
       "emoji": "🧣",
       "description": "scarf",
       "unicode": [
@@ -32501,7 +31412,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002889",
+      "id": "002783",
       "emoji": "🧤",
       "description": "gloves",
       "unicode": [
@@ -32510,7 +31421,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002890",
+      "id": "002784",
       "emoji": "🧥",
       "description": "coat",
       "unicode": [
@@ -32519,7 +31430,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002891",
+      "id": "002785",
       "emoji": "🧦",
       "description": "socks",
       "unicode": [
@@ -32528,7 +31439,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002892",
+      "id": "002786",
       "emoji": "👗",
       "description": "dress",
       "unicode": [
@@ -32537,7 +31448,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002893",
+      "id": "002787",
       "emoji": "👘",
       "description": "kimono",
       "unicode": [
@@ -32546,7 +31457,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002894",
+      "id": "002788",
       "emoji": "🥻",
       "description": "sari",
       "unicode": [
@@ -32555,7 +31466,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002895",
+      "id": "002789",
       "emoji": "🩱",
       "description": "one-piece swimsuit",
       "unicode": [
@@ -32564,7 +31475,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002896",
+      "id": "002790",
       "emoji": "🩲",
       "description": "briefs",
       "unicode": [
@@ -32573,7 +31484,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002897",
+      "id": "002791",
       "emoji": "🩳",
       "description": "shorts",
       "unicode": [
@@ -32582,7 +31493,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002898",
+      "id": "002792",
       "emoji": "👙",
       "description": "bikini",
       "unicode": [
@@ -32591,7 +31502,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002899",
+      "id": "002793",
       "emoji": "👚",
       "description": "woman’s clothes",
       "unicode": [
@@ -32600,7 +31511,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002900",
+      "id": "002794",
       "emoji": "👛",
       "description": "purse",
       "unicode": [
@@ -32609,7 +31520,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002901",
+      "id": "002795",
       "emoji": "👜",
       "description": "handbag",
       "unicode": [
@@ -32618,7 +31529,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002902",
+      "id": "002796",
       "emoji": "👝",
       "description": "clutch bag",
       "unicode": [
@@ -32627,7 +31538,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002903",
+      "id": "002797",
       "emoji": "🛍️",
       "description": "shopping bags",
       "unicode": [
@@ -32637,7 +31548,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002904",
+      "id": "002798",
       "emoji": "🎒",
       "description": "backpack",
       "unicode": [
@@ -32646,7 +31557,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002905",
+      "id": "002799",
       "emoji": "🩴",
       "description": "thong sandal",
       "unicode": [
@@ -32655,7 +31566,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002906",
+      "id": "002800",
       "emoji": "👞",
       "description": "man’s shoe",
       "unicode": [
@@ -32664,7 +31575,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002907",
+      "id": "002801",
       "emoji": "👟",
       "description": "running shoe",
       "unicode": [
@@ -32673,7 +31584,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002908",
+      "id": "002802",
       "emoji": "🥾",
       "description": "hiking boot",
       "unicode": [
@@ -32682,7 +31593,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002909",
+      "id": "002803",
       "emoji": "🥿",
       "description": "flat shoe",
       "unicode": [
@@ -32691,7 +31602,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002910",
+      "id": "002804",
       "emoji": "👠",
       "description": "high-heeled shoe",
       "unicode": [
@@ -32700,7 +31611,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002911",
+      "id": "002805",
       "emoji": "👡",
       "description": "woman’s sandal",
       "unicode": [
@@ -32709,7 +31620,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002912",
+      "id": "002806",
       "emoji": "🩰",
       "description": "ballet shoes",
       "unicode": [
@@ -32718,7 +31629,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002913",
+      "id": "002807",
       "emoji": "👢",
       "description": "woman’s boot",
       "unicode": [
@@ -32727,7 +31638,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002914",
+      "id": "002808",
       "emoji": "👑",
       "description": "crown",
       "unicode": [
@@ -32736,7 +31647,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002915",
+      "id": "002809",
       "emoji": "👒",
       "description": "woman’s hat",
       "unicode": [
@@ -32745,7 +31656,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002916",
+      "id": "002810",
       "emoji": "🎩",
       "description": "top hat",
       "unicode": [
@@ -32754,7 +31665,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002917",
+      "id": "002811",
       "emoji": "🎓",
       "description": "graduation cap",
       "unicode": [
@@ -32763,7 +31674,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002918",
+      "id": "002812",
       "emoji": "🧢",
       "description": "billed cap",
       "unicode": [
@@ -32772,7 +31683,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "002919",
+      "id": "002813",
       "emoji": "🪖",
       "description": "military helmet",
       "unicode": [
@@ -32781,7 +31692,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002920",
+      "id": "002814",
       "emoji": "⛑️",
       "description": "rescue worker’s helmet",
       "unicode": [
@@ -32791,7 +31702,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002921",
+      "id": "002815",
       "emoji": "📿",
       "description": "prayer beads",
       "unicode": [
@@ -32800,7 +31711,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002922",
+      "id": "002816",
       "emoji": "💄",
       "description": "lipstick",
       "unicode": [
@@ -32809,7 +31720,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002923",
+      "id": "002817",
       "emoji": "💍",
       "description": "ring",
       "unicode": [
@@ -32818,7 +31729,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002924",
+      "id": "002818",
       "emoji": "💎",
       "description": "gem stone",
       "unicode": [
@@ -32827,7 +31738,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002925",
+      "id": "002819",
       "emoji": "🔇",
       "description": "muted speaker",
       "unicode": [
@@ -32836,7 +31747,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002926",
+      "id": "002820",
       "emoji": "🔈",
       "description": "speaker low volume",
       "unicode": [
@@ -32845,7 +31756,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002927",
+      "id": "002821",
       "emoji": "🔉",
       "description": "speaker medium volume",
       "unicode": [
@@ -32854,7 +31765,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002928",
+      "id": "002822",
       "emoji": "🔊",
       "description": "speaker high volume",
       "unicode": [
@@ -32863,7 +31774,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002929",
+      "id": "002823",
       "emoji": "📢",
       "description": "loudspeaker",
       "unicode": [
@@ -32872,7 +31783,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002930",
+      "id": "002824",
       "emoji": "📣",
       "description": "megaphone",
       "unicode": [
@@ -32881,7 +31792,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002931",
+      "id": "002825",
       "emoji": "📯",
       "description": "postal horn",
       "unicode": [
@@ -32890,7 +31801,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002932",
+      "id": "002826",
       "emoji": "🔔",
       "description": "bell",
       "unicode": [
@@ -32899,7 +31810,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002933",
+      "id": "002827",
       "emoji": "🔕",
       "description": "bell with slash",
       "unicode": [
@@ -32908,7 +31819,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002934",
+      "id": "002828",
       "emoji": "🎼",
       "description": "musical score",
       "unicode": [
@@ -32917,7 +31828,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002935",
+      "id": "002829",
       "emoji": "🎵",
       "description": "musical note",
       "unicode": [
@@ -32926,7 +31837,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002936",
+      "id": "002830",
       "emoji": "🎶",
       "description": "musical notes",
       "unicode": [
@@ -32935,7 +31846,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002937",
+      "id": "002831",
       "emoji": "🎙️",
       "description": "studio microphone",
       "unicode": [
@@ -32945,7 +31856,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002938",
+      "id": "002832",
       "emoji": "🎚️",
       "description": "level slider",
       "unicode": [
@@ -32955,7 +31866,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002939",
+      "id": "002833",
       "emoji": "🎛️",
       "description": "control knobs",
       "unicode": [
@@ -32965,7 +31876,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002940",
+      "id": "002834",
       "emoji": "🎤",
       "description": "microphone",
       "unicode": [
@@ -32974,7 +31885,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002941",
+      "id": "002835",
       "emoji": "🎧",
       "description": "headphone",
       "unicode": [
@@ -32983,7 +31894,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002942",
+      "id": "002836",
       "emoji": "📻",
       "description": "radio",
       "unicode": [
@@ -32992,7 +31903,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002943",
+      "id": "002837",
       "emoji": "🎷",
       "description": "saxophone",
       "unicode": [
@@ -33001,7 +31912,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002944",
+      "id": "002838",
       "emoji": "🪗",
       "description": "accordion",
       "unicode": [
@@ -33010,7 +31921,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002945",
+      "id": "002839",
       "emoji": "🎸",
       "description": "guitar",
       "unicode": [
@@ -33019,7 +31930,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002946",
+      "id": "002840",
       "emoji": "🎹",
       "description": "musical keyboard",
       "unicode": [
@@ -33028,7 +31939,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002947",
+      "id": "002841",
       "emoji": "🎺",
       "description": "trumpet",
       "unicode": [
@@ -33037,7 +31948,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002948",
+      "id": "002842",
       "emoji": "🎻",
       "description": "violin",
       "unicode": [
@@ -33046,7 +31957,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002949",
+      "id": "002843",
       "emoji": "🪕",
       "description": "banjo",
       "unicode": [
@@ -33055,7 +31966,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002950",
+      "id": "002844",
       "emoji": "🥁",
       "description": "drum",
       "unicode": [
@@ -33064,7 +31975,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "002951",
+      "id": "002845",
       "emoji": "🪘",
       "description": "long drum",
       "unicode": [
@@ -33073,7 +31984,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "002952",
+      "id": "002846",
       "emoji": "📱",
       "description": "mobile phone",
       "unicode": [
@@ -33082,7 +31993,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002953",
+      "id": "002847",
       "emoji": "📲",
       "description": "mobile phone with arrow",
       "unicode": [
@@ -33091,7 +32002,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002954",
+      "id": "002848",
       "emoji": "☎️",
       "description": "telephone",
       "unicode": [
@@ -33101,7 +32012,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002955",
+      "id": "002849",
       "emoji": "📞",
       "description": "telephone receiver",
       "unicode": [
@@ -33110,7 +32021,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002956",
+      "id": "002850",
       "emoji": "📟",
       "description": "pager",
       "unicode": [
@@ -33119,7 +32030,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002957",
+      "id": "002851",
       "emoji": "📠",
       "description": "fax machine",
       "unicode": [
@@ -33128,7 +32039,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002958",
+      "id": "002852",
       "emoji": "🔋",
       "description": "battery",
       "unicode": [
@@ -33137,16 +32048,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002959",
-      "emoji": "🪫",
-      "description": "low battery",
-      "unicode": [
-        "1FAAB"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "002960",
+      "id": "002853",
       "emoji": "🔌",
       "description": "electric plug",
       "unicode": [
@@ -33155,7 +32057,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002961",
+      "id": "002854",
       "emoji": "💻",
       "description": "laptop",
       "unicode": [
@@ -33164,7 +32066,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002962",
+      "id": "002855",
       "emoji": "🖥️",
       "description": "desktop computer",
       "unicode": [
@@ -33174,7 +32076,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002963",
+      "id": "002856",
       "emoji": "🖨️",
       "description": "printer",
       "unicode": [
@@ -33184,7 +32086,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002964",
+      "id": "002857",
       "emoji": "⌨️",
       "description": "keyboard",
       "unicode": [
@@ -33194,7 +32096,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002965",
+      "id": "002858",
       "emoji": "🖱️",
       "description": "computer mouse",
       "unicode": [
@@ -33204,7 +32106,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002966",
+      "id": "002859",
       "emoji": "🖲️",
       "description": "trackball",
       "unicode": [
@@ -33214,7 +32116,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002967",
+      "id": "002860",
       "emoji": "💽",
       "description": "computer disk",
       "unicode": [
@@ -33223,7 +32125,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002968",
+      "id": "002861",
       "emoji": "💾",
       "description": "floppy disk",
       "unicode": [
@@ -33232,7 +32134,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002969",
+      "id": "002862",
       "emoji": "💿",
       "description": "optical disk",
       "unicode": [
@@ -33241,7 +32143,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002970",
+      "id": "002863",
       "emoji": "📀",
       "description": "dvd",
       "unicode": [
@@ -33250,7 +32152,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002971",
+      "id": "002864",
       "emoji": "🧮",
       "description": "abacus",
       "unicode": [
@@ -33259,7 +32161,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "002972",
+      "id": "002865",
       "emoji": "🎥",
       "description": "movie camera",
       "unicode": [
@@ -33268,7 +32170,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002973",
+      "id": "002866",
       "emoji": "🎞️",
       "description": "film frames",
       "unicode": [
@@ -33278,7 +32180,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002974",
+      "id": "002867",
       "emoji": "📽️",
       "description": "film projector",
       "unicode": [
@@ -33288,7 +32190,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002975",
+      "id": "002868",
       "emoji": "🎬",
       "description": "clapper board",
       "unicode": [
@@ -33297,7 +32199,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002976",
+      "id": "002869",
       "emoji": "📺",
       "description": "television",
       "unicode": [
@@ -33306,7 +32208,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002977",
+      "id": "002870",
       "emoji": "📷",
       "description": "camera",
       "unicode": [
@@ -33315,7 +32217,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002978",
+      "id": "002871",
       "emoji": "📸",
       "description": "camera with flash",
       "unicode": [
@@ -33324,7 +32226,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "002979",
+      "id": "002872",
       "emoji": "📹",
       "description": "video camera",
       "unicode": [
@@ -33333,7 +32235,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002980",
+      "id": "002873",
       "emoji": "📼",
       "description": "videocassette",
       "unicode": [
@@ -33342,7 +32244,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002981",
+      "id": "002874",
       "emoji": "🔍",
       "description": "magnifying glass tilted left",
       "unicode": [
@@ -33351,7 +32253,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002982",
+      "id": "002875",
       "emoji": "🔎",
       "description": "magnifying glass tilted right",
       "unicode": [
@@ -33360,7 +32262,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002983",
+      "id": "002876",
       "emoji": "🕯️",
       "description": "candle",
       "unicode": [
@@ -33370,7 +32272,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "002984",
+      "id": "002877",
       "emoji": "💡",
       "description": "light bulb",
       "unicode": [
@@ -33379,7 +32281,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002985",
+      "id": "002878",
       "emoji": "🔦",
       "description": "flashlight",
       "unicode": [
@@ -33388,7 +32290,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002986",
+      "id": "002879",
       "emoji": "🏮",
       "description": "red paper lantern",
       "unicode": [
@@ -33397,7 +32299,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002987",
+      "id": "002880",
       "emoji": "🪔",
       "description": "diya lamp",
       "unicode": [
@@ -33406,7 +32308,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "002988",
+      "id": "002881",
       "emoji": "📔",
       "description": "notebook with decorative cover",
       "unicode": [
@@ -33415,7 +32317,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002989",
+      "id": "002882",
       "emoji": "📕",
       "description": "closed book",
       "unicode": [
@@ -33424,7 +32326,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002990",
+      "id": "002883",
       "emoji": "📖",
       "description": "open book",
       "unicode": [
@@ -33433,7 +32335,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002991",
+      "id": "002884",
       "emoji": "📗",
       "description": "green book",
       "unicode": [
@@ -33442,7 +32344,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002992",
+      "id": "002885",
       "emoji": "📘",
       "description": "blue book",
       "unicode": [
@@ -33451,7 +32353,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002993",
+      "id": "002886",
       "emoji": "📙",
       "description": "orange book",
       "unicode": [
@@ -33460,7 +32362,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002994",
+      "id": "002887",
       "emoji": "📚",
       "description": "books",
       "unicode": [
@@ -33469,7 +32371,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002995",
+      "id": "002888",
       "emoji": "📓",
       "description": "notebook",
       "unicode": [
@@ -33478,7 +32380,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002996",
+      "id": "002889",
       "emoji": "📒",
       "description": "ledger",
       "unicode": [
@@ -33487,7 +32389,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002997",
+      "id": "002890",
       "emoji": "📃",
       "description": "page with curl",
       "unicode": [
@@ -33496,7 +32398,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002998",
+      "id": "002891",
       "emoji": "📜",
       "description": "scroll",
       "unicode": [
@@ -33505,7 +32407,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "002999",
+      "id": "002892",
       "emoji": "📄",
       "description": "page facing up",
       "unicode": [
@@ -33514,7 +32416,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003000",
+      "id": "002893",
       "emoji": "📰",
       "description": "newspaper",
       "unicode": [
@@ -33523,7 +32425,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003001",
+      "id": "002894",
       "emoji": "🗞️",
       "description": "rolled-up newspaper",
       "unicode": [
@@ -33533,7 +32435,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003002",
+      "id": "002895",
       "emoji": "📑",
       "description": "bookmark tabs",
       "unicode": [
@@ -33542,7 +32444,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003003",
+      "id": "002896",
       "emoji": "🔖",
       "description": "bookmark",
       "unicode": [
@@ -33551,7 +32453,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003004",
+      "id": "002897",
       "emoji": "🏷️",
       "description": "label",
       "unicode": [
@@ -33561,7 +32463,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003005",
+      "id": "002898",
       "emoji": "💰",
       "description": "money bag",
       "unicode": [
@@ -33570,7 +32472,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003006",
+      "id": "002899",
       "emoji": "🪙",
       "description": "coin",
       "unicode": [
@@ -33579,7 +32481,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003007",
+      "id": "002900",
       "emoji": "💴",
       "description": "yen banknote",
       "unicode": [
@@ -33588,7 +32490,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003008",
+      "id": "002901",
       "emoji": "💵",
       "description": "dollar banknote",
       "unicode": [
@@ -33597,7 +32499,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003009",
+      "id": "002902",
       "emoji": "💶",
       "description": "euro banknote",
       "unicode": [
@@ -33606,7 +32508,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003010",
+      "id": "002903",
       "emoji": "💷",
       "description": "pound banknote",
       "unicode": [
@@ -33615,7 +32517,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003011",
+      "id": "002904",
       "emoji": "💸",
       "description": "money with wings",
       "unicode": [
@@ -33624,7 +32526,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003012",
+      "id": "002905",
       "emoji": "💳",
       "description": "credit card",
       "unicode": [
@@ -33633,7 +32535,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003013",
+      "id": "002906",
       "emoji": "🧾",
       "description": "receipt",
       "unicode": [
@@ -33642,7 +32544,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003014",
+      "id": "002907",
       "emoji": "💹",
       "description": "chart increasing with yen",
       "unicode": [
@@ -33651,7 +32553,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003015",
+      "id": "002908",
       "emoji": "✉️",
       "description": "envelope",
       "unicode": [
@@ -33661,7 +32563,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003016",
+      "id": "002909",
       "emoji": "📧",
       "description": "e-mail",
       "unicode": [
@@ -33670,7 +32572,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003017",
+      "id": "002910",
       "emoji": "📨",
       "description": "incoming envelope",
       "unicode": [
@@ -33679,7 +32581,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003018",
+      "id": "002911",
       "emoji": "📩",
       "description": "envelope with arrow",
       "unicode": [
@@ -33688,7 +32590,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003019",
+      "id": "002912",
       "emoji": "📤",
       "description": "outbox tray",
       "unicode": [
@@ -33697,7 +32599,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003020",
+      "id": "002913",
       "emoji": "📥",
       "description": "inbox tray",
       "unicode": [
@@ -33706,7 +32608,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003021",
+      "id": "002914",
       "emoji": "📦",
       "description": "package",
       "unicode": [
@@ -33715,7 +32617,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003022",
+      "id": "002915",
       "emoji": "📫",
       "description": "closed mailbox with raised flag",
       "unicode": [
@@ -33724,7 +32626,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003023",
+      "id": "002916",
       "emoji": "📪",
       "description": "closed mailbox with lowered flag",
       "unicode": [
@@ -33733,7 +32635,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003024",
+      "id": "002917",
       "emoji": "📬",
       "description": "open mailbox with raised flag",
       "unicode": [
@@ -33742,7 +32644,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003025",
+      "id": "002918",
       "emoji": "📭",
       "description": "open mailbox with lowered flag",
       "unicode": [
@@ -33751,7 +32653,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003026",
+      "id": "002919",
       "emoji": "📮",
       "description": "postbox",
       "unicode": [
@@ -33760,7 +32662,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003027",
+      "id": "002920",
       "emoji": "🗳️",
       "description": "ballot box with ballot",
       "unicode": [
@@ -33770,7 +32672,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003028",
+      "id": "002921",
       "emoji": "✏️",
       "description": "pencil",
       "unicode": [
@@ -33780,7 +32682,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003029",
+      "id": "002922",
       "emoji": "✒️",
       "description": "black nib",
       "unicode": [
@@ -33790,7 +32692,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003030",
+      "id": "002923",
       "emoji": "🖋️",
       "description": "fountain pen",
       "unicode": [
@@ -33800,7 +32702,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003031",
+      "id": "002924",
       "emoji": "🖊️",
       "description": "pen",
       "unicode": [
@@ -33810,7 +32712,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003032",
+      "id": "002925",
       "emoji": "🖌️",
       "description": "paintbrush",
       "unicode": [
@@ -33820,7 +32722,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003033",
+      "id": "002926",
       "emoji": "🖍️",
       "description": "crayon",
       "unicode": [
@@ -33830,7 +32732,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003034",
+      "id": "002927",
       "emoji": "📝",
       "description": "memo",
       "unicode": [
@@ -33839,7 +32741,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003035",
+      "id": "002928",
       "emoji": "💼",
       "description": "briefcase",
       "unicode": [
@@ -33848,7 +32750,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003036",
+      "id": "002929",
       "emoji": "📁",
       "description": "file folder",
       "unicode": [
@@ -33857,7 +32759,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003037",
+      "id": "002930",
       "emoji": "📂",
       "description": "open file folder",
       "unicode": [
@@ -33866,7 +32768,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003038",
+      "id": "002931",
       "emoji": "🗂️",
       "description": "card index dividers",
       "unicode": [
@@ -33876,7 +32778,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003039",
+      "id": "002932",
       "emoji": "📅",
       "description": "calendar",
       "unicode": [
@@ -33885,7 +32787,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003040",
+      "id": "002933",
       "emoji": "📆",
       "description": "tear-off calendar",
       "unicode": [
@@ -33894,7 +32796,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003041",
+      "id": "002934",
       "emoji": "🗒️",
       "description": "spiral notepad",
       "unicode": [
@@ -33904,7 +32806,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003042",
+      "id": "002935",
       "emoji": "🗓️",
       "description": "spiral calendar",
       "unicode": [
@@ -33914,7 +32816,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003043",
+      "id": "002936",
       "emoji": "📇",
       "description": "card index",
       "unicode": [
@@ -33923,7 +32825,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003044",
+      "id": "002937",
       "emoji": "📈",
       "description": "chart increasing",
       "unicode": [
@@ -33932,7 +32834,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003045",
+      "id": "002938",
       "emoji": "📉",
       "description": "chart decreasing",
       "unicode": [
@@ -33941,7 +32843,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003046",
+      "id": "002939",
       "emoji": "📊",
       "description": "bar chart",
       "unicode": [
@@ -33950,7 +32852,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003047",
+      "id": "002940",
       "emoji": "📋",
       "description": "clipboard",
       "unicode": [
@@ -33959,7 +32861,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003048",
+      "id": "002941",
       "emoji": "📌",
       "description": "pushpin",
       "unicode": [
@@ -33968,7 +32870,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003049",
+      "id": "002942",
       "emoji": "📍",
       "description": "round pushpin",
       "unicode": [
@@ -33977,7 +32879,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003050",
+      "id": "002943",
       "emoji": "📎",
       "description": "paperclip",
       "unicode": [
@@ -33986,7 +32888,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003051",
+      "id": "002944",
       "emoji": "🖇️",
       "description": "linked paperclips",
       "unicode": [
@@ -33996,7 +32898,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003052",
+      "id": "002945",
       "emoji": "📏",
       "description": "straight ruler",
       "unicode": [
@@ -34005,7 +32907,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003053",
+      "id": "002946",
       "emoji": "📐",
       "description": "triangular ruler",
       "unicode": [
@@ -34014,7 +32916,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003054",
+      "id": "002947",
       "emoji": "✂️",
       "description": "scissors",
       "unicode": [
@@ -34024,7 +32926,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003055",
+      "id": "002948",
       "emoji": "🗃️",
       "description": "card file box",
       "unicode": [
@@ -34034,7 +32936,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003056",
+      "id": "002949",
       "emoji": "🗄️",
       "description": "file cabinet",
       "unicode": [
@@ -34044,7 +32946,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003057",
+      "id": "002950",
       "emoji": "🗑️",
       "description": "wastebasket",
       "unicode": [
@@ -34054,7 +32956,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003058",
+      "id": "002951",
       "emoji": "🔒",
       "description": "locked",
       "unicode": [
@@ -34063,7 +32965,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003059",
+      "id": "002952",
       "emoji": "🔓",
       "description": "unlocked",
       "unicode": [
@@ -34072,7 +32974,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003060",
+      "id": "002953",
       "emoji": "🔏",
       "description": "locked with pen",
       "unicode": [
@@ -34081,7 +32983,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003061",
+      "id": "002954",
       "emoji": "🔐",
       "description": "locked with key",
       "unicode": [
@@ -34090,7 +32992,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003062",
+      "id": "002955",
       "emoji": "🔑",
       "description": "key",
       "unicode": [
@@ -34099,7 +33001,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003063",
+      "id": "002956",
       "emoji": "🗝️",
       "description": "old key",
       "unicode": [
@@ -34109,7 +33011,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003064",
+      "id": "002957",
       "emoji": "🔨",
       "description": "hammer",
       "unicode": [
@@ -34118,7 +33020,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003065",
+      "id": "002958",
       "emoji": "🪓",
       "description": "axe",
       "unicode": [
@@ -34127,7 +33029,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003066",
+      "id": "002959",
       "emoji": "⛏️",
       "description": "pick",
       "unicode": [
@@ -34137,7 +33039,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003067",
+      "id": "002960",
       "emoji": "⚒️",
       "description": "hammer and pick",
       "unicode": [
@@ -34147,7 +33049,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003068",
+      "id": "002961",
       "emoji": "🛠️",
       "description": "hammer and wrench",
       "unicode": [
@@ -34157,7 +33059,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003069",
+      "id": "002962",
       "emoji": "🗡️",
       "description": "dagger",
       "unicode": [
@@ -34167,7 +33069,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003070",
+      "id": "002963",
       "emoji": "⚔️",
       "description": "crossed swords",
       "unicode": [
@@ -34177,7 +33079,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003071",
+      "id": "002964",
       "emoji": "🔫",
       "description": "water pistol",
       "unicode": [
@@ -34186,7 +33088,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003072",
+      "id": "002965",
       "emoji": "🪃",
       "description": "boomerang",
       "unicode": [
@@ -34195,7 +33097,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003073",
+      "id": "002966",
       "emoji": "🏹",
       "description": "bow and arrow",
       "unicode": [
@@ -34204,7 +33106,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003074",
+      "id": "002967",
       "emoji": "🛡️",
       "description": "shield",
       "unicode": [
@@ -34214,7 +33116,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003075",
+      "id": "002968",
       "emoji": "🪚",
       "description": "carpentry saw",
       "unicode": [
@@ -34223,7 +33125,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003076",
+      "id": "002969",
       "emoji": "🔧",
       "description": "wrench",
       "unicode": [
@@ -34232,7 +33134,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003077",
+      "id": "002970",
       "emoji": "🪛",
       "description": "screwdriver",
       "unicode": [
@@ -34241,7 +33143,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003078",
+      "id": "002971",
       "emoji": "🔩",
       "description": "nut and bolt",
       "unicode": [
@@ -34250,7 +33152,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003079",
+      "id": "002972",
       "emoji": "⚙️",
       "description": "gear",
       "unicode": [
@@ -34260,7 +33162,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003080",
+      "id": "002973",
       "emoji": "🗜️",
       "description": "clamp",
       "unicode": [
@@ -34270,7 +33172,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003081",
+      "id": "002974",
       "emoji": "⚖️",
       "description": "balance scale",
       "unicode": [
@@ -34280,7 +33182,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003082",
+      "id": "002975",
       "emoji": "🦯",
       "description": "white cane",
       "unicode": [
@@ -34289,7 +33191,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003083",
+      "id": "002976",
       "emoji": "🔗",
       "description": "link",
       "unicode": [
@@ -34298,7 +33200,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003084",
+      "id": "002977",
       "emoji": "⛓️",
       "description": "chains",
       "unicode": [
@@ -34308,7 +33210,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003085",
+      "id": "002978",
       "emoji": "🪝",
       "description": "hook",
       "unicode": [
@@ -34317,7 +33219,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003086",
+      "id": "002979",
       "emoji": "🧰",
       "description": "toolbox",
       "unicode": [
@@ -34326,7 +33228,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003087",
+      "id": "002980",
       "emoji": "🧲",
       "description": "magnet",
       "unicode": [
@@ -34335,7 +33237,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003088",
+      "id": "002981",
       "emoji": "🪜",
       "description": "ladder",
       "unicode": [
@@ -34344,7 +33246,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003089",
+      "id": "002982",
       "emoji": "⚗️",
       "description": "alembic",
       "unicode": [
@@ -34354,7 +33256,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003090",
+      "id": "002983",
       "emoji": "🧪",
       "description": "test tube",
       "unicode": [
@@ -34363,7 +33265,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003091",
+      "id": "002984",
       "emoji": "🧫",
       "description": "petri dish",
       "unicode": [
@@ -34372,7 +33274,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003092",
+      "id": "002985",
       "emoji": "🧬",
       "description": "dna",
       "unicode": [
@@ -34381,7 +33283,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003093",
+      "id": "002986",
       "emoji": "🔬",
       "description": "microscope",
       "unicode": [
@@ -34390,7 +33292,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003094",
+      "id": "002987",
       "emoji": "🔭",
       "description": "telescope",
       "unicode": [
@@ -34399,7 +33301,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003095",
+      "id": "002988",
       "emoji": "📡",
       "description": "satellite antenna",
       "unicode": [
@@ -34408,7 +33310,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003096",
+      "id": "002989",
       "emoji": "💉",
       "description": "syringe",
       "unicode": [
@@ -34417,7 +33319,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003097",
+      "id": "002990",
       "emoji": "🩸",
       "description": "drop of blood",
       "unicode": [
@@ -34426,7 +33328,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003098",
+      "id": "002991",
       "emoji": "💊",
       "description": "pill",
       "unicode": [
@@ -34435,7 +33337,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003099",
+      "id": "002992",
       "emoji": "🩹",
       "description": "adhesive bandage",
       "unicode": [
@@ -34444,16 +33346,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003100",
-      "emoji": "🩼",
-      "description": "crutch",
-      "unicode": [
-        "1FA7C"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "003101",
+      "id": "002993",
       "emoji": "🩺",
       "description": "stethoscope",
       "unicode": [
@@ -34462,16 +33355,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003102",
-      "emoji": "🩻",
-      "description": "x-ray",
-      "unicode": [
-        "1FA7B"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "003103",
+      "id": "002994",
       "emoji": "🚪",
       "description": "door",
       "unicode": [
@@ -34480,7 +33364,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003104",
+      "id": "002995",
       "emoji": "🛗",
       "description": "elevator",
       "unicode": [
@@ -34489,7 +33373,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003105",
+      "id": "002996",
       "emoji": "🪞",
       "description": "mirror",
       "unicode": [
@@ -34498,7 +33382,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003106",
+      "id": "002997",
       "emoji": "🪟",
       "description": "window",
       "unicode": [
@@ -34507,7 +33391,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003107",
+      "id": "002998",
       "emoji": "🛏️",
       "description": "bed",
       "unicode": [
@@ -34517,7 +33401,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003108",
+      "id": "002999",
       "emoji": "🛋️",
       "description": "couch and lamp",
       "unicode": [
@@ -34527,7 +33411,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003109",
+      "id": "003000",
       "emoji": "🪑",
       "description": "chair",
       "unicode": [
@@ -34536,7 +33420,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003110",
+      "id": "003001",
       "emoji": "🚽",
       "description": "toilet",
       "unicode": [
@@ -34545,7 +33429,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003111",
+      "id": "003002",
       "emoji": "🪠",
       "description": "plunger",
       "unicode": [
@@ -34554,7 +33438,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003112",
+      "id": "003003",
       "emoji": "🚿",
       "description": "shower",
       "unicode": [
@@ -34563,7 +33447,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003113",
+      "id": "003004",
       "emoji": "🛁",
       "description": "bathtub",
       "unicode": [
@@ -34572,7 +33456,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003114",
+      "id": "003005",
       "emoji": "🪤",
       "description": "mouse trap",
       "unicode": [
@@ -34581,7 +33465,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003115",
+      "id": "003006",
       "emoji": "🪒",
       "description": "razor",
       "unicode": [
@@ -34590,7 +33474,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003116",
+      "id": "003007",
       "emoji": "🧴",
       "description": "lotion bottle",
       "unicode": [
@@ -34599,7 +33483,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003117",
+      "id": "003008",
       "emoji": "🧷",
       "description": "safety pin",
       "unicode": [
@@ -34608,7 +33492,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003118",
+      "id": "003009",
       "emoji": "🧹",
       "description": "broom",
       "unicode": [
@@ -34617,7 +33501,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003119",
+      "id": "003010",
       "emoji": "🧺",
       "description": "basket",
       "unicode": [
@@ -34626,7 +33510,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003120",
+      "id": "003011",
       "emoji": "🧻",
       "description": "roll of paper",
       "unicode": [
@@ -34635,7 +33519,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003121",
+      "id": "003012",
       "emoji": "🪣",
       "description": "bucket",
       "unicode": [
@@ -34644,7 +33528,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003122",
+      "id": "003013",
       "emoji": "🧼",
       "description": "soap",
       "unicode": [
@@ -34653,16 +33537,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003123",
-      "emoji": "🫧",
-      "description": "bubbles",
-      "unicode": [
-        "1FAE7"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "003124",
+      "id": "003014",
       "emoji": "🪥",
       "description": "toothbrush",
       "unicode": [
@@ -34671,7 +33546,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003125",
+      "id": "003015",
       "emoji": "🧽",
       "description": "sponge",
       "unicode": [
@@ -34680,7 +33555,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003126",
+      "id": "003016",
       "emoji": "🧯",
       "description": "fire extinguisher",
       "unicode": [
@@ -34689,7 +33564,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003127",
+      "id": "003017",
       "emoji": "🛒",
       "description": "shopping cart",
       "unicode": [
@@ -34698,7 +33573,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E3.0"
     },
     {
-      "id": "003128",
+      "id": "003018",
       "emoji": "🚬",
       "description": "cigarette",
       "unicode": [
@@ -34707,7 +33582,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003129",
+      "id": "003019",
       "emoji": "⚰️",
       "description": "coffin",
       "unicode": [
@@ -34717,7 +33592,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003130",
+      "id": "003020",
       "emoji": "🪦",
       "description": "headstone",
       "unicode": [
@@ -34726,7 +33601,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003131",
+      "id": "003021",
       "emoji": "⚱️",
       "description": "funeral urn",
       "unicode": [
@@ -34736,7 +33611,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003132",
+      "id": "003022",
       "emoji": "🗿",
       "description": "moai",
       "unicode": [
@@ -34745,7 +33620,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003133",
+      "id": "003023",
       "emoji": "🪧",
       "description": "placard",
       "unicode": [
@@ -34754,16 +33629,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003134",
-      "emoji": "🪪",
-      "description": "identification card",
-      "unicode": [
-        "1FAAA"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "003135",
+      "id": "003024",
       "emoji": "🏧",
       "description": "ATM sign",
       "unicode": [
@@ -34772,7 +33638,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003136",
+      "id": "003025",
       "emoji": "🚮",
       "description": "litter in bin sign",
       "unicode": [
@@ -34781,7 +33647,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003137",
+      "id": "003026",
       "emoji": "🚰",
       "description": "potable water",
       "unicode": [
@@ -34790,7 +33656,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003138",
+      "id": "003027",
       "emoji": "♿",
       "description": "wheelchair symbol",
       "unicode": [
@@ -34799,7 +33665,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003139",
+      "id": "003028",
       "emoji": "🚹",
       "description": "men’s room",
       "unicode": [
@@ -34808,7 +33674,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003140",
+      "id": "003029",
       "emoji": "🚺",
       "description": "women’s room",
       "unicode": [
@@ -34817,7 +33683,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003141",
+      "id": "003030",
       "emoji": "🚻",
       "description": "restroom",
       "unicode": [
@@ -34826,7 +33692,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003142",
+      "id": "003031",
       "emoji": "🚼",
       "description": "baby symbol",
       "unicode": [
@@ -34835,7 +33701,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003143",
+      "id": "003032",
       "emoji": "🚾",
       "description": "water closet",
       "unicode": [
@@ -34844,7 +33710,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003144",
+      "id": "003033",
       "emoji": "🛂",
       "description": "passport control",
       "unicode": [
@@ -34853,7 +33719,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003145",
+      "id": "003034",
       "emoji": "🛃",
       "description": "customs",
       "unicode": [
@@ -34862,7 +33728,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003146",
+      "id": "003035",
       "emoji": "🛄",
       "description": "baggage claim",
       "unicode": [
@@ -34871,7 +33737,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003147",
+      "id": "003036",
       "emoji": "🛅",
       "description": "left luggage",
       "unicode": [
@@ -34880,7 +33746,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003148",
+      "id": "003037",
       "emoji": "⚠️",
       "description": "warning",
       "unicode": [
@@ -34890,7 +33756,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003149",
+      "id": "003038",
       "emoji": "🚸",
       "description": "children crossing",
       "unicode": [
@@ -34899,7 +33765,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003150",
+      "id": "003039",
       "emoji": "⛔",
       "description": "no entry",
       "unicode": [
@@ -34908,7 +33774,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003151",
+      "id": "003040",
       "emoji": "🚫",
       "description": "prohibited",
       "unicode": [
@@ -34917,7 +33783,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003152",
+      "id": "003041",
       "emoji": "🚳",
       "description": "no bicycles",
       "unicode": [
@@ -34926,7 +33792,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003153",
+      "id": "003042",
       "emoji": "🚭",
       "description": "no smoking",
       "unicode": [
@@ -34935,7 +33801,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003154",
+      "id": "003043",
       "emoji": "🚯",
       "description": "no littering",
       "unicode": [
@@ -34944,7 +33810,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003155",
+      "id": "003044",
       "emoji": "🚱",
       "description": "non-potable water",
       "unicode": [
@@ -34953,7 +33819,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003156",
+      "id": "003045",
       "emoji": "🚷",
       "description": "no pedestrians",
       "unicode": [
@@ -34962,7 +33828,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003157",
+      "id": "003046",
       "emoji": "📵",
       "description": "no mobile phones",
       "unicode": [
@@ -34971,7 +33837,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003158",
+      "id": "003047",
       "emoji": "🔞",
       "description": "no one under eighteen",
       "unicode": [
@@ -34980,7 +33846,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003159",
+      "id": "003048",
       "emoji": "☢️",
       "description": "radioactive",
       "unicode": [
@@ -34990,7 +33856,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003160",
+      "id": "003049",
       "emoji": "☣️",
       "description": "biohazard",
       "unicode": [
@@ -35000,7 +33866,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003161",
+      "id": "003050",
       "emoji": "⬆️",
       "description": "up arrow",
       "unicode": [
@@ -35010,7 +33876,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003162",
+      "id": "003051",
       "emoji": "↗️",
       "description": "up-right arrow",
       "unicode": [
@@ -35020,7 +33886,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003163",
+      "id": "003052",
       "emoji": "➡️",
       "description": "right arrow",
       "unicode": [
@@ -35030,7 +33896,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003164",
+      "id": "003053",
       "emoji": "↘️",
       "description": "down-right arrow",
       "unicode": [
@@ -35040,7 +33906,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003165",
+      "id": "003054",
       "emoji": "⬇️",
       "description": "down arrow",
       "unicode": [
@@ -35050,7 +33916,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003166",
+      "id": "003055",
       "emoji": "↙️",
       "description": "down-left arrow",
       "unicode": [
@@ -35060,7 +33926,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003167",
+      "id": "003056",
       "emoji": "⬅️",
       "description": "left arrow",
       "unicode": [
@@ -35070,7 +33936,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003168",
+      "id": "003057",
       "emoji": "↖️",
       "description": "up-left arrow",
       "unicode": [
@@ -35080,7 +33946,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003169",
+      "id": "003058",
       "emoji": "↕️",
       "description": "up-down arrow",
       "unicode": [
@@ -35090,7 +33956,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003170",
+      "id": "003059",
       "emoji": "↔️",
       "description": "left-right arrow",
       "unicode": [
@@ -35100,7 +33966,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003171",
+      "id": "003060",
       "emoji": "↩️",
       "description": "right arrow curving left",
       "unicode": [
@@ -35110,7 +33976,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003172",
+      "id": "003061",
       "emoji": "↪️",
       "description": "left arrow curving right",
       "unicode": [
@@ -35120,7 +33986,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003173",
+      "id": "003062",
       "emoji": "⤴️",
       "description": "right arrow curving up",
       "unicode": [
@@ -35130,7 +33996,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003174",
+      "id": "003063",
       "emoji": "⤵️",
       "description": "right arrow curving down",
       "unicode": [
@@ -35140,7 +34006,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003175",
+      "id": "003064",
       "emoji": "🔃",
       "description": "clockwise vertical arrows",
       "unicode": [
@@ -35149,7 +34015,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003176",
+      "id": "003065",
       "emoji": "🔄",
       "description": "counterclockwise arrows button",
       "unicode": [
@@ -35158,7 +34024,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003177",
+      "id": "003066",
       "emoji": "🔙",
       "description": "BACK arrow",
       "unicode": [
@@ -35167,7 +34033,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003178",
+      "id": "003067",
       "emoji": "🔚",
       "description": "END arrow",
       "unicode": [
@@ -35176,7 +34042,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003179",
+      "id": "003068",
       "emoji": "🔛",
       "description": "ON! arrow",
       "unicode": [
@@ -35185,7 +34051,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003180",
+      "id": "003069",
       "emoji": "🔜",
       "description": "SOON arrow",
       "unicode": [
@@ -35194,7 +34060,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003181",
+      "id": "003070",
       "emoji": "🔝",
       "description": "TOP arrow",
       "unicode": [
@@ -35203,7 +34069,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003182",
+      "id": "003071",
       "emoji": "🛐",
       "description": "place of worship",
       "unicode": [
@@ -35212,7 +34078,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003183",
+      "id": "003072",
       "emoji": "⚛️",
       "description": "atom symbol",
       "unicode": [
@@ -35222,7 +34088,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003184",
+      "id": "003073",
       "emoji": "🕉️",
       "description": "om",
       "unicode": [
@@ -35232,7 +34098,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003185",
+      "id": "003074",
       "emoji": "✡️",
       "description": "star of David",
       "unicode": [
@@ -35242,7 +34108,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003186",
+      "id": "003075",
       "emoji": "☸️",
       "description": "wheel of dharma",
       "unicode": [
@@ -35252,7 +34118,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003187",
+      "id": "003076",
       "emoji": "☯️",
       "description": "yin yang",
       "unicode": [
@@ -35262,7 +34128,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003188",
+      "id": "003077",
       "emoji": "✝️",
       "description": "latin cross",
       "unicode": [
@@ -35272,7 +34138,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003189",
+      "id": "003078",
       "emoji": "☦️",
       "description": "orthodox cross",
       "unicode": [
@@ -35282,7 +34148,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003190",
+      "id": "003079",
       "emoji": "☪️",
       "description": "star and crescent",
       "unicode": [
@@ -35292,7 +34158,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003191",
+      "id": "003080",
       "emoji": "☮️",
       "description": "peace symbol",
       "unicode": [
@@ -35302,7 +34168,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003192",
+      "id": "003081",
       "emoji": "🕎",
       "description": "menorah",
       "unicode": [
@@ -35311,7 +34177,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003193",
+      "id": "003082",
       "emoji": "🔯",
       "description": "dotted six-pointed star",
       "unicode": [
@@ -35320,7 +34186,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003194",
+      "id": "003083",
       "emoji": "♈",
       "description": "Aries",
       "unicode": [
@@ -35329,7 +34195,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003195",
+      "id": "003084",
       "emoji": "♉",
       "description": "Taurus",
       "unicode": [
@@ -35338,7 +34204,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003196",
+      "id": "003085",
       "emoji": "♊",
       "description": "Gemini",
       "unicode": [
@@ -35347,7 +34213,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003197",
+      "id": "003086",
       "emoji": "♋",
       "description": "Cancer",
       "unicode": [
@@ -35356,7 +34222,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003198",
+      "id": "003087",
       "emoji": "♌",
       "description": "Leo",
       "unicode": [
@@ -35365,7 +34231,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003199",
+      "id": "003088",
       "emoji": "♍",
       "description": "Virgo",
       "unicode": [
@@ -35374,7 +34240,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003200",
+      "id": "003089",
       "emoji": "♎",
       "description": "Libra",
       "unicode": [
@@ -35383,7 +34249,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003201",
+      "id": "003090",
       "emoji": "♏",
       "description": "Scorpio",
       "unicode": [
@@ -35392,7 +34258,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003202",
+      "id": "003091",
       "emoji": "♐",
       "description": "Sagittarius",
       "unicode": [
@@ -35401,7 +34267,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003203",
+      "id": "003092",
       "emoji": "♑",
       "description": "Capricorn",
       "unicode": [
@@ -35410,7 +34276,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003204",
+      "id": "003093",
       "emoji": "♒",
       "description": "Aquarius",
       "unicode": [
@@ -35419,7 +34285,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003205",
+      "id": "003094",
       "emoji": "♓",
       "description": "Pisces",
       "unicode": [
@@ -35428,7 +34294,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003206",
+      "id": "003095",
       "emoji": "⛎",
       "description": "Ophiuchus",
       "unicode": [
@@ -35437,7 +34303,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003207",
+      "id": "003096",
       "emoji": "🔀",
       "description": "shuffle tracks button",
       "unicode": [
@@ -35446,7 +34312,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003208",
+      "id": "003097",
       "emoji": "🔁",
       "description": "repeat button",
       "unicode": [
@@ -35455,7 +34321,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003209",
+      "id": "003098",
       "emoji": "🔂",
       "description": "repeat single button",
       "unicode": [
@@ -35464,7 +34330,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003210",
+      "id": "003099",
       "emoji": "▶️",
       "description": "play button",
       "unicode": [
@@ -35474,7 +34340,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003211",
+      "id": "003100",
       "emoji": "⏩",
       "description": "fast-forward button",
       "unicode": [
@@ -35483,7 +34349,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003212",
+      "id": "003101",
       "emoji": "⏭️",
       "description": "next track button",
       "unicode": [
@@ -35493,7 +34359,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003213",
+      "id": "003102",
       "emoji": "⏯️",
       "description": "play or pause button",
       "unicode": [
@@ -35503,7 +34369,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003214",
+      "id": "003103",
       "emoji": "◀️",
       "description": "reverse button",
       "unicode": [
@@ -35513,7 +34379,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003215",
+      "id": "003104",
       "emoji": "⏪",
       "description": "fast reverse button",
       "unicode": [
@@ -35522,7 +34388,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003216",
+      "id": "003105",
       "emoji": "⏮️",
       "description": "last track button",
       "unicode": [
@@ -35532,7 +34398,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003217",
+      "id": "003106",
       "emoji": "🔼",
       "description": "upwards button",
       "unicode": [
@@ -35541,7 +34407,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003218",
+      "id": "003107",
       "emoji": "⏫",
       "description": "fast up button",
       "unicode": [
@@ -35550,7 +34416,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003219",
+      "id": "003108",
       "emoji": "🔽",
       "description": "downwards button",
       "unicode": [
@@ -35559,7 +34425,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003220",
+      "id": "003109",
       "emoji": "⏬",
       "description": "fast down button",
       "unicode": [
@@ -35568,7 +34434,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003221",
+      "id": "003110",
       "emoji": "⏸️",
       "description": "pause button",
       "unicode": [
@@ -35578,7 +34444,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003222",
+      "id": "003111",
       "emoji": "⏹️",
       "description": "stop button",
       "unicode": [
@@ -35588,7 +34454,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003223",
+      "id": "003112",
       "emoji": "⏺️",
       "description": "record button",
       "unicode": [
@@ -35598,7 +34464,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003224",
+      "id": "003113",
       "emoji": "⏏️",
       "description": "eject button",
       "unicode": [
@@ -35608,7 +34474,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003225",
+      "id": "003114",
       "emoji": "🎦",
       "description": "cinema",
       "unicode": [
@@ -35617,7 +34483,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003226",
+      "id": "003115",
       "emoji": "🔅",
       "description": "dim button",
       "unicode": [
@@ -35626,7 +34492,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003227",
+      "id": "003116",
       "emoji": "🔆",
       "description": "bright button",
       "unicode": [
@@ -35635,7 +34501,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003228",
+      "id": "003117",
       "emoji": "📶",
       "description": "antenna bars",
       "unicode": [
@@ -35644,7 +34510,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003229",
+      "id": "003118",
       "emoji": "📳",
       "description": "vibration mode",
       "unicode": [
@@ -35653,7 +34519,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003230",
+      "id": "003119",
       "emoji": "📴",
       "description": "mobile phone off",
       "unicode": [
@@ -35662,7 +34528,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003231",
+      "id": "003120",
       "emoji": "♀️",
       "description": "female sign",
       "unicode": [
@@ -35672,7 +34538,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "003232",
+      "id": "003121",
       "emoji": "♂️",
       "description": "male sign",
       "unicode": [
@@ -35682,7 +34548,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "003233",
+      "id": "003122",
       "emoji": "⚧️",
       "description": "transgender symbol",
       "unicode": [
@@ -35692,7 +34558,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003234",
+      "id": "003123",
       "emoji": "✖️",
       "description": "multiply",
       "unicode": [
@@ -35702,7 +34568,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003235",
+      "id": "003124",
       "emoji": "➕",
       "description": "plus",
       "unicode": [
@@ -35711,7 +34577,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003236",
+      "id": "003125",
       "emoji": "➖",
       "description": "minus",
       "unicode": [
@@ -35720,7 +34586,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003237",
+      "id": "003126",
       "emoji": "➗",
       "description": "divide",
       "unicode": [
@@ -35729,16 +34595,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003238",
-      "emoji": "🟰",
-      "description": "heavy equals sign",
-      "unicode": [
-        "1F7F0"
-      ],
-      "versionIntroduced": "E14.0"
-    },
-    {
-      "id": "003239",
+      "id": "003127",
       "emoji": "♾️",
       "description": "infinity",
       "unicode": [
@@ -35748,7 +34605,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003240",
+      "id": "003128",
       "emoji": "‼️",
       "description": "double exclamation mark",
       "unicode": [
@@ -35758,7 +34615,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003241",
+      "id": "003129",
       "emoji": "⁉️",
       "description": "exclamation question mark",
       "unicode": [
@@ -35768,7 +34625,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003242",
+      "id": "003130",
       "emoji": "❓",
       "description": "red question mark",
       "unicode": [
@@ -35777,7 +34634,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003243",
+      "id": "003131",
       "emoji": "❔",
       "description": "white question mark",
       "unicode": [
@@ -35786,7 +34643,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003244",
+      "id": "003132",
       "emoji": "❕",
       "description": "white exclamation mark",
       "unicode": [
@@ -35795,7 +34652,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003245",
+      "id": "003133",
       "emoji": "❗",
       "description": "red exclamation mark",
       "unicode": [
@@ -35804,7 +34661,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003246",
+      "id": "003134",
       "emoji": "〰️",
       "description": "wavy dash",
       "unicode": [
@@ -35814,7 +34671,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003247",
+      "id": "003135",
       "emoji": "💱",
       "description": "currency exchange",
       "unicode": [
@@ -35823,7 +34680,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003248",
+      "id": "003136",
       "emoji": "💲",
       "description": "heavy dollar sign",
       "unicode": [
@@ -35832,7 +34689,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003249",
+      "id": "003137",
       "emoji": "⚕️",
       "description": "medical symbol",
       "unicode": [
@@ -35842,7 +34699,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "003250",
+      "id": "003138",
       "emoji": "♻️",
       "description": "recycling symbol",
       "unicode": [
@@ -35852,7 +34709,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003251",
+      "id": "003139",
       "emoji": "⚜️",
       "description": "fleur-de-lis",
       "unicode": [
@@ -35862,7 +34719,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003252",
+      "id": "003140",
       "emoji": "🔱",
       "description": "trident emblem",
       "unicode": [
@@ -35871,7 +34728,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003253",
+      "id": "003141",
       "emoji": "📛",
       "description": "name badge",
       "unicode": [
@@ -35880,7 +34737,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003254",
+      "id": "003142",
       "emoji": "🔰",
       "description": "Japanese symbol for beginner",
       "unicode": [
@@ -35889,7 +34746,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003255",
+      "id": "003143",
       "emoji": "⭕",
       "description": "hollow red circle",
       "unicode": [
@@ -35898,7 +34755,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003256",
+      "id": "003144",
       "emoji": "✅",
       "description": "check mark button",
       "unicode": [
@@ -35907,7 +34764,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003257",
+      "id": "003145",
       "emoji": "☑️",
       "description": "check box with check",
       "unicode": [
@@ -35917,7 +34774,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003258",
+      "id": "003146",
       "emoji": "✔️",
       "description": "check mark",
       "unicode": [
@@ -35927,7 +34784,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003259",
+      "id": "003147",
       "emoji": "❌",
       "description": "cross mark",
       "unicode": [
@@ -35936,7 +34793,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003260",
+      "id": "003148",
       "emoji": "❎",
       "description": "cross mark button",
       "unicode": [
@@ -35945,7 +34802,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003261",
+      "id": "003149",
       "emoji": "➰",
       "description": "curly loop",
       "unicode": [
@@ -35954,7 +34811,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003262",
+      "id": "003150",
       "emoji": "➿",
       "description": "double curly loop",
       "unicode": [
@@ -35963,7 +34820,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003263",
+      "id": "003151",
       "emoji": "〽️",
       "description": "part alternation mark",
       "unicode": [
@@ -35973,7 +34830,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003264",
+      "id": "003152",
       "emoji": "✳️",
       "description": "eight-spoked asterisk",
       "unicode": [
@@ -35983,7 +34840,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003265",
+      "id": "003153",
       "emoji": "✴️",
       "description": "eight-pointed star",
       "unicode": [
@@ -35993,7 +34850,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003266",
+      "id": "003154",
       "emoji": "❇️",
       "description": "sparkle",
       "unicode": [
@@ -36003,7 +34860,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003267",
+      "id": "003155",
       "emoji": "©️",
       "description": "copyright",
       "unicode": [
@@ -36013,7 +34870,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003268",
+      "id": "003156",
       "emoji": "®️",
       "description": "registered",
       "unicode": [
@@ -36023,7 +34880,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003269",
+      "id": "003157",
       "emoji": "™️",
       "description": "trade mark",
       "unicode": [
@@ -36033,7 +34890,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003270",
+      "id": "003158",
       "emoji": "#️⃣",
       "description": "keycap: #",
       "unicode": [
@@ -36044,7 +34901,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003271",
+      "id": "003159",
       "emoji": "*️⃣",
       "description": "keycap: *",
       "unicode": [
@@ -36055,7 +34912,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003272",
+      "id": "003160",
       "emoji": "0️⃣",
       "description": "keycap: 0",
       "unicode": [
@@ -36066,7 +34923,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003273",
+      "id": "003161",
       "emoji": "1️⃣",
       "description": "keycap: 1",
       "unicode": [
@@ -36077,7 +34934,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003274",
+      "id": "003162",
       "emoji": "2️⃣",
       "description": "keycap: 2",
       "unicode": [
@@ -36088,7 +34945,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003275",
+      "id": "003163",
       "emoji": "3️⃣",
       "description": "keycap: 3",
       "unicode": [
@@ -36099,7 +34956,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003276",
+      "id": "003164",
       "emoji": "4️⃣",
       "description": "keycap: 4",
       "unicode": [
@@ -36110,7 +34967,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003277",
+      "id": "003165",
       "emoji": "5️⃣",
       "description": "keycap: 5",
       "unicode": [
@@ -36121,7 +34978,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003278",
+      "id": "003166",
       "emoji": "6️⃣",
       "description": "keycap: 6",
       "unicode": [
@@ -36132,7 +34989,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003279",
+      "id": "003167",
       "emoji": "7️⃣",
       "description": "keycap: 7",
       "unicode": [
@@ -36143,7 +35000,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003280",
+      "id": "003168",
       "emoji": "8️⃣",
       "description": "keycap: 8",
       "unicode": [
@@ -36154,7 +35011,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003281",
+      "id": "003169",
       "emoji": "9️⃣",
       "description": "keycap: 9",
       "unicode": [
@@ -36165,7 +35022,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003282",
+      "id": "003170",
       "emoji": "🔟",
       "description": "keycap: 10",
       "unicode": [
@@ -36174,7 +35031,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003283",
+      "id": "003171",
       "emoji": "🔠",
       "description": "input latin uppercase",
       "unicode": [
@@ -36183,7 +35040,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003284",
+      "id": "003172",
       "emoji": "🔡",
       "description": "input latin lowercase",
       "unicode": [
@@ -36192,7 +35049,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003285",
+      "id": "003173",
       "emoji": "🔢",
       "description": "input numbers",
       "unicode": [
@@ -36201,7 +35058,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003286",
+      "id": "003174",
       "emoji": "🔣",
       "description": "input symbols",
       "unicode": [
@@ -36210,7 +35067,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003287",
+      "id": "003175",
       "emoji": "🔤",
       "description": "input latin letters",
       "unicode": [
@@ -36219,7 +35076,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003288",
+      "id": "003176",
       "emoji": "🅰️",
       "description": "A button (blood type)",
       "unicode": [
@@ -36229,7 +35086,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003289",
+      "id": "003177",
       "emoji": "🆎",
       "description": "AB button (blood type)",
       "unicode": [
@@ -36238,7 +35095,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003290",
+      "id": "003178",
       "emoji": "🅱️",
       "description": "B button (blood type)",
       "unicode": [
@@ -36248,7 +35105,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003291",
+      "id": "003179",
       "emoji": "🆑",
       "description": "CL button",
       "unicode": [
@@ -36257,7 +35114,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003292",
+      "id": "003180",
       "emoji": "🆒",
       "description": "COOL button",
       "unicode": [
@@ -36266,7 +35123,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003293",
+      "id": "003181",
       "emoji": "🆓",
       "description": "FREE button",
       "unicode": [
@@ -36275,7 +35132,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003294",
+      "id": "003182",
       "emoji": "ℹ️",
       "description": "information",
       "unicode": [
@@ -36285,7 +35142,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003295",
+      "id": "003183",
       "emoji": "🆔",
       "description": "ID button",
       "unicode": [
@@ -36294,7 +35151,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003296",
+      "id": "003184",
       "emoji": "Ⓜ️",
       "description": "circled M",
       "unicode": [
@@ -36304,7 +35161,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003297",
+      "id": "003185",
       "emoji": "🆕",
       "description": "NEW button",
       "unicode": [
@@ -36313,7 +35170,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003298",
+      "id": "003186",
       "emoji": "🆖",
       "description": "NG button",
       "unicode": [
@@ -36322,7 +35179,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003299",
+      "id": "003187",
       "emoji": "🅾️",
       "description": "O button (blood type)",
       "unicode": [
@@ -36332,7 +35189,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003300",
+      "id": "003188",
       "emoji": "🆗",
       "description": "OK button",
       "unicode": [
@@ -36341,7 +35198,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003301",
+      "id": "003189",
       "emoji": "🅿️",
       "description": "P button",
       "unicode": [
@@ -36351,7 +35208,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003302",
+      "id": "003190",
       "emoji": "🆘",
       "description": "SOS button",
       "unicode": [
@@ -36360,7 +35217,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003303",
+      "id": "003191",
       "emoji": "🆙",
       "description": "UP! button",
       "unicode": [
@@ -36369,7 +35226,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003304",
+      "id": "003192",
       "emoji": "🆚",
       "description": "VS button",
       "unicode": [
@@ -36378,7 +35235,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003305",
+      "id": "003193",
       "emoji": "🈁",
       "description": "Japanese “here” button",
       "unicode": [
@@ -36387,7 +35244,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003306",
+      "id": "003194",
       "emoji": "🈂️",
       "description": "Japanese “service charge” button",
       "unicode": [
@@ -36397,7 +35254,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003307",
+      "id": "003195",
       "emoji": "🈷️",
       "description": "Japanese “monthly amount” button",
       "unicode": [
@@ -36407,7 +35264,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003308",
+      "id": "003196",
       "emoji": "🈶",
       "description": "Japanese “not free of charge” button",
       "unicode": [
@@ -36416,7 +35273,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003309",
+      "id": "003197",
       "emoji": "🈯",
       "description": "Japanese “reserved” button",
       "unicode": [
@@ -36425,7 +35282,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003310",
+      "id": "003198",
       "emoji": "🉐",
       "description": "Japanese “bargain” button",
       "unicode": [
@@ -36434,7 +35291,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003311",
+      "id": "003199",
       "emoji": "🈹",
       "description": "Japanese “discount” button",
       "unicode": [
@@ -36443,7 +35300,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003312",
+      "id": "003200",
       "emoji": "🈚",
       "description": "Japanese “free of charge” button",
       "unicode": [
@@ -36452,7 +35309,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003313",
+      "id": "003201",
       "emoji": "🈲",
       "description": "Japanese “prohibited” button",
       "unicode": [
@@ -36461,7 +35318,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003314",
+      "id": "003202",
       "emoji": "🉑",
       "description": "Japanese “acceptable” button",
       "unicode": [
@@ -36470,7 +35327,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003315",
+      "id": "003203",
       "emoji": "🈸",
       "description": "Japanese “application” button",
       "unicode": [
@@ -36479,7 +35336,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003316",
+      "id": "003204",
       "emoji": "🈴",
       "description": "Japanese “passing grade” button",
       "unicode": [
@@ -36488,7 +35345,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003317",
+      "id": "003205",
       "emoji": "🈳",
       "description": "Japanese “vacancy” button",
       "unicode": [
@@ -36497,7 +35354,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003318",
+      "id": "003206",
       "emoji": "㊗️",
       "description": "Japanese “congratulations” button",
       "unicode": [
@@ -36507,7 +35364,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003319",
+      "id": "003207",
       "emoji": "㊙️",
       "description": "Japanese “secret” button",
       "unicode": [
@@ -36517,7 +35374,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003320",
+      "id": "003208",
       "emoji": "🈺",
       "description": "Japanese “open for business” button",
       "unicode": [
@@ -36526,7 +35383,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003321",
+      "id": "003209",
       "emoji": "🈵",
       "description": "Japanese “no vacancy” button",
       "unicode": [
@@ -36535,7 +35392,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003322",
+      "id": "003210",
       "emoji": "🔴",
       "description": "red circle",
       "unicode": [
@@ -36544,7 +35401,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003323",
+      "id": "003211",
       "emoji": "🟠",
       "description": "orange circle",
       "unicode": [
@@ -36553,7 +35410,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003324",
+      "id": "003212",
       "emoji": "🟡",
       "description": "yellow circle",
       "unicode": [
@@ -36562,7 +35419,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003325",
+      "id": "003213",
       "emoji": "🟢",
       "description": "green circle",
       "unicode": [
@@ -36571,7 +35428,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003326",
+      "id": "003214",
       "emoji": "🔵",
       "description": "blue circle",
       "unicode": [
@@ -36580,7 +35437,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003327",
+      "id": "003215",
       "emoji": "🟣",
       "description": "purple circle",
       "unicode": [
@@ -36589,7 +35446,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003328",
+      "id": "003216",
       "emoji": "🟤",
       "description": "brown circle",
       "unicode": [
@@ -36598,7 +35455,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003329",
+      "id": "003217",
       "emoji": "⚫",
       "description": "black circle",
       "unicode": [
@@ -36607,7 +35464,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003330",
+      "id": "003218",
       "emoji": "⚪",
       "description": "white circle",
       "unicode": [
@@ -36616,7 +35473,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003331",
+      "id": "003219",
       "emoji": "🟥",
       "description": "red square",
       "unicode": [
@@ -36625,7 +35482,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003332",
+      "id": "003220",
       "emoji": "🟧",
       "description": "orange square",
       "unicode": [
@@ -36634,7 +35491,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003333",
+      "id": "003221",
       "emoji": "🟨",
       "description": "yellow square",
       "unicode": [
@@ -36643,7 +35500,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003334",
+      "id": "003222",
       "emoji": "🟩",
       "description": "green square",
       "unicode": [
@@ -36652,7 +35509,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003335",
+      "id": "003223",
       "emoji": "🟦",
       "description": "blue square",
       "unicode": [
@@ -36661,7 +35518,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003336",
+      "id": "003224",
       "emoji": "🟪",
       "description": "purple square",
       "unicode": [
@@ -36670,7 +35527,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003337",
+      "id": "003225",
       "emoji": "🟫",
       "description": "brown square",
       "unicode": [
@@ -36679,7 +35536,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E12.0"
     },
     {
-      "id": "003338",
+      "id": "003226",
       "emoji": "⬛",
       "description": "black large square",
       "unicode": [
@@ -36688,7 +35545,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003339",
+      "id": "003227",
       "emoji": "⬜",
       "description": "white large square",
       "unicode": [
@@ -36697,7 +35554,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003340",
+      "id": "003228",
       "emoji": "◼️",
       "description": "black medium square",
       "unicode": [
@@ -36707,7 +35564,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003341",
+      "id": "003229",
       "emoji": "◻️",
       "description": "white medium square",
       "unicode": [
@@ -36717,7 +35574,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003342",
+      "id": "003230",
       "emoji": "◾",
       "description": "black medium-small square",
       "unicode": [
@@ -36726,7 +35583,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003343",
+      "id": "003231",
       "emoji": "◽",
       "description": "white medium-small square",
       "unicode": [
@@ -36735,7 +35592,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003344",
+      "id": "003232",
       "emoji": "▪️",
       "description": "black small square",
       "unicode": [
@@ -36745,7 +35602,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003345",
+      "id": "003233",
       "emoji": "▫️",
       "description": "white small square",
       "unicode": [
@@ -36755,7 +35612,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003346",
+      "id": "003234",
       "emoji": "🔶",
       "description": "large orange diamond",
       "unicode": [
@@ -36764,7 +35621,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003347",
+      "id": "003235",
       "emoji": "🔷",
       "description": "large blue diamond",
       "unicode": [
@@ -36773,7 +35630,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003348",
+      "id": "003236",
       "emoji": "🔸",
       "description": "small orange diamond",
       "unicode": [
@@ -36782,7 +35639,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003349",
+      "id": "003237",
       "emoji": "🔹",
       "description": "small blue diamond",
       "unicode": [
@@ -36791,7 +35648,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003350",
+      "id": "003238",
       "emoji": "🔺",
       "description": "red triangle pointed up",
       "unicode": [
@@ -36800,7 +35657,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003351",
+      "id": "003239",
       "emoji": "🔻",
       "description": "red triangle pointed down",
       "unicode": [
@@ -36809,7 +35666,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003352",
+      "id": "003240",
       "emoji": "💠",
       "description": "diamond with a dot",
       "unicode": [
@@ -36818,7 +35675,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003353",
+      "id": "003241",
       "emoji": "🔘",
       "description": "radio button",
       "unicode": [
@@ -36827,7 +35684,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003354",
+      "id": "003242",
       "emoji": "🔳",
       "description": "white square button",
       "unicode": [
@@ -36836,7 +35693,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003355",
+      "id": "003243",
       "emoji": "🔲",
       "description": "black square button",
       "unicode": [
@@ -36845,7 +35702,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003356",
+      "id": "003244",
       "emoji": "🏁",
       "description": "chequered flag",
       "unicode": [
@@ -36854,7 +35711,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003357",
+      "id": "003245",
       "emoji": "🚩",
       "description": "triangular flag",
       "unicode": [
@@ -36863,7 +35720,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003358",
+      "id": "003246",
       "emoji": "🎌",
       "description": "crossed flags",
       "unicode": [
@@ -36872,7 +35729,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003359",
+      "id": "003247",
       "emoji": "🏴",
       "description": "black flag",
       "unicode": [
@@ -36881,7 +35738,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E1.0"
     },
     {
-      "id": "003360",
+      "id": "003248",
       "emoji": "🏳️",
       "description": "white flag",
       "unicode": [
@@ -36891,7 +35748,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.7"
     },
     {
-      "id": "003361",
+      "id": "003249",
       "emoji": "🏳️‍🌈",
       "description": "rainbow flag",
       "unicode": [
@@ -36903,7 +35760,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "003362",
+      "id": "003250",
       "emoji": "🏳️‍⚧️",
       "description": "transgender flag",
       "unicode": [
@@ -36916,7 +35773,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E13.0"
     },
     {
-      "id": "003363",
+      "id": "003251",
       "emoji": "🏴‍☠️",
       "description": "pirate flag",
       "unicode": [
@@ -36928,7 +35785,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E11.0"
     },
     {
-      "id": "003364",
+      "id": "003252",
       "emoji": "🇦🇨",
       "description": "flag: Ascension Island",
       "unicode": [
@@ -36938,7 +35795,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003365",
+      "id": "003253",
       "emoji": "🇦🇩",
       "description": "flag: Andorra",
       "unicode": [
@@ -36948,7 +35805,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003366",
+      "id": "003254",
       "emoji": "🇦🇪",
       "description": "flag: United Arab Emirates",
       "unicode": [
@@ -36958,7 +35815,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003367",
+      "id": "003255",
       "emoji": "🇦🇫",
       "description": "flag: Afghanistan",
       "unicode": [
@@ -36968,7 +35825,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003368",
+      "id": "003256",
       "emoji": "🇦🇬",
       "description": "flag: Antigua & Barbuda",
       "unicode": [
@@ -36978,7 +35835,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003369",
+      "id": "003257",
       "emoji": "🇦🇮",
       "description": "flag: Anguilla",
       "unicode": [
@@ -36988,7 +35845,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003370",
+      "id": "003258",
       "emoji": "🇦🇱",
       "description": "flag: Albania",
       "unicode": [
@@ -36998,7 +35855,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003371",
+      "id": "003259",
       "emoji": "🇦🇲",
       "description": "flag: Armenia",
       "unicode": [
@@ -37008,7 +35865,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003372",
+      "id": "003260",
       "emoji": "🇦🇴",
       "description": "flag: Angola",
       "unicode": [
@@ -37018,7 +35875,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003373",
+      "id": "003261",
       "emoji": "🇦🇶",
       "description": "flag: Antarctica",
       "unicode": [
@@ -37028,7 +35885,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003374",
+      "id": "003262",
       "emoji": "🇦🇷",
       "description": "flag: Argentina",
       "unicode": [
@@ -37038,7 +35895,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003375",
+      "id": "003263",
       "emoji": "🇦🇸",
       "description": "flag: American Samoa",
       "unicode": [
@@ -37048,7 +35905,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003376",
+      "id": "003264",
       "emoji": "🇦🇹",
       "description": "flag: Austria",
       "unicode": [
@@ -37058,7 +35915,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003377",
+      "id": "003265",
       "emoji": "🇦🇺",
       "description": "flag: Australia",
       "unicode": [
@@ -37068,7 +35925,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003378",
+      "id": "003266",
       "emoji": "🇦🇼",
       "description": "flag: Aruba",
       "unicode": [
@@ -37078,7 +35935,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003379",
+      "id": "003267",
       "emoji": "🇦🇽",
       "description": "flag: Åland Islands",
       "unicode": [
@@ -37088,7 +35945,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003380",
+      "id": "003268",
       "emoji": "🇦🇿",
       "description": "flag: Azerbaijan",
       "unicode": [
@@ -37098,7 +35955,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003381",
+      "id": "003269",
       "emoji": "🇧🇦",
       "description": "flag: Bosnia & Herzegovina",
       "unicode": [
@@ -37108,7 +35965,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003382",
+      "id": "003270",
       "emoji": "🇧🇧",
       "description": "flag: Barbados",
       "unicode": [
@@ -37118,7 +35975,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003383",
+      "id": "003271",
       "emoji": "🇧🇩",
       "description": "flag: Bangladesh",
       "unicode": [
@@ -37128,7 +35985,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003384",
+      "id": "003272",
       "emoji": "🇧🇪",
       "description": "flag: Belgium",
       "unicode": [
@@ -37138,7 +35995,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003385",
+      "id": "003273",
       "emoji": "🇧🇫",
       "description": "flag: Burkina Faso",
       "unicode": [
@@ -37148,7 +36005,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003386",
+      "id": "003274",
       "emoji": "🇧🇬",
       "description": "flag: Bulgaria",
       "unicode": [
@@ -37158,7 +36015,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003387",
+      "id": "003275",
       "emoji": "🇧🇭",
       "description": "flag: Bahrain",
       "unicode": [
@@ -37168,7 +36025,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003388",
+      "id": "003276",
       "emoji": "🇧🇮",
       "description": "flag: Burundi",
       "unicode": [
@@ -37178,7 +36035,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003389",
+      "id": "003277",
       "emoji": "🇧🇯",
       "description": "flag: Benin",
       "unicode": [
@@ -37188,7 +36045,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003390",
+      "id": "003278",
       "emoji": "🇧🇱",
       "description": "flag: St. Barthélemy",
       "unicode": [
@@ -37198,7 +36055,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003391",
+      "id": "003279",
       "emoji": "🇧🇲",
       "description": "flag: Bermuda",
       "unicode": [
@@ -37208,7 +36065,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003392",
+      "id": "003280",
       "emoji": "🇧🇳",
       "description": "flag: Brunei",
       "unicode": [
@@ -37218,7 +36075,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003393",
+      "id": "003281",
       "emoji": "🇧🇴",
       "description": "flag: Bolivia",
       "unicode": [
@@ -37228,7 +36085,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003394",
+      "id": "003282",
       "emoji": "🇧🇶",
       "description": "flag: Caribbean Netherlands",
       "unicode": [
@@ -37238,7 +36095,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003395",
+      "id": "003283",
       "emoji": "🇧🇷",
       "description": "flag: Brazil",
       "unicode": [
@@ -37248,7 +36105,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003396",
+      "id": "003284",
       "emoji": "🇧🇸",
       "description": "flag: Bahamas",
       "unicode": [
@@ -37258,7 +36115,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003397",
+      "id": "003285",
       "emoji": "🇧🇹",
       "description": "flag: Bhutan",
       "unicode": [
@@ -37268,7 +36125,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003398",
+      "id": "003286",
       "emoji": "🇧🇻",
       "description": "flag: Bouvet Island",
       "unicode": [
@@ -37278,7 +36135,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003399",
+      "id": "003287",
       "emoji": "🇧🇼",
       "description": "flag: Botswana",
       "unicode": [
@@ -37288,7 +36145,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003400",
+      "id": "003288",
       "emoji": "🇧🇾",
       "description": "flag: Belarus",
       "unicode": [
@@ -37298,7 +36155,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003401",
+      "id": "003289",
       "emoji": "🇧🇿",
       "description": "flag: Belize",
       "unicode": [
@@ -37308,7 +36165,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003402",
+      "id": "003290",
       "emoji": "🇨🇦",
       "description": "flag: Canada",
       "unicode": [
@@ -37318,7 +36175,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003403",
+      "id": "003291",
       "emoji": "🇨🇨",
       "description": "flag: Cocos (Keeling) Islands",
       "unicode": [
@@ -37328,7 +36185,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003404",
+      "id": "003292",
       "emoji": "🇨🇩",
       "description": "flag: Congo - Kinshasa",
       "unicode": [
@@ -37338,7 +36195,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003405",
+      "id": "003293",
       "emoji": "🇨🇫",
       "description": "flag: Central African Republic",
       "unicode": [
@@ -37348,7 +36205,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003406",
+      "id": "003294",
       "emoji": "🇨🇬",
       "description": "flag: Congo - Brazzaville",
       "unicode": [
@@ -37358,7 +36215,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003407",
+      "id": "003295",
       "emoji": "🇨🇭",
       "description": "flag: Switzerland",
       "unicode": [
@@ -37368,7 +36225,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003408",
+      "id": "003296",
       "emoji": "🇨🇮",
       "description": "flag: Côte d’Ivoire",
       "unicode": [
@@ -37378,7 +36235,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003409",
+      "id": "003297",
       "emoji": "🇨🇰",
       "description": "flag: Cook Islands",
       "unicode": [
@@ -37388,7 +36245,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003410",
+      "id": "003298",
       "emoji": "🇨🇱",
       "description": "flag: Chile",
       "unicode": [
@@ -37398,7 +36255,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003411",
+      "id": "003299",
       "emoji": "🇨🇲",
       "description": "flag: Cameroon",
       "unicode": [
@@ -37408,7 +36265,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003412",
+      "id": "003300",
       "emoji": "🇨🇳",
       "description": "flag: China",
       "unicode": [
@@ -37418,7 +36275,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003413",
+      "id": "003301",
       "emoji": "🇨🇴",
       "description": "flag: Colombia",
       "unicode": [
@@ -37428,7 +36285,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003414",
+      "id": "003302",
       "emoji": "🇨🇵",
       "description": "flag: Clipperton Island",
       "unicode": [
@@ -37438,7 +36295,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003415",
+      "id": "003303",
       "emoji": "🇨🇷",
       "description": "flag: Costa Rica",
       "unicode": [
@@ -37448,7 +36305,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003416",
+      "id": "003304",
       "emoji": "🇨🇺",
       "description": "flag: Cuba",
       "unicode": [
@@ -37458,7 +36315,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003417",
+      "id": "003305",
       "emoji": "🇨🇻",
       "description": "flag: Cape Verde",
       "unicode": [
@@ -37468,7 +36325,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003418",
+      "id": "003306",
       "emoji": "🇨🇼",
       "description": "flag: Curaçao",
       "unicode": [
@@ -37478,7 +36335,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003419",
+      "id": "003307",
       "emoji": "🇨🇽",
       "description": "flag: Christmas Island",
       "unicode": [
@@ -37488,7 +36345,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003420",
+      "id": "003308",
       "emoji": "🇨🇾",
       "description": "flag: Cyprus",
       "unicode": [
@@ -37498,7 +36355,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003421",
+      "id": "003309",
       "emoji": "🇨🇿",
       "description": "flag: Czechia",
       "unicode": [
@@ -37508,7 +36365,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003422",
+      "id": "003310",
       "emoji": "🇩🇪",
       "description": "flag: Germany",
       "unicode": [
@@ -37518,7 +36375,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003423",
+      "id": "003311",
       "emoji": "🇩🇬",
       "description": "flag: Diego Garcia",
       "unicode": [
@@ -37528,7 +36385,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003424",
+      "id": "003312",
       "emoji": "🇩🇯",
       "description": "flag: Djibouti",
       "unicode": [
@@ -37538,7 +36395,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003425",
+      "id": "003313",
       "emoji": "🇩🇰",
       "description": "flag: Denmark",
       "unicode": [
@@ -37548,7 +36405,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003426",
+      "id": "003314",
       "emoji": "🇩🇲",
       "description": "flag: Dominica",
       "unicode": [
@@ -37558,7 +36415,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003427",
+      "id": "003315",
       "emoji": "🇩🇴",
       "description": "flag: Dominican Republic",
       "unicode": [
@@ -37568,7 +36425,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003428",
+      "id": "003316",
       "emoji": "🇩🇿",
       "description": "flag: Algeria",
       "unicode": [
@@ -37578,7 +36435,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003429",
+      "id": "003317",
       "emoji": "🇪🇦",
       "description": "flag: Ceuta & Melilla",
       "unicode": [
@@ -37588,7 +36445,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003430",
+      "id": "003318",
       "emoji": "🇪🇨",
       "description": "flag: Ecuador",
       "unicode": [
@@ -37598,7 +36455,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003431",
+      "id": "003319",
       "emoji": "🇪🇪",
       "description": "flag: Estonia",
       "unicode": [
@@ -37608,7 +36465,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003432",
+      "id": "003320",
       "emoji": "🇪🇬",
       "description": "flag: Egypt",
       "unicode": [
@@ -37618,7 +36475,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003433",
+      "id": "003321",
       "emoji": "🇪🇭",
       "description": "flag: Western Sahara",
       "unicode": [
@@ -37628,7 +36485,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003434",
+      "id": "003322",
       "emoji": "🇪🇷",
       "description": "flag: Eritrea",
       "unicode": [
@@ -37638,7 +36495,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003435",
+      "id": "003323",
       "emoji": "🇪🇸",
       "description": "flag: Spain",
       "unicode": [
@@ -37648,7 +36505,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003436",
+      "id": "003324",
       "emoji": "🇪🇹",
       "description": "flag: Ethiopia",
       "unicode": [
@@ -37658,7 +36515,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003437",
+      "id": "003325",
       "emoji": "🇪🇺",
       "description": "flag: European Union",
       "unicode": [
@@ -37668,7 +36525,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003438",
+      "id": "003326",
       "emoji": "🇫🇮",
       "description": "flag: Finland",
       "unicode": [
@@ -37678,7 +36535,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003439",
+      "id": "003327",
       "emoji": "🇫🇯",
       "description": "flag: Fiji",
       "unicode": [
@@ -37688,7 +36545,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003440",
+      "id": "003328",
       "emoji": "🇫🇰",
       "description": "flag: Falkland Islands",
       "unicode": [
@@ -37698,7 +36555,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003441",
+      "id": "003329",
       "emoji": "🇫🇲",
       "description": "flag: Micronesia",
       "unicode": [
@@ -37708,7 +36565,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003442",
+      "id": "003330",
       "emoji": "🇫🇴",
       "description": "flag: Faroe Islands",
       "unicode": [
@@ -37718,7 +36575,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003443",
+      "id": "003331",
       "emoji": "🇫🇷",
       "description": "flag: France",
       "unicode": [
@@ -37728,7 +36585,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003444",
+      "id": "003332",
       "emoji": "🇬🇦",
       "description": "flag: Gabon",
       "unicode": [
@@ -37738,7 +36595,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003445",
+      "id": "003333",
       "emoji": "🇬🇧",
       "description": "flag: United Kingdom",
       "unicode": [
@@ -37748,7 +36605,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003446",
+      "id": "003334",
       "emoji": "🇬🇩",
       "description": "flag: Grenada",
       "unicode": [
@@ -37758,7 +36615,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003447",
+      "id": "003335",
       "emoji": "🇬🇪",
       "description": "flag: Georgia",
       "unicode": [
@@ -37768,7 +36625,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003448",
+      "id": "003336",
       "emoji": "🇬🇫",
       "description": "flag: French Guiana",
       "unicode": [
@@ -37778,7 +36635,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003449",
+      "id": "003337",
       "emoji": "🇬🇬",
       "description": "flag: Guernsey",
       "unicode": [
@@ -37788,7 +36645,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003450",
+      "id": "003338",
       "emoji": "🇬🇭",
       "description": "flag: Ghana",
       "unicode": [
@@ -37798,7 +36655,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003451",
+      "id": "003339",
       "emoji": "🇬🇮",
       "description": "flag: Gibraltar",
       "unicode": [
@@ -37808,7 +36665,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003452",
+      "id": "003340",
       "emoji": "🇬🇱",
       "description": "flag: Greenland",
       "unicode": [
@@ -37818,7 +36675,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003453",
+      "id": "003341",
       "emoji": "🇬🇲",
       "description": "flag: Gambia",
       "unicode": [
@@ -37828,7 +36685,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003454",
+      "id": "003342",
       "emoji": "🇬🇳",
       "description": "flag: Guinea",
       "unicode": [
@@ -37838,7 +36695,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003455",
+      "id": "003343",
       "emoji": "🇬🇵",
       "description": "flag: Guadeloupe",
       "unicode": [
@@ -37848,7 +36705,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003456",
+      "id": "003344",
       "emoji": "🇬🇶",
       "description": "flag: Equatorial Guinea",
       "unicode": [
@@ -37858,7 +36715,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003457",
+      "id": "003345",
       "emoji": "🇬🇷",
       "description": "flag: Greece",
       "unicode": [
@@ -37868,7 +36725,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003458",
+      "id": "003346",
       "emoji": "🇬🇸",
       "description": "flag: South Georgia & South Sandwich Islands",
       "unicode": [
@@ -37878,7 +36735,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003459",
+      "id": "003347",
       "emoji": "🇬🇹",
       "description": "flag: Guatemala",
       "unicode": [
@@ -37888,7 +36745,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003460",
+      "id": "003348",
       "emoji": "🇬🇺",
       "description": "flag: Guam",
       "unicode": [
@@ -37898,7 +36755,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003461",
+      "id": "003349",
       "emoji": "🇬🇼",
       "description": "flag: Guinea-Bissau",
       "unicode": [
@@ -37908,7 +36765,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003462",
+      "id": "003350",
       "emoji": "🇬🇾",
       "description": "flag: Guyana",
       "unicode": [
@@ -37918,7 +36775,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003463",
+      "id": "003351",
       "emoji": "🇭🇰",
       "description": "flag: Hong Kong SAR China",
       "unicode": [
@@ -37928,7 +36785,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003464",
+      "id": "003352",
       "emoji": "🇭🇲",
       "description": "flag: Heard & McDonald Islands",
       "unicode": [
@@ -37938,7 +36795,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003465",
+      "id": "003353",
       "emoji": "🇭🇳",
       "description": "flag: Honduras",
       "unicode": [
@@ -37948,7 +36805,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003466",
+      "id": "003354",
       "emoji": "🇭🇷",
       "description": "flag: Croatia",
       "unicode": [
@@ -37958,7 +36815,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003467",
+      "id": "003355",
       "emoji": "🇭🇹",
       "description": "flag: Haiti",
       "unicode": [
@@ -37968,7 +36825,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003468",
+      "id": "003356",
       "emoji": "🇭🇺",
       "description": "flag: Hungary",
       "unicode": [
@@ -37978,7 +36835,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003469",
+      "id": "003357",
       "emoji": "🇮🇨",
       "description": "flag: Canary Islands",
       "unicode": [
@@ -37988,7 +36845,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003470",
+      "id": "003358",
       "emoji": "🇮🇩",
       "description": "flag: Indonesia",
       "unicode": [
@@ -37998,7 +36855,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003471",
+      "id": "003359",
       "emoji": "🇮🇪",
       "description": "flag: Ireland",
       "unicode": [
@@ -38008,7 +36865,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003472",
+      "id": "003360",
       "emoji": "🇮🇱",
       "description": "flag: Israel",
       "unicode": [
@@ -38018,7 +36875,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003473",
+      "id": "003361",
       "emoji": "🇮🇲",
       "description": "flag: Isle of Man",
       "unicode": [
@@ -38028,7 +36885,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003474",
+      "id": "003362",
       "emoji": "🇮🇳",
       "description": "flag: India",
       "unicode": [
@@ -38038,7 +36895,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003475",
+      "id": "003363",
       "emoji": "🇮🇴",
       "description": "flag: British Indian Ocean Territory",
       "unicode": [
@@ -38048,7 +36905,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003476",
+      "id": "003364",
       "emoji": "🇮🇶",
       "description": "flag: Iraq",
       "unicode": [
@@ -38058,7 +36915,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003477",
+      "id": "003365",
       "emoji": "🇮🇷",
       "description": "flag: Iran",
       "unicode": [
@@ -38068,7 +36925,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003478",
+      "id": "003366",
       "emoji": "🇮🇸",
       "description": "flag: Iceland",
       "unicode": [
@@ -38078,7 +36935,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003479",
+      "id": "003367",
       "emoji": "🇮🇹",
       "description": "flag: Italy",
       "unicode": [
@@ -38088,7 +36945,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003480",
+      "id": "003368",
       "emoji": "🇯🇪",
       "description": "flag: Jersey",
       "unicode": [
@@ -38098,7 +36955,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003481",
+      "id": "003369",
       "emoji": "🇯🇲",
       "description": "flag: Jamaica",
       "unicode": [
@@ -38108,7 +36965,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003482",
+      "id": "003370",
       "emoji": "🇯🇴",
       "description": "flag: Jordan",
       "unicode": [
@@ -38118,7 +36975,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003483",
+      "id": "003371",
       "emoji": "🇯🇵",
       "description": "flag: Japan",
       "unicode": [
@@ -38128,7 +36985,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003484",
+      "id": "003372",
       "emoji": "🇰🇪",
       "description": "flag: Kenya",
       "unicode": [
@@ -38138,7 +36995,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003485",
+      "id": "003373",
       "emoji": "🇰🇬",
       "description": "flag: Kyrgyzstan",
       "unicode": [
@@ -38148,7 +37005,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003486",
+      "id": "003374",
       "emoji": "🇰🇭",
       "description": "flag: Cambodia",
       "unicode": [
@@ -38158,7 +37015,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003487",
+      "id": "003375",
       "emoji": "🇰🇮",
       "description": "flag: Kiribati",
       "unicode": [
@@ -38168,7 +37025,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003488",
+      "id": "003376",
       "emoji": "🇰🇲",
       "description": "flag: Comoros",
       "unicode": [
@@ -38178,7 +37035,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003489",
+      "id": "003377",
       "emoji": "🇰🇳",
       "description": "flag: St. Kitts & Nevis",
       "unicode": [
@@ -38188,7 +37045,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003490",
+      "id": "003378",
       "emoji": "🇰🇵",
       "description": "flag: North Korea",
       "unicode": [
@@ -38198,7 +37055,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003491",
+      "id": "003379",
       "emoji": "🇰🇷",
       "description": "flag: South Korea",
       "unicode": [
@@ -38208,7 +37065,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003492",
+      "id": "003380",
       "emoji": "🇰🇼",
       "description": "flag: Kuwait",
       "unicode": [
@@ -38218,7 +37075,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003493",
+      "id": "003381",
       "emoji": "🇰🇾",
       "description": "flag: Cayman Islands",
       "unicode": [
@@ -38228,7 +37085,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003494",
+      "id": "003382",
       "emoji": "🇰🇿",
       "description": "flag: Kazakhstan",
       "unicode": [
@@ -38238,7 +37095,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003495",
+      "id": "003383",
       "emoji": "🇱🇦",
       "description": "flag: Laos",
       "unicode": [
@@ -38248,7 +37105,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003496",
+      "id": "003384",
       "emoji": "🇱🇧",
       "description": "flag: Lebanon",
       "unicode": [
@@ -38258,7 +37115,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003497",
+      "id": "003385",
       "emoji": "🇱🇨",
       "description": "flag: St. Lucia",
       "unicode": [
@@ -38268,7 +37125,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003498",
+      "id": "003386",
       "emoji": "🇱🇮",
       "description": "flag: Liechtenstein",
       "unicode": [
@@ -38278,7 +37135,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003499",
+      "id": "003387",
       "emoji": "🇱🇰",
       "description": "flag: Sri Lanka",
       "unicode": [
@@ -38288,7 +37145,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003500",
+      "id": "003388",
       "emoji": "🇱🇷",
       "description": "flag: Liberia",
       "unicode": [
@@ -38298,7 +37155,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003501",
+      "id": "003389",
       "emoji": "🇱🇸",
       "description": "flag: Lesotho",
       "unicode": [
@@ -38308,7 +37165,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003502",
+      "id": "003390",
       "emoji": "🇱🇹",
       "description": "flag: Lithuania",
       "unicode": [
@@ -38318,7 +37175,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003503",
+      "id": "003391",
       "emoji": "🇱🇺",
       "description": "flag: Luxembourg",
       "unicode": [
@@ -38328,7 +37185,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003504",
+      "id": "003392",
       "emoji": "🇱🇻",
       "description": "flag: Latvia",
       "unicode": [
@@ -38338,7 +37195,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003505",
+      "id": "003393",
       "emoji": "🇱🇾",
       "description": "flag: Libya",
       "unicode": [
@@ -38348,7 +37205,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003506",
+      "id": "003394",
       "emoji": "🇲🇦",
       "description": "flag: Morocco",
       "unicode": [
@@ -38358,7 +37215,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003507",
+      "id": "003395",
       "emoji": "🇲🇨",
       "description": "flag: Monaco",
       "unicode": [
@@ -38368,7 +37225,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003508",
+      "id": "003396",
       "emoji": "🇲🇩",
       "description": "flag: Moldova",
       "unicode": [
@@ -38378,7 +37235,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003509",
+      "id": "003397",
       "emoji": "🇲🇪",
       "description": "flag: Montenegro",
       "unicode": [
@@ -38388,7 +37245,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003510",
+      "id": "003398",
       "emoji": "🇲🇫",
       "description": "flag: St. Martin",
       "unicode": [
@@ -38398,7 +37255,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003511",
+      "id": "003399",
       "emoji": "🇲🇬",
       "description": "flag: Madagascar",
       "unicode": [
@@ -38408,7 +37265,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003512",
+      "id": "003400",
       "emoji": "🇲🇭",
       "description": "flag: Marshall Islands",
       "unicode": [
@@ -38418,7 +37275,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003513",
+      "id": "003401",
       "emoji": "🇲🇰",
       "description": "flag: North Macedonia",
       "unicode": [
@@ -38428,7 +37285,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003514",
+      "id": "003402",
       "emoji": "🇲🇱",
       "description": "flag: Mali",
       "unicode": [
@@ -38438,7 +37295,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003515",
+      "id": "003403",
       "emoji": "🇲🇲",
       "description": "flag: Myanmar (Burma)",
       "unicode": [
@@ -38448,7 +37305,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003516",
+      "id": "003404",
       "emoji": "🇲🇳",
       "description": "flag: Mongolia",
       "unicode": [
@@ -38458,7 +37315,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003517",
+      "id": "003405",
       "emoji": "🇲🇴",
       "description": "flag: Macao SAR China",
       "unicode": [
@@ -38468,7 +37325,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003518",
+      "id": "003406",
       "emoji": "🇲🇵",
       "description": "flag: Northern Mariana Islands",
       "unicode": [
@@ -38478,7 +37335,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003519",
+      "id": "003407",
       "emoji": "🇲🇶",
       "description": "flag: Martinique",
       "unicode": [
@@ -38488,7 +37345,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003520",
+      "id": "003408",
       "emoji": "🇲🇷",
       "description": "flag: Mauritania",
       "unicode": [
@@ -38498,7 +37355,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003521",
+      "id": "003409",
       "emoji": "🇲🇸",
       "description": "flag: Montserrat",
       "unicode": [
@@ -38508,7 +37365,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003522",
+      "id": "003410",
       "emoji": "🇲🇹",
       "description": "flag: Malta",
       "unicode": [
@@ -38518,7 +37375,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003523",
+      "id": "003411",
       "emoji": "🇲🇺",
       "description": "flag: Mauritius",
       "unicode": [
@@ -38528,7 +37385,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003524",
+      "id": "003412",
       "emoji": "🇲🇻",
       "description": "flag: Maldives",
       "unicode": [
@@ -38538,7 +37395,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003525",
+      "id": "003413",
       "emoji": "🇲🇼",
       "description": "flag: Malawi",
       "unicode": [
@@ -38548,7 +37405,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003526",
+      "id": "003414",
       "emoji": "🇲🇽",
       "description": "flag: Mexico",
       "unicode": [
@@ -38558,7 +37415,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003527",
+      "id": "003415",
       "emoji": "🇲🇾",
       "description": "flag: Malaysia",
       "unicode": [
@@ -38568,7 +37425,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003528",
+      "id": "003416",
       "emoji": "🇲🇿",
       "description": "flag: Mozambique",
       "unicode": [
@@ -38578,7 +37435,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003529",
+      "id": "003417",
       "emoji": "🇳🇦",
       "description": "flag: Namibia",
       "unicode": [
@@ -38588,7 +37445,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003530",
+      "id": "003418",
       "emoji": "🇳🇨",
       "description": "flag: New Caledonia",
       "unicode": [
@@ -38598,7 +37455,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003531",
+      "id": "003419",
       "emoji": "🇳🇪",
       "description": "flag: Niger",
       "unicode": [
@@ -38608,7 +37465,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003532",
+      "id": "003420",
       "emoji": "🇳🇫",
       "description": "flag: Norfolk Island",
       "unicode": [
@@ -38618,7 +37475,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003533",
+      "id": "003421",
       "emoji": "🇳🇬",
       "description": "flag: Nigeria",
       "unicode": [
@@ -38628,7 +37485,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003534",
+      "id": "003422",
       "emoji": "🇳🇮",
       "description": "flag: Nicaragua",
       "unicode": [
@@ -38638,7 +37495,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003535",
+      "id": "003423",
       "emoji": "🇳🇱",
       "description": "flag: Netherlands",
       "unicode": [
@@ -38648,7 +37505,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003536",
+      "id": "003424",
       "emoji": "🇳🇴",
       "description": "flag: Norway",
       "unicode": [
@@ -38658,7 +37515,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003537",
+      "id": "003425",
       "emoji": "🇳🇵",
       "description": "flag: Nepal",
       "unicode": [
@@ -38668,7 +37525,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003538",
+      "id": "003426",
       "emoji": "🇳🇷",
       "description": "flag: Nauru",
       "unicode": [
@@ -38678,7 +37535,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003539",
+      "id": "003427",
       "emoji": "🇳🇺",
       "description": "flag: Niue",
       "unicode": [
@@ -38688,7 +37545,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003540",
+      "id": "003428",
       "emoji": "🇳🇿",
       "description": "flag: New Zealand",
       "unicode": [
@@ -38698,7 +37555,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003541",
+      "id": "003429",
       "emoji": "🇴🇲",
       "description": "flag: Oman",
       "unicode": [
@@ -38708,7 +37565,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003542",
+      "id": "003430",
       "emoji": "🇵🇦",
       "description": "flag: Panama",
       "unicode": [
@@ -38718,7 +37575,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003543",
+      "id": "003431",
       "emoji": "🇵🇪",
       "description": "flag: Peru",
       "unicode": [
@@ -38728,7 +37585,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003544",
+      "id": "003432",
       "emoji": "🇵🇫",
       "description": "flag: French Polynesia",
       "unicode": [
@@ -38738,7 +37595,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003545",
+      "id": "003433",
       "emoji": "🇵🇬",
       "description": "flag: Papua New Guinea",
       "unicode": [
@@ -38748,7 +37605,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003546",
+      "id": "003434",
       "emoji": "🇵🇭",
       "description": "flag: Philippines",
       "unicode": [
@@ -38758,7 +37615,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003547",
+      "id": "003435",
       "emoji": "🇵🇰",
       "description": "flag: Pakistan",
       "unicode": [
@@ -38768,7 +37625,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003548",
+      "id": "003436",
       "emoji": "🇵🇱",
       "description": "flag: Poland",
       "unicode": [
@@ -38778,7 +37635,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003549",
+      "id": "003437",
       "emoji": "🇵🇲",
       "description": "flag: St. Pierre & Miquelon",
       "unicode": [
@@ -38788,7 +37645,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003550",
+      "id": "003438",
       "emoji": "🇵🇳",
       "description": "flag: Pitcairn Islands",
       "unicode": [
@@ -38798,7 +37655,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003551",
+      "id": "003439",
       "emoji": "🇵🇷",
       "description": "flag: Puerto Rico",
       "unicode": [
@@ -38808,7 +37665,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003552",
+      "id": "003440",
       "emoji": "🇵🇸",
       "description": "flag: Palestinian Territories",
       "unicode": [
@@ -38818,7 +37675,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003553",
+      "id": "003441",
       "emoji": "🇵🇹",
       "description": "flag: Portugal",
       "unicode": [
@@ -38828,7 +37685,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003554",
+      "id": "003442",
       "emoji": "🇵🇼",
       "description": "flag: Palau",
       "unicode": [
@@ -38838,7 +37695,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003555",
+      "id": "003443",
       "emoji": "🇵🇾",
       "description": "flag: Paraguay",
       "unicode": [
@@ -38848,7 +37705,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003556",
+      "id": "003444",
       "emoji": "🇶🇦",
       "description": "flag: Qatar",
       "unicode": [
@@ -38858,7 +37715,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003557",
+      "id": "003445",
       "emoji": "🇷🇪",
       "description": "flag: Réunion",
       "unicode": [
@@ -38868,7 +37725,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003558",
+      "id": "003446",
       "emoji": "🇷🇴",
       "description": "flag: Romania",
       "unicode": [
@@ -38878,7 +37735,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003559",
+      "id": "003447",
       "emoji": "🇷🇸",
       "description": "flag: Serbia",
       "unicode": [
@@ -38888,7 +37745,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003560",
+      "id": "003448",
       "emoji": "🇷🇺",
       "description": "flag: Russia",
       "unicode": [
@@ -38898,7 +37755,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003561",
+      "id": "003449",
       "emoji": "🇷🇼",
       "description": "flag: Rwanda",
       "unicode": [
@@ -38908,7 +37765,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003562",
+      "id": "003450",
       "emoji": "🇸🇦",
       "description": "flag: Saudi Arabia",
       "unicode": [
@@ -38918,7 +37775,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003563",
+      "id": "003451",
       "emoji": "🇸🇧",
       "description": "flag: Solomon Islands",
       "unicode": [
@@ -38928,7 +37785,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003564",
+      "id": "003452",
       "emoji": "🇸🇨",
       "description": "flag: Seychelles",
       "unicode": [
@@ -38938,7 +37795,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003565",
+      "id": "003453",
       "emoji": "🇸🇩",
       "description": "flag: Sudan",
       "unicode": [
@@ -38948,7 +37805,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003566",
+      "id": "003454",
       "emoji": "🇸🇪",
       "description": "flag: Sweden",
       "unicode": [
@@ -38958,7 +37815,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003567",
+      "id": "003455",
       "emoji": "🇸🇬",
       "description": "flag: Singapore",
       "unicode": [
@@ -38968,7 +37825,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003568",
+      "id": "003456",
       "emoji": "🇸🇭",
       "description": "flag: St. Helena",
       "unicode": [
@@ -38978,7 +37835,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003569",
+      "id": "003457",
       "emoji": "🇸🇮",
       "description": "flag: Slovenia",
       "unicode": [
@@ -38988,7 +37845,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003570",
+      "id": "003458",
       "emoji": "🇸🇯",
       "description": "flag: Svalbard & Jan Mayen",
       "unicode": [
@@ -38998,7 +37855,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003571",
+      "id": "003459",
       "emoji": "🇸🇰",
       "description": "flag: Slovakia",
       "unicode": [
@@ -39008,7 +37865,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003572",
+      "id": "003460",
       "emoji": "🇸🇱",
       "description": "flag: Sierra Leone",
       "unicode": [
@@ -39018,7 +37875,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003573",
+      "id": "003461",
       "emoji": "🇸🇲",
       "description": "flag: San Marino",
       "unicode": [
@@ -39028,7 +37885,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003574",
+      "id": "003462",
       "emoji": "🇸🇳",
       "description": "flag: Senegal",
       "unicode": [
@@ -39038,7 +37895,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003575",
+      "id": "003463",
       "emoji": "🇸🇴",
       "description": "flag: Somalia",
       "unicode": [
@@ -39048,7 +37905,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003576",
+      "id": "003464",
       "emoji": "🇸🇷",
       "description": "flag: Suriname",
       "unicode": [
@@ -39058,7 +37915,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003577",
+      "id": "003465",
       "emoji": "🇸🇸",
       "description": "flag: South Sudan",
       "unicode": [
@@ -39068,7 +37925,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003578",
+      "id": "003466",
       "emoji": "🇸🇹",
       "description": "flag: São Tomé & Príncipe",
       "unicode": [
@@ -39078,7 +37935,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003579",
+      "id": "003467",
       "emoji": "🇸🇻",
       "description": "flag: El Salvador",
       "unicode": [
@@ -39088,7 +37945,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003580",
+      "id": "003468",
       "emoji": "🇸🇽",
       "description": "flag: Sint Maarten",
       "unicode": [
@@ -39098,7 +37955,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003581",
+      "id": "003469",
       "emoji": "🇸🇾",
       "description": "flag: Syria",
       "unicode": [
@@ -39108,7 +37965,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003582",
+      "id": "003470",
       "emoji": "🇸🇿",
       "description": "flag: Eswatini",
       "unicode": [
@@ -39118,7 +37975,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003583",
+      "id": "003471",
       "emoji": "🇹🇦",
       "description": "flag: Tristan da Cunha",
       "unicode": [
@@ -39128,7 +37985,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003584",
+      "id": "003472",
       "emoji": "🇹🇨",
       "description": "flag: Turks & Caicos Islands",
       "unicode": [
@@ -39138,7 +37995,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003585",
+      "id": "003473",
       "emoji": "🇹🇩",
       "description": "flag: Chad",
       "unicode": [
@@ -39148,7 +38005,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003586",
+      "id": "003474",
       "emoji": "🇹🇫",
       "description": "flag: French Southern Territories",
       "unicode": [
@@ -39158,7 +38015,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003587",
+      "id": "003475",
       "emoji": "🇹🇬",
       "description": "flag: Togo",
       "unicode": [
@@ -39168,7 +38025,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003588",
+      "id": "003476",
       "emoji": "🇹🇭",
       "description": "flag: Thailand",
       "unicode": [
@@ -39178,7 +38035,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003589",
+      "id": "003477",
       "emoji": "🇹🇯",
       "description": "flag: Tajikistan",
       "unicode": [
@@ -39188,7 +38045,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003590",
+      "id": "003478",
       "emoji": "🇹🇰",
       "description": "flag: Tokelau",
       "unicode": [
@@ -39198,7 +38055,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003591",
+      "id": "003479",
       "emoji": "🇹🇱",
       "description": "flag: Timor-Leste",
       "unicode": [
@@ -39208,7 +38065,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003592",
+      "id": "003480",
       "emoji": "🇹🇲",
       "description": "flag: Turkmenistan",
       "unicode": [
@@ -39218,7 +38075,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003593",
+      "id": "003481",
       "emoji": "🇹🇳",
       "description": "flag: Tunisia",
       "unicode": [
@@ -39228,7 +38085,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003594",
+      "id": "003482",
       "emoji": "🇹🇴",
       "description": "flag: Tonga",
       "unicode": [
@@ -39238,7 +38095,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003595",
+      "id": "003483",
       "emoji": "🇹🇷",
       "description": "flag: Turkey",
       "unicode": [
@@ -39248,7 +38105,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003596",
+      "id": "003484",
       "emoji": "🇹🇹",
       "description": "flag: Trinidad & Tobago",
       "unicode": [
@@ -39258,7 +38115,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003597",
+      "id": "003485",
       "emoji": "🇹🇻",
       "description": "flag: Tuvalu",
       "unicode": [
@@ -39268,7 +38125,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003598",
+      "id": "003486",
       "emoji": "🇹🇼",
       "description": "flag: Taiwan",
       "unicode": [
@@ -39278,7 +38135,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003599",
+      "id": "003487",
       "emoji": "🇹🇿",
       "description": "flag: Tanzania",
       "unicode": [
@@ -39288,7 +38145,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003600",
+      "id": "003488",
       "emoji": "🇺🇦",
       "description": "flag: Ukraine",
       "unicode": [
@@ -39298,7 +38155,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003601",
+      "id": "003489",
       "emoji": "🇺🇬",
       "description": "flag: Uganda",
       "unicode": [
@@ -39308,7 +38165,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003602",
+      "id": "003490",
       "emoji": "🇺🇲",
       "description": "flag: U.S. Outlying Islands",
       "unicode": [
@@ -39318,7 +38175,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003603",
+      "id": "003491",
       "emoji": "🇺🇳",
       "description": "flag: United Nations",
       "unicode": [
@@ -39328,7 +38185,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E4.0"
     },
     {
-      "id": "003604",
+      "id": "003492",
       "emoji": "🇺🇸",
       "description": "flag: United States",
       "unicode": [
@@ -39338,7 +38195,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E0.6"
     },
     {
-      "id": "003605",
+      "id": "003493",
       "emoji": "🇺🇾",
       "description": "flag: Uruguay",
       "unicode": [
@@ -39348,7 +38205,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003606",
+      "id": "003494",
       "emoji": "🇺🇿",
       "description": "flag: Uzbekistan",
       "unicode": [
@@ -39358,7 +38215,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003607",
+      "id": "003495",
       "emoji": "🇻🇦",
       "description": "flag: Vatican City",
       "unicode": [
@@ -39368,7 +38225,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003608",
+      "id": "003496",
       "emoji": "🇻🇨",
       "description": "flag: St. Vincent & Grenadines",
       "unicode": [
@@ -39378,7 +38235,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003609",
+      "id": "003497",
       "emoji": "🇻🇪",
       "description": "flag: Venezuela",
       "unicode": [
@@ -39388,7 +38245,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003610",
+      "id": "003498",
       "emoji": "🇻🇬",
       "description": "flag: British Virgin Islands",
       "unicode": [
@@ -39398,7 +38255,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003611",
+      "id": "003499",
       "emoji": "🇻🇮",
       "description": "flag: U.S. Virgin Islands",
       "unicode": [
@@ -39408,7 +38265,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003612",
+      "id": "003500",
       "emoji": "🇻🇳",
       "description": "flag: Vietnam",
       "unicode": [
@@ -39418,7 +38275,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003613",
+      "id": "003501",
       "emoji": "🇻🇺",
       "description": "flag: Vanuatu",
       "unicode": [
@@ -39428,7 +38285,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003614",
+      "id": "003502",
       "emoji": "🇼🇫",
       "description": "flag: Wallis & Futuna",
       "unicode": [
@@ -39438,7 +38295,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003615",
+      "id": "003503",
       "emoji": "🇼🇸",
       "description": "flag: Samoa",
       "unicode": [
@@ -39448,7 +38305,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003616",
+      "id": "003504",
       "emoji": "🇽🇰",
       "description": "flag: Kosovo",
       "unicode": [
@@ -39458,7 +38315,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003617",
+      "id": "003505",
       "emoji": "🇾🇪",
       "description": "flag: Yemen",
       "unicode": [
@@ -39468,7 +38325,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003618",
+      "id": "003506",
       "emoji": "🇾🇹",
       "description": "flag: Mayotte",
       "unicode": [
@@ -39478,7 +38335,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003619",
+      "id": "003507",
       "emoji": "🇿🇦",
       "description": "flag: South Africa",
       "unicode": [
@@ -39488,7 +38345,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003620",
+      "id": "003508",
       "emoji": "🇿🇲",
       "description": "flag: Zambia",
       "unicode": [
@@ -39498,7 +38355,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003621",
+      "id": "003509",
       "emoji": "🇿🇼",
       "description": "flag: Zimbabwe",
       "unicode": [
@@ -39508,7 +38365,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E2.0"
     },
     {
-      "id": "003622",
+      "id": "003510",
       "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "description": "flag: England",
       "unicode": [
@@ -39523,7 +38380,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "003623",
+      "id": "003511",
       "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "description": "flag: Scotland",
       "unicode": [
@@ -39538,7 +38395,7 @@ const uniqueEmojisIDs = {
       "versionIntroduced": "E5.0"
     },
     {
-      "id": "003624",
+      "id": "003512",
       "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
       "description": "flag: Wales",
       "unicode": [
@@ -39551,6 +38408,1167 @@ const uniqueEmojisIDs = {
         "E007F"
       ],
       "versionIntroduced": "E5.0"
+    },
+    {
+      "id": "003513",
+      "emoji": "🫠",
+      "description": "melting face",
+      "unicode": [
+        "1FAE0"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003514",
+      "emoji": "🤗",
+      "description": "smiling face with open hands",
+      "unicode": [
+        "1F917"
+      ],
+      "versionIntroduced": "E1.0"
+    },
+    {
+      "id": "003515",
+      "emoji": "🫢",
+      "description": "face with open eyes and hand over mouth",
+      "unicode": [
+        "1FAE2"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003516",
+      "emoji": "🫣",
+      "description": "face with peeking eye",
+      "unicode": [
+        "1FAE3"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003517",
+      "emoji": "🫡",
+      "description": "saluting face",
+      "unicode": [
+        "1FAE1"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003518",
+      "emoji": "🫥",
+      "description": "dotted line face",
+      "unicode": [
+        "1FAE5"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003519",
+      "emoji": "😵",
+      "description": "face with crossed-out eyes",
+      "unicode": [
+        "1F635"
+      ],
+      "versionIntroduced": "E0.6"
+    },
+    {
+      "id": "003520",
+      "emoji": "🫤",
+      "description": "face with diagonal mouth",
+      "unicode": [
+        "1FAE4"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003521",
+      "emoji": "🥹",
+      "description": "face holding back tears",
+      "unicode": [
+        "1F979"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003522",
+      "emoji": "🫱",
+      "description": "rightwards hand",
+      "unicode": [
+        "1FAF1"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003523",
+      "emoji": "🫱🏻",
+      "description": "rightwards hand: light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003524",
+      "emoji": "🫱🏼",
+      "description": "rightwards hand: medium-light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003525",
+      "emoji": "🫱🏽",
+      "description": "rightwards hand: medium skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003526",
+      "emoji": "🫱🏾",
+      "description": "rightwards hand: medium-dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003527",
+      "emoji": "🫱🏿",
+      "description": "rightwards hand: dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003528",
+      "emoji": "🫲",
+      "description": "leftwards hand",
+      "unicode": [
+        "1FAF2"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003529",
+      "emoji": "🫲🏻",
+      "description": "leftwards hand: light skin tone",
+      "unicode": [
+        "1FAF2",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003530",
+      "emoji": "🫲🏼",
+      "description": "leftwards hand: medium-light skin tone",
+      "unicode": [
+        "1FAF2",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003531",
+      "emoji": "🫲🏽",
+      "description": "leftwards hand: medium skin tone",
+      "unicode": [
+        "1FAF2",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003532",
+      "emoji": "🫲🏾",
+      "description": "leftwards hand: medium-dark skin tone",
+      "unicode": [
+        "1FAF2",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003533",
+      "emoji": "🫲🏿",
+      "description": "leftwards hand: dark skin tone",
+      "unicode": [
+        "1FAF2",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003534",
+      "emoji": "🫳",
+      "description": "palm down hand",
+      "unicode": [
+        "1FAF3"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003535",
+      "emoji": "🫳🏻",
+      "description": "palm down hand: light skin tone",
+      "unicode": [
+        "1FAF3",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003536",
+      "emoji": "🫳🏼",
+      "description": "palm down hand: medium-light skin tone",
+      "unicode": [
+        "1FAF3",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003537",
+      "emoji": "🫳🏽",
+      "description": "palm down hand: medium skin tone",
+      "unicode": [
+        "1FAF3",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003538",
+      "emoji": "🫳🏾",
+      "description": "palm down hand: medium-dark skin tone",
+      "unicode": [
+        "1FAF3",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003539",
+      "emoji": "🫳🏿",
+      "description": "palm down hand: dark skin tone",
+      "unicode": [
+        "1FAF3",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003540",
+      "emoji": "🫴",
+      "description": "palm up hand",
+      "unicode": [
+        "1FAF4"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003541",
+      "emoji": "🫴🏻",
+      "description": "palm up hand: light skin tone",
+      "unicode": [
+        "1FAF4",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003542",
+      "emoji": "🫴🏼",
+      "description": "palm up hand: medium-light skin tone",
+      "unicode": [
+        "1FAF4",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003543",
+      "emoji": "🫴🏽",
+      "description": "palm up hand: medium skin tone",
+      "unicode": [
+        "1FAF4",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003544",
+      "emoji": "🫴🏾",
+      "description": "palm up hand: medium-dark skin tone",
+      "unicode": [
+        "1FAF4",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003545",
+      "emoji": "🫴🏿",
+      "description": "palm up hand: dark skin tone",
+      "unicode": [
+        "1FAF4",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003546",
+      "emoji": "🫰",
+      "description": "hand with index finger and thumb crossed",
+      "unicode": [
+        "1FAF0"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003547",
+      "emoji": "🫰🏻",
+      "description": "hand with index finger and thumb crossed: light skin tone",
+      "unicode": [
+        "1FAF0",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003548",
+      "emoji": "🫰🏼",
+      "description": "hand with index finger and thumb crossed: medium-light skin tone",
+      "unicode": [
+        "1FAF0",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003549",
+      "emoji": "🫰🏽",
+      "description": "hand with index finger and thumb crossed: medium skin tone",
+      "unicode": [
+        "1FAF0",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003550",
+      "emoji": "🫰🏾",
+      "description": "hand with index finger and thumb crossed: medium-dark skin tone",
+      "unicode": [
+        "1FAF0",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003551",
+      "emoji": "🫰🏿",
+      "description": "hand with index finger and thumb crossed: dark skin tone",
+      "unicode": [
+        "1FAF0",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003552",
+      "emoji": "🫵",
+      "description": "index pointing at the viewer",
+      "unicode": [
+        "1FAF5"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003553",
+      "emoji": "🫵🏻",
+      "description": "index pointing at the viewer: light skin tone",
+      "unicode": [
+        "1FAF5",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003554",
+      "emoji": "🫵🏼",
+      "description": "index pointing at the viewer: medium-light skin tone",
+      "unicode": [
+        "1FAF5",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003555",
+      "emoji": "🫵🏽",
+      "description": "index pointing at the viewer: medium skin tone",
+      "unicode": [
+        "1FAF5",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003556",
+      "emoji": "🫵🏾",
+      "description": "index pointing at the viewer: medium-dark skin tone",
+      "unicode": [
+        "1FAF5",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003557",
+      "emoji": "🫵🏿",
+      "description": "index pointing at the viewer: dark skin tone",
+      "unicode": [
+        "1FAF5",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003558",
+      "emoji": "🫶",
+      "description": "heart hands",
+      "unicode": [
+        "1FAF6"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003559",
+      "emoji": "🫶🏻",
+      "description": "heart hands: light skin tone",
+      "unicode": [
+        "1FAF6",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003560",
+      "emoji": "🫶🏼",
+      "description": "heart hands: medium-light skin tone",
+      "unicode": [
+        "1FAF6",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003561",
+      "emoji": "🫶🏽",
+      "description": "heart hands: medium skin tone",
+      "unicode": [
+        "1FAF6",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003562",
+      "emoji": "🫶🏾",
+      "description": "heart hands: medium-dark skin tone",
+      "unicode": [
+        "1FAF6",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003563",
+      "emoji": "🫶🏿",
+      "description": "heart hands: dark skin tone",
+      "unicode": [
+        "1FAF6",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003564",
+      "emoji": "🤝🏻",
+      "description": "handshake: light skin tone",
+      "unicode": [
+        "1F91D",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "003565",
+      "emoji": "🤝🏼",
+      "description": "handshake: medium-light skin tone",
+      "unicode": [
+        "1F91D",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "003566",
+      "emoji": "🤝🏽",
+      "description": "handshake: medium skin tone",
+      "unicode": [
+        "1F91D",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "003567",
+      "emoji": "🤝🏾",
+      "description": "handshake: medium-dark skin tone",
+      "unicode": [
+        "1F91D",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "003568",
+      "emoji": "🤝🏿",
+      "description": "handshake: dark skin tone",
+      "unicode": [
+        "1F91D",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E3.0"
+    },
+    {
+      "id": "003569",
+      "emoji": "🫱🏻‍🫲🏼",
+      "description": "handshake: light skin tone, medium-light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FB",
+        "200D",
+        "1FAF2",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003570",
+      "emoji": "🫱🏻‍🫲🏽",
+      "description": "handshake: light skin tone, medium skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FB",
+        "200D",
+        "1FAF2",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003571",
+      "emoji": "🫱🏻‍🫲🏾",
+      "description": "handshake: light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FB",
+        "200D",
+        "1FAF2",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003572",
+      "emoji": "🫱🏻‍🫲🏿",
+      "description": "handshake: light skin tone, dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FB",
+        "200D",
+        "1FAF2",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003573",
+      "emoji": "🫱🏼‍🫲🏻",
+      "description": "handshake: medium-light skin tone, light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FC",
+        "200D",
+        "1FAF2",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003574",
+      "emoji": "🫱🏼‍🫲🏽",
+      "description": "handshake: medium-light skin tone, medium skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FC",
+        "200D",
+        "1FAF2",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003575",
+      "emoji": "🫱🏼‍🫲🏾",
+      "description": "handshake: medium-light skin tone, medium-dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FC",
+        "200D",
+        "1FAF2",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003576",
+      "emoji": "🫱🏼‍🫲🏿",
+      "description": "handshake: medium-light skin tone, dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FC",
+        "200D",
+        "1FAF2",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003577",
+      "emoji": "🫱🏽‍🫲🏻",
+      "description": "handshake: medium skin tone, light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FD",
+        "200D",
+        "1FAF2",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003578",
+      "emoji": "🫱🏽‍🫲🏼",
+      "description": "handshake: medium skin tone, medium-light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FD",
+        "200D",
+        "1FAF2",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003579",
+      "emoji": "🫱🏽‍🫲🏾",
+      "description": "handshake: medium skin tone, medium-dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FD",
+        "200D",
+        "1FAF2",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003580",
+      "emoji": "🫱🏽‍🫲🏿",
+      "description": "handshake: medium skin tone, dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FD",
+        "200D",
+        "1FAF2",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003581",
+      "emoji": "🫱🏾‍🫲🏻",
+      "description": "handshake: medium-dark skin tone, light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FE",
+        "200D",
+        "1FAF2",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003582",
+      "emoji": "🫱🏾‍🫲🏼",
+      "description": "handshake: medium-dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FE",
+        "200D",
+        "1FAF2",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003583",
+      "emoji": "🫱🏾‍🫲🏽",
+      "description": "handshake: medium-dark skin tone, medium skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FE",
+        "200D",
+        "1FAF2",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003584",
+      "emoji": "🫱🏾‍🫲🏿",
+      "description": "handshake: medium-dark skin tone, dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FE",
+        "200D",
+        "1FAF2",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003585",
+      "emoji": "🫱🏿‍🫲🏻",
+      "description": "handshake: dark skin tone, light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FF",
+        "200D",
+        "1FAF2",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003586",
+      "emoji": "🫱🏿‍🫲🏼",
+      "description": "handshake: dark skin tone, medium-light skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FF",
+        "200D",
+        "1FAF2",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003587",
+      "emoji": "🫱🏿‍🫲🏽",
+      "description": "handshake: dark skin tone, medium skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FF",
+        "200D",
+        "1FAF2",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003588",
+      "emoji": "🫱🏿‍🫲🏾",
+      "description": "handshake: dark skin tone, medium-dark skin tone",
+      "unicode": [
+        "1FAF1",
+        "1F3FF",
+        "200D",
+        "1FAF2",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003589",
+      "emoji": "🫦",
+      "description": "biting lip",
+      "unicode": [
+        "1FAE6"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003590",
+      "emoji": "🫅",
+      "description": "person with crown",
+      "unicode": [
+        "1FAC5"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003591",
+      "emoji": "🫅🏻",
+      "description": "person with crown: light skin tone",
+      "unicode": [
+        "1FAC5",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003592",
+      "emoji": "🫅🏼",
+      "description": "person with crown: medium-light skin tone",
+      "unicode": [
+        "1FAC5",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003593",
+      "emoji": "🫅🏽",
+      "description": "person with crown: medium skin tone",
+      "unicode": [
+        "1FAC5",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003594",
+      "emoji": "🫅🏾",
+      "description": "person with crown: medium-dark skin tone",
+      "unicode": [
+        "1FAC5",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003595",
+      "emoji": "🫅🏿",
+      "description": "person with crown: dark skin tone",
+      "unicode": [
+        "1FAC5",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003596",
+      "emoji": "🫃",
+      "description": "pregnant man",
+      "unicode": [
+        "1FAC3"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003597",
+      "emoji": "🫃🏻",
+      "description": "pregnant man: light skin tone",
+      "unicode": [
+        "1FAC3",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003598",
+      "emoji": "🫃🏼",
+      "description": "pregnant man: medium-light skin tone",
+      "unicode": [
+        "1FAC3",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003599",
+      "emoji": "🫃🏽",
+      "description": "pregnant man: medium skin tone",
+      "unicode": [
+        "1FAC3",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003600",
+      "emoji": "🫃🏾",
+      "description": "pregnant man: medium-dark skin tone",
+      "unicode": [
+        "1FAC3",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003601",
+      "emoji": "🫃🏿",
+      "description": "pregnant man: dark skin tone",
+      "unicode": [
+        "1FAC3",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003602",
+      "emoji": "🫄",
+      "description": "pregnant person",
+      "unicode": [
+        "1FAC4"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003603",
+      "emoji": "🫄🏻",
+      "description": "pregnant person: light skin tone",
+      "unicode": [
+        "1FAC4",
+        "1F3FB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003604",
+      "emoji": "🫄🏼",
+      "description": "pregnant person: medium-light skin tone",
+      "unicode": [
+        "1FAC4",
+        "1F3FC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003605",
+      "emoji": "🫄🏽",
+      "description": "pregnant person: medium skin tone",
+      "unicode": [
+        "1FAC4",
+        "1F3FD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003606",
+      "emoji": "🫄🏾",
+      "description": "pregnant person: medium-dark skin tone",
+      "unicode": [
+        "1FAC4",
+        "1F3FE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003607",
+      "emoji": "🫄🏿",
+      "description": "pregnant person: dark skin tone",
+      "unicode": [
+        "1FAC4",
+        "1F3FF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003608",
+      "emoji": "🧌",
+      "description": "troll",
+      "unicode": [
+        "1F9CC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003609",
+      "emoji": "🪸",
+      "description": "coral",
+      "unicode": [
+        "1FAB8"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003610",
+      "emoji": "🪷",
+      "description": "lotus",
+      "unicode": [
+        "1FAB7"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003611",
+      "emoji": "🪹",
+      "description": "empty nest",
+      "unicode": [
+        "1FAB9"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003612",
+      "emoji": "🪺",
+      "description": "nest with eggs",
+      "unicode": [
+        "1FABA"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003613",
+      "emoji": "🫘",
+      "description": "beans",
+      "unicode": [
+        "1FAD8"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003614",
+      "emoji": "🫗",
+      "description": "pouring liquid",
+      "unicode": [
+        "1FAD7"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003615",
+      "emoji": "🫙",
+      "description": "jar",
+      "unicode": [
+        "1FAD9"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003616",
+      "emoji": "🛝",
+      "description": "playground slide",
+      "unicode": [
+        "1F6DD"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003617",
+      "emoji": "🛞",
+      "description": "wheel",
+      "unicode": [
+        "1F6DE"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003618",
+      "emoji": "🛟",
+      "description": "ring buoy",
+      "unicode": [
+        "1F6DF"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003619",
+      "emoji": "🪬",
+      "description": "hamsa",
+      "unicode": [
+        "1FAAC"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003620",
+      "emoji": "🪩",
+      "description": "mirror ball",
+      "unicode": [
+        "1FAA9"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003621",
+      "emoji": "🪫",
+      "description": "low battery",
+      "unicode": [
+        "1FAAB"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003622",
+      "emoji": "🩼",
+      "description": "crutch",
+      "unicode": [
+        "1FA7C"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003623",
+      "emoji": "🩻",
+      "description": "x-ray",
+      "unicode": [
+        "1FA7B"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003624",
+      "emoji": "🫧",
+      "description": "bubbles",
+      "unicode": [
+        "1FAE7"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003625",
+      "emoji": "🪪",
+      "description": "identification card",
+      "unicode": [
+        "1FAAA"
+      ],
+      "versionIntroduced": "E14.0"
+    },
+    {
+      "id": "003626",
+      "emoji": "🟰",
+      "description": "heavy equals sign",
+      "unicode": [
+        "1F7F0"
+      ],
+      "versionIntroduced": "E14.0"
     }
   ]
 }

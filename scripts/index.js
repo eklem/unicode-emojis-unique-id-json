@@ -38,6 +38,7 @@ const checkIfEmojiLine = function(line) {
 const getUnicodeEmojiVersion = function(line7) {
   // find version of Unicode Emoji set
   const currentVersion = extract(line7, { regex: regexCurrentVersion })
+  console.log('current version: ' + currentVersion)
   return currentVersion
 }
 
@@ -88,7 +89,7 @@ const readFile = function (file) {
     console.log('File doesn\'t exist\nYou need to create one with at least one emoji object in an array')
     // File starter:
     // {
-    //   "unicode-emojis-version": "15.0",
+    //   "unicodeEmojisVersion": "13.0",
     //   "emojis": [
     //     {
     //       "id": "00001",
@@ -112,14 +113,17 @@ const readFile = function (file) {
 
 const addNewObjects = function (readJSON, fetchedJSON, unicodeVersion) {
   unicodeVersion = unicodeVersion[0]
-  console.log('readJSON version: ' + readJSON.version + ' ' + typeof readJSON.version)
-  console.log('unicode version: ' + JSON.stringify(unicodeVersion) + ' ' + typeof unicodeVersion)
-  if (readJSON.version === unicodeVersion) {
+  console.log(readJSON.unicodeEmojisVersion)
+  console.log('readJSON version: ' + readJSON.unicodeEmojisVersion + ' ' + typeof readJSON.unicodeEmojisVersion)
+  console.log('New unicode version: ' + JSON.stringify(unicodeVersion) + ' ' + typeof unicodeVersion)
+  if (readJSON.unicodeEmojisVersion === unicodeVersion) {
     console.log('Local file up to date with Unicode Emojis version: ' + unicodeVersion)
-    console.log('Function will fail now. Bug, but okay, so won\'t fix for now')
+    return false
   } else {
     console.log('local file needs to be updated with lates Unicode Emojis')
     console.log('existing array length: ' + readJSON.emojis.length)
+
+    readJSON.unicodeEmojisVersion = unicodeVersion
 
     // Loop through new array and add ID
     for (const obj of fetchedJSON) {
@@ -162,10 +166,12 @@ const unicodeVersion = getUnicodeEmojiVersion(emojiText[7])
 const unicodeJSON = createEmojiArray(emojiText)
 // Writing JSON
 let newFile = addNewObjects(fileJSON, unicodeJSON, unicodeVersion)
-writeFileSync(file, JSON.stringify(newFile, null, 2), 'utf8')
-// Writing JS
-const JSONjs = uniqueEmojisIDs(newFile)
-writeFileSync(fileJS, JSONjs, 'utf8')
-// Writing JS codebook
-const codebook = uniqueEmojisIDsStripped(newFile)
-writeFileSync(fileJSmin, codebook, 'utf8')
+if (newFile !== false) {
+  writeFileSync(file, JSON.stringify(newFile, null, 2), 'utf8')
+  // Writing JS
+  const JSONjs = uniqueEmojisIDs(newFile)
+  writeFileSync(fileJS, JSONjs, 'utf8')
+  // Writing JS codebook
+  const codebook = uniqueEmojisIDsStripped(newFile)
+  writeFileSync(fileJSmin, codebook, 'utf8')
+}

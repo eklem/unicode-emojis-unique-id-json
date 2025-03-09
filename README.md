@@ -37,6 +37,7 @@ will be:
 
 Start from Unicode Emojis v14.0, then run the script on all versions after. That will so far be:
 
+* 13.1
 * 14.0 <- We have gotten this far
 * 15.0
 * 15.1

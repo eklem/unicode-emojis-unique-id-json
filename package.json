@@ -1,7 +1,7 @@
 {
   "name": "unicode-emojis-unique-id-json",
   "version": "0.0.5",
-  "description": "JSON-version of fully qualified emojis in https://unicode.org/Public/emoji/15.1/emoji-test.txt with unique digit only IDs. The IDs should be unique over time, also when new versions of unicode emojis are released.",
+  "description": "JSON-version of fully qualified emojis in https://unicode.org/Public/emoji/14.1/emoji-test.txt with unique digit only IDs. The IDs should be unique over time, also when new versions of unicode emojis are released.",
   "main": "./dist/unicode-emojis-unique-id.json",
   "module": "./dist/unicode-emojis-unique-id.min.js",
   "type": "module",

@@ -51,8 +51,8 @@ Version 15 won't happen before I get regex to work for the [two-character emojis
 * [x] regex for extracting content from text-file.
 * [x] read old JSON, fetch new emojis, convert to JSON and add what's not in the old JSON with unique IDs
 * [x] write to JSON
-* [ ] show which unicode emoji versions are met with this library
-* [ ] tests to check that all IDs for previous versions of this library are corresponding to new version of library. Do this by having a previous version directory
+* [x] show which unicode emoji versions are met with this library
+* [x] tests to check that some IDs for previous versions of this library are corresponding to new version of library. Do this by having a previous version directory
 
 
 ## Tests

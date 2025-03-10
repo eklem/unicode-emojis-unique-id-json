@@ -4,7 +4,7 @@ import arr from '../dist/unicode-emojis-unique-id.json' with { type: 'json' }
 const emojisArr = arr.emojis
 
 const e06 = {
-  "id": "00001",
+  "id": "000001",
   "emoji": "😃",
   "description": "grinning face with big eyes",
   "unicode": [

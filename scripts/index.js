@@ -92,7 +92,7 @@ const readFile = function (file) {
     //   "unicodeEmojisVersion": "13.0",
     //   "emojis": [
     //     {
-    //       "id": "00001",
+    //       "id": "000001",
     //       "emoji": "😃",
     //       "description": "grinning face with big eyes",
     //       "unicode": ["U+1F603"],

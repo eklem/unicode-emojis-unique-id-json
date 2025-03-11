@@ -20,17 +20,18 @@ Text-line from https://unicode.org/Public/emoji/15.1/emoji-test.txt
 will be:
 
 ```Json
-[
- {
-    "id": "000001",
-    "emoji": "😃",
-    "description": "grinning face with big eyes",
-    "unicode": [
-      "U+1F603"
-    ],
-    "versionIntroduced": "0.6"
-  }
-]
+{
+  "unicodeEmojisVersion": "13.0",
+  "emojis": [
+    {
+      "id": "000001",
+      "emoji": "😃",
+      "description": "grinning face with big eyes",
+      "unicode": ["U+1F603"],
+      "versionIntroduced": "0.6"
+    }
+  ]
+}
 ```
 
 ## To get back to the same IDs if something goes wrong

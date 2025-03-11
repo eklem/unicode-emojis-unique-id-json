@@ -152,7 +152,7 @@ const uniqueEmojisIDs = function (newFile) {
 // H: Created stripped version of emojis array
 const uniqueEmojisIDsStripped = function (newFile) {
   let codebookJSON = newFile.emojis.map(
-    ({ id, emoji }) => ({ id, emoji })
+    ({ id, emoji }) => ({ plaincode: id, unicode: emoji })
   )
   const js = 'const codebook = ' + JSON.stringify(codebookJSON, null, 2) + '\nexport { codebook }\n'
   return js
